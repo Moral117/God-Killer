@@ -1,0 +1,238 @@
+﻿Log file open, 04/25/15 14:34:08
+LogInit:Display: Running engine for game: GodKiller
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: E:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.04.25-21.34.08:991][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.04.25-21.34.09:058][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.04.25-21.34.09:090][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.04.25-21.34.09:101][  0]LogInit: Object subsystem initialized
+[2015.04.25-21.34.09:103][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.04.25-21.34.09:103][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/Documents/GitHub/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.25-21.34.09:103][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.04.25-21.34.09:103][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/Documents/GitHub/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.25-21.34.09:103][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.04.25-21.34.09:103][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/Documents/GitHub/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.25-21.34.09:103][  0]LogInit: Selected Device Profile: [Windows]
+[2015.04.25-21.34.09:103][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.04.25-21.34.09:112][  0]LogInit: Computer: JOSEPH-PC
+[2015.04.25-21.34.09:112][  0]LogInit: User: Joseph
+[2015.04.25-21.34.09:112][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.04.25-21.34.09:113][  0]LogInit: High frequency timer resolution =3.919472 MHz
+[2015.04.25-21.34.09:113][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=8192.0GB
+[2015.04.25-21.34.09:113][  0]LogMemory: Platform Memory Stats for Windows
+[2015.04.25-21.34.09:113][  0]LogMemory: Process Physical Memory: 52.83 MB used, 52.83 MB peak
+[2015.04.25-21.34.09:113][  0]LogMemory: Process Virtual Memory: 31.90 MB used, 31.90 MB peak
+[2015.04.25-21.34.09:113][  0]LogMemory: Physical Memory: 6918.16 MB used, 16280.89 MB total
+[2015.04.25-21.34.09:113][  0]LogMemory: Virtual Memory: 288.85 MB used, 8388608.00 MB total
+[2015.04.25-21.34.09:194][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon R9 200 Series (Feature Level 11_0)
+[2015.04.25-21.34.09:194][  0]LogD3D11RHI: Adapter has 4073MB of dedicated video memory, 0MB of dedicated system memory, and 3840MB of shared system memory, 1 output[s]
+[2015.04.25-21.34.09:194][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.04.25-21.34.09:203][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.04.25-21.34.09:226][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.04.25-21.34.09:363][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.04.25-21.34.09:429][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (E:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (E:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.04.25-21.34.09:429][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (E:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (E:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.04.25-21.34.09:515][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.04.25-21.34.12:811][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.25-21.34.14:227][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.25-21.34.14:352][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.04.25-21.34.14:434][  0]LogDerivedDataCache: Loaded boot cache 0.08s 39MB C:/Users/Joseph/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.25-21.34.14:434][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Joseph/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.04.25-21.34.14:435][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Documents/GitHub/God-Killer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.04.25-21.34.14:435][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.04.25-21.34.14:548][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.04.25-21.34.14:560][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Joseph/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.04.25-21.34.15:015][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.04.25-21.34.15:015][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.04.25-21.34.15:567][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.04.25-21.34.15:764][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.04.25-21.34.17:248][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.04.25-21.34.17:712][  0]SourceControl: Info Source control is disabled
+[2015.04.25-21.34.17:712][  0]SourceControl: Info Source control is disabled
+[2015.04.25-21.34.17:713][  0]SourceControl: Info Source control is disabled
+[2015.04.25-21.34.17:713][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.04.25-21.34.17:713][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.04.25-21.34.17:736][  0]SourceControl: Info Source control is disabled
+[2015.04.25-21.34.18:239][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.04.25-21.34.18:239][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.04.25-21.34.18:368][  0]LogEngine: Initializing Engine...
+[2015.04.25-21.34.21:573][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.04.25-21.34.21:594][  0]LogInit: FAudioDevice initialized.
+[2015.04.25-21.34.21:681][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.25-21.34.21:718][  0]LogDerivedDataCache: Saved boot cache 0.04s 39MB C:/Users/Joseph/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.25-21.34.21:726][  0]LogInit: Texture streaming: Enabled
+[2015.04.25-21.34.21:890][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.04.25-21.34.21:890][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.04.25-21.34.21:890][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.04.25-21.34.21:891][  0]LogAnalytics: SetUserId b9e16797403c47e8d8c7f7803aa9954f|fbedbf84e6654fb9830ed15a26abc575|2ed228c2-85a1-483a-b700-9447107bbaed
+[2015.04.25-21.34.21:891][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.04.25-21.34.21:960][  0]LogInit: Transaction tracking system initialized
+[2015.04.25-21.34.22:387][  0]BlueprintLog: New page: Editor Load
+[2015.04.25-21.34.22:458][  0]LogAssetRegistry: FAssetRegistry took 0.0095 seconds to start up
+[2015.04.25-21.34.22:459][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.04.25-21.34.23:955][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.25-21.34.24:925][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.25-21.34.25:532][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.04.25-21.34.25:533][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.04.25-21.34.25:539][  0]LogConsoleResponse:Display: 
+[2015.04.25-21.34.25:746][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.04.25-21.34.26:126][  0]SourceControl: Info Source control is disabled
+[2015.04.25-21.34.26:126][  0]Cmd: MAP LOAD FILE="../../../../../../Documents/GitHub/God-Killer/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.25-21.34.26:127][  0]LightingResults: New page: Lighting Build
+[2015.04.25-21.34.26:154][  0]MapCheck: New page: Map Check
+[2015.04.25-21.34.26:154][  0]LightingResults: New page: Lighting Build
+[2015.04.25-21.34.26:165][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000187B8680
+[2015.04.25-21.34.26:177][  0]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.25-21.34.28:787][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.25-21.34.29:972][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.04.25-21.34.29:973][  0]Cmd: MAP CHECKDEP
+[2015.04.25-21.34.29:973][  0]MapCheck: New page: ThirdPersonExampleMap - Apr 25, 2015, 7:34:29 AM
+[2015.04.25-21.34.30:165][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 191.56ms to complete.
+[2015.04.25-21.34.30:165][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 4.039
+[2015.04.25-21.34.30:345][  0]LogCollectionManager: Loaded 0 collections in 0.002228 seconds
+[2015.04.25-21.34.30:364][  0]LogContentBrowser: Native class hierarchy populated in 0.0180 seconds. Added 1696 classes and 261 folders.
+[2015.04.25-21.34.30:438][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0067 seconds. Added 1 classes and 2 folders.
+[2015.04.25-21.34.30:538][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.04.25-21.34.30:540][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.04.25-21.34.30:547][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.04.25-21.34.30:613][  0]LogLoad: Full Startup: 24.30 seconds (BP compile: 1.19 seconds)
+[2015.04.25-21.34.30:982][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scene'
+[2015.04.25-21.34.31:151][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.04.25-21.34.31:347][  0]LogRenderer:Warning: Reallocating scene render targets to support 1560x600 (Frame:4).
+[2015.04.25-21.34.32:471][  4]LogAssetRegistry: Asset discovery search completed in 10.0232 seconds
+[2015.04.25-21.36.05:256][284]Cmd: MAP LOAD FILE="../../../../../../Documents/GitHub/God-Killer/Content/Scene/NewCave.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.25-21.36.05:256][284]LightingResults: New page: Lighting Build
+[2015.04.25-21.36.05:318][284]LoadErrors: New page: Loading map: NewCave.umap
+[2015.04.25-21.36.05:320][284]MapCheck: New page: Map Check
+[2015.04.25-21.36.05:320][284]LightingResults: New page: Lighting Build
+[2015.04.25-21.36.05:333][284]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D4BA200
+[2015.04.25-21.36.05:478][284]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.25-21.36.05:499][284]LogAIModule: Creating AISystem for world NewCave
+[2015.04.25-21.36.05:527][284]Cmd: MAP CHECKDEP
+[2015.04.25-21.36.05:527][284]MapCheck: New page: NewCave - Apr 25, 2015, 7:36:05 AM
+[2015.04.25-21.36.05:744][284]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 216.648ms to complete.
+[2015.04.25-21.36.05:746][284]LogFileHelpers: Loading map 'NewCave' took 0.493
+[2015.04.25-21.36.06:863][400]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (newcave)
+[2015.04.25-21.36.07:164][428]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (newcave)
+[2015.04.25-21.36.07:922][503]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.25-21.36.07:922][503]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models'
+[2015.04.25-21.36.10:160][699]LogEditorFactories: Performing atomic reimport of [E:/../Documents/GodKillerExports/newcave.FBX]
+[2015.04.25-21.36.10:162][699]LogFbx:Error: Call to FbxImporter::Initialize() failed.
+[2015.04.25-21.36.10:162][699]LogFbx:Warning: Error returned: Unexpected file type
+[2015.04.25-21.36.10:162][699]LogEditorFactories:Warning: -- import failed
+[2015.04.25-21.36.15:237][187]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.25-21.36.15:237][187]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.25-21.36.15:250][187]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.25-21.36.15:250][187]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.25-21.36.15:252][187]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.25-21.36.15:252][187]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.25-21.36.15:314][187]LogRenderer:Warning: Reallocating scene render targets to support 1856x968 (Frame:937).
+[2015.04.25-21.36.29:745][769]LogEditorFactories: Performing atomic reimport of [E:/../Documents/GodKillerExports/newcave.FBX]
+[2015.04.25-21.36.29:747][769]LogFbx:Error: Call to FbxImporter::Initialize() failed.
+[2015.04.25-21.36.29:747][769]LogFbx:Warning: Error returned: Unexpected file type
+[2015.04.25-21.36.29:747][769]LogEditorFactories:Warning: -- import failed
+[2015.04.25-21.36.29:754][769]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.25-21.36.29:754][769]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.25-21.36.29:761][769]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.25-21.36.29:761][769]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.25-21.36.29:775][769]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.25-21.36.29:775][769]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.25-21.37.11:865][ 40]LogEditorFactories: Performing atomic reimport of [E:/../Documents/GodKillerExports/newcave.FBX]
+[2015.04.25-21.37.11:866][ 40]LogFbx:Error: Call to FbxImporter::Initialize() failed.
+[2015.04.25-21.37.11:866][ 40]LogFbx:Warning: Error returned: Unexpected file type
+[2015.04.25-21.37.11:866][ 40]LogEditorFactories:Warning: -- import failed
+[2015.04.25-21.37.11:873][ 40]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.25-21.37.11:873][ 40]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.25-21.37.11:880][ 40]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.25-21.37.11:880][ 40]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.25-21.37.11:894][ 40]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.25-21.37.11:894][ 40]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.25-21.37.33:020][571]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.25-21.37.33:020][571]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.25-21.37.33:032][571]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.25-21.37.33:032][571]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.25-21.37.33:034][571]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.25-21.37.33:034][571]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.25-21.37.50:112][439]LogEditorFactories: Performing atomic reimport of [E:/../Documents/GodKillerExports/newcave.FBX]
+[2015.04.25-21.37.50:113][439]LogFbx:Error: Call to FbxImporter::Initialize() failed.
+[2015.04.25-21.37.50:113][439]LogFbx:Warning: Error returned: Unexpected file type
+[2015.04.25-21.37.50:113][439]LogEditorFactories:Warning: -- import failed
+[2015.04.25-21.37.50:121][439]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.25-21.37.50:121][439]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.25-21.37.50:127][439]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.25-21.37.50:127][439]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.25-21.37.50:141][439]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.25-21.37.50:141][439]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.25-21.37.56:245][760]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/newcave" FILE="../../../../../../Documents/GitHub/God-Killer/Content/Models/newcave.uasset" SILENT=true
+[2015.04.25-21.37.56:475][760]LogSavePackage: Save=219.155029ms
+[2015.04.25-21.37.56:475][760]LogSavePackage: Moving '../../../../../../Documents/GitHub/God-Killer/Saved/newcaveF8D6EC8E411618D5F2AAD1B7FDD5741B.tmp' to '../../../../../../Documents/GitHub/God-Killer/Content/Models/newcave.uasset'
+[2015.04.25-21.38.41:953][316]LogEditorFactories: Performing atomic reimport of [E:/../Documents/GodKillerExports/newcave.FBX]
+[2015.04.25-21.38.41:954][316]LogFbx:Error: Call to FbxImporter::Initialize() failed.
+[2015.04.25-21.38.41:954][316]LogFbx:Warning: Error returned: Unexpected file type
+[2015.04.25-21.38.41:954][316]LogEditorFactories:Warning: -- import failed
+[2015.04.25-21.38.41:962][316]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.25-21.38.41:962][316]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.25-21.38.41:968][316]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.25-21.38.41:968][316]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.25-21.38.41:983][316]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.25-21.38.41:983][316]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.25-21.38.55:248][858]LogEditorFactories: Performing atomic reimport of [E:/../Documents/GodKillerExports/newcave002.FBX]
+[2015.04.25-21.38.55:250][858]LogFbx:Error: Call to FbxImporter::Initialize() failed.
+[2015.04.25-21.38.55:250][858]LogFbx:Warning: Error returned: Unexpected file type
+[2015.04.25-21.38.55:250][858]LogEditorFactories:Warning: -- import failed
+[2015.04.25-21.38.55:257][858]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.25-21.38.55:257][858]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.25-21.38.55:264][858]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.25-21.38.55:264][858]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.25-21.38.55:277][858]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.25-21.38.55:277][858]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.25-21.39.06:264][563]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/newcave" FILE="../../../../../../Documents/GitHub/God-Killer/Content/Models/newcave.uasset" SILENT=true
+[2015.04.25-21.39.06:497][563]LogSavePackage: Save=223.822998ms
+[2015.04.25-21.39.06:497][563]LogSavePackage: Moving '../../../../../../Documents/GitHub/God-Killer/Saved/newcave11FD44AF4D2A09E977A209AFA87F0552.tmp' to '../../../../../../Documents/GitHub/God-Killer/Content/Models/newcave.uasset'
+[2015.04.25-21.40.27:618][665]LogEditorFactories: Performing atomic reimport of [E:/../Documents/GodKillerExports/newcave002.FBX]
+[2015.04.25-21.40.27:619][665]LogFbx:Error: Call to FbxImporter::Initialize() failed.
+[2015.04.25-21.40.27:619][665]LogFbx:Warning: Error returned: Unexpected file type
+[2015.04.25-21.40.27:619][665]LogEditorFactories:Warning: -- import failed
+[2015.04.25-21.40.33:817][239]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000043A34B80
+[2015.04.25-21.40.33:817][239]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000018338400
+[2015.04.25-21.40.36:780][239]LogCrashTracker: 
+
+
+[2015.04.25-21.41.08:294][239]LogCrashTracker: 
+
+
+[2015.04.25-21.41.08:294][239]LogWindows: === Critical error: ===
+Fatal error!
+
+Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x00000000
+
+UE4Editor-AssetRegistry.dll!FAssetRegistry::RemoveAssetData() (0x000007feb893fdca) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\assetregistry\private\assetregistry.cpp:1837]
+UE4Editor-AssetRegistry.dll!FAssetRegistry::OnDirectoryChanged() (0x000007feb8939660) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\assetregistry\private\assetregistry.cpp:1940]
+UE4Editor-DirectoryWatcher.dll!FDirectoryWatchRequestWindows::ProcessPendingNotifications() (0x000007feba305e61) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\developer\directorywatcher\private\windows\directorywatchrequestwindows.cpp:171]
+UE4Editor-DirectoryWatcher.dll!FDirectoryWatcherWindows::Tick() (0x000007feba307549) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\developer\directorywatcher\private\windows\directorywatcherwindows.cpp:220]
+UE4Editor-UnrealEd.dll!UEditorEngine::Tick() (0x000007fec33cd7d9) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\unrealed\private\editor.cpp:1125]
+UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() (0x000007fec3888306) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\unrealed\private\unrealedengine.cpp:347]
+UE4Editor.exe!FEngineLoop::Tick() (0x000000013f130263) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\launchengineloop.cpp:2257]
+UE4Editor.exe!GuardedMain() (0x000000013f12267c) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\launch.cpp:142]
+UE4Editor.exe!GuardedMainWrapper() (0x000000013f1226ea) + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+UE4Editor.exe!WinMain() (0x000000013f132219) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\windows\launchwindows.cpp:202]
+UE4Editor.exe!__tmainCRTStartup() (0x000000013f133159) + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+kernel32.dll!UnknownFunction (0x00000000775359cd) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x000000007776b891) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x000000007776b891) + 0 bytes [UnknownFile:0]
+
+
+[2015.04.25-21.41.08:408][239]LogExit: Executing StaticShutdownAfterError
+[2015.04.25-21.41.08:411][239]LogWindows: FPlatformMisc::RequestExit(1)
+[2015.04.25-21.41.08:411][239]Log file closed, 04/25/15 14:41:08
