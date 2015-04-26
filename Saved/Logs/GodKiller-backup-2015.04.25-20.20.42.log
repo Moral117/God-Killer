@@ -1,0 +1,1083 @@
+﻿Log file open, 04/25/15 14:41:35
+LogInit:Display: Running engine for game: GodKiller
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: E:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.04.25-21.41.35:757][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.04.25-21.41.35:822][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.04.25-21.41.35:851][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.04.25-21.41.35:861][  0]LogInit: Object subsystem initialized
+[2015.04.25-21.41.35:863][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.04.25-21.41.35:863][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/Documents/GitHub/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.25-21.41.35:863][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.04.25-21.41.35:863][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/Documents/GitHub/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.25-21.41.35:863][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.04.25-21.41.35:863][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/Documents/GitHub/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.25-21.41.35:864][  0]LogInit: Selected Device Profile: [Windows]
+[2015.04.25-21.41.35:864][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.04.25-21.41.35:873][  0]LogInit: Computer: JOSEPH-PC
+[2015.04.25-21.41.35:873][  0]LogInit: User: Joseph
+[2015.04.25-21.41.35:873][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.04.25-21.41.35:873][  0]LogInit: High frequency timer resolution =3.919472 MHz
+[2015.04.25-21.41.35:873][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=8192.0GB
+[2015.04.25-21.41.35:873][  0]LogMemory: Platform Memory Stats for Windows
+[2015.04.25-21.41.35:873][  0]LogMemory: Process Physical Memory: 52.63 MB used, 52.63 MB peak
+[2015.04.25-21.41.35:873][  0]LogMemory: Process Virtual Memory: 28.03 MB used, 28.15 MB peak
+[2015.04.25-21.41.35:873][  0]LogMemory: Physical Memory: 6280.79 MB used, 16280.89 MB total
+[2015.04.25-21.41.35:873][  0]LogMemory: Virtual Memory: 284.85 MB used, 8388608.00 MB total
+[2015.04.25-21.41.35:957][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon R9 200 Series (Feature Level 11_0)
+[2015.04.25-21.41.35:957][  0]LogD3D11RHI: Adapter has 4073MB of dedicated video memory, 0MB of dedicated system memory, and 3840MB of shared system memory, 1 output[s]
+[2015.04.25-21.41.35:957][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.04.25-21.41.35:966][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.04.25-21.41.35:988][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.04.25-21.41.36:113][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.04.25-21.41.36:178][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (E:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (E:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.04.25-21.41.36:178][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (E:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (E:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.04.25-21.41.36:262][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.04.25-21.41.39:350][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.25-21.41.40:681][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.25-21.41.40:790][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.04.25-21.41.40:858][  0]LogDerivedDataCache: Loaded boot cache 0.07s 39MB C:/Users/Joseph/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.25-21.41.40:858][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Joseph/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.04.25-21.41.40:858][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Documents/GitHub/God-Killer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.04.25-21.41.40:858][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.04.25-21.41.40:973][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.04.25-21.41.40:985][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Joseph/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.04.25-21.41.41:586][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.04.25-21.41.41:586][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.04.25-21.41.42:105][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.04.25-21.41.42:279][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.04.25-21.41.43:535][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.04.25-21.41.43:936][  0]SourceControl: Info Source control is disabled
+[2015.04.25-21.41.43:936][  0]SourceControl: Info Source control is disabled
+[2015.04.25-21.41.43:936][  0]SourceControl: Info Source control is disabled
+[2015.04.25-21.41.43:936][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.04.25-21.41.43:937][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.04.25-21.41.43:957][  0]SourceControl: Info Source control is disabled
+[2015.04.25-21.41.44:427][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.04.25-21.41.44:427][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.04.25-21.41.44:556][  0]LogEngine: Initializing Engine...
+[2015.04.25-21.41.46:844][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.04.25-21.41.46:865][  0]LogInit: FAudioDevice initialized.
+[2015.04.25-21.41.46:940][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.25-21.41.46:974][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB C:/Users/Joseph/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.25-21.41.46:983][  0]LogInit: Texture streaming: Enabled
+[2015.04.25-21.41.47:134][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.04.25-21.41.47:134][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.04.25-21.41.47:134][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.04.25-21.41.47:135][  0]LogAnalytics: SetUserId b9e16797403c47e8d8c7f7803aa9954f|fbedbf84e6654fb9830ed15a26abc575|2ed228c2-85a1-483a-b700-9447107bbaed
+[2015.04.25-21.41.47:135][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.04.25-21.41.47:195][  0]LogInit: Transaction tracking system initialized
+[2015.04.25-21.41.47:570][  0]BlueprintLog: New page: Editor Load
+[2015.04.25-21.41.47:634][  0]LogAssetRegistry: FAssetRegistry took 0.0096 seconds to start up
+[2015.04.25-21.41.47:635][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.04.25-21.41.49:120][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.25-21.41.50:102][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.25-21.41.50:666][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.04.25-21.41.50:667][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.04.25-21.41.50:673][  0]LogConsoleResponse:Display: 
+[2015.04.25-21.41.50:901][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.04.25-21.41.51:254][  0]SourceControl: Info Source control is disabled
+[2015.04.25-21.41.51:254][  0]Cmd: MAP LOAD FILE="../../../../../../Documents/GitHub/God-Killer/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.25-21.41.51:255][  0]LightingResults: New page: Lighting Build
+[2015.04.25-21.41.51:280][  0]MapCheck: New page: Map Check
+[2015.04.25-21.41.51:280][  0]LightingResults: New page: Lighting Build
+[2015.04.25-21.41.51:291][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000016210680
+[2015.04.25-21.41.51:304][  0]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.25-21.41.54:029][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.25-21.41.55:217][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.04.25-21.41.55:218][  0]Cmd: MAP CHECKDEP
+[2015.04.25-21.41.55:218][  0]MapCheck: New page: ThirdPersonExampleMap - Apr 25, 2015, 7:41:55 AM
+[2015.04.25-21.41.55:409][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 190.624ms to complete.
+[2015.04.25-21.41.55:409][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 4.154
+[2015.04.25-21.41.55:593][  0]LogCollectionManager: Loaded 0 collections in 0.002313 seconds
+[2015.04.25-21.41.55:611][  0]LogContentBrowser: Native class hierarchy populated in 0.0180 seconds. Added 1696 classes and 261 folders.
+[2015.04.25-21.41.55:679][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0067 seconds. Added 1 classes and 2 folders.
+[2015.04.25-21.41.55:769][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.04.25-21.41.55:770][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.04.25-21.41.55:777][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.04.25-21.41.55:834][  0]LogLoad: Full Startup: 22.66 seconds (BP compile: 1.23 seconds)
+[2015.04.25-21.41.56:204][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scene'
+[2015.04.25-21.41.56:372][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.04.25-21.41.56:579][  0]LogRenderer:Warning: Reallocating scene render targets to support 1560x600 (Frame:4).
+[2015.04.25-21.41.57:707][  4]LogAssetRegistry: Asset discovery search completed in 10.0821 seconds
+[2015.04.25-21.42.07:496][245]LogLinker:Warning: Can't find file '/Game/Models/newcave'
+[2015.04.25-21.42.07:497][245]LogLinker:Warning: Can't find file for asset '/Game/Models/newcave' while loading ../../../../../../Documents/GitHub/God-Killer/Content/Scene/NewCave.umap.
+[2015.04.25-21.42.07:497][245]LoadErrors:Error: Error /Game/Scene/NewCave : Can't find file for asset. /Game/Models/newcave
+[2015.04.25-21.42.07:508][245]LogLinker:Warning: Can't find file '/Game/Models/newcave'
+[2015.04.25-21.42.07:508][245]LogLinker:Warning: Can't find file for asset '/Game/Models/newcave' while loading ../../../../../../Documents/GitHub/God-Killer/Content/Scene/NewCave.umap.
+[2015.04.25-21.42.07:563][245]LogLinker:Warning: Can't find file '/Game/Models/newcave'
+[2015.04.25-21.42.07:563][245]LoadErrors: Info Failed to load /Game/Models/newcave.newcave Referenced by newcave_4
+[2015.04.25-21.42.07:564][245]LogLinker:Warning: Can't find file for asset '/Game/Models/newcave' while loading NULL.
+[2015.04.25-21.42.07:658][245]Cmd: MAP LOAD FILE="../../../../../../Documents/GitHub/God-Killer/Content/Scene/NewCave.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.25-21.42.07:658][245]LightingResults: New page: Lighting Build
+[2015.04.25-21.42.07:720][245]LoadErrors: New page: Loading map: NewCave.umap
+[2015.04.25-21.42.07:722][245]MapCheck: New page: Map Check
+[2015.04.25-21.42.07:722][245]LightingResults: New page: Lighting Build
+[2015.04.25-21.42.07:735][245]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001655E200
+[2015.04.25-21.42.07:885][245]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.25-21.42.07:906][245]LogAIModule: Creating AISystem for world NewCave
+[2015.04.25-21.42.07:935][245]Cmd: MAP CHECKDEP
+[2015.04.25-21.42.07:935][245]MapCheck: New page: NewCave - Apr 25, 2015, 7:42:07 AM
+[2015.04.25-21.42.08:147][245]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 211.562ms to complete.
+[2015.04.25-21.42.08:149][245]LogFileHelpers: Loading map 'NewCave' took 0.493
+[2015.04.25-21.42.12:487][736]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models'
+[2015.04.25-21.42.16:861][973]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Documents/GodKillerExports/newcave002.FBX)
+[2015.04.25-21.42.16:866][973]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.04.25-21.42.16:866][973]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.04.25-21.42.16:866][973]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.04.25-21.42.16:866][973]LogFbx: ItemName: Model, ItemCount : 1
+[2015.04.25-21.42.16:866][973]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.04.25-21.42.16:866][973]LogFbx: ItemName: Material, ItemCount : 1
+[2015.04.25-21.42.16:866][973]LogFbx: ItemName: Texture, ItemCount : 1
+[2015.04.25-21.42.16:866][973]LogFbx: ItemName: CollectionExclusive, ItemCount : 1
+[2015.04.25-21.42.16:866][973]LogFbx: ItemName: Video, ItemCount : 1
+[2015.04.25-21.42.19:016][973]LogFbx: Loading FBX Scene from ../../../../../../Documents/GodKillerExports/newcave002.FBX
+[2015.04.25-21.42.19:027][973]LogFbx: FBX Scene Loaded Succesfully
+[2015.04.25-21.42.19:030][973]LogFbx:Warning: Triangulating static mesh Box003
+[2015.04.25-21.42.19:901][973]LogFbx: == Initial material list:
+[2015.04.25-21.42.19:901][973]LogFbx: 0: 09 - Default
+[2015.04.25-21.42.19:901][973]LogFbx: == After sorting:
+[2015.04.25-21.42.19:901][973]LogFbx: 0: 09 - Default
+[2015.04.25-21.42.19:901][973]LogFbx: == Mapping table:
+[2015.04.25-21.42.19:901][973]LogFbx:   sort 0 -> 0
+[2015.04.25-21.42.19:904][973]LogStaticMesh: Building static mesh newcave002...
+[2015.04.25-21.42.19:999][973]LogStaticMesh: Built static mesh [95.666458ms] /Game/Models/newcave002.newcave002
+[2015.04.25-21.42.20:093][973]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.25-21.42.20:093][973]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models'
+[2015.04.25-21.42.22:301][210]LogActorFactory: Actor Factory created newcave002
+[2015.04.25-21.42.22:850][270]LogActorFactory: Actor Factory created newcave002
+[2015.04.25-21.42.24:011][363]LogRenderer:Warning: Reallocating scene render targets to support 1856x968 (Frame:1863).
+[2015.04.25-21.42.30:521][122]LogStaticMesh: Building static mesh newcave002...
+[2015.04.25-21.42.30:615][122]LogStaticMesh: Built static mesh [94.901047ms] /Game/Models/newcave002.newcave002
+[2015.04.25-21.42.45:421][694]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (LevelMap)
+[2015.04.25-21.42.51:168][231]Cmd: TRANSACTION UNDO
+[2015.04.25-21.42.51:168][231]LogEditorTransaction: Undo Move Actors
+[2015.04.25-21.42.51:766][257]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (newcave002)
+[2015.04.25-21.42.53:869][474]Cmd: TRANSACTION UNDO
+[2015.04.25-21.42.53:869][474]LogEditorTransaction: Undo Move Actors
+[2015.04.25-21.43.13:668][523]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.25-21.43.13:669][523]PIE: New page: PIE session: NewCave (Apr 25, 2015, 7:43:13 AM)
+[2015.04.25-21.43.13:711][523]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041903s)
+[2015.04.25-21.43.13:712][523]LogPlayLevel: PIE: World Init took: (0.000818s)
+[2015.04.25-21.43.13:712][523]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/NewCave.NewCave to /Game/Scene/UEDPIE_0_NewCave.NewCave (0.042913s)
+[2015.04.25-21.43.13:766][523]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.25-21.43.13:769][523]LogAIModule: Creating AISystem for world NewCave
+[2015.04.25-21.43.13:776][523]LogWorld: Bringing World /Game/Scene/UEDPIE_0_NewCave.NewCave up for play (max tick rate 0) at 2015.04.25-14.43.13
+[2015.04.25-21.43.13:777][523]LogWorld: Bringing up level for play took: 0.007104
+[2015.04.25-21.43.13:781][523]PIE: Info Play in editor start time for /Game/Scene/UEDPIE_0_NewCave 1.028
+[2015.04.25-21.43.16:468][827]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000BAD4180
+[2015.04.25-21.43.16:468][827]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000BBDC400
+[2015.04.25-21.43.19:152][ 96]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LevelMap)
+[2015.04.25-21.43.22:858][480]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (newcave002)
+[2015.04.25-21.43.33:169][492]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.04.25-21.43.34:278][610]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.25-21.43.34:278][610]PIE: New page: PIE session: NewCave (Apr 25, 2015, 7:43:34 AM)
+[2015.04.25-21.43.34:319][610]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040590s)
+[2015.04.25-21.43.34:319][610]LogPlayLevel: PIE: World Init took: (0.000772s)
+[2015.04.25-21.43.34:320][610]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/NewCave.NewCave to /Game/Scene/UEDPIE_0_NewCave.NewCave (0.041534s)
+[2015.04.25-21.43.34:356][610]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.25-21.43.34:359][610]LogAIModule: Creating AISystem for world NewCave
+[2015.04.25-21.43.34:365][610]LogWorld: Bringing World /Game/Scene/UEDPIE_0_NewCave.NewCave up for play (max tick rate 0) at 2015.04.25-14.43.34
+[2015.04.25-21.43.34:366][610]LogWorld: Bringing up level for play took: 0.006773
+[2015.04.25-21.43.34:370][610]PIE: Info Play in editor start time for /Game/Scene/UEDPIE_0_NewCave -0.384
+[2015.04.25-21.43.35:530][735]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001674BB00
+[2015.04.25-21.43.39:834][159]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.04.25-21.43.40:424][217]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.25-21.43.40:424][217]PIE: New page: PIE session: NewCave (Apr 25, 2015, 7:43:40 AM)
+[2015.04.25-21.43.40:465][217]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040102s)
+[2015.04.25-21.43.40:466][217]LogPlayLevel: PIE: World Init took: (0.000800s)
+[2015.04.25-21.43.40:466][217]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/NewCave.NewCave to /Game/Scene/UEDPIE_0_NewCave.NewCave (0.041067s)
+[2015.04.25-21.43.40:499][217]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.25-21.43.40:502][217]LogAIModule: Creating AISystem for world NewCave
+[2015.04.25-21.43.40:509][217]LogWorld: Bringing World /Game/Scene/UEDPIE_0_NewCave.NewCave up for play (max tick rate 0) at 2015.04.25-14.43.40
+[2015.04.25-21.43.40:510][217]LogWorld: Bringing up level for play took: 0.007028
+[2015.04.25-21.43.40:514][217]PIE: Info Play in editor start time for /Game/Scene/UEDPIE_0_NewCave -0.241
+[2015.04.25-21.43.42:257][411]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000BAD5580
+[2015.04.25-21.43.42:841][476]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (newcave002)
+[2015.04.25-21.43.53:507][602]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.25-21.43.53:507][602]PIE: New page: PIE session: NewCave (Apr 25, 2015, 7:43:53 AM)
+[2015.04.25-21.43.53:548][602]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040393s)
+[2015.04.25-21.43.53:548][602]LogPlayLevel: PIE: World Init took: (0.000752s)
+[2015.04.25-21.43.53:548][602]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/NewCave.NewCave to /Game/Scene/UEDPIE_0_NewCave.NewCave (0.041312s)
+[2015.04.25-21.43.53:586][602]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.25-21.43.53:588][602]LogAIModule: Creating AISystem for world NewCave
+[2015.04.25-21.43.53:595][602]LogWorld: Bringing World /Game/Scene/UEDPIE_0_NewCave.NewCave up for play (max tick rate 0) at 2015.04.25-14.43.53
+[2015.04.25-21.43.53:596][602]LogWorld: Bringing up level for play took: 0.006949
+[2015.04.25-21.43.53:600][602]PIE: Info Play in editor start time for /Game/Scene/UEDPIE_0_NewCave 0.846
+[2015.04.25-21.43.55:671][838]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000BB2C720
+[2015.04.25-21.43.55:706][839]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000DA6B240
+[2015.04.25-21.44.02:490][546]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.04.25-21.44.03:199][617]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.25-21.44.03:200][617]PIE: New page: PIE session: NewCave (Apr 25, 2015, 7:44:03 AM)
+[2015.04.25-21.44.03:241][617]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040823s)
+[2015.04.25-21.44.03:242][617]LogPlayLevel: PIE: World Init took: (0.000775s)
+[2015.04.25-21.44.03:242][617]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/NewCave.NewCave to /Game/Scene/UEDPIE_0_NewCave.NewCave (0.041771s)
+[2015.04.25-21.44.03:274][617]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.25-21.44.03:277][617]LogAIModule: Creating AISystem for world NewCave
+[2015.04.25-21.44.03:284][617]LogWorld: Bringing World /Game/Scene/UEDPIE_0_NewCave.NewCave up for play (max tick rate 0) at 2015.04.25-14.44.03
+[2015.04.25-21.44.03:285][617]LogWorld: Bringing up level for play took: 0.007357
+[2015.04.25-21.44.03:289][617]PIE: Info Play in editor start time for /Game/Scene/UEDPIE_0_NewCave 0.535
+[2015.04.25-21.44.04:760][776]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D65F560
+[2015.04.25-21.44.08:362][112]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.04.25-21.44.09:366][216]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.25-21.44.09:366][216]PIE: New page: PIE session: NewCave (Apr 25, 2015, 7:44:09 AM)
+[2015.04.25-21.44.09:407][216]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040728s)
+[2015.04.25-21.44.09:408][216]LogPlayLevel: PIE: World Init took: (0.000850s)
+[2015.04.25-21.44.09:408][216]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/NewCave.NewCave to /Game/Scene/UEDPIE_0_NewCave.NewCave (0.041761s)
+[2015.04.25-21.44.09:445][216]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.25-21.44.09:448][216]LogAIModule: Creating AISystem for world NewCave
+[2015.04.25-21.44.09:454][216]LogWorld: Bringing World /Game/Scene/UEDPIE_0_NewCave.NewCave up for play (max tick rate 0) at 2015.04.25-14.44.09
+[2015.04.25-21.44.09:455][216]LogWorld: Bringing up level for play took: 0.006747
+[2015.04.25-21.44.09:459][216]PIE: Info Play in editor start time for /Game/Scene/UEDPIE_0_NewCave 0.705
+[2015.04.25-21.44.10:435][319]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D65FB00
+[2015.04.25-21.44.13:307][623]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.04.25-21.44.14:830][790]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.04.25-21.44.15:563][871]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.04.25-21.44.16:119][931]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.04.25-21.44.16:809][  7]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.04.25-21.44.21:605][546]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.04.25-21.44.24:665][859]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.04.25-21.44.25:916][992]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.25-21.44.25:916][992]PIE: New page: PIE session: NewCave (Apr 25, 2015, 7:44:25 AM)
+[2015.04.25-21.44.25:956][992]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040229s)
+[2015.04.25-21.44.25:957][992]LogPlayLevel: PIE: World Init took: (0.000787s)
+[2015.04.25-21.44.25:957][992]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/NewCave.NewCave to /Game/Scene/UEDPIE_0_NewCave.NewCave (0.041204s)
+[2015.04.25-21.44.25:990][992]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.25-21.44.25:993][992]LogAIModule: Creating AISystem for world NewCave
+[2015.04.25-21.44.25:999][992]LogWorld: Bringing World /Game/Scene/UEDPIE_0_NewCave.NewCave up for play (max tick rate 0) at 2015.04.25-14.44.25
+[2015.04.25-21.44.26:000][992]LogWorld: Bringing up level for play took: 0.006994
+[2015.04.25-21.44.26:004][992]PIE: Info Play in editor start time for /Game/Scene/UEDPIE_0_NewCave -0.75
+[2015.04.25-21.44.37:199][316]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D65CB80
+[2015.04.25-21.47.25:475][266]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (newcave002)
+[2015.04.25-21.47.26:062][324]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (newcave002)
+[2015.04.25-21.47.27:167][422]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.25-21.47.27:167][422]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models'
+[2015.04.25-21.47.30:103][696]LogEditorFactories: Performing atomic reimport of [E:/../Documents/GodKillerExports/newcave002.FBX]
+[2015.04.25-21.47.30:104][696]LogFbx:Error: Call to FbxImporter::Initialize() failed.
+[2015.04.25-21.47.30:104][696]LogFbx:Warning: Error returned: Unexpected file type
+[2015.04.25-21.47.30:104][696]LogEditorFactories:Warning: -- import failed
+[2015.04.25-21.47.36:748][329]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (newcave002)
+[2015.04.25-21.47.37:479][407]Cmd: DELETE
+[2015.04.25-21.47.37:480][407]Cmd: ACTOR DELETE
+[2015.04.25-21.47.37:495][407]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.04.25-21.47.37:511][407]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2015.04.25-21.47.52:873][482]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Documents/GodKillerExports/newcave002.FBX)
+[2015.04.25-21.47.52:876][482]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.04.25-21.47.52:876][482]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.04.25-21.47.52:876][482]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.04.25-21.47.52:876][482]LogFbx: ItemName: Model, ItemCount : 1
+[2015.04.25-21.47.52:876][482]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.04.25-21.47.52:876][482]LogFbx: ItemName: Material, ItemCount : 1
+[2015.04.25-21.47.52:876][482]LogFbx: ItemName: Texture, ItemCount : 1
+[2015.04.25-21.47.52:876][482]LogFbx: ItemName: CollectionExclusive, ItemCount : 1
+[2015.04.25-21.47.52:876][482]LogFbx: ItemName: Video, ItemCount : 1
+[2015.04.25-21.47.54:380][482]LogFbx: Loading FBX Scene from ../../../../../../Documents/GodKillerExports/newcave002.FBX
+[2015.04.25-21.47.54:392][482]LogFbx: FBX Scene Loaded Succesfully
+[2015.04.25-21.47.54:395][482]LogFbx:Warning: Triangulating static mesh Box003
+[2015.04.25-21.47.55:252][482]LogFbx: == Initial material list:
+[2015.04.25-21.47.55:252][482]LogFbx: 0: 09 - Default
+[2015.04.25-21.47.55:252][482]LogFbx: == After sorting:
+[2015.04.25-21.47.55:252][482]LogFbx: 0: 09 - Default
+[2015.04.25-21.47.55:252][482]LogFbx: == Mapping table:
+[2015.04.25-21.47.55:252][482]LogFbx:   sort 0 -> 0
+[2015.04.25-21.47.55:255][482]LogStaticMesh: Building static mesh newcave002...
+[2015.04.25-21.47.55:324][482]LogStaticMesh: Built static mesh [69.070786ms] /Game/Models/newcave002.newcave002
+[2015.04.25-21.47.55:410][482]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.25-21.47.55:410][482]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models'
+[2015.04.25-21.47.56:375][563]LogActorFactory: Actor Factory created newcave002
+[2015.04.25-21.47.56:661][591]LogActorFactory: Actor Factory created newcave002
+[2015.04.25-21.48.06:671][702]LogStaticMesh: Building static mesh newcave002...
+[2015.04.25-21.48.06:739][702]LogStaticMesh: Built static mesh [68.595207ms] /Game/Models/newcave002.newcave002
+[2015.04.25-21.48.06:767][702]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.25-21.48.06:767][702]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.25-21.48.36:966][823]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.25-21.48.36:966][823]PIE: New page: PIE session: NewCave (Apr 25, 2015, 7:48:36 AM)
+[2015.04.25-21.48.37:006][823]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040114s)
+[2015.04.25-21.48.37:007][823]LogPlayLevel: PIE: World Init took: (0.000802s)
+[2015.04.25-21.48.37:007][823]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/NewCave.NewCave to /Game/Scene/UEDPIE_0_NewCave.NewCave (0.041081s)
+[2015.04.25-21.48.37:045][823]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.25-21.48.37:048][823]LogAIModule: Creating AISystem for world NewCave
+[2015.04.25-21.48.37:055][823]LogWorld: Bringing World /Game/Scene/UEDPIE_0_NewCave.NewCave up for play (max tick rate 0) at 2015.04.25-14.48.37
+[2015.04.25-21.48.37:055][823]LogWorld: Bringing up level for play took: 0.007003
+[2015.04.25-21.48.37:059][823]PIE: Info Play in editor start time for /Game/Scene/UEDPIE_0_NewCave 0.301
+[2015.04.25-21.48.42:436][453]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000BBA3C40
+[2015.04.25-21.48.42:436][453]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001674ADE0
+[2015.04.25-21.48.46:544][828]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/Rocks'
+[2015.04.25-21.48.56:036][749]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2015.04.25-21.48.56:076][749]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.04.25-21.48.56:131][749]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.04.25-21.48.56:131][749]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.04.25-21.48.56:131][749]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.04.25-21.48.56:131][749]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.04.25-21.48.56:140][749]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2015.04.25-21.48.56:145][749]LogMaterial: 0.000063 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.25-21.48.56:171][749]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.04.25-21.48.56:173][749]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.04.25-21.48.56:175][749]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.04.25-21.48.58:038][897]MaterialEditorStats: Info Base pass shader with static lighting: 82 instructions
+[2015.04.25-21.48.58:039][897]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 51 instructions
+[2015.04.25-21.48.58:039][897]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.04.25-21.48.58:039][897]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.04.25-21.49.00:375][166]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2015.04.25-21.49.00:381][166]LogMaterial: 0.000054 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.25-21.49.01:008][239]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2015.04.25-21.49.01:016][239]LogMaterial: 0.000082 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.25-21.49.01:859][331]MaterialEditorStats: Info Base pass shader with static lighting: 82 instructions
+[2015.04.25-21.49.01:859][331]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 51 instructions
+[2015.04.25-21.49.01:859][331]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.04.25-21.49.01:859][331]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.04.25-21.49.02:442][400]LogMaterialEditor: Applying material Rock
+[2015.04.25-21.49.03:799][400]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2015.04.25-21.49.03:820][400]LogMaterial: 0.000145 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.25-21.49.03:947][400]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2015.04.25-21.49.03:994][400]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2015.04.25-21.49.04:005][400]LogMaterial: 0.001220 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.25-21.49.06:324][545]MaterialEditorStats: Info Base pass shader with static lighting: 103 instructions
+[2015.04.25-21.49.06:324][545]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 72 instructions
+[2015.04.25-21.49.06:324][545]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.04.25-21.49.06:324][545]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.04.25-21.49.16:798][270]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2015.04.25-21.49.16:804][270]LogMaterial: 0.000065 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.25-21.49.17:299][300]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2015.04.25-21.49.17:306][300]LogMaterial: 0.000045 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.25-21.49.18:243][358]MaterialEditorStats: Info Base pass shader with static lighting: 82 instructions
+[2015.04.25-21.49.18:243][358]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 51 instructions
+[2015.04.25-21.49.18:243][358]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.04.25-21.49.18:243][358]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.04.25-21.49.18:313][363]LogMaterialEditor: Applying material Rock
+[2015.04.25-21.49.19:673][363]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2015.04.25-21.49.19:694][363]LogMaterial: 0.000068 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.25-21.49.19:820][363]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2015.04.25-21.49.19:856][363]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2015.04.25-21.49.19:871][363]LogMaterial: 0.001253 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.25-21.49.22:210][521]MaterialEditorStats: Info Base pass shader with static lighting: 103 instructions
+[2015.04.25-21.49.22:210][521]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 72 instructions
+[2015.04.25-21.49.22:210][521]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.04.25-21.49.22:210][521]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.04.25-21.49.28:323][970]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2015.04.25-21.49.28:329][970]LogMaterial: 0.000066 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.25-21.49.29:203][ 24]MaterialEditorStats: Info Base pass shader with static lighting: 82 instructions
+[2015.04.25-21.49.29:203][ 24]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 51 instructions
+[2015.04.25-21.49.29:203][ 24]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.04.25-21.49.29:203][ 24]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.04.25-21.49.29:563][ 49]LogMaterialEditor: Applying material Rock
+[2015.04.25-21.49.30:921][ 49]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2015.04.25-21.49.30:943][ 49]LogMaterial: 0.000164 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.25-21.49.31:007][ 49]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2015.04.25-21.49.31:037][ 49]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2015.04.25-21.49.31:046][ 49]LogMaterial: 0.001085 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.25-21.49.33:376][207]MaterialEditorStats: Info Base pass shader with static lighting: 103 instructions
+[2015.04.25-21.49.33:376][207]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 72 instructions
+[2015.04.25-21.49.33:376][207]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.04.25-21.49.33:376][207]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.04.25-21.49.45:950][133]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2015.04.25-21.49.45:955][133]LogMaterial: 0.000107 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.25-21.49.46:738][184]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2015.04.25-21.49.46:744][184]LogMaterial: 0.000041 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.25-21.49.46:809][188]MaterialEditorStats: Info Base pass shader with static lighting: 82 instructions
+[2015.04.25-21.49.46:809][188]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 51 instructions
+[2015.04.25-21.49.46:809][188]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.04.25-21.49.46:809][188]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.04.25-21.49.47:891][255]LogMaterialEditor: Applying material Rock
+[2015.04.25-21.49.49:250][255]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2015.04.25-21.49.49:272][255]LogMaterial: 0.000123 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.25-21.49.49:329][255]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2015.04.25-21.49.49:357][255]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2015.04.25-21.49.49:366][255]LogMaterial: 0.001056 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.25-21.49.51:875][421]MaterialEditorStats: Info Base pass shader with static lighting: 103 instructions
+[2015.04.25-21.49.51:875][421]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 72 instructions
+[2015.04.25-21.49.51:875][421]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.04.25-21.49.51:875][421]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.04.25-21.50.06:384][493]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2015.04.25-21.50.06:389][493]LogMaterial: 0.000065 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.25-21.50.07:274][551]MaterialEditorStats: Info Base pass shader with static lighting: 82 instructions
+[2015.04.25-21.50.07:274][551]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 51 instructions
+[2015.04.25-21.50.07:274][551]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.04.25-21.50.07:275][551]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.04.25-21.50.07:412][561]LogMaterialEditor: Applying material Rock
+[2015.04.25-21.50.08:763][561]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2015.04.25-21.50.08:785][561]LogMaterial: 0.000181 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.25-21.50.08:869][561]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2015.04.25-21.50.08:896][561]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2015.04.25-21.50.08:905][561]LogMaterial: 0.001028 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.25-21.50.11:329][726]MaterialEditorStats: Info Base pass shader with static lighting: 103 instructions
+[2015.04.25-21.50.11:329][726]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 72 instructions
+[2015.04.25-21.50.11:330][726]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.04.25-21.50.11:330][726]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.04.25-21.50.15:765][ 97]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (newcave002)
+[2015.04.25-21.50.16:511][160]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.25-21.50.16:512][160]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models'
+[2015.04.25-21.50.17:855][283]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.25-21.50.17:855][283]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.25-21.50.17:868][283]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.25-21.50.17:868][283]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.25-21.50.17:870][283]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.25-21.50.17:870][283]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.25-21.50.22:092][769]LogStaticMesh: Building static mesh newcave002...
+[2015.04.25-21.50.22:161][769]LogStaticMesh: Built static mesh [69.362404ms] /Game/Models/newcave002.newcave002
+[2015.04.25-21.50.22:189][769]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.25-21.50.22:189][769]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.25-21.50.36:040][201]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/Rocks'
+[2015.04.25-21.50.37:249][303]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.04.25-21.50.37:272][303]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.04.25-21.50.37:337][303]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.04.25-21.50.37:337][303]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2015.04.25-21.50.37:337][303]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.04.25-21.50.37:337][303]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2015.04.25-21.50.37:345][303]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.04.25-21.50.37:350][303]LogMaterial: 0.000064 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.25-21.50.37:372][303]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.04.25-21.50.37:374][303]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.04.25-21.50.37:377][303]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.04.25-21.50.39:111][385]MaterialEditorStats: Info Base pass shader with static lighting: 82 instructions
+[2015.04.25-21.50.39:111][385]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 51 instructions
+[2015.04.25-21.50.39:111][385]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.04.25-21.50.39:111][385]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.04.25-21.50.44:527][724]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.04.25-21.50.44:533][724]LogMaterial: 0.000136 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.25-21.50.45:011][751]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.04.25-21.50.45:018][751]LogMaterial: 0.000059 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.25-21.50.45:866][798]MaterialEditorStats: Info Base pass shader with static lighting: 82 instructions
+[2015.04.25-21.50.45:866][798]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 51 instructions
+[2015.04.25-21.50.45:866][798]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.04.25-21.50.45:866][798]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.04.25-21.50.46:341][829]LogMaterialEditor: Applying material Rock
+[2015.04.25-21.50.47:699][829]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.04.25-21.50.47:720][829]LogMaterial: 0.000126 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.25-21.50.47:781][829]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2015.04.25-21.50.47:810][829]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2015.04.25-21.50.47:823][829]LogMaterial: 0.004057 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.25-21.50.50:176][  0]MaterialEditorStats: Info Base pass shader with static lighting: 103 instructions
+[2015.04.25-21.50.50:176][  0]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 72 instructions
+[2015.04.25-21.50.50:176][  0]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.04.25-21.50.50:176][  0]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.04.25-21.51.03:332][216]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene/NewCave" FILE="../../../../../../Documents/GitHub/God-Killer/Content/Scene/NewCave.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.25-21.51.03:349][216]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D6307C0
+[2015.04.25-21.51.03:366][216]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D78D580
+[2015.04.25-21.51.03:570][216]LogSavePackage: Save=203.502411ms
+[2015.04.25-21.51.03:570][216]LogSavePackage: Moving '../../../../../../Documents/GitHub/God-Killer/Saved/NewCave6A5AC3A24AC08DEFFC533E8E2F8704CD.tmp' to '../../../../../../Documents/GitHub/God-Killer/Content/Scene/NewCave.umap'
+[2015.04.25-21.51.06:966][362]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/newcave002" FILE="../../../../../../Documents/GitHub/God-Killer/Content/Models/newcave002.uasset" SILENT=true
+[2015.04.25-21.51.07:180][362]LogSavePackage: Save=210.501053ms
+[2015.04.25-21.51.07:180][362]LogSavePackage: Moving '../../../../../../Documents/GitHub/God-Killer/Saved/newcave00276F3FEFC4EF6E4C061AEB89D33AFF2F7.tmp' to '../../../../../../Documents/GitHub/God-Killer/Content/Models/newcave002.uasset'
+[2015.04.25-21.51.07:210][362]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Rocks/Rock" FILE="../../../../../../Documents/GitHub/God-Killer/Content/Models/Rocks/Rock.uasset" SILENT=true
+[2015.04.25-21.51.07:371][362]LogSavePackage: Save=150.477661ms
+[2015.04.25-21.51.07:371][362]LogSavePackage: Moving '../../../../../../Documents/GitHub/God-Killer/Saved/Rock6AFE45A64045FCB98894C297F48A73E1.tmp' to '../../../../../../Documents/GitHub/God-Killer/Content/Models/Rocks/Rock.uasset'
+[2015.04.25-21.51.46:521][920]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models'
+[2015.04.25-21.51.48:695][ 91]LogEditorFactories: Performing atomic reimport of [E:/../Documents/GodKillerExports/newcave002.FBX]
+[2015.04.25-21.51.48:697][ 91]LogFbx:Error: Call to FbxImporter::Initialize() failed.
+[2015.04.25-21.51.48:697][ 91]LogFbx:Warning: Error returned: Unexpected file type
+[2015.04.25-21.51.48:697][ 91]LogEditorFactories:Warning: -- import failed
+[2015.04.25-21.51.50:637][253]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (newcave002)
+[2015.04.25-21.51.51:334][324]Cmd: DELETE
+[2015.04.25-21.51.51:334][324]Cmd: ACTOR DELETE
+[2015.04.25-21.51.51:350][324]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.04.25-21.51.51:364][324]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000021A29EE0
+[2015.04.25-21.51.51:367][324]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2015.04.25-21.51.52:697][450]LogActorFactory: Actor Factory created newcave002
+[2015.04.25-21.51.53:286][514]LogActorFactory: Actor Factory created newcave002
+[2015.04.25-21.51.54:111][594]Cmd: DELETE
+[2015.04.25-21.51.54:111][594]Cmd: ACTOR DELETE
+[2015.04.25-21.51.54:128][594]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.04.25-21.51.54:145][594]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2015.04.25-21.52.01:167][906]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Documents/GodKillerExports/newcave002.FBX)
+[2015.04.25-21.52.01:171][906]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.04.25-21.52.01:171][906]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.04.25-21.52.01:171][906]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.04.25-21.52.01:171][906]LogFbx: ItemName: Model, ItemCount : 1
+[2015.04.25-21.52.01:171][906]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.04.25-21.52.01:171][906]LogFbx: ItemName: Material, ItemCount : 1
+[2015.04.25-21.52.01:171][906]LogFbx: ItemName: Texture, ItemCount : 1
+[2015.04.25-21.52.01:171][906]LogFbx: ItemName: CollectionExclusive, ItemCount : 1
+[2015.04.25-21.52.01:171][906]LogFbx: ItemName: Video, ItemCount : 1
+[2015.04.25-21.52.03:776][906]LogFbx: Loading FBX Scene from ../../../../../../Documents/GodKillerExports/newcave002.FBX
+[2015.04.25-21.52.03:787][906]LogFbx: FBX Scene Loaded Succesfully
+[2015.04.25-21.52.03:790][906]LogFbx:Warning: Triangulating static mesh Box003
+[2015.04.25-21.52.04:225][906]LogFbx: == Initial material list:
+[2015.04.25-21.52.04:225][906]LogFbx: 0: 09 - Default
+[2015.04.25-21.52.04:226][906]LogFbx: == After sorting:
+[2015.04.25-21.52.04:226][906]LogFbx: 0: 09 - Default
+[2015.04.25-21.52.04:226][906]LogFbx: == Mapping table:
+[2015.04.25-21.52.04:226][906]LogFbx:   sort 0 -> 0
+[2015.04.25-21.52.04:228][906]LogStaticMesh: Building static mesh newcave002...
+[2015.04.25-21.52.04:261][906]LogStaticMesh: Built static mesh [34.027542ms] /Game/Models/newcave002.newcave002
+[2015.04.25-21.52.04:290][906]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.25-21.52.04:290][906]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models'
+[2015.04.25-21.52.06:231][ 87]LogActorFactory: Actor Factory created newcave002
+[2015.04.25-21.52.06:531][116]LogActorFactory: Actor Factory created newcave002
+[2015.04.25-21.52.12:846][677]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/Rocks'
+[2015.04.25-21.52.27:131][789]LogStaticMesh: Building static mesh newcave002...
+[2015.04.25-21.52.27:164][789]LogStaticMesh: Built static mesh [33.813229ms] /Game/Models/newcave002.newcave002
+[2015.04.25-21.54.04:564][873]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (newcave002)
+[2015.04.25-21.54.06:306][ 31]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.25-21.54.06:306][ 31]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models'
+[2015.04.25-21.54.08:483][212]LogEditorFactories: Performing atomic reimport of [E:/../Documents/GodKillerExports/newcave002.FBX]
+[2015.04.25-21.54.08:484][212]LogFbx:Error: Call to FbxImporter::Initialize() failed.
+[2015.04.25-21.54.08:484][212]LogFbx:Warning: Error returned: Unexpected file type
+[2015.04.25-21.54.08:484][212]LogEditorFactories:Warning: -- import failed
+[2015.04.25-21.54.11:073][445]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (newcave002)
+[2015.04.25-21.54.11:796][519]Cmd: DELETE
+[2015.04.25-21.54.11:796][519]Cmd: ACTOR DELETE
+[2015.04.25-21.54.11:812][519]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.04.25-21.54.11:826][519]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012775620
+[2015.04.25-21.54.11:829][519]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2015.04.25-21.54.19:174][ 15]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Documents/GodKillerExports/newcave002.FBX)
+[2015.04.25-21.54.19:178][ 15]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.04.25-21.54.19:178][ 15]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.04.25-21.54.19:178][ 15]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.04.25-21.54.19:178][ 15]LogFbx: ItemName: Model, ItemCount : 1
+[2015.04.25-21.54.19:178][ 15]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.04.25-21.54.19:178][ 15]LogFbx: ItemName: Material, ItemCount : 1
+[2015.04.25-21.54.19:178][ 15]LogFbx: ItemName: Texture, ItemCount : 1
+[2015.04.25-21.54.19:178][ 15]LogFbx: ItemName: CollectionExclusive, ItemCount : 1
+[2015.04.25-21.54.19:178][ 15]LogFbx: ItemName: Video, ItemCount : 1
+[2015.04.25-21.54.20:891][ 15]LogFbx: Loading FBX Scene from ../../../../../../Documents/GodKillerExports/newcave002.FBX
+[2015.04.25-21.54.20:901][ 15]LogFbx: FBX Scene Loaded Succesfully
+[2015.04.25-21.54.20:904][ 15]LogFbx:Warning: Triangulating static mesh Box003
+[2015.04.25-21.54.21:334][ 15]LogFbx: == Initial material list:
+[2015.04.25-21.54.21:334][ 15]LogFbx: 0: 09 - Default
+[2015.04.25-21.54.21:334][ 15]LogFbx: == After sorting:
+[2015.04.25-21.54.21:334][ 15]LogFbx: 0: 09 - Default
+[2015.04.25-21.54.21:335][ 15]LogFbx: == Mapping table:
+[2015.04.25-21.54.21:335][ 15]LogFbx:   sort 0 -> 0
+[2015.04.25-21.54.21:336][ 15]LogStaticMesh: Building static mesh newcave002...
+[2015.04.25-21.54.21:416][ 15]LogStaticMesh: Built static mesh [80.463387ms] /Game/Models/newcave002.newcave002
+[2015.04.25-21.54.21:485][ 15]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.25-21.54.21:485][ 15]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models'
+[2015.04.25-21.54.25:980][419]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/Rocks'
+[2015.04.25-21.54.32:664][ 68]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models'
+[2015.04.25-21.54.33:865][169]LogActorFactory: Actor Factory created newcave002
+[2015.04.25-21.54.34:014][179]LogActorFactory: Actor Factory created newcave002
+[2015.04.25-21.54.40:087][693]LogStaticMesh: Building static mesh newcave002...
+[2015.04.25-21.54.40:167][693]LogStaticMesh: Built static mesh [81.049179ms] /Game/Models/newcave002.newcave002
+[2015.04.25-21.54.41:012][763]LogEditorViewport: Clicking Background
+[2015.04.25-21.54.42:073][880]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (newcave002)
+[2015.04.25-21.55.03:086][  0]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (newcave002)
+[2015.04.25-21.56.34:748][668]LogEditorFactories: Performing atomic reimport of [E:/../Documents/GodKillerExports/newcave002.FBX]
+[2015.04.25-21.56.34:749][668]LogFbx:Error: Call to FbxImporter::Initialize() failed.
+[2015.04.25-21.56.34:749][668]LogFbx:Warning: Error returned: Unexpected file type
+[2015.04.25-21.56.34:749][668]LogEditorFactories:Warning: -- import failed
+[2015.04.25-21.56.35:947][764]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (newcave002)
+[2015.04.25-21.56.36:280][797]Cmd: DELETE
+[2015.04.25-21.56.36:280][797]Cmd: ACTOR DELETE
+[2015.04.25-21.56.36:295][797]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.04.25-21.56.36:308][797]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012775300
+[2015.04.25-21.56.36:311][797]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2015.04.25-21.56.42:312][164]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Documents/GodKillerExports/newcave002.FBX)
+[2015.04.25-21.56.42:315][164]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.04.25-21.56.42:315][164]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.04.25-21.56.42:315][164]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.04.25-21.56.42:315][164]LogFbx: ItemName: Model, ItemCount : 1
+[2015.04.25-21.56.42:315][164]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.04.25-21.56.42:315][164]LogFbx: ItemName: Material, ItemCount : 1
+[2015.04.25-21.56.42:315][164]LogFbx: ItemName: Texture, ItemCount : 1
+[2015.04.25-21.56.42:315][164]LogFbx: ItemName: CollectionExclusive, ItemCount : 1
+[2015.04.25-21.56.42:315][164]LogFbx: ItemName: Video, ItemCount : 1
+[2015.04.25-21.56.43:788][164]LogFbx: Loading FBX Scene from ../../../../../../Documents/GodKillerExports/newcave002.FBX
+[2015.04.25-21.56.43:798][164]LogFbx: FBX Scene Loaded Succesfully
+[2015.04.25-21.56.43:801][164]LogFbx:Warning: Triangulating static mesh Box003
+[2015.04.25-21.56.44:231][164]LogFbx: == Initial material list:
+[2015.04.25-21.56.44:231][164]LogFbx: 0: 09 - Default
+[2015.04.25-21.56.44:231][164]LogFbx: == After sorting:
+[2015.04.25-21.56.44:231][164]LogFbx: 0: 09 - Default
+[2015.04.25-21.56.44:231][164]LogFbx: == Mapping table:
+[2015.04.25-21.56.44:231][164]LogFbx:   sort 0 -> 0
+[2015.04.25-21.56.44:233][164]LogStaticMesh: Building static mesh newcave002...
+[2015.04.25-21.56.44:412][164]LogStaticMesh: Built static mesh [179.849991ms] /Game/Models/newcave002.newcave002
+[2015.04.25-21.56.44:474][164]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.25-21.56.44:475][164]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models'
+[2015.04.25-21.56.48:522][570]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/Rocks'
+[2015.04.25-21.57.02:059][829]LogStaticMesh: Building static mesh newcave002...
+[2015.04.25-21.57.02:238][829]LogStaticMesh: Built static mesh [179.424423ms] /Game/Models/newcave002.newcave002
+[2015.04.25-21.57.02:259][829]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.25-21.57.02:259][829]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.25-21.57.09:820][566]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models'
+[2015.04.25-21.57.10:835][668]LogActorFactory: Actor Factory created newcave002
+[2015.04.25-21.57.11:039][688]LogActorFactory: Actor Factory created newcave002
+[2015.04.25-22.01.05:447][564]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D6B6D40
+[2015.04.25-22.01.05:509][564]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene/NewCave" FILE="../../../../../../Documents/GitHub/God-Killer/Saved/Autosaves/Game/Scene/NewCave_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.04.25-22.01.05:734][564]LogSavePackage: Save=207.559586ms
+[2015.04.25-22.01.05:734][564]LogSavePackage: Moving '../../../../../../Documents/GitHub/God-Killer/Saved/NewCave_Auto17FD6B4A04B6BBA1B5FCD31B4C6B67949.tmp' to '../../../../../../Documents/GitHub/God-Killer/Saved/Autosaves/Game/Scene/NewCave_Auto1.umap'
+[2015.04.25-22.01.05:744][564]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Scene/NewCave' took 0.309
+[2015.04.25-22.01.05:744][564]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.309
+[2015.04.25-22.01.05:782][564]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/newcave002] ([1] browsable assets)...
+[2015.04.25-22.01.05:804][564]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/newcave002.newcave002]
+[2015.04.25-22.01.05:804][564]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/newcave002]
+[2015.04.25-22.01.05:807][564]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/newcave002" FILE="../../../../../../Documents/GitHub/God-Killer/Saved/Autosaves/Game/Models/newcave002_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.04.25-22.01.06:103][564]LogSavePackage: Save=293.607391ms
+[2015.04.25-22.01.06:104][564]LogSavePackage: Moving '../../../../../../Documents/GitHub/God-Killer/Saved/newcave002_Auto182D575FE418F60D6851AE9ADBFA97285.tmp' to '../../../../../../Documents/GitHub/God-Killer/Saved/Autosaves/Game/Models/newcave002_Auto1.uasset'
+[2015.04.25-22.01.06:113][564]LogFileHelpers: Auto-saving content packages took 0.369
+[2015.04.25-22.01.59:817][840]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (newcave002)
+[2015.04.25-22.02.01:615][ 18]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (newcave002)
+[2015.04.25-22.02.01:714][ 25]Cmd: DELETE
+[2015.04.25-22.02.01:714][ 25]Cmd: ACTOR DELETE
+[2015.04.25-22.02.01:730][ 25]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.04.25-22.02.01:746][ 25]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2015.04.25-22.02.07:577][401]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Documents/GodKillerExports/newcave002.FBX)
+[2015.04.25-22.02.07:581][401]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.04.25-22.02.07:581][401]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.04.25-22.02.07:581][401]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.04.25-22.02.07:581][401]LogFbx: ItemName: Model, ItemCount : 1
+[2015.04.25-22.02.07:581][401]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.04.25-22.02.07:581][401]LogFbx: ItemName: Material, ItemCount : 1
+[2015.04.25-22.02.07:581][401]LogFbx: ItemName: Texture, ItemCount : 1
+[2015.04.25-22.02.07:581][401]LogFbx: ItemName: CollectionExclusive, ItemCount : 1
+[2015.04.25-22.02.07:581][401]LogFbx: ItemName: Video, ItemCount : 1
+[2015.04.25-22.02.12:792][401]LogFbx: Loading FBX Scene from ../../../../../../Documents/GodKillerExports/newcave002.FBX
+[2015.04.25-22.02.12:802][401]LogFbx: FBX Scene Loaded Succesfully
+[2015.04.25-22.02.12:805][401]LogFbx:Warning: Triangulating static mesh Box003
+[2015.04.25-22.02.13:239][401]LogFbx: == Initial material list:
+[2015.04.25-22.02.13:239][401]LogFbx: 0: 09 - Default
+[2015.04.25-22.02.13:239][401]LogFbx: == After sorting:
+[2015.04.25-22.02.13:239][401]LogFbx: 0: 09 - Default
+[2015.04.25-22.02.13:239][401]LogFbx: == Mapping table:
+[2015.04.25-22.02.13:239][401]LogFbx:   sort 0 -> 0
+[2015.04.25-22.02.13:241][401]LogStaticMesh: Building static mesh newcave002...
+[2015.04.25-22.02.13:282][401]LogStaticMesh: Built static mesh [41.220860ms] /Game/Models/newcave002.newcave002
+[2015.04.25-22.02.13:341][401]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.25-22.02.13:341][401]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models'
+[2015.04.25-22.02.18:109][888]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/Rocks'
+[2015.04.25-22.02.23:056][422]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models'
+[2015.04.25-22.02.24:661][598]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene/NewCave" FILE="../../../../../../Documents/GitHub/God-Killer/Content/Scene/NewCave.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.25-22.02.24:675][598]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000339D96C0
+[2015.04.25-22.02.24:886][598]LogSavePackage: Save=200.110626ms
+[2015.04.25-22.02.24:886][598]LogSavePackage: Moving '../../../../../../Documents/GitHub/God-Killer/Saved/NewCaveBA79F26D42EB54C991216ABF30C24B02.tmp' to '../../../../../../Documents/GitHub/God-Killer/Content/Scene/NewCave.umap'
+[2015.04.25-22.02.27:065][842]LogActorFactory: Actor Factory created newcave002
+[2015.04.25-22.02.27:246][859]LogActorFactory: Actor Factory created newcave002
+[2015.04.25-22.02.29:977][130]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/newcave002" FILE="../../../../../../Documents/GitHub/God-Killer/Content/Models/newcave002.uasset" SILENT=true
+[2015.04.25-22.02.30:171][130]LogSavePackage: Save=190.495300ms
+[2015.04.25-22.02.30:171][130]LogSavePackage: Moving '../../../../../../Documents/GitHub/God-Killer/Saved/newcave0020D561AA2446D5E77497DFDAB60FFCE77.tmp' to '../../../../../../Documents/GitHub/God-Killer/Content/Models/newcave002.uasset'
+[2015.04.25-22.03.59:544][745]LogEditorFactories: Performing atomic reimport of [E:/../Documents/GodKillerExports/newcave002.FBX]
+[2015.04.25-22.03.59:545][745]LogFbx:Error: Call to FbxImporter::Initialize() failed.
+[2015.04.25-22.03.59:545][745]LogFbx:Warning: Error returned: Unexpected file type
+[2015.04.25-22.03.59:546][745]LogEditorFactories:Warning: -- import failed
+[2015.04.25-22.04.02:040][954]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (newcave002)
+[2015.04.25-22.04.02:843][ 37]Cmd: DELETE
+[2015.04.25-22.04.02:843][ 37]Cmd: ACTOR DELETE
+[2015.04.25-22.04.02:858][ 37]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.04.25-22.04.02:872][ 37]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000003D70900
+[2015.04.25-22.04.02:872][ 37]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D6B5D00
+[2015.04.25-22.04.02:875][ 37]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2015.04.25-22.04.08:617][306]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Documents/GodKillerExports/newcave002.FBX)
+[2015.04.25-22.04.08:620][306]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.04.25-22.04.08:620][306]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.04.25-22.04.08:620][306]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.04.25-22.04.08:620][306]LogFbx: ItemName: Model, ItemCount : 1
+[2015.04.25-22.04.08:620][306]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.04.25-22.04.08:620][306]LogFbx: ItemName: Material, ItemCount : 1
+[2015.04.25-22.04.08:620][306]LogFbx: ItemName: Texture, ItemCount : 1
+[2015.04.25-22.04.08:620][306]LogFbx: ItemName: CollectionExclusive, ItemCount : 1
+[2015.04.25-22.04.08:620][306]LogFbx: ItemName: Video, ItemCount : 1
+[2015.04.25-22.04.11:863][306]LogFbx: Loading FBX Scene from ../../../../../../Documents/GodKillerExports/newcave002.FBX
+[2015.04.25-22.04.11:874][306]LogFbx: FBX Scene Loaded Succesfully
+[2015.04.25-22.04.11:876][306]LogFbx:Warning: Triangulating static mesh Box003
+[2015.04.25-22.04.12:310][306]LogFbx: == Initial material list:
+[2015.04.25-22.04.12:310][306]LogFbx: 0: 09 - Default
+[2015.04.25-22.04.12:310][306]LogFbx: == After sorting:
+[2015.04.25-22.04.12:310][306]LogFbx: 0: 09 - Default
+[2015.04.25-22.04.12:310][306]LogFbx: == Mapping table:
+[2015.04.25-22.04.12:310][306]LogFbx:   sort 0 -> 0
+[2015.04.25-22.04.12:312][306]LogStaticMesh: Building static mesh newcave002...
+[2015.04.25-22.04.12:346][306]LogStaticMesh: Built static mesh [34.271454ms] /Game/Models/newcave002.newcave002
+[2015.04.25-22.04.12:377][306]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.25-22.04.12:377][306]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models'
+[2015.04.25-22.04.17:119][739]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
+[2015.04.25-22.04.17:674][794]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/Rocks'
+[2015.04.25-22.04.28:933][760]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/newcave002" FILE="../../../../../../Documents/GitHub/God-Killer/Content/Models/newcave002.uasset" SILENT=true
+[2015.04.25-22.04.29:129][760]LogSavePackage: Save=193.673019ms
+[2015.04.25-22.04.29:129][760]LogSavePackage: Moving '../../../../../../Documents/GitHub/God-Killer/Saved/newcave002B312BB964A82ECC3C23FE49269C5DD37.tmp' to '../../../../../../Documents/GitHub/God-Killer/Content/Models/newcave002.uasset'
+[2015.04.25-22.04.32:257][ 86]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models'
+[2015.04.25-22.04.33:323][183]LogActorFactory: Actor Factory created newcave002
+[2015.04.25-22.04.33:487][197]LogActorFactory: Actor Factory created newcave002
+[2015.04.25-22.05.02:742][185]Cmd: DELETE
+[2015.04.25-22.05.02:742][185]Cmd: ACTOR DELETE
+[2015.04.25-22.05.02:757][185]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.04.25-22.05.02:771][185]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001674B600
+[2015.04.25-22.05.02:774][185]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2015.04.25-22.05.03:709][261]LogActorFactory: Actor Factory created newcave002
+[2015.04.25-22.05.06:787][603]LogActorFactory: Actor Factory created newcave002
+[2015.04.25-22.05.42:970][804]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene/NewCave" FILE="../../../../../../Documents/GitHub/God-Killer/Content/Scene/NewCave.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.25-22.05.43:207][804]LogSavePackage: Save=211.695602ms
+[2015.04.25-22.05.43:207][804]LogSavePackage: Moving '../../../../../../Documents/GitHub/God-Killer/Saved/NewCaveB8758AED40C8A4AF386EE5B8CDB9E8AA.tmp' to '../../../../../../Documents/GitHub/God-Killer/Content/Scene/NewCave.umap'
+[2015.04.25-22.05.43:243][804]LogFileHelpers: Saving map 'NewCave' took 0.491
+[2015.04.25-22.05.47:439][259]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.25-22.05.47:440][259]PIE: New page: PIE session: NewCave (Apr 25, 2015, 8:05:47 AM)
+[2015.04.25-22.05.47:482][259]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041775s)
+[2015.04.25-22.05.47:483][259]LogPlayLevel: PIE: World Init took: (0.000790s)
+[2015.04.25-22.05.47:483][259]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/NewCave.NewCave to /Game/Scene/UEDPIE_0_NewCave.NewCave (0.042763s)
+[2015.04.25-22.05.47:518][259]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.25-22.05.47:521][259]LogAIModule: Creating AISystem for world NewCave
+[2015.04.25-22.05.47:528][259]LogWorld: Bringing World /Game/Scene/UEDPIE_0_NewCave.NewCave up for play (max tick rate 0) at 2015.04.25-15.05.47
+[2015.04.25-22.05.47:529][259]LogWorld: Bringing up level for play took: 0.007062
+[2015.04.25-22.05.47:532][259]PIE: Info Play in editor start time for /Game/Scene/UEDPIE_0_NewCave 0.761
+[2015.04.25-22.05.53:299][934]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000121C5300
+[2015.04.25-22.06.09:111][477]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.25-22.06.09:111][477]PIE: New page: PIE session: NewCave (Apr 25, 2015, 8:06:09 AM)
+[2015.04.25-22.06.09:153][477]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041052s)
+[2015.04.25-22.06.09:153][477]LogPlayLevel: PIE: World Init took: (0.000782s)
+[2015.04.25-22.06.09:154][477]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/NewCave.NewCave to /Game/Scene/UEDPIE_0_NewCave.NewCave (0.042035s)
+[2015.04.25-22.06.09:201][477]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.25-22.06.09:204][477]LogAIModule: Creating AISystem for world NewCave
+[2015.04.25-22.06.09:210][477]LogWorld: Bringing World /Game/Scene/UEDPIE_0_NewCave.NewCave up for play (max tick rate 0) at 2015.04.25-15.06.09
+[2015.04.25-22.06.09:211][477]LogWorld: Bringing up level for play took: 0.006989
+[2015.04.25-22.06.09:215][477]PIE: Info Play in editor start time for /Game/Scene/UEDPIE_0_NewCave 0.443
+[2015.04.25-22.06.12:135][811]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001655E660
+[2015.04.25-22.06.30:511][144]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (newcave002)
+[2015.04.25-22.06.31:235][221]Cmd: DELETE
+[2015.04.25-22.06.31:235][221]Cmd: ACTOR DELETE
+[2015.04.25-22.06.31:251][221]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.04.25-22.06.31:268][221]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2015.04.25-22.06.38:290][627]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Documents/GodKillerExports/newcave002.FBX)
+[2015.04.25-22.06.38:293][627]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.04.25-22.06.38:293][627]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.04.25-22.06.38:293][627]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.04.25-22.06.38:293][627]LogFbx: ItemName: Model, ItemCount : 1
+[2015.04.25-22.06.38:293][627]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.04.25-22.06.38:293][627]LogFbx: ItemName: Material, ItemCount : 1
+[2015.04.25-22.06.38:293][627]LogFbx: ItemName: Texture, ItemCount : 1
+[2015.04.25-22.06.38:293][627]LogFbx: ItemName: CollectionExclusive, ItemCount : 1
+[2015.04.25-22.06.38:293][627]LogFbx: ItemName: Video, ItemCount : 1
+[2015.04.25-22.06.39:682][627]LogFbx: Loading FBX Scene from ../../../../../../Documents/GodKillerExports/newcave002.FBX
+[2015.04.25-22.06.39:692][627]LogFbx: FBX Scene Loaded Succesfully
+[2015.04.25-22.06.39:695][627]LogFbx:Warning: Triangulating static mesh Box003
+[2015.04.25-22.06.40:126][627]LogFbx: == Initial material list:
+[2015.04.25-22.06.40:126][627]LogFbx: 0: 09 - Default
+[2015.04.25-22.06.40:126][627]LogFbx: == After sorting:
+[2015.04.25-22.06.40:126][627]LogFbx: 0: 09 - Default
+[2015.04.25-22.06.40:126][627]LogFbx: == Mapping table:
+[2015.04.25-22.06.40:126][627]LogFbx:   sort 0 -> 0
+[2015.04.25-22.06.40:128][627]LogStaticMesh: Building static mesh newcave002...
+[2015.04.25-22.06.40:162][627]LogStaticMesh: Built static mesh [34.370190ms] /Game/Models/newcave002.newcave002
+[2015.04.25-22.06.40:194][627]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.25-22.06.40:194][627]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models'
+[2015.04.25-22.06.43:987][949]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/Rocks'
+[2015.04.25-22.06.55:436][957]LogStaticMesh: Building static mesh newcave002...
+[2015.04.25-22.06.55:470][957]LogStaticMesh: Built static mesh [33.871399ms] /Game/Models/newcave002.newcave002
+[2015.04.25-22.06.55:492][957]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.25-22.06.55:492][957]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.25-22.07.02:291][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/newcave002" FILE="../../../../../../Documents/GitHub/God-Killer/Content/Models/newcave002.uasset" SILENT=true
+[2015.04.25-22.07.02:486][603]LogSavePackage: Save=192.139908ms
+[2015.04.25-22.07.02:486][603]LogSavePackage: Moving '../../../../../../Documents/GitHub/God-Killer/Saved/newcave0029941702543F5791408E122A67221E862.tmp' to '../../../../../../Documents/GitHub/God-Killer/Content/Models/newcave002.uasset'
+[2015.04.25-22.07.05:464][918]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2015.04.25-22.07.05:879][948]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models'
+[2015.04.25-22.07.06:797][ 31]LogActorFactory: Actor Factory created newcave002
+[2015.04.25-22.07.07:112][ 61]LogActorFactory: Actor Factory created newcave002
+[2015.04.25-22.07.37:445][121]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.25-22.07.37:445][121]PIE: New page: PIE session: NewCave (Apr 25, 2015, 8:07:37 AM)
+[2015.04.25-22.07.37:486][121]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039834s)
+[2015.04.25-22.07.37:487][121]LogPlayLevel: PIE: World Init took: (0.000757s)
+[2015.04.25-22.07.37:487][121]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/NewCave.NewCave to /Game/Scene/UEDPIE_0_NewCave.NewCave (0.040766s)
+[2015.04.25-22.07.37:521][121]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.25-22.07.37:524][121]LogAIModule: Creating AISystem for world NewCave
+[2015.04.25-22.07.37:530][121]LogWorld: Bringing World /Game/Scene/UEDPIE_0_NewCave.NewCave up for play (max tick rate 0) at 2015.04.25-15.07.37
+[2015.04.25-22.07.37:531][121]LogWorld: Bringing up level for play took: 0.006828
+[2015.04.25-22.07.37:535][121]PIE: Info Play in editor start time for /Game/Scene/UEDPIE_0_NewCave 0.763
+[2015.04.25-22.07.48:093][368]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000348D84A0
+[2015.04.25-22.07.48:093][368]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D78D8A0
+[2015.04.25-22.07.48:513][411]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (newcave002)
+[2015.04.25-22.07.59:797][591]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.25-22.07.59:797][591]PIE: New page: PIE session: NewCave (Apr 25, 2015, 8:07:59 AM)
+[2015.04.25-22.07.59:837][591]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040113s)
+[2015.04.25-22.07.59:838][591]LogPlayLevel: PIE: World Init took: (0.000805s)
+[2015.04.25-22.07.59:838][591]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/NewCave.NewCave to /Game/Scene/UEDPIE_0_NewCave.NewCave (0.041092s)
+[2015.04.25-22.07.59:872][591]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.25-22.07.59:875][591]LogAIModule: Creating AISystem for world NewCave
+[2015.04.25-22.07.59:882][591]LogWorld: Bringing World /Game/Scene/UEDPIE_0_NewCave.NewCave up for play (max tick rate 0) at 2015.04.25-15.07.59
+[2015.04.25-22.07.59:883][591]LogWorld: Bringing up level for play took: 0.006885
+[2015.04.25-22.07.59:886][591]PIE: Info Play in editor start time for /Game/Scene/UEDPIE_0_NewCave -0.886
+[2015.04.25-22.08.06:421][348]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D78D620
+[2015.04.25-22.08.11:666][856]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/Pillar'
+[2015.04.25-22.08.12:075][894]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/Rocks'
+[2015.04.25-22.08.13:463][ 17]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2015.04.25-22.08.13:487][ 17]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2015.04.25-22.08.13:551][ 17]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2015.04.25-22.08.13:552][ 17]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_2) Already registered. Aborting.
+[2015.04.25-22.08.13:552][ 17]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2015.04.25-22.08.13:552][ 17]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_2) Already registered. Aborting.
+[2015.04.25-22.08.13:560][ 17]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2015.04.25-22.08.13:566][ 17]LogMaterial: 0.000050 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.25-22.08.13:592][ 17]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.04.25-22.08.13:594][ 17]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.04.25-22.08.13:597][ 17]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.04.25-22.08.15:589][105]MaterialEditorStats: Info Base pass shader with static lighting: 82 instructions
+[2015.04.25-22.08.15:589][105]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 51 instructions
+[2015.04.25-22.08.15:589][105]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.04.25-22.08.15:589][105]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.04.25-22.08.20:111][401]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2015.04.25-22.08.20:116][401]LogMaterial: 0.000062 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.25-22.08.20:715][434]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2015.04.25-22.08.20:722][434]LogMaterial: 0.000031 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.25-22.08.21:626][485]MaterialEditorStats: Info Base pass shader with static lighting: 82 instructions
+[2015.04.25-22.08.21:626][485]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 51 instructions
+[2015.04.25-22.08.21:626][485]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.04.25-22.08.21:626][485]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.04.25-22.08.22:497][542]LogMaterialEditor: Applying material Rock
+[2015.04.25-22.08.23:857][542]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2015.04.25-22.08.23:878][542]LogMaterial: 0.000091 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.25-22.08.23:930][542]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2015.04.25-22.08.23:958][542]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2015.04.25-22.08.23:967][542]LogMaterial: 0.000993 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.25-22.08.26:431][654]MaterialEditorStats: Info Base pass shader with static lighting: 103 instructions
+[2015.04.25-22.08.26:431][654]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 72 instructions
+[2015.04.25-22.08.26:431][654]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.04.25-22.08.26:431][654]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.04.25-22.08.31:933][  4]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2015.04.25-22.08.31:938][  4]LogMaterial: 0.000145 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.25-22.08.32:467][ 35]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2015.04.25-22.08.32:474][ 35]LogMaterial: 0.000054 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.25-22.08.33:423][ 87]MaterialEditorStats: Info Base pass shader with static lighting: 82 instructions
+[2015.04.25-22.08.33:423][ 87]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 51 instructions
+[2015.04.25-22.08.33:423][ 87]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.04.25-22.08.33:423][ 87]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.04.25-22.08.34:335][147]LogMaterialEditor: Applying material Rock
+[2015.04.25-22.08.35:687][147]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2015.04.25-22.08.35:709][147]LogMaterial: 0.000090 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.25-22.08.35:763][147]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2015.04.25-22.08.35:792][147]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2015.04.25-22.08.35:801][147]LogMaterial: 0.001045 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.25-22.08.38:223][293]MaterialEditorStats: Info Base pass shader with static lighting: 103 instructions
+[2015.04.25-22.08.38:223][293]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 72 instructions
+[2015.04.25-22.08.38:223][293]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.04.25-22.08.38:223][293]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.04.25-22.08.42:625][590]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2015.04.25-22.08.42:631][590]LogMaterial: 0.000080 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.25-22.08.43:460][637]MaterialEditorStats: Info Base pass shader with static lighting: 82 instructions
+[2015.04.25-22.08.43:460][637]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 51 instructions
+[2015.04.25-22.08.43:460][637]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.04.25-22.08.43:460][637]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.04.25-22.08.43:872][664]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2015.04.25-22.08.43:877][664]LogMaterial: 0.000120 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.25-22.08.44:692][707]MaterialEditorStats: Info Base pass shader with static lighting: 82 instructions
+[2015.04.25-22.08.44:693][707]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 51 instructions
+[2015.04.25-22.08.44:693][707]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.04.25-22.08.44:693][707]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.04.25-22.08.45:276][745]LogMaterialEditor: Applying material Rock
+[2015.04.25-22.08.46:647][745]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2015.04.25-22.08.46:668][745]LogMaterial: 0.000068 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.25-22.08.46:733][745]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2015.04.25-22.08.46:761][745]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2015.04.25-22.08.46:770][745]LogMaterial: 0.001052 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.25-22.08.49:195][888]MaterialEditorStats: Info Base pass shader with static lighting: 103 instructions
+[2015.04.25-22.08.49:195][888]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 72 instructions
+[2015.04.25-22.08.49:195][888]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.04.25-22.08.49:195][888]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.04.25-22.08.58:883][652]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000BBA19E0
+[2015.04.25-22.09.00:232][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Rocks/Rock" FILE="../../../../../../Documents/GitHub/God-Killer/Content/Models/Rocks/Rock.uasset" SILENT=true
+[2015.04.25-22.09.00:413][652]LogSavePackage: Save=168.246643ms
+[2015.04.25-22.09.00:413][652]LogSavePackage: Moving '../../../../../../Documents/GitHub/God-Killer/Saved/RockE7F157FF4F461D69937EA183DA2E2592.tmp' to '../../../../../../Documents/GitHub/God-Killer/Content/Models/Rocks/Rock.uasset'
+[2015.04.25-22.09.00:647][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene/NewCave" FILE="../../../../../../Documents/GitHub/God-Killer/Content/Scene/NewCave.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.25-22.09.00:885][652]LogSavePackage: Save=204.011658ms
+[2015.04.25-22.09.00:886][652]LogSavePackage: Moving '../../../../../../Documents/GitHub/God-Killer/Saved/NewCaveB905D17C4240618E70762A8B13151272.tmp' to '../../../../../../Documents/GitHub/God-Killer/Content/Scene/NewCave.umap'
+[2015.04.25-22.09.00:920][652]LogFileHelpers: Saving map 'NewCave' took 0.497
+[2015.04.25-22.09.01:748][738]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.25-22.09.01:748][738]PIE: New page: PIE session: NewCave (Apr 25, 2015, 8:09:01 AM)
+[2015.04.25-22.09.01:789][738]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040522s)
+[2015.04.25-22.09.01:790][738]LogPlayLevel: PIE: World Init took: (0.000790s)
+[2015.04.25-22.09.01:790][738]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/NewCave.NewCave to /Game/Scene/UEDPIE_0_NewCave.NewCave (0.041480s)
+[2015.04.25-22.09.01:826][738]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.25-22.09.01:829][738]LogAIModule: Creating AISystem for world NewCave
+[2015.04.25-22.09.01:835][738]LogWorld: Bringing World /Game/Scene/UEDPIE_0_NewCave.NewCave up for play (max tick rate 0) at 2015.04.25-15.09.01
+[2015.04.25-22.09.01:836][738]LogWorld: Bringing up level for play took: 0.006783
+[2015.04.25-22.09.01:840][738]PIE: Info Play in editor start time for /Game/Scene/UEDPIE_0_NewCave 1.066
+[2015.04.25-22.09.14:758][259]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D78D800
+[2015.04.25-22.09.17:719][567]Cmd: SELECT NONE
+[2015.04.25-22.09.18:610][664]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (newcave002)
+[2015.04.25-22.09.23:330][129]Cmd: QUIT_EDITOR
+[2015.04.25-22.09.23:571][129]LogExit: Preparing to exit.
+[2015.04.25-22.09.24:763][129]LogExit: Editor shut down
+[2015.04.25-22.09.24:764][129]LogExit: Transaction tracking system shut down
+[2015.04.25-22.09.24:765][129]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000164251C0
+[2015.04.25-22.09.24:765][129]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000043A9D1C0
+[2015.04.25-22.09.24:765][129]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000438FD080
+[2015.04.25-22.09.24:765][129]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000016425DA0
+[2015.04.25-22.09.24:815][129]LogExit: Object subsystem successfully closed.
+[2015.04.25-22.09.24:904][129]LogModuleManager: Shutting down and abandoning module MaterialEditor (179)
+[2015.04.25-22.09.24:904][129]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (178)
+[2015.04.25-22.09.24:904][129]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.04.25-22.09.24:904][129]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.04.25-22.09.24:904][129]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.04.25-22.09.24:904][129]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.04.25-22.09.24:904][129]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.04.25-22.09.24:904][129]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.04.25-22.09.24:904][129]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.04.25-22.09.24:904][129]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.04.25-22.09.24:904][129]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.04.25-22.09.24:905][129]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.04.25-22.09.24:905][129]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.04.25-22.09.24:905][129]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.04.25-22.09.24:905][129]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.04.25-22.09.24:905][129]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.04.25-22.09.24:905][129]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.04.25-22.09.24:905][129]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.04.25-22.09.24:905][129]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.04.25-22.09.24:905][129]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.04.25-22.09.24:905][129]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.04.25-22.09.24:905][129]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.04.25-22.09.24:905][129]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.04.25-22.09.24:905][129]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.04.25-22.09.24:905][129]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.04.25-22.09.24:905][129]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.04.25-22.09.24:905][129]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.04.25-22.09.24:905][129]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.04.25-22.09.24:905][129]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.04.25-22.09.24:905][129]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.04.25-22.09.24:905][129]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.04.25-22.09.24:905][129]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.04.25-22.09.24:905][129]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.04.25-22.09.24:905][129]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.04.25-22.09.25:358][129]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.04.25-22.09.25:358][129]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.04.25-22.09.25:358][129]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.04.25-22.09.25:358][129]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.04.25-22.09.25:358][129]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.04.25-22.09.25:358][129]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.04.25-22.09.25:358][129]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.04.25-22.09.25:358][129]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.04.25-22.09.25:358][129]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.04.25-22.09.25:358][129]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.04.25-22.09.25:358][129]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.04.25-22.09.25:358][129]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.04.25-22.09.25:358][129]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.04.25-22.09.25:358][129]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.04.25-22.09.25:358][129]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.04.25-22.09.25:359][129]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.04.25-22.09.25:359][129]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.04.25-22.09.25:359][129]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.04.25-22.09.25:359][129]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.04.25-22.09.25:401][129]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.04.25-22.09.25:401][129]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.04.25-22.09.25:401][129]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.04.25-22.09.25:402][129]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.04.25-22.09.25:402][129]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.04.25-22.09.25:402][129]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.04.25-22.09.25:402][129]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.04.25-22.09.25:402][129]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.04.25-22.09.25:402][129]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.04.25-22.09.25:402][129]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.04.25-22.09.25:402][129]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.04.25-22.09.25:402][129]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.04.25-22.09.25:402][129]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.04.25-22.09.25:402][129]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.04.25-22.09.25:402][129]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.04.25-22.09.25:402][129]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.04.25-22.09.25:402][129]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.04.25-22.09.25:402][129]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.04.25-22.09.25:402][129]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.04.25-22.09.25:402][129]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.04.25-22.09.25:402][129]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.04.25-22.09.25:416][129]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.04.25-22.09.25:416][129]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.04.25-22.09.25:416][129]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.04.25-22.09.25:416][129]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.04.25-22.09.25:416][129]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.04.25-22.09.25:416][129]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.04.25-22.09.25:416][129]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.04.25-22.09.25:416][129]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.04.25-22.09.25:416][129]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.04.25-22.09.25:416][129]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.04.25-22.09.25:416][129]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.04.25-22.09.25:416][129]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.04.25-22.09.25:416][129]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.04.25-22.09.25:417][129]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.04.25-22.09.25:417][129]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.04.25-22.09.25:417][129]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.04.25-22.09.25:417][129]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.04.25-22.09.25:417][129]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.04.25-22.09.25:417][129]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.04.25-22.09.25:417][129]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.04.25-22.09.25:417][129]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.04.25-22.09.25:417][129]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.04.25-22.09.25:417][129]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.04.25-22.09.25:417][129]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.04.25-22.09.25:417][129]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.04.25-22.09.25:417][129]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.04.25-22.09.25:417][129]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.04.25-22.09.25:517][129]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.04.25-22.09.25:517][129]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.04.25-22.09.25:520][129]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.04.25-22.09.25:520][129]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.04.25-22.09.25:520][129]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.04.25-22.09.25:520][129]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.04.25-22.09.25:520][129]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.04.25-22.09.25:520][129]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.04.25-22.09.25:520][129]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.04.25-22.09.25:520][129]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.04.25-22.09.25:520][129]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.04.25-22.09.25:520][129]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.04.25-22.09.25:520][129]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.04.25-22.09.25:520][129]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.04.25-22.09.25:520][129]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.04.25-22.09.25:520][129]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.04.25-22.09.25:520][129]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.04.25-22.09.25:529][129]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.04.25-22.09.25:529][129]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.04.25-22.09.25:529][129]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.04.25-22.09.25:529][129]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.04.25-22.09.25:529][129]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.04.25-22.09.25:529][129]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.04.25-22.09.25:529][129]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.04.25-22.09.25:529][129]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.04.25-22.09.25:529][129]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.04.25-22.09.25:529][129]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.04.25-22.09.25:571][129]LogDerivedDataCache: Shutdown
+[2015.04.25-22.09.25:571][129]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.04.25-22.09.25:571][129]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.04.25-22.09.25:571][129]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.04.25-22.09.25:571][129]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.04.25-22.09.25:571][129]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.04.25-22.09.25:571][129]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.04.25-22.09.25:571][129]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.04.25-22.09.25:571][129]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.04.25-22.09.25:571][129]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.04.25-22.09.25:571][129]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.04.25-22.09.25:571][129]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.04.25-22.09.25:571][129]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.04.25-22.09.25:571][129]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.04.25-22.09.25:571][129]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.04.25-22.09.25:571][129]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.04.25-22.09.25:571][129]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.04.25-22.09.25:571][129]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.04.25-22.09.25:571][129]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.04.25-22.09.25:571][129]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.04.25-22.09.25:571][129]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.04.25-22.09.25:571][129]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.04.25-22.09.25:571][129]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.04.25-22.09.25:571][129]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.04.25-22.09.25:571][129]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.04.25-22.09.25:571][129]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.04.25-22.09.25:571][129]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.04.25-22.09.25:571][129]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.04.25-22.09.25:571][129]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.04.25-22.09.25:571][129]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.04.25-22.09.25:571][129]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.04.25-22.09.25:571][129]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.04.25-22.09.25:571][129]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.04.25-22.09.25:571][129]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.04.25-22.09.25:571][129]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.04.25-22.09.25:571][129]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.04.25-22.09.25:571][129]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.04.25-22.09.25:571][129]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.04.25-22.09.25:571][129]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.04.25-22.09.25:571][129]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.04.25-22.09.25:571][129]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.04.25-22.09.25:575][129]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.04.25-22.09.25:575][129]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.04.25-22.09.25:575][129]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.04.25-22.09.25:575][129]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.04.25-22.09.25:575][129]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.04.25-22.09.25:575][129]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.04.25-22.09.25:575][129]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.04.25-22.09.25:575][129]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.04.25-22.09.25:575][129]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.04.25-22.09.25:576][129]LogExit: Exiting.
+[2015.04.25-22.09.25:593][129]Log file closed, 04/25/15 15:09:25
