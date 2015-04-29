@@ -1,0 +1,1308 @@
+﻿Log file open, 04/28/15 17:35:36
+LogInit:Display: Running engine for game: GodKiller
+LogInit: Version: 4.7.3-2479750+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Mar 15 2015 23:20:45
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.04.29-00.35.36:160][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.04.29-00.35.36:211][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.04.29-00.35.36:224][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.04.29-00.35.36:233][  0]LogInit: Object subsystem initialized
+[2015.04.29-00.35.36:234][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.04.29-00.35.36:234][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Valadez_Isaac/GodKiller/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.29-00.35.36:234][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.04.29-00.35.36:234][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Valadez_Isaac/GodKiller/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.29-00.35.36:234][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.04.29-00.35.36:234][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Valadez_Isaac/GodKiller/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.29-00.35.36:235][  0]LogInit: Selected Device Profile: [Windows]
+[2015.04.29-00.35.36:235][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.04.29-00.35.36:271][  0]LogInit: Computer: AI251LAB0234P19
+[2015.04.29-00.35.36:271][  0]LogInit: User: student
+[2015.04.29-00.35.36:271][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.04.29-00.35.36:271][  0]LogInit: High frequency timer resolution =3.507216 MHz
+[2015.04.29-00.35.36:271][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=8192.0GB
+[2015.04.29-00.35.36:271][  0]LogMemory: Platform Memory Stats for Windows
+[2015.04.29-00.35.36:271][  0]LogMemory: Process Physical Memory: 47.91 MB used, 47.91 MB peak
+[2015.04.29-00.35.36:271][  0]LogMemory: Process Virtual Memory: 24.47 MB used, 24.47 MB peak
+[2015.04.29-00.35.36:271][  0]LogMemory: Physical Memory: 3266.61 MB used, 8115.79 MB total
+[2015.04.29-00.35.36:271][  0]LogMemory: Virtual Memory: 275.98 MB used, 8388608.00 MB total
+[2015.04.29-00.35.36:294][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA Quadro K2000 (Feature Level 11_0)
+[2015.04.29-00.35.36:294][  0]LogD3D11RHI: Adapter has 1990MB of dedicated video memory, 0MB of dedicated system memory, and 3801MB of shared system memory, 1 output[s]
+[2015.04.29-00.35.36:294][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.04.29-00.35.36:298][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.04.29-00.35.36:304][  0]LogD3D11RHI: Async texture creation enabled
+[2015.04.29-00.35.36:359][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.04.29-00.35.36:416][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.04.29-00.35.36:417][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.04.29-00.35.36:491][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.04.29-00.35.39:945][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.29-00.35.40:449][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.29-00.35.40:510][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.04.29-00.35.40:789][  0]LogDerivedDataCache: Loaded boot cache 0.28s 39MB C:/Users/student/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.29-00.35.40:789][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/student/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.04.29-00.35.40:789][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Valadez_Isaac/GodKiller/God-Killer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.04.29-00.35.40:789][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.04.29-00.35.40:904][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.04.29-00.35.40:916][  0]LogDerivedDataCache: Using Local data cache path C:/Users/student/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.04.29-00.35.41:217][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.04.29-00.35.41:217][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.04.29-00.35.41:573][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.04.29-00.35.41:650][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.04.29-00.35.46:978][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.04.29-00.35.47:199][  0]SourceControl: Info Source control is disabled
+[2015.04.29-00.35.47:199][  0]SourceControl: Info Source control is disabled
+[2015.04.29-00.35.47:199][  0]SourceControl: Info Source control is disabled
+[2015.04.29-00.35.47:199][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.04.29-00.35.47:199][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.04.29-00.35.47:208][  0]SourceControl: Info Source control is disabled
+[2015.04.29-00.35.47:431][  0]LogObj: 24231 objects as part of root set at end of initial load.
+[2015.04.29-00.35.47:431][  0]LogUObjectAllocator: 5136440 out of 0 bytes used by permanent object pool.
+[2015.04.29-00.35.47:509][  0]LogEngine: Initializing Engine...
+[2015.04.29-00.35.50:659][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.04.29-00.35.50:679][  0]LogInit: FAudioDevice initialized.
+[2015.04.29-00.35.50:715][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.29-00.35.50:733][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/student/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.29-00.35.50:738][  0]LogInit: Texture streaming: Enabled
+[2015.04.29-00.35.50:827][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.04.29-00.35.50:827][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.3-2479750+++depot+UE4-Releases+4.7
+[2015.04.29-00.35.50:827][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.3-2479750+++depot+UE4-Releases+4.7
+[2015.04.29-00.35.50:828][  0]LogAnalytics: SetUserId 9918639a4e75d9c8592694a67116f866|7cdf87ab4a4f46ce8a69cc2ff99d3ac5|a1cf211a-62eb-4857-bff7-fc45380a1448
+[2015.04.29-00.35.50:828][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.04.29-00.35.50:849][  0]LogInit: Transaction tracking system initialized
+[2015.04.29-00.35.51:009][  0]BlueprintLog: New page: Editor Load
+[2015.04.29-00.35.51:042][  0]LogAssetRegistry: FAssetRegistry took 0.0096 seconds to start up
+[2015.04.29-00.35.51:042][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.04.29-00.35.51:544][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.29-00.35.51:895][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.29-00.35.52:135][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.04.29-00.35.52:135][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.04.29-00.35.52:164][  0]LogConsoleResponse:Display: 
+[2015.04.29-00.35.52:365][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.04.29-00.35.52:499][  0]SourceControl: Info Source control is disabled
+[2015.04.29-00.35.52:500][  0]Cmd: MAP LOAD FILE="D:/Valadez_Isaac/GodKiller/God-Killer/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.29-00.35.52:500][  0]LightingResults: New page: Lighting Build
+[2015.04.29-00.35.52:512][  0]MapCheck: New page: Map Check
+[2015.04.29-00.35.52:512][  0]LightingResults: New page: Lighting Build
+[2015.04.29-00.35.52:518][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000137F6520
+[2015.04.29-00.35.52:565][  0]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.29-00.35.54:852][  0]LogMaterial: Missing cached shader map for material Mat_Sparks, compiling. 
+[2015.04.29-00.35.54:998][  0]LogMaterial: Missing cached shader map for material Mat_Lightning, compiling. 
+[2015.04.29-00.35.55:206][  0]LogTexture:Display: Building textures: sword3 (AutoDXT)
+[2015.04.29-00.35.55:800][  0]LogTexture:Display: Building textures: sword3_normal (BC5)
+[2015.04.29-00.35.55:912][  0]LogMaterial: Missing cached shader map for material sword_mat, compiling. 
+[2015.04.29-00.35.55:950][  0]LogStaticMesh: Building static mesh sword...
+[2015.04.29-00.35.55:959][  0]LogStaticMesh: Built static mesh [8.969792ms] /Game/sword/sword.sword
+[2015.04.29-00.35.55:992][  0]LogMaterial: Missing cached shader map for material Mat_Aura, compiling. 
+[2015.04.29-00.35.56:005][  0]LogTexture:Display: Building textures: ThumbnailTexture (DXT1)
+[2015.04.29-00.35.56:046][  0]LogTexture:Display: Building textures: ThumbnailTexture (DXT1)
+[2015.04.29-00.35.57:488][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.29-00.36.01:368][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.04.29-00.36.01:387][  0]Cmd: MAP CHECKDEP
+[2015.04.29-00.36.01:387][  0]MapCheck: New page: ThirdPersonExampleMap - Apr 28, 2015, 10:36:01 AM
+[2015.04.29-00.36.01:513][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 125.731ms to complete.
+[2015.04.29-00.36.01:513][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 9.013
+[2015.04.29-00.36.02:120][  0]LogCollectionManager: Loaded 0 collections in 0.002428 seconds
+[2015.04.29-00.36.02:139][  0]LogContentBrowser: Native class hierarchy populated in 0.0193 seconds. Added 1696 classes and 261 folders.
+[2015.04.29-00.36.02:324][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0023 seconds. Added 1 classes and 2 folders.
+[2015.04.29-00.36.02:740][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.04.29-00.36.02:759][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.04.29-00.36.02:811][  0]LogLoad: Full Startup: 28.65 seconds (BP compile: 0.86 seconds)
+[2015.04.29-00.36.02:848][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Blueprints'
+[2015.04.29-00.36.03:589][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.04.29-00.36.04:523][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x656 (Frame:3).
+[2015.04.29-00.36.05:322][  5]LogAssetRegistry: Asset discovery search completed in 14.2884 seconds
+[2015.04.29-00.43.45:700][336]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Maps'
+[2015.04.29-00.43.47:622][426]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scene'
+[2015.04.29-00.43.54:468][723]LogTexture:Display: Building textures: DarkMetal_D (AutoDXT)
+[2015.04.29-00.43.54:546][723]LogMaterial: Missing cached shader map for material DarkMetal, compiling. 
+[2015.04.29-00.43.54:555][723]LogMaterial: Missing cached shader map for material frostedglassLight, compiling. 
+[2015.04.29-00.43.54:562][723]LogStaticMesh: Building static mesh Lanturn001...
+[2015.04.29-00.43.54:596][723]LogStaticMesh: Built static mesh [33.753269ms] /Game/Models/Lantern/Lanturn001.Lanturn001
+[2015.04.29-00.43.54:844][723]LogTexture:Display: Building textures: Metal_D (AutoDXT)
+[2015.04.29-00.43.54:978][723]LogMaterial: Missing cached shader map for material LightMetal, compiling. 
+[2015.04.29-00.43.55:486][723]LogTexture:Display: Building textures: stonebone_NRML (BC5)
+[2015.04.29-00.43.57:412][723]LogTexture:Display: Building textures: CaveTexture (AutoDXT)
+[2015.04.29-00.44.14:719][723]LogTexture:Display: Building textures: stonebone (AutoDXT)
+[2015.04.29-00.44.19:046][723]LogTexture:Display: Building textures: stonebone_O (AutoDXT)
+[2015.04.29-00.44.21:099][723]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2015.04.29-00.44.21:107][723]LogStaticMesh: Building static mesh newcave002...
+[2015.04.29-00.44.21:834][723]LogStaticMesh: Built static mesh [727.713684ms] /Game/Models/newcave002.newcave002
+[2015.04.29-00.44.22:842][723]LogTexture:Display: Building textures: StonePillar (AutoDXT)
+[2015.04.29-00.44.27:584][723]LogTexture:Display: Building textures: StonePillar_ao (AutoDXT)
+[2015.04.29-00.44.30:322][723]LogTexture:Display: Building textures: StonePillar_Nrml (BC5)
+[2015.04.29-00.44.30:847][723]LogMaterial: Missing cached shader map for material StonePillarMat, compiling. 
+[2015.04.29-00.44.30:856][723]LogStaticMesh: Building static mesh Pillar...
+[2015.04.29-00.44.31:033][723]LogStaticMesh: Built static mesh [177.215210ms] /Game/Models/Pillar/Pillar.Pillar
+[2015.04.29-00.44.31:124][723]LogMaterial: Missing cached shader map for material cave, compiling. 
+[2015.04.29-00.44.31:138][723]LogTexture:Display: Building textures: Texture2D_3 (BGRA8)
+[2015.04.29-00.44.31:206][723]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.04.29-00.44.31:783][723]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT)
+[2015.04.29-00.44.31:787][723]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT)
+[2015.04.29-00.44.31:790][723]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT)
+[2015.04.29-00.44.31:798][723]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT)
+[2015.04.29-00.44.31:800][723]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT)
+[2015.04.29-00.44.31:802][723]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT)
+[2015.04.29-00.44.31:806][723]LogTexture:Display: Building textures: HQ_Lightmap0_16 (AutoDXT)
+[2015.04.29-00.44.31:814][723]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.04.29-00.44.31:862][723]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2015.04.29-00.44.31:866][723]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2015.04.29-00.44.31:877][723]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2015.04.29-00.44.31:890][723]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2015.04.29-00.44.31:892][723]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2015.04.29-00.44.31:896][723]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2015.04.29-00.44.31:898][723]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2015.04.29-00.44.31:921][723]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2015.04.29-00.44.32:302][723]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT)
+[2015.04.29-00.44.32:306][723]LogTexture:Display: Building textures: HQ_Lightmap1_11 (AutoDXT)
+[2015.04.29-00.44.32:308][723]LogTexture:Display: Building textures: HQ_Lightmap1_12 (AutoDXT)
+[2015.04.29-00.44.32:320][723]LogTexture:Display: Building textures: HQ_Lightmap1_13 (AutoDXT)
+[2015.04.29-00.44.32:323][723]LogTexture:Display: Building textures: HQ_Lightmap1_14 (AutoDXT)
+[2015.04.29-00.44.32:331][723]LogTexture:Display: Building textures: HQ_Lightmap1_15 (AutoDXT)
+[2015.04.29-00.44.32:335][723]LogTexture:Display: Building textures: HQ_Lightmap1_16 (AutoDXT)
+[2015.04.29-00.44.32:337][723]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2015.04.29-00.44.32:339][723]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2015.04.29-00.44.32:343][723]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2015.04.29-00.44.32:350][723]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2015.04.29-00.44.32:352][723]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2015.04.29-00.44.32:355][723]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
+[2015.04.29-00.44.32:358][723]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT)
+[2015.04.29-00.44.32:403][723]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.04.29-00.44.32:779][723]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1)
+[2015.04.29-00.44.32:784][723]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1)
+[2015.04.29-00.44.32:787][723]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1)
+[2015.04.29-00.44.32:791][723]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1)
+[2015.04.29-00.44.32:794][723]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1)
+[2015.04.29-00.44.32:795][723]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1)
+[2015.04.29-00.44.32:798][723]LogTexture:Display: Building textures: LQ_Lightmap_0_16 (DXT1)
+[2015.04.29-00.44.32:805][723]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.04.29-00.44.32:821][723]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2015.04.29-00.44.32:825][723]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2015.04.29-00.44.32:831][723]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2015.04.29-00.44.32:839][723]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2015.04.29-00.44.32:840][723]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2015.04.29-00.44.32:843][723]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2015.04.29-00.44.32:845][723]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2015.04.29-00.44.32:920][723]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.29-00.44.32:920][723]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.04.29-00.44.32:960][723]Cmd: MAP LOAD FILE="D:/Valadez_Isaac/GodKiller/God-Killer/Content/Scene/NewCave.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.29-00.44.32:960][723]LightingResults: New page: Lighting Build
+[2015.04.29-00.44.33:065][723]LoadErrors: New page: Loading map: NewCave.umap
+[2015.04.29-00.44.33:078][723]MapCheck: New page: Map Check
+[2015.04.29-00.44.33:079][723]LightingResults: New page: Lighting Build
+[2015.04.29-00.44.33:090][723]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000019D8A700
+[2015.04.29-00.44.33:387][723]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.29-00.44.33:394][723]LogAIModule: Creating AISystem for world NewCave
+[2015.04.29-00.44.33:418][723]Cmd: MAP CHECKDEP
+[2015.04.29-00.44.33:418][723]MapCheck: New page: NewCave - Apr 28, 2015, 10:44:33 AM
+[2015.04.29-00.44.33:521][723]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 102.447ms to complete.
+[2015.04.29-00.44.33:521][723]LogFileHelpers: Loading map 'NewCave' took 0.564
+[2015.04.29-00.44.33:560][724]Cmd: UpdateLandscapeEditorData -warnings
+[2015.04.29-00.44.33:604][724]Cmd: UpdateLandscapeEditorData
+[2015.04.29-00.52.18:337][ 67]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
+[2015.04.29-00.52.21:362][193]LogTexture:Display: Building textures: Smoke_Sequence_T (AutoDXT)
+[2015.04.29-00.52.21:648][193]LogMaterial: Missing cached shader map for material Mat_subuv, compiling. 
+[2015.04.29-00.52.21:792][193]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0046 seconds. Added 2 classes and 2 folders.
+[2015.04.29-00.52.21:873][193]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.29-00.52.21:873][193]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.29-01.14.40:476][644]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2015.04.29-01.14.52:835][935]LogTexture:Display: Building textures: imgres (BGRA8)
+[2015.04.29-01.14.52:840][935]LogMaterial: Missing cached shader map for material gggg, compiling. 
+[2015.04.29-01.14.52:968][935]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.29-01.14.52:968][935]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.29-01.15.05:693][946]LogCascade: Quitting Cascade. FXSystem=0x000000000CA35D00
+[2015.04.29-01.15.08:764][171]LogMaterial: Missing cached shader map for material gggg, compiling. 
+[2015.04.29-01.15.08:818][171]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.04.29-01.15.08:991][171]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.04.29-01.15.08:991][171]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.04.29-01.15.08:991][171]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.04.29-01.15.08:991][171]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.04.29-01.15.09:009][171]LogMaterial: Missing cached shader map for material gggg, compiling. 
+[2015.04.29-01.15.09:014][171]LogMaterial: 0.000029 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-01.15.09:038][171]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.04.29-01.15.10:726][264]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 28 instructions
+[2015.04.29-01.15.10:726][264]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 64 instructions
+[2015.04.29-01.15.10:726][264]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-01.15.10:726][264]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.04.29-01.15.50:062][ 75]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models'
+[2015.04.29-01.15.54:761][194]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/Lantern'
+[2015.04.29-01.15.56:230][230]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/Pillar'
+[2015.04.29-01.15.57:016][255]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/Rocks'
+[2015.04.29-01.15.59:893][349]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models'
+[2015.04.29-01.16.03:409][440]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
+[2015.04.29-01.16.04:196][473]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scene'
+[2015.04.29-01.16.04:794][499]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/sword'
+[2015.04.29-01.16.07:285][568]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Terrain_texture'
+[2015.04.29-01.16.08:790][629]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP'
+[2015.04.29-01.16.10:508][698]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Animations'
+[2015.04.29-01.16.11:969][729]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Blueprints'
+[2015.04.29-01.16.13:057][756]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Character'
+[2015.04.29-01.16.14:152][779]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Maps'
+[2015.04.29-01.16.15:053][816]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Meshes'
+[2015.04.29-01.16.23:611][120]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2015.04.29-01.16.26:162][228]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.29-01.16.26:162][228]PIE: New page: PIE session: NewCave (Apr 28, 2015, 11:16:26 AM)
+[2015.04.29-01.16.26:198][228]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035072s)
+[2015.04.29-01.16.26:198][228]LogPlayLevel: PIE: World Init took: (0.000569s)
+[2015.04.29-01.16.26:198][228]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/NewCave.NewCave to /Game/Scene/UEDPIE_0_NewCave.NewCave (0.035824s)
+[2015.04.29-01.16.26:330][228]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.29-01.16.26:331][228]LogAIModule: Creating AISystem for world NewCave
+[2015.04.29-01.16.26:346][228]LogWorld: Bringing World /Game/Scene/UEDPIE_0_NewCave.NewCave up for play (max tick rate 0) at 2015.04.28-18.16.26
+[2015.04.29-01.16.26:347][228]LogWorld: Bringing up level for play took: 0.015099
+[2015.04.29-01.16.26:468][228]PIE: Info Play in editor start time for /Game/Scene/UEDPIE_0_NewCave 0.662
+[2015.04.29-01.17.13:567][726]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.29-01.17.13:567][726]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.04.29-01.17.13:587][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000016FD00E0
+[2015.04.29-01.17.13:587][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CAF39C0
+[2015.04.29-01.17.13:588][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CA35D00
+[2015.04.29-01.17.26:806][172]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scene'
+[2015.04.29-01.17.49:199][841]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.29-01.17.49:200][841]PIE: New page: PIE session: NewCave (Apr 28, 2015, 11:17:49 AM)
+[2015.04.29-01.17.49:248][841]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031058s)
+[2015.04.29-01.17.49:248][841]LogPlayLevel: PIE: World Init took: (0.000578s)
+[2015.04.29-01.17.49:249][841]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/NewCave.NewCave to /Game/Scene/UEDPIE_0_NewCave.NewCave (0.031803s)
+[2015.04.29-01.17.49:283][841]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.29-01.17.49:285][841]LogAIModule: Creating AISystem for world NewCave
+[2015.04.29-01.17.49:299][841]LogWorld: Bringing World /Game/Scene/UEDPIE_0_NewCave.NewCave up for play (max tick rate 0) at 2015.04.28-18.17.49
+[2015.04.29-01.17.49:300][841]LogWorld: Bringing up level for play took: 0.014927
+[2015.04.29-01.17.49:302][841]PIE: Info Play in editor start time for /Game/Scene/UEDPIE_0_NewCave -0.508
+[2015.04.29-01.18.29:312][791]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F351580
+[2015.04.29-01.18.59:779][511]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.29-01.18.59:779][511]PIE: New page: PIE session: NewCave (Apr 28, 2015, 11:18:59 AM)
+[2015.04.29-01.18.59:828][511]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031434s)
+[2015.04.29-01.18.59:829][511]LogPlayLevel: PIE: World Init took: (0.000616s)
+[2015.04.29-01.18.59:829][511]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/NewCave.NewCave to /Game/Scene/UEDPIE_0_NewCave.NewCave (0.032223s)
+[2015.04.29-01.18.59:864][511]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.29-01.18.59:866][511]LogAIModule: Creating AISystem for world NewCave
+[2015.04.29-01.18.59:880][511]LogWorld: Bringing World /Game/Scene/UEDPIE_0_NewCave.NewCave up for play (max tick rate 0) at 2015.04.28-18.18.59
+[2015.04.29-01.18.59:881][511]LogWorld: Bringing up level for play took: 0.014845
+[2015.04.29-01.18.59:883][511]PIE: Info Play in editor start time for /Game/Scene/UEDPIE_0_NewCave 0.069
+[2015.04.29-01.19.05:789][827]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000A00E660
+[2015.04.29-01.19.09:114][956]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2015.04.29-01.19.12:753][ 50]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models'
+[2015.04.29-01.19.16:033][133]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/Lantern'
+[2015.04.29-01.19.18:878][200]LogMaterial: Missing cached shader map for material frostedglassLight, compiling. 
+[2015.04.29-01.19.18:937][200]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2015.04.29-01.19.18:971][200]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2015.04.29-01.19.18:971][200]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2015.04.29-01.19.18:971][200]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2015.04.29-01.19.18:971][200]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2015.04.29-01.19.18:975][200]LogMaterial: Missing cached shader map for material frostedglassLight, compiling. 
+[2015.04.29-01.19.18:980][200]LogMaterial: 0.000036 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-01.19.19:006][200]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_4, compiling. 
+[2015.04.29-01.19.19:008][200]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionAdd_0, compiling. 
+[2015.04.29-01.19.19:010][200]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2015.04.29-01.19.19:012][200]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_0, compiling. 
+[2015.04.29-01.19.19:014][200]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTime_0, compiling. 
+[2015.04.29-01.19.20:032][270]MaterialEditorStats: Info Base pass shader with static lighting: 60 instructions
+[2015.04.29-01.19.20:032][270]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
+[2015.04.29-01.19.20:032][270]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.29-01.19.20:032][270]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.04.29-01.19.33:871][327]LogMaterial: Missing cached shader map for material frostedglassLight, compiling. 
+[2015.04.29-01.19.33:876][327]LogMaterial: 0.000064 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-01.19.33:898][327]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_0, compiling. 
+[2015.04.29-01.19.34:512][372]MaterialEditorStats: Info Base pass shader with static lighting: 60 instructions
+[2015.04.29-01.19.34:512][372]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
+[2015.04.29-01.19.34:513][372]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.29-01.19.34:513][372]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.04.29-01.19.35:653][452]LogMaterial: Missing cached shader map for material frostedglassLight, compiling. 
+[2015.04.29-01.19.35:658][452]LogMaterial: 0.000068 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-01.19.35:708][452]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionAdd_0, compiling. 
+[2015.04.29-01.19.36:304][497]MaterialEditorStats: Info Base pass shader with static lighting: 60 instructions
+[2015.04.29-01.19.36:304][497]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
+[2015.04.29-01.19.36:304][497]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.29-01.19.36:304][497]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.04.29-01.19.37:421][568]LogMaterial: Missing cached shader map for material frostedglassLight, compiling. 
+[2015.04.29-01.19.37:426][568]LogMaterial: 0.000056 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-01.19.38:124][623]MaterialEditorStats: Info Base pass shader with static lighting: 66 instructions
+[2015.04.29-01.19.38:124][623]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 35 instructions
+[2015.04.29-01.19.38:124][623]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.29-01.19.38:124][623]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.04.29-01.19.40:531][807]LogMaterialEditor: Applying material frostedglassLight
+[2015.04.29-01.19.42:449][807]LogMaterial: Missing cached shader map for material frostedglassLight, compiling. 
+[2015.04.29-01.19.42:469][807]LogMaterial: 0.000106 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-01.19.42:611][807]LogMaterial: Missing cached shader map for material frostedglassLight, compiling. 
+[2015.04.29-01.19.42:655][807]LogMaterial: Missing cached shader map for material frostedglassLight, compiling. 
+[2015.04.29-01.19.42:665][807]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.29-01.19.42:665][807]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.29-01.19.42:669][807]LogMaterial: 0.004185 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-01.19.44:677][984]MaterialEditorStats: Info Base pass shader with static lighting: 95 instructions
+[2015.04.29-01.19.44:678][984]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2015.04.29-01.19.44:678][984]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.29-01.19.44:678][984]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.04.29-01.21.09:212][505]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.29-01.21.09:212][505]PIE: New page: PIE session: NewCave (Apr 28, 2015, 11:21:09 AM)
+[2015.04.29-01.21.09:261][505]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031887s)
+[2015.04.29-01.21.09:262][505]LogPlayLevel: PIE: World Init took: (0.000624s)
+[2015.04.29-01.21.09:262][505]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/NewCave.NewCave to /Game/Scene/UEDPIE_0_NewCave.NewCave (0.032695s)
+[2015.04.29-01.21.09:292][505]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.29-01.21.09:294][505]LogAIModule: Creating AISystem for world NewCave
+[2015.04.29-01.21.09:309][505]LogWorld: Bringing World /Game/Scene/UEDPIE_0_NewCave.NewCave up for play (max tick rate 0) at 2015.04.28-18.21.09
+[2015.04.29-01.21.09:309][505]LogWorld: Bringing up level for play took: 0.014998
+[2015.04.29-01.21.09:312][505]PIE: Info Play in editor start time for /Game/Scene/UEDPIE_0_NewCave -0.507
+[2015.04.29-01.21.27:900][520]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000009890A40
+[2015.04.29-01.22.10:283][706]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.29-01.22.10:283][706]PIE: New page: PIE session: NewCave (Apr 28, 2015, 11:22:10 AM)
+[2015.04.29-01.22.10:330][706]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031590s)
+[2015.04.29-01.22.10:331][706]LogPlayLevel: PIE: World Init took: (0.000599s)
+[2015.04.29-01.22.10:331][706]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/NewCave.NewCave to /Game/Scene/UEDPIE_0_NewCave.NewCave (0.032358s)
+[2015.04.29-01.22.10:362][706]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.29-01.22.10:364][706]LogAIModule: Creating AISystem for world NewCave
+[2015.04.29-01.22.10:378][706]LogWorld: Bringing World /Game/Scene/UEDPIE_0_NewCave.NewCave up for play (max tick rate 0) at 2015.04.28-18.22.10
+[2015.04.29-01.22.10:379][706]LogWorld: Bringing up level for play took: 0.014930
+[2015.04.29-01.22.10:381][706]PIE: Info Play in editor start time for /Game/Scene/UEDPIE_0_NewCave 0.565
+[2015.04.29-01.22.44:654][530]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E019C60
+[2015.04.29-01.22.45:237][553]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar2)
+[2015.04.29-01.23.24:105][816]Cmd: SELECT NONE
+[2015.04.29-01.23.28:987][  8]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2015.04.29-01.24.04:235][349]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Lanturn6)
+[2015.04.29-01.24.19:168][901]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight6)
+[2015.04.29-01.24.20:774][959]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2015.04.29-01.24.21:643][989]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight6)
+[2015.04.29-01.26.56:718][824]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2015.04.29-01.26.59:890][911]LogRenderer:Warning: Reallocating scene render targets to support 1208x1048 (Frame:82055).
+[2015.04.29-01.27.07:463][105]LogRenderer:Warning: Reallocating scene render targets to support 1216x1048 (Frame:82491).
+[2015.04.29-01.27.07:667][108]LogRenderer:Warning: Reallocating scene render targets to support 1224x1048 (Frame:82500).
+[2015.04.29-01.27.33:145][473]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 D:/Valadez_Isaac/GodKiller/subuv/Mat_Fire_SubUv.tga)
+[2015.04.29-01.27.33:227][473]0.000038 seconds to analyze Texture2D /Game/Materials/Mat_Fire_SubUv.Mat_Fire_SubUv
+
+[2015.04.29-01.27.33:237][473]LogTexture:Display: Building textures: Mat_Fire_SubUv (AutoDXT)
+[2015.04.29-01.27.34:658][473]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.29-01.27.34:658][473]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2015.04.29-01.29.27:101][ 15]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.29-01.29.27:101][ 15]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.29-01.29.31:295][350]LogCascade: Quitting Cascade. FXSystem=0x0000000009893920
+[2015.04.29-01.29.33:912][571]LogCascade: Quitting Cascade. FXSystem=0x000000000EB05800
+[2015.04.29-01.29.37:754][727]LogMaterial: Missing cached shader map for material gggg, compiling. 
+[2015.04.29-01.29.37:810][727]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2015.04.29-01.29.37:844][727]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2015.04.29-01.29.37:845][727]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_2) Already registered. Aborting.
+[2015.04.29-01.29.37:845][727]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2015.04.29-01.29.37:845][727]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_2) Already registered. Aborting.
+[2015.04.29-01.29.37:848][727]LogMaterial: Missing cached shader map for material gggg, compiling. 
+[2015.04.29-01.29.37:853][727]LogMaterial: 0.000046 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-01.29.37:875][727]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.04.29-01.29.39:933][936]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 28 instructions
+[2015.04.29-01.29.39:933][936]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 64 instructions
+[2015.04.29-01.29.39:933][936]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-01.29.39:933][936]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.04.29-01.30.06:166][145]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-01.30.07:727][175]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-01.30.07:759][175]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_5) Not registered. Aborting.
+[2015.04.29-01.30.07:812][175]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_5) Not registered. Aborting.
+[2015.04.29-01.30.07:812][175]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_3) Already registered. Aborting.
+[2015.04.29-01.30.07:812][175]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_5) Not registered. Aborting.
+[2015.04.29-01.30.07:812][175]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_3) Already registered. Aborting.
+[2015.04.29-01.30.07:816][175]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-01.30.07:824][175]LogMaterial: 0.000049 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-01.30.07:849][175]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.04.29-01.30.11:939][277]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 28 instructions
+[2015.04.29-01.30.11:939][277]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 64 instructions
+[2015.04.29-01.30.11:939][277]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-01.30.11:939][277]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.04.29-01.30.13:717][323]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-01.30.13:725][323]LogMaterial:Warning: FMaterialUniformExpressionTexture had invalid TextureIndex! (0 / 0)
+[2015.04.29-01.30.13:725][323]LogMaterial: 0.000098 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-01.30.15:781][372]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2015.04.29-01.30.15:781][372]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 61 instructions
+[2015.04.29-01.30.15:781][372]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2015.04.29-01.30.15:781][372]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.04.29-01.30.16:005][378]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-01.30.16:010][378]LogMaterial: 0.000069 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-01.30.16:010][378]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.04.29-01.30.16:034][378]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.04.29-01.30.17:667][423]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2015.04.29-01.30.17:667][423]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 61 instructions
+[2015.04.29-01.30.17:667][423]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2015.04.29-01.30.17:667][423]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.04.29-01.30.22:622][538]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
+[2015.04.29-01.30.24:779][592]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.29-01.30.24:779][592]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.29-01.30.27:694][662]LogMaterial: Missing cached shader map for material Mat_subuv, compiling. 
+[2015.04.29-01.30.27:746][662]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_6) Not registered. Aborting.
+[2015.04.29-01.30.27:782][662]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_6) Not registered. Aborting.
+[2015.04.29-01.30.27:782][662]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_4) Already registered. Aborting.
+[2015.04.29-01.30.27:782][662]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_6) Not registered. Aborting.
+[2015.04.29-01.30.27:782][662]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_4) Already registered. Aborting.
+[2015.04.29-01.30.27:787][662]LogMaterial: Missing cached shader map for material Mat_subuv, compiling. 
+[2015.04.29-01.30.27:792][662]LogMaterial: 0.000047 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-01.30.27:842][662]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_0, compiling. 
+[2015.04.29-01.30.27:843][662]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_5, compiling. 
+[2015.04.29-01.30.27:845][662]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.04.29-01.30.27:847][662]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_6, compiling. 
+[2015.04.29-01.30.28:694][683]LogCascade: Quitting Cascade. FXSystem=0x0000000034D679C0
+[2015.04.29-01.30.29:639][707]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2015.04.29-01.30.29:639][707]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 96 instructions
+[2015.04.29-01.30.29:639][707]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-01.30.29:639][707]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.04.29-01.31.04:689][653]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-01.31.04:694][653]LogMaterial: 0.000074 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-01.31.04:694][653]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_0, compiling. 
+[2015.04.29-01.31.06:645][707]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2015.04.29-01.31.06:645][707]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 61 instructions
+[2015.04.29-01.31.06:645][707]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2015.04.29-01.31.06:645][707]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.04.29-01.31.09:016][771]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2015.04.29-01.31.12:937][853]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-01.31.12:942][853]LogMaterial: 0.000068 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-01.31.12:963][853]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_0, compiling. 
+[2015.04.29-01.31.14:653][891]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2015.04.29-01.31.14:653][891]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 61 instructions
+[2015.04.29-01.31.14:653][891]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2015.04.29-01.31.14:653][891]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.04.29-01.31.16:435][928]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Mat_Fire_SubUv" FILE="D:/Valadez_Isaac/GodKiller/God-Killer/Content/Materials/Mat_Fire_SubUv.uasset" SILENT=true
+[2015.04.29-01.31.19:898][928]LogSavePackage: Save=3453.336426ms
+[2015.04.29-01.31.19:898][928]LogSavePackage: Moving 'D:/Valadez_Isaac/GodKiller/God-Killer/Saved/Mat_Fire_SubUv3C5598F441539B5BADBEEDAB15C04773.tmp' to 'D:/Valadez_Isaac/GodKiller/God-Killer/Content/Materials/Mat_Fire_SubUv.uasset'
+[2015.04.29-01.31.37:130][392]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.29-01.31.37:136][392]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-01.31.37:142][392]LogMaterial: 0.000080 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-01.31.37:164][392]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_2, compiling. 
+[2015.04.29-01.31.37:166][392]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_3, compiling. 
+[2015.04.29-01.31.39:193][448]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2015.04.29-01.31.39:193][448]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 61 instructions
+[2015.04.29-01.31.39:193][448]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2015.04.29-01.31.39:193][448]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.04.29-01.31.41:138][500]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-01.31.41:143][500]LogMaterial: 0.000069 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-01.31.41:169][500]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_3, compiling. 
+[2015.04.29-01.31.42:838][546]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2015.04.29-01.31.42:839][546]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 61 instructions
+[2015.04.29-01.31.42:839][546]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2015.04.29-01.31.42:839][546]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.04.29-01.31.44:159][580]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0065 seconds. Added 1 classes and 2 folders.
+[2015.04.29-01.32.32:194][985]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-01.32.32:199][985]LogMaterial: 0.000078 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-01.32.34:255][ 42]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2015.04.29-01.32.34:256][ 42]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 61 instructions
+[2015.04.29-01.32.34:256][ 42]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2015.04.29-01.32.34:256][ 42]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.04.29-01.32.55:220][608]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.29-01.32.55:220][608]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.29-01.32.55:220][608]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.29-01.32.55:220][608]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.29-01.32.55:221][608]LogUObjectHash:Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.Fire_SubUV:MaterialGraph_3.MaterialGraphNode_17 or MaterialGraphNode /Engine/Transient.Mat_subuv:MaterialGraph_4.MaterialGraphNode_17
+[2015.04.29-01.32.55:221][608]LogUObjectHash:Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.Fire_SubUV:MaterialGraph_3.MaterialGraphNode_17 or MaterialGraphNode /Engine/Transient.Mat_subuv:MaterialGraph_4.MaterialGraphNode_17
+[2015.04.29-01.32.55:221][608]LogProperty:Warning: ObjectProperty /Script/Engine.MaterialExpression:ExpressionInput.Expression: unresolved reference to 'MaterialExpressionClamp'MaterialGraphNode_17.MaterialExpressionClamp_0')'
+[2015.04.29-01.32.55:224][608]LogUObjectHash:Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.Fire_SubUV:MaterialGraph_3.MaterialGraphNode_15 or MaterialGraphNode /Engine/Transient.Mat_subuv:MaterialGraph_4.MaterialGraphNode_15
+[2015.04.29-01.32.55:224][608]LogUObjectHash:Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.Fire_SubUV:MaterialGraph_3.MaterialGraphNode_15 or MaterialGraphNode /Engine/Transient.Mat_subuv:MaterialGraph_4.MaterialGraphNode_15
+[2015.04.29-01.32.55:225][608]LogProperty:Warning: ObjectProperty /Script/Engine.MaterialExpression:ExpressionInput.Expression: unresolved reference to 'MaterialExpressionAdd'MaterialGraphNode_15.MaterialExpressionAdd_0')'
+[2015.04.29-01.32.55:257][608]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-01.32.55:263][608]LogMaterial: 0.000061 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-01.32.55:263][608]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_2, compiling. 
+[2015.04.29-01.32.57:281][664]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2015.04.29-01.32.57:281][664]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 61 instructions
+[2015.04.29-01.32.57:281][664]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2015.04.29-01.32.57:281][664]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.04.29-01.33.11:251][ 39]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-01.33.11:256][ 39]LogMaterial: 0.000075 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-01.33.11:306][ 39]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_2, compiling. 
+[2015.04.29-01.33.11:308][ 39]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_2, compiling. 
+[2015.04.29-01.33.12:944][ 85]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2015.04.29-01.33.12:944][ 85]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 61 instructions
+[2015.04.29-01.33.12:944][ 85]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2015.04.29-01.33.12:944][ 85]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.04.29-01.33.18:003][219]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-01.33.18:009][219]LogMaterial: 0.000068 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-01.33.18:033][219]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_3, compiling. 
+[2015.04.29-01.33.19:681][265]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2015.04.29-01.33.19:681][265]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 61 instructions
+[2015.04.29-01.33.19:681][265]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2015.04.29-01.33.19:681][265]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.04.29-01.33.31:268][575]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-01.33.31:273][575]LogMaterial: 0.000066 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-01.33.31:298][575]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_2, compiling. 
+[2015.04.29-01.33.32:994][623]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 39 instructions
+[2015.04.29-01.33.32:994][623]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 75 instructions
+[2015.04.29-01.33.32:994][623]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-01.33.32:994][623]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.04.29-01.33.35:757][696]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-01.33.35:762][696]LogMaterial: 0.000077 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-01.33.37:505][744]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 40 instructions
+[2015.04.29-01.33.37:505][744]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 76 instructions
+[2015.04.29-01.33.37:505][744]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-01.33.37:505][744]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.04.29-01.33.42:105][866]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-01.33.42:111][866]LogMaterial: 0.000070 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-01.33.43:877][915]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 40 instructions
+[2015.04.29-01.33.43:877][915]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 76 instructions
+[2015.04.29-01.33.43:877][915]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-01.33.43:877][915]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.04.29-01.33.53:899][183]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-01.33.53:905][183]LogMaterial: 0.000071 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-01.33.53:969][183]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_3, compiling. 
+[2015.04.29-01.33.55:674][230]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 40 instructions
+[2015.04.29-01.33.55:674][230]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 76 instructions
+[2015.04.29-01.33.55:674][230]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-01.33.55:675][230]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.04.29-01.34.09:729][609]LogMaterialEditor: Applying material Fire_SubUV
+[2015.04.29-01.34.11:150][609]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-01.34.11:171][609]LogMaterial: 0.000101 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-01.34.11:261][609]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-01.34.11:286][609]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-01.34.11:304][609]LogMaterial: 0.002613 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-01.34.14:713][703]LogMaterialEditor: Saving and Compiling material Fire_SubUV
+[2015.04.29-01.34.16:402][703]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-01.34.16:436][703]LogMaterial: 0.000092 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-01.34.16:529][703]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-01.34.16:559][703]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-01.34.16:583][703]LogMaterial: 0.003149 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-01.34.26:012][703]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Fire_SubUV" FILE="D:/Valadez_Isaac/GodKiller/God-Killer/Content/Materials/Fire_SubUV.uasset" SILENT=true
+[2015.04.29-01.34.26:260][703]LogSavePackage: Save=247.671082ms
+[2015.04.29-01.34.26:260][703]LogSavePackage: Moving 'D:/Valadez_Isaac/GodKiller/God-Killer/Saved/Fire_SubUVB563509A4790668D214B77BE4CD25B73.tmp' to 'D:/Valadez_Isaac/GodKiller/God-Killer/Content/Materials/Fire_SubUV.uasset'
+[2015.04.29-01.34.26:275][703]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2015.04.29-01.34.26:275][703]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 96 instructions
+[2015.04.29-01.34.26:275][703]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-01.34.26:275][703]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.04.29-01.34.42:247][110]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Fire_SubUv_T" FILE="D:/Valadez_Isaac/GodKiller/God-Killer/Content/Materials/Fire_SubUv_T.uasset" SILENT=true
+[2015.04.29-01.34.42:356][110]LogSavePackage: Save=108.215462ms
+[2015.04.29-01.34.42:356][110]LogSavePackage: Moving 'D:/Valadez_Isaac/GodKiller/God-Killer/Saved/Fire_SubUv_T71322448416A0360DBEE71B6911F50F8.tmp' to 'D:/Valadez_Isaac/GodKiller/God-Killer/Content/Materials/Fire_SubUv_T.uasset'
+[2015.04.29-01.34.42:502][110]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000034D679C0
+[2015.04.29-01.34.42:502][110]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000015FED940
+[2015.04.29-01.34.42:502][110]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000009893920
+[2015.04.29-01.34.42:502][110]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000009851440
+[2015.04.29-01.34.42:502][110]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000EB05800
+[2015.04.29-01.34.42:502][110]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000092460C0
+[2015.04.29-01.34.42:606][110]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Fire_SubUV" FILE="D:/Valadez_Isaac/GodKiller/God-Killer/Content/Materials/Fire_SubUV.uasset" SILENT=true
+[2015.04.29-01.34.42:616][110]LogSavePackage: Save=3.845500ms
+[2015.04.29-01.34.42:616][110]LogSavePackage: Moving 'D:/Valadez_Isaac/GodKiller/God-Killer/Saved/Fire_SubUV58B0D31B45E3621F40756895019338BD.tmp' to 'D:/Valadez_Isaac/GodKiller/God-Killer/Content/Materials/Fire_SubUV.uasset'
+[2015.04.29-01.35.24:797][ 10]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.29-01.35.24:797][ 10]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.29-01.35.43:638][481]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
+[2015.04.29-01.35.45:382][524]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.29-01.35.45:382][524]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.29-01.38.22:552][282]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2015.04.29-01.38.26:842][362]LogMaterial: Missing cached shader map for material Mat_subuv, compiling. 
+[2015.04.29-01.38.26:847][362]LogMaterial: 0.000085 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-01.38.26:869][362]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_1, compiling. 
+[2015.04.29-01.38.26:870][362]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.04.29-01.38.26:892][362]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_1, compiling. 
+[2015.04.29-01.38.26:893][362]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_5, compiling. 
+[2015.04.29-01.38.26:895][362]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.04.29-01.38.26:897][362]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_6, compiling. 
+[2015.04.29-01.38.26:899][362]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.04.29-01.38.29:106][413]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2015.04.29-01.38.29:106][413]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 96 instructions
+[2015.04.29-01.38.29:106][413]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-01.38.29:106][413]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.04.29-01.38.31:759][471]LogMaterial: Missing cached shader map for material Mat_subuv, compiling. 
+[2015.04.29-01.38.31:764][471]LogMaterial: 0.000064 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-01.38.31:785][471]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.04.29-01.38.33:625][513]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2015.04.29-01.38.33:625][513]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 97 instructions
+[2015.04.29-01.38.33:625][513]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-01.38.33:625][513]MaterialEditorStats: Info Texture samplers: 9/16
+[2015.04.29-01.38.55:002][996]LogEditorTransaction: Undo Move Node
+[2015.04.29-01.38.55:048][996]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-01.38.55:054][996]LogMaterial: 0.000070 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-01.38.55:066][996]LogMaterial: Missing cached shader map for material Mat_subuv, compiling. 
+[2015.04.29-01.38.55:072][996]LogMaterial: 0.000084 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-01.38.55:863][ 10]LogEditorTransaction: Undo Move Node
+[2015.04.29-01.38.55:908][ 10]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-01.38.55:914][ 10]LogMaterial: 0.000058 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-01.38.55:920][ 10]LogMaterial: Missing cached shader map for material Mat_subuv, compiling. 
+[2015.04.29-01.38.55:927][ 10]LogMaterial: 0.000053 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-01.38.56:632][ 27]LogEditorTransaction: Undo Create Pin Link
+[2015.04.29-01.38.56:680][ 27]LogMaterial: Missing cached shader map for material Mat_subuv, compiling. 
+[2015.04.29-01.38.56:704][ 27]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-01.38.56:712][ 27]LogMaterial: 0.000075 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-01.38.56:719][ 27]LogMaterial: Missing cached shader map for material Mat_subuv, compiling. 
+[2015.04.29-01.38.56:727][ 27]LogMaterial: 0.000056 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-01.38.56:748][ 27]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.04.29-01.38.57:392][ 40]LogEditorTransaction: Undo Move Node
+[2015.04.29-01.38.57:440][ 40]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-01.38.57:448][ 40]LogMaterial: 0.000069 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-01.38.57:456][ 40]LogMaterial: Missing cached shader map for material Mat_subuv, compiling. 
+[2015.04.29-01.38.57:463][ 40]LogMaterial: 0.000055 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-01.38.58:056][ 54]LogEditorTransaction: Undo Material Editor: New Expression
+[2015.04.29-01.38.58:104][ 54]LogMaterial: Missing cached shader map for material Mat_subuv, compiling. 
+[2015.04.29-01.38.58:125][ 54]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-01.38.58:133][ 54]LogMaterial: 0.000038 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-01.38.58:138][ 54]LogMaterial: Missing cached shader map for material Mat_subuv, compiling. 
+[2015.04.29-01.38.58:146][ 54]LogMaterial: 0.000055 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-01.38.58:932][ 71]LogEditorTransaction: Undo Edit Out Val
+[2015.04.29-01.38.58:995][ 71]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-01.38.59:002][ 71]LogMaterial: 0.000065 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-01.38.59:009][ 71]LogMaterial: Missing cached shader map for material Mat_subuv, compiling. 
+[2015.04.29-01.38.59:017][ 71]LogMaterial: 0.000041 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-01.39.01:060][117]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 40 instructions
+[2015.04.29-01.39.01:061][117]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 76 instructions
+[2015.04.29-01.39.01:061][117]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-01.39.01:061][117]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.04.29-01.39.02:218][143]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2015.04.29-01.39.02:218][143]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 96 instructions
+[2015.04.29-01.39.02:218][143]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-01.39.02:218][143]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.04.29-01.39.05:073][204]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-01.39.05:078][204]LogMaterial: 0.000065 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-01.39.05:079][204]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.04.29-01.39.05:109][204]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_2, compiling. 
+[2015.04.29-01.39.05:111][204]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_3, compiling. 
+[2015.04.29-01.39.05:113][204]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_2, compiling. 
+[2015.04.29-01.39.05:114][204]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.04.29-01.39.06:901][245]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 40 instructions
+[2015.04.29-01.39.06:902][245]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 76 instructions
+[2015.04.29-01.39.06:902][245]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-01.39.06:902][245]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.04.29-01.39.10:792][331]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-01.39.10:797][331]LogMaterial: 0.000070 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-01.39.10:819][331]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.04.29-01.39.12:652][374]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 40 instructions
+[2015.04.29-01.39.12:652][374]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 76 instructions
+[2015.04.29-01.39.12:652][374]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-01.39.12:652][374]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.04.29-01.39.52:311][270]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-01.39.52:321][270]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-01.39.52:326][270]LogMaterial: 0.000065 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-01.39.54:567][322]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2015.04.29-01.39.54:567][322]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 96 instructions
+[2015.04.29-01.39.54:567][322]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-01.39.54:567][322]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.04.29-01.40.17:431][840]LogMaterialEditor: Applying material Fire_SubUV
+[2015.04.29-01.40.18:853][840]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-01.40.18:874][840]LogMaterial: 0.000070 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-01.40.18:950][840]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-01.40.18:972][840]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-01.40.18:988][840]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.29-01.40.18:988][840]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.29-01.40.18:988][840]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.29-01.40.18:988][840]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.29-01.40.18:991][840]LogMaterial: 0.003007 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-01.40.28:853][ 65]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 90 instructions
+[2015.04.29-01.40.28:853][ 65]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 126 instructions
+[2015.04.29-01.40.28:853][ 65]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-01.40.28:853][ 65]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.04.29-01.42.26:889][946]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-01.42.26:895][946]LogMaterial: 0.000074 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-01.42.29:111][996]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2015.04.29-01.42.29:111][996]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 96 instructions
+[2015.04.29-01.42.29:111][996]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-01.42.29:111][996]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.04.29-01.42.30:351][ 24]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-01.42.30:356][ 24]LogMaterial: 0.000068 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-01.42.30:397][ 24]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_3, compiling. 
+[2015.04.29-01.42.32:128][ 64]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2015.04.29-01.42.32:128][ 64]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 96 instructions
+[2015.04.29-01.42.32:128][ 64]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-01.42.32:128][ 64]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.04.29-01.42.33:158][ 86]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-01.42.33:163][ 86]LogMaterial: 0.000069 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-01.42.35:018][129]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2015.04.29-01.42.35:018][129]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 96 instructions
+[2015.04.29-01.42.35:018][129]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-01.42.35:018][129]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.04.29-01.42.40:871][260]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-01.42.40:877][260]LogMaterial: 0.000068 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-01.42.42:731][303]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2015.04.29-01.42.42:731][303]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 96 instructions
+[2015.04.29-01.42.42:731][303]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-01.42.42:731][303]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.04.29-01.53.24:776][855]LogEditorFactories: Performing atomic reimport of [D:/Valadez_Isaac/GodKiller/subuv/Mat_Fire_SubUv.tga]
+[2015.04.29-01.53.24:776][855]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 D:/Valadez_Isaac/GodKiller/subuv/Mat_Fire_SubUv.tga)
+[2015.04.29-01.53.24:815][855]LogTexture:Display: Building textures: Fire_SubUv_T (AutoDXT)
+[2015.04.29-01.53.26:232][855]LogEditorFactories: -- imported successfully
+[2015.04.29-01.55.08:418][320]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.29-01.55.12:586][320]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Fire_SubUV" FILE="D:/Valadez_Isaac/GodKiller/God-Killer/Content/Materials/Fire_SubUV.uasset" SILENT=true
+[2015.04.29-01.55.12:879][320]LogSavePackage: Save=287.098938ms
+[2015.04.29-01.55.12:879][320]LogSavePackage: Moving 'D:/Valadez_Isaac/GodKiller/God-Killer/Saved/Fire_SubUV380DC7CF481999268197A4AEA1495B83.tmp' to 'D:/Valadez_Isaac/GodKiller/God-Killer/Content/Materials/Fire_SubUV.uasset'
+[2015.04.29-01.55.12:902][320]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Fire_SubUv_P" FILE="D:/Valadez_Isaac/GodKiller/God-Killer/Content/Materials/Fire_SubUv_P.uasset" SILENT=true
+[2015.04.29-01.55.12:935][320]LogSavePackage: Save=32.186783ms
+[2015.04.29-01.55.12:935][320]LogSavePackage: Moving 'D:/Valadez_Isaac/GodKiller/God-Killer/Saved/Fire_SubUv_PE0F06078439D7CEEFA72D39B0B272953.tmp' to 'D:/Valadez_Isaac/GodKiller/God-Killer/Content/Materials/Fire_SubUv_P.uasset'
+[2015.04.29-01.55.12:948][320]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Fire_SubUv_T" FILE="D:/Valadez_Isaac/GodKiller/God-Killer/Content/Materials/Fire_SubUv_T.uasset" SILENT=true
+[2015.04.29-01.55.16:349][320]LogSavePackage: Save=3394.782959ms
+[2015.04.29-01.55.16:349][320]LogSavePackage: Moving 'D:/Valadez_Isaac/GodKiller/God-Killer/Saved/Fire_SubUv_T6EBD88F149990B83EA39238676E379B0.tmp' to 'D:/Valadez_Isaac/GodKiller/God-Killer/Content/Materials/Fire_SubUv_T.uasset'
+[2015.04.29-01.55.16:372][320]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Lantern/frostedglassLight" FILE="D:/Valadez_Isaac/GodKiller/God-Killer/Content/Models/Lantern/frostedglassLight.uasset" SILENT=true
+[2015.04.29-01.55.16:738][320]LogSavePackage: Save=361.803772ms
+[2015.04.29-01.55.16:738][320]LogSavePackage: Moving 'D:/Valadez_Isaac/GodKiller/God-Killer/Saved/frostedglassLightD8D5F716482724F75F6CF1B646E0F461.tmp' to 'D:/Valadez_Isaac/GodKiller/God-Killer/Content/Models/Lantern/frostedglassLight.uasset'
+[2015.04.29-01.58.37:551][350]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Scene/NewCave' took 0.010
+[2015.04.29-01.58.37:581][350]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/Fire_SubUv_P] ([1] browsable assets)...
+[2015.04.29-01.58.37:624][350]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/Materials/Fire_SubUv_P.Fire_SubUv_P]
+[2015.04.29-01.58.37:624][350]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Fire_SubUv_P]
+[2015.04.29-01.58.37:625][350]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Fire_SubUv_P" FILE="D:/Valadez_Isaac/GodKiller/God-Killer/Saved/Autosaves/Game/Materials/Fire_SubUv_P_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.04.29-01.58.37:751][350]LogSavePackage: Save=121.999611ms
+[2015.04.29-01.58.37:752][350]LogSavePackage: Moving 'D:/Valadez_Isaac/GodKiller/God-Killer/Saved/Fire_SubUv_P_Auto1B5FB9AD0410B38CA7EA2F6852DCB04BE.tmp' to 'D:/Valadez_Isaac/GodKiller/God-Killer/Saved/Autosaves/Game/Materials/Fire_SubUv_P_Auto1.uasset'
+[2015.04.29-01.58.37:755][350]LogFileHelpers: Auto-saving content packages took 0.204
+[2015.04.29-02.06.56:301][247]LogCascade: Non-seeded module ParticleModuleLight
+[2015.04.29-02.10.26:282][216]LogCascade: Non-seeded module ParticleModuleColorOverLife
+[2015.04.29-02.10.32:705][368]LogEditorTransaction: Undo Delete Selected Module
+[2015.04.29-02.10.32:764][368]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-02.10.32:769][368]LogMaterial: 0.000080 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-02.10.32:783][368]LogMaterial: Missing cached shader map for material Mat_subuv, compiling. 
+[2015.04.29-02.10.32:789][368]LogMaterial: 0.000084 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-02.10.35:013][415]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2015.04.29-02.10.35:014][415]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 96 instructions
+[2015.04.29-02.10.35:014][415]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-02.10.35:014][415]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.04.29-02.10.36:081][439]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2015.04.29-02.10.36:081][439]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 96 instructions
+[2015.04.29-02.10.36:082][439]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-02.10.36:082][439]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.04.29-02.16.31:785][768]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-02.16.31:797][768]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-02.16.31:804][768]LogMaterial: 0.000037 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-02.16.34:201][820]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 66 instructions
+[2015.04.29-02.16.34:201][820]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 103 instructions
+[2015.04.29-02.16.34:201][820]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-02.16.34:201][820]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.04.29-02.16.35:298][843]LogMaterialEditor: Applying material Fire_SubUV
+[2015.04.29-02.16.36:731][843]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-02.16.36:756][843]LogMaterial: 0.000078 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-02.16.36:844][843]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-02.16.36:867][843]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-02.16.36:889][843]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.29-02.16.36:889][843]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.29-02.16.36:889][843]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.29-02.16.36:889][843]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.29-02.16.36:893][843]LogMaterial: 0.004466 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-02.16.45:971][ 36]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 94 instructions
+[2015.04.29-02.16.45:971][ 36]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 130 instructions
+[2015.04.29-02.16.45:971][ 36]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-02.16.45:971][ 36]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.04.29-02.16.47:664][ 72]LogCascade: Quitting Cascade. FXSystem=0x000000000EB04EA0
+[2015.04.29-02.16.55:498][158]LogMaterialEditor: Applying material Mat_subuv
+[2015.04.29-02.16.56:925][158]LogMaterial: Missing cached shader map for material Mat_subuv, compiling. 
+[2015.04.29-02.16.56:946][158]LogMaterial: 0.000072 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-02.16.57:072][158]LogMaterial: Missing cached shader map for material Mat_subuv, compiling. 
+[2015.04.29-02.16.57:119][158]LogMaterial: Missing cached shader map for material Mat_subuv, compiling. 
+[2015.04.29-02.16.57:135][158]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.29-02.16.57:135][158]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.29-02.16.57:138][158]LogMaterial: 0.003047 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-02.16.57:836][175]LogMaterialEditor: Saving and Compiling material Mat_subuv
+[2015.04.29-02.16.59:576][175]LogMaterial: Missing cached shader map for material Mat_subuv, compiling. 
+[2015.04.29-02.16.59:611][175]LogMaterial: 0.000059 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-02.16.59:704][175]LogMaterial: Missing cached shader map for material Mat_subuv, compiling. 
+[2015.04.29-02.16.59:731][175]LogMaterial: Missing cached shader map for material Mat_subuv, compiling. 
+[2015.04.29-02.16.59:755][175]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.29-02.16.59:755][175]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.29-02.16.59:759][175]LogMaterial: 0.004184 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-02.17.12:456][175]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Mat_subuv" FILE="D:/Valadez_Isaac/GodKiller/God-Killer/Content/Materials/Mat_subuv.uasset" SILENT=true
+[2015.04.29-02.17.12:722][175]LogSavePackage: Save=261.299286ms
+[2015.04.29-02.17.12:722][175]LogSavePackage: Moving 'D:/Valadez_Isaac/GodKiller/God-Killer/Saved/Mat_subuvA87936974946CBCC1E970195D8E51D3D.tmp' to 'D:/Valadez_Isaac/GodKiller/God-Killer/Content/Materials/Mat_subuv.uasset'
+[2015.04.29-02.17.12:738][175]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 90 instructions
+[2015.04.29-02.17.12:738][175]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 126 instructions
+[2015.04.29-02.17.12:738][175]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-02.17.12:738][175]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.04.29-02.17.15:954][238]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000404BFC40
+[2015.04.29-02.17.15:954][238]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000EB04EA0
+[2015.04.29-02.17.17:664][238]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Fire_SubUV" FILE="D:/Valadez_Isaac/GodKiller/God-Killer/Content/Materials/Fire_SubUV.uasset" SILENT=true
+[2015.04.29-02.17.17:958][238]LogSavePackage: Save=289.144714ms
+[2015.04.29-02.17.17:958][238]LogSavePackage: Moving 'D:/Valadez_Isaac/GodKiller/God-Killer/Saved/Fire_SubUVD05A55224D9E869749480B9811134EB9.tmp' to 'D:/Valadez_Isaac/GodKiller/God-Killer/Content/Materials/Fire_SubUV.uasset'
+[2015.04.29-02.17.17:982][238]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Fire_SubUv_P" FILE="D:/Valadez_Isaac/GodKiller/God-Killer/Content/Materials/Fire_SubUv_P.uasset" SILENT=true
+[2015.04.29-02.17.18:005][238]LogSavePackage: Save=18.008301ms
+[2015.04.29-02.17.18:005][238]LogSavePackage: Moving 'D:/Valadez_Isaac/GodKiller/God-Killer/Saved/Fire_SubUv_P9A9DEAC74069E080E61DF98F832E9EA8.tmp' to 'D:/Valadez_Isaac/GodKiller/God-Killer/Content/Materials/Fire_SubUv_P.uasset'
+[2015.04.29-02.19.02:989][950]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Fire_SubUv_P" FILE="D:/Valadez_Isaac/GodKiller/God-Killer/Content/Materials/Fire_SubUv_P.uasset" SILENT=true
+[2015.04.29-02.19.03:011][950]LogSavePackage: Save=17.534136ms
+[2015.04.29-02.19.03:011][950]LogSavePackage: Moving 'D:/Valadez_Isaac/GodKiller/God-Killer/Saved/Fire_SubUv_P27FAA3F1454E27A256EA688D57E9BAFF.tmp' to 'D:/Valadez_Isaac/GodKiller/God-Killer/Content/Materials/Fire_SubUv_P.uasset'
+[2015.04.29-02.19.28:601][604]LogTexture:Display: Building textures: ThumbnailTexture (BGRA8)
+[2015.04.29-02.19.31:138][671]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Fire_SubUv_P" FILE="D:/Valadez_Isaac/GodKiller/God-Killer/Content/Materials/Fire_SubUv_P.uasset" SILENT=true
+[2015.04.29-02.19.31:144][671]LogTexture:Display: Building textures: ThumbnailTexture (DXT1)
+[2015.04.29-02.19.31:698][671]LogSavePackage: Save=556.068665ms
+[2015.04.29-02.19.31:698][671]LogSavePackage: Moving 'D:/Valadez_Isaac/GodKiller/God-Killer/Saved/Fire_SubUv_P5A01278A4C57E8836FBCFC8757AB61F5.tmp' to 'D:/Valadez_Isaac/GodKiller/God-Killer/Content/Materials/Fire_SubUv_P.uasset'
+[2015.04.29-02.22.09:249][879]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Fire_SubUv_P" FILE="D:/Valadez_Isaac/GodKiller/God-Killer/Content/Materials/Fire_SubUv_P.uasset" SILENT=true
+[2015.04.29-02.22.09:363][879]LogSavePackage: Save=109.605171ms
+[2015.04.29-02.22.09:363][879]LogSavePackage: Moving 'D:/Valadez_Isaac/GodKiller/God-Killer/Saved/Fire_SubUv_P329EE32547FDFFB9833F2F960522CF9A.tmp' to 'D:/Valadez_Isaac/GodKiller/God-Killer/Content/Materials/Fire_SubUv_P.uasset'
+[2015.04.29-02.23.53:912][688]LogEditorTransaction: Undo Delete Selected Module
+[2015.04.29-02.23.53:965][688]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-02.23.53:973][688]LogMaterial: 0.000080 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-02.23.56:246][742]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 66 instructions
+[2015.04.29-02.23.56:246][742]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 103 instructions
+[2015.04.29-02.23.56:246][742]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-02.23.56:246][742]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.04.29-02.26.47:379][308]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-02.26.47:385][308]LogMaterial: 0.000079 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-02.26.49:784][368]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 66 instructions
+[2015.04.29-02.26.49:784][368]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 103 instructions
+[2015.04.29-02.26.49:785][368]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-02.26.49:785][368]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.04.29-02.26.50:820][392]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-02.26.50:827][392]LogMaterial: 0.000070 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-02.26.50:827][392]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.04.29-02.26.52:882][442]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-02.26.52:889][442]LogMaterial: 0.000043 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-02.26.52:936][443]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 66 instructions
+[2015.04.29-02.26.52:936][443]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 103 instructions
+[2015.04.29-02.26.52:936][443]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-02.26.52:936][443]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.04.29-02.26.55:173][496]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLinearInterpolate_0, compiling. 
+[2015.04.29-02.26.57:851][562]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-02.26.57:857][562]LogMaterial: 0.000071 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-02.26.57:950][562]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.04.29-02.26.57:952][562]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLinearInterpolate_0, compiling. 
+[2015.04.29-02.26.59:785][606]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-02.26.59:791][606]LogMaterial: 0.000039 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-02.26.59:816][606]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLinearInterpolate_0, compiling. 
+[2015.04.29-02.26.59:891][609]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 66 instructions
+[2015.04.29-02.26.59:891][609]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 103 instructions
+[2015.04.29-02.26.59:891][609]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-02.26.59:891][609]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.04.29-02.27.10:691][870]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-02.27.10:697][870]LogMaterial: 0.000075 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-02.27.10:795][870]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.04.29-02.27.10:798][870]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLinearInterpolate_0, compiling. 
+[2015.04.29-02.27.12:726][918]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 66 instructions
+[2015.04.29-02.27.12:726][918]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 103 instructions
+[2015.04.29-02.27.12:726][918]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-02.27.12:726][918]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.04.29-02.27.18:799][ 63]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-02.27.18:806][ 63]LogMaterial: 0.000075 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-02.27.18:828][ 63]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.04.29-02.27.20:849][113]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 66 instructions
+[2015.04.29-02.27.20:849][113]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 103 instructions
+[2015.04.29-02.27.20:849][113]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-02.27.20:849][113]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.04.29-02.27.22:725][157]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLinearInterpolate_0, compiling. 
+[2015.04.29-02.27.25:939][234]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-02.27.25:945][234]LogMaterial: 0.000072 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-02.27.25:970][234]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLinearInterpolate_0, compiling. 
+[2015.04.29-02.27.28:013][285]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2015.04.29-02.27.28:013][285]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 104 instructions
+[2015.04.29-02.27.28:013][285]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-02.27.28:013][285]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.04.29-02.27.43:765][664]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-02.27.43:772][664]LogMaterial: 0.000057 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-02.27.43:827][664]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.04.29-02.27.45:809][713]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
+[2015.04.29-02.27.45:809][713]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 105 instructions
+[2015.04.29-02.27.45:809][713]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-02.27.45:809][713]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.04.29-02.27.53:598][901]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-02.27.53:605][901]LogMaterial: 0.000074 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-02.27.53:631][901]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLinearInterpolate_0, compiling. 
+[2015.04.29-02.27.55:692][952]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
+[2015.04.29-02.27.55:692][952]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 105 instructions
+[2015.04.29-02.27.55:692][952]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-02.27.55:692][952]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.04.29-02.28.06:097][205]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-02.28.06:104][205]LogMaterial: 0.000080 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-02.28.06:128][205]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLinearInterpolate_0, compiling. 
+[2015.04.29-02.28.08:233][258]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
+[2015.04.29-02.28.08:233][258]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 105 instructions
+[2015.04.29-02.28.08:233][258]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-02.28.08:233][258]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.04.29-02.28.13:354][382]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-02.28.13:361][382]LogMaterial: 0.000064 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-02.28.13:383][382]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLinearInterpolate_0, compiling. 
+[2015.04.29-02.28.15:467][434]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
+[2015.04.29-02.28.15:467][434]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 105 instructions
+[2015.04.29-02.28.15:467][434]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-02.28.15:467][434]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.04.29-02.28.19:731][537]LogMaterialEditor: Applying material Fire_SubUV
+[2015.04.29-02.28.21:164][537]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-02.28.21:189][537]LogMaterial: 0.000078 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-02.28.21:317][537]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-02.28.21:343][537]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-02.28.21:368][537]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.29-02.28.21:368][537]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.29-02.28.21:372][537]LogMaterial: 0.004185 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-02.28.30:813][764]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 96 instructions
+[2015.04.29-02.28.30:813][764]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 132 instructions
+[2015.04.29-02.28.30:813][764]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-02.28.30:813][764]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.04.29-02.29.11:309][812]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-02.29.11:316][812]LogMaterial: 0.000076 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-02.29.11:342][812]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.04.29-02.29.13:751][872]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
+[2015.04.29-02.29.13:751][872]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 105 instructions
+[2015.04.29-02.29.13:751][872]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-02.29.13:751][872]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.04.29-02.30.45:588][847]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-02.30.45:595][847]LogMaterial: 0.000057 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-02.30.45:621][847]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.04.29-02.30.48:013][906]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
+[2015.04.29-02.30.48:013][906]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 105 instructions
+[2015.04.29-02.30.48:013][906]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-02.30.48:013][906]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.04.29-02.30.48:799][925]LogMaterialEditor: Applying material Fire_SubUV
+[2015.04.29-02.30.50:225][925]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-02.30.50:250][925]LogMaterial: 0.000084 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-02.30.50:359][925]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-02.30.50:383][925]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-02.30.50:403][925]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.29-02.30.50:403][925]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.29-02.30.50:406][925]LogMaterial: 0.003022 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-02.30.59:651][147]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 96 instructions
+[2015.04.29-02.30.59:651][147]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 132 instructions
+[2015.04.29-02.30.59:651][147]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-02.30.59:651][147]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.04.29-02.31.33:637][977]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-02.31.33:644][977]LogMaterial: 0.000074 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-02.31.33:665][977]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.04.29-02.31.36:132][ 38]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
+[2015.04.29-02.31.36:132][ 38]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 105 instructions
+[2015.04.29-02.31.36:132][ 38]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-02.31.36:132][ 38]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.04.29-02.31.37:173][ 63]LogMaterialEditor: Applying material Fire_SubUV
+[2015.04.29-02.31.38:600][ 63]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-02.31.38:625][ 63]LogMaterial: 0.000080 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-02.31.38:726][ 63]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-02.31.38:750][ 63]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-02.31.38:768][ 63]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.29-02.31.38:768][ 63]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.29-02.31.38:770][ 63]LogMaterial: 0.002686 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-02.31.47:805][281]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 96 instructions
+[2015.04.29-02.31.47:805][281]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 132 instructions
+[2015.04.29-02.31.47:805][281]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-02.31.47:805][281]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.04.29-02.31.54:132][438]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-02.31.54:138][438]LogMaterial: 0.000070 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-02.31.54:191][438]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLinearInterpolate_0, compiling. 
+[2015.04.29-02.31.56:146][487]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
+[2015.04.29-02.31.56:146][487]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 105 instructions
+[2015.04.29-02.31.56:146][487]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-02.31.56:146][487]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.04.29-02.32.02:188][632]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-02.32.02:195][632]LogMaterial: 0.000069 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-02.32.02:241][632]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLinearInterpolate_0, compiling. 
+[2015.04.29-02.32.04:201][681]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
+[2015.04.29-02.32.04:201][681]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 105 instructions
+[2015.04.29-02.32.04:201][681]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-02.32.04:201][681]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.04.29-02.32.15:781][961]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-02.32.15:787][961]LogMaterial: 0.000063 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-02.32.15:825][961]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLinearInterpolate_0, compiling. 
+[2015.04.29-02.32.17:842][ 11]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
+[2015.04.29-02.32.17:842][ 11]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 105 instructions
+[2015.04.29-02.32.17:842][ 11]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-02.32.17:842][ 11]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.04.29-02.32.22:216][116]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-02.32.22:223][116]LogMaterial: 0.000080 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-02.32.22:276][116]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLinearInterpolate_0, compiling. 
+[2015.04.29-02.32.24:192][164]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
+[2015.04.29-02.32.24:192][164]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 105 instructions
+[2015.04.29-02.32.24:192][164]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-02.32.24:192][164]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.04.29-02.33.15:202][507]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-02.33.15:209][507]LogMaterial: 0.000064 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-02.33.17:564][566]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 66 instructions
+[2015.04.29-02.33.17:564][566]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 103 instructions
+[2015.04.29-02.33.17:564][566]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-02.33.17:565][566]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.04.29-02.33.35:281][ 30]LogMaterialEditor: Applying material Fire_SubUV
+[2015.04.29-02.33.36:707][ 30]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-02.33.36:732][ 30]LogMaterial: 0.000079 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-02.33.36:812][ 30]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-02.33.36:836][ 30]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-02.33.36:854][ 30]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.29-02.33.36:854][ 30]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.29-02.33.36:856][ 30]LogMaterial: 0.002938 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-02.33.46:280][258]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 94 instructions
+[2015.04.29-02.33.46:280][258]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 130 instructions
+[2015.04.29-02.33.46:280][258]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-02.33.46:281][258]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.04.29-02.37.18:896][832]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Fire_SubUV" FILE="D:/Valadez_Isaac/GodKiller/God-Killer/Content/Materials/Fire_SubUV.uasset" SILENT=true
+[2015.04.29-02.37.19:188][832]LogSavePackage: Save=285.951019ms
+[2015.04.29-02.37.19:188][832]LogSavePackage: Moving 'D:/Valadez_Isaac/GodKiller/God-Killer/Saved/Fire_SubUV11DCA1A546897B4E282D599CB7B5F7B0.tmp' to 'D:/Valadez_Isaac/GodKiller/God-Killer/Content/Materials/Fire_SubUV.uasset'
+[2015.04.29-02.37.19:201][832]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Fire_SubUv_P" FILE="D:/Valadez_Isaac/GodKiller/God-Killer/Content/Materials/Fire_SubUv_P.uasset" SILENT=true
+[2015.04.29-02.37.19:316][832]LogSavePackage: Save=109.375641ms
+[2015.04.29-02.37.19:316][832]LogSavePackage: Moving 'D:/Valadez_Isaac/GodKiller/God-Killer/Saved/Fire_SubUv_PC27B2E5E4F8F1C5F9CA297B056AE7C62.tmp' to 'D:/Valadez_Isaac/GodKiller/God-Killer/Content/Materials/Fire_SubUv_P.uasset'
+[2015.04.29-02.39.03:806][305]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 D:/Valadez_Isaac/GodKiller/subuv/Mat_Fire_Blue_SubUv.tga)
+[2015.04.29-02.39.03:854][305]0.000035 seconds to analyze Texture2D /Game/Materials/Mat_Fire_Blue_SubUv.Mat_Fire_Blue_SubUv
+
+[2015.04.29-02.39.03:861][305]LogTexture:Display: Building textures: Mat_Fire_Blue_SubUv (AutoDXT)
+[2015.04.29-02.39.05:293][305]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.29-02.39.05:294][305]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2015.04.29-02.39.16:503][564]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-02.39.16:509][564]LogMaterial: 0.000080 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-02.39.16:510][564]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.04.29-02.39.16:534][564]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_3, compiling. 
+[2015.04.29-02.39.16:536][564]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_2, compiling. 
+[2015.04.29-02.39.16:537][564]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.04.29-02.39.16:539][564]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.04.29-02.39.16:541][564]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLinearInterpolate_0, compiling. 
+[2015.04.29-02.39.16:543][564]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.04.29-02.39.19:051][625]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 66 instructions
+[2015.04.29-02.39.19:052][625]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 103 instructions
+[2015.04.29-02.39.19:052][625]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-02.39.19:052][625]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.04.29-02.39.26:750][809]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-02.39.26:756][809]LogMaterial: 0.000070 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-02.39.26:756][809]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_4, compiling. 
+[2015.04.29-02.39.28:739][856]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 66 instructions
+[2015.04.29-02.39.28:739][856]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 103 instructions
+[2015.04.29-02.39.28:739][856]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-02.39.28:739][856]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.04.29-02.39.36:737][ 44]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-02.39.36:744][ 44]LogMaterial: 0.000058 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-02.39.36:809][ 44]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_4, compiling. 
+[2015.04.29-02.39.38:766][ 90]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2015.04.29-02.39.38:766][ 90]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 104 instructions
+[2015.04.29-02.39.38:766][ 90]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-02.39.38:766][ 90]MaterialEditorStats: Info Texture samplers: 9/16
+[2015.04.29-02.39.40:354][127]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-02.39.40:361][127]LogMaterial: 0.000065 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-02.39.40:386][127]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.04.29-02.39.42:370][173]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2015.04.29-02.39.42:370][173]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 104 instructions
+[2015.04.29-02.39.42:370][173]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-02.39.42:370][173]MaterialEditorStats: Info Texture samplers: 9/16
+[2015.04.29-02.39.43:338][196]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-02.39.43:344][196]LogMaterial: 0.000073 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-02.39.43:410][196]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_4, compiling. 
+[2015.04.29-02.39.45:403][246]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 66 instructions
+[2015.04.29-02.39.45:403][246]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 103 instructions
+[2015.04.29-02.39.45:403][246]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-02.39.45:403][246]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.04.29-02.39.49:656][349]LogMaterialEditor: Applying material Fire_SubUV
+[2015.04.29-02.39.51:082][349]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-02.39.51:107][349]LogMaterial: 0.000070 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-02.39.51:184][349]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-02.39.51:214][349]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-02.39.51:240][349]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.29-02.39.51:240][349]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.29-02.39.51:245][349]LogMaterial: 0.004920 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-02.40.00:521][572]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 94 instructions
+[2015.04.29-02.40.00:521][572]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 130 instructions
+[2015.04.29-02.40.00:521][572]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-02.40.00:521][572]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.04.29-02.40.13:802][912]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-02.40.13:808][912]LogMaterial: 0.000103 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-02.40.15:814][962]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 66 instructions
+[2015.04.29-02.40.15:814][962]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 103 instructions
+[2015.04.29-02.40.15:814][962]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-02.40.15:814][962]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.04.29-02.40.20:695][ 80]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-02.40.20:702][ 80]LogMaterial: 0.000090 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-02.40.22:756][127]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 66 instructions
+[2015.04.29-02.40.22:756][127]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 103 instructions
+[2015.04.29-02.40.22:756][127]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-02.40.22:756][127]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.04.29-02.40.27:635][221]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Mat_Fire_Blue_SubUv" FILE="D:/Valadez_Isaac/GodKiller/God-Killer/Content/Materials/Mat_Fire_Blue_SubUv.uasset" SILENT=true
+[2015.04.29-02.40.30:689][221]LogSavePackage: Save=3053.270996ms
+[2015.04.29-02.40.30:689][221]LogSavePackage: Moving 'D:/Valadez_Isaac/GodKiller/God-Killer/Saved/Mat_Fire_Blue_SubUv106A67B846A3EC79A53D3EA85C2E420A.tmp' to 'D:/Valadez_Isaac/GodKiller/God-Killer/Content/Materials/Mat_Fire_Blue_SubUv.uasset'
+[2015.04.29-02.40.39:054][421]LogTexture:Display: Building textures: ThumbnailTexture (BGRA8)
+[2015.04.29-02.40.42:023][500]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Fire_SubUv_P" FILE="D:/Valadez_Isaac/GodKiller/God-Killer/Content/Materials/Fire_SubUv_P.uasset" SILENT=true
+[2015.04.29-02.40.42:029][500]LogTexture:Display: Building textures: ThumbnailTexture (DXT1)
+[2015.04.29-02.40.42:579][500]LogSavePackage: Save=551.294556ms
+[2015.04.29-02.40.42:579][500]LogSavePackage: Moving 'D:/Valadez_Isaac/GodKiller/God-Killer/Saved/Fire_SubUv_P3B2FE59444F61268FEAFF4A40DB44D0F.tmp' to 'D:/Valadez_Isaac/GodKiller/God-Killer/Content/Materials/Fire_SubUv_P.uasset'
+[2015.04.29-02.40.54:567][825]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Fire_SubUv_P" FILE="D:/Valadez_Isaac/GodKiller/God-Killer/Content/Materials/Fire_SubUv_P.uasset" SILENT=true
+[2015.04.29-02.40.54:581][825]LogSavePackage: Save=9.533487ms
+[2015.04.29-02.40.54:581][825]LogSavePackage: Moving 'D:/Valadez_Isaac/GodKiller/God-Killer/Saved/Fire_SubUv_PC881BBDD464C3B6008764484168B5111.tmp' to 'D:/Valadez_Isaac/GodKiller/God-Killer/Content/Materials/Fire_SubUv_P.uasset'
+[2015.04.29-02.40.55:901][859]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Fire_SubUv_P" FILE="D:/Valadez_Isaac/GodKiller/God-Killer/Content/Materials/Fire_SubUv_P.uasset" SILENT=true
+[2015.04.29-02.40.55:915][859]LogSavePackage: Save=9.590513ms
+[2015.04.29-02.40.55:915][859]LogSavePackage: Moving 'D:/Valadez_Isaac/GodKiller/God-Killer/Saved/Fire_SubUv_P64DAE3734980EAC12F93A485864FAF1E.tmp' to 'D:/Valadez_Isaac/GodKiller/God-Killer/Content/Materials/Fire_SubUv_P.uasset'
+[2015.04.29-02.42.05:569][566]LogMaterialEditor: Applying material Fire_SubUV
+[2015.04.29-02.42.06:994][566]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-02.42.07:019][566]LogMaterial: 0.000083 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-02.42.07:103][566]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-02.42.07:126][566]LogMaterial: Missing cached shader map for material Fire_SubUV, compiling. 
+[2015.04.29-02.42.07:147][566]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.04.29-02.42.07:147][566]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.04.29-02.42.07:149][566]LogMaterial: 0.002818 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.29-02.42.16:887][801]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 94 instructions
+[2015.04.29-02.42.16:887][801]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 130 instructions
+[2015.04.29-02.42.16:887][801]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.04.29-02.42.16:887][801]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.04.29-02.42.23:561][911]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Fire_SubUV" FILE="D:/Valadez_Isaac/GodKiller/God-Killer/Content/Materials/Fire_SubUV.uasset" SILENT=true
+[2015.04.29-02.42.23:853][911]LogSavePackage: Save=286.789307ms
+[2015.04.29-02.42.23:853][911]LogSavePackage: Moving 'D:/Valadez_Isaac/GodKiller/God-Killer/Saved/Fire_SubUVB04B316347F48B28303AFC9D1145B15A.tmp' to 'D:/Valadez_Isaac/GodKiller/God-Killer/Content/Materials/Fire_SubUV.uasset'
+[2015.04.29-03.14.01:982][932]LogCascade: Quitting Cascade. FXSystem=0x000000002EE8A8E0
+[2015.04.29-03.14.02:678][954]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.29-03.14.02:708][954]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000404BF380
+[2015.04.29-03.14.02:708][954]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002EE8A8E0
+[2015.04.29-03.14.03:255][955]Cmd: QUIT_EDITOR
+[2015.04.29-03.14.03:461][955]LogExit: Preparing to exit.
+[2015.04.29-03.14.03:916][955]LogExit: Editor shut down
+[2015.04.29-03.14.03:917][955]LogExit: Transaction tracking system shut down
+[2015.04.29-03.14.03:918][955]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000480D4FE0
+[2015.04.29-03.14.03:918][955]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000480D77E0
+[2015.04.29-03.14.03:920][955]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000480D4AE0
+[2015.04.29-03.14.03:923][955]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CAB39C0
+[2015.04.29-03.14.03:924][955]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000047F91A80
+[2015.04.29-03.14.03:924][955]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000040738B80
+[2015.04.29-03.14.03:924][955]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000405F1E40
+[2015.04.29-03.14.03:924][955]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000019677A60
+[2015.04.29-03.14.03:924][955]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000467F5300
+[2015.04.29-03.14.03:982][955]LogExit: Object subsystem successfully closed.
+[2015.04.29-03.14.04:031][955]LogModuleManager: Shutting down and abandoning module TextureEditor (183)
+[2015.04.29-03.14.04:031][955]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (182)
+[2015.04.29-03.14.04:031][955]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (181)
+[2015.04.29-03.14.04:031][955]LogModuleManager: Shutting down and abandoning module MaterialEditor (180)
+[2015.04.29-03.14.04:031][955]LogModuleManager: Shutting down and abandoning module DistCurveEditor (179)
+[2015.04.29-03.14.04:031][955]LogModuleManager: Shutting down and abandoning module Cascade (178)
+[2015.04.29-03.14.04:031][955]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.04.29-03.14.04:031][955]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.04.29-03.14.04:031][955]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.04.29-03.14.04:031][955]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.04.29-03.14.04:031][955]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.04.29-03.14.04:031][955]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.04.29-03.14.04:031][955]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.04.29-03.14.04:031][955]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.04.29-03.14.04:031][955]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.04.29-03.14.04:031][955]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.04.29-03.14.04:031][955]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.04.29-03.14.04:031][955]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.04.29-03.14.04:031][955]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.04.29-03.14.04:031][955]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.04.29-03.14.04:031][955]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.04.29-03.14.04:031][955]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.04.29-03.14.04:031][955]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.04.29-03.14.04:031][955]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.04.29-03.14.04:031][955]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.04.29-03.14.04:031][955]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.04.29-03.14.04:031][955]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.04.29-03.14.04:031][955]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.04.29-03.14.04:031][955]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.04.29-03.14.04:031][955]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.04.29-03.14.04:031][955]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.04.29-03.14.04:031][955]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.04.29-03.14.04:031][955]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.04.29-03.14.04:031][955]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.04.29-03.14.04:031][955]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.04.29-03.14.04:031][955]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.04.29-03.14.04:031][955]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.04.29-03.14.04:031][955]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.04.29-03.14.04:762][955]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.04.29-03.14.04:762][955]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.04.29-03.14.04:762][955]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.04.29-03.14.04:762][955]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.04.29-03.14.04:762][955]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.04.29-03.14.04:763][955]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.04.29-03.14.04:763][955]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.04.29-03.14.04:763][955]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.04.29-03.14.04:763][955]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.04.29-03.14.04:763][955]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.04.29-03.14.04:763][955]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.04.29-03.14.04:763][955]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.04.29-03.14.04:763][955]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.04.29-03.14.04:763][955]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.04.29-03.14.04:763][955]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.04.29-03.14.04:763][955]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.04.29-03.14.04:763][955]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.04.29-03.14.04:763][955]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.04.29-03.14.04:764][955]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.04.29-03.14.05:356][955]LogFileManager:Warning: DeleteFile was unable to delete 'D:/Valadez_Isaac/GodKiller/God-Killer/Intermediate/CachedAssetRegistry.bin', retrying in .5s...
+[2015.04.29-03.14.05:356][955]LogFileManager:Warning: DeleteFile recovered during retry!
+[2015.04.29-03.14.05:356][955]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.04.29-03.14.05:356][955]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.04.29-03.14.05:356][955]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.04.29-03.14.05:357][955]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.04.29-03.14.05:357][955]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.04.29-03.14.05:357][955]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.04.29-03.14.05:357][955]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.04.29-03.14.05:357][955]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.04.29-03.14.05:357][955]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.04.29-03.14.05:357][955]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.04.29-03.14.05:357][955]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.04.29-03.14.05:357][955]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.04.29-03.14.05:357][955]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.04.29-03.14.05:357][955]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.04.29-03.14.05:357][955]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.04.29-03.14.05:358][955]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.04.29-03.14.05:358][955]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.04.29-03.14.05:358][955]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.04.29-03.14.05:358][955]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.04.29-03.14.05:358][955]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.04.29-03.14.05:358][955]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.04.29-03.14.05:545][955]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.04.29-03.14.05:545][955]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.04.29-03.14.05:545][955]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.04.29-03.14.05:545][955]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.04.29-03.14.05:545][955]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.04.29-03.14.05:545][955]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.04.29-03.14.05:545][955]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.04.29-03.14.05:545][955]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.04.29-03.14.05:545][955]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.04.29-03.14.05:545][955]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.04.29-03.14.05:545][955]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.04.29-03.14.05:545][955]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.04.29-03.14.05:545][955]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.04.29-03.14.05:545][955]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.04.29-03.14.05:545][955]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.04.29-03.14.05:545][955]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.04.29-03.14.05:545][955]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.04.29-03.14.05:545][955]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.04.29-03.14.05:545][955]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.04.29-03.14.05:545][955]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.04.29-03.14.05:545][955]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.04.29-03.14.05:545][955]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.04.29-03.14.05:545][955]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.04.29-03.14.05:545][955]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.04.29-03.14.05:546][955]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.04.29-03.14.05:546][955]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.04.29-03.14.05:546][955]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.04.29-03.14.05:646][955]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.04.29-03.14.05:646][955]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.04.29-03.14.05:646][955]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.04.29-03.14.05:646][955]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.04.29-03.14.05:646][955]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.04.29-03.14.05:646][955]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.04.29-03.14.05:646][955]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.04.29-03.14.05:646][955]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.04.29-03.14.05:646][955]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.04.29-03.14.05:646][955]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.04.29-03.14.05:646][955]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.04.29-03.14.05:646][955]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.04.29-03.14.05:646][955]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.04.29-03.14.05:646][955]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.04.29-03.14.05:646][955]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.04.29-03.14.05:646][955]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.04.29-03.14.05:646][955]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.04.29-03.14.05:650][955]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.04.29-03.14.05:650][955]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.04.29-03.14.05:650][955]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.04.29-03.14.05:650][955]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.04.29-03.14.05:650][955]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.04.29-03.14.05:650][955]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.04.29-03.14.05:650][955]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.04.29-03.14.05:650][955]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.04.29-03.14.05:650][955]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.04.29-03.14.05:650][955]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.04.29-03.14.05:668][955]LogDerivedDataCache: Shutdown
+[2015.04.29-03.14.05:668][955]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.04.29-03.14.05:668][955]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.04.29-03.14.05:668][955]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.04.29-03.14.05:668][955]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.04.29-03.14.05:668][955]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.04.29-03.14.05:668][955]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.04.29-03.14.05:668][955]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.04.29-03.14.05:668][955]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.04.29-03.14.05:668][955]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.04.29-03.14.05:668][955]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.04.29-03.14.05:668][955]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.04.29-03.14.05:668][955]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.04.29-03.14.05:668][955]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.04.29-03.14.05:668][955]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.04.29-03.14.05:668][955]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.04.29-03.14.05:668][955]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.04.29-03.14.05:668][955]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.04.29-03.14.05:668][955]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.04.29-03.14.05:668][955]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.04.29-03.14.05:668][955]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.04.29-03.14.05:668][955]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.04.29-03.14.05:668][955]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.04.29-03.14.05:668][955]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.04.29-03.14.05:668][955]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.04.29-03.14.05:668][955]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.04.29-03.14.05:668][955]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.04.29-03.14.05:668][955]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.04.29-03.14.05:668][955]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.04.29-03.14.05:668][955]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.04.29-03.14.05:668][955]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.04.29-03.14.05:668][955]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.04.29-03.14.05:668][955]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.04.29-03.14.05:668][955]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.04.29-03.14.05:668][955]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.04.29-03.14.05:668][955]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.04.29-03.14.05:668][955]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.04.29-03.14.05:668][955]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.04.29-03.14.05:668][955]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.04.29-03.14.05:668][955]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.04.29-03.14.05:668][955]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.04.29-03.14.05:671][955]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.04.29-03.14.05:671][955]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.04.29-03.14.05:671][955]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.04.29-03.14.05:671][955]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.04.29-03.14.05:671][955]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.04.29-03.14.05:671][955]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.04.29-03.14.05:671][955]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.04.29-03.14.05:671][955]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.04.29-03.14.05:671][955]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.04.29-03.14.05:672][955]LogExit: Exiting.
+[2015.04.29-03.14.05:681][955]Log file closed, 04/28/15 20:14:05
