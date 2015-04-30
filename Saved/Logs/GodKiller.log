@@ -1,1107 +1,476 @@
-﻿Log file open, 04/29/15 23:16:27
+﻿Log file open, 04/30/15 04:50:27
 LogInit:Display: Running engine for game: GodKiller
-LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: Version: 4.7.3-2479750+++depot+UE4-Releases+4.7
 LogInit: API Version: 2455222
-LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled (64-bit): Mar 15 2015 23:20:45
 LogInit: Compiled with Visual C++: 18.00.21005.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++depot+UE4-Releases+4.7
 LogInit: Command line:  
-LogInit: Base directory: E:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Base directory: E:/Unreal/Epic Games/4.7/Engine/Binaries/Win64/
 LogInit: Rocket: 1
-[2015.04.30-06.16.27:188][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
-[2015.04.30-06.16.27:257][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2015.04.30-06.16.27:386][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2015.04.30-06.16.27:548][  0]LogInit: Object subsystem initialized
-[2015.04.30-06.16.27:643][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
-[2015.04.30-06.16.27:643][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/Documents/GitHub/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.04.30-06.16.27:643][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
-[2015.04.30-06.16.27:643][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/Documents/GitHub/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.04.30-06.16.27:643][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
-[2015.04.30-06.16.27:643][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/Documents/GitHub/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.04.30-06.16.27:684][  0]LogInit: Selected Device Profile: [Windows]
-[2015.04.30-06.16.27:685][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2015.04.30-06.16.27:809][  0]LogInit: Computer: JOSEPH-PC
-[2015.04.30-06.16.27:809][  0]LogInit: User: Joseph
-[2015.04.30-06.16.27:809][  0]LogInit: CPU Page size=4096, Cores=4
-[2015.04.30-06.16.27:809][  0]LogInit: High frequency timer resolution =3.919472 MHz
-[2015.04.30-06.16.27:810][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=8192.0GB
-[2015.04.30-06.16.27:810][  0]LogMemory: Platform Memory Stats for Windows
-[2015.04.30-06.16.27:810][  0]LogMemory: Process Physical Memory: 53.00 MB used, 53.00 MB peak
-[2015.04.30-06.16.27:810][  0]LogMemory: Process Virtual Memory: 30.06 MB used, 30.06 MB peak
-[2015.04.30-06.16.27:810][  0]LogMemory: Physical Memory: 4561.81 MB used, 16280.89 MB total
-[2015.04.30-06.16.27:810][  0]LogMemory: Virtual Memory: 287.04 MB used, 8388608.00 MB total
-[2015.04.30-06.16.27:944][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon R9 200 Series (Feature Level 11_0)
-[2015.04.30-06.16.27:944][  0]LogD3D11RHI: Adapter has 4073MB of dedicated video memory, 0MB of dedicated system memory, and 3840MB of shared system memory, 1 output[s]
-[2015.04.30-06.16.27:944][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2015.04.30-06.16.27:952][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2015.04.30-06.16.27:974][  0]LogD3D11RHI: Async texture creation disabled: no driver support
-[2015.04.30-06.16.29:250][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
-[2015.04.30-06.16.29:389][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
-Resource: (E:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
-Resource: (E:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
-[2015.04.30-06.16.29:389][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
-Resource: (E:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
-Resource: (E:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
-[2015.04.30-06.16.29:511][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2015.04.30-06.16.34:779][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.04.30-06.16.36:570][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.04.30-06.16.36:794][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2015.04.30-06.16.36:954][  0]LogDerivedDataCache: Loaded boot cache 0.16s 39MB C:/Users/Joseph/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
-[2015.04.30-06.16.36:955][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Joseph/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
-[2015.04.30-06.16.36:955][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Documents/GitHub/God-Killer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.04.30-06.16.36:955][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2015.04.30-06.16.37:116][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2015.04.30-06.16.37:129][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Joseph/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2015.04.30-06.16.44:064][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2015.04.30-06.16.44:064][  0]LogMeshUtilities: No automatic mesh merging module available
-[2015.04.30-06.16.46:823][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2015.04.30-06.16.47:184][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
-[2015.04.30-06.17.01:841][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2015.04.30-06.17.02:777][  0]SourceControl: Info Source control is disabled
-[2015.04.30-06.17.02:787][  0]SourceControl: Info Source control is disabled
-[2015.04.30-06.17.02:787][  0]SourceControl: Info Source control is disabled
-[2015.04.30-06.17.02:787][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.04.30-06.17.02:788][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.04.30-06.17.02:813][  0]SourceControl: Info Source control is disabled
-[2015.04.30-06.17.04:006][  0]LogObj: 24232 objects as part of root set at end of initial load.
-[2015.04.30-06.17.04:006][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
-[2015.04.30-06.17.04:600][  0]LogEngine: Initializing Engine...
-[2015.04.30-06.17.07:132][  0]LogInit: XAudio2 using '1 - LG ULTRAWIDE (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2015.04.30-06.17.07:151][  0]LogInit: FAudioDevice initialized.
-[2015.04.30-06.17.07:613][  0]LogAIModule: Creating AISystem for world NewWorld
-[2015.04.30-06.17.07:723][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB C:/Users/Joseph/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
-[2015.04.30-06.17.07:732][  0]LogInit: Texture streaming: Enabled
-[2015.04.30-06.17.08:306][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2015.04.30-06.17.08:306][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
-[2015.04.30-06.17.08:306][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
-[2015.04.30-06.17.08:307][  0]LogAnalytics: SetUserId b9e16797403c47e8d8c7f7803aa9954f|fbedbf84e6654fb9830ed15a26abc575|2ed228c2-85a1-483a-b700-9447107bbaed
-[2015.04.30-06.17.08:320][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
-[2015.04.30-06.17.08:515][  0]LogInit: Transaction tracking system initialized
-[2015.04.30-06.17.09:461][  0]BlueprintLog: New page: Editor Load
-[2015.04.30-06.17.09:570][  0]LogAssetRegistry: FAssetRegistry took 0.0102 seconds to start up
-[2015.04.30-06.17.09:571][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
-[2015.04.30-06.17.12:763][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.04.30-06.17.13:778][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.04.30-06.17.15:925][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
-[2015.04.30-06.17.15:926][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
-[2015.04.30-06.17.16:078][  0]LogConsoleResponse:Display: 
-[2015.04.30-06.17.18:136][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2015.04.30-06.17.20:723][  0]SourceControl: Info Source control is disabled
-[2015.04.30-06.17.20:863][  0]Cmd: MAP LOAD FILE="../../../../../../Documents/GitHub/God-Killer/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.04.30-06.17.20:864][  0]LightingResults: New page: Lighting Build
-[2015.04.30-06.17.21:068][  0]MapCheck: New page: Map Check
-[2015.04.30-06.17.21:069][  0]LightingResults: New page: Lighting Build
-[2015.04.30-06.17.21:336][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000049A0680
-[2015.04.30-06.17.21:620][  0]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.04.30-06.17.26:581][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.04.30-06.17.27:781][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2015.04.30-06.17.27:795][  0]Cmd: MAP CHECKDEP
-[2015.04.30-06.17.27:810][  0]MapCheck: New page: ThirdPersonExampleMap - Apr 29, 2015, 4:17:27 PM
-[2015.04.30-06.17.28:026][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 230.805ms to complete.
-[2015.04.30-06.17.28:026][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 7.287
-[2015.04.30-06.17.29:077][  0]LogCollectionManager: Loaded 0 collections in 0.002239 seconds
-[2015.04.30-06.17.29:099][  0]LogContentBrowser: Native class hierarchy populated in 0.0205 seconds. Added 1696 classes and 261 folders.
-[2015.04.30-06.17.29:506][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0065 seconds. Added 1 classes and 2 folders.
-[2015.04.30-06.17.30:078][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2015.04.30-06.17.30:122][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
-[2015.04.30-06.17.30:201][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2015.04.30-06.17.30:311][  0]LogLoad: Full Startup: 70.79 seconds (BP compile: 1.89 seconds)
-[2015.04.30-06.17.30:742][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
-[2015.04.30-06.17.31:342][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
-[2015.04.30-06.17.31:706][  0]LogRenderer:Warning: Reallocating scene render targets to support 1456x968 (Frame:3).
-[2015.04.30-06.17.32:934][  5]LogAssetRegistry: Asset discovery search completed in 23.3739 seconds
-[2015.04.30-06.17.38:225][593]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scene'
-[2015.04.30-06.17.39:603][707]LogMaterial: Missing cached shader map for material frostedglassLight, compiling. 
-[2015.04.30-06.17.39:797][707]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
-[2015.04.30-06.17.39:873][707]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
-[2015.04.30-06.17.40:497][707]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT)
-[2015.04.30-06.17.40:503][707]LogTexture:Display: Building textures: HQ_Lightmap1_11 (AutoDXT)
-[2015.04.30-06.17.40:507][707]LogTexture:Display: Building textures: HQ_Lightmap1_12 (AutoDXT)
-[2015.04.30-06.17.40:516][707]LogTexture:Display: Building textures: HQ_Lightmap1_13 (AutoDXT)
-[2015.04.30-06.17.40:520][707]LogTexture:Display: Building textures: HQ_Lightmap1_14 (AutoDXT)
-[2015.04.30-06.17.40:523][707]LogTexture:Display: Building textures: HQ_Lightmap1_15 (AutoDXT)
-[2015.04.30-06.17.40:528][707]LogTexture:Display: Building textures: HQ_Lightmap1_16 (AutoDXT)
-[2015.04.30-06.17.40:534][707]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
-[2015.04.30-06.17.40:537][707]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
-[2015.04.30-06.17.40:548][707]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
-[2015.04.30-06.17.40:565][707]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
-[2015.04.30-06.17.40:567][707]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
-[2015.04.30-06.17.40:571][707]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
-[2015.04.30-06.17.40:574][707]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT)
-[2015.04.30-06.17.40:582][707]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
-[2015.04.30-06.17.40:625][707]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
-[2015.04.30-06.17.41:083][707]LogTexture:Display: Building textures: LQ_Lightmap_1_10 (DXT1)
-[2015.04.30-06.17.41:088][707]LogTexture:Display: Building textures: LQ_Lightmap_1_11 (DXT1)
-[2015.04.30-06.17.41:091][707]LogTexture:Display: Building textures: LQ_Lightmap_1_12 (DXT1)
-[2015.04.30-06.17.41:097][707]LogTexture:Display: Building textures: LQ_Lightmap_1_13 (DXT1)
-[2015.04.30-06.17.41:101][707]LogTexture:Display: Building textures: LQ_Lightmap_1_14 (DXT1)
-[2015.04.30-06.17.41:103][707]LogTexture:Display: Building textures: LQ_Lightmap_1_15 (DXT1)
-[2015.04.30-06.17.41:110][707]LogTexture:Display: Building textures: LQ_Lightmap_1_16 (DXT1)
-[2015.04.30-06.17.41:115][707]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
-[2015.04.30-06.17.41:119][707]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
-[2015.04.30-06.17.41:126][707]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
-[2015.04.30-06.17.41:141][707]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
-[2015.04.30-06.17.41:142][707]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
-[2015.04.30-06.17.41:145][707]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1)
-[2015.04.30-06.17.41:147][707]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1)
-[2015.04.30-06.17.41:322][707]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.04.30-06.17.41:518][707]Cmd: MAP LOAD FILE="../../../../../../Documents/GitHub/God-Killer/Content/Scene/NewCave.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.04.30-06.17.41:520][707]LightingResults: New page: Lighting Build
-[2015.04.30-06.17.41:608][707]LoadErrors: New page: Loading map: NewCave.umap
-[2015.04.30-06.17.41:618][707]MapCheck: New page: Map Check
-[2015.04.30-06.17.41:618][707]LightingResults: New page: Lighting Build
-[2015.04.30-06.17.41:644][707]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000100C3600
-[2015.04.30-06.17.42:238][707]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.04.30-06.17.42:248][707]LogAIModule: Creating AISystem for world NewCave
-[2015.04.30-06.17.42:287][707]Cmd: MAP CHECKDEP
-[2015.04.30-06.17.42:287][707]MapCheck: New page: NewCave - Apr 29, 2015, 4:17:42 PM
-[2015.04.30-06.17.42:546][707]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 258.577ms to complete.
-[2015.04.30-06.17.42:575][707]LogFileHelpers: Loading map 'NewCave' took 1.081
-[2015.04.30-06.17.42:649][708]Cmd: UpdateLandscapeEditorData -warnings
-[2015.04.30-06.17.42:739][708]Cmd: UpdateLandscapeEditorData
-[2015.04.30-06.17.50:452][594]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (newcave002)
-[2015.04.30-06.17.51:505][655]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (newcave002)
-[2015.04.30-06.17.52:227][732]Cmd: DELETE
-[2015.04.30-06.17.52:227][732]Cmd: ACTOR DELETE
-[2015.04.30-06.17.52:263][732]LogEditorActor: Deleted Actor: StaticMeshActor
-[2015.04.30-06.17.52:264][732]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.04.30-06.17.52:280][732]LogEditorActor: Deleted 1 Actors (0.031 secs)
-[2015.04.30-06.17.54:518][997]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models'
-[2015.04.30-06.18.01:217][245]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Documents/GodKillerExports/newcave004.FBX)
-[2015.04.30-06.18.01:298][245]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2015.04.30-06.18.01:298][245]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2015.04.30-06.18.01:298][245]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2015.04.30-06.18.01:298][245]LogFbx: ItemName: Model, ItemCount : 1
-[2015.04.30-06.18.01:298][245]LogFbx: ItemName: Geometry, ItemCount : 1
-[2015.04.30-06.18.01:298][245]LogFbx: ItemName: Material, ItemCount : 1
-[2015.04.30-06.18.02:886][245]LogFbx: Loading FBX Scene from ../../../../../../Documents/GodKillerExports/newcave004.FBX
-[2015.04.30-06.18.02:935][245]LogFbx: FBX Scene Loaded Succesfully
-[2015.04.30-06.18.02:955][245]LogFbx:Warning: Triangulating static mesh Box005
-[2015.04.30-06.18.14:130][245]LogFbx: == Initial material list:
-[2015.04.30-06.18.14:131][245]LogFbx: 0: default
-[2015.04.30-06.18.14:131][245]LogFbx: == After sorting:
-[2015.04.30-06.18.14:131][245]LogFbx: 0: default
-[2015.04.30-06.18.14:131][245]LogFbx: == Mapping table:
-[2015.04.30-06.18.14:131][245]LogFbx:   sort 0 -> 0
-[2015.04.30-06.18.14:159][245]LogStaticMesh: Building static mesh newcave004...
-[2015.04.30-06.18.15:172][245]LogStaticMesh: Built static mesh [1016.363159ms] /Game/Models/newcave004.newcave004
-[2015.04.30-06.18.15:803][245]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
-[2015.04.30-06.18.15:803][245]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models'
-[2015.04.30-06.18.18:308][442]LogRenderer:Warning: Reallocating scene render targets to support 1856x968 (Frame:3056).
-[2015.04.30-06.18.39:973][940]LogStaticMesh: Building static mesh newcave004...
-[2015.04.30-06.18.40:961][940]LogStaticMesh: Built static mesh [988.134644ms] /Game/Models/newcave004.newcave004
-[2015.04.30-06.18.41:249][940]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
-[2015.04.30-06.18.41:249][940]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
-[2015.04.30-06.18.43:730][179]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/sword'
-[2015.04.30-06.18.44:473][242]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
-[2015.04.30-06.18.47:249][543]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/Rocks'
-[2015.04.30-06.18.52:534][ 27]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/newcave004" FILE="../../../../../../Documents/GitHub/God-Killer/Content/Models/newcave004.uasset" SILENT=true
-[2015.04.30-06.18.52:779][ 27]LogSavePackage: Save=243.045486ms
-[2015.04.30-06.18.52:779][ 27]LogSavePackage: Moving '../../../../../../Documents/GitHub/God-Killer/Saved/newcave004C6F6FC6345F498FF5FC3C3B69B0AF6B7.tmp' to '../../../../../../Documents/GitHub/God-Killer/Content/Models/newcave004.uasset'
-[2015.04.30-06.18.54:593][220]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models'
-[2015.04.30-06.18.55:895][321]LogActorFactory: Actor Factory created newcave004
-[2015.04.30-06.18.56:602][393]LogActorFactory: Actor Factory created newcave004
-[2015.04.30-06.19.05:778][319]Cmd: TRANSACTION UNDO
-[2015.04.30-06.19.05:778][319]LogEditorTransaction: Undo Move Actors
-[2015.04.30-06.19.47:624][689]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (newcave004)
-[2015.04.30-06.19.58:291][823]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2015.04.30-06.20.02:816][280]Cmd: UpdateLandscapeEditorData
-[2015.04.30-06.20.07:913][802]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (newcave004)
-[2015.04.30-06.20.15:302][461]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar2)
-[2015.04.30-06.20.18:350][748]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
-[2015.04.30-06.20.19:892][912]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2015.04.30-06.20.19:892][912]PIE: New page: PIE session: NewCave (Apr 29, 2015, 4:20:19 PM)
-[2015.04.30-06.20.19:940][912]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047331s)
-[2015.04.30-06.20.19:940][912]LogPlayLevel: PIE: World Init took: (0.000807s)
-[2015.04.30-06.20.19:941][912]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/NewCave.NewCave to /Game/Scene/UEDPIE_0_NewCave.NewCave (0.048345s)
-[2015.04.30-06.20.20:060][912]LogWorld: Game class is 'ThirdPersonGameMode_C'
-[2015.04.30-06.20.20:122][912]LogAIModule: Creating AISystem for world NewCave
-[2015.04.30-06.20.20:164][912]LogWorld: Bringing World /Game/Scene/UEDPIE_0_NewCave.NewCave up for play (max tick rate 0) at 2015.04.29-23.20.20
-[2015.04.30-06.20.20:165][912]LogWorld: Bringing up level for play took: 0.042112
-[2015.04.30-06.20.20:203][912]PIE: Info Play in editor start time for /Game/Scene/UEDPIE_0_NewCave 0.216
-[2015.04.30-06.20.23:629][296]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.04.30-06.20.23:644][296]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000010035B20
-[2015.04.30-06.20.23:644][296]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FCC7A60
-[2015.04.30-06.20.29:109][666]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene/NewCave" FILE="../../../../../../Documents/GitHub/God-Killer/Content/Scene/NewCave.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2015.04.30-06.20.29:669][666]LogSavePackage: Save=509.647736ms
-[2015.04.30-06.20.29:669][666]LogSavePackage: Moving '../../../../../../Documents/GitHub/God-Killer/Saved/NewCaveA1A98DC24BFE5001AFF055B7D44E6953.tmp' to '../../../../../../Documents/GitHub/God-Killer/Content/Scene/NewCave.umap'
-[2015.04.30-06.20.29:708][666]LogFileHelpers: Saving map 'NewCave' took 0.826
-[2015.04.30-06.20.32:693][909]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
-[2015.04.30-06.20.35:865][240]LogTexture:Display: Building textures: Mat_Fire_Blue_SubUv (AutoDXT)
-[2015.04.30-06.20.37:699][240]LogMaterial: Missing cached shader map for material Mat_Flame_Blue, compiling. 
-[2015.04.30-06.20.37:750][240]LogTexture:Display: Building textures: ThumbnailTexture (DXT1)
-[2015.04.30-06.20.37:963][240]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0156 seconds. Added 2 classes and 2 folders.
-[2015.04.30-06.20.38:058][240]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
-[2015.04.30-06.20.38:058][240]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
-[2015.04.30-06.20.55:445][488]LogCascade: Quitting Cascade. FXSystem=0x0000000010036340
-[2015.04.30-06.20.57:218][668]MapCheck: New page: Map Check
-[2015.04.30-06.20.57:269][668]Cmd: MAP REBUILD ALLVISIBLE
-[2015.04.30-06.20.57:269][668]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2015.04.30-06.20.57:392][668]LightingResults: New page: Lighting Build - Apr 29, 2015, 4:20:57 PM
-[2015.04.30-06.21.03:552][668]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2015.04.30-06.21.03:552][668]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2015.04.30-06.21.03:552][668]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2015.04.30-06.21.03:552][668]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2015.04.30-06.21.03:552][668]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2015.04.30-06.21.04:542][668]LogEditorBuildUtils: Build time 0:00:07
-[2015.04.30-06.21.04:607][669]Cmd: UpdateLandscapeEditorData
-[2015.04.30-06.21.04:649][670]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer frostedglassLight, compiling. 
-[2015.04.30-06.21.04:653][670]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer frostedglassLight, compiling. 
-[2015.04.30-06.21.05:918][674]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000010036340
-[2015.04.30-06.21.22:507][270]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.21.22:507][270]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.21.22:569][276]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.21.22:570][276]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.21.22:620][281]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.21.22:620][281]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.21.22:936][312]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.21.22:936][312]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.21.23:091][327]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.21.23:091][327]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.21.23:141][332]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.21.23:141][332]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.21.23:303][348]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.21.23:303][348]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.21.23:669][384]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.21.23:680][385]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.21.23:748][392]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.21.23:748][392]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.21.25:744][594]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.21.25:744][594]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.21.26:439][664]Job is a success!
-[2015.04.30-06.21.26:957][665]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
-[2015.04.30-06.21.26:999][665]LogTexture:Display: Building textures: LQ_Lightmap_0_17 (DXT1)
-[2015.04.30-06.21.27:003][665]LogTexture:Display: Building textures: HQ_Lightmap0_17 (AutoDXT)
-[2015.04.30-06.21.27:008][665]LogTexture:Display: Building textures: LQ_Lightmap_0_16 (DXT1)
-[2015.04.30-06.21.27:009][665]LogTexture:Display: Building textures: HQ_Lightmap0_16 (AutoDXT)
-[2015.04.30-06.21.27:012][665]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1)
-[2015.04.30-06.21.27:016][665]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT)
-[2015.04.30-06.21.27:021][665]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1)
-[2015.04.30-06.21.27:025][665]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT)
-[2015.04.30-06.21.27:028][665]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1)
-[2015.04.30-06.21.27:033][665]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT)
-[2015.04.30-06.21.27:038][665]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1)
-[2015.04.30-06.21.27:041][665]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT)
-[2015.04.30-06.21.27:045][665]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1)
-[2015.04.30-06.21.27:083][665]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT)
-[2015.04.30-06.21.27:095][665]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1)
-[2015.04.30-06.21.27:099][665]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT)
-[2015.04.30-06.21.27:102][665]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
-[2015.04.30-06.21.27:106][665]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
-[2015.04.30-06.21.27:110][665]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
-[2015.04.30-06.21.27:112][665]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
-[2015.04.30-06.21.27:114][665]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
-[2015.04.30-06.21.27:116][665]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
-[2015.04.30-06.21.27:119][665]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
-[2015.04.30-06.21.27:127][665]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
-[2015.04.30-06.21.27:141][665]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
-[2015.04.30-06.21.27:145][665]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
-[2015.04.30-06.21.27:149][665]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
-[2015.04.30-06.21.27:292][665]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
-[2015.04.30-06.21.27:489][665]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
-[2015.04.30-06.21.27:511][665]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
-[2015.04.30-06.21.27:537][665]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
-[2015.04.30-06.21.27:550][665]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
-[2015.04.30-06.21.27:563][665]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
-[2015.04.30-06.21.27:659][665]Lightmass on JOSEPH-PC: 20.5 sec total, 615 ms importing, 1.57 sec setup, 3.81 sec photons, 14.5 sec processing, 0 ms extra exporting [117/117 mappings]. Threads: 1:41 min total, 1:14 min processing.
-[2015.04.30-06.21.27:736][665]LogStaticLightingSystem: Illumination: 30.3 sec (715 ms encoding lightmaps)
-[2015.04.30-06.21.27:736][665]LogStaticLightingSystem: Lightmap texture memory:  1.0 MB (0.7 MB streaming, 0.3 MB non-streaming), 34 textures
-[2015.04.30-06.21.27:736][665]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
-[2015.04.30-06.21.28:576][666]Cmd: UpdateLandscapeEditorData
-[2015.04.30-06.21.28:577][666]Cmd: MAP CHECK NOTIFYRESULTS
-[2015.04.30-06.21.28:577][666]MapCheck: New page: NewCave - Apr 29, 2015, 4:21:28 PM
-[2015.04.30-06.21.28:599][666]MapCheck:Error: Error newcave_4 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
-[2015.04.30-06.21.28:599][666]MapCheck:Warning: Warning newcave_4 Static mesh actor has NULL StaticMesh property 
-[2015.04.30-06.21.28:599][666]MapCheck:Warning: Warning newcave_4 Static mesh actor has NULL StaticMesh property 
-[2015.04.30-06.21.28:820][666]MapCheck: Info Map check complete: 1 Error(s), 2 Warning(s), took 242.366ms to complete.
-[2015.04.30-06.21.37:621][493]LogEditorViewport: Clicking Background
-[2015.04.30-06.21.38:020][538]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (newcave004)
-[2015.04.30-06.22.07:297][503]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models'
-[2015.04.30-06.22.07:895][550]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/Lantern'
-[2015.04.30-06.22.12:472][894]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models'
-[2015.04.30-06.22.14:268][ 36]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/Lantern'
-[2015.04.30-06.22.19:369][401]LogMaterial: Missing cached shader map for material Glass, compiling. 
-[2015.04.30-06.22.20:250][454]LogMaterial:Warning: Material /Game/Models/Lantern/Glass.Glass needed to have new flag set bUsedWithStaticLighting !
-[2015.04.30-06.22.20:254][454]LogMaterial: Missing cached shader map for material Glass, compiling. 
-[2015.04.30-06.22.20:268][454]LogMaterial: 0.000085 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.04.30-06.22.24:778][736]LogMaterial: Missing cached shader map for material Glass, compiling. 
-[2015.04.30-06.22.24:820][736]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
-[2015.04.30-06.22.24:965][736]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
-[2015.04.30-06.22.24:965][736]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
-[2015.04.30-06.22.24:966][736]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
-[2015.04.30-06.22.24:966][736]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
-[2015.04.30-06.22.24:973][736]LogMaterial: Missing cached shader map for material Glass, compiling. 
-[2015.04.30-06.22.24:979][736]LogMaterial: 0.000043 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.04.30-06.22.25:006][736]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2015.04.30-06.22.27:248][896]MaterialEditorStats: Info Base pass shader with static lighting: 50 instructions
-[2015.04.30-06.22.27:248][896]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
-[2015.04.30-06.22.27:248][896]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 61 instructions
-[2015.04.30-06.22.27:248][896]MaterialEditorStats: Info Vertex shader: 68 instructions
-[2015.04.30-06.22.27:248][896]MaterialEditorStats: Info Texture samplers: 4/16
-[2015.04.30-06.22.27:922][951]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Lantern/Lanturn001" FILE="../../../../../../Documents/GitHub/God-Killer/Content/Models/Lantern/Lanturn001.uasset" SILENT=true
-[2015.04.30-06.22.28:225][951]LogSavePackage: Save=280.052002ms
-[2015.04.30-06.22.28:225][951]LogSavePackage: Moving '../../../../../../Documents/GitHub/God-Killer/Saved/Lanturn0018E1BC81C489A9D49DE340FAA59A9C8C3.tmp' to '../../../../../../Documents/GitHub/God-Killer/Content/Models/Lantern/Lanturn001.uasset'
-[2015.04.30-06.22.37:823][907]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
-[2015.04.30-06.22.52:115][428]Cmd: DELETE
-[2015.04.30-06.22.52:115][428]Cmd: ACTOR DELETE
-[2015.04.30-06.22.52:126][428]LogEditorActor: Deleted Actor: Emitter
-[2015.04.30-06.22.52:128][428]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.04.30-06.22.52:141][428]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001016D1C0
-[2015.04.30-06.22.52:147][428]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000010078AE0
-[2015.04.30-06.22.52:147][428]LogEditorActor: Deleted 1 Actors (0.032 secs)
-[2015.04.30-06.23.25:732][107]EditorErrors: New page: Actor attachment
-[2015.04.30-06.23.27:313][286]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2015.04.30-06.23.37:216][422]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Lanturn001)
-[2015.04.30-06.23.51:245][938]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2015.04.30-06.23.51:245][938]PIE: New page: PIE session: NewCave (Apr 29, 2015, 4:23:51 PM)
-[2015.04.30-06.23.51:291][938]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046200s)
-[2015.04.30-06.23.51:292][938]LogPlayLevel: PIE: World Init took: (0.000778s)
-[2015.04.30-06.23.51:292][938]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/NewCave.NewCave to /Game/Scene/UEDPIE_0_NewCave.NewCave (0.047155s)
-[2015.04.30-06.23.51:329][938]LogWorld: Game class is 'ThirdPersonGameMode_C'
-[2015.04.30-06.23.51:331][938]LogAIModule: Creating AISystem for world NewCave
-[2015.04.30-06.23.51:372][938]LogWorld: Bringing World /Game/Scene/UEDPIE_0_NewCave.NewCave up for play (max tick rate 0) at 2015.04.29-23.23.51
-[2015.04.30-06.23.51:374][938]LogWorld: Bringing up level for play took: 0.041627
-[2015.04.30-06.23.51:377][938]PIE: Info Play in editor start time for /Game/Scene/UEDPIE_0_NewCave -0.612
-[2015.04.30-06.23.55:656][430]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.04.30-06.23.55:672][430]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F916980
-[2015.04.30-06.24.00:777][968]Cmd: TRANSACTION UNDO
-[2015.04.30-06.24.00:777][968]LogEditorTransaction: Undo Move Actors
-[2015.04.30-06.24.25:335][471]LogEditorActor: Deleted Actor: StaticMeshActor
-[2015.04.30-06.24.25:337][471]LogEditorActor: Deleted Actor: StaticMeshActor
-[2015.04.30-06.24.25:339][471]LogEditorActor: Deleted Actor: StaticMeshActor
-[2015.04.30-06.24.25:340][471]LogEditorActor: Deleted Actor: StaticMeshActor
-[2015.04.30-06.24.25:342][471]LogEditorActor: Deleted Actor: StaticMeshActor
-[2015.04.30-06.24.25:344][471]LogEditorActor: Deleted Actor: StaticMeshActor
-[2015.04.30-06.24.25:346][471]LogEditorActor: Deleted Actor: StaticMeshActor
-[2015.04.30-06.24.25:348][471]LogEditorActor: Deleted Actor: StaticMeshActor
-[2015.04.30-06.24.25:349][471]LogEditorActor: Deleted Actor: StaticMeshActor
-[2015.04.30-06.24.25:367][471]LogEditorActor: Deleted 9 Actors (1.892 secs)
-[2015.04.30-06.24.41:679][ 11]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (newcave004)
-[2015.04.30-06.24.43:097][105]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar7)
-[2015.04.30-06.24.43:564][151]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Lanturn3)
-[2015.04.30-06.24.43:971][189]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Lanturn3)
-[2015.04.30-06.24.52:894][981]Cmd: TRANSACTION UNDO
-[2015.04.30-06.24.52:894][981]LogEditorTransaction: Undo Move Actors
-[2015.04.30-06.25.10:582][774]LogEditorActor: Deleted Actor: StaticMeshActor
-[2015.04.30-06.25.10:583][774]LogEditorActor: Deleted Actor: StaticMeshActor
-[2015.04.30-06.25.10:584][774]LogEditorActor: Deleted Actor: StaticMeshActor
-[2015.04.30-06.25.10:601][774]LogEditorActor: Deleted 3 Actors (0.029 secs)
-[2015.04.30-06.25.11:805][883]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene/NewCave" FILE="../../../../../../Documents/GitHub/God-Killer/Content/Scene/NewCave.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2015.04.30-06.25.12:262][883]LogSavePackage: Save=419.999939ms
-[2015.04.30-06.25.12:262][883]LogSavePackage: Moving '../../../../../../Documents/GitHub/God-Killer/Saved/NewCave2E08B982451444D8AF4DEE87FCC109B0.tmp' to '../../../../../../Documents/GitHub/God-Killer/Content/Scene/NewCave.umap'
-[2015.04.30-06.25.12:304][883]LogFileHelpers: Saving map 'NewCave' took 0.726
-[2015.04.30-06.25.12:336][883]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Lantern/Glass" FILE="../../../../../../Documents/GitHub/God-Killer/Content/Models/Lantern/Glass.uasset" SILENT=true
-[2015.04.30-06.25.12:676][883]LogSavePackage: Save=318.448517ms
-[2015.04.30-06.25.12:676][883]LogSavePackage: Moving '../../../../../../Documents/GitHub/God-Killer/Saved/Glass2A9D33A744B84969DB61A4A3FADAFFC2.tmp' to '../../../../../../Documents/GitHub/God-Killer/Content/Models/Lantern/Glass.uasset'
-[2015.04.30-06.25.37:878][253]Cmd: DELETE
-[2015.04.30-06.25.37:878][253]Cmd: ACTOR DELETE
-[2015.04.30-06.25.37:889][253]LogEditorActor: Deleted Actor: StaticMeshActor
-[2015.04.30-06.25.37:906][253]LogEditorActor: Deleted 1 Actors (0.028 secs)
-[2015.04.30-06.26.10:861][823]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene/NewCave" FILE="../../../../../../Documents/GitHub/God-Killer/Content/Scene/NewCave.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2015.04.30-06.26.11:320][823]LogSavePackage: Save=414.414490ms
-[2015.04.30-06.26.11:320][823]LogSavePackage: Moving '../../../../../../Documents/GitHub/God-Killer/Saved/NewCave4CF878754FDDC85CF91E918EA9339747.tmp' to '../../../../../../Documents/GitHub/God-Killer/Content/Scene/NewCave.umap'
-[2015.04.30-06.26.11:365][823]LogFileHelpers: Saving map 'NewCave' took 0.734
-[2015.04.30-06.26.35:377][625]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar9)
-[2015.04.30-06.26.36:215][712]Cmd: TRANSACTION UNDO
-[2015.04.30-06.26.36:215][712]LogEditorTransaction: Undo Move Actors
-[2015.04.30-06.27.27:031][630]Cmd: TRANSACTION UNDO
-[2015.04.30-06.27.27:031][630]LogEditorTransaction: Undo Move Actors
-[2015.04.30-06.28.09:682][813]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene/NewCave" FILE="../../../../../../Documents/GitHub/God-Killer/Content/Scene/NewCave.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2015.04.30-06.28.10:260][813]LogSavePackage: Save=537.556580ms
-[2015.04.30-06.28.10:260][813]LogSavePackage: Moving '../../../../../../Documents/GitHub/God-Killer/Saved/NewCave90F262FA454ADDD4D90F47868E22BB70.tmp' to '../../../../../../Documents/GitHub/God-Killer/Content/Scene/NewCave.umap'
-[2015.04.30-06.28.10:301][813]LogFileHelpers: Saving map 'NewCave' took 0.849
-[2015.04.30-06.29.14:621][ 50]MapCheck: New page: Map Check
-[2015.04.30-06.29.14:637][ 50]Cmd: MAP REBUILD ALLVISIBLE
-[2015.04.30-06.29.14:637][ 50]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2015.04.30-06.29.14:757][ 50]LightingResults: New page: Lighting Build - Apr 29, 2015, 4:29:14 PM
-[2015.04.30-06.29.19:974][ 50]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2015.04.30-06.29.19:974][ 50]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2015.04.30-06.29.19:974][ 50]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2015.04.30-06.29.19:974][ 50]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2015.04.30-06.29.19:974][ 50]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2015.04.30-06.29.20:321][ 50]LogEditorBuildUtils: Build time 0:00:05
-[2015.04.30-06.29.20:378][ 50]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Glass, compiling. 
-[2015.04.30-06.29.20:381][ 50]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Glass, compiling. 
-[2015.04.30-06.29.20:404][ 51]Cmd: UpdateLandscapeEditorData
-[2015.04.30-06.29.38:676][693]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.29.38:676][693]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.29.38:778][703]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.29.38:778][703]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.29.38:880][713]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.29.38:880][713]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.29.39:280][752]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.29.39:280][752]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.29.39:431][767]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.29.39:431][767]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.29.39:431][767]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.29.39:431][767]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.29.39:519][776]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.29.39:519][776]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.29.39:966][820]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.29.39:966][820]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.29.39:997][823]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.29.39:997][823]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.29.42:144][ 36]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.29.42:144][ 36]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.29.42:862][109]Job is a success!
-[2015.04.30-06.29.43:429][110]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
-[2015.04.30-06.29.43:472][110]LogTexture:Display: Building textures: LQ_Lightmap_0_22 (DXT1)
-[2015.04.30-06.29.43:476][110]LogTexture:Display: Building textures: HQ_Lightmap0_22 (AutoDXT)
-[2015.04.30-06.29.43:481][110]LogTexture:Display: Building textures: LQ_Lightmap_0_21 (DXT1)
-[2015.04.30-06.29.43:482][110]LogTexture:Display: Building textures: HQ_Lightmap0_21 (AutoDXT)
-[2015.04.30-06.29.43:485][110]LogTexture:Display: Building textures: LQ_Lightmap_0_20 (DXT1)
-[2015.04.30-06.29.43:489][110]LogTexture:Display: Building textures: HQ_Lightmap0_20 (AutoDXT)
-[2015.04.30-06.29.43:494][110]LogTexture:Display: Building textures: LQ_Lightmap_0_19 (DXT1)
-[2015.04.30-06.29.43:497][110]LogTexture:Display: Building textures: HQ_Lightmap0_19 (AutoDXT)
-[2015.04.30-06.29.43:501][110]LogTexture:Display: Building textures: LQ_Lightmap_0_18 (DXT1)
-[2015.04.30-06.29.43:505][110]LogTexture:Display: Building textures: HQ_Lightmap0_18 (AutoDXT)
-[2015.04.30-06.29.43:512][110]LogTexture:Display: Building textures: LQ_Lightmap_1_17 (DXT1)
-[2015.04.30-06.29.43:544][110]LogTexture:Display: Building textures: HQ_Lightmap1_17 (AutoDXT)
-[2015.04.30-06.29.43:546][110]LogTexture:Display: Building textures: LQ_Lightmap_1_16 (DXT1)
-[2015.04.30-06.29.43:557][110]LogTexture:Display: Building textures: HQ_Lightmap1_16 (AutoDXT)
-[2015.04.30-06.29.43:569][110]LogTexture:Display: Building textures: LQ_Lightmap_1_15 (DXT1)
-[2015.04.30-06.29.43:574][110]LogTexture:Display: Building textures: HQ_Lightmap1_15 (AutoDXT)
-[2015.04.30-06.29.43:577][110]LogTexture:Display: Building textures: LQ_Lightmap_1_14 (DXT1)
-[2015.04.30-06.29.43:581][110]LogTexture:Display: Building textures: HQ_Lightmap1_14 (AutoDXT)
-[2015.04.30-06.29.43:585][110]LogTexture:Display: Building textures: LQ_Lightmap_1_13 (DXT1)
-[2015.04.30-06.29.43:587][110]LogTexture:Display: Building textures: HQ_Lightmap1_13 (AutoDXT)
-[2015.04.30-06.29.43:589][110]LogTexture:Display: Building textures: LQ_Lightmap_1_12 (DXT1)
-[2015.04.30-06.29.43:591][110]LogTexture:Display: Building textures: HQ_Lightmap1_12 (AutoDXT)
-[2015.04.30-06.29.43:594][110]LogTexture:Display: Building textures: LQ_Lightmap_1_11 (DXT1)
-[2015.04.30-06.29.43:603][110]LogTexture:Display: Building textures: HQ_Lightmap1_11 (AutoDXT)
-[2015.04.30-06.29.43:617][110]LogTexture:Display: Building textures: LQ_Lightmap_1_10 (DXT1)
-[2015.04.30-06.29.43:675][110]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT)
-[2015.04.30-06.29.43:743][110]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1)
-[2015.04.30-06.29.43:769][110]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT)
-[2015.04.30-06.29.43:799][110]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1)
-[2015.04.30-06.29.43:802][110]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
-[2015.04.30-06.29.43:806][110]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
-[2015.04.30-06.29.43:833][110]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
-[2015.04.30-06.29.43:862][110]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
-[2015.04.30-06.29.43:866][110]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
-[2015.04.30-06.29.43:880][110]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
-[2015.04.30-06.29.43:905][110]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
-[2015.04.30-06.29.43:944][110]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
-[2015.04.30-06.29.44:012][110]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
-[2015.04.30-06.29.44:096][110]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
-[2015.04.30-06.29.44:117][110]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
-[2015.04.30-06.29.44:179][110]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
-[2015.04.30-06.29.44:190][110]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
-[2015.04.30-06.29.44:204][110]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
-[2015.04.30-06.29.44:238][110]Lightmass on JOSEPH-PC: 21.4 sec total, 449 ms importing, 1.60 sec setup, 4.31 sec photons, 14.9 sec processing, 0 ms extra exporting [117/117 mappings]. Threads: 1:44 min total, 1:15 min processing.
-[2015.04.30-06.29.44:319][110]LogStaticLightingSystem: Illumination: 29.5 sec (875 ms encoding lightmaps)
-[2015.04.30-06.29.44:320][110]LogStaticLightingSystem: Lightmap texture memory:  1.3 MB (0.9 MB streaming, 0.3 MB non-streaming), 44 textures
-[2015.04.30-06.29.44:320][110]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
-[2015.04.30-06.29.44:993][111]Cmd: UpdateLandscapeEditorData
-[2015.04.30-06.29.44:995][111]Cmd: MAP CHECK NOTIFYRESULTS
-[2015.04.30-06.29.44:995][111]MapCheck: New page: NewCave - Apr 29, 2015, 4:29:44 PM
-[2015.04.30-06.29.45:004][111]MapCheck:Error: Error newcave_4 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
-[2015.04.30-06.29.45:005][111]MapCheck:Warning: Warning newcave_4 Static mesh actor has NULL StaticMesh property 
-[2015.04.30-06.29.45:005][111]MapCheck:Warning: Warning newcave_4 Static mesh actor has NULL StaticMesh property 
-[2015.04.30-06.29.45:234][111]MapCheck: Info Map check complete: 1 Error(s), 2 Warning(s), took 239.053ms to complete.
-[2015.04.30-06.29.49:298][488]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/Scene/NewCave.HQ_Lightmap0_17. Streaming mips will be recached.
-[2015.04.30-06.29.49:301][488]LogTexture:Display: Building textures: HQ_Lightmap0_17 (AutoDXT)
-[2015.04.30-06.29.54:296][  7]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2015.04.30-06.29.54:296][  7]PIE: New page: PIE session: NewCave (Apr 29, 2015, 4:29:54 PM)
-[2015.04.30-06.29.54:344][  7]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047361s)
-[2015.04.30-06.29.54:345][  7]LogPlayLevel: PIE: World Init took: (0.000796s)
-[2015.04.30-06.29.54:345][  7]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/NewCave.NewCave to /Game/Scene/UEDPIE_0_NewCave.NewCave (0.048348s)
-[2015.04.30-06.29.54:385][  7]LogWorld: Game class is 'ThirdPersonGameMode_C'
-[2015.04.30-06.29.54:388][  7]LogAIModule: Creating AISystem for world NewCave
-[2015.04.30-06.29.54:438][  7]LogWorld: Bringing World /Game/Scene/UEDPIE_0_NewCave.NewCave up for play (max tick rate 0) at 2015.04.29-23.29.54
-[2015.04.30-06.29.54:439][  7]LogWorld: Bringing up level for play took: 0.050371
-[2015.04.30-06.29.54:443][  7]PIE: Info Play in editor start time for /Game/Scene/UEDPIE_0_NewCave 0.449
-[2015.04.30-06.29.57:258][328]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000010385300
-[2015.04.30-06.30.12:613][475]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2015.04.30-06.30.12:614][475]PIE: New page: PIE session: NewCave (Apr 29, 2015, 4:30:12 PM)
-[2015.04.30-06.30.12:657][475]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042770s)
-[2015.04.30-06.30.12:658][475]LogPlayLevel: PIE: World Init took: (0.000769s)
-[2015.04.30-06.30.12:658][475]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/NewCave.NewCave to /Game/Scene/UEDPIE_0_NewCave.NewCave (0.043722s)
-[2015.04.30-06.30.12:698][475]LogWorld: Game class is 'ThirdPersonGameMode_C'
-[2015.04.30-06.30.12:701][475]LogAIModule: Creating AISystem for world NewCave
-[2015.04.30-06.30.12:750][475]LogWorld: Bringing World /Game/Scene/UEDPIE_0_NewCave.NewCave up for play (max tick rate 0) at 2015.04.29-23.30.12
-[2015.04.30-06.30.12:751][475]LogWorld: Bringing up level for play took: 0.049020
-[2015.04.30-06.30.12:755][475]PIE: Info Play in editor start time for /Game/Scene/UEDPIE_0_NewCave 0.761
-[2015.04.30-06.30.34:397][ 46]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000DC067A0
-[2015.04.30-06.30.37:536][354]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Lanturn4)
-[2015.04.30-06.30.40:175][621]Cmd: DELETE
-[2015.04.30-06.30.40:175][621]Cmd: ACTOR DELETE
-[2015.04.30-06.30.40:186][621]LogEditorActor: Deleted Actor: StaticMeshActor
-[2015.04.30-06.30.40:204][621]LogEditorActor: Deleted 1 Actors (0.029 secs)
-[2015.04.30-06.30.40:903][703]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Lanturn4)
-[2015.04.30-06.31.14:600][232]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Lanturn11)
-[2015.04.30-06.31.19:932][784]Cmd: TRANSACTION UNDO
-[2015.04.30-06.31.19:932][784]LogEditorTransaction: Undo Move Actors
-[2015.04.30-06.31.41:687][113]MapCheck: New page: Map Check
-[2015.04.30-06.31.41:711][113]Cmd: MAP REBUILD ALLVISIBLE
-[2015.04.30-06.31.41:713][113]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2015.04.30-06.31.41:839][113]LightingResults: New page: Lighting Build - Apr 29, 2015, 4:31:41 PM
-[2015.04.30-06.31.47:047][113]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2015.04.30-06.31.47:047][113]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2015.04.30-06.31.47:047][113]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2015.04.30-06.31.47:047][113]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2015.04.30-06.31.47:047][113]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2015.04.30-06.31.47:390][113]LogEditorBuildUtils: Build time 0:00:05
-[2015.04.30-06.31.47:454][114]Cmd: UpdateLandscapeEditorData
-[2015.04.30-06.32.04:553][752]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.32.04:553][752]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.32.04:779][774]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.32.04:779][774]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.32.04:800][776]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.32.04:800][776]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.32.04:998][795]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.32.04:998][795]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.32.05:151][810]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.32.05:151][810]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.32.05:292][823]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.32.05:292][823]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.32.05:550][848]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.32.05:550][848]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.32.05:692][861]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.32.05:692][861]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.32.06:077][898]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.32.06:077][898]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.32.06:146][905]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.32.06:146][905]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.32.07:642][ 54]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.32.07:653][ 55]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.32.07:862][ 75]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.32.07:873][ 76]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.32.10:322][337]Job is a success!
-[2015.04.30-06.32.10:887][338]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
-[2015.04.30-06.32.10:932][338]LogTexture:Display: Building textures: LQ_Lightmap_1_20 (DXT1)
-[2015.04.30-06.32.10:936][338]LogTexture:Display: Building textures: HQ_Lightmap1_20 (AutoDXT)
-[2015.04.30-06.32.10:940][338]LogTexture:Display: Building textures: LQ_Lightmap_1_19 (DXT1)
-[2015.04.30-06.32.10:941][338]LogTexture:Display: Building textures: HQ_Lightmap1_19 (AutoDXT)
-[2015.04.30-06.32.10:943][338]LogTexture:Display: Building textures: LQ_Lightmap_1_18 (DXT1)
-[2015.04.30-06.32.10:948][338]LogTexture:Display: Building textures: HQ_Lightmap1_18 (AutoDXT)
-[2015.04.30-06.32.10:952][338]LogTexture:Display: Building textures: LQ_Lightmap_0_17 (DXT1)
-[2015.04.30-06.32.10:957][338]LogTexture:Display: Building textures: HQ_Lightmap0_17 (AutoDXT)
-[2015.04.30-06.32.10:961][338]LogTexture:Display: Building textures: LQ_Lightmap_0_16 (DXT1)
-[2015.04.30-06.32.10:967][338]LogTexture:Display: Building textures: HQ_Lightmap0_16 (AutoDXT)
-[2015.04.30-06.32.11:002][338]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1)
-[2015.04.30-06.32.11:005][338]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT)
-[2015.04.30-06.32.11:007][338]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1)
-[2015.04.30-06.32.11:013][338]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT)
-[2015.04.30-06.32.11:017][338]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1)
-[2015.04.30-06.32.11:020][338]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT)
-[2015.04.30-06.32.11:025][338]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1)
-[2015.04.30-06.32.11:027][338]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT)
-[2015.04.30-06.32.11:030][338]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1)
-[2015.04.30-06.32.11:032][338]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT)
-[2015.04.30-06.32.11:035][338]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1)
-[2015.04.30-06.32.11:053][338]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT)
-[2015.04.30-06.32.11:070][338]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
-[2015.04.30-06.32.11:128][338]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
-[2015.04.30-06.32.11:202][338]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
-[2015.04.30-06.32.11:232][338]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
-[2015.04.30-06.32.11:283][338]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
-[2015.04.30-06.32.11:287][338]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
-[2015.04.30-06.32.11:291][338]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
-[2015.04.30-06.32.11:321][338]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
-[2015.04.30-06.32.11:372][338]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
-[2015.04.30-06.32.11:442][338]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
-[2015.04.30-06.32.11:505][338]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
-[2015.04.30-06.32.11:532][338]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
-[2015.04.30-06.32.11:569][338]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
-[2015.04.30-06.32.11:578][338]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
-[2015.04.30-06.32.11:588][338]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
-[2015.04.30-06.32.11:593][338]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
-[2015.04.30-06.32.11:606][338]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
-[2015.04.30-06.32.11:673][338]Lightmass on JOSEPH-PC: 23.1 sec total, 445 ms importing, 1.59 sec setup, 4.34 sec photons, 16.7 sec processing, 0 ms extra exporting [119/119 mappings]. Threads: 1:57 min total, 1:17 min processing.
-[2015.04.30-06.32.11:755][338]LogStaticLightingSystem: Illumination: 29.8 sec (847 ms encoding lightmaps)
-[2015.04.30-06.32.11:755][338]LogStaticLightingSystem: Lightmap texture memory:  1.3 MB (1.0 MB streaming, 0.3 MB non-streaming), 40 textures
-[2015.04.30-06.32.11:755][338]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
-[2015.04.30-06.32.12:070][339]Cmd: UpdateLandscapeEditorData
-[2015.04.30-06.32.12:071][339]Cmd: MAP CHECK NOTIFYRESULTS
-[2015.04.30-06.32.12:071][339]MapCheck: New page: NewCave - Apr 29, 2015, 4:32:12 PM
-[2015.04.30-06.32.12:072][339]MapCheck:Error: Error newcave_4 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
-[2015.04.30-06.32.12:072][339]MapCheck:Warning: Warning newcave_4 Static mesh actor has NULL StaticMesh property 
-[2015.04.30-06.32.12:072][339]MapCheck:Warning: Warning newcave_4 Static mesh actor has NULL StaticMesh property 
-[2015.04.30-06.32.12:302][339]MapCheck: Info Map check complete: 1 Error(s), 2 Warning(s), took 231.427ms to complete.
-[2015.04.30-06.32.14:760][525]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (newcave004)
-[2015.04.30-06.32.15:301][574]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2015.04.30-06.32.16:107][654]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (newcave004)
-[2015.04.30-06.32.18:940][951]Cmd: SELECT NONE
-[2015.04.30-06.32.24:115][569]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/Scene/NewCave.HQ_Lightmap1_9. Streaming mips will be recached.
-[2015.04.30-06.32.24:118][569]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT)
-[2015.04.30-06.32.24:228][579]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/Scene/NewCave.HQ_Lightmap1_5. Streaming mips will be recached.
-[2015.04.30-06.32.24:231][579]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
-[2015.04.30-06.32.24:656][624]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/Scene/NewCave.HQ_Lightmap0_22. Streaming mips will be recached.
-[2015.04.30-06.32.24:660][624]LogTexture:Display: Building textures: HQ_Lightmap0_22 (AutoDXT)
-[2015.04.30-06.32.25:581][729]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/Scene/NewCave.HQ_Lightmap1_7. Streaming mips will be recached.
-[2015.04.30-06.32.25:593][729]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
-[2015.04.30-06.32.26:018][774]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/Scene/NewCave.HQ_Lightmap1_13. Streaming mips will be recached.
-[2015.04.30-06.32.26:028][774]LogTexture:Display: Building textures: HQ_Lightmap1_13 (AutoDXT)
-[2015.04.30-06.32.33:949][704]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/Rocks'
-[2015.04.30-06.32.35:572][876]LogMaterial: Missing cached shader map for material Rock, compiling. 
-[2015.04.30-06.32.35:594][876]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
-[2015.04.30-06.32.35:660][876]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
-[2015.04.30-06.32.35:660][876]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
-[2015.04.30-06.32.35:660][876]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
-[2015.04.30-06.32.35:660][876]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
-[2015.04.30-06.32.35:669][876]LogMaterial: Missing cached shader map for material Rock, compiling. 
-[2015.04.30-06.32.35:675][876]LogMaterial: 0.000128 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.04.30-06.32.35:701][876]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
-[2015.04.30-06.32.35:703][876]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2015.04.30-06.32.35:705][876]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
-[2015.04.30-06.32.35:708][876]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
-[2015.04.30-06.32.37:518][973]MaterialEditorStats: Info Base pass shader with static lighting: 82 instructions
-[2015.04.30-06.32.37:518][973]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 51 instructions
-[2015.04.30-06.32.37:518][973]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.04.30-06.32.37:518][973]MaterialEditorStats: Info Texture samplers: 5/16
-[2015.04.30-06.32.40:715][207]LogMaterial: Missing cached shader map for material Rock, compiling. 
-[2015.04.30-06.32.40:720][207]LogMaterial: 0.000061 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.04.30-06.32.41:656][265]MaterialEditorStats: Info Base pass shader with static lighting: 82 instructions
-[2015.04.30-06.32.41:656][265]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 51 instructions
-[2015.04.30-06.32.41:657][265]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.04.30-06.32.41:657][265]MaterialEditorStats: Info Texture samplers: 5/16
-[2015.04.30-06.32.43:801][380]LogMaterialEditor: Applying material Rock
-[2015.04.30-06.32.45:177][380]LogMaterial: Missing cached shader map for material Rock, compiling. 
-[2015.04.30-06.32.45:198][380]LogMaterial: 0.000365 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.04.30-06.32.45:255][380]LogMaterial: Missing cached shader map for material Rock, compiling. 
-[2015.04.30-06.32.45:566][380]LogMaterial: Missing cached shader map for material Rock, compiling. 
-[2015.04.30-06.32.45:580][380]LogMaterial: 0.003287 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.04.30-06.32.47:750][527]MaterialEditorStats: Info Base pass shader with static lighting: 103 instructions
-[2015.04.30-06.32.47:750][527]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 72 instructions
-[2015.04.30-06.32.47:750][527]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.04.30-06.32.47:750][527]MaterialEditorStats: Info Texture samplers: 6/16
-[2015.04.30-06.33.15:456][ 64]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/Scene/NewCave.HQ_Lightmap1_3. Streaming mips will be recached.
-[2015.04.30-06.33.15:458][ 64]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
-[2015.04.30-06.33.17:744][334]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/Scene/NewCave.HQ_Lightmap1_4. Streaming mips will be recached.
-[2015.04.30-06.33.17:746][334]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
-[2015.04.30-06.33.28:574][551]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
-[2015.04.30-06.34.13:416][109]MapCheck: New page: Map Check
-[2015.04.30-06.34.13:433][109]Cmd: MAP REBUILD ALLVISIBLE
-[2015.04.30-06.34.13:434][109]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2015.04.30-06.34.13:563][109]LightingResults: New page: Lighting Build - Apr 29, 2015, 4:34:13 PM
-[2015.04.30-06.34.18:771][109]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2015.04.30-06.34.18:771][109]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2015.04.30-06.34.18:771][109]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2015.04.30-06.34.18:771][109]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2015.04.30-06.34.18:771][109]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2015.04.30-06.34.19:117][109]LogEditorBuildUtils: Build time 0:00:05
-[2015.04.30-06.34.19:162][109]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Rock, compiling. 
-[2015.04.30-06.34.19:166][109]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Rock, compiling. 
-[2015.04.30-06.34.19:191][110]Cmd: UpdateLandscapeEditorData
-[2015.04.30-06.34.20:486][113]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000017246200
-[2015.04.30-06.34.38:150][687]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.34.38:161][688]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.34.38:409][710]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.34.38:409][710]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.34.38:581][725]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.34.38:581][725]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.34.38:717][737]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.34.38:717][737]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.34.38:863][750]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.34.38:863][750]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.34.38:885][752]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.34.38:885][752]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.34.39:043][766]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.34.39:044][766]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.34.39:387][796]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.34.39:399][797]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.34.39:629][817]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.34.39:629][817]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.34.39:908][842]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.34.39:908][842]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.34.41:282][966]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.34.41:282][966]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.34.41:481][983]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.34.41:494][984]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.34.44:048][232]Job is a success!
-[2015.04.30-06.34.44:626][233]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
-[2015.04.30-06.34.44:673][233]LogTexture:Display: Building textures: LQ_Lightmap_0_20 (DXT1)
-[2015.04.30-06.34.44:678][233]LogTexture:Display: Building textures: HQ_Lightmap0_20 (AutoDXT)
-[2015.04.30-06.34.44:683][233]LogTexture:Display: Building textures: LQ_Lightmap_0_19 (DXT1)
-[2015.04.30-06.34.44:685][233]LogTexture:Display: Building textures: HQ_Lightmap0_19 (AutoDXT)
-[2015.04.30-06.34.44:687][233]LogTexture:Display: Building textures: LQ_Lightmap_0_18 (DXT1)
-[2015.04.30-06.34.44:693][233]LogTexture:Display: Building textures: HQ_Lightmap0_18 (AutoDXT)
-[2015.04.30-06.34.44:701][233]LogTexture:Display: Building textures: LQ_Lightmap_1_17 (DXT1)
-[2015.04.30-06.34.44:708][233]LogTexture:Display: Building textures: HQ_Lightmap1_17 (AutoDXT)
-[2015.04.30-06.34.44:745][233]LogTexture:Display: Building textures: LQ_Lightmap_1_16 (DXT1)
-[2015.04.30-06.34.44:750][233]LogTexture:Display: Building textures: HQ_Lightmap1_16 (AutoDXT)
-[2015.04.30-06.34.44:758][233]LogTexture:Display: Building textures: LQ_Lightmap_1_15 (DXT1)
-[2015.04.30-06.34.44:761][233]LogTexture:Display: Building textures: HQ_Lightmap1_15 (AutoDXT)
-[2015.04.30-06.34.44:767][233]LogTexture:Display: Building textures: LQ_Lightmap_1_14 (DXT1)
-[2015.04.30-06.34.44:775][233]LogTexture:Display: Building textures: HQ_Lightmap1_14 (AutoDXT)
-[2015.04.30-06.34.44:780][233]LogTexture:Display: Building textures: LQ_Lightmap_1_13 (DXT1)
-[2015.04.30-06.34.44:784][233]LogTexture:Display: Building textures: HQ_Lightmap1_13 (AutoDXT)
-[2015.04.30-06.34.44:791][233]LogTexture:Display: Building textures: LQ_Lightmap_1_12 (DXT1)
-[2015.04.30-06.34.44:793][233]LogTexture:Display: Building textures: HQ_Lightmap1_12 (AutoDXT)
-[2015.04.30-06.34.44:796][233]LogTexture:Display: Building textures: LQ_Lightmap_1_11 (DXT1)
-[2015.04.30-06.34.44:800][233]LogTexture:Display: Building textures: HQ_Lightmap1_11 (AutoDXT)
-[2015.04.30-06.34.44:804][233]LogTexture:Display: Building textures: LQ_Lightmap_1_10 (DXT1)
-[2015.04.30-06.34.44:819][233]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT)
-[2015.04.30-06.34.44:833][233]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1)
-[2015.04.30-06.34.44:895][233]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT)
-[2015.04.30-06.34.44:969][233]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1)
-[2015.04.30-06.34.44:998][233]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
-[2015.04.30-06.34.45:049][233]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
-[2015.04.30-06.34.45:056][233]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
-[2015.04.30-06.34.45:061][233]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
-[2015.04.30-06.34.45:088][233]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
-[2015.04.30-06.34.45:146][233]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
-[2015.04.30-06.34.45:216][233]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
-[2015.04.30-06.34.45:307][233]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
-[2015.04.30-06.34.45:334][233]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
-[2015.04.30-06.34.45:371][233]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
-[2015.04.30-06.34.45:380][233]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
-[2015.04.30-06.34.45:391][233]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
-[2015.04.30-06.34.45:397][233]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
-[2015.04.30-06.34.45:413][233]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
-[2015.04.30-06.34.45:482][233]Lightmass on JOSEPH-PC: 23.9 sec total, 434 ms importing, 1.60 sec setup, 5.08 sec photons, 16.7 sec processing, 0 ms extra exporting [119/119 mappings]. Threads: 1:57 min total, 1:15 min processing.
-[2015.04.30-06.34.45:566][233]LogStaticLightingSystem: Illumination: 31.9 sec (927 ms encoding lightmaps)
-[2015.04.30-06.34.45:566][233]LogStaticLightingSystem: Lightmap texture memory:  1.3 MB (1.0 MB streaming, 0.3 MB non-streaming), 40 textures
-[2015.04.30-06.34.45:566][233]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
-[2015.04.30-06.34.45:794][234]Cmd: UpdateLandscapeEditorData
-[2015.04.30-06.34.45:796][234]Cmd: MAP CHECK NOTIFYRESULTS
-[2015.04.30-06.34.45:796][234]MapCheck: New page: NewCave - Apr 29, 2015, 4:34:45 PM
-[2015.04.30-06.34.45:797][234]MapCheck:Error: Error newcave_4 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
-[2015.04.30-06.34.45:797][234]MapCheck:Warning: Warning newcave_4 Static mesh actor has NULL StaticMesh property 
-[2015.04.30-06.34.45:797][234]MapCheck:Warning: Warning newcave_4 Static mesh actor has NULL StaticMesh property 
-[2015.04.30-06.34.46:039][234]MapCheck: Info Map check complete: 1 Error(s), 2 Warning(s), took 242.788ms to complete.
-[2015.04.30-06.34.50:343][587]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2015.04.30-06.34.50:343][587]PIE: New page: PIE session: NewCave (Apr 29, 2015, 4:34:50 PM)
-[2015.04.30-06.34.50:392][587]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048972s)
-[2015.04.30-06.34.50:393][587]LogPlayLevel: PIE: World Init took: (0.000823s)
-[2015.04.30-06.34.50:393][587]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/NewCave.NewCave to /Game/Scene/UEDPIE_0_NewCave.NewCave (0.049981s)
-[2015.04.30-06.34.50:431][587]LogWorld: Game class is 'ThirdPersonGameMode_C'
-[2015.04.30-06.34.50:434][587]LogAIModule: Creating AISystem for world NewCave
-[2015.04.30-06.34.50:488][587]LogWorld: Bringing World /Game/Scene/UEDPIE_0_NewCave.NewCave up for play (max tick rate 0) at 2015.04.29-23.34.50
-[2015.04.30-06.34.50:490][587]LogWorld: Bringing up level for play took: 0.054874
-[2015.04.30-06.34.50:493][587]PIE: Info Play in editor start time for /Game/Scene/UEDPIE_0_NewCave 0.496
-[2015.04.30-06.34.54:941][ 98]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/Scene/NewCave.HQ_Lightmap0_12. Streaming mips will be recached.
-[2015.04.30-06.34.54:943][ 98]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT)
-[2015.04.30-06.34.56:001][224]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/Scene/NewCave.HQ_Lightmap0_8. Streaming mips will be recached.
-[2015.04.30-06.34.56:003][224]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
-[2015.04.30-06.34.58:139][474]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/Scene/NewCave.HQ_Lightmap0_6. Streaming mips will be recached.
-[2015.04.30-06.34.58:141][474]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
-[2015.04.30-06.35.01:839][897]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000AB83560
-[2015.04.30-06.35.10:022][684]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar2)
-[2015.04.30-06.35.13:031][998]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Lanturn001)
-[2015.04.30-06.35.29:344][683]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar12)
-[2015.04.30-06.35.30:326][785]Cmd: DELETE
-[2015.04.30-06.35.30:326][785]Cmd: ACTOR DELETE
-[2015.04.30-06.35.30:337][785]LogEditorActor: Deleted Actor: StaticMeshActor
-[2015.04.30-06.35.30:355][785]LogEditorActor: Deleted 1 Actors (0.029 secs)
-[2015.04.30-06.35.36:014][407]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Lanturn13)
-[2015.04.30-06.35.41:399][952]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Lanturn13)
-[2015.04.30-06.36.10:995][ 64]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2015.04.30-06.36.13:174][288]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar2)
-[2015.04.30-06.36.36:641][734]Cmd: TRANSACTION UNDO
-[2015.04.30-06.36.36:641][734]LogEditorTransaction: Undo Move Actors
-[2015.04.30-06.36.44:217][458]LogEditorViewport: Clicking on Actor (LMB): Emitter (fire2)
-[2015.04.30-06.36.50:675][ 74]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
-[2015.04.30-06.37.03:849][379]LogEditorActor: Deleted Actor: PointLight
-[2015.04.30-06.37.03:851][379]LogEditorActor: Deleted Actor: PointLight
-[2015.04.30-06.37.03:852][379]LogEditorActor: Deleted Actor: PointLight
-[2015.04.30-06.37.03:854][379]LogEditorActor: Deleted Actor: PointLight
-[2015.04.30-06.37.03:855][379]LogEditorActor: Deleted Actor: PointLight
-[2015.04.30-06.37.03:857][379]LogEditorActor: Deleted Actor: PointLight
-[2015.04.30-06.37.03:859][379]LogEditorActor: Deleted Actor: PointLight
-[2015.04.30-06.37.03:860][379]LogEditorActor: Deleted Actor: PointLight
-[2015.04.30-06.37.03:862][379]LogEditorActor: Deleted Actor: PointLight
-[2015.04.30-06.37.03:879][379]LogEditorActor: Deleted 9 Actors (0.040 secs)
-[2015.04.30-06.37.11:797][116]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Rocks/Rock" FILE="../../../../../../Documents/GitHub/God-Killer/Content/Models/Rocks/Rock.uasset" SILENT=true
-[2015.04.30-06.37.11:944][116]LogSavePackage: Save=122.184822ms
-[2015.04.30-06.37.11:944][116]LogSavePackage: Moving '../../../../../../Documents/GitHub/God-Killer/Saved/Rock4DE491524DE3F0EC90CF9C8149842543.tmp' to '../../../../../../Documents/GitHub/God-Killer/Content/Models/Rocks/Rock.uasset'
-[2015.04.30-06.37.12:189][116]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene/NewCave" FILE="../../../../../../Documents/GitHub/God-Killer/Content/Scene/NewCave.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2015.04.30-06.37.12:701][116]LogSavePackage: Save=465.825256ms
-[2015.04.30-06.37.12:701][116]LogSavePackage: Moving '../../../../../../Documents/GitHub/God-Killer/Saved/NewCave617C2CE04F524E2FBB1E898A8ECF4F10.tmp' to '../../../../../../Documents/GitHub/God-Killer/Content/Scene/NewCave.umap'
-[2015.04.30-06.37.12:740][116]LogFileHelpers: Saving map 'NewCave' took 0.786
-[2015.04.30-06.37.14:810][362]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (newcave004)
-[2015.04.30-06.37.25:330][398]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (newcave004)
-[2015.04.30-06.37.46:521][576]MapCheck: New page: Map Check
-[2015.04.30-06.37.46:544][576]Cmd: MAP REBUILD ALLVISIBLE
-[2015.04.30-06.37.46:544][576]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2015.04.30-06.37.46:663][576]LightingResults: New page: Lighting Build - Apr 29, 2015, 4:37:46 PM
-[2015.04.30-06.37.51:871][576]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2015.04.30-06.37.51:871][576]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2015.04.30-06.37.51:871][576]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2015.04.30-06.37.51:871][576]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2015.04.30-06.37.51:871][576]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2015.04.30-06.37.52:221][576]LogEditorBuildUtils: Build time 0:00:05
-[2015.04.30-06.37.52:285][577]Cmd: UpdateLandscapeEditorData
-[2015.04.30-06.38.09:978][154]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.38.09:978][154]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.38.10:449][197]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.38.10:449][197]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.38.10:449][197]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.38.10:450][197]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.38.10:505][202]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.38.10:505][202]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.38.10:687][219]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.38.10:687][219]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.38.11:036][250]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.38.11:036][250]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.38.11:080][254]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.38.11:080][254]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.38.11:334][277]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.38.11:335][277]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.38.11:809][321]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.38.11:809][321]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.38.12:802][411]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.38.12:802][411]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.38.12:977][427]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.38.12:977][427]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.38.13:213][448]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.38.13:213][448]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.38.13:337][459]LightingResults:Error: Error Lanturn001 Object has overlapping UVs.
-[2015.04.30-06.38.13:337][459]LightingResults: Info Lanturn001 Lightmap UV are overlapping by 22.2%. Please adjust content - Enable Error Coloring to visualize.
-[2015.04.30-06.38.15:766][701]Job is a success!
-[2015.04.30-06.38.16:339][702]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
-[2015.04.30-06.38.16:386][702]LogTexture:Display: Building textures: LQ_Lightmap_0_22 (DXT1)
-[2015.04.30-06.38.16:391][702]LogTexture:Display: Building textures: HQ_Lightmap0_22 (AutoDXT)
-[2015.04.30-06.38.16:399][702]LogTexture:Display: Building textures: LQ_Lightmap_0_21 (DXT1)
-[2015.04.30-06.38.16:404][702]LogTexture:Display: Building textures: HQ_Lightmap0_21 (AutoDXT)
-[2015.04.30-06.38.16:410][702]LogTexture:Display: Building textures: LQ_Lightmap_1_20 (DXT1)
-[2015.04.30-06.38.16:411][702]LogTexture:Display: Building textures: HQ_Lightmap1_20 (AutoDXT)
-[2015.04.30-06.38.16:441][702]LogTexture:Display: Building textures: LQ_Lightmap_1_19 (DXT1)
-[2015.04.30-06.38.16:445][702]LogTexture:Display: Building textures: HQ_Lightmap1_19 (AutoDXT)
-[2015.04.30-06.38.16:452][702]LogTexture:Display: Building textures: LQ_Lightmap_1_18 (DXT1)
-[2015.04.30-06.38.16:457][702]LogTexture:Display: Building textures: HQ_Lightmap1_18 (AutoDXT)
-[2015.04.30-06.38.16:463][702]LogTexture:Display: Building textures: LQ_Lightmap_0_17 (DXT1)
-[2015.04.30-06.38.16:467][702]LogTexture:Display: Building textures: HQ_Lightmap0_17 (AutoDXT)
-[2015.04.30-06.38.16:473][702]LogTexture:Display: Building textures: LQ_Lightmap_0_16 (DXT1)
-[2015.04.30-06.38.16:480][702]LogTexture:Display: Building textures: HQ_Lightmap0_16 (AutoDXT)
-[2015.04.30-06.38.16:486][702]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1)
-[2015.04.30-06.38.16:490][702]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT)
-[2015.04.30-06.38.16:496][702]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1)
-[2015.04.30-06.38.16:499][702]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT)
-[2015.04.30-06.38.16:502][702]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1)
-[2015.04.30-06.38.16:505][702]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT)
-[2015.04.30-06.38.16:509][702]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1)
-[2015.04.30-06.38.16:522][702]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT)
-[2015.04.30-06.38.16:535][702]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1)
-[2015.04.30-06.38.16:542][702]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT)
-[2015.04.30-06.38.16:553][702]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1)
-[2015.04.30-06.38.16:608][702]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT)
-[2015.04.30-06.38.16:677][702]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
-[2015.04.30-06.38.16:683][702]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
-[2015.04.30-06.38.16:688][702]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
-[2015.04.30-06.38.16:698][702]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
-[2015.04.30-06.38.16:713][702]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
-[2015.04.30-06.38.16:757][702]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
-[2015.04.30-06.38.16:829][702]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
-[2015.04.30-06.38.16:859][702]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
-[2015.04.30-06.38.16:898][702]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
-[2015.04.30-06.38.16:937][702]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
-[2015.04.30-06.38.16:975][702]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
-[2015.04.30-06.38.16:989][702]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
-[2015.04.30-06.38.17:004][702]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
-[2015.04.30-06.38.17:030][702]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
-[2015.04.30-06.38.17:068][702]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
-[2015.04.30-06.38.17:084][702]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
-[2015.04.30-06.38.17:123][702]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
-[2015.04.30-06.38.17:160][702]Lightmass on JOSEPH-PC: 23.8 sec total, 438 ms importing, 1.59 sec setup, 4.69 sec photons, 17.0 sec processing, 0 ms extra exporting [120/120 mappings]. Threads: 1:59 min total, 1:18 min processing.
-[2015.04.30-06.38.17:253][702]LogStaticLightingSystem: Illumination: 30.5 sec (889 ms encoding lightmaps)
-[2015.04.30-06.38.17:253][702]LogStaticLightingSystem: Lightmap texture memory:  1.3 MB (1.0 MB streaming, 0.3 MB non-streaming), 44 textures
-[2015.04.30-06.38.17:253][702]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
-[2015.04.30-06.38.17:908][703]Cmd: UpdateLandscapeEditorData
-[2015.04.30-06.38.17:909][703]Cmd: MAP CHECK NOTIFYRESULTS
-[2015.04.30-06.38.17:909][703]MapCheck: New page: NewCave - Apr 29, 2015, 4:38:17 PM
-[2015.04.30-06.38.17:929][703]MapCheck:Error: Error newcave_4 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
-[2015.04.30-06.38.17:929][703]MapCheck:Warning: Warning newcave_4 Static mesh actor has NULL StaticMesh property 
-[2015.04.30-06.38.17:929][703]MapCheck:Warning: Warning newcave_4 Static mesh actor has NULL StaticMesh property 
-[2015.04.30-06.38.18:157][703]MapCheck: Info Map check complete: 1 Error(s), 2 Warning(s), took 248.08ms to complete.
-[2015.04.30-06.38.40:979][969]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/Scene/NewCave.HQ_Lightmap1_4. Streaming mips will be recached.
-[2015.04.30-06.38.40:983][969]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
-[2015.04.30-06.38.42:628][  2]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene/NewCave" FILE="../../../../../../Documents/GitHub/God-Killer/Content/Scene/NewCave.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2015.04.30-06.38.43:158][  2]LogSavePackage: Save=490.917908ms
-[2015.04.30-06.38.43:158][  2]LogSavePackage: Moving '../../../../../../Documents/GitHub/God-Killer/Saved/NewCaveE6687FB04E62901286F39980AB612284.tmp' to '../../../../../../Documents/GitHub/God-Killer/Content/Scene/NewCave.umap'
-[2015.04.30-06.38.43:198][  2]LogFileHelpers: Saving map 'NewCave' took 0.799
-[2015.04.30-06.38.48:439][503]Cmd: QUIT_EDITOR
-[2015.04.30-06.38.48:754][503]LogExit: Preparing to exit.
-[2015.04.30-06.38.49:079][503]LogExit: Editor shut down
-[2015.04.30-06.38.49:079][503]LogExit: Transaction tracking system shut down
-[2015.04.30-06.38.49:081][503]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F914CC0
-[2015.04.30-06.38.49:081][503]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000447FB600
-[2015.04.30-06.38.49:081][503]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000448D8E00
-[2015.04.30-06.38.49:082][503]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000044622F20
-[2015.04.30-06.38.49:082][503]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F9D8B80
-[2015.04.30-06.38.49:258][503]LogExit: Object subsystem successfully closed.
-[2015.04.30-06.38.49:459][503]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (182)
-[2015.04.30-06.38.49:459][503]LogModuleManager: Shutting down and abandoning module MaterialEditor (181)
-[2015.04.30-06.38.49:459][503]LogModuleManager: Shutting down and abandoning module DistCurveEditor (180)
-[2015.04.30-06.38.49:459][503]LogModuleManager: Shutting down and abandoning module Cascade (179)
-[2015.04.30-06.38.49:459][503]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (178)
-[2015.04.30-06.38.49:459][503]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
-[2015.04.30-06.38.49:459][503]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
-[2015.04.30-06.38.49:459][503]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
-[2015.04.30-06.38.49:459][503]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
-[2015.04.30-06.38.49:459][503]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
-[2015.04.30-06.38.49:479][503]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
-[2015.04.30-06.38.49:486][503]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
-[2015.04.30-06.38.49:486][503]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
-[2015.04.30-06.38.49:498][503]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
-[2015.04.30-06.38.49:498][503]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
-[2015.04.30-06.38.49:498][503]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
-[2015.04.30-06.38.49:498][503]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
-[2015.04.30-06.38.49:498][503]LogModuleManager: Shutting down and abandoning module BspMode (165)
-[2015.04.30-06.38.49:498][503]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
-[2015.04.30-06.38.49:498][503]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
-[2015.04.30-06.38.49:498][503]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
-[2015.04.30-06.38.49:498][503]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
-[2015.04.30-06.38.49:498][503]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
-[2015.04.30-06.38.49:498][503]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
-[2015.04.30-06.38.49:498][503]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
-[2015.04.30-06.38.49:505][503]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
-[2015.04.30-06.38.49:505][503]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
-[2015.04.30-06.38.49:505][503]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
-[2015.04.30-06.38.49:505][503]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
-[2015.04.30-06.38.49:505][503]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
-[2015.04.30-06.38.49:506][503]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
-[2015.04.30-06.38.49:506][503]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
-[2015.04.30-06.38.49:506][503]LogModuleManager: Shutting down and abandoning module XmlParser (150)
-[2015.04.30-06.38.49:506][503]LogModuleManager: Shutting down and abandoning module Blutility (149)
-[2015.04.30-06.38.49:506][503]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
-[2015.04.30-06.38.49:506][503]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
-[2015.04.30-06.38.49:506][503]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
-[2015.04.30-06.38.50:097][503]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
-[2015.04.30-06.38.50:097][503]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
-[2015.04.30-06.38.50:097][503]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
-[2015.04.30-06.38.50:097][503]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
-[2015.04.30-06.38.50:097][503]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
-[2015.04.30-06.38.50:098][503]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
-[2015.04.30-06.38.50:098][503]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
-[2015.04.30-06.38.50:098][503]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
-[2015.04.30-06.38.50:098][503]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
-[2015.04.30-06.38.50:098][503]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
-[2015.04.30-06.38.50:176][503]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
-[2015.04.30-06.38.50:176][503]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
-[2015.04.30-06.38.50:176][503]LogModuleManager: Shutting down and abandoning module AutomationController (133)
-[2015.04.30-06.38.50:176][503]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
-[2015.04.30-06.38.50:194][503]LogModuleManager: Shutting down and abandoning module Layers (131)
-[2015.04.30-06.38.50:216][503]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
-[2015.04.30-06.38.50:216][503]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
-[2015.04.30-06.38.50:216][503]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
-[2015.04.30-06.38.50:216][503]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
-[2015.04.30-06.38.50:283][503]LogModuleManager: Shutting down and abandoning module Persona (126)
-[2015.04.30-06.38.50:292][503]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
-[2015.04.30-06.38.50:300][503]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
-[2015.04.30-06.38.50:301][503]LogModuleManager: Shutting down and abandoning module Kismet (123)
-[2015.04.30-06.38.50:301][503]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
-[2015.04.30-06.38.50:301][503]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
-[2015.04.30-06.38.50:301][503]LogModuleManager: Shutting down and abandoning module Toolbox (120)
-[2015.04.30-06.38.50:301][503]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
-[2015.04.30-06.38.50:313][503]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
-[2015.04.30-06.38.50:319][503]LogModuleManager: Shutting down and abandoning module OutputLog (117)
-[2015.04.30-06.38.50:319][503]LogModuleManager: Shutting down and abandoning module GammaUI (116)
-[2015.04.30-06.38.50:329][503]LogModuleManager: Shutting down and abandoning module Documentation (115)
-[2015.04.30-06.38.50:329][503]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
-[2015.04.30-06.38.50:329][503]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
-[2015.04.30-06.38.50:329][503]LogModuleManager: Shutting down and abandoning module HTTP (112)
-[2015.04.30-06.38.50:329][503]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
-[2015.04.30-06.38.50:329][503]LogModuleManager: Shutting down and abandoning module Analytics (110)
-[2015.04.30-06.38.50:329][503]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
-[2015.04.30-06.38.50:329][503]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
-[2015.04.30-06.38.50:330][503]LogModuleManager: Shutting down and abandoning module AIModule (107)
-[2015.04.30-06.38.50:330][503]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
-[2015.04.30-06.38.50:353][503]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
-[2015.04.30-06.38.50:363][503]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
-[2015.04.30-06.38.50:363][503]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
-[2015.04.30-06.38.50:363][503]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
-[2015.04.30-06.38.50:363][503]LogModuleManager: Shutting down and abandoning module CableComponent (101)
-[2015.04.30-06.38.50:363][503]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
-[2015.04.30-06.38.50:382][503]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
-[2015.04.30-06.38.50:387][503]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
-[2015.04.30-06.38.50:387][503]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
-[2015.04.30-06.38.50:387][503]LogModuleManager: Shutting down and abandoning module MainFrame (96)
-[2015.04.30-06.38.50:387][503]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
-[2015.04.30-06.38.50:387][503]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
-[2015.04.30-06.38.50:387][503]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
-[2015.04.30-06.38.50:387][503]LogModuleManager: Shutting down and abandoning module HotReload (92)
-[2015.04.30-06.38.50:387][503]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
-[2015.04.30-06.38.50:387][503]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
-[2015.04.30-06.38.50:387][503]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
-[2015.04.30-06.38.50:387][503]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
-[2015.04.30-06.38.50:404][503]LogModuleManager: Shutting down and abandoning module SourceControl (87)
-[2015.04.30-06.38.50:404][503]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
-[2015.04.30-06.38.50:404][503]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
-[2015.04.30-06.38.50:404][503]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
-[2015.04.30-06.38.50:404][503]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
-[2015.04.30-06.38.50:404][503]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
-[2015.04.30-06.38.50:405][503]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
-[2015.04.30-06.38.50:405][503]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
-[2015.04.30-06.38.50:419][503]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
-[2015.04.30-06.38.50:519][503]LogModuleManager: Shutting down and abandoning module Paper2D (78)
-[2015.04.30-06.38.50:519][503]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
-[2015.04.30-06.38.50:522][503]LogModuleManager: Shutting down and abandoning module Media (76)
-[2015.04.30-06.38.50:522][503]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
-[2015.04.30-06.38.50:522][503]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
-[2015.04.30-06.38.50:522][503]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
-[2015.04.30-06.38.50:522][503]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
-[2015.04.30-06.38.50:533][503]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
-[2015.04.30-06.38.50:533][503]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
-[2015.04.30-06.38.50:551][503]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
-[2015.04.30-06.38.50:551][503]LogModuleManager: Shutting down and abandoning module MessageLog (68)
-[2015.04.30-06.38.50:551][503]LogModuleManager: Shutting down and abandoning module Sequencer (67)
-[2015.04.30-06.38.50:572][503]LogModuleManager: Shutting down and abandoning module AssetTools (66)
-[2015.04.30-06.38.50:588][503]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
-[2015.04.30-06.38.50:605][503]LogModuleManager: Shutting down and abandoning module UMG (64)
-[2015.04.30-06.38.50:612][503]LogModuleManager: Shutting down and abandoning module Slate (63)
-[2015.04.30-06.38.50:612][503]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
-[2015.04.30-06.38.50:621][503]LogModuleManager: Shutting down and abandoning module SessionServices (61)
-[2015.04.30-06.38.50:621][503]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
-[2015.04.30-06.38.50:621][503]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
-[2015.04.30-06.38.50:621][503]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
-[2015.04.30-06.38.50:621][503]LogModuleManager: Shutting down and abandoning module Networking (56)
-[2015.04.30-06.38.50:621][503]LogModuleManager: Shutting down and abandoning module Core (55)
-[2015.04.30-06.38.50:621][503]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
-[2015.04.30-06.38.50:621][503]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
-[2015.04.30-06.38.50:621][503]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
-[2015.04.30-06.38.50:621][503]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
-[2015.04.30-06.38.50:693][503]LogDerivedDataCache: Shutdown
-[2015.04.30-06.38.50:693][503]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
-[2015.04.30-06.38.50:703][503]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
-[2015.04.30-06.38.50:703][503]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
-[2015.04.30-06.38.50:708][503]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
-[2015.04.30-06.38.50:708][503]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
-[2015.04.30-06.38.50:708][503]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
-[2015.04.30-06.38.50:708][503]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
-[2015.04.30-06.38.50:708][503]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
-[2015.04.30-06.38.50:708][503]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
-[2015.04.30-06.38.50:708][503]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
-[2015.04.30-06.38.50:709][503]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
-[2015.04.30-06.38.50:709][503]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
-[2015.04.30-06.38.50:709][503]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
-[2015.04.30-06.38.50:709][503]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
-[2015.04.30-06.38.50:709][503]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
-[2015.04.30-06.38.50:709][503]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
-[2015.04.30-06.38.50:709][503]LogModuleManager: Shutting down and abandoning module Messaging (34)
-[2015.04.30-06.38.50:709][503]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
-[2015.04.30-06.38.50:709][503]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
-[2015.04.30-06.38.50:709][503]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
-[2015.04.30-06.38.50:709][503]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
-[2015.04.30-06.38.50:709][503]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
-[2015.04.30-06.38.50:709][503]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
-[2015.04.30-06.38.50:709][503]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
-[2015.04.30-06.38.50:709][503]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
-[2015.04.30-06.38.50:709][503]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
-[2015.04.30-06.38.50:709][503]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
-[2015.04.30-06.38.50:709][503]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
-[2015.04.30-06.38.50:709][503]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
-[2015.04.30-06.38.50:709][503]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
-[2015.04.30-06.38.50:709][503]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
-[2015.04.30-06.38.50:709][503]LogModuleManager: Shutting down and abandoning module InputCore (19)
-[2015.04.30-06.38.50:709][503]LogModuleManager: Shutting down and abandoning module Settings (18)
-[2015.04.30-06.38.50:709][503]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
-[2015.04.30-06.38.50:709][503]LogModuleManager: Shutting down and abandoning module OculusRift (15)
-[2015.04.30-06.38.50:709][503]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
-[2015.04.30-06.38.50:709][503]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
-[2015.04.30-06.38.50:709][503]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
-[2015.04.30-06.38.50:709][503]LogModuleManager: Shutting down and abandoning module Landscape (11)
-[2015.04.30-06.38.50:709][503]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
-[2015.04.30-06.38.50:713][503]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
-[2015.04.30-06.38.50:713][503]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
-[2015.04.30-06.38.50:713][503]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2015.04.30-06.38.50:713][503]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2015.04.30-06.38.50:713][503]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2015.04.30-06.38.50:713][503]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2015.04.30-06.38.50:720][503]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2015.04.30-06.38.50:720][503]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2015.04.30-06.38.50:720][503]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2015.04.30-06.38.50:736][503]LogExit: Exiting.
-[2015.04.30-06.38.50:756][503]Log file closed, 04/29/15 23:38:50
+[2015.04.30-11.50.27:432][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.04.30-11.50.27:488][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.04.30-11.50.27:505][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.04.30-11.50.27:518][  0]LogInit: Object subsystem initialized
+[2015.04.30-11.50.27:520][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.04.30-11.50.27:520][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Nargon/Documents/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.30-11.50.27:520][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.04.30-11.50.27:520][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Nargon/Documents/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.30-11.50.27:520][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.04.30-11.50.27:520][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Nargon/Documents/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.30-11.50.27:521][  0]LogInit: Selected Device Profile: [Windows]
+[2015.04.30-11.50.27:521][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.04.30-11.50.27:529][  0]LogInit: Computer: NARGON-PC
+[2015.04.30-11.50.27:529][  0]LogInit: User: Nargon
+[2015.04.30-11.50.27:529][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.04.30-11.50.27:529][  0]LogInit: High frequency timer resolution =1.948720 MHz
+[2015.04.30-11.50.27:530][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx) Virtual=8192.0GB
+[2015.04.30-11.50.27:530][  0]LogMemory: Platform Memory Stats for Windows
+[2015.04.30-11.50.27:530][  0]LogMemory: Process Physical Memory: 49.00 MB used, 49.00 MB peak
+[2015.04.30-11.50.27:530][  0]LogMemory: Process Virtual Memory: 28.41 MB used, 28.41 MB peak
+[2015.04.30-11.50.27:530][  0]LogMemory: Physical Memory: 5188.64 MB used, 8169.16 MB total
+[2015.04.30-11.50.27:530][  0]LogMemory: Virtual Memory: 277.09 MB used, 8388608.00 MB total
+[2015.04.30-11.50.27:571][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 560M   (Feature Level 11_0)
+[2015.04.30-11.50.27:571][  0]LogD3D11RHI: Adapter has 2000MB of dedicated video memory, 0MB of dedicated system memory, and 2047MB of shared system memory, 1 output[s]
+[2015.04.30-11.50.27:571][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.04.30-11.50.27:588][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.04.30-11.50.27:600][  0]LogD3D11RHI: Async texture creation enabled
+[2015.04.30-11.50.27:686][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.04.30-11.50.27:777][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (E:/Unreal/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (E:/Unreal/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.04.30-11.50.27:777][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (E:/Unreal/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (E:/Unreal/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.04.30-11.50.27:889][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.04.30-11.50.31:085][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.30-11.50.31:841][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.30-11.50.31:923][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.04.30-11.50.31:986][  0]LogDerivedDataCache: Loaded boot cache 0.06s 39MB C:/Users/Nargon/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.30-11.50.31:986][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Nargon/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.04.30-11.50.31:986][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Nargon/Documents/God-Killer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.04.30-11.50.31:986][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.04.30-11.50.32:157][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.04.30-11.50.32:169][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nargon/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.04.30-11.50.32:629][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.04.30-11.50.32:629][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.04.30-11.50.33:121][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.04.30-11.50.33:220][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.04.30-11.50.34:639][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.04.30-11.50.34:885][  0]SourceControl: Info Source control is disabled
+[2015.04.30-11.50.34:885][  0]SourceControl: Info Source control is disabled
+[2015.04.30-11.50.34:885][  0]SourceControl: Info Source control is disabled
+[2015.04.30-11.50.34:885][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.04.30-11.50.34:885][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.04.30-11.50.34:897][  0]SourceControl: Info Source control is disabled
+[2015.04.30-11.50.35:145][  0]LogObj: 24231 objects as part of root set at end of initial load.
+[2015.04.30-11.50.35:145][  0]LogUObjectAllocator: 5136440 out of 0 bytes used by permanent object pool.
+[2015.04.30-11.50.35:248][  0]LogEngine: Initializing Engine...
+[2015.04.30-11.50.37:475][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.04.30-11.50.37:489][  0]LogInit: FAudioDevice initialized.
+[2015.04.30-11.50.37:539][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.30-11.50.37:563][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Nargon/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.30-11.50.37:569][  0]LogInit: Texture streaming: Enabled
+[2015.04.30-11.50.37:704][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.04.30-11.50.37:704][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.3-2479750+++depot+UE4-Releases+4.7
+[2015.04.30-11.50.37:704][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.3-2479750+++depot+UE4-Releases+4.7
+[2015.04.30-11.50.37:704][  0]LogAnalytics: SetUserId f66fb68b41e6b40cb4c8ddab8a154b7e|ecb70a7e3ce340b3a897ae77bd608e2c|90ddc32f-7eb2-4426-89b9-b6a36000bee7
+[2015.04.30-11.50.37:704][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.04.30-11.50.37:770][  0]LogInit: Transaction tracking system initialized
+[2015.04.30-11.50.38:044][  0]BlueprintLog: New page: Editor Load
+[2015.04.30-11.50.38:088][  0]LogAssetRegistry: FAssetRegistry took 0.0099 seconds to start up
+[2015.04.30-11.50.38:089][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.04.30-11.50.38:887][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.30-11.50.39:460][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.30-11.50.39:820][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.04.30-11.50.39:821][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.04.30-11.50.39:887][  0]LogConsoleResponse:Display: 
+[2015.04.30-11.50.40:081][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.04.30-11.50.40:270][  0]SourceControl: Info Source control is disabled
+[2015.04.30-11.50.40:270][  0]Cmd: MAP LOAD FILE="C:/Users/Nargon/Documents/God-Killer/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.30-11.50.40:271][  0]LightingResults: New page: Lighting Build
+[2015.04.30-11.50.40:287][  0]MapCheck: New page: Map Check
+[2015.04.30-11.50.40:287][  0]LightingResults: New page: Lighting Build
+[2015.04.30-11.50.40:298][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000003CFE520
+[2015.04.30-11.50.40:311][  0]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.30-11.50.42:807][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.30-11.50.44:102][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.04.30-11.50.44:103][  0]Cmd: MAP CHECKDEP
+[2015.04.30-11.50.44:104][  0]MapCheck: New page: ThirdPersonExampleMap - Apr 29, 2015, 9:50:44 PM
+[2015.04.30-11.50.44:262][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 158.261ms to complete.
+[2015.04.30-11.50.44:262][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 3.991
+[2015.04.30-11.50.44:359][  0]LogCollectionManager: Loaded 0 collections in 0.002318 seconds
+[2015.04.30-11.50.44:371][  0]LogContentBrowser: Native class hierarchy populated in 0.0110 seconds. Added 1696 classes and 261 folders.
+[2015.04.30-11.50.44:473][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0018 seconds. Added 1 classes and 2 folders.
+[2015.04.30-11.50.44:542][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.04.30-11.50.44:544][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.04.30-11.50.44:548][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.04.30-11.50.44:583][  0]LogLoad: Full Startup: 19.22 seconds (BP compile: 0.95 seconds)
+[2015.04.30-11.50.44:945][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/sword'
+[2015.04.30-11.50.45:100][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.04.30-11.50.45:209][  0]LogRenderer:Warning: Reallocating scene render targets to support 936x744 (Frame:3).
+[2015.04.30-11.50.46:636][  5]LogAssetRegistry: Asset discovery search completed in 8.5572 seconds
+[2015.04.30-11.50.52:112][156]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.30-11.50.52:112][156]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 29, 2015, 9:50:52 PM)
+[2015.04.30-11.50.52:139][156]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026836s)
+[2015.04.30-11.50.52:141][156]LogPlayLevel: PIE: World Init took: (0.001252s)
+[2015.04.30-11.50.52:141][156]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.028493s)
+[2015.04.30-11.50.52:224][156]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.30-11.50.52:227][156]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.04.30-11.50.52:234][156]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2015.04.30-04.50.52
+[2015.04.30-11.50.52:235][156]LogWorld: Bringing up level for play took: 0.007931
+[2015.04.30-11.50.52:237][156]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.31
+[2015.04.30-11.50.55:996][376]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.30-11.50.56:020][376]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000045CD22A0
+[2015.04.30-11.51.03:269][722]LogRenderer:Warning: Reallocating scene render targets to support 952x744 (Frame:689).
+[2015.04.30-11.51.10:659][132]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/sword/sword_bp" FILE="C:/Users/Nargon/Documents/God-Killer/Content/sword/sword_bp.uasset" SILENT=true
+[2015.04.30-11.51.10:878][132]LogSavePackage: Save=205.123367ms
+[2015.04.30-11.51.10:878][132]LogSavePackage: Moving 'C:/Users/Nargon/Documents/God-Killer/Saved/sword_bp4CA403EA47469352120F54A42CE5BF74.tmp' to 'C:/Users/Nargon/Documents/God-Killer/Content/sword/sword_bp.uasset'
+[2015.04.30-11.51.12:892][248]BlueprintLog: New page: Compile sword_bp
+[2015.04.30-11.51.12:986][248]BlueprintEditorCompileResults: Info [0047.62] Compile of sword_bp successful! [in 94 ms]
+[2015.04.30-11.51.14:772][348]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.30-11.51.14:777][348]LogPlayLevel: [PIE] Compiling ThirdPersonCharacter before PIE...
+[2015.04.30-11.51.15:047][348]LogPlayLevel: PIE:  Blueprint regeneration took 274 ms (1 blueprints)
+[2015.04.30-11.51.15:047][348]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 29, 2015, 9:51:15 PM)
+[2015.04.30-11.51.15:073][348]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025832s)
+[2015.04.30-11.51.15:074][348]LogPlayLevel: PIE: World Init took: (0.000945s)
+[2015.04.30-11.51.15:074][348]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.027010s)
+[2015.04.30-11.51.15:120][348]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.30-11.51.15:122][348]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.04.30-11.51.15:129][348]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2015.04.30-04.51.15
+[2015.04.30-11.51.15:130][348]LogWorld: Bringing up level for play took: 0.007203
+[2015.04.30-11.51.15:132][348]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.205
+[2015.04.30-11.51.18:112][522]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013BFA660
+[2015.04.30-11.52.47:761][232]LogSavePackage: Save=3123.244385ms
+[2015.04.30-11.52.47:761][232]LogSavePackage: Moving 'C:/Users/Nargon/Documents/God-Killer/Saved/ThirdPersonExampleMapFC3B52904739AB09E0AE4F8667BDC6D0.tmp' to 'C:/Users/Nargon/Documents/God-Killer/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2015.04.30-11.52.47:809][232]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 3.384
+[2015.04.30-11.52.47:831][232]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/sword/sword_bp" FILE="C:/Users/Nargon/Documents/God-Killer/Content/sword/sword_bp.uasset" SILENT=true
+[2015.04.30-11.52.48:047][232]LogSavePackage: Save=208.009872ms
+[2015.04.30-11.52.48:047][232]LogSavePackage: Moving 'C:/Users/Nargon/Documents/God-Killer/Saved/sword_bpDAB9EA674B685A473D13BD82BB3F73D7.tmp' to 'C:/Users/Nargon/Documents/God-Killer/Content/sword/sword_bp.uasset'
+[2015.04.30-11.52.48:684][268]BlueprintLog: New page: Compile sword_bp
+[2015.04.30-11.52.48:781][268]BlueprintEditorCompileResults: Info [0143.41] Compile of sword_bp successful! [in 96 ms]
+[2015.04.30-11.52.50:676][377]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.30-11.52.50:681][377]LogPlayLevel: [PIE] Compiling ThirdPersonCharacter before PIE...
+[2015.04.30-11.52.50:981][377]LogPlayLevel: PIE:  Blueprint regeneration took 305 ms (1 blueprints)
+[2015.04.30-11.52.50:982][377]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 29, 2015, 9:52:50 PM)
+[2015.04.30-11.52.51:012][377]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029883s)
+[2015.04.30-11.52.51:013][377]LogPlayLevel: PIE: World Init took: (0.000997s)
+[2015.04.30-11.52.51:013][377]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.031116s)
+[2015.04.30-11.52.51:057][377]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.30-11.52.51:060][377]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.04.30-11.52.51:067][377]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2015.04.30-04.52.51
+[2015.04.30-11.52.51:068][377]LogWorld: Bringing up level for play took: 0.006952
+[2015.04.30-11.52.51:070][377]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.141
+[2015.04.30-11.52.51:720][415]LogBlueprintUserMessages: Hello
+[2015.04.30-11.52.53:887][541]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C80AAC0
+[2015.04.30-11.53.51:349][664]LogSavePackage: Save=3177.277832ms
+[2015.04.30-11.53.51:349][664]LogSavePackage: Moving 'C:/Users/Nargon/Documents/God-Killer/Saved/ThirdPersonExampleMapCD8AD463481BC50AF3401892E0E582F1.tmp' to 'C:/Users/Nargon/Documents/God-Killer/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2015.04.30-11.53.51:433][664]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 3.465
+[2015.04.30-11.53.51:453][664]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/sword/sword_bp" FILE="C:/Users/Nargon/Documents/God-Killer/Content/sword/sword_bp.uasset" SILENT=true
+[2015.04.30-11.53.51:677][664]LogSavePackage: Save=217.204117ms
+[2015.04.30-11.53.51:677][664]LogSavePackage: Moving 'C:/Users/Nargon/Documents/God-Killer/Saved/sword_bpE64F7DC040F53C7A1A9AE8AA4B1741C6.tmp' to 'C:/Users/Nargon/Documents/God-Killer/Content/sword/sword_bp.uasset'
+[2015.04.30-11.53.56:911][838]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP'
+[2015.04.30-11.53.58:081][905]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Blueprints'
+[2015.04.30-11.54.06:209][330]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.30-11.54.06:209][330]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.04.30-11.54.15:477][672]LogSavePackage: Save=3248.820313ms
+[2015.04.30-11.54.15:477][672]LogSavePackage: Moving 'C:/Users/Nargon/Documents/God-Killer/Saved/ThirdPersonExampleMap4635AB954F37A4989166E580051EDDAC.tmp' to 'C:/Users/Nargon/Documents/God-Killer/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2015.04.30-11.54.15:515][672]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 3.485
+[2015.04.30-11.54.15:545][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="C:/Users/Nargon/Documents/God-Killer/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2015.04.30-11.54.16:127][672]LogSavePackage: Save=570.538086ms
+[2015.04.30-11.54.16:127][672]LogSavePackage: Moving 'C:/Users/Nargon/Documents/God-Killer/Saved/ThirdPersonCharacter716509C54558BDEF9F6EA1A16996473B.tmp' to 'C:/Users/Nargon/Documents/God-Killer/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2015.04.30-11.54.16:663][703]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2015.04.30-11.54.16:940][703]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.30-11.54.16:991][703]BlueprintEditorCompileResults: Info [0231.62] Compile of ThirdPersonCharacter successful! [in 327 ms]
+[2015.04.30-11.54.18:504][790]BlueprintLog: New page: Compile sword_bp
+[2015.04.30-11.54.18:630][790]BlueprintEditorCompileResults: Info [0233.26] Compile of sword_bp successful! [in 126 ms]
+[2015.04.30-11.54.20:203][879]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.30-11.54.20:207][879]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.30-11.54.20:214][879]LogPlayLevel: [PIE] Compiling ThirdPersonCharacter before PIE...
+[2015.04.30-11.54.20:498][879]LogPlayLevel: PIE:  Blueprint regeneration took 294 ms (1 blueprints)
+[2015.04.30-11.54.20:498][879]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 29, 2015, 9:54:20 PM)
+[2015.04.30-11.54.20:528][879]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029723s)
+[2015.04.30-11.54.20:529][879]LogPlayLevel: PIE: World Init took: (0.000895s)
+[2015.04.30-11.54.20:530][879]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.030900s)
+[2015.04.30-11.54.20:573][879]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.30-11.54.20:576][879]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.04.30-11.54.20:583][879]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2015.04.30-04.54.20
+[2015.04.30-11.54.20:584][879]LogWorld: Bringing up level for play took: 0.007390
+[2015.04.30-11.54.20:586][879]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.657
+[2015.04.30-11.54.21:124][909]LogBlueprintUserMessages: Hello
+[2015.04.30-11.54.23:741][ 64]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.30-11.54.23:786][ 65]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004D62D800
+[2015.04.30-11.54.32:095][548]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.30-11.54.41:535][903]LogSavePackage: Save=3140.135010ms
+[2015.04.30-11.54.41:535][903]LogSavePackage: Moving 'C:/Users/Nargon/Documents/God-Killer/Saved/ThirdPersonExampleMapB50F2CCE4EBC657CD41453A0BB44BA09.tmp' to 'C:/Users/Nargon/Documents/God-Killer/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2015.04.30-11.54.41:568][903]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 3.376
+[2015.04.30-11.54.41:591][903]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/sword/sword_bp" FILE="C:/Users/Nargon/Documents/God-Killer/Content/sword/sword_bp.uasset" SILENT=true
+[2015.04.30-11.54.41:818][903]LogSavePackage: Save=219.375275ms
+[2015.04.30-11.54.41:818][903]LogSavePackage: Moving 'C:/Users/Nargon/Documents/God-Killer/Saved/sword_bp99ABC8CD45DBDB22F64E699D880B9A2A.tmp' to 'C:/Users/Nargon/Documents/God-Killer/Content/sword/sword_bp.uasset'
+[2015.04.30-11.54.42:351][935]BlueprintLog: New page: Compile sword_bp
+[2015.04.30-11.54.42:477][935]BlueprintEditorCompileResults: Info [0257.11] Compile of sword_bp successful! [in 125 ms]
+[2015.04.30-11.54.45:241][ 75]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.30-11.54.45:244][ 75]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.30-11.54.45:251][ 75]LogPlayLevel: [PIE] Compiling ThirdPersonCharacter before PIE...
+[2015.04.30-11.54.45:544][ 75]LogPlayLevel: PIE:  Blueprint regeneration took 303 ms (1 blueprints)
+[2015.04.30-11.54.45:544][ 75]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 29, 2015, 9:54:45 PM)
+[2015.04.30-11.54.45:575][ 75]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030657s)
+[2015.04.30-11.54.45:576][ 75]LogPlayLevel: PIE: World Init took: (0.001031s)
+[2015.04.30-11.54.45:577][ 75]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.031998s)
+[2015.04.30-11.54.45:624][ 75]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.30-11.54.45:627][ 75]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.04.30-11.54.45:633][ 75]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2015.04.30-04.54.45
+[2015.04.30-11.54.45:634][ 75]LogWorld: Bringing up level for play took: 0.007061
+[2015.04.30-11.54.45:636][ 75]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.293
+[2015.04.30-11.54.46:407][119]LogBlueprintUserMessages: Hello
+[2015.04.30-11.54.46:407][119]LogBlueprintUserMessages: Now
+[2015.04.30-11.54.48:407][237]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.30-11.54.48:453][238]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013865080
+[2015.04.30-11.55.02:593][866]LogSavePackage: Save=3212.563721ms
+[2015.04.30-11.55.02:593][866]LogSavePackage: Moving 'C:/Users/Nargon/Documents/God-Killer/Saved/ThirdPersonExampleMap84666F2E413DE40384B79DBA286F86BF.tmp' to 'C:/Users/Nargon/Documents/God-Killer/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2015.04.30-11.55.02:682][866]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 3.519
+[2015.04.30-11.55.02:703][866]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/sword/sword_bp" FILE="C:/Users/Nargon/Documents/God-Killer/Content/sword/sword_bp.uasset" SILENT=true
+[2015.04.30-11.55.02:938][866]LogSavePackage: Save=226.041702ms
+[2015.04.30-11.55.02:938][866]LogSavePackage: Moving 'C:/Users/Nargon/Documents/God-Killer/Saved/sword_bpC7877C494CF69CD9A4FA8B88BC920731.tmp' to 'C:/Users/Nargon/Documents/God-Killer/Content/sword/sword_bp.uasset'
+[2015.04.30-11.55.05:095][994]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.30-11.55.05:104][994]LogPlayLevel: [PIE] Compiling sword_bp before PIE...
+[2015.04.30-11.55.05:195][994]LogPlayLevel: [PIE] Compiling ThirdPersonCharacter before PIE...
+[2015.04.30-11.55.05:462][994]LogPlayLevel: PIE:  Blueprint regeneration took 366 ms (2 blueprints)
+[2015.04.30-11.55.05:462][994]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 29, 2015, 9:55:05 PM)
+[2015.04.30-11.55.05:490][994]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027907s)
+[2015.04.30-11.55.05:491][994]LogPlayLevel: PIE: World Init took: (0.001055s)
+[2015.04.30-11.55.05:491][994]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.029257s)
+[2015.04.30-11.55.05:536][994]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.30-11.55.05:539][994]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.04.30-11.55.05:546][994]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2015.04.30-04.55.05
+[2015.04.30-11.55.05:546][994]LogWorld: Bringing up level for play took: 0.007257
+[2015.04.30-11.55.05:549][994]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.381
+[2015.04.30-11.55.06:259][ 34]LogBlueprintUserMessages: Hello
+[2015.04.30-11.55.06:259][ 34]LogBlueprintUserMessages: Now
+[2015.04.30-11.55.10:143][267]LogBlueprintUserMessages: Hello
+[2015.04.30-11.55.10:143][267]LogBlueprintUserMessages: 0.0
+[2015.04.30-11.55.11:310][335]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.30-11.55.11:356][336]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011A562A0
+[2015.04.30-11.55.15:471][374]LogSavePackage: Save=3175.022461ms
+[2015.04.30-11.55.15:471][374]LogSavePackage: Moving 'C:/Users/Nargon/Documents/God-Killer/Saved/ThirdPersonExampleMapC2CB47534DAD87F1233534B4E5E345B4.tmp' to 'C:/Users/Nargon/Documents/God-Killer/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2015.04.30-11.55.15:504][374]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 3.440
+[2015.04.30-11.55.25:635][951]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.30-11.55.25:636][951]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.04.30-11.55.25:731][951]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/sword/sword_bp" FILE="C:/Users/Nargon/Documents/God-Killer/Content/sword/sword_bp.uasset" SILENT=true
+[2015.04.30-11.55.25:955][951]LogSavePackage: Save=216.969604ms
+[2015.04.30-11.55.25:955][951]LogSavePackage: Moving 'C:/Users/Nargon/Documents/God-Killer/Saved/sword_bpB478459F458D011C965473AF8A3084C0.tmp' to 'C:/Users/Nargon/Documents/God-Killer/Content/sword/sword_bp.uasset'
+[2015.04.30-11.55.26:388][977]BlueprintLog: New page: Compile sword_bp
+[2015.04.30-11.55.26:514][977]BlueprintEditorCompileResults: Info [0301.14] Compile of sword_bp successful! [in 124 ms]
+[2015.04.30-11.55.28:806][114]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.30-11.55.32:411][114]LogSavePackage: Save=3320.791016ms
+[2015.04.30-11.55.32:411][114]LogSavePackage: Moving 'C:/Users/Nargon/Documents/God-Killer/Saved/ThirdPersonExampleMap2174ECA6462472B8E024C59872F54319.tmp' to 'C:/Users/Nargon/Documents/God-Killer/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2015.04.30-11.55.32:444][114]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 3.572
+[2015.04.30-11.55.32:873][139]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.30-11.55.32:887][139]LogPlayLevel: [PIE] Compiling ThirdPersonCharacter before PIE...
+[2015.04.30-11.55.33:226][139]LogPlayLevel: PIE:  Blueprint regeneration took 352 ms (1 blueprints)
+[2015.04.30-11.55.33:226][139]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 29, 2015, 9:55:33 PM)
+[2015.04.30-11.55.33:252][139]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026145s)
+[2015.04.30-11.55.33:254][139]LogPlayLevel: PIE: World Init took: (0.001099s)
+[2015.04.30-11.55.33:254][139]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.027526s)
+[2015.04.30-11.55.33:299][139]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.30-11.55.33:302][139]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.04.30-11.55.33:308][139]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2015.04.30-04.55.33
+[2015.04.30-11.55.33:309][139]LogWorld: Bringing up level for play took: 0.006617
+[2015.04.30-11.55.33:311][139]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.381
+[2015.04.30-11.55.43:418][743]LogBlueprintUserMessages: 0.0
+[2015.04.30-11.55.44:607][812]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.30-11.55.44:652][813]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004D62E8E0
+[2015.04.30-11.55.49:943][904]LogSavePackage: Save=3504.175049ms
+[2015.04.30-11.55.49:943][904]LogSavePackage: Moving 'C:/Users/Nargon/Documents/God-Killer/Saved/ThirdPersonExampleMap2E6F2F874A0EDC8E94E99C979C4AE229.tmp' to 'C:/Users/Nargon/Documents/God-Killer/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2015.04.30-11.55.50:052][904]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 3.821
+[2015.04.30-11.55.52:217][989]Cmd: QUIT_EDITOR
+[2015.04.30-11.55.52:520][989]LogExit: Preparing to exit.
+[2015.04.30-11.55.52:709][989]LogExit: Editor shut down
+[2015.04.30-11.55.52:709][989]LogExit: Transaction tracking system shut down
+[2015.04.30-11.55.52:713][989]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D34A200
+[2015.04.30-11.55.52:714][989]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003EB668E0
+[2015.04.30-11.55.52:714][989]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003E99B9C0
+[2015.04.30-11.55.52:714][989]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000045CD3060
+[2015.04.30-11.55.52:714][989]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000045CD2CA0
+[2015.04.30-11.55.52:715][989]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013A17100
+[2015.04.30-11.55.52:716][989]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004F7D3420
+[2015.04.30-11.55.52:914][989]LogExit: Object subsystem successfully closed.
+[2015.04.30-11.55.52:979][989]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.04.30-11.55.52:979][989]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.04.30-11.55.52:979][989]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.04.30-11.55.52:979][989]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.04.30-11.55.52:979][989]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.04.30-11.55.52:979][989]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.04.30-11.55.52:979][989]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.04.30-11.55.52:979][989]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.04.30-11.55.52:979][989]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.04.30-11.55.52:979][989]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.04.30-11.55.52:979][989]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.04.30-11.55.52:979][989]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.04.30-11.55.52:979][989]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.04.30-11.55.52:979][989]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.04.30-11.55.52:979][989]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.04.30-11.55.52:979][989]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.04.30-11.55.52:979][989]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.04.30-11.55.52:979][989]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.04.30-11.55.52:979][989]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.04.30-11.55.52:979][989]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.04.30-11.55.52:980][989]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.04.30-11.55.52:980][989]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.04.30-11.55.52:980][989]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.04.30-11.55.52:980][989]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.04.30-11.55.52:980][989]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.04.30-11.55.52:980][989]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.04.30-11.55.52:980][989]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.04.30-11.55.52:980][989]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.04.30-11.55.52:980][989]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.04.30-11.55.52:980][989]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.04.30-11.55.52:980][989]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.04.30-11.55.52:980][989]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.04.30-11.55.53:581][989]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.04.30-11.55.53:581][989]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.04.30-11.55.53:581][989]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.04.30-11.55.53:581][989]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.04.30-11.55.53:581][989]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.04.30-11.55.53:582][989]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.04.30-11.55.53:582][989]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.04.30-11.55.53:582][989]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.04.30-11.55.53:582][989]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.04.30-11.55.53:582][989]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.04.30-11.55.53:582][989]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.04.30-11.55.53:582][989]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.04.30-11.55.53:582][989]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.04.30-11.55.53:582][989]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.04.30-11.55.53:582][989]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.04.30-11.55.53:582][989]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.04.30-11.55.53:582][989]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.04.30-11.55.53:582][989]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.04.30-11.55.53:582][989]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.04.30-11.55.53:699][989]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.04.30-11.55.53:699][989]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.04.30-11.55.53:699][989]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.04.30-11.55.53:701][989]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.04.30-11.55.53:701][989]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.04.30-11.55.53:701][989]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.04.30-11.55.53:701][989]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.04.30-11.55.53:701][989]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.04.30-11.55.53:701][989]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.04.30-11.55.53:701][989]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.04.30-11.55.53:701][989]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.04.30-11.55.53:701][989]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.04.30-11.55.53:701][989]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.04.30-11.55.53:701][989]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.04.30-11.55.53:701][989]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.04.30-11.55.53:701][989]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.04.30-11.55.53:701][989]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.04.30-11.55.53:701][989]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.04.30-11.55.53:701][989]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.04.30-11.55.53:701][989]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.04.30-11.55.53:701][989]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.04.30-11.55.53:718][989]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.04.30-11.55.53:718][989]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.04.30-11.55.53:718][989]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.04.30-11.55.53:718][989]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.04.30-11.55.53:718][989]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.04.30-11.55.53:718][989]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.04.30-11.55.53:718][989]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.04.30-11.55.53:718][989]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.04.30-11.55.53:718][989]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.04.30-11.55.53:718][989]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.04.30-11.55.53:718][989]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.04.30-11.55.53:718][989]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.04.30-11.55.53:718][989]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.04.30-11.55.53:719][989]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.04.30-11.55.53:719][989]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.04.30-11.55.53:719][989]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.04.30-11.55.53:719][989]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.04.30-11.55.53:719][989]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.04.30-11.55.53:719][989]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.04.30-11.55.53:719][989]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.04.30-11.55.53:719][989]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.04.30-11.55.53:719][989]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.04.30-11.55.53:719][989]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.04.30-11.55.53:719][989]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.04.30-11.55.53:720][989]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.04.30-11.55.53:720][989]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.04.30-11.55.53:720][989]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.04.30-11.55.53:820][989]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.04.30-11.55.53:820][989]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.04.30-11.55.53:822][989]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.04.30-11.55.53:822][989]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.04.30-11.55.53:822][989]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.04.30-11.55.53:822][989]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.04.30-11.55.53:823][989]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.04.30-11.55.53:823][989]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.04.30-11.55.53:823][989]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.04.30-11.55.53:823][989]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.04.30-11.55.53:823][989]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.04.30-11.55.53:823][989]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.04.30-11.55.53:823][989]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.04.30-11.55.53:823][989]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.04.30-11.55.53:823][989]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.04.30-11.55.53:823][989]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.04.30-11.55.53:823][989]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.04.30-11.55.53:829][989]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.04.30-11.55.53:829][989]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.04.30-11.55.53:829][989]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.04.30-11.55.53:829][989]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.04.30-11.55.53:829][989]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.04.30-11.55.53:829][989]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.04.30-11.55.53:829][989]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.04.30-11.55.53:829][989]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.04.30-11.55.53:829][989]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.04.30-11.55.53:829][989]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.04.30-11.55.53:888][989]LogDerivedDataCache: Shutdown
+[2015.04.30-11.55.53:888][989]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.04.30-11.55.53:888][989]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.04.30-11.55.53:888][989]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.04.30-11.55.53:888][989]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.04.30-11.55.53:888][989]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.04.30-11.55.53:888][989]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.04.30-11.55.53:888][989]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.04.30-11.55.53:888][989]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.04.30-11.55.53:888][989]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.04.30-11.55.53:888][989]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.04.30-11.55.53:888][989]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.04.30-11.55.53:888][989]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.04.30-11.55.53:888][989]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.04.30-11.55.53:888][989]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.04.30-11.55.53:888][989]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.04.30-11.55.53:888][989]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.04.30-11.55.53:888][989]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.04.30-11.55.53:888][989]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.04.30-11.55.53:888][989]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.04.30-11.55.53:888][989]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.04.30-11.55.53:888][989]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.04.30-11.55.53:888][989]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.04.30-11.55.53:888][989]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.04.30-11.55.53:888][989]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.04.30-11.55.53:888][989]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.04.30-11.55.53:888][989]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.04.30-11.55.53:888][989]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.04.30-11.55.53:888][989]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.04.30-11.55.53:888][989]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.04.30-11.55.53:888][989]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.04.30-11.55.53:888][989]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.04.30-11.55.53:888][989]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.04.30-11.55.53:888][989]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.04.30-11.55.53:888][989]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.04.30-11.55.53:888][989]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.04.30-11.55.53:888][989]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.04.30-11.55.53:888][989]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.04.30-11.55.53:888][989]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.04.30-11.55.53:888][989]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.04.30-11.55.53:889][989]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.04.30-11.55.53:892][989]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.04.30-11.55.53:892][989]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.04.30-11.55.53:892][989]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.04.30-11.55.53:892][989]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.04.30-11.55.53:892][989]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.04.30-11.55.53:892][989]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.04.30-11.55.53:892][989]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.04.30-11.55.53:892][989]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.04.30-11.55.53:892][989]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.04.30-11.55.53:893][989]LogExit: Exiting.
+[2015.04.30-11.55.53:899][989]Log file closed, 04/30/15 04:55:53
