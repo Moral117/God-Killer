@@ -1,4 +1,4 @@
-﻿Log file open, 05/08/15 11:56:15
+﻿Log file open, 05/08/15 12:58:51
 LogInit:Display: Running engine for game: GodKiller
 LogInit: Version: 4.7.3-2479750+++depot+UE4-Releases+4.7
 LogInit: API Version: 2455222
@@ -9,408 +9,700 @@ LogInit: Branch Name: ++depot+UE4-Releases+4.7
 LogInit: Command line: 
 LogInit: Base directory: I:/U4/4.7/Engine/Binaries/Win64/
 LogInit: Rocket: 1
-[2015.05.08-18.56.15:190][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
-[2015.05.08-18.56.15:257][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2015.05.08-18.56.15:279][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2015.05.08-18.56.15:289][  0]LogInit: Object subsystem initialized
-[2015.05.08-18.56.15:291][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
-[2015.05.08-18.56.15:291][  0]LogConsoleResponse:Warning:   Found in ini file 'I:/Isaac's stuff/GodKiller/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.05.08-18.56.15:291][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
-[2015.05.08-18.56.15:291][  0]LogConsoleResponse:Warning:   Found in ini file 'I:/Isaac's stuff/GodKiller/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.05.08-18.56.15:291][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
-[2015.05.08-18.56.15:291][  0]LogConsoleResponse:Warning:   Found in ini file 'I:/Isaac's stuff/GodKiller/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.05.08-18.56.15:291][  0]LogInit: Selected Device Profile: [Windows]
-[2015.05.08-18.56.15:291][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2015.05.08-18.56.15:299][  0]LogInit: Computer: BOYSPC-PC
-[2015.05.08-18.56.15:299][  0]LogInit: User: boyspc
-[2015.05.08-18.56.15:299][  0]LogInit: CPU Page size=4096, Cores=4
-[2015.05.08-18.56.15:299][  0]LogInit: High frequency timer resolution =3.020546 MHz
-[2015.05.08-18.56.15:299][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx) Virtual=8192.0GB
-[2015.05.08-18.56.15:299][  0]LogMemory: Platform Memory Stats for Windows
-[2015.05.08-18.56.15:299][  0]LogMemory: Process Physical Memory: 47.37 MB used, 47.37 MB peak
-[2015.05.08-18.56.15:299][  0]LogMemory: Process Virtual Memory: 25.41 MB used, 25.41 MB peak
-[2015.05.08-18.56.15:299][  0]LogMemory: Physical Memory: 3952.39 MB used, 16366.69 MB total
-[2015.05.08-18.56.15:299][  0]LogMemory: Virtual Memory: 278.53 MB used, 8388608.00 MB total
-[2015.05.08-18.56.15:331][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD FirePro V4900 (ATI FireGL) (Feature Level 11_0)
-[2015.05.08-18.56.15:331][  0]LogD3D11RHI: Adapter has 1000MB of dedicated video memory, 0MB of dedicated system memory, and 7927MB of shared system memory, 1 output[s]
-[2015.05.08-18.56.15:331][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2015.05.08-18.56.15:336][  0]LogRHI: Texture pool is 700 MB (70% of 1000 MB)
-[2015.05.08-18.56.15:348][  0]LogD3D11RHI: Async texture creation disabled: no driver support
-[2015.05.08-18.56.15:403][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
-[2015.05.08-18.56.15:466][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+[2015.05.08-19.58.51:141][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.05.08-19.58.51:214][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.05.08-19.58.51:234][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.05.08-19.58.51:244][  0]LogInit: Object subsystem initialized
+[2015.05.08-19.58.51:245][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.05.08-19.58.51:245][  0]LogConsoleResponse:Warning:   Found in ini file 'I:/Isaac's stuff/GodKiller/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.08-19.58.51:246][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.05.08-19.58.51:246][  0]LogConsoleResponse:Warning:   Found in ini file 'I:/Isaac's stuff/GodKiller/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.08-19.58.51:246][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.05.08-19.58.51:246][  0]LogConsoleResponse:Warning:   Found in ini file 'I:/Isaac's stuff/GodKiller/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.08-19.58.51:246][  0]LogInit: Selected Device Profile: [Windows]
+[2015.05.08-19.58.51:246][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.05.08-19.58.51:254][  0]LogInit: Computer: BOYSPC-PC
+[2015.05.08-19.58.51:254][  0]LogInit: User: boyspc
+[2015.05.08-19.58.51:254][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.05.08-19.58.51:254][  0]LogInit: High frequency timer resolution =3.020546 MHz
+[2015.05.08-19.58.51:254][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx) Virtual=8192.0GB
+[2015.05.08-19.58.51:254][  0]LogMemory: Platform Memory Stats for Windows
+[2015.05.08-19.58.51:254][  0]LogMemory: Process Physical Memory: 47.32 MB used, 47.32 MB peak
+[2015.05.08-19.58.51:254][  0]LogMemory: Process Virtual Memory: 27.38 MB used, 27.38 MB peak
+[2015.05.08-19.58.51:254][  0]LogMemory: Physical Memory: 3384.35 MB used, 16366.69 MB total
+[2015.05.08-19.58.51:254][  0]LogMemory: Virtual Memory: 280.47 MB used, 8388608.00 MB total
+[2015.05.08-19.58.51:297][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD FirePro V4900 (ATI FireGL) (Feature Level 11_0)
+[2015.05.08-19.58.51:297][  0]LogD3D11RHI: Adapter has 1000MB of dedicated video memory, 0MB of dedicated system memory, and 7927MB of shared system memory, 1 output[s]
+[2015.05.08-19.58.51:297][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.05.08-19.58.51:301][  0]LogRHI: Texture pool is 700 MB (70% of 1000 MB)
+[2015.05.08-19.58.51:327][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.05.08-19.58.51:385][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.05.08-19.58.51:446][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
 Resource: (I:/U4/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
 Resource: (I:/U4/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
-[2015.05.08-18.56.15:466][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+[2015.05.08-19.58.51:446][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
 Resource: (I:/U4/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
 Resource: (I:/U4/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
-[2015.05.08-18.56.15:550][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2015.05.08-18.56.18:213][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.05.08-18.56.18:894][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.05.08-18.56.18:991][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2015.05.08-18.56.19:031][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/boyspc/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
-[2015.05.08-18.56.19:031][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/boyspc/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
-[2015.05.08-18.56.19:032][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Isaac's stuff/GodKiller/God-Killer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.05.08-18.56.19:032][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2015.05.08-18.56.19:180][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2015.05.08-18.56.19:192][  0]LogDerivedDataCache: Using Local data cache path C:/Users/boyspc/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2015.05.08-18.56.19:551][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2015.05.08-18.56.19:551][  0]LogMeshUtilities: No automatic mesh merging module available
-[2015.05.08-18.56.19:958][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2015.05.08-18.56.20:074][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
-[2015.05.08-18.56.21:137][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2015.05.08-18.56.21:415][  0]SourceControl: Info Source control is disabled
-[2015.05.08-18.56.21:415][  0]SourceControl: Info Source control is disabled
-[2015.05.08-18.56.21:415][  0]SourceControl: Info Source control is disabled
-[2015.05.08-18.56.21:415][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.05.08-18.56.21:415][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.05.08-18.56.21:430][  0]SourceControl: Info Source control is disabled
-[2015.05.08-18.56.21:714][  0]LogObj: 24231 objects as part of root set at end of initial load.
-[2015.05.08-18.56.21:714][  0]LogUObjectAllocator: 5136440 out of 0 bytes used by permanent object pool.
-[2015.05.08-18.56.21:814][  0]LogEngine: Initializing Engine...
-[2015.05.08-18.56.24:988][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.05.08-18.56.25:025][  0]LogInit: FAudioDevice initialized.
-[2015.05.08-18.56.25:082][  0]LogAIModule: Creating AISystem for world NewWorld
-[2015.05.08-18.56.25:102][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/boyspc/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
-[2015.05.08-18.56.25:106][  0]LogInit: Texture streaming: Enabled
-[2015.05.08-18.56.25:224][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2015.05.08-18.56.25:224][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.3-2479750+++depot+UE4-Releases+4.7
-[2015.05.08-18.56.25:224][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.3-2479750+++depot+UE4-Releases+4.7
-[2015.05.08-18.56.25:224][  0]LogAnalytics: SetUserId 3f96474f42888e5adcf5e2b93ddc4295|b7ce396ac5c943b599479ca52b5cfda1|085ebe92-5277-43bd-93b4-8a7cc3dd34ef
-[2015.05.08-18.56.25:224][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
-[2015.05.08-18.56.25:268][  0]LogInit: Transaction tracking system initialized
-[2015.05.08-18.56.25:519][  0]BlueprintLog: New page: Editor Load
-[2015.05.08-18.56.25:568][  0]LogAssetRegistry: FAssetRegistry took 0.0103 seconds to start up
-[2015.05.08-18.56.25:568][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
-[2015.05.08-18.56.26:267][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.05.08-18.56.26:714][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.05.08-18.56.27:097][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
-[2015.05.08-18.56.27:098][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
-[2015.05.08-18.56.27:150][  0]LogConsoleResponse:Display: 
-[2015.05.08-18.56.27:320][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2015.05.08-18.56.27:535][  0]SourceControl: Info Source control is disabled
-[2015.05.08-18.56.27:536][  0]Cmd: MAP LOAD FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Scene/NewCave.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.05.08-18.56.27:566][  0]LightingResults: New page: Lighting Build
-[2015.05.08-18.56.27:585][  0]MapCheck: New page: Map Check
-[2015.05.08-18.56.27:585][  0]LightingResults: New page: Lighting Build
-[2015.05.08-18.56.27:592][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000017104E00
-[2015.05.08-18.56.28:446][  0]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.05.08-18.56.32:682][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave Thunder_and_Lightning_3-01...
-[2015.05.08-18.56.35:176][  0]LogTexture:Display: Building textures: DragonHeads_alpha (AutoDXT)
-[2015.05.08-18.56.35:896][  0]LogTexture:Display: Building textures: DragonHeads (AutoDXT)
-[2015.05.08-18.56.36:291][  0]LogMaterial: Missing cached shader map for material Dragon_Heads, compiling. 
-[2015.05.08-18.56.36:353][  0]LogTexture:Display: Building textures: GodKillerGui_alpha (AutoDXT)
-[2015.05.08-18.56.36:419][  0]LogTexture:Display: Building textures: GodKillerGui_bar (AutoDXT)
-[2015.05.08-18.56.36:775][  0]LogMaterial: Missing cached shader map for material Gui_Bar, compiling. 
-[2015.05.08-18.56.40:562][  0]LogTexture:Display: Building textures: potText (AutoDXT)
-[2015.05.08-18.56.42:955][  0]LogMaterial: Missing cached shader map for material PotMat, compiling. 
-[2015.05.08-18.56.43:194][  0]LogMaterial: Missing cached shader map for material OtherStone, compiling. 
-[2015.05.08-18.56.43:233][  0]LogMaterial: Missing cached shader map for material Ground, compiling. 
-[2015.05.08-18.56.43:347][  0]LogMaterial: Missing cached shader map for material Rock2, compiling. 
-[2015.05.08-18.56.43:807][  0]LogStaticMesh: Building static mesh Pot_01...
-[2015.05.08-18.56.44:083][  0]LogStaticMesh: Built static mesh [595.420837ms] /Game/Models/Env/Pot_01.Pot_01
-[2015.05.08-18.56.45:362][  0]LogStaticMesh: Building static mesh Pot_05...
-[2015.05.08-18.56.45:543][  0]LogStaticMesh: Built static mesh [375.175537ms] /Game/Models/Env/Pot_05.Pot_05
-[2015.05.08-18.56.45:666][  0]LogStaticMesh: Building static mesh Pot_06...
-[2015.05.08-18.56.46:175][  0]LogStaticMesh: Built static mesh [530.608032ms] /Game/Models/Env/Pot_06.Pot_06
-[2015.05.08-18.56.46:268][  0]LogStaticMesh: Building static mesh Sack_03...
-[2015.05.08-18.56.46:284][  0]LogStaticMesh: Built static mesh [41.630554ms] /Game/Models/Env/Sack_03.Sack_03
-[2015.05.08-18.56.46:369][  0]LogMaterial: Missing cached shader map for material StonePillarMat, compiling. 
-[2015.05.08-18.56.46:440][  0]LogStaticMesh: Building static mesh Firepit_Tall...
-[2015.05.08-18.56.46:559][  0]LogStaticMesh: Built static mesh [174.715439ms] /Game/Models/Lantern/Firepit_Tall.Firepit_Tall
-[2015.05.08-18.56.46:728][  0]LogMaterial: Missing cached shader map for material Glass, compiling. 
-[2015.05.08-18.56.46:829][  0]LogMaterial: Missing cached shader map for material Cave, compiling. 
-[2015.05.08-18.56.46:891][  0]LogStaticMesh: Building static mesh newcave004...
-[2015.05.08-18.56.48:019][  0]LogStaticMesh: Built static mesh [1161.284058ms] /Game/Models/newcave004.newcave004
-[2015.05.08-18.56.48:350][  0]LogStaticMesh: Building static mesh Pillar...
-[2015.05.08-18.56.49:924][  0]LogStaticMesh: Built static mesh [1612.375732ms] /Game/Models/Pillar/Pillar.Pillar
-[2015.05.08-18.56.50:131][  0]LogStaticMesh: Building static mesh rock003...
-[2015.05.08-18.56.50:444][  0]LogStaticMesh: Built static mesh [329.509949ms] /Game/Models/Rocks/rock003.rock003
-[2015.05.08-18.56.51:445][  0]LogTexture:Display: Building textures: Texture2D_3 (BGRA8)
-[2015.05.08-18.57.01:014][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.05.08-18.57.01:014][  0]LogAIModule: Creating AISystem for world NewCave
-[2015.05.08-18.57.01:015][  0]Cmd: MAP CHECKDEP
-[2015.05.08-18.57.01:015][  0]MapCheck: New page: NewCave - May 8, 2015, 4:57:01 AM
-[2015.05.08-18.57.01:158][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 142.626ms to complete.
-[2015.05.08-18.57.01:158][  0]LogFileHelpers: Loading map 'NewCave' took 33.621
-[2015.05.08-18.57.01:676][  0]LogCollectionManager: Loaded 0 collections in 0.002302 seconds
-[2015.05.08-18.57.01:685][  0]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 1696 classes and 261 folders.
-[2015.05.08-18.57.03:942][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0021 seconds. Added 1 classes and 2 folders.
-[2015.05.08-18.57.05:156][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2015.05.08-18.57.05:157][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
-[2015.05.08-18.57.05:160][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2015.05.08-18.57.05:330][  0]LogLoad: Full Startup: 52.46 seconds (BP compile: 1.09 seconds)
-[2015.05.08-18.57.05:363][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scene'
-[2015.05.08-18.57.05:771][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
-[2015.05.08-18.57.06:138][  0]LogRenderer:Warning: Reallocating scene render targets to support 1128x936 (Frame:12).
-[2015.05.08-18.57.06:307][  1]Cmd: UpdateLandscapeEditorData -warnings
-[2015.05.08-18.57.06:540][  1]Cmd: UpdateLandscapeEditorData
-[2015.05.08-18.57.06:708][  4]LogAssetRegistry: Asset discovery search completed in 41.1505 seconds
-[2015.05.08-18.57.08:133][ 33]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/Models/Pillar/StonePillar.StonePillar. Streaming mips will be recached.
-[2015.05.08-18.57.08:797][ 33]LogTexture:Display: Building textures: StonePillar (AutoDXT)
-[2015.05.08-18.57.16:917][104]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/Models/Pillar/StonePillar.StonePillar. Streaming mips will be recached.
-[2015.05.08-18.57.17:171][104]LogTexture:Display: Building textures: StonePillar (AutoDXT)
-[2015.05.08-18.57.22:553][119]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/Models/Pillar/StonePillar.StonePillar. Streaming mips will be recached.
-[2015.05.08-18.57.22:807][119]LogTexture:Display: Building textures: StonePillar (AutoDXT)
-[2015.05.08-18.57.33:029][134]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/Models/Pillar/StonePillar.StonePillar. Streaming mips will be recached.
-[2015.05.08-18.57.33:262][134]LogTexture:Display: Building textures: StonePillar (AutoDXT)
-[2015.05.08-19.50.15:746][208]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP'
-[2015.05.08-19.50.18:291][266]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Blueprints'
-[2015.05.08-19.50.47:404][ 57]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.05.08-19.50.47:410][ 57]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.05.08-19.50.47:413][ 57]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3421.EdGraphPin_3933''
-[2015.05.08-19.50.47:594][ 57]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.05.08-19.50.47:594][ 57]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
-[2015.05.08-19.52.03:608][224]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2015.05.08-19.52.03:968][224]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
-[2015.05.08-19.52.04:020][224]BlueprintEditorCompileResults: Info [3351.08] Compile of ThirdPersonCharacter successful! [in 411 ms]
-[2015.05.08-19.52.07:134][287]BlueprintLog: New page: Pre-PIE auto-recompile
-[2015.05.08-19.52.07:138][287]LogPlayLevel: [PIE] Compiling sword_bp before PIE...
-[2015.05.08-19.52.07:225][287]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.05.08-19.52.07:234][287]LogPlayLevel: [PIE] Compiling Gui before PIE...
-[2015.05.08-19.52.07:344][287]LogPlayLevel: [PIE] Compiling ThirdPersonCharacter before PIE...
-[2015.05.08-19.52.07:650][287]LogPlayLevel: PIE:  Blueprint regeneration took 515 ms (3 blueprints)
-[2015.05.08-19.52.07:651][287]PIE: New page: PIE session: NewCave (May 8, 2015, 5:52:07 AM)
-[2015.05.08-19.52.07:723][287]LogPlayLevel: PIE: StaticDuplicateObject took: (0.071065s)
-[2015.05.08-19.52.07:723][287]LogPlayLevel: PIE: World Init took: (0.000610s)
-[2015.05.08-19.52.07:724][287]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/NewCave.NewCave to /Game/Scene/UEDPIE_0_NewCave.NewCave (0.072120s)
-[2015.05.08-19.52.07:896][287]LogWorld: Game class is 'ThirdPersonGameMode_C'
-[2015.05.08-19.52.08:031][287]LogAIModule: Creating AISystem for world NewCave
-[2015.05.08-19.52.08:086][287]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
-[2015.05.08-19.52.08:086][287]LogWorld: Bringing World /Game/Scene/UEDPIE_0_NewCave.NewCave up for play (max tick rate 0) at 2015.05.08-12.52.08
-[2015.05.08-19.52.08:102][287]LogWorld: Bringing up level for play took: 0.070072
-[2015.05.08-19.52.08:247][287]PIE: Info Play in editor start time for /Game/Scene/UEDPIE_0_NewCave 1.724
-[2015.05.08-19.52.38:435][481]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.05.08-19.52.38:543][482]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002A1631A0
-[2015.05.08-19.53.26:164][504]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.05.08-19.53.26:164][504]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.05.08-19.53.26:164][504]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.05.08-19.53.26:168][504]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_7558.EdGraphPin_4776''
-[2015.05.08-19.53.26:170][504]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_7558.EdGraphPin_4774''
-[2015.05.08-19.54.01:564][263]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2015.05.08-19.54.02:471][263]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.05.08-19.54.02:471][263]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
-[2015.05.08-19.54.02:505][263]BlueprintEditorCompileResults: Info [3469.56] Compile of ThirdPersonCharacter successful! [in 940 ms]
-[2015.05.08-19.54.08:712][370]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/GUI'
-[2015.05.08-19.54.36:508][989]BlueprintLog: New page: Pre-PIE auto-recompile
-[2015.05.08-19.54.36:511][989]LogPlayLevel: [PIE] Compiling sword_bp before PIE...
-[2015.05.08-19.54.36:594][989]LogPlayLevel: [PIE] Compiling Gui before PIE...
-[2015.05.08-19.54.36:682][989]LogPlayLevel: [PIE] Compiling ThirdPersonCharacter before PIE...
-[2015.05.08-19.54.36:969][989]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.05.08-19.54.36:969][989]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
-[2015.05.08-19.54.36:987][989]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001E4D7560
-[2015.05.08-19.54.36:988][989]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000259389A0
-[2015.05.08-19.54.36:988][989]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000025939E40
-[2015.05.08-19.54.36:994][989]LogPlayLevel: PIE:  Blueprint regeneration took 485 ms (3 blueprints)
-[2015.05.08-19.54.36:994][989]PIE: New page: PIE session: NewCave (May 8, 2015, 5:54:36 AM)
-[2015.05.08-19.54.37:047][989]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052679s)
-[2015.05.08-19.54.37:048][989]LogPlayLevel: PIE: World Init took: (0.000683s)
-[2015.05.08-19.54.37:048][989]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/NewCave.NewCave to /Game/Scene/UEDPIE_0_NewCave.NewCave (0.053544s)
-[2015.05.08-19.54.37:083][989]LogWorld: Game class is 'ThirdPersonGameMode_C'
-[2015.05.08-19.54.37:085][989]LogAIModule: Creating AISystem for world NewCave
-[2015.05.08-19.54.37:121][989]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
-[2015.05.08-19.54.37:121][989]LogWorld: Bringing World /Game/Scene/UEDPIE_0_NewCave.NewCave up for play (max tick rate 0) at 2015.05.08-12.54.37
-[2015.05.08-19.54.37:122][989]LogWorld: Bringing up level for play took: 0.036234
-[2015.05.08-19.54.37:125][989]PIE: Info Play in editor start time for /Game/Scene/UEDPIE_0_NewCave 0.6
-[2015.05.08-19.55.11:269][342]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F3F04A0
-[2015.05.08-19.55.15:140][427]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Blueprints'
-[2015.05.08-19.55.25:099][624]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2015.05.08-19.55.25:421][624]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.05.08-19.55.25:421][624]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
-[2015.05.08-19.55.25:456][624]BlueprintEditorCompileResults: Info [3552.51] Compile of ThirdPersonCharacter successful! [in 356 ms]
-[2015.05.08-19.55.27:005][639]LogSavePackage: Save=625.922913ms
-[2015.05.08-19.55.27:005][639]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/ThirdPersonCharacterC6992F9245686A9B98BC3FB3DA50691A.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
-[2015.05.08-19.55.28:388][666]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.05.08-19.55.28:388][666]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
-[2015.05.08-19.55.35:464][820]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.05.08-19.55.35:465][820]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
-[2015.05.08-19.55.35:507][820]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C291A80
-[2015.05.08-19.55.36:050][821]Cmd: QUIT_EDITOR
-[2015.05.08-19.55.36:325][821]LogExit: Preparing to exit.
-[2015.05.08-19.55.37:475][821]LogExit: Editor shut down
-[2015.05.08-19.55.37:475][821]LogExit: Transaction tracking system shut down
-[2015.05.08-19.55.37:476][821]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000041C6020
-[2015.05.08-19.55.37:477][821]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C0EE0C0
-[2015.05.08-19.55.37:477][821]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000021569E40
-[2015.05.08-19.55.37:477][821]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001D294680
-[2015.05.08-19.55.37:477][821]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001D294900
-[2015.05.08-19.55.37:478][821]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001D0CE700
-[2015.05.08-19.55.37:542][821]LogExit: Object subsystem successfully closed.
-[2015.05.08-19.55.37:590][821]LogModuleManager: Shutting down and abandoning module SequencerWidgets (178)
-[2015.05.08-19.55.37:590][821]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
-[2015.05.08-19.55.37:590][821]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
-[2015.05.08-19.55.37:590][821]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
-[2015.05.08-19.55.37:590][821]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
-[2015.05.08-19.55.37:590][821]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
-[2015.05.08-19.55.37:590][821]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
-[2015.05.08-19.55.37:591][821]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
-[2015.05.08-19.55.37:591][821]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
-[2015.05.08-19.55.37:591][821]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
-[2015.05.08-19.55.37:591][821]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
-[2015.05.08-19.55.37:591][821]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
-[2015.05.08-19.55.37:591][821]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
-[2015.05.08-19.55.37:591][821]LogModuleManager: Shutting down and abandoning module BspMode (165)
-[2015.05.08-19.55.37:591][821]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
-[2015.05.08-19.55.37:591][821]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
-[2015.05.08-19.55.37:591][821]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
-[2015.05.08-19.55.37:591][821]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
-[2015.05.08-19.55.37:591][821]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
-[2015.05.08-19.55.37:591][821]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
-[2015.05.08-19.55.37:591][821]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
-[2015.05.08-19.55.37:591][821]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
-[2015.05.08-19.55.37:591][821]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
-[2015.05.08-19.55.37:591][821]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
-[2015.05.08-19.55.37:591][821]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
-[2015.05.08-19.55.37:591][821]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
-[2015.05.08-19.55.37:591][821]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
-[2015.05.08-19.55.37:591][821]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
-[2015.05.08-19.55.37:591][821]LogModuleManager: Shutting down and abandoning module XmlParser (150)
-[2015.05.08-19.55.37:591][821]LogModuleManager: Shutting down and abandoning module Blutility (149)
-[2015.05.08-19.55.37:591][821]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
-[2015.05.08-19.55.37:591][821]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
-[2015.05.08-19.55.37:591][821]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
-[2015.05.08-19.55.38:189][821]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
-[2015.05.08-19.55.38:189][821]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
-[2015.05.08-19.55.38:189][821]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
-[2015.05.08-19.55.38:189][821]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
-[2015.05.08-19.55.38:189][821]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
-[2015.05.08-19.55.38:189][821]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
-[2015.05.08-19.55.38:189][821]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
-[2015.05.08-19.55.38:189][821]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
-[2015.05.08-19.55.38:189][821]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
-[2015.05.08-19.55.38:189][821]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
-[2015.05.08-19.55.38:189][821]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
-[2015.05.08-19.55.38:190][821]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
-[2015.05.08-19.55.38:190][821]LogModuleManager: Shutting down and abandoning module AutomationController (133)
-[2015.05.08-19.55.38:190][821]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
-[2015.05.08-19.55.38:190][821]LogModuleManager: Shutting down and abandoning module Layers (131)
-[2015.05.08-19.55.38:190][821]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
-[2015.05.08-19.55.38:190][821]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
-[2015.05.08-19.55.38:190][821]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
-[2015.05.08-19.55.38:190][821]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
-[2015.05.08-19.55.38:359][821]LogModuleManager: Shutting down and abandoning module Persona (126)
-[2015.05.08-19.55.38:359][821]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
-[2015.05.08-19.55.38:359][821]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
-[2015.05.08-19.55.38:360][821]LogModuleManager: Shutting down and abandoning module Kismet (123)
-[2015.05.08-19.55.38:360][821]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
-[2015.05.08-19.55.38:360][821]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
-[2015.05.08-19.55.38:360][821]LogModuleManager: Shutting down and abandoning module Toolbox (120)
-[2015.05.08-19.55.38:360][821]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
-[2015.05.08-19.55.38:360][821]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
-[2015.05.08-19.55.38:360][821]LogModuleManager: Shutting down and abandoning module OutputLog (117)
-[2015.05.08-19.55.38:360][821]LogModuleManager: Shutting down and abandoning module GammaUI (116)
-[2015.05.08-19.55.38:360][821]LogModuleManager: Shutting down and abandoning module Documentation (115)
-[2015.05.08-19.55.38:360][821]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
-[2015.05.08-19.55.38:360][821]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
-[2015.05.08-19.55.38:360][821]LogModuleManager: Shutting down and abandoning module HTTP (112)
-[2015.05.08-19.55.38:360][821]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
-[2015.05.08-19.55.38:360][821]LogModuleManager: Shutting down and abandoning module Analytics (110)
-[2015.05.08-19.55.38:361][821]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
-[2015.05.08-19.55.38:361][821]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
-[2015.05.08-19.55.38:361][821]LogModuleManager: Shutting down and abandoning module AIModule (107)
-[2015.05.08-19.55.38:361][821]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
-[2015.05.08-19.55.38:369][821]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
-[2015.05.08-19.55.38:369][821]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
-[2015.05.08-19.55.38:369][821]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
-[2015.05.08-19.55.38:369][821]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
-[2015.05.08-19.55.38:369][821]LogModuleManager: Shutting down and abandoning module CableComponent (101)
-[2015.05.08-19.55.38:369][821]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
-[2015.05.08-19.55.38:369][821]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
-[2015.05.08-19.55.38:369][821]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
-[2015.05.08-19.55.38:369][821]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
-[2015.05.08-19.55.38:369][821]LogModuleManager: Shutting down and abandoning module MainFrame (96)
-[2015.05.08-19.55.38:369][821]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
-[2015.05.08-19.55.38:369][821]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
-[2015.05.08-19.55.38:369][821]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
-[2015.05.08-19.55.38:370][821]LogModuleManager: Shutting down and abandoning module HotReload (92)
-[2015.05.08-19.55.38:370][821]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
-[2015.05.08-19.55.38:370][821]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
-[2015.05.08-19.55.38:370][821]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
-[2015.05.08-19.55.38:370][821]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
-[2015.05.08-19.55.38:370][821]LogModuleManager: Shutting down and abandoning module SourceControl (87)
-[2015.05.08-19.55.38:370][821]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
-[2015.05.08-19.55.38:370][821]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
-[2015.05.08-19.55.38:370][821]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
-[2015.05.08-19.55.38:370][821]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
-[2015.05.08-19.55.38:370][821]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
-[2015.05.08-19.55.38:371][821]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
-[2015.05.08-19.55.38:371][821]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
-[2015.05.08-19.55.38:371][821]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
-[2015.05.08-19.55.38:471][821]LogModuleManager: Shutting down and abandoning module Paper2D (78)
-[2015.05.08-19.55.38:471][821]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
-[2015.05.08-19.55.38:475][821]LogModuleManager: Shutting down and abandoning module Media (76)
-[2015.05.08-19.55.38:475][821]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
-[2015.05.08-19.55.38:475][821]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
-[2015.05.08-19.55.38:475][821]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
-[2015.05.08-19.55.38:476][821]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
-[2015.05.08-19.55.38:476][821]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
-[2015.05.08-19.55.38:476][821]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
-[2015.05.08-19.55.38:476][821]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
-[2015.05.08-19.55.38:476][821]LogModuleManager: Shutting down and abandoning module MessageLog (68)
-[2015.05.08-19.55.38:476][821]LogModuleManager: Shutting down and abandoning module Sequencer (67)
-[2015.05.08-19.55.38:476][821]LogModuleManager: Shutting down and abandoning module AssetTools (66)
-[2015.05.08-19.55.38:476][821]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
-[2015.05.08-19.55.38:476][821]LogModuleManager: Shutting down and abandoning module UMG (64)
-[2015.05.08-19.55.38:476][821]LogModuleManager: Shutting down and abandoning module Slate (63)
-[2015.05.08-19.55.38:476][821]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
-[2015.05.08-19.55.38:484][821]LogModuleManager: Shutting down and abandoning module SessionServices (61)
-[2015.05.08-19.55.38:484][821]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
-[2015.05.08-19.55.38:484][821]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
-[2015.05.08-19.55.38:484][821]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
-[2015.05.08-19.55.38:484][821]LogModuleManager: Shutting down and abandoning module Networking (56)
-[2015.05.08-19.55.38:484][821]LogModuleManager: Shutting down and abandoning module Core (55)
-[2015.05.08-19.55.38:484][821]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
-[2015.05.08-19.55.38:484][821]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
-[2015.05.08-19.55.38:484][821]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
-[2015.05.08-19.55.38:484][821]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
-[2015.05.08-19.55.38:575][821]LogDerivedDataCache: Shutdown
-[2015.05.08-19.55.38:575][821]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
-[2015.05.08-19.55.38:575][821]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
-[2015.05.08-19.55.38:575][821]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
-[2015.05.08-19.55.38:575][821]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
-[2015.05.08-19.55.38:575][821]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
-[2015.05.08-19.55.38:575][821]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
-[2015.05.08-19.55.38:575][821]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
-[2015.05.08-19.55.38:575][821]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
-[2015.05.08-19.55.38:575][821]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
-[2015.05.08-19.55.38:575][821]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
-[2015.05.08-19.55.38:575][821]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
-[2015.05.08-19.55.38:575][821]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
-[2015.05.08-19.55.38:575][821]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
-[2015.05.08-19.55.38:575][821]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
-[2015.05.08-19.55.38:575][821]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
-[2015.05.08-19.55.38:575][821]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
-[2015.05.08-19.55.38:575][821]LogModuleManager: Shutting down and abandoning module Messaging (34)
-[2015.05.08-19.55.38:575][821]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
-[2015.05.08-19.55.38:575][821]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
-[2015.05.08-19.55.38:575][821]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
-[2015.05.08-19.55.38:575][821]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
-[2015.05.08-19.55.38:575][821]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
-[2015.05.08-19.55.38:575][821]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
-[2015.05.08-19.55.38:575][821]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
-[2015.05.08-19.55.38:575][821]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
-[2015.05.08-19.55.38:575][821]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
-[2015.05.08-19.55.38:575][821]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
-[2015.05.08-19.55.38:575][821]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
-[2015.05.08-19.55.38:575][821]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
-[2015.05.08-19.55.38:575][821]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
-[2015.05.08-19.55.38:575][821]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
-[2015.05.08-19.55.38:575][821]LogModuleManager: Shutting down and abandoning module InputCore (19)
-[2015.05.08-19.55.38:575][821]LogModuleManager: Shutting down and abandoning module Settings (18)
-[2015.05.08-19.55.38:576][821]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
-[2015.05.08-19.55.38:576][821]LogModuleManager: Shutting down and abandoning module OculusRift (15)
-[2015.05.08-19.55.38:576][821]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
-[2015.05.08-19.55.38:576][821]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
-[2015.05.08-19.55.38:576][821]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
-[2015.05.08-19.55.38:576][821]LogModuleManager: Shutting down and abandoning module Landscape (11)
-[2015.05.08-19.55.38:576][821]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
-[2015.05.08-19.55.38:581][821]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
-[2015.05.08-19.55.38:581][821]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
-[2015.05.08-19.55.38:581][821]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2015.05.08-19.55.38:581][821]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2015.05.08-19.55.38:581][821]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2015.05.08-19.55.38:581][821]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2015.05.08-19.55.38:581][821]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2015.05.08-19.55.38:581][821]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2015.05.08-19.55.38:581][821]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2015.05.08-19.55.38:582][821]LogExit: Exiting.
-[2015.05.08-19.55.38:591][821]Log file closed, 05/08/15 12:55:38
+[2015.05.08-19.58.51:527][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.05.08-19.58.54:060][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.08-19.58.54:717][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.08-19.58.54:805][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.05.08-19.58.54:841][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/boyspc/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.08-19.58.54:841][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/boyspc/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.05.08-19.58.54:841][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Isaac's stuff/GodKiller/God-Killer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.05.08-19.58.54:841][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.05.08-19.58.54:972][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.05.08-19.58.54:983][  0]LogDerivedDataCache: Using Local data cache path C:/Users/boyspc/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.05.08-19.58.55:331][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.05.08-19.58.55:331][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.05.08-19.58.55:721][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.05.08-19.58.55:833][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.05.08-19.58.56:851][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.05.08-19.58.57:151][  0]SourceControl: Info Source control is disabled
+[2015.05.08-19.58.57:151][  0]SourceControl: Info Source control is disabled
+[2015.05.08-19.58.57:151][  0]SourceControl: Info Source control is disabled
+[2015.05.08-19.58.57:152][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.05.08-19.58.57:152][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.05.08-19.58.57:167][  0]SourceControl: Info Source control is disabled
+[2015.05.08-19.58.57:452][  0]LogObj: 24231 objects as part of root set at end of initial load.
+[2015.05.08-19.58.57:452][  0]LogUObjectAllocator: 5136432 out of 0 bytes used by permanent object pool.
+[2015.05.08-19.58.57:548][  0]LogEngine: Initializing Engine...
+[2015.05.08-19.59.00:734][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.05.08-19.59.00:770][  0]LogInit: FAudioDevice initialized.
+[2015.05.08-19.59.00:827][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.05.08-19.59.00:846][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/boyspc/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.08-19.59.00:850][  0]LogInit: Texture streaming: Enabled
+[2015.05.08-19.59.00:964][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.05.08-19.59.00:964][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.3-2479750+++depot+UE4-Releases+4.7
+[2015.05.08-19.59.00:964][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.3-2479750+++depot+UE4-Releases+4.7
+[2015.05.08-19.59.00:964][  0]LogAnalytics: SetUserId 3f96474f42888e5adcf5e2b93ddc4295|b7ce396ac5c943b599479ca52b5cfda1|085ebe92-5277-43bd-93b4-8a7cc3dd34ef
+[2015.05.08-19.59.00:965][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.05.08-19.59.01:008][  0]LogInit: Transaction tracking system initialized
+[2015.05.08-19.59.01:254][  0]BlueprintLog: New page: Editor Load
+[2015.05.08-19.59.01:301][  0]LogAssetRegistry: FAssetRegistry took 0.0094 seconds to start up
+[2015.05.08-19.59.01:301][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.05.08-19.59.01:973][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.08-19.59.02:388][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.08-19.59.02:760][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.05.08-19.59.02:760][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.05.08-19.59.02:809][  0]LogConsoleResponse:Display: 
+[2015.05.08-19.59.02:955][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.05.08-19.59.03:167][  0]SourceControl: Info Source control is disabled
+[2015.05.08-19.59.03:168][  0]Cmd: MAP LOAD FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Scene/NewCave.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.05.08-19.59.03:168][  0]LightingResults: New page: Lighting Build
+[2015.05.08-19.59.03:187][  0]MapCheck: New page: Map Check
+[2015.05.08-19.59.03:187][  0]LightingResults: New page: Lighting Build
+[2015.05.08-19.59.03:194][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000017260E00
+[2015.05.08-19.59.03:549][  0]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.08-19.59.05:800][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.05.08-19.59.05:800][  0]LogAIModule: Creating AISystem for world NewCave
+[2015.05.08-19.59.05:800][  0]Cmd: MAP CHECKDEP
+[2015.05.08-19.59.05:801][  0]MapCheck: New page: NewCave - May 8, 2015, 5:59:05 AM
+[2015.05.08-19.59.05:932][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 130.902ms to complete.
+[2015.05.08-19.59.05:932][  0]LogFileHelpers: Loading map 'NewCave' took 2.764
+[2015.05.08-19.59.06:045][  0]LogCollectionManager: Loaded 0 collections in 0.002331 seconds
+[2015.05.08-19.59.06:054][  0]LogContentBrowser: Native class hierarchy populated in 0.0084 seconds. Added 1696 classes and 261 folders.
+[2015.05.08-19.59.06:160][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0016 seconds. Added 1 classes and 2 folders.
+[2015.05.08-19.59.06:230][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.05.08-19.59.06:231][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.05.08-19.59.06:234][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.05.08-19.59.06:260][  0]LogLoad: Full Startup: 17.77 seconds (BP compile: 1.04 seconds)
+[2015.05.08-19.59.06:289][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Blueprints'
+[2015.05.08-19.59.06:453][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.05.08-19.59.06:606][  0]LogRenderer:Warning: Reallocating scene render targets to support 1128x936 (Frame:12).
+[2015.05.08-19.59.06:735][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2015.05.08-19.59.06:736][  1]Cmd: UpdateLandscapeEditorData
+[2015.05.08-19.59.06:842][  4]LogAssetRegistry: Asset discovery search completed in 5.5506 seconds
+[2015.05.08-20.03.59:592][204]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Animations'
+[2015.05.08-20.04.01:185][233]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Blueprints'
+[2015.05.08-20.04.02:552][257]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Character'
+[2015.05.08-20.04.03:838][273]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Meshes'
+[2015.05.08-20.04.21:101][646]LogStaticMesh: Building static mesh HaHAiMAdeAGiantPenis...
+[2015.05.08-20.04.21:152][646]LogStaticMesh: Built static mesh [51.281456ms] /Game/ThirdPersonBP/Meshes/HaHAiMAdeAGiantPenis.HaHAiMAdeAGiantPenis
+[2015.05.08-20.04.21:473][646]LogRenderer:Warning: Reallocating scene render targets to support 1432x936 (Frame:5743).
+[2015.05.08-20.07.57:038][595]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Audio'
+[2015.05.08-20.07.58:278][623]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/GUI'
+[2015.05.08-20.08.00:592][669]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2015.05.08-20.08.03:950][721]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models'
+[2015.05.08-20.08.17:323][959]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.05.08-20.08.17:323][959]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.05.08-20.08.17:334][959]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.05.08-20.08.17:334][959]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.05.08-20.08.17:337][959]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.05.08-20.08.17:337][959]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.05.08-20.08.22:706][ 46]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0029 seconds. Added 1 classes and 2 folders.
+[2015.05.08-20.08.46:361][ 44]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/08_-_Default" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/08_-_Default.uasset" SILENT=true
+[2015.05.08-20.08.46:553][ 44]LogSavePackage: Save=188.726151ms
+[2015.05.08-20.08.46:553][ 44]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/08_-_Default8C870777400FA9A079D9EC9C437B4773.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/08_-_Default.uasset'
+[2015.05.08-20.08.46:579][ 44]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/cave" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/cave.uasset" SILENT=true
+[2015.05.08-20.08.46:931][ 44]LogSavePackage: Save=307.807587ms
+[2015.05.08-20.08.46:931][ 44]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/caveA1354B43480EC01CF9DD738555D893CF.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/cave.uasset'
+[2015.05.08-20.08.46:939][ 44]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/cave" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/cave.uasset" SILENT=true
+[2015.05.08-20.08.46:955][ 44]LogSavePackage: Save=3.005417ms
+[2015.05.08-20.08.46:955][ 44]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/caveE9B9E4944DA67129381E7994E97FCAF8.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/cave.uasset'
+[2015.05.08-20.08.47:000][ 44]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.08-20.08.47:000][ 44]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.05.08-20.08.47:066][ 44]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001ED8AC00
+[2015.05.08-20.08.47:066][ 44]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000021956D40
+[2015.05.08-20.08.47:066][ 44]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C84B880
+[2015.05.08-20.08.47:179][ 44]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/LevelMap" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/LevelMap.uasset" SILENT=true
+[2015.05.08-20.08.47:321][ 44]LogSavePackage: Save=116.081329ms
+[2015.05.08-20.08.47:321][ 44]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/LevelMap3E5C473845D299CC6EF6F296082C047A.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/LevelMap.uasset'
+[2015.05.08-20.08.48:518][ 70]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/Env'
+[2015.05.08-20.08.58:562][523]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/PotMat" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/PotMat.uasset" SILENT=true
+[2015.05.08-20.08.58:772][523]LogSavePackage: Save=207.516785ms
+[2015.05.08-20.08.58:772][523]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/PotMat2770BDC3416D4FE333C761909061624D.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/PotMat.uasset'
+[2015.05.08-20.08.58:781][523]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Env/PotMat" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/Env/PotMat.uasset" SILENT=true
+[2015.05.08-20.08.58:797][523]LogSavePackage: Save=3.360320ms
+[2015.05.08-20.08.58:797][523]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/PotMatE3562F9042A91E9FAEA6F09155F1095D.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/Env/PotMat.uasset'
+[2015.05.08-20.09.05:288][733]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models'
+[2015.05.08-20.09.06:122][752]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/Lantern'
+[2015.05.08-20.09.12:531][880]LogMaterial: Missing cached shader map for material frostedglassLight, compiling. 
+[2015.05.08-20.09.15:792][158]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/DarkMetal" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/DarkMetal.uasset" SILENT=true
+[2015.05.08-20.09.15:988][158]LogSavePackage: Save=192.336426ms
+[2015.05.08-20.09.15:988][158]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/DarkMetalC674A68C4CE4DA6B7BCFD498D7906712.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/DarkMetal.uasset'
+[2015.05.08-20.09.16:012][158]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Copper" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/Copper.uasset" SILENT=true
+[2015.05.08-20.09.16:128][158]LogSavePackage: Save=113.025589ms
+[2015.05.08-20.09.16:128][158]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/Copper4397A5A7483536C7F6774090F6FB6AD9.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/Copper.uasset'
+[2015.05.08-20.09.16:154][158]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Copper_Mat" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/Copper_Mat.uasset" SILENT=true
+[2015.05.08-20.09.16:271][158]LogSavePackage: Save=113.580460ms
+[2015.05.08-20.09.16:271][158]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/Copper_MatF307B82D4DF7531CB9DB1FABC29853D5.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/Copper_Mat.uasset'
+[2015.05.08-20.09.16:301][158]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/frostedglassLight" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/frostedglassLight.uasset" SILENT=true
+[2015.05.08-20.09.16:528][158]LogSavePackage: Save=224.441208ms
+[2015.05.08-20.09.16:528][158]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/frostedglassLight8A8916D241F75671AEE4D19EC5D52CFD.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/frostedglassLight.uasset'
+[2015.05.08-20.09.16:556][158]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/LightMetal" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/LightMetal.uasset" SILENT=true
+[2015.05.08-20.09.16:795][158]LogSavePackage: Save=218.105270ms
+[2015.05.08-20.09.16:795][158]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/LightMetal89CAD6CD47D730F648592EB5BA295A2A.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/LightMetal.uasset'
+[2015.05.08-20.09.16:845][158]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.08-20.09.17:166][158]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Lantern/Lanturn001" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/Lantern/Lanturn001.uasset" SILENT=true
+[2015.05.08-20.09.17:368][158]LogSavePackage: Save=161.058624ms
+[2015.05.08-20.09.17:368][158]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/Lanturn001050119144F53EA4033A7A69D1CA1BA88.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/Lantern/Lanturn001.uasset'
+[2015.05.08-20.09.17:374][158]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Lantern/Lanturn001" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/Lantern/Lanturn001.uasset" SILENT=true
+[2015.05.08-20.09.17:391][158]LogSavePackage: Save=7.044091ms
+[2015.05.08-20.09.17:391][158]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/Lanturn00114E6AE094FFF84DE943513A61FFF1FD9.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/Lantern/Lanturn001.uasset'
+[2015.05.08-20.09.18:449][178]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models'
+[2015.05.08-20.09.20:001][211]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/Pillar'
+[2015.05.08-20.09.25:718][569]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/StonePillarMat" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/StonePillarMat.uasset" SILENT=true
+[2015.05.08-20.09.25:917][569]LogSavePackage: Save=196.130432ms
+[2015.05.08-20.09.25:917][569]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/StonePillarMat38C4A10F47AA8CBB854BBAB252697782.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/StonePillarMat.uasset'
+[2015.05.08-20.09.25:943][569]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/OtherStone" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/OtherStone.uasset" SILENT=true
+[2015.05.08-20.09.26:079][569]LogSavePackage: Save=133.596710ms
+[2015.05.08-20.09.26:079][569]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/OtherStone6DF973904D0B1D40FEE33A97D8364151.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/OtherStone.uasset'
+[2015.05.08-20.09.26:088][569]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Pillar/OtherStone" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/Pillar/OtherStone.uasset" SILENT=true
+[2015.05.08-20.09.26:104][569]LogSavePackage: Save=3.444741ms
+[2015.05.08-20.09.26:104][569]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/OtherStoneEB40D663454DF1F0B6C657B6043BDA8B.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/Pillar/OtherStone.uasset'
+[2015.05.08-20.09.26:144][569]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.08-20.09.26:313][569]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Lantern/Firepit_Tall" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/Lantern/Firepit_Tall.uasset" SILENT=true
+[2015.05.08-20.09.26:543][569]LogSavePackage: Save=214.046066ms
+[2015.05.08-20.09.26:543][569]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/Firepit_TallC219ED6145C3681966C3E18D6F065B91.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/Lantern/Firepit_Tall.uasset'
+[2015.05.08-20.09.26:567][569]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Pillar/Pillar" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/Pillar/Pillar.uasset" SILENT=true
+[2015.05.08-20.09.26:729][569]LogSavePackage: Save=129.187897ms
+[2015.05.08-20.09.26:729][569]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/Pillar2DFEA95E47BAEAAB73C0D68F01DEE2D0.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/Pillar/Pillar.uasset'
+[2015.05.08-20.09.28:752][614]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models'
+[2015.05.08-20.09.30:295][646]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/Rocks'
+[2015.05.08-20.09.41:377][350]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Ground" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/Ground.uasset" SILENT=true
+[2015.05.08-20.09.41:501][350]LogSavePackage: Save=121.712105ms
+[2015.05.08-20.09.41:501][350]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/Ground659C844146C178567533418D0B29F079.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/Ground.uasset'
+[2015.05.08-20.09.41:511][350]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Rocks/gROUND" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/Rocks/gROUND.uasset" SILENT=true
+[2015.05.08-20.09.41:528][350]LogSavePackage: Save=3.248750ms
+[2015.05.08-20.09.41:528][350]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/gROUND70B5B9C64F113B0A85350AA6C0E74849.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/Rocks/gROUND.uasset'
+[2015.05.08-20.09.41:554][350]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Rock2" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/Rock2.uasset" SILENT=true
+[2015.05.08-20.09.41:660][350]LogSavePackage: Save=89.944664ms
+[2015.05.08-20.09.41:660][350]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/Rock27A53D6944ED637C506793A87BFA131BC.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/Rock2.uasset'
+[2015.05.08-20.09.41:668][350]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Rocks/Rock2" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/Rocks/Rock2.uasset" SILENT=true
+[2015.05.08-20.09.41:711][350]LogSavePackage: Save=3.346084ms
+[2015.05.08-20.09.41:711][350]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/Rock2844986BB40BE8D4372F9BCA063E0C668.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/Rocks/Rock2.uasset'
+[2015.05.08-20.09.41:739][350]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/celing" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/celing.uasset" SILENT=true
+[2015.05.08-20.09.41:825][350]LogSavePackage: Save=83.300171ms
+[2015.05.08-20.09.41:825][350]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/celing339A7B9A4DDB155F97DBEE9896F8F192.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/celing.uasset'
+[2015.05.08-20.09.41:868][350]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.08-20.09.42:000][350]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Rocks/Rock" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/Rocks/Rock.uasset" SILENT=true
+[2015.05.08-20.09.42:018][350]LogSavePackage: Save=3.114338ms
+[2015.05.08-20.09.42:018][350]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/RockCF6F6DF042A84AF8596A21ADA1C007F1.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/Rocks/Rock.uasset'
+[2015.05.08-20.09.51:955][539]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2015.05.08-20.09.55:277][595]LogMaterial: Missing cached shader map for material cave, compiling. 
+[2015.05.08-20.09.55:298][595]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.05.08-20.09.55:386][595]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.05.08-20.09.55:386][595]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.05.08-20.09.55:386][595]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.05.08-20.09.55:386][595]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.05.08-20.09.55:388][595]LogMaterial: Missing cached shader map for material cave, compiling. 
+[2015.05.08-20.09.55:394][595]LogMaterial: 0.000069 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.08-20.09.55:420][595]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.08-20.09.56:825][687]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 36 instructions
+[2015.05.08-20.09.56:825][687]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.05.08-20.09.56:825][687]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.05.08-20.10.17:928][750]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/cave_purple" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/cave_purple.uasset" SILENT=true
+[2015.05.08-20.10.18:244][750]LogSavePackage: Save=312.089264ms
+[2015.05.08-20.10.18:244][750]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/cave_purple60B2D6C849D213F2E9D076899C0C973F.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/cave_purple.uasset'
+[2015.05.08-20.10.18:285][750]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.08-20.10.18:363][750]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F48E3E0
+[2015.05.08-20.10.18:452][750]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/cave" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/cave.uasset" SILENT=true
+[2015.05.08-20.10.18:473][750]LogSavePackage: Save=4.461445ms
+[2015.05.08-20.10.18:473][750]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/cave85072ABA475F9FC03646B39046113403.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/cave.uasset'
+[2015.05.08-20.10.23:057][826]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/Rocks'
+[2015.05.08-20.10.28:028][198]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Cave" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/Cave.uasset" SILENT=true
+[2015.05.08-20.10.28:143][198]LogSavePackage: Save=112.470726ms
+[2015.05.08-20.10.28:144][198]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/CaveE53558E24FA0FB01076228B4DD6A1304.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/Cave.uasset'
+[2015.05.08-20.10.28:183][198]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.08-20.10.28:317][198]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Rocks/Rock" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/Rocks/Rock.uasset" SILENT=true
+[2015.05.08-20.10.28:341][198]LogSavePackage: Save=5.485432ms
+[2015.05.08-20.10.28:341][198]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/Rock7363AC2F4334D4112035308340B6D2CE.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/Rocks/Rock.uasset'
+[2015.05.08-20.10.30:272][236]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2015.05.08-20.10.52:933][355]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/Rocks'
+[2015.05.08-20.10.54:636][389]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
+[2015.05.08-20.10.55:650][413]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scene'
+[2015.05.08-20.10.56:747][438]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/sword'
+[2015.05.08-20.11.01:555][527]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Terrain_texture'
+[2015.05.08-20.11.06:865][641]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Animations'
+[2015.05.08-20.11.08:202][665]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Blueprints'
+[2015.05.08-20.11.09:140][682]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Character'
+[2015.05.08-20.11.09:902][698]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Meshes'
+[2015.05.08-20.11.33:922][495]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.05.08-20.11.38:634][759]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.05.08-20.11.45:968][916]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Audio'
+[2015.05.08-20.11.46:733][934]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/GUI'
+[2015.05.08-20.11.49:617][991]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2015.05.08-20.12.03:303][242]LogTexture:Display: Building textures: imgres (BGRA8)
+[2015.05.08-20.12.03:969][242]LogTexture:Display: Building textures: Wooden_Barrel_D (AutoDXT)
+[2015.05.08-20.12.04:175][242]LogTexture:Display: Building textures: Wooden_Barrel_N (BC5)
+[2015.05.08-20.12.04:294][242]LogTexture:Display: Building textures: Wooden_Barrel_S (AutoDXT)
+[2015.05.08-20.12.04:440][242]LogTexture:Display: Building textures: Wooden_Barrel_O (AutoDXT)
+[2015.05.08-20.12.10:293][874]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/imgres" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Textures/imgres.uasset" SILENT=true
+[2015.05.08-20.12.10:373][874]LogSavePackage: Save=77.664101ms
+[2015.05.08-20.12.10:373][874]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/imgres507B838348B8FB1EB92A28BAE0453BA2.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Textures/imgres.uasset'
+[2015.05.08-20.12.10:393][874]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Mat_Fire_Blue_SubUv" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Textures/Mat_Fire_Blue_SubUv.uasset" SILENT=true
+[2015.05.08-20.12.10:497][874]LogSavePackage: Save=101.278381ms
+[2015.05.08-20.12.10:497][874]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/Mat_Fire_Blue_SubUv78C7421F4A212F6C2DDE2BAABA517846.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Textures/Mat_Fire_Blue_SubUv.uasset'
+[2015.05.08-20.12.10:516][874]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Smoke_Sequence_T" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Textures/Smoke_Sequence_T.uasset" SILENT=true
+[2015.05.08-20.12.10:608][874]LogSavePackage: Save=88.199287ms
+[2015.05.08-20.12.10:608][874]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/Smoke_Sequence_TB80D5BB04D3F9817438F2C9B1AD9D5A8.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Textures/Smoke_Sequence_T.uasset'
+[2015.05.08-20.12.10:622][874]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Wooden_Barrel_D" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Textures/Wooden_Barrel_D.uasset" SILENT=true
+[2015.05.08-20.12.10:745][874]LogSavePackage: Save=120.135567ms
+[2015.05.08-20.12.10:745][874]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/Wooden_Barrel_D830134114615B7BF57EF2EAAC56C2954.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Textures/Wooden_Barrel_D.uasset'
+[2015.05.08-20.12.10:758][874]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Wooden_Barrel_N" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Textures/Wooden_Barrel_N.uasset" SILENT=true
+[2015.05.08-20.12.10:904][874]LogSavePackage: Save=142.796371ms
+[2015.05.08-20.12.10:904][874]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/Wooden_Barrel_N0DFCAA194C9AFA79587A97BE45062E21.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Textures/Wooden_Barrel_N.uasset'
+[2015.05.08-20.12.10:917][874]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Wooden_Barrel_S" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Textures/Wooden_Barrel_S.uasset" SILENT=true
+[2015.05.08-20.12.11:036][874]LogSavePackage: Save=103.904724ms
+[2015.05.08-20.12.11:036][874]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/Wooden_Barrel_S40724DBD44D09ECA3F8DBA8FC269E10C.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Textures/Wooden_Barrel_S.uasset'
+[2015.05.08-20.12.11:050][874]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Wooden_Barrel_O" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Textures/Wooden_Barrel_O.uasset" SILENT=true
+[2015.05.08-20.12.11:099][874]LogSavePackage: Save=46.500202ms
+[2015.05.08-20.12.11:099][874]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/Wooden_Barrel_OED442CFE45FBBC380AA1129BF5FBE514.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Textures/Wooden_Barrel_O.uasset'
+[2015.05.08-20.12.11:139][874]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.08-20.12.11:139][874]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.05.08-20.12.11:505][874]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Mat_Flame_Blue" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/Mat_Flame_Blue.uasset" SILENT=true
+[2015.05.08-20.12.11:675][874]LogSavePackage: Save=142.698044ms
+[2015.05.08-20.12.11:675][874]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/Mat_Flame_Blue10A7ECF64C3671D1497B1DB15344D72B.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/Mat_Flame_Blue.uasset'
+[2015.05.08-20.12.11:700][874]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Mat_subuv" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/Mat_subuv.uasset" SILENT=true
+[2015.05.08-20.12.11:849][874]LogSavePackage: Save=133.552017ms
+[2015.05.08-20.12.11:849][874]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/Mat_subuvEF830C4E48BE1A4050DC468B7B251791.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/Mat_subuv.uasset'
+[2015.05.08-20.12.16:808][955]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models'
+[2015.05.08-20.12.30:273][461]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/cleanmap" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Textures/cleanmap.uasset" SILENT=true
+[2015.05.08-20.12.30:320][461]LogSavePackage: Save=44.920025ms
+[2015.05.08-20.12.30:321][461]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/cleanmap36E4D79A418A782B554473B0A4FD1ABA.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Textures/cleanmap.uasset'
+[2015.05.08-20.12.30:339][461]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/MapText" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Textures/MapText.uasset" SILENT=true
+[2015.05.08-20.12.30:507][461]LogSavePackage: Save=164.651688ms
+[2015.05.08-20.12.30:507][461]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/MapTextC3D61E13466B0394A57FCE802F1C5FC2.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Textures/MapText.uasset'
+[2015.05.08-20.12.30:559][461]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.08-20.12.30:754][461]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/08_-_Default" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/08_-_Default.uasset" SILENT=true
+[2015.05.08-20.12.30:786][461]LogSavePackage: Save=6.590861ms
+[2015.05.08-20.12.30:786][461]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/08_-_Default25101A044076ADA847A8C281D240850C.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/08_-_Default.uasset'
+[2015.05.08-20.12.30:792][461]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/08_-_Default" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/08_-_Default.uasset" SILENT=true
+[2015.05.08-20.12.30:811][461]LogSavePackage: Save=5.788026ms
+[2015.05.08-20.12.30:811][461]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/08_-_Default8D4B3FED40B5E51C85329485FAD2F5D3.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/08_-_Default.uasset'
+[2015.05.08-20.12.30:816][461]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Map2" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/Map2.uasset" SILENT=true
+[2015.05.08-20.12.30:835][461]LogSavePackage: Save=2.841870ms
+[2015.05.08-20.12.30:835][461]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/Map2DF883E1A4CE8C535E997C88DEF5BBD67.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/Map2.uasset'
+[2015.05.08-20.12.34:044][522]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/Env'
+[2015.05.08-20.12.42:398][936]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/potText" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Textures/potText.uasset" SILENT=true
+[2015.05.08-20.12.42:812][936]LogSavePackage: Save=412.187073ms
+[2015.05.08-20.12.42:812][936]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/potText84AF0F314BEBF79EF97A3DA9B8907315.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Textures/potText.uasset'
+[2015.05.08-20.12.42:820][936]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Env/potText" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/Env/potText.uasset" SILENT=true
+[2015.05.08-20.12.42:856][936]LogSavePackage: Save=2.941521ms
+[2015.05.08-20.12.42:856][936]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/potText848540614995C25853955ABBAC961CFD.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/Env/potText.uasset'
+[2015.05.08-20.12.44:494][966]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/Lantern'
+[2015.05.08-20.12.49:230][ 65]LogTexture:Display: Building textures: Bronze_D (AutoDXT)
+[2015.05.08-20.12.54:299][591]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Bronze_D" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Textures/Bronze_D.uasset" SILENT=true
+[2015.05.08-20.12.54:639][591]LogSavePackage: Save=337.961426ms
+[2015.05.08-20.12.54:639][591]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/Bronze_DD8F1D6E047A02FF90C778383E970BA11.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Textures/Bronze_D.uasset'
+[2015.05.08-20.12.54:656][591]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Copper_D" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Textures/Copper_D.uasset" SILENT=true
+[2015.05.08-20.12.55:017][591]LogSavePackage: Save=357.884979ms
+[2015.05.08-20.12.55:017][591]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/Copper_D7F4A9AEB45B99BE3C788008F00239F71.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Textures/Copper_D.uasset'
+[2015.05.08-20.12.55:034][591]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/DarkMetal_D" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Textures/DarkMetal_D.uasset" SILENT=true
+[2015.05.08-20.12.55:129][591]LogSavePackage: Save=92.867317ms
+[2015.05.08-20.12.55:130][591]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/DarkMetal_D3AA83BC541E005CFCB420FBFB6CCDD8E.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Textures/DarkMetal_D.uasset'
+[2015.05.08-20.12.55:137][591]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Lantern/DarkMetal_D" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/Lantern/DarkMetal_D.uasset" SILENT=true
+[2015.05.08-20.12.55:157][591]LogSavePackage: Save=3.531150ms
+[2015.05.08-20.12.55:157][591]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/DarkMetal_D012335A84FF8AA37DDF5709A2727A5F4.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/Lantern/DarkMetal_D.uasset'
+[2015.05.08-20.12.55:176][591]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Metal_D" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Textures/Metal_D.uasset" SILENT=true
+[2015.05.08-20.12.55:383][591]LogSavePackage: Save=204.872894ms
+[2015.05.08-20.12.55:383][591]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/Metal_D361C65094AF7C083AC65DDB0C853C66D.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Textures/Metal_D.uasset'
+[2015.05.08-20.12.55:391][591]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Lantern/Metal_D" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/Lantern/Metal_D.uasset" SILENT=true
+[2015.05.08-20.12.55:409][591]LogSavePackage: Save=2.073466ms
+[2015.05.08-20.12.55:409][591]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/Metal_D2BAC26F14076A9B074F1FAAC64024D7E.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/Lantern/Metal_D.uasset'
+[2015.05.08-20.12.55:450][591]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.08-20.12.55:621][591]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Copper" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/Copper.uasset" SILENT=true
+[2015.05.08-20.12.55:655][591]LogSavePackage: Save=7.800577ms
+[2015.05.08-20.12.55:655][591]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/Copper8D0E90BA42A178EAA6B58C929FD124F6.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/Copper.uasset'
+[2015.05.08-20.12.55:662][591]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Copper_Mat" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/Copper_Mat.uasset" SILENT=true
+[2015.05.08-20.12.55:682][591]LogSavePackage: Save=5.165291ms
+[2015.05.08-20.12.55:682][591]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/Copper_Mat3FEBA4EC4E2223CA17954D8F1878939E.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/Copper_Mat.uasset'
+[2015.05.08-20.12.57:216][617]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/Pillar'
+[2015.05.08-20.13.02:689][950]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/StonePillar" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Textures/StonePillar.uasset" SILENT=true
+[2015.05.08-20.13.03:285][950]LogSavePackage: Save=592.461426ms
+[2015.05.08-20.13.03:287][950]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/StonePillar967F881644A013EB8276FC8DBBC444E0.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Textures/StonePillar.uasset'
+[2015.05.08-20.13.03:341][950]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Pillar/StonePillar" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/Pillar/StonePillar.uasset" SILENT=true
+[2015.05.08-20.13.03:488][950]LogSavePackage: Save=2.820020ms
+[2015.05.08-20.13.03:488][950]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/StonePillar3C31219E4B76AE59E9960B9E30A65C90.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/Pillar/StonePillar.uasset'
+[2015.05.08-20.13.03:509][950]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/StonePillar_ao" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Textures/StonePillar_ao.uasset" SILENT=true
+[2015.05.08-20.13.03:797][950]LogSavePackage: Save=285.497711ms
+[2015.05.08-20.13.03:797][950]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/StonePillar_aoFAE2031341B86D9473ACEA8891B2F29F.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Textures/StonePillar_ao.uasset'
+[2015.05.08-20.13.03:812][950]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Pillar/StonePillar_ao" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/Pillar/StonePillar_ao.uasset" SILENT=true
+[2015.05.08-20.13.03:882][950]LogSavePackage: Save=4.385631ms
+[2015.05.08-20.13.03:882][950]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/StonePillar_aoDFFC543B41B830B0DD8D38B2AF72CE33.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/Pillar/StonePillar_ao.uasset'
+[2015.05.08-20.13.03:910][950]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/StonePillar_Nrml" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Textures/StonePillar_Nrml.uasset" SILENT=true
+[2015.05.08-20.13.04:200][950]LogSavePackage: Save=286.966003ms
+[2015.05.08-20.13.04:200][950]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/StonePillar_Nrml8A49B13C49A2A861966C50B49F9E84EC.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Textures/StonePillar_Nrml.uasset'
+[2015.05.08-20.13.04:214][950]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Pillar/StonePillar_Nrml" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/Pillar/StonePillar_Nrml.uasset" SILENT=true
+[2015.05.08-20.13.04:341][950]LogSavePackage: Save=4.622012ms
+[2015.05.08-20.13.04:341][950]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/StonePillar_Nrml1B9B10074EEAF034269B54BC19685C83.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/Pillar/StonePillar_Nrml.uasset'
+[2015.05.08-20.13.05:856][980]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/Rocks'
+[2015.05.08-20.13.18:024][602]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/CaveTexture" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Textures/CaveTexture.uasset" SILENT=true
+[2015.05.08-20.13.19:315][602]LogSavePackage: Save=1286.566406ms
+[2015.05.08-20.13.19:339][602]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/CaveTexture4CEC2D5546E301D72B376B955737D263.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Textures/CaveTexture.uasset'
+[2015.05.08-20.13.19:357][602]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Rocks/CaveTexture" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/Rocks/CaveTexture.uasset" SILENT=true
+[2015.05.08-20.13.19:826][602]LogSavePackage: Save=5.525160ms
+[2015.05.08-20.13.19:826][602]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/CaveTextureB422650C4103D5734AA9EEA4BB2790FF.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/Rocks/CaveTexture.uasset'
+[2015.05.08-20.13.19:861][602]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/stonebone" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Textures/stonebone.uasset" SILENT=true
+[2015.05.08-20.13.20:304][602]LogSavePackage: Save=426.666229ms
+[2015.05.08-20.13.20:305][602]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/stonebone05CB955945973A1FFF8D4FA283A85786.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Textures/stonebone.uasset'
+[2015.05.08-20.13.20:338][602]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/stonebone_O" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Textures/stonebone_O.uasset" SILENT=true
+[2015.05.08-20.13.20:647][602]LogSavePackage: Save=305.636139ms
+[2015.05.08-20.13.20:647][602]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/stonebone_O07AFB521495B3401DC82E6A5A732736E.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Textures/stonebone_O.uasset'
+[2015.05.08-20.13.20:662][602]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Rocks/stonebone_O" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/Rocks/stonebone_O.uasset" SILENT=true
+[2015.05.08-20.13.20:744][602]LogSavePackage: Save=4.249232ms
+[2015.05.08-20.13.20:744][602]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/stonebone_OFBE85EEB4788AA25560A5EA9AB8EE2E4.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/Rocks/stonebone_O.uasset'
+[2015.05.08-20.13.20:777][602]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/stonebone_NRML" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Textures/stonebone_NRML.uasset" SILENT=true
+[2015.05.08-20.13.21:125][602]LogSavePackage: Save=343.530945ms
+[2015.05.08-20.13.21:125][602]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/stonebone_NRML5D0566EC473B461A30F6B9AA4D3B11B8.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Textures/stonebone_NRML.uasset'
+[2015.05.08-20.13.21:140][602]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Rocks/stonebone_NRML" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/Rocks/stonebone_NRML.uasset" SILENT=true
+[2015.05.08-20.13.21:316][602]LogSavePackage: Save=4.111839ms
+[2015.05.08-20.13.21:316][602]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/stonebone_NRMLA4E3C8F1460D627E57110BA47F3BEB9B.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/Rocks/stonebone_NRML.uasset'
+[2015.05.08-20.13.21:378][602]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.08-20.13.21:526][602]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Cave" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/Cave.uasset" SILENT=true
+[2015.05.08-20.13.21:551][602]LogSavePackage: Save=7.976041ms
+[2015.05.08-20.13.21:551][602]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/Cave16A6A61347BD9BC2822560A501521D4C.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/Cave.uasset'
+[2015.05.08-20.13.21:558][602]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Ground" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/Ground.uasset" SILENT=true
+[2015.05.08-20.13.21:577][602]LogSavePackage: Save=8.726568ms
+[2015.05.08-20.13.21:577][602]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/Ground3F8EE9944C0210CC1E1536944C4B60F9.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/Ground.uasset'
+[2015.05.08-20.13.21:584][602]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Rock2" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/Rock2.uasset" SILENT=true
+[2015.05.08-20.13.21:601][602]LogSavePackage: Save=7.140100ms
+[2015.05.08-20.13.21:601][602]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/Rock292766FEC49257FE4F2D9B0B2187B39E5.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/Rock2.uasset'
+[2015.05.08-20.13.21:607][602]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/celing" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/celing.uasset" SILENT=true
+[2015.05.08-20.13.21:626][602]LogSavePackage: Save=6.415728ms
+[2015.05.08-20.13.21:626][602]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/celing01291EF7408DB26E57F31FBCA6F78455.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/celing.uasset'
+[2015.05.08-20.13.24:537][650]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
+[2015.05.08-20.13.25:671][677]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scene'
+[2015.05.08-20.13.27:517][722]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/sword'
+[2015.05.08-20.13.34:293][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/sword3_normal" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Textures/sword3_normal.uasset" SILENT=true
+[2015.05.08-20.13.34:411][143]LogSavePackage: Save=115.261284ms
+[2015.05.08-20.13.34:411][143]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/sword3_normalB0F497894C8C5FDCC4CC43BA084DF6C3.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Textures/sword3_normal.uasset'
+[2015.05.08-20.13.34:452][143]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.08-20.13.34:607][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/sword/sword_mat" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/sword/sword_mat.uasset" SILENT=true
+[2015.05.08-20.13.34:748][143]LogSavePackage: Save=128.126511ms
+[2015.05.08-20.13.34:748][143]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/sword_mat589F8E1A493018FB8CA358911C357A95.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/sword/sword_mat.uasset'
+[2015.05.08-20.13.48:110][944]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/sword3" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Textures/sword3.uasset" SILENT=true
+[2015.05.08-20.13.48:194][944]LogSavePackage: Save=79.438622ms
+[2015.05.08-20.13.48:194][944]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/sword36000D1B7468D59868AE8088BF53B9DCA.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Textures/sword3.uasset'
+[2015.05.08-20.13.48:236][944]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.08-20.13.48:391][944]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/sword/sword_mat" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/sword/sword_mat.uasset" SILENT=true
+[2015.05.08-20.13.48:420][944]LogSavePackage: Save=10.729848ms
+[2015.05.08-20.13.48:420][944]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/sword_mat1431BAEE4E240639A861B987159E1A5E.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/sword/sword_mat.uasset'
+[2015.05.08-20.13.54:765][347]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/sword_mat" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/sword_mat.uasset" SILENT=true
+[2015.05.08-20.13.54:906][347]LogSavePackage: Save=137.403641ms
+[2015.05.08-20.13.54:906][347]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/sword_matB29FBB5648C7AC9A5FF1D0A651DA4B89.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/sword_mat.uasset'
+[2015.05.08-20.13.54:945][347]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.08-20.13.55:133][347]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/sword/sword" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/sword/sword.uasset" SILENT=true
+[2015.05.08-20.13.55:309][347]LogSavePackage: Save=143.058899ms
+[2015.05.08-20.13.55:309][347]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/swordF4DA644944190CE71BCBB8A9E9333E85.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/sword/sword.uasset'
+[2015.05.08-20.14.07:006][553]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
+[2015.05.08-20.14.07:743][571]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scene'
+[2015.05.08-20.14.08:883][597]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/sword'
+[2015.05.08-20.14.10:274][627]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Terrain_texture'
+[2015.05.08-20.14.11:616][657]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2015.05.08-20.14.12:561][678]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP'
+[2015.05.08-20.14.15:334][741]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Animations'
+[2015.05.08-20.14.16:900][769]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Blueprints'
+[2015.05.08-20.14.18:157][791]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Character'
+[2015.05.08-20.14.19:029][807]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Meshes'
+[2015.05.08-20.14.23:412][886]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2015.05.08-20.14.32:196][ 80]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/sword'
+[2015.05.08-20.14.52:591][438]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2015.05.08-20.14.53:309][438]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.08-20.14.53:309][438]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.05.08-20.14.53:326][438]LogMetaData: Removing '/Game/Models/sword/sword_bp.sword_bp:UserConstructionScript.K2Node_FunctionEntry_171' ref from Metadata '/Game/sword/sword_bp.PackageMetaData'
+[2015.05.08-20.14.53:326][438]LogMetaData: Removing '/Game/Models/sword/sword_bp.sword_bp_C' ref from Metadata '/Game/sword/sword_bp.PackageMetaData'
+[2015.05.08-20.14.53:326][438]LogMetaData: Removing '/Game/Models/sword/sword_bp.sword_bp:EventGraph.K2Node_Event_150' ref from Metadata '/Game/sword/sword_bp.PackageMetaData'
+[2015.05.08-20.14.53:326][438]LogMetaData: Removing '/Game/Models/sword/sword_bp.sword_bp:EventGraph.K2Node_Event_152' ref from Metadata '/Game/sword/sword_bp.PackageMetaData'
+[2015.05.08-20.14.53:326][438]LogMetaData: Removing '/Game/Models/sword/sword_bp.SKEL_sword_bp_C' ref from Metadata '/Game/sword/sword_bp.PackageMetaData'
+[2015.05.08-20.14.53:462][438]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/sword/sword_bp" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/sword/sword_bp.uasset" SILENT=true
+[2015.05.08-20.14.53:759][438]LogSavePackage: Save=209.358170ms
+[2015.05.08-20.14.53:759][438]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/sword_bp078C026B43BA404A77B3C389F7AC034A.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/sword/sword_bp.uasset'
+[2015.05.08-20.14.53:785][438]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/sword/sword" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/sword/sword.uasset" SILENT=true
+[2015.05.08-20.14.53:939][438]LogSavePackage: Save=149.107803ms
+[2015.05.08-20.14.53:939][438]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/sword9938D5844EB1A7D51801899C78CBE050.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/sword/sword.uasset'
+[2015.05.08-20.14.54:984][438]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/sword/lambert2" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/sword/lambert2.uasset" SILENT=true
+[2015.05.08-20.14.55:211][438]LogSavePackage: Save=223.204681ms
+[2015.05.08-20.14.55:211][438]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/lambert2173A8AA3481E156FFA4C1390D47CA41C.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/sword/lambert2.uasset'
+[2015.05.08-20.14.56:087][438]LogSavePackage: Save=592.766357ms
+[2015.05.08-20.14.56:087][438]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/ThirdPersonCharacter740AD4484B7AD3FBB3526380C77EC7C5.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2015.05.08-20.14.56:117][438]LogSavePackage: Save=4.991813ms
+[2015.05.08-20.14.56:117][438]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/ThirdPersonSkeleton7D7319BD4D9FB03235E1E98557ECCF76.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/ThirdPersonBP/Character/ThirdPersonSkeleton.uasset'
+[2015.05.08-20.14.56:124][438]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.05.08-20.14.56:124][438]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/sword'
+[2015.05.08-20.15.02:298][539]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/Env'
+[2015.05.08-20.15.04:061][571]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
+[2015.05.08-20.15.04:998][591]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scene'
+[2015.05.08-20.15.08:455][673]LogStaticMesh: Building static mesh LADDER...
+[2015.05.08-20.15.08:537][673]LogStaticMesh: Built static mesh [103.903732ms] /Game/Scene/LADDER.LADDER
+[2015.05.08-20.15.08:549][673]LogStaticMesh: Building static mesh SCAFWOOD...
+[2015.05.08-20.15.08:588][673]LogStaticMesh: Built static mesh [38.818810ms] /Game/Scene/SCAFWOOD.SCAFWOOD
+[2015.05.08-20.15.08:612][673]LogStaticMesh: Building static mesh scafbod...
+[2015.05.08-20.15.08:686][673]LogStaticMesh: Built static mesh [74.590157ms] /Game/Scene/scafbod.scafbod
+[2015.05.08-20.15.12:317][ 69]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Env/LADDER" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/Env/LADDER.uasset" SILENT=true
+[2015.05.08-20.15.12:518][ 69]LogSavePackage: Save=197.640427ms
+[2015.05.08-20.15.12:518][ 69]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/LADDER14827E3B42B66E6D6AD87A8C16F3C052.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/Env/LADDER.uasset'
+[2015.05.08-20.15.12:545][ 69]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Env/SCAFWOOD" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/Env/SCAFWOOD.uasset" SILENT=true
+[2015.05.08-20.15.12:729][ 69]LogSavePackage: Save=180.914978ms
+[2015.05.08-20.15.12:729][ 69]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/SCAFWOOD712E9CA34FD2BC4D7968FC873FE9D327.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/Env/SCAFWOOD.uasset'
+[2015.05.08-20.15.12:755][ 69]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Env/scafbod" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/Env/scafbod.uasset" SILENT=true
+[2015.05.08-20.15.12:914][ 69]LogSavePackage: Save=155.877441ms
+[2015.05.08-20.15.12:914][ 69]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/scafbodE4FA095246C0A7AEEDE00489E4F58828.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/Env/scafbod.uasset'
+[2015.05.08-20.15.12:957][ 69]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.08-20.15.12:957][ 69]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.05.08-20.15.16:618][147]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2015.05.08-20.15.17:877][168]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/GUI'
+[2015.05.08-20.15.19:910][210]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Audio'
+[2015.05.08-20.15.21:643][248]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/GUI'
+[2015.05.08-20.15.22:963][275]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2015.05.08-20.15.27:966][520]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/Env'
+[2015.05.08-20.15.34:902][ 80]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/Lantern'
+[2015.05.08-20.15.43:209][454]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Glass" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/Glass.uasset" SILENT=true
+[2015.05.08-20.15.43:331][454]LogSavePackage: Save=118.325958ms
+[2015.05.08-20.15.43:331][454]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/Glass31B674F3419FD54256511BB8D1A942A2.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Materials/Glass.uasset'
+[2015.05.08-20.15.43:376][454]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.08-20.15.43:492][454]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Lantern/Lanturn001" FILE="../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/Lantern/Lanturn001.uasset" SILENT=true
+[2015.05.08-20.15.43:514][454]LogSavePackage: Save=7.770781ms
+[2015.05.08-20.15.43:514][454]LogSavePackage: Moving '../../../../../Isaac's stuff/GodKiller/God-Killer/Saved/Lanturn001EC32BFFF4BBFE77D44430DBBD4D4DAFC.tmp' to '../../../../../Isaac's stuff/GodKiller/God-Killer/Content/Models/Lantern/Lanturn001.uasset'
+[2015.05.08-20.15.44:715][477]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/Pillar'
+[2015.05.08-20.15.45:725][498]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/Rocks'
+[2015.05.08-20.15.46:866][520]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/sword'
+[2015.05.08-20.15.49:418][563]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
+[2015.05.08-20.15.50:556][591]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scene'
+[2015.05.08-20.15.51:849][620]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Terrain_texture'
+[2015.05.08-20.15.59:915][275]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2015.05.08-20.16.01:906][319]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP'
+[2015.05.08-20.16.06:304][414]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Animations'
+[2015.05.08-20.16.07:288][432]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Blueprints'
+[2015.05.08-20.16.08:210][449]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Character'
+[2015.05.08-20.16.10:974][498]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Meshes'
+[2015.05.08-20.16.12:954][535]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.05.08-20.16.16:431][605]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.05.08-20.16.25:021][796]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.08-20.16.25:021][796]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.05.08-20.16.33:323][960]Cmd: QUIT_EDITOR
+[2015.05.08-20.16.33:590][960]LogExit: Preparing to exit.
+[2015.05.08-20.16.33:994][960]LogExit: Editor shut down
+[2015.05.08-20.16.33:994][960]LogExit: Transaction tracking system shut down
+[2015.05.08-20.16.33:995][960]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001A1BC680
+[2015.05.08-20.16.33:996][960]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001DDB47C0
+[2015.05.08-20.16.33:996][960]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000020778540
+[2015.05.08-20.16.33:996][960]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000019C6F4C0
+[2015.05.08-20.16.33:996][960]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000019C6EF20
+[2015.05.08-20.16.33:996][960]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000024ED25C0
+[2015.05.08-20.16.33:996][960]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000016BA9620
+[2015.05.08-20.16.33:996][960]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000016BAA160
+[2015.05.08-20.16.33:997][960]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001AE57560
+[2015.05.08-20.16.34:058][960]LogExit: Object subsystem successfully closed.
+[2015.05.08-20.16.34:113][960]LogModuleManager: Shutting down and abandoning module MaterialEditor (180)
+[2015.05.08-20.16.34:113][960]LogModuleManager: Shutting down and abandoning module TextureEditor (179)
+[2015.05.08-20.16.34:113][960]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (178)
+[2015.05.08-20.16.34:113][960]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.05.08-20.16.34:113][960]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.05.08-20.16.34:113][960]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.05.08-20.16.34:113][960]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.05.08-20.16.34:113][960]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.05.08-20.16.34:113][960]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.05.08-20.16.34:113][960]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.05.08-20.16.34:113][960]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.05.08-20.16.34:113][960]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.05.08-20.16.34:113][960]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.05.08-20.16.34:113][960]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.05.08-20.16.34:113][960]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.05.08-20.16.34:113][960]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.05.08-20.16.34:113][960]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.05.08-20.16.34:113][960]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.05.08-20.16.34:113][960]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.05.08-20.16.34:113][960]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.05.08-20.16.34:113][960]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.05.08-20.16.34:113][960]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.05.08-20.16.34:113][960]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.05.08-20.16.34:113][960]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.05.08-20.16.34:113][960]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.05.08-20.16.34:113][960]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.05.08-20.16.34:113][960]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.05.08-20.16.34:113][960]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.05.08-20.16.34:113][960]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.05.08-20.16.34:113][960]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.05.08-20.16.34:113][960]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.05.08-20.16.34:113][960]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.05.08-20.16.34:113][960]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.05.08-20.16.34:113][960]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.05.08-20.16.34:113][960]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.05.08-20.16.34:566][960]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.05.08-20.16.34:566][960]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.05.08-20.16.34:566][960]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.05.08-20.16.34:566][960]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.05.08-20.16.34:566][960]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.05.08-20.16.34:566][960]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.05.08-20.16.34:566][960]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.05.08-20.16.34:566][960]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.05.08-20.16.34:566][960]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.05.08-20.16.34:566][960]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.05.08-20.16.34:566][960]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.05.08-20.16.34:567][960]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.05.08-20.16.34:567][960]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.05.08-20.16.34:567][960]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.05.08-20.16.34:567][960]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.05.08-20.16.34:567][960]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.05.08-20.16.34:567][960]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.05.08-20.16.34:567][960]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.05.08-20.16.34:567][960]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.05.08-20.16.34:673][960]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.05.08-20.16.34:674][960]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.05.08-20.16.34:674][960]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.05.08-20.16.34:675][960]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.05.08-20.16.34:675][960]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.05.08-20.16.34:675][960]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.05.08-20.16.34:675][960]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.05.08-20.16.34:675][960]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.05.08-20.16.34:675][960]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.05.08-20.16.34:675][960]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.05.08-20.16.34:675][960]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.05.08-20.16.34:675][960]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.05.08-20.16.34:675][960]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.05.08-20.16.34:675][960]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.05.08-20.16.34:675][960]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.05.08-20.16.34:675][960]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.05.08-20.16.34:675][960]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.05.08-20.16.34:675][960]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.05.08-20.16.34:676][960]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.05.08-20.16.34:676][960]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.05.08-20.16.34:676][960]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.05.08-20.16.34:761][960]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.05.08-20.16.34:761][960]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.05.08-20.16.34:761][960]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.05.08-20.16.34:761][960]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.05.08-20.16.34:761][960]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.05.08-20.16.34:761][960]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.05.08-20.16.34:761][960]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.05.08-20.16.34:761][960]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.05.08-20.16.34:761][960]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.05.08-20.16.34:761][960]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.05.08-20.16.34:761][960]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.05.08-20.16.34:761][960]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.05.08-20.16.34:761][960]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.05.08-20.16.34:762][960]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.05.08-20.16.34:762][960]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.05.08-20.16.34:762][960]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.05.08-20.16.34:762][960]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.05.08-20.16.34:762][960]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.05.08-20.16.34:762][960]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.05.08-20.16.34:762][960]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.05.08-20.16.34:762][960]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.05.08-20.16.34:762][960]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.05.08-20.16.34:762][960]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.05.08-20.16.34:762][960]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.05.08-20.16.34:763][960]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.05.08-20.16.34:763][960]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.05.08-20.16.34:763][960]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.05.08-20.16.34:863][960]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.05.08-20.16.34:863][960]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.05.08-20.16.34:866][960]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.05.08-20.16.34:867][960]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.05.08-20.16.34:867][960]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.05.08-20.16.34:867][960]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.05.08-20.16.34:867][960]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.05.08-20.16.34:867][960]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.05.08-20.16.34:867][960]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.05.08-20.16.34:867][960]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.05.08-20.16.34:867][960]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.05.08-20.16.34:867][960]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.05.08-20.16.34:867][960]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.05.08-20.16.34:867][960]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.05.08-20.16.34:867][960]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.05.08-20.16.34:867][960]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.05.08-20.16.34:867][960]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.05.08-20.16.34:874][960]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.05.08-20.16.34:874][960]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.05.08-20.16.34:874][960]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.05.08-20.16.34:874][960]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.05.08-20.16.34:874][960]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.05.08-20.16.34:874][960]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.05.08-20.16.34:874][960]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.05.08-20.16.34:874][960]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.05.08-20.16.34:874][960]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.05.08-20.16.34:874][960]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.05.08-20.16.34:945][960]LogDerivedDataCache: Shutdown
+[2015.05.08-20.16.34:945][960]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.05.08-20.16.34:945][960]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.05.08-20.16.34:945][960]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.05.08-20.16.34:945][960]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.05.08-20.16.34:945][960]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.05.08-20.16.34:945][960]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.05.08-20.16.34:945][960]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.05.08-20.16.34:945][960]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.05.08-20.16.34:945][960]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.05.08-20.16.34:945][960]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.05.08-20.16.34:945][960]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.05.08-20.16.34:945][960]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.05.08-20.16.34:945][960]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.05.08-20.16.34:945][960]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.05.08-20.16.34:945][960]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.05.08-20.16.34:945][960]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.05.08-20.16.34:945][960]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.05.08-20.16.34:945][960]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.05.08-20.16.34:945][960]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.05.08-20.16.34:945][960]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.05.08-20.16.34:945][960]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.05.08-20.16.34:945][960]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.05.08-20.16.34:945][960]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.05.08-20.16.34:945][960]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.05.08-20.16.34:945][960]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.05.08-20.16.34:945][960]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.05.08-20.16.34:945][960]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.05.08-20.16.34:945][960]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.05.08-20.16.34:945][960]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.05.08-20.16.34:945][960]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.05.08-20.16.34:945][960]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.05.08-20.16.34:946][960]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.05.08-20.16.34:946][960]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.05.08-20.16.34:946][960]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.05.08-20.16.34:946][960]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.05.08-20.16.34:946][960]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.05.08-20.16.34:946][960]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.05.08-20.16.34:946][960]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.05.08-20.16.34:946][960]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.05.08-20.16.34:946][960]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.05.08-20.16.34:949][960]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.05.08-20.16.34:949][960]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.05.08-20.16.34:949][960]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.05.08-20.16.34:949][960]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.05.08-20.16.34:949][960]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.05.08-20.16.34:949][960]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.05.08-20.16.34:949][960]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.05.08-20.16.34:949][960]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.05.08-20.16.34:949][960]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.05.08-20.16.34:950][960]LogExit: Exiting.
+[2015.05.08-20.16.34:957][960]Log file closed, 05/08/15 13:16:34
