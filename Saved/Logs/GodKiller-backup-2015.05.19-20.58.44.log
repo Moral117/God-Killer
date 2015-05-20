@@ -1,0 +1,269 @@
+﻿Log file open, 05/19/15 20:56:17
+LogInit:Display: Running engine for game: GodKiller
+LogInit: Version: 4.7.3-2479750+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Mar 15 2015 23:20:45
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.05.20-03.56.17:541][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.05.20-03.56.17:592][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.05.20-03.56.17:605][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.05.20-03.56.17:614][  0]LogInit: Object subsystem initialized
+[2015.05.20-03.56.17:615][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.05.20-03.56.17:615][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/student/Desktop/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.20-03.56.17:615][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.05.20-03.56.17:615][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/student/Desktop/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.20-03.56.17:615][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.05.20-03.56.17:615][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/student/Desktop/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.20-03.56.17:616][  0]LogInit: Selected Device Profile: [Windows]
+[2015.05.20-03.56.17:616][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.05.20-03.56.17:621][  0]LogInit: Computer: AI251LAB0234P14
+[2015.05.20-03.56.17:621][  0]LogInit: User: student
+[2015.05.20-03.56.17:621][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.05.20-03.56.17:621][  0]LogInit: High frequency timer resolution =3.507216 MHz
+[2015.05.20-03.56.17:621][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=8192.0GB
+[2015.05.20-03.56.17:622][  0]LogMemory: Platform Memory Stats for Windows
+[2015.05.20-03.56.17:622][  0]LogMemory: Process Physical Memory: 48.39 MB used, 48.39 MB peak
+[2015.05.20-03.56.17:622][  0]LogMemory: Process Virtual Memory: 26.41 MB used, 26.41 MB peak
+[2015.05.20-03.56.17:622][  0]LogMemory: Physical Memory: 3447.72 MB used, 8115.79 MB total
+[2015.05.20-03.56.17:622][  0]LogMemory: Virtual Memory: 278.04 MB used, 8388608.00 MB total
+[2015.05.20-03.56.17:646][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA Quadro K2000 (Feature Level 11_0)
+[2015.05.20-03.56.17:646][  0]LogD3D11RHI: Adapter has 1990MB of dedicated video memory, 0MB of dedicated system memory, and 3801MB of shared system memory, 1 output[s]
+[2015.05.20-03.56.17:646][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.05.20-03.56.17:651][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.05.20-03.56.17:660][  0]LogD3D11RHI: Async texture creation enabled
+[2015.05.20-03.56.17:713][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.05.20-03.56.17:770][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.05.20-03.56.17:770][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.05.20-03.56.17:844][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.05.20-03.56.20:051][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.20-03.56.20:530][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.20-03.56.20:590][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.05.20-03.56.20:625][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/student/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.20-03.56.20:625][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/student/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.05.20-03.56.20:626][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/student/Desktop/God-Killer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.05.20-03.56.20:626][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.05.20-03.56.20:741][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.05.20-03.56.20:753][  0]LogDerivedDataCache: Using Local data cache path C:/Users/student/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.05.20-03.56.21:048][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.05.20-03.56.21:048][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.05.20-03.56.21:383][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.05.20-03.56.21:458][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.05.20-03.56.22:207][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.05.20-03.56.22:400][  0]SourceControl: Info Source control is disabled
+[2015.05.20-03.56.22:400][  0]SourceControl: Info Source control is disabled
+[2015.05.20-03.56.22:400][  0]SourceControl: Info Source control is disabled
+[2015.05.20-03.56.22:400][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.05.20-03.56.22:400][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.05.20-03.56.22:409][  0]SourceControl: Info Source control is disabled
+[2015.05.20-03.56.22:585][  0]LogObj: 24231 objects as part of root set at end of initial load.
+[2015.05.20-03.56.22:585][  0]LogUObjectAllocator: 5136440 out of 0 bytes used by permanent object pool.
+[2015.05.20-03.56.22:662][  0]LogEngine: Initializing Engine...
+[2015.05.20-03.56.25:807][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.05.20-03.56.25:827][  0]LogInit: FAudioDevice initialized.
+[2015.05.20-03.56.25:863][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.05.20-03.56.25:881][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/student/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.20-03.56.25:886][  0]LogInit: Texture streaming: Enabled
+[2015.05.20-03.56.25:973][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.05.20-03.56.25:973][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.3-2479750+++depot+UE4-Releases+4.7
+[2015.05.20-03.56.25:973][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.3-2479750+++depot+UE4-Releases+4.7
+[2015.05.20-03.56.25:974][  0]LogAnalytics: SetUserId d40ebd9f4e2bf184fc99cd8aa533de7a||a1cf211a-62eb-4857-bff7-fc45380a1448
+[2015.05.20-03.56.25:974][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.05.20-03.56.25:995][  0]LogInit: Transaction tracking system initialized
+[2015.05.20-03.56.26:155][  0]BlueprintLog: New page: Editor Load
+[2015.05.20-03.56.26:187][  0]LogAssetRegistry: FAssetRegistry took 0.0095 seconds to start up
+[2015.05.20-03.56.26:187][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.05.20-03.56.26:670][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.20-03.56.27:001][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.20-03.56.27:241][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.05.20-03.56.27:241][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.05.20-03.56.27:246][  0]LogConsoleResponse:Display: 
+[2015.05.20-03.56.27:368][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.05.20-03.56.27:503][  0]SourceControl: Info Source control is disabled
+[2015.05.20-03.56.27:503][  0]Cmd: MAP LOAD FILE="../../../../../../Users/student/Desktop/God-Killer/Content/Scene/NewCave.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.05.20-03.56.27:504][  0]LightingResults: New page: Lighting Build
+[2015.05.20-03.56.27:515][  0]MapCheck: New page: Map Check
+[2015.05.20-03.56.27:515][  0]LightingResults: New page: Lighting Build
+[2015.05.20-03.56.27:521][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011EBE520
+[2015.05.20-03.56.30:683][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.05.20-03.56.30:684][  0]LogAIModule: Creating AISystem for world NewCave
+[2015.05.20-03.56.30:684][  0]Cmd: MAP CHECKDEP
+[2015.05.20-03.56.30:684][  0]MapCheck: New page: NewCave - May 19, 2015, 1:56:30 PM
+[2015.05.20-03.56.30:797][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 112.352ms to complete.
+[2015.05.20-03.56.30:797][  0]LogFileHelpers: Loading map 'NewCave' took 3.294
+[2015.05.20-03.56.30:876][  0]LogCollectionManager: Loaded 0 collections in 0.001297 seconds
+[2015.05.20-03.56.30:888][  0]LogContentBrowser: Native class hierarchy populated in 0.0126 seconds. Added 1696 classes and 261 folders.
+[2015.05.20-03.56.30:964][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0022 seconds. Added 1 classes and 2 folders.
+[2015.05.20-03.56.31:014][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.05.20-03.56.31:015][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.05.20-03.56.31:018][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.05.20-03.56.31:042][  0]LogLoad: Full Startup: 15.28 seconds (BP compile: 1.31 seconds)
+[2015.05.20-03.56.31:079][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Character'
+[2015.05.20-03.56.31:225][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.05.20-03.56.31:350][  0]LogRenderer:Warning: Reallocating scene render targets to support 1104x1048 (Frame:13).
+[2015.05.20-03.56.31:428][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2015.05.20-03.56.31:430][  1]Cmd: UpdateLandscapeEditorData
+[2015.05.20-03.56.31:551][  4]LogAssetRegistry: Asset discovery search completed in 5.3743 seconds
+[2015.05.20-03.56.35:581][ 83]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models'
+[2015.05.20-03.56.39:107][197]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/Env'
+[2015.05.20-03.56.47:691][770]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.05.20-03.56.47:691][770]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.05.20-03.56.47:730][770]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.05.20-03.56.47:730][770]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.05.20-03.56.47:757][770]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.05.20-03.56.47:757][770]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.05.20-03.56.47:833][770]LogRenderer:Warning: Reallocating scene render targets to support 1360x1048 (Frame:334).
+[2015.05.20-03.57.00:347][598]LogEditorFactories: Performing atomic reimport of [F:/GodKillerExports/ScalfoldingSupport.FBX]
+[2015.05.20-03.57.00:443][598]LogFbx: Loading FBX Scene from F:/GodKillerExports/ScalfoldingSupport.FBX
+[2015.05.20-03.57.00:496][598]LogFbx: FBX Scene Loaded Succesfully
+[2015.05.20-03.57.00:526][598]LogFbx:Warning: Triangulating static mesh Cylinder073
+[2015.05.20-03.57.00:601][598]LogFbx: == Initial material list:
+[2015.05.20-03.57.00:601][598]LogFbx: 0: 02 - Default
+[2015.05.20-03.57.00:601][598]LogFbx: == After sorting:
+[2015.05.20-03.57.00:601][598]LogFbx: 0: 02 - Default
+[2015.05.20-03.57.00:601][598]LogFbx: == Mapping table:
+[2015.05.20-03.57.00:601][598]LogFbx:   sort 0 -> 0
+[2015.05.20-03.58.01:169][598]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: Object [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.7\Engine\Source\Editor\PropertyEditor\Private\PropertyNode.cpp] [Line: 1837]
+
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() (0x000007fecece9e76) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:174]
+UE4Editor-Core.dll!FDebug::EnsureFailed() (0x000007feceb52ff8) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\misc\outputdevice.cpp:279]
+UE4Editor-PropertyEditor.dll!FPropertyNode::NotifyPreChange() (0x000007fec8179169) + 59 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\propertyeditor\private\propertynode.cpp:1837]
+UE4Editor-PropertyEditor.dll!FPropertyValueImpl::ImportText() (0x000007fec8151ba1) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\propertyeditor\private\propertyhandleimpl.cpp:386]
+UE4Editor-PropertyEditor.dll!FPropertyValueImpl::ImportText() (0x000007fec81523e7) + 27 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\propertyeditor\private\propertyhandleimpl.cpp:283]
+UE4Editor-PropertyEditor.dll!FPropertyValueImpl::SetValueAsString() (0x000007fec81e5dd3) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\propertyeditor\private\propertyhandleimpl.cpp:696]
+UE4Editor-PropertyEditor.dll!SPropertyEditorText::OnTextCommitted() (0x000007fec81a0a79) + 32 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\propertyeditor\private\userinterface\propertyeditor\spropertyeditortext.cpp:95]
+UE4Editor-PropertyEditor.dll!TBaseSPMethodDelegateInstance<0,SPropertyEditorText,0,TTypeWrapper<void> __cdecl(FText const & __ptr64,enum ETextCommit::Type)>::Execute() (0x000007fec80f34a7) + 38 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\public\delegates\delegateinstancesimpl_variadics.inl:282]
+UE4Editor-PropertyEditor.dll!TBaseSPMethodDelegateInstance<0,SPropertyEditorText,0,void __cdecl(FText const & __ptr64,enum ETextCommit::Type)>::ExecuteIfSafe() (0x000007fec80f85e7) + 14 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\public\delegates\delegateinstancesimpl_variadics.inl:388]
+UE4Editor-Slate.dll!SEditableText::OnFocusLost() (0x000007fecbaf9ca0) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\widgets\input\seditabletext.cpp:1617]
+UE4Editor-Slate.dll!FSlateApplication::SetUserFocus() (0x000007fecb99b26c) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:2061]
+UE4Editor-Slate.dll!FSlateApplication::ProcessReply() (0x000007fecb986aaa) + 37 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:2238]
+UE4Editor-Slate.dll!FSlateApplication::ResetToDefaultInputSettings() (0x000007fecb9949c2) + 99 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:1904]
+UE4Editor-Slate.dll!FSlateApplication::ProcessWindowActivatedEvent() (0x000007fecb987e5e) + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4891]
+UE4Editor-Slate.dll!FSlateApplication::OnWindowActivationChanged() (0x000007fecb978fb8) + 14 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4796]
+UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() (0x000007fecec42cfa) + 60 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsapplication.cpp:1465]
+UE4Editor-Core.dll!FWindowsApplication::DeferMessage() (0x000007fecec35cce) + 74 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsapplication.cpp:1669]
+UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() (0x000007fecec44765) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsapplication.cpp:720]
+UE4Editor-Core.dll!FWindowsApplication::AppWndProc() (0x000007fecec33132) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsapplication.cpp:604]
+USER32.dll!UnknownFunction (0x0000000077059bd1) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00000000770572cb) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x0000000077056829) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00000000772b11f5) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x000000007705193a) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!SWindow::ShowWindow() (0x000007fecf150be3) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\swindow.cpp:1110]
+UE4Editor-UnrealEd.dll!FFeedbackContextEditor::StartSlowTask() (0x000007fec9f61375) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\unrealed\private\feedbackcontexteditor.cpp:390]
+UE4Editor-Core.dll!FScopedSlowTask::MakeDialog() (0x000007feceb67a9a) + 32 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\misc\feedbackcontext.cpp:87]
+UE4Editor-Core.dll!FFeedbackContext::BeginSlowTask() (0x000007feceb48e8c) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\misc\feedbackcontext.cpp:37]
+UE4Editor-Engine.dll!UStaticMesh::Build() (0x000007fecc9a724b) + 26 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\engine\private\staticmeshbuild.cpp:68]
+UE4Editor-UnrealEd.dll!UnFbx::FFbxImporter::ImportStaticMeshAsSingle() (0x000007feca5cae4b) + 11 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\unrealed\private\fbx\fbxstaticmeshimport.cpp:1230]
+UE4Editor-UnrealEd.dll!UnFbx::FFbxImporter::ImportStaticMesh() (0x000007feca5c8c90) + 66 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\unrealed\private\fbx\fbxstaticmeshimport.cpp:91]
+UE4Editor-UnrealEd.dll!UnFbx::FFbxImporter::ReimportStaticMesh() (0x000007feca5db753) + 95 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\unrealed\private\fbx\fbxstaticmeshimport.cpp:802]
+UE4Editor-UnrealEd.dll!UReimportFbxStaticMeshFactory::Reimport() (0x000007feca4fe6fe) + 14 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\unrealed\private\factories\editorfactories.cpp:5727]
+UE4Editor-UnrealEd.dll!FReimportManager::Reimport() (0x000007fec9dcfd5f) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\unrealed\private\editor.cpp:2657]
+UE4Editor-UnrealEd.dll!FAssetEditorToolkit::Reimport_Execute() (0x000007feca76540b) + 53 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\unrealed\private\toolkits\asseteditortoolkit.cpp:610]
+UE4Editor-UnrealEd.dll!TBaseRawMethodDelegateInstance<0,FAssetEditorToolkit,void __cdecl(void),UObject * __ptr64>::ExecuteIfSafe() (0x000007feca74577a) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\public\delegates\delegateinstancesimpl_variadics.inl:582]
+UE4Editor-Slate.dll!SMenuEntryBlock::OnClicked() (0x000007fecba38413) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\multibox\smenuentryblock.cpp:892]
+UE4Editor-Slate.dll!SMenuEntryBlock::OnMenuItemButtonClicked() (0x000007fecba3d308) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\multibox\smenuentryblock.cpp:842]
+UE4Editor-Slate.dll!TMemberFunctionCaller<SMenuEntryBlock,FReply (__cdecl SMenuEntryBlock::*)(void) __ptr64>::operator()<>() (0x000007fecb9b7be7) + 16 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\public\delegates\delegateinstanceinterface_variadics.h:161]
+UE4Editor-Slate.dll!TTupleImpl<TIntegerSequence<> >::ApplyAfter_ExplicitReturnType<FReply,TMemberFunctionCaller<SMenuEntryBlock,FReply (__cdecl SMenuEntryBlock::*)(void) __ptr64> >() (0x000007fecb9b90d9) + 19 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\public\delegates\tuple.h:113]
+UE4Editor-Slate.dll!TBaseSPMethodDelegateInstance<0,SMenuEntryBlock,0,FReply __cdecl(void)>::Execute() (0x000007fecba1ec39) + 36 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\public\delegates\delegateinstancesimpl_variadics.inl:282]
+UE4Editor-Slate.dll!TBaseDelegate<FReply>::Execute() (0x000007fecbad153a) + 6 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\public\delegates\delegatesignatureimpl_variadics.inl:439]
+UE4Editor-Slate.dll!SButton::OnMouseButtonUp() (0x000007fecbaffd63) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\widgets\input\sbutton.cpp:228]
+UE4Editor-Slate.dll!<lambda_de96dc3471181973108233c6db1f9843>::operator()() (0x000007fecb91dd7c) + 24 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:3985]
+UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FToLeafmostPolicy,FPointerEvent,<lambda_de96dc3471181973108233c6db1f9843> >() (0x000007fecb8d8407) + 21 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:202]
+UE4Editor-Slate.dll!FSlateApplication::ProcessMouseButtonUpEvent() (0x000007fecb984f29) + 75 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:3988]
+UE4Editor-Slate.dll!FSlateApplication::OnMouseUp() (0x000007fecb974926) + 16 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:3949]
+UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() (0x000007fecec43915) + 12 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsapplication.cpp:1373]
+UE4Editor-Core.dll!FWindowsApplication::DeferMessage() (0x000007fecec35cce) + 74 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsapplication.cpp:1669]
+UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() (0x000007fecec44cf0) + 41 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsapplication.cpp:742]
+UE4Editor-Core.dll!FWindowsApplication::AppWndProc() (0x000007fecec33132) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsapplication.cpp:604]
+USER32.dll!UnknownFunction (0x0000000077059bd1) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00000000770598da) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() (0x000007fecece3e66) + 48 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsplatformmisc.cpp:774]
+UE4Editor.exe!FEngineLoop::Tick() (0x000000013f5700a9) + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\launchengineloop.cpp:2233]
+UE4Editor.exe!GuardedMain() (0x000000013f56267c) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\launch.cpp:142]
+UE4Editor.exe!GuardedMainWrapper() (0x000000013f5626ea) + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+UE4Editor.exe!WinMain() (0x000000013f572219) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\windows\launchwindows.cpp:202]
+UE4Editor.exe!__tmainCRTStartup() (0x000000013f573159) + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+kernel32.dll!UnknownFunction (0x00000000771559ed) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x000000007728c541) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x000000007728c541) + 0 bytes [UnknownFile:0]
+
+[2015.05.20-03.58.05:005][598]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: Object [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.7\Engine\Source\Editor\PropertyEditor\Private\PropertyNode.cpp] [Line: 1842]
+
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() (0x000007fecece9e76) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:174]
+UE4Editor-Core.dll!FDebug::EnsureFailed() (0x000007feceb52ff8) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\misc\outputdevice.cpp:279]
+UE4Editor-PropertyEditor.dll!FPropertyNode::NotifyPreChange() (0x000007fec8179299) + 53 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\propertyeditor\private\propertynode.cpp:1842]
+UE4Editor-PropertyEditor.dll!FPropertyValueImpl::ImportText() (0x000007fec8151ba1) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\propertyeditor\private\propertyhandleimpl.cpp:386]
+UE4Editor-PropertyEditor.dll!FPropertyValueImpl::ImportText() (0x000007fec81523e7) + 27 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\propertyeditor\private\propertyhandleimpl.cpp:283]
+UE4Editor-PropertyEditor.dll!FPropertyValueImpl::SetValueAsString() (0x000007fec81e5dd3) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\propertyeditor\private\propertyhandleimpl.cpp:696]
+UE4Editor-PropertyEditor.dll!SPropertyEditorText::OnTextCommitted() (0x000007fec81a0a79) + 32 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\propertyeditor\private\userinterface\propertyeditor\spropertyeditortext.cpp:95]
+UE4Editor-PropertyEditor.dll!TBaseSPMethodDelegateInstance<0,SPropertyEditorText,0,TTypeWrapper<void> __cdecl(FText const & __ptr64,enum ETextCommit::Type)>::Execute() (0x000007fec80f34a7) + 38 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\public\delegates\delegateinstancesimpl_variadics.inl:282]
+UE4Editor-PropertyEditor.dll!TBaseSPMethodDelegateInstance<0,SPropertyEditorText,0,void __cdecl(FText const & __ptr64,enum ETextCommit::Type)>::ExecuteIfSafe() (0x000007fec80f85e7) + 14 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\public\delegates\delegateinstancesimpl_variadics.inl:388]
+UE4Editor-Slate.dll!SEditableText::OnFocusLost() (0x000007fecbaf9ca0) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\widgets\input\seditabletext.cpp:1617]
+UE4Editor-Slate.dll!FSlateApplication::SetUserFocus() (0x000007fecb99b26c) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:2061]
+UE4Editor-Slate.dll!FSlateApplication::ProcessReply() (0x000007fecb986aaa) + 37 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:2238]
+UE4Editor-Slate.dll!FSlateApplication::ResetToDefaultInputSettings() (0x000007fecb9949c2) + 99 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:1904]
+UE4Editor-Slate.dll!FSlateApplication::ProcessWindowActivatedEvent() (0x000007fecb987e5e) + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4891]
+UE4Editor-Slate.dll!FSlateApplication::OnWindowActivationChanged() (0x000007fecb978fb8) + 14 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4796]
+UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() (0x000007fecec42cfa) + 60 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsapplication.cpp:1465]
+UE4Editor-Core.dll!FWindowsApplication::DeferMessage() (0x000007fecec35cce) + 74 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsapplication.cpp:1669]
+UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() (0x000007fecec44765) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsapplication.cpp:720]
+UE4Editor-Core.dll!FWindowsApplication::AppWndProc() (0x000007fecec33132) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsapplication.cpp:604]
+USER32.dll!UnknownFunction (0x0000000077059bd1) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00000000770572cb) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x0000000077056829) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00000000772b11f5) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x000000007705193a) + 0 bytes [UnknownFile:0]
+UE4Editor-SlateCore.dll!SWindow::ShowWindow() (0x000007fecf150be3) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slatecore\private\widgets\swindow.cpp:1110]
+UE4Editor-UnrealEd.dll!FFeedbackContextEditor::StartSlowTask() (0x000007fec9f61375) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\unrealed\private\feedbackcontexteditor.cpp:390]
+UE4Editor-Core.dll!FScopedSlowTask::MakeDialog() (0x000007feceb67a9a) + 32 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\misc\feedbackcontext.cpp:87]
+UE4Editor-Core.dll!FFeedbackContext::BeginSlowTask() (0x000007feceb48e8c) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\misc\feedbackcontext.cpp:37]
+UE4Editor-Engine.dll!UStaticMesh::Build() (0x000007fecc9a724b) + 26 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\engine\private\staticmeshbuild.cpp:68]
+UE4Editor-UnrealEd.dll!UnFbx::FFbxImporter::ImportStaticMeshAsSingle() (0x000007feca5cae4b) + 11 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\unrealed\private\fbx\fbxstaticmeshimport.cpp:1230]
+UE4Editor-UnrealEd.dll!UnFbx::FFbxImporter::ImportStaticMesh() (0x000007feca5c8c90) + 66 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\unrealed\private\fbx\fbxstaticmeshimport.cpp:91]
+UE4Editor-UnrealEd.dll!UnFbx::FFbxImporter::ReimportStaticMesh() (0x000007feca5db753) + 95 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\unrealed\private\fbx\fbxstaticmeshimport.cpp:802]
+UE4Editor-UnrealEd.dll!UReimportFbxStaticMeshFactory::Reimport() (0x000007feca4fe6fe) + 14 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\unrealed\private\factories\editorfactories.cpp:5727]
+UE4Editor-UnrealEd.dll!FReimportManager::Reimport() (0x000007fec9dcfd5f) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\unrealed\private\editor.cpp:2657]
+UE4Editor-UnrealEd.dll!FAssetEditorToolkit::Reimport_Execute() (0x000007feca76540b) + 53 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\unrealed\private\toolkits\asseteditortoolkit.cpp:610]
+UE4Editor-UnrealEd.dll!TBaseRawMethodDelegateInstance<0,FAssetEditorToolkit,void __cdecl(void),UObject * __ptr64>::ExecuteIfSafe() (0x000007feca74577a) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\public\delegates\delegateinstancesimpl_variadics.inl:582]
+UE4Editor-Slate.dll!SMenuEntryBlock::OnClicked() (0x000007fecba38413) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\multibox\smenuentryblock.cpp:892]
+UE4Editor-Slate.dll!SMenuEntryBlock::OnMenuItemButtonClicked() (0x000007fecba3d308) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\multibox\smenuentryblock.cpp:842]
+UE4Editor-Slate.dll!TMemberFunctionCaller<SMenuEntryBlock,FReply (__cdecl SMenuEntryBlock::*)(void) __ptr64>::operator()<>() (0x000007fecb9b7be7) + 16 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\public\delegates\delegateinstanceinterface_variadics.h:161]
+UE4Editor-Slate.dll!TTupleImpl<TIntegerSequence<> >::ApplyAfter_ExplicitReturnType<FReply,TMemberFunctionCaller<SMenuEntryBlock,FReply (__cdecl SMenuEntryBlock::*)(void) __ptr64> >() (0x000007fecb9b90d9) + 19 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\public\delegates\tuple.h:113]
+UE4Editor-Slate.dll!TBaseSPMethodDelegateInstance<0,SMenuEntryBlock,0,FReply __cdecl(void)>::Execute() (0x000007fecba1ec39) + 36 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\public\delegates\delegateinstancesimpl_variadics.inl:282]
+UE4Editor-Slate.dll!TBaseDelegate<FReply>::Execute() (0x000007fecbad153a) + 6 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\public\delegates\delegatesignatureimpl_variadics.inl:439]
+UE4Editor-Slate.dll!SButton::OnMouseButtonUp() (0x000007fecbaffd63) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\widgets\input\sbutton.cpp:228]
+UE4Editor-Slate.dll!<lambda_de96dc3471181973108233c6db1f9843>::operator()() (0x000007fecb91dd7c) + 24 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:3985]
+UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FToLeafmostPolicy,FPointerEvent,<lambda_de96dc3471181973108233c6db1f9843> >() (0x000007fecb8d8407) + 21 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:202]
+UE4Editor-Slate.dll!FSlateApplication::ProcessMouseButtonUpEvent() (0x000007fecb984f29) + 75 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:3988]
+UE4Editor-Slate.dll!FSlateApplication::OnMouseUp() (0x000007fecb974926) + 16 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:3949]
+UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() (0x000007fecec43915) + 12 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsapplication.cpp:1373]
+UE4Editor-Core.dll!FWindowsApplication::DeferMessage() (0x000007fecec35cce) + 74 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsapplication.cpp:1669]
+UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() (0x000007fecec44cf0) + 41 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsapplication.cpp:742]
+UE4Editor-Core.dll!FWindowsApplication::AppWndProc() (0x000007fecec33132) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsapplication.cpp:604]
+USER32.dll!UnknownFunction (0x0000000077059bd1) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00000000770598da) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() (0x000007fecece3e66) + 48 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsplatformmisc.cpp:774]
+UE4Editor.exe!FEngineLoop::Tick() (0x000000013f5700a9) + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\launchengineloop.cpp:2233]
+UE4Editor.exe!GuardedMain() (0x000000013f56267c) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\launch.cpp:142]
+UE4Editor.exe!GuardedMainWrapper() (0x000000013f5626ea) + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+UE4Editor.exe!WinMain() (0x000000013f572219) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\windows\launchwindows.cpp:202]
+UE4Editor.exe!__tmainCRTStartup() (0x000000013f573159) + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+kernel32.dll!UnknownFunction (0x00000000771559ed) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x000000007728c541) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x000000007728c541) + 0 bytes [UnknownFile:0]
+
