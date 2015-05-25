@@ -1,0 +1,1051 @@
+﻿Log file open, 05/25/15 12:25:46
+LogInit:Display: Running engine for game: GodKiller
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: E:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.05.25-19.25.46:378][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.05.25-19.25.46:447][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.05.25-19.25.46:479][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.05.25-19.25.46:490][  0]LogInit: Object subsystem initialized
+[2015.05.25-19.25.46:492][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.05.25-19.25.46:492][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/Documents/GitHub/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.25-19.25.46:492][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.05.25-19.25.46:492][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/Documents/GitHub/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.25-19.25.46:492][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.05.25-19.25.46:492][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/Documents/GitHub/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.25-19.25.46:492][  0]LogInit: Selected Device Profile: [Windows]
+[2015.05.25-19.25.46:492][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.05.25-19.25.46:501][  0]LogInit: Computer: JOSEPH-PC
+[2015.05.25-19.25.46:501][  0]LogInit: User: Joseph
+[2015.05.25-19.25.46:501][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.05.25-19.25.46:501][  0]LogInit: High frequency timer resolution =3.919443 MHz
+[2015.05.25-19.25.46:502][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=8192.0GB
+[2015.05.25-19.25.46:502][  0]LogMemory: Platform Memory Stats for Windows
+[2015.05.25-19.25.46:502][  0]LogMemory: Process Physical Memory: 53.24 MB used, 53.24 MB peak
+[2015.05.25-19.25.46:502][  0]LogMemory: Process Virtual Memory: 33.94 MB used, 33.95 MB peak
+[2015.05.25-19.25.46:502][  0]LogMemory: Physical Memory: 4573.05 MB used, 16280.89 MB total
+[2015.05.25-19.25.46:502][  0]LogMemory: Virtual Memory: 291.53 MB used, 8388608.00 MB total
+[2015.05.25-19.25.46:582][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon R9 200 Series (Feature Level 11_0)
+[2015.05.25-19.25.46:582][  0]LogD3D11RHI: Adapter has 4073MB of dedicated video memory, 0MB of dedicated system memory, and 3840MB of shared system memory, 1 output[s]
+[2015.05.25-19.25.46:582][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.05.25-19.25.46:590][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.05.25-19.25.46:612][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.05.25-19.25.46:740][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.05.25-19.25.46:804][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (E:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (E:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.05.25-19.25.46:805][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (E:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (E:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.05.25-19.25.46:893][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.05.25-19.25.50:081][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.25-19.25.51:461][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.25-19.25.51:587][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.05.25-19.25.51:654][  0]LogDerivedDataCache: Loaded boot cache 0.07s 39MB C:/Users/Joseph/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.25-19.25.51:654][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Joseph/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.05.25-19.25.51:654][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Documents/GitHub/God-Killer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.05.25-19.25.51:654][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.05.25-19.25.51:769][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.05.25-19.25.51:781][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Joseph/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.05.25-19.25.52:228][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.05.25-19.25.52:228][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.05.25-19.25.52:769][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.05.25-19.25.52:960][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.05.25-19.25.54:345][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.05.25-19.25.54:802][  0]SourceControl: Info Source control is disabled
+[2015.05.25-19.25.54:802][  0]SourceControl: Info Source control is disabled
+[2015.05.25-19.25.54:802][  0]SourceControl: Info Source control is disabled
+[2015.05.25-19.25.54:802][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.05.25-19.25.54:802][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.05.25-19.25.54:825][  0]SourceControl: Info Source control is disabled
+[2015.05.25-19.25.55:311][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.05.25-19.25.55:311][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.05.25-19.25.55:440][  0]LogEngine: Initializing Engine...
+[2015.05.25-19.25.57:642][  0]LogInit: XAudio2 using '1 - LG ULTRAWIDE (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.05.25-19.25.57:660][  0]LogInit: FAudioDevice initialized.
+[2015.05.25-19.25.57:747][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.05.25-19.25.57:782][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB C:/Users/Joseph/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.25-19.25.57:790][  0]LogInit: Texture streaming: Enabled
+[2015.05.25-19.25.57:945][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.05.25-19.25.57:945][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.05.25-19.25.57:945][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.05.25-19.25.57:945][  0]LogAnalytics: SetUserId b9e16797403c47e8d8c7f7803aa9954f|fbedbf84e6654fb9830ed15a26abc575|2ed228c2-85a1-483a-b700-9447107bbaed
+[2015.05.25-19.25.57:946][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.05.25-19.25.58:022][  0]LogInit: Transaction tracking system initialized
+[2015.05.25-19.25.58:461][  0]BlueprintLog: New page: Editor Load
+[2015.05.25-19.25.58:534][  0]LogAssetRegistry: FAssetRegistry took 0.0100 seconds to start up
+[2015.05.25-19.25.58:535][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.05.25-19.26.00:068][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.25-19.26.01:069][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.25-19.26.01:735][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.05.25-19.26.01:736][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.05.25-19.26.01:743][  0]LogConsoleResponse:Display: 
+[2015.05.25-19.26.01:974][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.05.25-19.26.02:383][  0]SourceControl: Info Source control is disabled
+[2015.05.25-19.26.02:383][  0]Cmd: MAP LOAD FILE="../../../../../../Documents/GitHub/God-Killer/Content/Scene/NewCave.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.05.25-19.26.02:384][  0]LightingResults: New page: Lighting Build
+[2015.05.25-19.26.02:412][  0]MapCheck: New page: Map Check
+[2015.05.25-19.26.02:412][  0]LightingResults: New page: Lighting Build
+[2015.05.25-19.26.02:423][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001509C680
+[2015.05.25-19.26.08:189][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.05.25-19.26.08:190][  0]LogAIModule: Creating AISystem for world NewCave
+[2015.05.25-19.26.08:191][  0]Cmd: MAP CHECKDEP
+[2015.05.25-19.26.08:191][  0]MapCheck: New page: NewCave - May 25, 2015, 5:26:08 AM
+[2015.05.25-19.26.08:464][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 273.454ms to complete.
+[2015.05.25-19.26.08:465][  0]LogFileHelpers: Loading map 'NewCave' took 6.081
+[2015.05.25-19.26.08:586][  0]LogCollectionManager: Loaded 0 collections in 0.002344 seconds
+[2015.05.25-19.26.08:605][  0]LogContentBrowser: Native class hierarchy populated in 0.0184 seconds. Added 1696 classes and 261 folders.
+[2015.05.25-19.26.08:742][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0066 seconds. Added 1 classes and 2 folders.
+[2015.05.25-19.26.08:841][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.05.25-19.26.08:843][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.05.25-19.26.08:850][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.05.25-19.26.08:907][  0]LogLoad: Full Startup: 25.26 seconds (BP compile: 2.75 seconds)
+[2015.05.25-19.26.09:338][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/GUI'
+[2015.05.25-19.26.09:555][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.05.25-19.26.09:790][  0]LogRenderer:Warning: Reallocating scene render targets to support 1616x968 (Frame:17).
+[2015.05.25-19.26.09:931][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2015.05.25-19.26.09:933][  1]Cmd: UpdateLandscapeEditorData
+[2015.05.25-19.26.11:288][  5]LogAssetRegistry: Asset discovery search completed in 12.7642 seconds
+[2015.05.25-19.27.08:156][555]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ScalfoldingSupport6)
+[2015.05.25-19.27.09:076][577]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ScalfoldingSupport6)
+[2015.05.25-19.27.10:114][667]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (ScalfoldingPlatform6)
+[2015.05.25-19.27.30:576][482]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ScalfoldingPlatform6)
+[2015.05.25-19.27.31:237][539]Cmd: TRANSACTION UNDO
+[2015.05.25-19.27.31:237][539]LogEditorTransaction: Undo Clicking on Actors
+[2015.05.25-19.27.31:727][556]Cmd: TRANSACTION UNDO
+[2015.05.25-19.27.31:727][556]LogEditorTransaction: Undo Move Actors
+[2015.05.25-19.27.33:173][677]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LADDER2)
+[2015.05.25-19.28.22:101][971]LogTexture:Display: Building textures: Texture2D_2 (G8)
+[2015.05.25-19.29.10:874][482]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Enemy1'
+[2015.05.25-19.29.15:874][873]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2015.05.25-19.29.16:331][899]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models'
+[2015.05.25-19.29.20:770][287]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/dreamwand'
+[2015.05.25-19.29.21:770][376]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/dreamwand/dreamwand'
+[2015.05.25-19.29.27:626][857]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/Env'
+[2015.05.25-19.29.32:594][230]LogStaticMesh: Building static mesh Branch_03...
+[2015.05.25-19.29.32:699][230]LogStaticMesh: Built static mesh [106.387314ms] /Game/Models/Env/Branch_03.Branch_03
+[2015.05.25-19.29.54:031][626]LogTexture:Display: Building textures: Texture2D_3 (BGRA8)
+[2015.05.25-19.29.54:048][626]LogActorFactory: Actor Factory created Branch_05
+[2015.05.25-19.29.54:924][690]LogActorFactory: Actor Factory created Branch_05
+[2015.05.25-19.29.58:456][947]LogActorFactory: Actor Factory created Branch_05
+[2015.05.25-19.29.59:751][ 44]LogActorFactory: Actor Factory created Branch_05
+[2015.05.25-19.30.05:561][432]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2015.05.25-19.30.06:870][529]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Branch_7)
+[2015.05.25-19.30.10:595][808]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.25-19.30.10:596][808]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.25-19.30.10:626][808]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000025298400
+[2015.05.25-19.30.10:643][808]LogEditorActor: Deleted 1 Actors (0.064 secs)
+[2015.05.25-19.30.50:566][705]LogActorFactory: Actor Factory created Tree_root_01
+[2015.05.25-19.30.51:929][809]LogActorFactory: Actor Factory created Tree_root_01
+[2015.05.25-19.31.17:611][679]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2015.05.25-19.31.34:054][863]LogActorFactory: Actor Factory created Table
+[2015.05.25-19.31.34:963][926]LogActorFactory: Actor Factory created Table
+[2015.05.25-19.31.39:436][210]LogStaticMesh: Building static mesh Sack_04...
+[2015.05.25-19.31.39:503][210]LogStaticMesh: Built static mesh [69.092216ms] /Game/Models/Env/Sack_04.Sack_04
+[2015.05.25-19.31.39:529][210]LogActorFactory: Actor Factory created Sack_04
+[2015.05.25-19.31.40:448][283]LogActorFactory: Actor Factory created Sack_04
+[2015.05.25-19.31.46:037][691]Cmd: DELETE
+[2015.05.25-19.31.46:037][691]Cmd: ACTOR DELETE
+[2015.05.25-19.31.46:050][691]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.25-19.31.46:070][691]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2015.05.25-19.31.48:120][828]LogActorFactory: Actor Factory created Sack_03
+[2015.05.25-19.31.50:411][ 67]LogActorFactory: Actor Factory created Sack_03
+[2015.05.25-19.31.52:149][173]LogActorFactory: Actor Factory created Pot_05
+[2015.05.25-19.31.53:510][278]LogActorFactory: Actor Factory created Pot_05
+[2015.05.25-19.31.54:228][323]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2015.05.25-19.32.04:088][ 39]LogActorFactory: Actor Factory created Table
+[2015.05.25-19.32.05:076][107]LogActorFactory: Actor Factory created Table
+[2015.05.25-19.32.25:795][551]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene/NewCave" FILE="../../../../../../Documents/GitHub/God-Killer/Content/Scene/NewCave.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.05.25-19.32.27:205][551]LogSavePackage: Save=1266.530518ms
+[2015.05.25-19.32.27:205][551]LogSavePackage: Moving '../../../../../../Documents/GitHub/God-Killer/Saved/NewCave1AA768F948FA814C76DC9C96B4363807.tmp' to '../../../../../../Documents/GitHub/God-Killer/Content/Scene/NewCave.umap'
+[2015.05.25-19.32.27:302][551]LogFileHelpers: Saving map 'NewCave' took 1.793
+[2015.05.25-19.34.34:420][325]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2015.05.25-19.34.36:686][467]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Terrain_texture'
+[2015.05.25-19.34.39:685][685]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2015.05.25-19.34.52:825][693]LogTexture:Display: Building textures: T_bronze_N (BC5)
+[2015.05.25-19.34.53:069][693]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0094 seconds. Added 1 classes and 2 folders.
+[2015.05.25-19.35.05:675][725]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2015.05.25-19.35.17:384][686]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.35.19:839][823]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.35.19:892][823]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.05.25-19.35.20:190][823]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.05.25-19.35.20:190][823]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.05.25-19.35.20:196][823]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.35.20:201][823]LogMaterial: 0.000087 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.35.20:227][823]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.25-19.35.20:907][826]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2015.05.25-19.35.20:907][826]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.05.25-19.35.20:907][826]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.05.25-19.35.22:912][ 36]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.35.22:917][ 36]LogMaterial: 0.000100 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.35.23:615][ 96]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
+[2015.05.25-19.35.23:615][ 96]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.05.25-19.35.23:615][ 96]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.05.25-19.35.26:285][240]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.35.26:290][240]LogMaterial: 0.000139 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.35.26:291][240]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.05.25-19.35.26:318][240]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.05.25-19.35.27:045][273]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
+[2015.05.25-19.35.27:045][273]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.05.25-19.35.27:045][273]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.05.25-19.35.36:328][793]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.35.36:332][793]LogMaterial: 0.000073 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.35.37:008][821]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
+[2015.05.25-19.35.37:008][821]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.05.25-19.35.37:008][821]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.05.25-19.35.38:268][901]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.35.38:273][901]LogMaterial: 0.000060 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.35.38:273][901]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.05.25-19.35.38:301][901]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.05.25-19.35.38:950][931]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
+[2015.05.25-19.35.38:950][931]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.05.25-19.35.38:950][931]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.05.25-19.35.45:929][295]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.35.45:934][295]LogMaterial: 0.000109 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.35.45:994][295]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.05.25-19.35.46:657][328]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 44 instructions
+[2015.05.25-19.35.46:658][328]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.05.25-19.35.46:658][328]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.05.25-19.35.51:871][617]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.35.51:876][617]LogMaterial: 0.000104 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.35.52:634][648]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 44 instructions
+[2015.05.25-19.35.52:634][648]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.05.25-19.35.52:634][648]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.05.25-19.35.54:197][743]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.35.54:202][743]LogMaterial: 0.000156 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.35.54:227][743]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.05.25-19.35.55:014][783]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 44 instructions
+[2015.05.25-19.35.55:014][783]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.05.25-19.35.55:014][783]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.05.25-19.36.01:321][150]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.36.01:326][150]LogMaterial: 0.000105 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.36.02:102][189]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 46 instructions
+[2015.05.25-19.36.02:102][189]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.05.25-19.36.02:102][189]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.05.25-19.36.07:809][514]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.05.25-19.36.07:810][514]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.05.25-19.36.07:815][514]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_3.EdGraphPin_9850''
+[2015.05.25-19.36.07:815][514]LogProperty:Warning: ObjectProperty /Script/Engine.MaterialExpression:ExpressionInput.Expression: unresolved reference to 'MaterialExpressionPanner'MaterialGraphNode_3.MaterialExpressionPanner_1')'
+[2015.05.25-19.36.07:825][514]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.36.07:831][514]LogMaterial: 0.000097 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.36.07:858][514]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.05.25-19.36.07:860][514]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.25-19.36.08:552][543]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 46 instructions
+[2015.05.25-19.36.08:552][543]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.05.25-19.36.08:552][543]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.05.25-19.36.09:794][620]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.36.09:799][620]LogMaterial: 0.000207 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.36.09:824][620]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.25-19.36.10:481][649]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 46 instructions
+[2015.05.25-19.36.10:481][649]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.05.25-19.36.10:482][649]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.05.25-19.36.12:961][800]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.36.12:966][800]LogMaterial: 0.000145 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.36.12:989][800]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.25-19.36.13:671][830]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 46 instructions
+[2015.05.25-19.36.13:671][830]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.05.25-19.36.13:672][830]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.05.25-19.36.14:302][870]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.36.14:307][870]LogMaterial: 0.000095 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.36.14:331][870]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.05.25-19.36.15:042][901]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 46 instructions
+[2015.05.25-19.36.15:042][901]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.05.25-19.36.15:042][901]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.05.25-19.36.16:122][968]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.36.16:127][968]LogMaterial: 0.000096 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.36.16:829][999]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2015.05.25-19.36.16:829][999]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.05.25-19.36.16:829][999]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.05.25-19.36.19:209][134]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.36.19:214][134]LogMaterial: 0.000058 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.36.19:955][172]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 53 instructions
+[2015.05.25-19.36.19:955][172]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.05.25-19.36.19:955][172]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.05.25-19.36.22:079][293]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.36.22:084][293]LogMaterial: 0.000073 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.36.22:805][329]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 53 instructions
+[2015.05.25-19.36.22:805][329]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.05.25-19.36.22:805][329]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.05.25-19.36.26:417][534]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.36.26:422][534]LogMaterial: 0.000104 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.36.27:135][567]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 54 instructions
+[2015.05.25-19.36.27:135][567]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.05.25-19.36.27:135][567]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.05.25-19.36.30:903][777]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.36.30:908][777]LogMaterial: 0.000095 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.36.31:619][813]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 53 instructions
+[2015.05.25-19.36.31:619][813]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.05.25-19.36.31:619][813]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.05.25-19.36.33:265][904]LogMaterialEditor: Applying material Water
+[2015.05.25-19.36.34:653][904]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.36.34:672][904]LogMaterial: 0.000083 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.36.34:786][904]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.36.34:802][904]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.36.34:820][904]LogMaterial: 0.012060 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.36.36:845][  6]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 73 instructions
+[2015.05.25-19.36.36:845][  6]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.05.25-19.36.36:845][  6]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.05.25-19.36.42:664][334]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.36.42:682][334]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.36.42:688][334]LogMaterial: 0.000125 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.36.44:555][423]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2015.05.25-19.36.44:555][423]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 61 instructions
+[2015.05.25-19.36.44:555][423]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.25-19.36.44:556][423]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.05.25-19.36.52:619][861]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.36.52:624][861]LogMaterial: 0.000102 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.36.54:540][964]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2015.05.25-19.36.54:540][964]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 61 instructions
+[2015.05.25-19.36.54:540][964]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.25-19.36.54:540][964]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.05.25-19.36.55:263][ 15]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.36.55:269][ 15]LogMaterial: 0.000074 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.36.57:197][113]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2015.05.25-19.36.57:197][113]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 61 instructions
+[2015.05.25-19.36.57:197][113]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.25-19.36.57:197][113]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.05.25-19.37.03:219][452]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.37.03:225][452]LogMaterial: 0.000116 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.37.04:352][504]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.37.04:359][504]LogMaterial: 0.000080 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.37.04:362][504]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.25-19.37.05:231][541]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2015.05.25-19.37.05:231][541]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 61 instructions
+[2015.05.25-19.37.05:231][541]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.25-19.37.05:231][541]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.05.25-19.37.06:661][623]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.37.06:667][623]LogMaterial: 0.000074 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.37.06:694][623]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.25-19.37.08:542][709]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2015.05.25-19.37.08:542][709]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 61 instructions
+[2015.05.25-19.37.08:542][709]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.25-19.37.08:543][709]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.05.25-19.37.13:187][961]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.37.13:192][961]LogMaterial: 0.000076 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.37.13:218][961]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.25-19.37.15:116][ 56]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2015.05.25-19.37.15:116][ 56]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 61 instructions
+[2015.05.25-19.37.15:117][ 56]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.25-19.37.15:117][ 56]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.05.25-19.37.42:283][681]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.37.42:288][681]LogMaterial: 0.000082 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.37.45:181][821]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2015.05.25-19.37.45:181][821]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 68 instructions
+[2015.05.25-19.37.45:181][821]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.25-19.37.45:181][821]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.05.25-19.37.53:755][292]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.37.53:761][292]LogMaterial: 0.000092 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.37.53:763][292]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2015.05.25-19.37.53:786][292]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.05.25-19.37.53:788][292]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.25-19.37.53:791][292]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.25-19.37.53:793][292]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2015.05.25-19.37.55:715][369]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2015.05.25-19.37.55:715][369]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 68 instructions
+[2015.05.25-19.37.55:715][369]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.25-19.37.55:715][369]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.05.25-19.38.03:736][811]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.05.25-19.38.03:736][811]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.05.25-19.38.03:751][811]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.38.03:756][811]LogMaterial: 0.000121 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.38.05:655][901]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2015.05.25-19.38.05:655][901]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 68 instructions
+[2015.05.25-19.38.05:655][901]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.25-19.38.05:655][901]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.05.25-19.38.08:811][ 72]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.38.08:817][ 72]LogMaterial: 0.000160 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.38.10:601][157]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.05.25-19.38.10:613][157]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.38.10:619][157]LogMaterial: 0.000064 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.38.10:646][157]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.05.25-19.38.10:649][157]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2015.05.25-19.38.10:758][159]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2015.05.25-19.38.10:758][159]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 61 instructions
+[2015.05.25-19.38.10:758][159]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.25-19.38.10:758][159]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.05.25-19.38.14:213][330]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.38.14:218][330]LogMaterial: 0.000115 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.38.14:240][330]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2015.05.25-19.38.15:799][404]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.38.15:804][404]LogMaterial: 0.000098 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.38.15:828][404]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.05.25-19.38.16:200][419]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2015.05.25-19.38.16:200][419]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 61 instructions
+[2015.05.25-19.38.16:200][419]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.25-19.38.16:200][419]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.05.25-19.38.18:919][557]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.38.18:924][557]LogMaterial: 0.000100 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.38.21:303][627]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2015.05.25-19.38.21:303][627]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 61 instructions
+[2015.05.25-19.38.21:303][627]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.25-19.38.21:303][627]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.05.25-19.38.27:632][981]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.38.27:638][981]LogMaterial: 0.000074 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.38.27:688][981]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.05.25-19.38.29:326][ 62]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.38.29:331][ 62]LogMaterial: 0.000049 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.38.29:357][ 62]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2015.05.25-19.38.29:561][ 70]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2015.05.25-19.38.29:561][ 70]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 61 instructions
+[2015.05.25-19.38.29:561][ 70]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.25-19.38.29:561][ 70]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.05.25-19.38.30:256][100]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionAdd_1, compiling. 
+[2015.05.25-19.38.35:156][355]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.38.35:162][355]LogMaterial: 0.000123 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.38.35:186][355]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionAdd_1, compiling. 
+[2015.05.25-19.38.37:087][447]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2015.05.25-19.38.37:087][447]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 66 instructions
+[2015.05.25-19.38.37:087][447]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.25-19.38.37:087][447]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.05.25-19.38.38:438][520]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.38.38:445][520]LogMaterial: 0.000113 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.38.40:337][616]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2015.05.25-19.38.40:337][616]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 66 instructions
+[2015.05.25-19.38.40:337][616]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.25-19.38.40:337][616]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.05.25-19.38.42:548][745]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.38.42:553][745]LogMaterial: 0.000076 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.38.44:392][830]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2015.05.25-19.38.44:392][830]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 66 instructions
+[2015.05.25-19.38.44:392][830]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.25-19.38.44:392][830]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.05.25-19.38.45:068][872]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.38.45:076][872]LogMaterial: 0.000104 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.38.47:126][969]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2015.05.25-19.38.47:126][969]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 66 instructions
+[2015.05.25-19.38.47:126][969]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.25-19.38.47:126][969]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.05.25-19.39.05:253][904]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.39.05:259][904]LogMaterial: 0.000078 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.39.06:935][982]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.39.06:941][982]LogMaterial: 0.000074 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.39.07:491][  5]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2015.05.25-19.39.07:491][  5]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 66 instructions
+[2015.05.25-19.39.07:491][  5]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.25-19.39.07:491][  5]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.05.25-19.39.12:823][290]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.39.12:829][290]LogMaterial: 0.000107 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.39.14:803][386]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2015.05.25-19.39.14:803][386]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 66 instructions
+[2015.05.25-19.39.14:803][386]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.25-19.39.14:803][386]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.05.25-19.39.17:431][523]LogMaterialEditor: Applying material Water
+[2015.05.25-19.39.18:836][523]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.39.18:860][523]LogMaterial: 0.000087 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.39.18:921][523]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.39.18:937][523]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.39.18:971][523]LogMaterial: 0.026094 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.39.23:672][538]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 51 instructions
+[2015.05.25-19.39.23:673][538]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 87 instructions
+[2015.05.25-19.39.23:673][538]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.25-19.39.23:673][538]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.05.25-19.40.55:749][ 31]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models'
+[2015.05.25-19.41.05:302][138]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Documents/GodKillerExports/waterplane.FBX)
+[2015.05.25-19.41.05:409][138]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.05.25-19.41.05:409][138]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.05.25-19.41.05:409][138]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.05.25-19.41.05:409][138]LogFbx: ItemName: Model, ItemCount : 1
+[2015.05.25-19.41.05:409][138]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.05.25-19.41.06:676][138]LogFbx: Loading FBX Scene from ../../../../../../Documents/GodKillerExports/waterplane.FBX
+[2015.05.25-19.41.06:686][138]LogFbx: FBX Scene Loaded Succesfully
+[2015.05.25-19.41.06:710][138]LogFbx:Warning: Triangulating static mesh Plane001
+[2015.05.25-19.41.06:715][138]LogFbx: == Initial material list:
+[2015.05.25-19.41.06:715][138]LogFbx: 0: None
+[2015.05.25-19.41.06:715][138]LogFbx: == After sorting:
+[2015.05.25-19.41.06:715][138]LogFbx: 0: None
+[2015.05.25-19.41.06:715][138]LogFbx: == Mapping table:
+[2015.05.25-19.41.06:715][138]LogFbx:   sort 0 -> 0
+[2015.05.25-19.41.06:716][138]LogStaticMesh: Building static mesh waterplane...
+[2015.05.25-19.41.06:717][138]LogStaticMesh: Built static mesh [1.595125ms] /Game/Models/waterplane.waterplane
+[2015.05.25-19.41.06:755][138]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.05.25-19.41.06:755][138]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models'
+[2015.05.25-19.41.12:826][504]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2015.05.25-19.41.29:399][456]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models'
+[2015.05.25-19.41.30:818][538]LogActorFactory: Actor Factory created waterplane
+[2015.05.25-19.41.31:364][570]LogActorFactory: Actor Factory created waterplane
+[2015.05.25-19.41.54:436][192]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Terrain_texture'
+[2015.05.25-19.41.54:926][222]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2015.05.25-19.42.08:589][936]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.42.08:595][936]LogMaterial: 0.000077 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.42.11:142][ 40]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.42.11:148][ 40]LogMaterial: 0.000062 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.42.11:852][ 71]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.05.25-19.42.11:852][ 71]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 67 instructions
+[2015.05.25-19.42.11:852][ 71]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.25-19.42.11:852][ 71]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.05.25-19.42.12:626][102]LogMaterialEditor: Applying material Water
+[2015.05.25-19.42.14:052][102]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.42.14:076][102]LogMaterial: 0.000123 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.42.14:160][102]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.42.14:178][102]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.42.14:232][102]LogMaterial: 0.044885 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.42.18:793][308]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 51 instructions
+[2015.05.25-19.42.18:793][308]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 87 instructions
+[2015.05.25-19.42.18:793][308]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.25-19.42.18:793][308]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.05.25-19.42.27:508][743]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene/NewCave" FILE="../../../../../../Documents/GitHub/God-Killer/Saved/Autosaves/Game/Scene/NewCave_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.05.25-19.42.28:861][743]LogSavePackage: Save=1228.661621ms
+[2015.05.25-19.42.28:861][743]LogSavePackage: Moving '../../../../../../Documents/GitHub/God-Killer/Saved/NewCave_Auto109319E1B42C2B5ADEF5C55A57B8DD708.tmp' to '../../../../../../Documents/GitHub/God-Killer/Saved/Autosaves/Game/Scene/NewCave_Auto1.umap'
+[2015.05.25-19.42.29:131][743]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Scene/NewCave' took 1.715
+[2015.05.25-19.42.29:131][743]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.715
+[2015.05.25-19.42.29:170][743]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/Water] ([1] browsable assets)...
+[2015.05.25-19.42.29:202][743]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Textures/Water.Water]
+[2015.05.25-19.42.29:202][743]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Water]
+[2015.05.25-19.42.29:205][743]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Water" FILE="../../../../../../Documents/GitHub/God-Killer/Saved/Autosaves/Game/Textures/Water_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.05.25-19.42.29:487][743]LogSavePackage: Save=280.204102ms
+[2015.05.25-19.42.29:488][743]LogSavePackage: Moving '../../../../../../Documents/GitHub/God-Killer/Saved/Water_Auto1AEBCF07B4928F90615A5C78AB1B746BB.tmp' to '../../../../../../Documents/GitHub/God-Killer/Saved/Autosaves/Game/Textures/Water_Auto1.uasset'
+[2015.05.25-19.42.29:534][743]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/waterplane] ([1] browsable assets)...
+[2015.05.25-19.42.29:567][743]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/waterplane.waterplane]
+[2015.05.25-19.42.29:567][743]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/waterplane]
+[2015.05.25-19.42.29:569][743]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/waterplane" FILE="../../../../../../Documents/GitHub/God-Killer/Saved/Autosaves/Game/Models/waterplane_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.05.25-19.42.29:981][743]LogSavePackage: Save=409.421448ms
+[2015.05.25-19.42.29:982][743]LogSavePackage: Moving '../../../../../../Documents/GitHub/God-Killer/Saved/waterplane_Auto17D2E700B4A972F28F53DE6BCC9368E3C.tmp' to '../../../../../../Documents/GitHub/God-Killer/Saved/Autosaves/Game/Models/waterplane_Auto1.uasset'
+[2015.05.25-19.42.29:989][743]LogFileHelpers: Auto-saving content packages took 0.858
+[2015.05.25-19.42.34:017][949]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.42.34:023][949]LogMaterial: 0.000081 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.42.35:958][ 40]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2015.05.25-19.42.35:958][ 40]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 66 instructions
+[2015.05.25-19.42.35:958][ 40]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.25-19.42.35:958][ 40]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.05.25-19.42.36:360][ 66]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.42.36:366][ 66]LogMaterial: 0.000093 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.42.36:390][ 66]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.25-19.42.37:601][124]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.42.37:608][124]LogMaterial: 0.000073 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.42.37:633][124]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.05.25-19.42.38:540][161]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLinearInterpolate_0, compiling. 
+[2015.05.25-19.42.39:960][227]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2015.05.25-19.42.39:960][227]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 66 instructions
+[2015.05.25-19.42.39:960][227]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.25-19.42.39:960][227]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.05.25-19.42.40:578][264]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.42.40:584][264]LogMaterial: 0.000231 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.42.40:610][264]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLinearInterpolate_0, compiling. 
+[2015.05.25-19.42.42:592][351]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2015.05.25-19.42.42:592][351]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 66 instructions
+[2015.05.25-19.42.42:592][351]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.25-19.42.42:592][351]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.05.25-19.42.43:368][391]LogMaterialEditor: Applying material Water
+[2015.05.25-19.42.44:742][391]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.42.44:766][391]LogMaterial: 0.000083 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.42.44:827][391]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.42.44:844][391]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.42.44:863][391]LogMaterial: 0.012483 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.42.49:530][607]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 51 instructions
+[2015.05.25-19.42.49:530][607]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 87 instructions
+[2015.05.25-19.42.49:530][607]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.25-19.42.49:530][607]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.05.25-19.42.59:242][ 97]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.42.59:248][ 97]LogMaterial: 0.000086 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.43.00:777][160]LogMaterialEditor: Applying material Water
+[2015.05.25-19.43.02:193][160]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.43.02:217][160]LogMaterial: 0.000081 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.43.02:280][160]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.43.02:298][160]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.43.02:318][160]LogMaterial: 0.012103 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.43.06:895][368]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 51 instructions
+[2015.05.25-19.43.06:895][368]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 87 instructions
+[2015.05.25-19.43.06:895][368]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.25-19.43.06:895][368]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.05.25-19.43.24:374][222]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.43.24:379][222]LogMaterial: 0.000156 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.43.25:611][273]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.43.25:619][273]LogMaterial: 0.000108 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.43.27:538][365]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.43.27:544][365]LogMaterial: 0.000065 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.43.27:565][365]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.05.25-19.43.27:601][366]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2015.05.25-19.43.27:601][366]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 66 instructions
+[2015.05.25-19.43.27:601][366]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.25-19.43.27:601][366]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.05.25-19.43.28:975][429]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.43.28:981][429]LogMaterial: 0.000090 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.43.29:007][429]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.25-19.43.29:489][449]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2015.05.25-19.43.29:489][449]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 66 instructions
+[2015.05.25-19.43.29:490][449]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.25-19.43.29:490][449]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.05.25-19.43.33:119][639]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.43.33:125][639]LogMaterial: 0.000098 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.43.35:112][729]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2015.05.25-19.43.35:112][729]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 66 instructions
+[2015.05.25-19.43.35:112][729]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.25-19.43.35:112][729]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.05.25-19.43.36:924][816]LogMaterialEditor: Applying material Water
+[2015.05.25-19.43.38:289][816]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.43.38:313][816]LogMaterial: 0.000078 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.43.38:380][816]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.43.38:394][816]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.43.38:415][816]LogMaterial: 0.013996 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.43.42:941][ 26]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 51 instructions
+[2015.05.25-19.43.42:941][ 26]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 87 instructions
+[2015.05.25-19.43.42:941][ 26]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.25-19.43.42:941][ 26]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.05.25-19.43.52:314][473]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.43.52:320][473]LogMaterial: 0.000102 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.43.54:320][560]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2015.05.25-19.43.54:320][560]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 66 instructions
+[2015.05.25-19.43.54:320][560]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.25-19.43.54:320][560]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.05.25-19.43.55:048][601]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.43.55:054][601]LogMaterial: 0.000114 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.43.56:680][671]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.43.56:687][671]LogMaterial: 0.000060 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.43.57:058][687]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2015.05.25-19.43.57:058][687]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 66 instructions
+[2015.05.25-19.43.57:058][687]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.25-19.43.57:058][687]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.05.25-19.43.58:347][739]LogMaterialEditor: Applying material Water
+[2015.05.25-19.43.59:744][739]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.43.59:768][739]LogMaterial: 0.000124 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.43.59:833][739]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.43.59:848][739]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.43.59:867][739]LogMaterial: 0.012274 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.44.01:710][814]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionNormalize_0, compiling. 
+[2015.05.25-19.44.04:536][947]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 51 instructions
+[2015.05.25-19.44.04:536][947]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 87 instructions
+[2015.05.25-19.44.04:536][947]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.25-19.44.04:536][947]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.05.25-19.44.14:069][404]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2015.05.25-19.44.15:762][487]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.25-19.44.15:762][487]PIE: New page: PIE session: NewCave (May 25, 2015, 5:44:15 AM)
+[2015.05.25-19.44.15:843][487]LogPlayLevel: PIE: StaticDuplicateObject took: (0.080629s)
+[2015.05.25-19.44.15:844][487]LogPlayLevel: PIE: World Init took: (0.000827s)
+[2015.05.25-19.44.15:844][487]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/NewCave.NewCave to /Game/Scene/UEDPIE_0_NewCave.NewCave (0.081721s)
+[2015.05.25-19.44.15:909][487]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.05.25-19.44.15:912][487]LogAIModule: Creating AISystem for world NewCave
+[2015.05.25-19.44.16:029][487]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.05.25-19.44.16:029][487]LogWorld: Bringing World /Game/Scene/UEDPIE_0_NewCave.NewCave up for play (max tick rate 0) at 2015.05.25-12.44.16
+[2015.05.25-19.44.16:031][487]LogWorld: Bringing up level for play took: 0.118666
+[2015.05.25-19.44.16:038][487]LogArray:Warning: Attempted to get an item from array Pos out of bounds [6/5]!
+[2015.05.25-19.44.16:038][487]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	KeySpawner_C /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.KeySpawner_C_2
+	Function /Game/Key/KeySpawner.KeySpawner_C:ExecuteUbergraph_KeySpawner:0219
+[2015.05.25-19.44.16:038][487]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Construction Script in blueprint KeySpawner
+[2015.05.25-19.44.16:038][487]LogScript:Warning: Accessed None
+	KeySpawner_C /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.KeySpawner_C_2
+	Function /Game/Key/KeySpawner.KeySpawner_C:ExecuteUbergraph_KeySpawner:022F
+[2015.05.25-19.44.16:039][487]PIE:Error: Error Accessed None from node Construction Script in blueprint KeySpawner
+[2015.05.25-19.44.16:039][487]LogArray:Warning: Attempted to get an item from array Pos out of bounds [6/5]!
+[2015.05.25-19.44.16:039][487]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	KeySpawner_C /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.KeySpawner_C_2
+	Function /Game/Key/KeySpawner.KeySpawner_C:ExecuteUbergraph_KeySpawner:02E1
+[2015.05.25-19.44.16:039][487]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Construction Script in blueprint KeySpawner
+[2015.05.25-19.44.16:039][487]LogScript:Warning: Accessed None
+	KeySpawner_C /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.KeySpawner_C_2
+	Function /Game/Key/KeySpawner.KeySpawner_C:ExecuteUbergraph_KeySpawner:02F7
+[2015.05.25-19.44.16:039][487]PIE:Error: Error Accessed None from node Construction Script in blueprint KeySpawner
+[2015.05.25-19.44.16:040][487]PIE: Info Play in editor start time for /Game/Scene/UEDPIE_0_NewCave 0.172
+[2015.05.25-19.44.16:070][487]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsThird_Person_Character'
+	SuccessScreen_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SuccessScreen_C_0
+	Function /Game/GUI/SuccessScreen.SuccessScreen_C:ExecuteUbergraph_SuccessScreen:00D2
+[2015.05.25-19.44.27:077][785]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.44.27:101][785]LogMaterial: 0.000170 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.44.27:166][785]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.44.27:182][785]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.44.27:213][785]LogMaterial: 0.023097 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.44.27:432][786]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.059549 > MaxSimulationTimeStep (0.050) for 'Enemy1_C_4'
+[2015.05.25-19.44.38:449][780]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001019E7A0
+[2015.05.25-19.44.38:450][780]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000010085C60
+[2015.05.25-19.44.38:466][780]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000026CD7B00
+[2015.05.25-19.44.39:675][843]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2015.05.25-19.44.40:696][912]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2015.05.25-19.44.49:518][568]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.05.25-19.44.49:518][568]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models'
+[2015.05.25-19.45.30:147][930]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2015.05.25-19.47.02:730][ 98]Cmd: DELETE
+[2015.05.25-19.47.02:730][ 98]Cmd: ACTOR DELETE
+[2015.05.25-19.47.02:744][ 98]LogEditorActor: Deleted Actor: PhysicsVolume
+[2015.05.25-19.47.02:769][ 98]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000017D44680
+[2015.05.25-19.47.02:778][ 98]LogEditorActor: Deleted 1 Actors (0.049 secs)
+[2015.05.25-19.47.48:906][912]LogEditorActor: Deleted Actor: NavModifierVolume
+[2015.05.25-19.47.48:940][912]LogEditorActor: Deleted 1 Actors (0.049 secs)
+[2015.05.25-19.48.10:447][987]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2015.05.25-19.48.31:722][163]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2015.05.25-19.48.35:045][345]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.05.25-19.48.35:068][345]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.05.25-19.48.35:142][345]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.05.25-19.48.35:142][345]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2015.05.25-19.48.35:142][345]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.05.25-19.48.35:142][345]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2015.05.25-19.48.35:155][345]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.05.25-19.48.35:161][345]LogMaterial: 0.000074 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.48.35:185][345]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionAdd_1, compiling. 
+[2015.05.25-19.48.35:190][345]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionNormalize_0, compiling. 
+[2015.05.25-19.48.35:192][345]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.05.25-19.48.35:195][345]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.25-19.48.37:480][434]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.05.25-19.48.37:487][434]LogMaterial: 0.000061 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.48.38:386][472]LogMaterialEditor: Applying material Water
+[2015.05.25-19.48.40:065][472]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.05.25-19.48.40:089][472]LogMaterial: 0.000174 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.48.40:145][472]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.48.40:159][472]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.48.40:180][472]LogMaterial: 0.014574 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.48.44:709][724]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
+[2015.05.25-19.48.44:709][724]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 81 instructions
+[2015.05.25-19.48.44:709][724]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.25-19.48.44:709][724]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.05.25-19.48.55:264][300]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.05.25-19.48.55:270][300]LogMaterial: 0.000114 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.48.56:514][356]LogMaterialEditor: Applying material Water
+[2015.05.25-19.48.57:977][356]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.05.25-19.48.57:999][356]LogMaterial: 0.000054 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.48.58:067][356]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.48.58:087][356]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.48.58:110][356]LogMaterial: 0.014954 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.49.02:986][619]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
+[2015.05.25-19.49.02:986][619]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 81 instructions
+[2015.05.25-19.49.02:986][619]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.25-19.49.02:986][619]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.05.25-19.49.17:288][335]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.05.25-19.49.17:295][335]LogMaterial: 0.000150 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.49.17:316][335]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.05.25-19.49.19:223][426]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2015.05.25-19.49.19:223][426]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 61 instructions
+[2015.05.25-19.49.19:223][426]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.25-19.49.19:223][426]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.05.25-19.49.22:809][606]LogMaterialEditor: Applying material Water
+[2015.05.25-19.49.24:177][606]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.05.25-19.49.24:201][606]LogMaterial: 0.000107 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.49.24:279][606]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.49.24:293][606]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.49.24:315][606]LogMaterial: 0.015351 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.49.29:719][806]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
+[2015.05.25-19.49.29:719][806]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 81 instructions
+[2015.05.25-19.49.29:719][806]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.25-19.49.29:719][806]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.05.25-19.49.40:977][364]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.05.25-19.49.40:984][364]LogMaterial: 0.000208 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.49.41:008][364]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionNormalize_0, compiling. 
+[2015.05.25-19.49.42:929][454]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2015.05.25-19.49.42:929][454]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 61 instructions
+[2015.05.25-19.49.42:929][454]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.25-19.49.42:929][454]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.05.25-19.49.43:124][464]LogMaterialEditor: Applying material Water
+[2015.05.25-19.49.44:491][464]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.05.25-19.49.44:515][464]LogMaterial: 0.000081 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.49.44:582][464]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.49.44:602][464]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.49.44:627][464]LogMaterial: 0.015442 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.49.49:217][718]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
+[2015.05.25-19.49.49:217][718]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 81 instructions
+[2015.05.25-19.49.49:217][718]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.25-19.49.49:217][718]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.05.25-19.50.02:197][376]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.05.25-19.50.02:197][376]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2015.05.25-19.50.22:102][607]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.25-19.50.22:102][607]PIE: New page: PIE session: NewCave (May 25, 2015, 5:50:22 AM)
+[2015.05.25-19.50.22:190][607]LogPlayLevel: PIE: StaticDuplicateObject took: (0.087173s)
+[2015.05.25-19.50.22:191][607]LogPlayLevel: PIE: World Init took: (0.000827s)
+[2015.05.25-19.50.22:191][607]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/NewCave.NewCave to /Game/Scene/UEDPIE_0_NewCave.NewCave (0.088242s)
+[2015.05.25-19.50.22:230][607]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.05.25-19.50.22:232][607]LogAIModule: Creating AISystem for world NewCave
+[2015.05.25-19.50.22:350][607]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.05.25-19.50.22:350][607]LogWorld: Bringing World /Game/Scene/UEDPIE_0_NewCave.NewCave up for play (max tick rate 0) at 2015.05.25-12.50.22
+[2015.05.25-19.50.22:352][607]LogWorld: Bringing up level for play took: 0.119182
+[2015.05.25-19.50.22:359][607]PIE: Info Play in editor start time for /Game/Scene/UEDPIE_0_NewCave 0.491
+[2015.05.25-19.50.22:371][607]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsThird_Person_Character'
+	SuccessScreen_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.SuccessScreen_C_1
+	Function /Game/GUI/SuccessScreen.SuccessScreen_C:ExecuteUbergraph_SuccessScreen:00D2
+[2015.05.25-19.50.25:277][842]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2015.05.25-19.50.25:299][842]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000004364180
+[2015.05.25-19.50.29:214][103]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2015.05.25-19.50.30:547][179]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.25-19.50.30:548][179]PIE: New page: PIE session: NewCave (May 25, 2015, 5:50:30 AM)
+[2015.05.25-19.50.30:626][179]LogPlayLevel: PIE: StaticDuplicateObject took: (0.077757s)
+[2015.05.25-19.50.30:627][179]LogPlayLevel: PIE: World Init took: (0.000762s)
+[2015.05.25-19.50.30:627][179]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/NewCave.NewCave to /Game/Scene/UEDPIE_0_NewCave.NewCave (0.078754s)
+[2015.05.25-19.50.30:669][179]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.05.25-19.50.30:671][179]LogAIModule: Creating AISystem for world NewCave
+[2015.05.25-19.50.30:787][179]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.05.25-19.50.30:787][179]LogWorld: Bringing World /Game/Scene/UEDPIE_0_NewCave.NewCave up for play (max tick rate 0) at 2015.05.25-12.50.30
+[2015.05.25-19.50.30:789][179]LogWorld: Bringing up level for play took: 0.116959
+[2015.05.25-19.50.30:796][179]PIE: Info Play in editor start time for /Game/Scene/UEDPIE_0_NewCave 0.928
+[2015.05.25-19.50.30:808][179]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsThird_Person_Character'
+	SuccessScreen_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.SuccessScreen_C_2
+	Function /Game/GUI/SuccessScreen.SuccessScreen_C:ExecuteUbergraph_SuccessScreen:00D2
+[2015.05.25-19.50.39:979][918]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000297CBA60
+[2015.05.25-19.50.49:401][377]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.05.25-19.50.49:417][377]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.05.25-19.50.49:423][377]LogMaterial: 0.000142 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.50.52:573][522]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2015.05.25-19.50.52:573][522]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 61 instructions
+[2015.05.25-19.50.52:574][522]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.25-19.50.52:574][522]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.05.25-19.50.58:465][815]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.05.25-19.50.58:478][815]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.05.25-19.50.58:489][815]LogMaterial: 0.000088 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.51.00:522][906]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2015.05.25-19.51.00:522][906]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 61 instructions
+[2015.05.25-19.51.00:522][906]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.25-19.51.00:522][906]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.05.25-19.51.03:292][ 32]LogMaterialEditor: Applying material Water
+[2015.05.25-19.51.04:675][ 32]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.05.25-19.51.04:701][ 32]LogMaterial: 0.000115 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.51.04:768][ 32]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.51.04:783][ 32]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.05.25-19.51.04:804][ 32]LogMaterial: 0.013619 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.25-19.51.11:764][390]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/waterplane" FILE="../../../../../../Documents/GitHub/God-Killer/Content/Models/waterplane.uasset" SILENT=true
+[2015.05.25-19.51.12:050][390]LogSavePackage: Save=283.878082ms
+[2015.05.25-19.51.12:050][390]LogSavePackage: Moving '../../../../../../Documents/GitHub/God-Killer/Saved/waterplane2F19B58F46DC8B80688FFCA46D6E4357.tmp' to '../../../../../../Documents/GitHub/God-Killer/Content/Models/waterplane.uasset'
+[2015.05.25-19.51.14:806][581]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2015.05.25-19.51.16:371][686]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.25-19.51.16:371][686]PIE: New page: PIE session: NewCave (May 25, 2015, 5:51:16 AM)
+[2015.05.25-19.51.16:451][686]LogPlayLevel: PIE: StaticDuplicateObject took: (0.079088s)
+[2015.05.25-19.51.16:452][686]LogPlayLevel: PIE: World Init took: (0.000768s)
+[2015.05.25-19.51.16:452][686]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/NewCave.NewCave to /Game/Scene/UEDPIE_0_NewCave.NewCave (0.080083s)
+[2015.05.25-19.51.16:508][686]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.05.25-19.51.16:510][686]LogAIModule: Creating AISystem for world NewCave
+[2015.05.25-19.51.16:641][686]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.05.25-19.51.16:641][686]LogWorld: Bringing World /Game/Scene/UEDPIE_0_NewCave.NewCave up for play (max tick rate 0) at 2015.05.25-12.51.16
+[2015.05.25-19.51.16:643][686]LogWorld: Bringing up level for play took: 0.132386
+[2015.05.25-19.51.16:650][686]PIE: Info Play in editor start time for /Game/Scene/UEDPIE_0_NewCave 0.782
+[2015.05.25-19.51.16:660][686]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsThird_Person_Character'
+	SuccessScreen_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.SuccessScreen_C_3
+	Function /Game/GUI/SuccessScreen.SuccessScreen_C:ExecuteUbergraph_SuccessScreen:00D2
+[2015.05.25-19.51.49:274][781]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000DDEF1A0
+[2015.05.25-19.51.49:274][781]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000DAAA0C0
+[2015.05.25-19.51.49:322][782]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D9151C0
+[2015.05.25-19.53.03:720][323]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2015.05.25-19.53.04:586][371]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.25-19.53.04:586][371]PIE: New page: PIE session: NewCave (May 25, 2015, 5:53:04 AM)
+[2015.05.25-19.53.04:666][371]LogPlayLevel: PIE: StaticDuplicateObject took: (0.079112s)
+[2015.05.25-19.53.04:667][371]LogPlayLevel: PIE: World Init took: (0.000770s)
+[2015.05.25-19.53.04:667][371]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/NewCave.NewCave to /Game/Scene/UEDPIE_0_NewCave.NewCave (0.080121s)
+[2015.05.25-19.53.04:708][371]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.05.25-19.53.04:710][371]LogAIModule: Creating AISystem for world NewCave
+[2015.05.25-19.53.04:827][371]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.05.25-19.53.04:827][371]LogWorld: Bringing World /Game/Scene/UEDPIE_0_NewCave.NewCave up for play (max tick rate 0) at 2015.05.25-12.53.04
+[2015.05.25-19.53.04:828][371]LogWorld: Bringing up level for play took: 0.117635
+[2015.05.25-19.53.04:835][371]LogArray:Warning: Attempted to get an item from array Pos out of bounds [6/5]!
+[2015.05.25-19.53.04:835][371]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	KeySpawner_C /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.KeySpawner_C_2
+	Function /Game/Key/KeySpawner.KeySpawner_C:ExecuteUbergraph_KeySpawner:0219
+[2015.05.25-19.53.04:835][371]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Construction Script in blueprint KeySpawner
+[2015.05.25-19.53.04:835][371]LogScript:Warning: Accessed None
+	KeySpawner_C /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.KeySpawner_C_2
+	Function /Game/Key/KeySpawner.KeySpawner_C:ExecuteUbergraph_KeySpawner:022F
+[2015.05.25-19.53.04:835][371]PIE:Error: Error Accessed None from node Construction Script in blueprint KeySpawner
+[2015.05.25-19.53.04:835][371]LogArray:Warning: Attempted to get an item from array Pos out of bounds [6/5]!
+[2015.05.25-19.53.04:835][371]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	KeySpawner_C /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.KeySpawner_C_2
+	Function /Game/Key/KeySpawner.KeySpawner_C:ExecuteUbergraph_KeySpawner:02E1
+[2015.05.25-19.53.04:835][371]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Construction Script in blueprint KeySpawner
+[2015.05.25-19.53.04:835][371]LogScript:Warning: Accessed None
+	KeySpawner_C /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.KeySpawner_C_2
+	Function /Game/Key/KeySpawner.KeySpawner_C:ExecuteUbergraph_KeySpawner:02F7
+[2015.05.25-19.53.04:835][371]PIE:Error: Error Accessed None from node Construction Script in blueprint KeySpawner
+[2015.05.25-19.53.04:836][371]PIE: Info Play in editor start time for /Game/Scene/UEDPIE_0_NewCave 0.969
+[2015.05.25-19.53.04:845][371]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsThird_Person_Character'
+	SuccessScreen_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.SuccessScreen_C_4
+	Function /Game/GUI/SuccessScreen.SuccessScreen_C:ExecuteUbergraph_SuccessScreen:00D2
+[2015.05.25-19.53.24:857][287]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000DD01760
+[2015.05.25-19.53.27:706][357]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene/NewCave" FILE="../../../../../../Documents/GitHub/God-Killer/Content/Scene/NewCave.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.05.25-19.53.29:166][357]LogSavePackage: Save=1236.522949ms
+[2015.05.25-19.53.29:166][357]LogSavePackage: Moving '../../../../../../Documents/GitHub/God-Killer/Saved/NewCave6855ECAE4379550BA83675A1F02817AB.tmp' to '../../../../../../Documents/GitHub/God-Killer/Content/Scene/NewCave.umap'
+[2015.05.25-19.53.29:223][357]LogFileHelpers: Saving map 'NewCave' took 1.873
+[2015.05.25-19.53.29:255][357]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Water" FILE="../../../../../../Documents/GitHub/God-Killer/Content/Textures/Water.uasset" SILENT=true
+[2015.05.25-19.53.29:541][357]LogSavePackage: Save=283.632904ms
+[2015.05.25-19.53.29:541][357]LogSavePackage: Moving '../../../../../../Documents/GitHub/God-Killer/Saved/Water4DF7D7CA41D2180D40456E856BAF0270.tmp' to '../../../../../../Documents/GitHub/God-Killer/Content/Textures/Water.uasset'
+[2015.05.25-19.53.31:108][446]Cmd: QUIT_EDITOR
+[2015.05.25-19.53.31:377][446]LogExit: Preparing to exit.
+[2015.05.25-19.53.31:588][446]LogExit: Editor shut down
+[2015.05.25-19.53.31:589][446]LogExit: Transaction tracking system shut down
+[2015.05.25-19.53.31:591][446]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000015191300
+[2015.05.25-19.53.31:593][446]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000027F1E3E0
+[2015.05.25-19.53.31:593][446]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000029309120
+[2015.05.25-19.53.31:593][446]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000026CD4540
+[2015.05.25-19.53.31:593][446]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000024F84B80
+[2015.05.25-19.53.31:593][446]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C29E840
+[2015.05.25-19.53.31:594][446]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C29E7A0
+[2015.05.25-19.53.31:594][446]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C29E160
+[2015.05.25-19.53.31:594][446]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C29DE40
+[2015.05.25-19.53.31:655][446]LogExit: Object subsystem successfully closed.
+[2015.05.25-19.53.31:751][446]LogModuleManager: Shutting down and abandoning module MaterialEditor (180)
+[2015.05.25-19.53.31:751][446]LogModuleManager: Shutting down and abandoning module TextureEditor (179)
+[2015.05.25-19.53.31:751][446]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (178)
+[2015.05.25-19.53.31:751][446]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.05.25-19.53.31:751][446]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.05.25-19.53.31:751][446]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.05.25-19.53.31:751][446]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.05.25-19.53.31:751][446]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.05.25-19.53.31:752][446]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.05.25-19.53.31:752][446]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.05.25-19.53.31:752][446]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.05.25-19.53.31:752][446]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.05.25-19.53.31:752][446]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.05.25-19.53.31:752][446]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.05.25-19.53.31:752][446]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.05.25-19.53.31:752][446]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.05.25-19.53.31:752][446]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.05.25-19.53.31:752][446]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.05.25-19.53.31:752][446]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.05.25-19.53.31:752][446]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.05.25-19.53.31:752][446]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.05.25-19.53.31:752][446]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.05.25-19.53.31:752][446]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.05.25-19.53.31:752][446]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.05.25-19.53.31:752][446]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.05.25-19.53.31:752][446]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.05.25-19.53.31:752][446]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.05.25-19.53.31:752][446]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.05.25-19.53.31:752][446]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.05.25-19.53.31:752][446]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.05.25-19.53.31:752][446]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.05.25-19.53.31:752][446]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.05.25-19.53.31:752][446]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.05.25-19.53.31:752][446]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.05.25-19.53.31:752][446]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.05.25-19.53.32:415][446]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.05.25-19.53.32:415][446]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.05.25-19.53.32:415][446]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.05.25-19.53.32:415][446]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.05.25-19.53.32:415][446]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.05.25-19.53.32:415][446]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.05.25-19.53.32:415][446]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.05.25-19.53.32:415][446]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.05.25-19.53.32:415][446]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.05.25-19.53.32:415][446]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.05.25-19.53.32:415][446]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.05.25-19.53.32:415][446]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.05.25-19.53.32:415][446]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.05.25-19.53.32:415][446]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.05.25-19.53.32:415][446]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.05.25-19.53.32:415][446]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.05.25-19.53.32:415][446]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.05.25-19.53.32:415][446]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.05.25-19.53.32:417][446]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.05.25-19.53.32:503][446]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.05.25-19.53.32:503][446]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.05.25-19.53.32:503][446]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.05.25-19.53.32:504][446]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.05.25-19.53.32:504][446]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.05.25-19.53.32:504][446]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.05.25-19.53.32:504][446]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.05.25-19.53.32:504][446]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.05.25-19.53.32:504][446]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.05.25-19.53.32:504][446]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.05.25-19.53.32:504][446]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.05.25-19.53.32:504][446]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.05.25-19.53.32:504][446]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.05.25-19.53.32:504][446]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.05.25-19.53.32:504][446]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.05.25-19.53.32:504][446]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.05.25-19.53.32:504][446]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.05.25-19.53.32:504][446]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.05.25-19.53.32:504][446]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.05.25-19.53.32:504][446]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.05.25-19.53.32:504][446]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.05.25-19.53.32:625][446]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.05.25-19.53.32:625][446]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.05.25-19.53.32:625][446]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.05.25-19.53.32:625][446]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.05.25-19.53.32:625][446]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.05.25-19.53.32:625][446]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.05.25-19.53.32:625][446]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.05.25-19.53.32:625][446]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.05.25-19.53.32:625][446]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.05.25-19.53.32:625][446]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.05.25-19.53.32:625][446]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.05.25-19.53.32:625][446]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.05.25-19.53.32:625][446]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.05.25-19.53.32:625][446]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.05.25-19.53.32:625][446]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.05.25-19.53.32:625][446]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.05.25-19.53.32:625][446]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.05.25-19.53.32:626][446]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.05.25-19.53.32:626][446]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.05.25-19.53.32:626][446]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.05.25-19.53.32:626][446]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.05.25-19.53.32:626][446]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.05.25-19.53.32:626][446]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.05.25-19.53.32:626][446]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.05.25-19.53.32:626][446]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.05.25-19.53.32:626][446]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.05.25-19.53.32:626][446]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.05.25-19.53.32:726][446]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.05.25-19.53.32:726][446]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.05.25-19.53.32:730][446]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.05.25-19.53.32:730][446]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.05.25-19.53.32:730][446]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.05.25-19.53.32:730][446]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.05.25-19.53.32:730][446]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.05.25-19.53.32:730][446]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.05.25-19.53.32:730][446]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.05.25-19.53.32:730][446]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.05.25-19.53.32:730][446]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.05.25-19.53.32:730][446]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.05.25-19.53.32:730][446]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.05.25-19.53.32:730][446]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.05.25-19.53.32:730][446]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.05.25-19.53.32:730][446]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.05.25-19.53.32:730][446]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.05.25-19.53.32:739][446]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.05.25-19.53.32:739][446]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.05.25-19.53.32:739][446]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.05.25-19.53.32:739][446]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.05.25-19.53.32:739][446]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.05.25-19.53.32:739][446]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.05.25-19.53.32:739][446]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.05.25-19.53.32:739][446]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.05.25-19.53.32:739][446]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.05.25-19.53.32:739][446]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.05.25-19.53.32:767][446]LogDerivedDataCache: Shutdown
+[2015.05.25-19.53.32:767][446]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.05.25-19.53.32:767][446]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.05.25-19.53.32:767][446]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.05.25-19.53.32:767][446]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.05.25-19.53.32:767][446]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.05.25-19.53.32:767][446]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.05.25-19.53.32:767][446]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.05.25-19.53.32:767][446]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.05.25-19.53.32:767][446]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.05.25-19.53.32:767][446]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.05.25-19.53.32:767][446]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.05.25-19.53.32:767][446]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.05.25-19.53.32:767][446]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.05.25-19.53.32:767][446]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.05.25-19.53.32:767][446]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.05.25-19.53.32:767][446]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.05.25-19.53.32:767][446]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.05.25-19.53.32:767][446]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.05.25-19.53.32:767][446]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.05.25-19.53.32:767][446]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.05.25-19.53.32:767][446]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.05.25-19.53.32:767][446]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.05.25-19.53.32:767][446]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.05.25-19.53.32:767][446]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.05.25-19.53.32:767][446]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.05.25-19.53.32:767][446]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.05.25-19.53.32:767][446]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.05.25-19.53.32:767][446]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.05.25-19.53.32:767][446]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.05.25-19.53.32:767][446]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.05.25-19.53.32:767][446]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.05.25-19.53.32:767][446]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.05.25-19.53.32:767][446]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.05.25-19.53.32:767][446]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.05.25-19.53.32:767][446]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.05.25-19.53.32:767][446]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.05.25-19.53.32:767][446]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.05.25-19.53.32:767][446]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.05.25-19.53.32:767][446]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.05.25-19.53.32:767][446]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.05.25-19.53.32:771][446]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.05.25-19.53.32:771][446]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.05.25-19.53.32:771][446]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.05.25-19.53.32:771][446]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.05.25-19.53.32:771][446]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.05.25-19.53.32:771][446]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.05.25-19.53.32:771][446]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.05.25-19.53.32:771][446]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.05.25-19.53.32:771][446]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.05.25-19.53.32:772][446]LogExit: Exiting.
+[2015.05.25-19.53.32:797][446]Log file closed, 05/25/15 12:53:32
