@@ -1,0 +1,141 @@
+﻿Log file open, 07/29/15 22:12:26
+LogInit:Display: Running engine for game: GodKiller
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.07.30-05.12.26:624][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2015.07.30-05.12.26:698][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.07.30-05.12.26:908][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.07.30-05.12.26:950][  0]LogInit: Object subsystem initialized
+[2015.07.30-05.12.26:956][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.07.30-05.12.26:956][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Samantha/Desktop/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.30-05.12.26:956][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.07.30-05.12.26:956][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Samantha/Desktop/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.30-05.12.26:956][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.07.30-05.12.26:957][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Samantha/Desktop/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.30-05.12.26:959][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.30-05.12.26:959][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.07.30-05.12.27:006][  0]LogInit: Computer: SAMANTHAPC
+[2015.07.30-05.12.27:006][  0]LogInit: User: Samantha
+[2015.07.30-05.12.27:006][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.07.30-05.12.27:006][  0]LogInit: High frequency timer resolution =2.240908 MHz
+[2015.07.30-05.12.27:007][  0]LogMemory: Memory total: Physical=5.9GB (6GB approx) Virtual=131072.0GB
+[2015.07.30-05.12.27:008][  0]LogMemory: Platform Memory Stats for Windows
+[2015.07.30-05.12.27:008][  0]LogMemory: Process Physical Memory: 46.19 MB used, 46.19 MB peak
+[2015.07.30-05.12.27:008][  0]LogMemory: Process Virtual Memory: 24.26 MB used, 24.27 MB peak
+[2015.07.30-05.12.27:008][  0]LogMemory: Physical Memory: 2380.77 MB used, 6027.63 MB total
+[2015.07.30-05.12.27:008][  0]LogMemory: Virtual Memory: 289.72 MB used, 134217728.00 MB total
+[2015.07.30-05.12.27:055][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics Family (Feature Level 11_0)
+[2015.07.30-05.12.27:055][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 1 output[s]
+[2015.07.30-05.12.27:059][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.07.30-05.12.27:059][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.07.30-05.12.27:059][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.07.30-05.12.27:072][  0]LogRHI: Texture pool is 638 MB (70% of 912 MB)
+[2015.07.30-05.12.27:088][  0]LogD3D11RHI: Async texture creation enabled
+[2015.07.30-05.12.28:287][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.07.30-05.12.28:603][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.07.30-05.12.28:604][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.07.30-05.12.28:930][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.07.30-05.12.44:618][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.07.30-05.12.49:757][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.07.30-05.12.50:362][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.07.30-05.12.51:589][  0]LogDerivedDataCache: Loaded boot cache 1.21s 39MB C:/Users/Samantha/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.07.30-05.12.51:589][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Samantha/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.07.30-05.12.51:590][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Samantha/Desktop/God-Killer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.07.30-05.12.51:590][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.07.30-05.12.52:683][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.07.30-05.12.52:926][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Samantha/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.07.30-05.13.15:510][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.07.30-05.13.15:511][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.07.30-05.13.21:676][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.07.30-05.13.24:168][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/UE4Editor-XAudio2.dll' because the file couldn't be loaded by the OS.
+[2015.07.30-05.13.24:757][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.07.30-05.13.59:751][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.07.30-05.14.01:260][  0]SourceControl: Info Source control is disabled
+[2015.07.30-05.14.01:260][  0]SourceControl: Info Source control is disabled
+[2015.07.30-05.14.01:260][  0]SourceControl: Info Source control is disabled
+[2015.07.30-05.14.01:260][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.07.30-05.14.01:278][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.07.30-05.14.01:313][  0]SourceControl: Info Source control is disabled
+[2015.07.30-05.14.03:436][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.07.30-05.14.03:436][  0]LogUObjectAllocator: 5137168 out of 0 bytes used by permanent object pool.
+[2015.07.30-05.14.04:610][  0]LogEngine: Initializing Engine...
+[2015.07.30-05.14.13:669][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/UE4Editor-XAudio2.dll' because the file couldn't be loaded by the OS.
+[2015.07.30-05.14.14:024][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.07.30-05.14.14:102][  0]LogDerivedDataCache: Saved boot cache 0.07s 39MB C:/Users/Samantha/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.07.30-05.14.14:121][  0]LogInit: Texture streaming: Enabled
+[2015.07.30-05.14.17:208][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.07.30-05.14.17:209][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.07.30-05.14.17:209][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.07.30-05.14.17:209][  0]LogAnalytics: SetUserId 46872bea408cfcc0100ac385d2b5ce07|e22a3db169b04f708165eaff958a9646|097015b1-a59a-4201-b460-717027cc9fe8
+[2015.07.30-05.14.17:228][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.07.30-05.14.17:671][  0]LogInit: Transaction tracking system initialized
+[2015.07.30-05.14.19:206][  0]BlueprintLog: New page: Editor Load
+[2015.07.30-05.14.19:376][  0]LogAssetRegistry: FAssetRegistry took 0.0116 seconds to start up
+[2015.07.30-05.14.19:496][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.07.30-05.14.23:667][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.07.30-05.14.25:602][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.07.30-05.14.28:125][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.07.30-05.14.28:127][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.07.30-05.14.28:353][  0]LogConsoleResponse:Display: 
+[2015.07.30-05.14.31:481][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.07.30-05.14.33:751][  0]SourceControl: Info Source control is disabled
+[2015.07.30-05.14.33:819][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Scene/NewCave.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.07.30-05.14.34:076][  0]LightingResults: New page: Lighting Build
+[2015.07.30-05.14.34:445][  0]MapCheck: New page: Map Check
+[2015.07.30-05.14.34:445][  0]LightingResults: New page: Lighting Build
+[2015.07.30-05.14.34:526][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A4879D7B00
+[2015.07.30-05.15.27:209][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.07.30-05.15.27:233][  0]LogAIModule: Creating AISystem for world NewCave
+[2015.07.30-05.15.27:262][  0]Cmd: MAP CHECKDEP
+[2015.07.30-05.15.27:263][  0]MapCheck: New page: NewCave - Jul 29, 2015, 3:15:27 PM
+[2015.07.30-05.15.27:931][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 667.199ms to complete.
+[2015.07.30-05.15.27:931][  0]LogFileHelpers: Loading map 'NewCave' took 54.121
+[2015.07.30-05.15.29:065][  0]LogCollectionManager: Loaded 0 collections in 0.010539 seconds
+[2015.07.30-05.15.29:134][  0]LogContentBrowser: Native class hierarchy populated in 0.0673 seconds. Added 1696 classes and 261 folders.
+[2015.07.30-05.15.30:070][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0089 seconds. Added 1 classes and 2 folders.
+[2015.07.30-05.15.30:911][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.07.30-05.15.30:928][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.07.30-05.15.31:091][  0]LogLoad: Full Startup: 192.87 seconds (BP compile: 12.15 seconds)
+[2015.07.30-05.15.32:898][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.07.30-05.15.35:133][  0]LogRenderer:Warning: Reallocating scene render targets to support 952x712 (Frame:3).
+[2015.07.30-05.15.38:542][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2015.07.30-05.15.39:022][  1]Cmd: UpdateLandscapeEditorData
+[2015.07.30-05.15.49:902][ 31]LogAssetRegistry: Asset discovery search completed in 90.5368 seconds
+[2015.07.30-05.17.38:787][401]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/MixamoAnimPack'
+[2015.07.30-05.17.40:757][420]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP'
+[2015.07.30-05.17.46:537][476]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Blueprints'
+[2015.07.30-05.29.19:052][323]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.07.30-05.29.19:827][323]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Scene/NewCave' took 0.804
+[2015.07.30-05.29.19:943][323]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2015.07.30-05.29.20:182][323]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2015.07.30-05.29.20:182][323]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2015.07.30-05.29.24:624][323]LogSavePackage: Save=4256.368164ms
+[2015.07.30-05.29.24:634][323]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/ThirdPersonCharacter_Auto1FAF33D1C422A50DE2F43AFBE6073D535.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto1.uasset'
+[2015.07.30-05.29.24:688][323]LogFileHelpers: Auto-saving content packages took 4.862
+[2015.07.30-05.33.56:368][651]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.30-05.34.41:539][690]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/Mobile/CreatingSigningCertAndProvisionTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.30-05.34.41:634][690]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/Mobile/InstallingiTunesTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.30-05.34.41:687][690]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/Mobile/SettingUpAndroidTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.30-05.35.51:123][651]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (newcave004)
+[2015.07.30-05.36.36:566][602]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.07.30-05.36.37:458][602]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2015.07.30-05.37.12:158][776]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.07.30-05.37.12:159][776]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.07.30-05.39.28:728][971]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A4F9174AE0
+[2015.07.30-05.39.28:794][971]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Scene/NewCave' took 0.345
+[2015.07.30-05.39.28:857][971]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2015.07.30-05.39.28:996][971]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2015.07.30-05.39.28:997][971]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2015.07.30-05.39.32:510][971]LogSavePackage: Save=3436.661865ms
+[2015.07.30-05.39.32:512][971]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/ThirdPersonCharacter_Auto2827936D54474106138DFC98A31E4108C.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Saved
