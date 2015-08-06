@@ -1,0 +1,523 @@
+﻿Log file open, 08/06/15 13:44:56
+LogInit:Display: Running engine for game: GodKiller
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.08.06-20.44.56:888][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2015.08.06-20.44.56:953][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.08.06-20.44.56:998][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.08.06-20.44.57:031][  0]LogInit: Object subsystem initialized
+[2015.08.06-20.44.57:037][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.08.06-20.44.57:037][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Samantha/Desktop/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.06-20.44.57:037][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.08.06-20.44.57:037][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Samantha/Desktop/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.06-20.44.57:038][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.08.06-20.44.57:038][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Samantha/Desktop/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.06-20.44.57:039][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.06-20.44.57:039][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.08.06-20.44.57:066][  0]LogInit: Computer: SAMANTHAPC
+[2015.08.06-20.44.57:066][  0]LogInit: User: Samantha
+[2015.08.06-20.44.57:067][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.08.06-20.44.57:067][  0]LogInit: High frequency timer resolution =2.240908 MHz
+[2015.08.06-20.44.57:067][  0]LogMemory: Memory total: Physical=5.9GB (6GB approx) Virtual=131072.0GB
+[2015.08.06-20.44.57:068][  0]LogMemory: Platform Memory Stats for Windows
+[2015.08.06-20.44.57:068][  0]LogMemory: Process Physical Memory: 46.28 MB used, 46.28 MB peak
+[2015.08.06-20.44.57:068][  0]LogMemory: Process Virtual Memory: 26.23 MB used, 26.23 MB peak
+[2015.08.06-20.44.57:068][  0]LogMemory: Physical Memory: 2551.02 MB used, 6027.63 MB total
+[2015.08.06-20.44.57:068][  0]LogMemory: Virtual Memory: 287.81 MB used, 134217728.00 MB total
+[2015.08.06-20.44.57:109][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics Family (Feature Level 11_0)
+[2015.08.06-20.44.57:109][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 1 output[s]
+[2015.08.06-20.44.57:112][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.08.06-20.44.57:112][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.08.06-20.44.57:112][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.08.06-20.44.57:133][  0]LogRHI: Texture pool is 638 MB (70% of 912 MB)
+[2015.08.06-20.44.57:148][  0]LogD3D11RHI: Async texture creation enabled
+[2015.08.06-20.44.57:299][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.08.06-20.44.57:539][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.08.06-20.44.57:540][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.08.06-20.44.57:819][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.08.06-20.45.04:714][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.08.06-20.45.06:359][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.08.06-20.45.06:484][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.08.06-20.45.06:560][  0]LogDerivedDataCache: Loaded boot cache 0.08s 39MB C:/Users/Samantha/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.08.06-20.45.06:560][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Samantha/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.08.06-20.45.06:560][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Samantha/Desktop/God-Killer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.08.06-20.45.06:560][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.08.06-20.45.06:833][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.08.06-20.45.06:847][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Samantha/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.08.06-20.45.07:380][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.08.06-20.45.07:380][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.08.06-20.45.08:582][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.08.06-20.45.10:850][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/UE4Editor-XAudio2.dll' because the file couldn't be loaded by the OS.
+[2015.08.06-20.45.11:108][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.08.06-20.45.13:749][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.08.06-20.45.14:148][  0]SourceControl: Info Source control is disabled
+[2015.08.06-20.45.14:149][  0]SourceControl: Info Source control is disabled
+[2015.08.06-20.45.14:149][  0]SourceControl: Info Source control is disabled
+[2015.08.06-20.45.14:149][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.08.06-20.45.14:149][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.08.06-20.45.14:170][  0]SourceControl: Info Source control is disabled
+[2015.08.06-20.45.14:820][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.08.06-20.45.14:820][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.08.06-20.45.15:120][  0]LogEngine: Initializing Engine...
+[2015.08.06-20.45.19:527][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/UE4Editor-XAudio2.dll' because the file couldn't be loaded by the OS.
+[2015.08.06-20.45.19:676][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.08.06-20.45.19:738][  0]LogDerivedDataCache: Saved boot cache 0.06s 39MB C:/Users/Samantha/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.08.06-20.45.19:754][  0]LogInit: Texture streaming: Enabled
+[2015.08.06-20.45.20:122][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.08.06-20.45.20:122][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.08.06-20.45.20:122][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.08.06-20.45.20:122][  0]LogAnalytics: SetUserId 46872bea408cfcc0100ac385d2b5ce07|e22a3db169b04f708165eaff958a9646|097015b1-a59a-4201-b460-717027cc9fe8
+[2015.08.06-20.45.20:123][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.08.06-20.45.20:225][  0]LogInit: Transaction tracking system initialized
+[2015.08.06-20.45.21:036][  0]BlueprintLog: New page: Editor Load
+[2015.08.06-20.45.21:178][  0]LogAssetRegistry: FAssetRegistry took 0.0107 seconds to start up
+[2015.08.06-20.45.21:180][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.08.06-20.45.22:966][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.08.06-20.45.23:947][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.08.06-20.45.24:636][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.08.06-20.45.24:637][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.08.06-20.45.24:650][  0]LogConsoleResponse:Display: 
+[2015.08.06-20.45.25:004][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.08.06-20.45.25:411][  0]SourceControl: Info Source control is disabled
+[2015.08.06-20.45.25:411][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Scene/NewCave.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.08.06-20.45.25:412][  0]LightingResults: New page: Lighting Build
+[2015.08.06-20.45.25:449][  0]MapCheck: New page: Map Check
+[2015.08.06-20.45.25:449][  0]LightingResults: New page: Lighting Build
+[2015.08.06-20.45.25:497][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006118863B00
+[2015.08.06-20.45.30:384][  0]LogBlueprint:Warning: [Gui] CreatePinForVariable: 'LightningUsed?' variable not found. Base class was probably changed.
+[2015.08.06-20.45.30:384][  0]LogBlueprint:Warning: [Gui] CreatePinForVariable: 'LightningUsed?' variable not found. Base class was probably changed.
+[2015.08.06-20.45.30:392][  0]LogBlueprint:Warning: [Gui] CreatePinForVariable: 'LightningUsed?' variable not found. Base class was probably changed.
+[2015.08.06-20.45.30:709][  0]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "LightningUsed?" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Set LightningUsed? 
+[2015.08.06-20.45.30:709][  0]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "LightningUsed?" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Get LightningUsed? 
+[2015.08.06-20.45.30:724][  0]LogBlueprint:Warning: [compiler] Warning [0038.00] Compile of Gui successful, but with 2 Warning(s) [in 186 ms]
+[2015.08.06-20.45.30:724][  0]LogBlueprint:Warning: [compiler] Warning [0038.00] Compile of Gui successful, but with 3 Warning(s) [in 0 ms]
+[2015.08.06-20.45.30:725][  0]LogBlueprint:Warning: [compiler] Warning [0038.00] Compile of Gui successful, but with 4 Warning(s) [in 0 ms]
+[2015.08.06-20.45.30:725][  0]LogBlueprint:Warning: [compiler] Warning [0038.00] Compile of Gui successful, but with 5 Warning(s) [in 0 ms]
+[2015.08.06-20.45.37:034][  0]LogBlueprint:Warning: [Gui] CreatePinForVariable: 'LightningUsed?' variable not found. Base class was probably changed.
+[2015.08.06-20.45.37:034][  0]LogBlueprint:Warning: [Gui] CreatePinForVariable: 'LightningUsed?' variable not found. Base class was probably changed.
+[2015.08.06-20.45.37:036][  0]LogBlueprint:Warning: [Gui] CreatePinForVariable: 'LightningUsed?' variable not found. Base class was probably changed.
+[2015.08.06-20.45.37:236][  0]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "LightningUsed?" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Set LightningUsed? 
+[2015.08.06-20.45.37:236][  0]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "LightningUsed?" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Get LightningUsed? 
+[2015.08.06-20.45.37:257][  0]LogBlueprint:Warning: [compiler] Warning [0044.53] Compile of Gui successful, but with 2 Warning(s) [in 210 ms]
+[2015.08.06-20.45.37:258][  0]LogBlueprint:Warning: [compiler] Warning [0044.53] Compile of Gui successful, but with 3 Warning(s) [in 0 ms]
+[2015.08.06-20.45.44:379][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.08.06-20.45.44:380][  0]LogAIModule: Creating AISystem for world NewCave
+[2015.08.06-20.45.44:382][  0]Cmd: MAP CHECKDEP
+[2015.08.06-20.45.44:382][  0]MapCheck: New page: NewCave - Aug 6, 2015, 6:45:44 AM
+[2015.08.06-20.45.44:836][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 453.062ms to complete.
+[2015.08.06-20.45.44:836][  0]LogFileHelpers: Loading map 'NewCave' took 19.425
+[2015.08.06-20.45.45:018][  0]LogCollectionManager: Loaded 0 collections in 0.005726 seconds
+[2015.08.06-20.45.45:049][  0]LogContentBrowser: Native class hierarchy populated in 0.0307 seconds. Added 1696 classes and 261 folders.
+[2015.08.06-20.45.45:296][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0072 seconds. Added 1 classes and 2 folders.
+[2015.08.06-20.45.45:468][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.08.06-20.45.45:472][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.08.06-20.45.45:539][  0]LogLoad: Full Startup: 52.82 seconds (BP compile: 8.29 seconds)
+[2015.08.06-20.45.45:587][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Key/Skeleton/NewModel/Anim'
+[2015.08.06-20.45.46:220][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.08.06-20.45.47:277][  0]LogRenderer:Warning: Reallocating scene render targets to support 912x712 (Frame:3).
+[2015.08.06-20.45.49:549][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2015.08.06-20.45.49:552][  1]Cmd: UpdateLandscapeEditorData
+[2015.08.06-20.45.50:241][  1]LogLinker:Warning: Can't find file '/Game/Models/Skeleton/NewModel/Anim/SkeletonMesh'
+[2015.08.06-20.45.50:243][  1]LogLinker:Warning: Can't find file '/Game/Models/Skeleton/NewModel/Anim/SkeletonMesh'
+[2015.08.06-20.45.50:243][  1]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Models/Skeleton/NewModel/Anim/SkeletonMesh.SkeletonMesh'
+[2015.08.06-20.45.50:733][  3]LogLinker:Warning: Can't find file '/Game/Models/Skeleton/NewModel/Anim/SkeletonMesh'
+[2015.08.06-20.45.50:736][  3]LogLinker:Warning: Can't find file '/Game/Models/Skeleton/NewModel/Anim/SkeletonMesh'
+[2015.08.06-20.45.50:736][  3]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Models/Skeleton/NewModel/Anim/SkeletonMesh.SkeletonMesh'
+[2015.08.06-20.45.50:904][  4]LogLinker:Warning: Can't find file '/Game/Models/Skeleton/NewModel/Anim/SkeletonMesh'
+[2015.08.06-20.45.50:905][  4]LogLinker:Warning: Can't find file '/Game/Models/Skeleton/NewModel/Anim/SkeletonMesh'
+[2015.08.06-20.45.50:906][  4]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Models/Skeleton/NewModel/Anim/SkeletonMesh.SkeletonMesh'
+[2015.08.06-20.45.51:289][  5]LogLinker:Warning: Can't find file '/Game/Models/Skeleton/NewModel/Anim/SkeletonMesh'
+[2015.08.06-20.45.51:290][  5]LogLinker:Warning: Can't find file '/Game/Models/Skeleton/NewModel/Anim/SkeletonMesh'
+[2015.08.06-20.45.51:291][  5]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Models/Skeleton/NewModel/Anim/SkeletonMesh.SkeletonMesh'
+[2015.08.06-20.45.54:393][ 33]LogAssetRegistry: Asset discovery search completed in 33.2253 seconds
+[2015.08.06-20.45.56:083][ 47]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.06-20.45.56:083][ 47]LogPlayLevel: [PIE] Compiling NewCave before PIE...
+[2015.08.06-20.45.56:751][ 47]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.06-20.45.56:752][ 47]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.08.06-20.45.56:988][ 47]LogPlayLevel: PIE:  Blueprint regeneration took 905 ms (1 blueprints)
+[2015.08.06-20.45.56:988][ 47]PIE: New page: PIE session: NewCave (Aug 6, 2015, 6:45:56 AM)
+[2015.08.06-20.45.57:155][ 47]LogPlayLevel: PIE: StaticDuplicateObject took: (0.166361s)
+[2015.08.06-20.45.57:157][ 47]LogPlayLevel: PIE: World Init took: (0.001652s)
+[2015.08.06-20.45.57:158][ 47]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/NewCave.NewCave to /Game/Scene/UEDPIE_0_NewCave.NewCave (0.168926s)
+[2015.08.06-20.45.57:274][ 47]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.08.06-20.45.57:279][ 47]LogAIModule: Creating AISystem for world NewCave
+[2015.08.06-20.45.58:376][ 47]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.08.06-20.45.58:376][ 47]LogWorld: Bringing World /Game/Scene/UEDPIE_0_NewCave.NewCave up for play (max tick rate 60) at 2015.08.06-13.45.58
+[2015.08.06-20.45.58:385][ 47]LogWorld: Bringing up level for play took: 1.104697
+[2015.08.06-20.45.58:415][ 47]PIE: Info Play in editor start time for /Game/Scene/UEDPIE_0_NewCave 3.11
+[2015.08.06-20.45.58:790][ 47]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsThird_Person_Character2'
+	SuccessScreen_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SuccessScreen_C_0
+	Function /Game/GUI/SuccessScreen.SuccessScreen_C:ExecuteUbergraph_SuccessScreen:00D2
+[2015.08.06-20.46.10:368][145]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006129429940
+[2015.08.06-20.46.25:192][263]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.06-20.46.25:193][263]LogPlayLevel: [PIE] Compiling NewCave before PIE...
+[2015.08.06-20.46.25:476][263]LogPlayLevel: PIE:  Blueprint regeneration took 282 ms (1 blueprints)
+[2015.08.06-20.46.25:476][263]PIE: New page: PIE session: NewCave (Aug 6, 2015, 6:46:25 AM)
+[2015.08.06-20.46.25:638][263]LogPlayLevel: PIE: StaticDuplicateObject took: (0.161049s)
+[2015.08.06-20.46.25:641][263]LogPlayLevel: PIE: World Init took: (0.002556s)
+[2015.08.06-20.46.25:642][263]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/NewCave.NewCave to /Game/Scene/UEDPIE_0_NewCave.NewCave (0.164556s)
+[2015.08.06-20.46.25:713][263]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.08.06-20.46.25:716][263]LogAIModule: Creating AISystem for world NewCave
+[2015.08.06-20.46.26:014][263]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.08.06-20.46.26:014][263]LogWorld: Bringing World /Game/Scene/UEDPIE_0_NewCave.NewCave up for play (max tick rate 60) at 2015.08.06-13.46.26
+[2015.08.06-20.46.26:022][263]LogWorld: Bringing up level for play took: 0.304718
+[2015.08.06-20.46.26:055][263]PIE: Info Play in editor start time for /Game/Scene/UEDPIE_0_NewCave 0.75
+[2015.08.06-20.46.26:086][263]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsThird_Person_Character2'
+	SuccessScreen_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.SuccessScreen_C_1
+	Function /Game/GUI/SuccessScreen.SuccessScreen_C:ExecuteUbergraph_SuccessScreen:00D2
+[2015.08.06-20.46.35:799][346]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000611B6EDDA0
+[2015.08.06-20.46.40:926][374]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP'
+[2015.08.06-20.46.43:204][389]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Blueprints'
+[2015.08.06-20.47.35:206][986]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.06-20.47.39:366][986]LogSavePackage: Save=3643.839844ms
+[2015.08.06-20.47.39:366][986]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/ThirdPersonCharacter142AA9024E9B66547E7EC39DBDDE6E23.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2015.08.06-20.47.39:982][997]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2015.08.06-20.47.41:520][997]LogBlueprint:Warning: [Gui] CreatePinForVariable: 'LightningUsed?' variable not found. Base class was probably changed.
+[2015.08.06-20.47.41:521][997]LogBlueprint:Warning: [Gui] CreatePinForVariable: 'LightningUsed?' variable not found. Base class was probably changed.
+[2015.08.06-20.47.41:523][997]LogBlueprint:Warning: [Gui] CreatePinForVariable: 'LightningUsed?' variable not found. Base class was probably changed.
+[2015.08.06-20.47.41:739][997]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.06-20.47.42:020][997]BlueprintEditorCompileResults: Info [0169.30] Compile of ThirdPersonCharacter successful! [in 2,036 ms]
+[2015.08.06-20.47.46:764][ 29]LogSavePackage: Save=2896.462402ms
+[2015.08.06-20.47.46:767][ 29]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/ThirdPersonCharacter714545A94C9477827FB362AC6B03BEF3.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2015.08.06-20.47.50:881][ 59]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.06-20.47.50:896][ 59]LogPlayLevel: [PIE] Compiling Enemy1 before PIE...
+[2015.08.06-20.47.51:601][ 59]LogPlayLevel: [PIE] Compiling Door_Blueprint before PIE...
+[2015.08.06-20.47.51:845][ 59]LogPlayLevel: [PIE] Compiling Key before PIE...
+[2015.08.06-20.47.52:146][ 59]LogPlayLevel: [PIE] Compiling MixamoAnimBP_Vampire before PIE...
+[2015.08.06-20.47.52:900][ 59]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.06-20.47.53:026][ 59]LogPlayLevel: [PIE] Compiling NewCave before PIE...
+[2015.08.06-20.47.53:235][ 59]LogPlayLevel: [PIE] Compiling DeathScreen before PIE...
+[2015.08.06-20.47.53:627][ 59]LogPlayLevel: [PIE] Compiling Gui before PIE...
+[2015.08.06-20.47.53:881][ 59]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "LightningUsed?" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Set LightningUsed? 
+[2015.08.06-20.47.53:881][ 59]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "LightningUsed?" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Get LightningUsed? 
+[2015.08.06-20.47.53:926][ 59]LogBlueprint:Error: [compiler] Error Binding: Property ' bIsEnabledDelegate ' on Widget ' Aura_Image ': Binding: 'player.AuraUsed?' : 'AuraUsed?' was not found on 'Third Person Character'.
+[2015.08.06-20.47.53:927][ 59]LogBlueprint:Error: [compiler] Error Binding: Property ' bIsEnabledDelegate ' on Widget ' Heal_Image ': Binding: 'player.HealUsed?' : 'HealUsed?' was not found on 'Third Person Character'.
+[2015.08.06-20.47.54:384][ 59]LogBlueprint:Warning: [compiler] Warning [0181.66] Compile of Gui failed. 2 Fatal Issue(s) 2 Warning(s) [in 684 ms]
+[2015.08.06-20.47.54:385][ 59]LogBlueprint:Warning: [compiler] Warning [0181.66] Compile of Gui failed. 2 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2015.08.06-20.47.54:386][ 59]LogBlueprint:Warning: [compiler] Warning [0181.66] Compile of Gui failed. 2 Fatal Issue(s) 4 Warning(s) [in 0 ms]
+[2015.08.06-20.47.54:409][ 59]LogBlueprint:Warning: [compiler] Warning [0181.68] Compile of Gui failed. 2 Fatal Issue(s) 5 Warning(s) [in 22 ms]
+[2015.08.06-20.47.54:449][ 59]LogBlueprint:Warning: [compiler] Warning [0181.72] Compile of Gui failed. 2 Fatal Issue(s) 6 Warning(s) [in 39 ms]
+[2015.08.06-20.47.54:449][ 59]LogBlueprint:Warning: [compiler] Warning [0181.72] Compile of Gui failed. 2 Fatal Issue(s) 7 Warning(s) [in 0 ms]
+[2015.08.06-20.47.54:467][ 59]LogPlayLevel: [PIE] Compiling SuccessScreen before PIE...
+[2015.08.06-20.47.54:780][ 59]LogPlayLevel: [PIE] Compiling GnawmersHealth before PIE...
+[2015.08.06-20.47.55:015][ 59]LogPlayLevel: [PIE] Compiling ThirdPersonCharacter before PIE...
+[2015.08.06-20.47.56:354][ 59]LogBlueprint:Warning: [Gui] CreatePinForVariable: 'LightningUsed?' variable not found. Base class was probably changed.
+[2015.08.06-20.47.56:354][ 59]LogBlueprint:Warning: [Gui] CreatePinForVariable: 'LightningUsed?' variable not found. Base class was probably changed.
+[2015.08.06-20.47.56:357][ 59]LogBlueprint:Warning: [Gui] CreatePinForVariable: 'LightningUsed?' variable not found. Base class was probably changed.
+[2015.08.06-20.47.56:866][ 59]LogPlayLevel: PIE:  Blueprint regeneration took 5984 ms (10 blueprints)
+[2015.08.06-20.48.01:535][ 59]BlueprintLog: Info Blueprint Gui failed to compile
+[2015.08.06-20.48.03:407][ 61]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/GUI'
+[2015.08.06-20.48.28:365][301]BlueprintLog: New page: Compile Gui
+[2015.08.06-20.48.28:623][301]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "LightningUsed?" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Set LightningUsed? 
+[2015.08.06-20.48.28:624][301]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "LightningUsed?" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Get LightningUsed? 
+[2015.08.06-20.48.28:644][301]LogBlueprint:Error: [compiler] Error Binding: Property ' bIsEnabledDelegate ' on Widget ' Aura_Image ': Binding: 'player.AuraUsed?' : 'AuraUsed?' was not found on 'Third Person Character'.
+[2015.08.06-20.48.28:645][301]LogBlueprint:Error: [compiler] Error Binding: Property ' bIsEnabledDelegate ' on Widget ' Heal_Image ': Binding: 'player.HealUsed?' : 'HealUsed?' was not found on 'Third Person Character'.
+[2015.08.06-20.48.29:148][301]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.06-20.48.29:364][301]LogBlueprint:Warning: [compiler] Warning [0216.64] Compile of Gui failed. 2 Fatal Issue(s) 2 Warning(s) [in 998 ms]
+[2015.08.06-20.48.29:364][301]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "LightningUsed?" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Set LightningUsed? 
+[2015.08.06-20.48.29:364][301]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "LightningUsed?" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Get LightningUsed? 
+[2015.08.06-20.48.29:365][301]BlueprintEditorCompileResults:Error: Error Binding: Property ' bIsEnabledDelegate ' on Widget ' Aura_Image ': Binding: 'player.AuraUsed?' : 'AuraUsed?' was not found on 'Third Person Character'.
+[2015.08.06-20.48.29:365][301]BlueprintEditorCompileResults:Error: Error Binding: Property ' bIsEnabledDelegate ' on Widget ' Heal_Image ': Binding: 'player.HealUsed?' : 'HealUsed?' was not found on 'Third Person Character'.
+[2015.08.06-20.48.29:365][301]BlueprintEditorCompileResults:Warning: Warning [0216.64] Compile of Gui failed. 2 Fatal Issue(s) 2 Warning(s) [in 998 ms]
+[2015.08.06-20.49.41:172][534]BlueprintLog: New page: Compile Gui
+[2015.08.06-20.49.41:497][534]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "LightningUsed?" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Set LightningUsed? 
+[2015.08.06-20.49.41:498][534]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "LightningUsed?" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Get LightningUsed? 
+[2015.08.06-20.49.42:038][534]LogBlueprint:Warning: [compiler] Warning [0289.31] Compile of Gui successful, but with 2 Warning(s) [in 866 ms]
+[2015.08.06-20.49.42:038][534]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "LightningUsed?" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Set LightningUsed? 
+[2015.08.06-20.49.42:038][534]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "LightningUsed?" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Get LightningUsed? 
+[2015.08.06-20.49.42:039][534]BlueprintEditorCompileResults:Warning: Warning [0289.31] Compile of Gui successful, but with 2 Warning(s) [in 866 ms]
+[2015.08.06-20.50.38:659][ 11]BlueprintLog: New page: Compile Gui
+[2015.08.06-20.50.38:950][ 11]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "LightningUsed?" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Set LightningUsed? 
+[2015.08.06-20.50.38:950][ 11]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "LightningUsed?" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Get LightningUsed? 
+[2015.08.06-20.50.39:472][ 11]LogBlueprint:Warning: [compiler] Warning [0346.75] Compile of Gui successful, but with 2 Warning(s) [in 811 ms]
+[2015.08.06-20.50.39:472][ 11]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "LightningUsed?" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Set LightningUsed? 
+[2015.08.06-20.50.39:473][ 11]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "LightningUsed?" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Get LightningUsed? 
+[2015.08.06-20.50.39:473][ 11]BlueprintEditorCompileResults:Warning: Warning [0346.75] Compile of Gui successful, but with 2 Warning(s) [in 811 ms]
+[2015.08.06-20.51.07:328][651]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2015.08.06-20.51.08:568][651]LogBlueprint:Warning: [Gui] CreatePinForVariable: 'LightningUsed?' variable not found. Base class was probably changed.
+[2015.08.06-20.51.08:568][651]LogBlueprint:Warning: [Gui] CreatePinForVariable: 'LightningUsed?' variable not found. Base class was probably changed.
+[2015.08.06-20.51.08:570][651]LogBlueprint:Warning: [Gui] CreatePinForVariable: 'LightningUsed?' variable not found. Base class was probably changed.
+[2015.08.06-20.51.08:999][651]BlueprintEditorCompileResults: Info [0376.28] Compile of ThirdPersonCharacter successful! [in 1,671 ms]
+[2015.08.06-20.51.09:462][657]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2015.08.06-20.51.10:704][657]LogBlueprint:Warning: [Gui] CreatePinForVariable: 'LightningUsed?' variable not found. Base class was probably changed.
+[2015.08.06-20.51.10:704][657]LogBlueprint:Warning: [Gui] CreatePinForVariable: 'LightningUsed?' variable not found. Base class was probably changed.
+[2015.08.06-20.51.10:708][657]LogBlueprint:Warning: [Gui] CreatePinForVariable: 'LightningUsed?' variable not found. Base class was probably changed.
+[2015.08.06-20.51.11:280][657]BlueprintEditorCompileResults: Info [0378.56] Compile of ThirdPersonCharacter successful! [in 1,817 ms]
+[2015.08.06-20.51.13:244][699]BlueprintLog: New page: Compile Gui
+[2015.08.06-20.51.13:513][699]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "LightningUsed?" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Set LightningUsed? 
+[2015.08.06-20.51.13:514][699]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "LightningUsed?" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Get LightningUsed? 
+[2015.08.06-20.51.14:054][699]LogBlueprint:Warning: [compiler] Warning [0381.33] Compile of Gui successful, but with 2 Warning(s) [in 809 ms]
+[2015.08.06-20.51.14:055][699]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "LightningUsed?" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Set LightningUsed? 
+[2015.08.06-20.51.14:055][699]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "LightningUsed?" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Get LightningUsed? 
+[2015.08.06-20.51.14:055][699]BlueprintEditorCompileResults:Warning: Warning [0381.33] Compile of Gui successful, but with 2 Warning(s) [in 809 ms]
+[2015.08.06-20.52.00:577][121]BlueprintLog: New page: Compile Gui
+[2015.08.06-20.52.01:381][121]BlueprintEditorCompileResults: Info [0428.66] Compile of Gui successful! [in 803 ms]
+[2015.08.06-20.52.05:298][247]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GUI/Gui" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/GUI/Gui.uasset" SILENT=true
+[2015.08.06-20.52.06:122][247]LogSavePackage: Save=722.815491ms
+[2015.08.06-20.52.06:123][247]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/Gui1658B68C49230B876D55BCAEFEBD1B36.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/GUI/Gui.uasset'
+[2015.08.06-20.52.25:821][926]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2015.08.06-20.52.27:673][926]BlueprintEditorCompileResults: Info [0454.95] Compile of ThirdPersonCharacter successful! [in 1,851 ms]
+[2015.08.06-20.52.33:776][988]LogSavePackage: Save=3089.216064ms
+[2015.08.06-20.52.33:776][988]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/ThirdPersonCharacter7C5B0186468DC1F7C4784180907E17AE.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2015.08.06-20.52.41:276][ 74]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene/NewCave" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Scene/NewCave.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.08.06-20.52.41:283][ 74]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.06-20.52.46:624][ 74]LogSavePackage: Save=5099.053711ms
+[2015.08.06-20.52.46:624][ 74]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/NewCave48405B0C401256A44D5D11ACB8B12C40.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/Scene/NewCave.umap'
+[2015.08.06-20.52.59:794][170]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.06-20.52.59:815][170]LogPlayLevel: [PIE] Compiling Enemy1 before PIE...
+[2015.08.06-20.53.00:518][170]LogPlayLevel: [PIE] Compiling Door_Blueprint before PIE...
+[2015.08.06-20.53.00:752][170]LogPlayLevel: [PIE] Compiling Key before PIE...
+[2015.08.06-20.53.01:015][170]LogPlayLevel: [PIE] Compiling MixamoAnimBP_Vampire before PIE...
+[2015.08.06-20.53.01:813][170]LogPlayLevel: [PIE] Compiling NewCave before PIE...
+[2015.08.06-20.53.02:001][170]LogPlayLevel: [PIE] Compiling DeathScreen before PIE...
+[2015.08.06-20.53.02:405][170]LogPlayLevel: [PIE] Compiling Gui before PIE...
+[2015.08.06-20.53.02:945][170]LogPlayLevel: [PIE] Compiling SuccessScreen before PIE...
+[2015.08.06-20.53.03:238][170]LogPlayLevel: [PIE] Compiling GnawmersHealth before PIE...
+[2015.08.06-20.53.03:519][170]LogPlayLevel: [PIE] Compiling ThirdPersonCharacter before PIE...
+[2015.08.06-20.53.05:645][170]LogPlayLevel: PIE:  Blueprint regeneration took 5851 ms (10 blueprints)
+[2015.08.06-20.53.05:645][170]PIE: New page: PIE session: NewCave (Aug 6, 2015, 6:53:05 AM)
+[2015.08.06-20.53.05:827][170]LogPlayLevel: PIE: StaticDuplicateObject took: (0.180112s)
+[2015.08.06-20.53.05:830][170]LogPlayLevel: PIE: World Init took: (0.002166s)
+[2015.08.06-20.53.05:830][170]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/NewCave.NewCave to /Game/Scene/UEDPIE_0_NewCave.NewCave (0.183174s)
+[2015.08.06-20.53.05:915][170]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.08.06-20.53.05:919][170]LogAIModule: Creating AISystem for world NewCave
+[2015.08.06-20.53.06:198][170]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.08.06-20.53.06:198][170]LogWorld: Bringing World /Game/Scene/UEDPIE_0_NewCave.NewCave up for play (max tick rate 60) at 2015.08.06-13.53.06
+[2015.08.06-20.53.06:205][170]LogWorld: Bringing up level for play took: 0.285282
+[2015.08.06-20.53.06:233][170]PIE: Info Play in editor start time for /Game/Scene/UEDPIE_0_NewCave 6.928
+[2015.08.06-20.53.06:284][170]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsThird_Person_Character2'
+	SuccessScreen_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.SuccessScreen_C_0
+	Function /Game/GUI/SuccessScreen.SuccessScreen_C:ExecuteUbergraph_SuccessScreen:00D2
+[2015.08.06-20.53.16:979][254]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.06-20.53.17:133][254]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006146F7A020
+[2015.08.06-20.53.21:725][287]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene/NewCave" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Scene/NewCave.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.08.06-20.53.27:551][287]LogSavePackage: Save=5626.947754ms
+[2015.08.06-20.53.27:551][287]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/NewCave10D8A2E748D28650988AF6AB8B671B10.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/Scene/NewCave.umap'
+[2015.08.06-20.54.08:184][507]Cmd: QUIT_EDITOR
+[2015.08.06-20.54.09:141][507]LogExit: Preparing to exit.
+[2015.08.06-20.54.10:332][507]LogExit: Editor shut down
+[2015.08.06-20.54.10:334][507]LogExit: Transaction tracking system shut down
+[2015.08.06-20.54.10:355][507]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006109FFA160
+[2015.08.06-20.54.10:359][507]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000061203FD580
+[2015.08.06-20.54.10:360][507]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006109FF9800
+[2015.08.06-20.54.10:361][507]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000611C4B8C20
+[2015.08.06-20.54.10:366][507]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000612856A480
+[2015.08.06-20.54.10:366][507]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000612AB37B00
+[2015.08.06-20.54.10:366][507]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000611E54B4C0
+[2015.08.06-20.54.10:366][507]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000612942B420
+[2015.08.06-20.54.10:367][507]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006129429EE0
+[2015.08.06-20.54.10:367][507]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000612939B240
+[2015.08.06-20.54.10:367][507]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000061293EBEC0
+[2015.08.06-20.54.10:368][507]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006109FFAD40
+[2015.08.06-20.54.10:786][507]LogExit: Object subsystem successfully closed.
+[2015.08.06-20.54.11:046][507]LogModuleManager: Shutting down and abandoning module SequencerWidgets (178)
+[2015.08.06-20.54.11:046][507]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.08.06-20.54.11:046][507]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.08.06-20.54.11:046][507]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.08.06-20.54.11:046][507]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.08.06-20.54.11:046][507]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.08.06-20.54.11:046][507]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.08.06-20.54.11:046][507]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.08.06-20.54.11:046][507]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.08.06-20.54.11:047][507]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.08.06-20.54.11:048][507]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.08.06-20.54.11:048][507]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.08.06-20.54.11:048][507]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.08.06-20.54.11:048][507]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.08.06-20.54.11:048][507]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.08.06-20.54.11:048][507]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.08.06-20.54.11:048][507]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.08.06-20.54.11:048][507]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.08.06-20.54.11:048][507]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.08.06-20.54.11:048][507]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.08.06-20.54.11:053][507]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.08.06-20.54.11:053][507]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.08.06-20.54.11:053][507]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.08.06-20.54.11:053][507]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.08.06-20.54.11:053][507]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.08.06-20.54.11:053][507]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.08.06-20.54.11:053][507]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.08.06-20.54.11:053][507]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.08.06-20.54.11:053][507]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.08.06-20.54.11:053][507]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.08.06-20.54.11:053][507]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.08.06-20.54.11:053][507]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.08.06-20.54.11:053][507]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.08.06-20.54.11:535][507]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.08.06-20.54.11:535][507]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.08.06-20.54.11:535][507]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.08.06-20.54.11:535][507]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.08.06-20.54.11:535][507]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.08.06-20.54.11:536][507]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.08.06-20.54.11:536][507]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.08.06-20.54.11:536][507]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.08.06-20.54.11:536][507]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.08.06-20.54.11:536][507]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.08.06-20.54.11:536][507]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.08.06-20.54.11:536][507]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.08.06-20.54.11:536][507]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.08.06-20.54.11:536][507]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.08.06-20.54.11:536][507]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.08.06-20.54.11:537][507]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.08.06-20.54.11:537][507]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.08.06-20.54.11:537][507]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.08.06-20.54.11:537][507]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.08.06-20.54.11:740][507]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.08.06-20.54.11:740][507]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.08.06-20.54.11:740][507]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.08.06-20.54.11:742][507]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.08.06-20.54.11:742][507]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.08.06-20.54.11:743][507]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.08.06-20.54.11:743][507]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.08.06-20.54.11:743][507]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.08.06-20.54.11:743][507]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.08.06-20.54.11:743][507]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.08.06-20.54.11:743][507]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.08.06-20.54.11:743][507]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.08.06-20.54.11:743][507]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.08.06-20.54.11:743][507]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.08.06-20.54.11:743][507]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.08.06-20.54.11:743][507]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.08.06-20.54.11:743][507]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.08.06-20.54.11:743][507]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.08.06-20.54.11:743][507]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.08.06-20.54.11:743][507]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.08.06-20.54.11:743][507]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.08.06-20.54.11:954][507]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.08.06-20.54.11:954][507]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.08.06-20.54.11:954][507]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.08.06-20.54.11:955][507]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.08.06-20.54.11:955][507]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.08.06-20.54.11:955][507]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.08.06-20.54.11:955][507]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.08.06-20.54.11:955][507]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.08.06-20.54.11:955][507]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.08.06-20.54.11:955][507]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.08.06-20.54.11:955][507]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.08.06-20.54.11:955][507]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.08.06-20.54.11:955][507]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.08.06-20.54.11:956][507]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.08.06-20.54.11:957][507]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.08.06-20.54.11:957][507]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.08.06-20.54.11:957][507]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.08.06-20.54.11:957][507]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.08.06-20.54.11:957][507]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.08.06-20.54.11:957][507]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.08.06-20.54.11:957][507]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.08.06-20.54.11:957][507]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.08.06-20.54.11:957][507]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.08.06-20.54.11:957][507]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.08.06-20.54.11:961][507]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.08.06-20.54.11:961][507]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.08.06-20.54.11:961][507]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.08.06-20.54.12:062][507]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.08.06-20.54.12:062][507]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.08.06-20.54.12:077][507]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.08.06-20.54.12:077][507]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.08.06-20.54.12:078][507]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.08.06-20.54.12:078][507]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.08.06-20.54.12:078][507]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.08.06-20.54.12:079][507]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.08.06-20.54.12:079][507]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.08.06-20.54.12:079][507]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.08.06-20.54.12:079][507]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.08.06-20.54.12:079][507]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.08.06-20.54.12:079][507]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.08.06-20.54.12:079][507]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.08.06-20.54.12:079][507]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.08.06-20.54.12:079][507]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.08.06-20.54.12:079][507]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.08.06-20.54.12:098][507]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.08.06-20.54.12:098][507]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.08.06-20.54.12:098][507]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.08.06-20.54.12:098][507]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.08.06-20.54.12:098][507]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.08.06-20.54.12:098][507]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.08.06-20.54.12:098][507]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.08.06-20.54.12:098][507]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.08.06-20.54.12:098][507]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.08.06-20.54.12:191][507]LogDerivedDataCache: Shutdown
+[2015.08.06-20.54.12:191][507]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.08.06-20.54.12:191][507]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.08.06-20.54.12:191][507]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.08.06-20.54.12:191][507]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.08.06-20.54.12:191][507]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.08.06-20.54.12:191][507]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.08.06-20.54.12:191][507]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.08.06-20.54.12:192][507]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.08.06-20.54.12:192][507]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.08.06-20.54.12:192][507]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.08.06-20.54.12:192][507]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.08.06-20.54.12:192][507]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.08.06-20.54.12:192][507]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.08.06-20.54.12:192][507]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.08.06-20.54.12:192][507]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.08.06-20.54.12:192][507]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.08.06-20.54.12:192][507]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.08.06-20.54.12:192][507]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.08.06-20.54.12:192][507]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.08.06-20.54.12:193][507]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.08.06-20.54.12:193][507]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.08.06-20.54.12:193][507]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.08.06-20.54.12:193][507]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.08.06-20.54.12:193][507]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.08.06-20.54.12:193][507]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.08.06-20.54.12:193][507]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.08.06-20.54.12:193][507]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.08.06-20.54.12:193][507]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.08.06-20.54.12:193][507]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.08.06-20.54.12:193][507]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.08.06-20.54.12:193][507]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.08.06-20.54.12:193][507]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.08.06-20.54.12:193][507]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.08.06-20.54.12:194][507]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.08.06-20.54.12:194][507]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.08.06-20.54.12:194][507]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.08.06-20.54.12:194][507]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.08.06-20.54.12:194][507]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.08.06-20.54.12:194][507]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.08.06-20.54.12:194][507]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.08.06-20.54.12:204][507]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.08.06-20.54.12:204][507]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.08.06-20.54.12:204][507]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.08.06-20.54.12:204][507]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.08.06-20.54.12:204][507]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.08.06-20.54.12:204][507]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.08.06-20.54.12:204][507]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.08.06-20.54.12:204][507]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.08.06-20.54.12:204][507]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.08.06-20.54.12:205][507]LogExit: Exiting.
+[2015.08.06-20.54.12:319][507]Log file closed, 08/06/15 13:54:12
