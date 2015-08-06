@@ -1,0 +1,270 @@
+﻿Log file open, 08/05/15 01:10:50
+LogInit:Display: Running engine for game: GodKiller
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.08.05-08.10.50:092][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2015.08.05-08.10.50:178][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.08.05-08.10.50:378][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.08.05-08.10.50:425][  0]LogInit: Object subsystem initialized
+[2015.08.05-08.10.50:433][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.08.05-08.10.50:433][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Samantha/Desktop/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.05-08.10.50:433][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.08.05-08.10.50:433][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Samantha/Desktop/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.05-08.10.50:433][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.08.05-08.10.50:433][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Samantha/Desktop/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.05-08.10.50:435][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.05-08.10.50:435][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.08.05-08.10.50:485][  0]LogInit: Computer: SAMANTHAPC
+[2015.08.05-08.10.50:485][  0]LogInit: User: Samantha
+[2015.08.05-08.10.50:485][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.08.05-08.10.50:486][  0]LogInit: High frequency timer resolution =2.240908 MHz
+[2015.08.05-08.10.50:486][  0]LogMemory: Memory total: Physical=5.9GB (6GB approx) Virtual=131072.0GB
+[2015.08.05-08.10.50:487][  0]LogMemory: Platform Memory Stats for Windows
+[2015.08.05-08.10.50:487][  0]LogMemory: Process Physical Memory: 46.23 MB used, 46.23 MB peak
+[2015.08.05-08.10.50:487][  0]LogMemory: Process Virtual Memory: 26.23 MB used, 26.23 MB peak
+[2015.08.05-08.10.50:487][  0]LogMemory: Physical Memory: 2768.73 MB used, 6027.63 MB total
+[2015.08.05-08.10.50:487][  0]LogMemory: Virtual Memory: 287.81 MB used, 134217728.00 MB total
+[2015.08.05-08.10.50:552][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics Family (Feature Level 11_0)
+[2015.08.05-08.10.50:552][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 1 output[s]
+[2015.08.05-08.10.50:555][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.08.05-08.10.50:555][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.08.05-08.10.50:555][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.08.05-08.10.50:579][  0]LogRHI: Texture pool is 638 MB (70% of 912 MB)
+[2015.08.05-08.10.50:597][  0]LogD3D11RHI: Async texture creation enabled
+[2015.08.05-08.10.51:764][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.08.05-08.10.51:973][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.08.05-08.10.51:974][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.08.05-08.10.52:224][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.08.05-08.11.04:636][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.08.05-08.11.08:229][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.08.05-08.11.08:474][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.08.05-08.11.09:063][  0]LogDerivedDataCache: Loaded boot cache 0.57s 39MB C:/Users/Samantha/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.08.05-08.11.09:063][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Samantha/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.08.05-08.11.09:063][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Samantha/Desktop/God-Killer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.08.05-08.11.09:063][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.08.05-08.11.09:657][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.08.05-08.11.09:706][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Samantha/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.08.05-08.11.23:474][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.08.05-08.11.23:474][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.08.05-08.11.29:958][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.08.05-08.11.34:671][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/UE4Editor-XAudio2.dll' because the file couldn't be loaded by the OS.
+[2015.08.05-08.11.35:466][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.08.05-08.12.04:431][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.08.05-08.12.06:189][  0]SourceControl: Info Source control is disabled
+[2015.08.05-08.12.06:189][  0]SourceControl: Info Source control is disabled
+[2015.08.05-08.12.06:189][  0]SourceControl: Info Source control is disabled
+[2015.08.05-08.12.06:190][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.08.05-08.12.06:201][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.08.05-08.12.06:239][  0]SourceControl: Info Source control is disabled
+[2015.08.05-08.12.08:084][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.08.05-08.12.08:084][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.08.05-08.12.08:923][  0]LogEngine: Initializing Engine...
+[2015.08.05-08.12.15:986][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/UE4Editor-XAudio2.dll' because the file couldn't be loaded by the OS.
+[2015.08.05-08.12.16:491][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.08.05-08.12.16:557][  0]LogDerivedDataCache: Saved boot cache 0.06s 39MB C:/Users/Samantha/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.08.05-08.12.16:572][  0]LogInit: Texture streaming: Enabled
+[2015.08.05-08.12.17:692][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.08.05-08.12.17:692][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.08.05-08.12.17:692][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.08.05-08.12.17:693][  0]LogAnalytics: SetUserId 46872bea408cfcc0100ac385d2b5ce07|e22a3db169b04f708165eaff958a9646|097015b1-a59a-4201-b460-717027cc9fe8
+[2015.08.05-08.12.17:693][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.08.05-08.12.18:149][  0]LogInit: Transaction tracking system initialized
+[2015.08.05-08.12.19:801][  0]BlueprintLog: New page: Editor Load
+[2015.08.05-08.12.20:006][  0]LogAssetRegistry: FAssetRegistry took 0.0114 seconds to start up
+[2015.08.05-08.12.20:007][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.08.05-08.12.22:749][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.08.05-08.12.23:879][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.08.05-08.12.25:778][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.08.05-08.12.25:781][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.08.05-08.12.25:937][  0]LogConsoleResponse:Display: 
+[2015.08.05-08.12.28:661][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.08.05-08.12.30:242][  0]SourceControl: Info Source control is disabled
+[2015.08.05-08.12.30:262][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Scene/NewCave.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.08.05-08.12.30:265][  0]LightingResults: New page: Lighting Build
+[2015.08.05-08.12.30:376][  0]MapCheck: New page: Map Check
+[2015.08.05-08.12.30:376][  0]LightingResults: New page: Lighting Build
+[2015.08.05-08.12.30:466][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A1E5913B00
+[2015.08.05-08.12.36:408][  0]LogBlueprint:Warning: [Gui] CreatePinForVariable: 'LightningUsed?' variable not found. Base class was probably changed.
+[2015.08.05-08.12.36:409][  0]LogBlueprint:Warning: [Gui] CreatePinForVariable: 'LightningUsed?' variable not found. Base class was probably changed.
+[2015.08.05-08.12.36:420][  0]LogBlueprint:Warning: [Gui] CreatePinForVariable: 'LightningUsed?' variable not found. Base class was probably changed.
+[2015.08.05-08.12.36:836][  0]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "LightningUsed?" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Set LightningUsed? 
+[2015.08.05-08.12.36:837][  0]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "LightningUsed?" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Get LightningUsed? 
+[2015.08.05-08.12.36:881][  0]LogBlueprint:Warning: [compiler] Warning [0114.50] Compile of Gui successful, but with 2 Warning(s) [in 266 ms]
+[2015.08.05-08.12.36:881][  0]LogBlueprint:Warning: [compiler] Warning [0114.50] Compile of Gui successful, but with 3 Warning(s) [in 0 ms]
+[2015.08.05-08.12.36:881][  0]LogBlueprint:Warning: [compiler] Warning [0114.50] Compile of Gui successful, but with 4 Warning(s) [in 0 ms]
+[2015.08.05-08.12.36:882][  0]LogBlueprint:Warning: [compiler] Warning [0114.50] Compile of Gui successful, but with 5 Warning(s) [in 0 ms]
+[2015.08.05-08.12.42:904][  0]LogBlueprint:Warning: [Gui] CreatePinForVariable: 'LightningUsed?' variable not found. Base class was probably changed.
+[2015.08.05-08.12.42:904][  0]LogBlueprint:Warning: [Gui] CreatePinForVariable: 'LightningUsed?' variable not found. Base class was probably changed.
+[2015.08.05-08.12.42:906][  0]LogBlueprint:Warning: [Gui] CreatePinForVariable: 'LightningUsed?' variable not found. Base class was probably changed.
+[2015.08.05-08.12.43:040][  0]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "LightningUsed?" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Set LightningUsed? 
+[2015.08.05-08.12.43:041][  0]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "LightningUsed?" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Get LightningUsed? 
+[2015.08.05-08.12.43:053][  0]LogBlueprint:Warning: [compiler] Warning [0120.67] Compile of Gui successful, but with 2 Warning(s) [in 140 ms]
+[2015.08.05-08.12.43:054][  0]LogBlueprint:Warning: [compiler] Warning [0120.67] Compile of Gui successful, but with 3 Warning(s) [in 0 ms]
+[2015.08.05-08.12.54:801][  0]LogTexture:Display: Building textures: AbilityButton (AutoDXT)
+[2015.08.05-08.12.54:883][  0]LogTexture:Display: Building textures: Aura (AutoDXT)
+[2015.08.05-08.12.56:461][  0]LogTexture:Display: Building textures: Heal (AutoDXT)
+[2015.08.05-08.12.56:605][  0]LogTexture:Display: Building textures: Lightning (BGRA8)
+[2015.08.05-08.13.21:689][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.08.05-08.13.21:720][  0]LogAIModule: Creating AISystem for world NewCave
+[2015.08.05-08.13.21:753][  0]Cmd: MAP CHECKDEP
+[2015.08.05-08.13.21:777][  0]MapCheck: New page: NewCave - Aug 4, 2015, 6:13:21 PM
+[2015.08.05-08.13.22:602][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 847.699ms to complete.
+[2015.08.05-08.13.22:602][  0]LogFileHelpers: Loading map 'NewCave' took 52.340
+[2015.08.05-08.13.23:665][  0]LogCollectionManager: Loaded 0 collections in 0.007765 seconds
+[2015.08.05-08.13.23:755][  0]LogContentBrowser: Native class hierarchy populated in 0.0888 seconds. Added 1696 classes and 261 folders.
+[2015.08.05-08.13.24:457][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0092 seconds. Added 1 classes and 2 folders.
+[2015.08.05-08.13.25:240][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.08.05-08.13.25:277][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.08.05-08.13.25:452][  0]LogLoad: Full Startup: 163.07 seconds (BP compile: 7.24 seconds)
+[2015.08.05-08.13.25:999][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Enemy1'
+[2015.08.05-08.13.27:212][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.08.05-08.13.29:117][  0]LogRenderer:Warning: Reallocating scene render targets to support 952x712 (Frame:3).
+[2015.08.05-08.13.32:435][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2015.08.05-08.13.32:594][  1]Cmd: UpdateLandscapeEditorData
+[2015.08.05-08.13.43:083][ 28]LogAssetRegistry: Asset discovery search completed in 83.0891 seconds
+[2015.08.05-08.21.42:438][731]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2015.08.05-08.21.47:614][772]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (KeyPos1)
+[2015.08.05-08.22.22:636][343]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Key'
+[2015.08.05-08.37.31:616][174]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Key/Skeleton'
+[2015.08.05-08.37.46:570][376]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Key/Skeleton/NewModel'
+[2015.08.05-08.37.50:757][411]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Key/Skeleton/NewModel/animation'
+[2015.08.05-08.38.28:223][ 54]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2015.08.05-08.38.28:904][ 60]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2015.08.05-08.38.35:672][129]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2015.08.05-08.38.35:955][129]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/SubEditors/PersonaAnimEditorTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.08.05-08.38.40:027][180]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.08.05-08.39.30:610][ 85]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2015.08.05-08.39.31:177][ 85]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.08.05-08.39.45:685][269]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_5) - call TermArticulated first.
+[2015.08.05-08.39.46:043][269]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.08.05-08.39.57:141][382]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_8) - call TermArticulated first.
+[2015.08.05-08.39.57:592][382]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.08.05-08.40.07:670][453]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_11) - call TermArticulated first.
+[2015.08.05-08.40.08:103][453]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.08.05-08.40.19:111][509]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_14) - call TermArticulated first.
+[2015.08.05-08.40.19:642][509]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.08.05-08.40.34:890][587]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_17) - call TermArticulated first.
+[2015.08.05-08.40.35:317][587]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.08.05-08.40.40:604][607]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_20) - call TermArticulated first.
+[2015.08.05-08.40.41:367][607]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.08.05-08.40.59:556][678]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.08.05-08.44.10:055][613]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/MixamoAnimPack/Mixamo_Vanguard/Anims'
+[2015.08.05-08.44.13:314][624]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.08.05-08.44.16:138][635]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/MixamoAnimPack/Mixamo_Vampire/Anims'
+[2015.08.05-08.44.50:338][762]LogEditorViewport: Clicking Background
+[2015.08.05-08.45.11:800][826]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_25) - call TermArticulated first.
+[2015.08.05-09.22.24:139][593]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.08.05-09.22.27:813][606]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Key/Skeleton/NewModel/animation'
+[2015.08.05-09.22.29:708][612]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Key/Skeleton/NewModel/Anim'
+[2015.08.05-09.22.43:190][661]LogLinker:Warning: Can't find file '/Game/Models/Skeleton/NewModel/Anim/SkeletonMesh'
+[2015.08.05-09.22.43:208][661]LogLinker:Warning: Can't find file '/Game/Models/Skeleton/NewModel/Anim/SkeletonMesh'
+[2015.08.05-09.22.43:255][661]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Models/Skeleton/NewModel/Anim/SkeletonMesh.SkeletonMesh'
+[2015.08.05-09.22.44:030][661]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_27) - call TermArticulated first.
+[2015.08.05-09.25.06:751][632]LogRenderer:Warning: Reallocating scene render targets to support 1048x712 (Frame:72183).
+[2015.08.05-09.26.45:092][461]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.08.05-09.45.37:490][726]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.05-09.45.37:492][726]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.08.05-09.45.37:492][726]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.08.05-09.45.38:058][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A1F4651A80
+[2015.08.05-09.45.38:061][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A18EDE4400
+[2015.08.05-09.45.38:063][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A18D204D60
+[2015.08.05-09.45.38:072][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A18E5A6980
+[2015.08.05-09.45.38:074][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A18EDE4EA0
+[2015.08.05-09.45.38:077][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A18EDE4720
+[2015.08.05-09.45.38:079][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A18E7C5120
+[2015.08.05-09.45.38:081][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A18FF7B600
+[2015.08.05-09.45.38:083][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A18E6E5EE0
+[2015.08.05-09.45.38:084][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A18E6E65C0
+[2015.08.05-09.45.38:087][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A1EFDBBBA0
+[2015.08.05-09.45.38:089][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A191056520
+[2015.08.05-09.45.38:091][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A18D206AC0
+[2015.08.05-09.45.38:092][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A19289DEE0
+[2015.08.05-09.45.38:094][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A1934637E0
+[2015.08.05-09.45.38:096][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A19289F4C0
+[2015.08.05-09.45.38:098][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A187DFEFC0
+[2015.08.05-09.45.38:100][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A187DFF100
+[2015.08.05-09.45.38:102][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A1938C6160
+[2015.08.05-09.45.38:104][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A193610180
+[2015.08.05-09.45.38:106][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A1F4650540
+[2015.08.05-09.45.38:108][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A193AAD800
+[2015.08.05-09.45.38:110][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A19AEBF9C0
+[2015.08.05-09.45.38:112][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A19AFA4220
+[2015.08.05-09.45.38:114][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A1904C67A0
+[2015.08.05-09.45.38:116][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A1904C4E00
+[2015.08.05-09.45.38:118][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A1966FB600
+[2015.08.05-09.45.38:120][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A19651A020
+[2015.08.05-09.45.38:121][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A1970CA020
+[2015.08.05-09.45.38:123][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A196180CC0
+[2015.08.05-09.45.38:125][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A1F8247880
+[2015.08.05-09.45.38:127][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A1F82474C0
+[2015.08.05-09.45.38:130][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A18D2C4D60
+[2015.08.05-09.45.38:133][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A1909BBF60
+[2015.08.05-09.45.38:460][726]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Scene/NewCave' took 0.987
+[2015.08.05-09.45.38:558][726]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Key/Skeleton/NewModel/Anim/Skeleton_Idle_Walk] ([1] browsable assets)...
+[2015.08.05-09.45.38:778][726]OBJ SavePackage:     Rendered thumbnail for [BlendSpace1D /Game/Key/Skeleton/NewModel/Anim/Skeleton_Idle_Walk.Skeleton_Idle_Walk]
+[2015.08.05-09.45.38:778][726]OBJ SavePackage: Finished generating thumbnails for package [/Game/Key/Skeleton/NewModel/Anim/Skeleton_Idle_Walk]
+[2015.08.05-09.45.40:929][726]LogSavePackage: Save=1788.204102ms
+[2015.08.05-09.45.40:931][726]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/Skeleton_Idle_Walk_Auto1B0E38F3046DF4AC52F6E5892FD6A4CB9.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/Autosaves/Game/Key/Skeleton/NewModel/Anim/Skeleton_Idle_Walk_Auto1.uasset'
+[2015.08.05-09.45.40:958][726]LogFileHelpers: Auto-saving content packages took 2.498
+[2015.08.05-09.49.37:772][419]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Key/Skeleton/NewModel/Anim'
+[2015.08.05-09.50.02:743][538]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_31) - call TermArticulated first.
+[2015.08.05-09.52.31:849][211]BlueprintLog: New page: Compile SkeletonAnimBp
+[2015.08.05-09.52.32:416][211]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.05-09.52.32:731][211]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A18D364220
+[2015.08.05-09.52.32:849][211]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2015.08.05-09.52.32:850][211]BlueprintEditorCompileResults: Info [6110.45] Compile of SkeletonAnimBp successful! [in 986 ms]
+[2015.08.05-09.56.13:341][ 22]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Scene/NewCave' took 0.182
+[2015.08.05-09.56.13:391][ 22]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Key/Skeleton/NewModel/Anim/SkeletonAnimBp] ([1] browsable assets)...
+[2015.08.05-09.56.13:498][ 22]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Key/Skeleton/NewModel/Anim/SkeletonAnimBp.SkeletonAnimBp]
+[2015.08.05-09.56.13:498][ 22]OBJ SavePackage: Finished generating thumbnails for package [/Game/Key/Skeleton/NewModel/Anim/SkeletonAnimBp]
+[2015.08.05-09.56.15:230][ 22]LogSavePackage: Save=1721.468262ms
+[2015.08.05-09.56.15:232][ 22]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/SkeletonAnimBp_Auto2DAC1CFEB448B8C2F7119FAB8E2909737.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/Autosaves/Game/Key/Skeleton/NewModel/Anim/SkeletonAnimBp_Auto2.uasset'
+[2015.08.05-09.56.15:250][ 22]LogFileHelpers: Auto-saving content packages took 1.909
+[2015.08.05-09.58.26:861][447]LogClass:Warning: Type mismatch in NewVar_0 of SKEL_SkeletonAnimBp_C - Previous (StructProperty) Current(FloatProperty) for package:  FObjectReader
+[2015.08.05-09.58.26:875][447]LogClass:Warning: Type mismatch in NewVar_0 of SkeletonAnimBp_C - Previous (StructProperty) Current(FloatProperty) for package:  FObjectReader
+[2015.08.05-10.06.38:695][ 34]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Scene/NewCave' took 0.183
+[2015.08.05-10.06.38:750][ 34]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Key/Skeleton/NewModel/Anim/SkeletonAnimBp] ([1] browsable assets)...
+[2015.08.05-10.06.38:871][ 34]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Key/Skeleton/NewModel/Anim/SkeletonAnimBp.SkeletonAnimBp]
+[2015.08.05-10.06.38:871][ 34]OBJ SavePackage: Finished generating thumbnails for package [/Game/Key/Skeleton/NewModel/Anim/SkeletonAnimBp]
+[2015.08.05-10.06.40:690][ 34]LogSavePackage: Save=1808.208496ms
+[2015.08.05-10.06.40:693][ 34]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/SkeletonAnimBp_Auto3B3D4C3E24CCBAC2D974D14B4AA62DBD2.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/Autosaves/Game/Key/Skeleton/NewModel/Anim/SkeletonAnimBp_Auto3.uasset'
+[2015.08.05-10.06.40:714][ 34]LogFileHelpers: Auto-saving content packages took 2.019
+[2015.08.05-10.28.01:561][135]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Scene/NewCave' took 0.209
+[2015.08.05-10.28.01:617][135]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Key/Skeleton/NewModel/Anim/SkeletonAnimBp] ([1] browsable assets)...
+[2015.08.05-10.28.01:734][135]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Key/Skeleton/NewModel/Anim/SkeletonAnimBp.SkeletonAnimBp]
+[2015.08.05-10.28.01:734][135]OBJ SavePackage: Finished generating thumbnails for package [/Game/Key/Skeleton/NewModel/Anim/SkeletonAnimBp]
+[2015.08.05-10.28.03:382][135]LogSavePackage: Save=1626.778931ms
+[2015.08.05-10.28.03:384][135]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/SkeletonAnimBp_Auto41327B6A04BAF18AF51D48CBC95C24C8E.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/Autosaves/Game/Key/Skeleton/NewModel/Anim/SkeletonAnimBp_Auto4.uasset'
+[2015.08.05-10.28.03:403][135]LogFileHelpers: Auto-saving content packages took 1.841
+[2015.08.05-10.31.38:910][657]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_33) - call TermArticulated first.
+[2015.08.05-10.32.10:212][876]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_35) - call TermArticulated first.
+[2015.08.05-10.33.28:092][441]BlueprintLog: New page: Compile SkeletonAnimBp
+[2015.08.05-10.33.28:633][441]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A1E98637E0
+[2015.08.05-10.33.28:634][441]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A1E963DEE0
+[2015.08.05-10.33.28:636][441]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A1E963EF20
+[2015.08.05-10.33.28:637][441]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A1EA4EA980
+[2015.08.05-10.33.28:639][441]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A1A393E700
+[2015.08.05-10.33.28:682][441]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A1A393DA80
+[2015.08.05-10.33.28:682][441]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2015.08.05-10.33.28:682][441]BlueprintEditorCompileResults: Info [8566.30] Compile of SkeletonAnimBp successful! [in 588 ms]
+[2015.08.05-10.38.26:367][800]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Scene/NewCave' took 0.203
+[2015.08.05-10.38.26:480][800]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Key/Skeleton/NewModel/Anim/SkeletonAnimBp] ([1] browsable assets)...
+[2015.08.05-10.38.26:598][800]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Key/Skeleton/NewModel/Anim/SkeletonAnimBp.SkeletonAnimBp]
+[2015.08.05-10.38.26:598][800]OBJ SavePackage: Finished generating thumbnails for package [/Game/Key/Skeleton/NewModel/Anim/SkeletonAnimBp]
+[2015.08.05-10.38.28:251][800]LogSavePackage: Save=1636.252808ms
+[2015.08.05-10.38.28:254][800]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/SkeletonAnimBp_Auto5609FFB0040948CF2DC26DAADCC
