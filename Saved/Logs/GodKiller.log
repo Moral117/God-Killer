@@ -1,4 +1,4 @@
-﻿Log file open, 08/10/15 15:39:24
+﻿Log file open, 08/11/15 21:18:32
 LogInit:Display: Running engine for game: GodKiller
 LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
 LogInit: API Version: 2455222
@@ -9,749 +9,705 @@ LogInit: Branch Name: ++depot+UE4-Releases+4.7
 LogInit: Command line:  
 LogInit: Base directory: D:/Program Files/Unreal/Epic Games/4.7/Engine/Binaries/Win64/
 LogInit: Rocket: 1
-[2015.08.10-22.39.24:336][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
-[2015.08.10-22.39.24:398][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2015.08.10-22.39.24:418][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2015.08.10-22.39.24:428][  0]LogInit: Object subsystem initialized
-[2015.08.10-22.39.24:430][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
-[2015.08.10-22.39.24:430][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Storage/Documents/GitHub/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.08.10-22.39.24:430][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
-[2015.08.10-22.39.24:430][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Storage/Documents/GitHub/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.08.10-22.39.24:430][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
-[2015.08.10-22.39.24:430][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Storage/Documents/GitHub/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.08.10-22.39.24:431][  0]LogInit: Selected Device Profile: [Windows]
-[2015.08.10-22.39.24:431][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2015.08.10-22.39.24:437][  0]LogInit: Computer: JOSEPH-PC
-[2015.08.10-22.39.24:437][  0]LogInit: User: Joseph
-[2015.08.10-22.39.24:437][  0]LogInit: CPU Page size=4096, Cores=4
-[2015.08.10-22.39.24:437][  0]LogInit: High frequency timer resolution =14.318180 MHz
-[2015.08.10-22.39.24:438][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=131072.0GB
-[2015.08.10-22.39.24:438][  0]LogMemory: Platform Memory Stats for Windows
-[2015.08.10-22.39.24:438][  0]LogMemory: Process Physical Memory: 48.55 MB used, 48.55 MB peak
-[2015.08.10-22.39.24:438][  0]LogMemory: Process Virtual Memory: 26.85 MB used, 26.86 MB peak
-[2015.08.10-22.39.24:438][  0]LogMemory: Physical Memory: 3462.61 MB used, 16280.89 MB total
-[2015.08.10-22.39.24:438][  0]LogMemory: Virtual Memory: 293.22 MB used, 134217728.00 MB total
-[2015.08.10-22.39.24:470][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon R9 200 Series (Feature Level 11_0)
-[2015.08.10-22.39.24:470][  0]LogD3D11RHI: Adapter has 4075MB of dedicated video memory, 0MB of dedicated system memory, and 8140MB of shared system memory, 1 output[s]
-[2015.08.10-22.39.24:472][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
-[2015.08.10-22.39.24:472][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8140MB of shared system memory, 0 output[s]
-[2015.08.10-22.39.24:472][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2015.08.10-22.39.24:479][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2015.08.10-22.39.24:489][  0]LogD3D11RHI: Async texture creation disabled: no driver support
-[2015.08.10-22.39.24:556][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
-[2015.08.10-22.39.24:616][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+[2015.08.12-04.18.32:687][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.08.12-04.18.32:748][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.08.12-04.18.32:767][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.08.12-04.18.32:778][  0]LogInit: Object subsystem initialized
+[2015.08.12-04.18.32:779][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.08.12-04.18.32:779][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Storage/Documents/GitHub/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.12-04.18.32:779][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.08.12-04.18.32:779][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Storage/Documents/GitHub/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.12-04.18.32:779][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.08.12-04.18.32:779][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Storage/Documents/GitHub/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.12-04.18.32:780][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.12-04.18.32:780][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.08.12-04.18.32:787][  0]LogInit: Computer: JOSEPH-PC
+[2015.08.12-04.18.32:787][  0]LogInit: User: Joseph
+[2015.08.12-04.18.32:787][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.08.12-04.18.32:787][  0]LogInit: High frequency timer resolution =14.318180 MHz
+[2015.08.12-04.18.32:787][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=131072.0GB
+[2015.08.12-04.18.32:787][  0]LogMemory: Platform Memory Stats for Windows
+[2015.08.12-04.18.32:787][  0]LogMemory: Process Physical Memory: 48.42 MB used, 48.42 MB peak
+[2015.08.12-04.18.32:787][  0]LogMemory: Process Virtual Memory: 26.78 MB used, 26.79 MB peak
+[2015.08.12-04.18.32:787][  0]LogMemory: Physical Memory: 3823.29 MB used, 16280.89 MB total
+[2015.08.12-04.18.32:787][  0]LogMemory: Virtual Memory: 293.21 MB used, 134217728.00 MB total
+[2015.08.12-04.18.32:816][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon R9 200 Series (Feature Level 11_0)
+[2015.08.12-04.18.32:816][  0]LogD3D11RHI: Adapter has 4075MB of dedicated video memory, 0MB of dedicated system memory, and 8140MB of shared system memory, 1 output[s]
+[2015.08.12-04.18.32:818][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.08.12-04.18.32:818][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8140MB of shared system memory, 0 output[s]
+[2015.08.12-04.18.32:818][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.08.12-04.18.32:825][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.08.12-04.18.32:834][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.08.12-04.18.32:897][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.08.12-04.18.32:956][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
 Resource: (D:/Program Files/Unreal/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
 Resource: (D:/Program Files/Unreal/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
-[2015.08.10-22.39.24:616][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+[2015.08.12-04.18.32:956][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
 Resource: (D:/Program Files/Unreal/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
 Resource: (D:/Program Files/Unreal/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
-[2015.08.10-22.39.24:697][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2015.08.10-22.39.27:343][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.08.10-22.39.28:260][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.08.10-22.39.28:343][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2015.08.10-22.39.28:405][  0]LogDerivedDataCache: Loaded boot cache 0.06s 39MB C:/Users/Joseph/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
-[2015.08.10-22.39.28:405][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Joseph/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
-[2015.08.10-22.39.28:405][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Storage/Documents/GitHub/God-Killer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.08.10-22.39.28:405][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2015.08.10-22.39.28:514][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2015.08.10-22.39.28:527][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Joseph/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2015.08.10-22.39.28:878][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2015.08.10-22.39.28:878][  0]LogMeshUtilities: No automatic mesh merging module available
-[2015.08.10-22.39.29:335][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2015.08.10-22.39.29:451][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
-[2015.08.10-22.39.30:475][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2015.08.10-22.39.30:830][  0]SourceControl: Info Source control is disabled
-[2015.08.10-22.39.30:830][  0]SourceControl: Info Source control is disabled
-[2015.08.10-22.39.30:830][  0]SourceControl: Info Source control is disabled
-[2015.08.10-22.39.30:830][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.08.10-22.39.30:830][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.08.10-22.39.30:853][  0]SourceControl: Info Source control is disabled
-[2015.08.10-22.39.31:166][  0]LogObj: 24232 objects as part of root set at end of initial load.
-[2015.08.10-22.39.31:166][  0]LogUObjectAllocator: 5137168 out of 0 bytes used by permanent object pool.
-[2015.08.10-22.39.31:272][  0]LogEngine: Initializing Engine...
-[2015.08.10-22.39.33:470][  0]LogInit: XAudio2 using '1 - LG ULTRAWIDE (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2015.08.10-22.39.33:481][  0]LogInit: FAudioDevice initialized.
-[2015.08.10-22.39.33:539][  0]LogAIModule: Creating AISystem for world NewWorld
-[2015.08.10-22.39.33:576][  0]LogDerivedDataCache: Saved boot cache 0.04s 39MB C:/Users/Joseph/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
-[2015.08.10-22.39.33:585][  0]LogInit: Texture streaming: Enabled
-[2015.08.10-22.39.33:708][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2015.08.10-22.39.33:708][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
-[2015.08.10-22.39.33:708][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
-[2015.08.10-22.39.33:708][  0]LogAnalytics: SetUserId d0fc97d9433d85cfe1d854a78446f226|fbedbf84e6654fb9830ed15a26abc575|31b426bb-6233-41c4-8090-528f38e68011
-[2015.08.10-22.39.33:708][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
-[2015.08.10-22.39.33:749][  0]LogInit: Transaction tracking system initialized
-[2015.08.10-22.39.34:021][  0]BlueprintLog: New page: Editor Load
-[2015.08.10-22.39.34:071][  0]LogAssetRegistry: FAssetRegistry took 0.0110 seconds to start up
-[2015.08.10-22.39.34:072][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
-[2015.08.10-22.39.35:040][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.08.10-22.39.35:713][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.08.10-22.39.36:090][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
-[2015.08.10-22.39.36:091][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
-[2015.08.10-22.39.36:096][  0]LogConsoleResponse:Display: 
-[2015.08.10-22.39.36:270][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2015.08.10-22.39.36:507][  0]SourceControl: Info Source control is disabled
-[2015.08.10-22.39.36:507][  0]Cmd: MAP LOAD FILE="../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Scene/NewCave.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.08.10-22.39.36:508][  0]LightingResults: New page: Lighting Build
-[2015.08.10-22.39.36:529][  0]MapCheck: New page: Map Check
-[2015.08.10-22.39.36:529][  0]LightingResults: New page: Lighting Build
-[2015.08.10-22.39.36:539][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007FFDF40D60
-[2015.08.10-22.39.43:595][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.08.10-22.39.43:596][  0]LogAIModule: Creating AISystem for world NewCave
-[2015.08.10-22.39.43:597][  0]Cmd: MAP CHECKDEP
-[2015.08.10-22.39.43:597][  0]MapCheck: New page: NewCave - Aug 10, 2015, 8:39:43 AM
-[2015.08.10-22.39.43:786][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 189.011ms to complete.
-[2015.08.10-22.39.43:786][  0]LogFileHelpers: Loading map 'NewCave' took 7.278
-[2015.08.10-22.39.43:887][  0]LogCollectionManager: Loaded 0 collections in 0.002222 seconds
-[2015.08.10-22.39.43:898][  0]LogContentBrowser: Native class hierarchy populated in 0.0116 seconds. Added 1696 classes and 261 folders.
-[2015.08.10-22.39.43:999][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0021 seconds. Added 1 classes and 2 folders.
-[2015.08.10-22.39.44:074][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2015.08.10-22.39.44:076][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
-[2015.08.10-22.39.44:081][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2015.08.10-22.39.44:110][  0]LogLoad: Full Startup: 22.02 seconds (BP compile: 2.96 seconds)
-[2015.08.10-22.39.44:563][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
-[2015.08.10-22.39.44:770][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
-[2015.08.10-22.39.44:935][  1]LogRenderer:Warning: Reallocating scene render targets to support 904x720 (Frame:9).
-[2015.08.10-22.39.44:937][  1]Cmd: UpdateLandscapeEditorData -warnings
-[2015.08.10-22.39.44:942][  1]Cmd: UpdateLandscapeEditorData
-[2015.08.10-22.39.47:958][ 10]LogAssetRegistry: Asset discovery search completed in 13.8977 seconds
-[2015.08.10-22.39.50:338][ 88]LogRenderer:Warning: Reallocating scene render targets to support 904x904 (Frame:119).
-[2015.08.10-22.39.56:139][591]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models'
-[2015.08.10-22.40.01:423][ 60]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/Pillar'
-[2015.08.10-22.40.12:018][118]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 F:/Joseph/GodKiller/GodKillerExports/BrokenPillar.FBX)
-[2015.08.10-22.40.12:124][118]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2015.08.10-22.40.12:124][118]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2015.08.10-22.40.12:124][118]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2015.08.10-22.40.12:124][118]LogFbx: ItemName: Model, ItemCount : 1
-[2015.08.10-22.40.12:124][118]LogFbx: ItemName: Geometry, ItemCount : 1
-[2015.08.10-22.40.12:124][118]LogFbx: ItemName: Material, ItemCount : 1
-[2015.08.10-22.40.12:124][118]LogFbx: ItemName: Texture, ItemCount : 1
-[2015.08.10-22.40.12:124][118]LogFbx: ItemName: AnimationCurve, ItemCount : 3
-[2015.08.10-22.40.12:124][118]LogFbx: ItemName: AnimationCurveNode, ItemCount : 1
-[2015.08.10-22.40.12:124][118]LogFbx: ItemName: Video, ItemCount : 1
-[2015.08.10-22.40.13:310][118]LogFbx: Loading FBX Scene from F:/Joseph/GodKiller/GodKillerExports/BrokenPillar.FBX
-[2015.08.10-22.40.13:347][118]LogFbx: FBX Scene Loaded Succesfully
-[2015.08.10-22.40.13:361][118]LogFbx:Warning: Triangulating static mesh Pilllar
-[2015.08.10-22.40.18:254][118]LogFbx: == Initial material list:
-[2015.08.10-22.40.18:254][118]LogFbx: 0: 02 - Default
-[2015.08.10-22.40.18:254][118]LogFbx: == After sorting:
-[2015.08.10-22.40.18:254][118]LogFbx: 0: 02 - Default
-[2015.08.10-22.40.18:254][118]LogFbx: == Mapping table:
-[2015.08.10-22.40.18:254][118]LogFbx:   sort 0 -> 0
-[2015.08.10-22.40.18:268][118]LogStaticMesh: Building static mesh BrokenPillar...
-[2015.08.10-22.40.19:976][118]LogStaticMesh: Built static mesh [1708.819458ms] /Game/Models/Pillar/BrokenPillar.BrokenPillar
-[2015.08.10-22.40.20:111][118]LogStaticMesh:Warning: BrokenPillar has degenerate tangent bases which will result in incorrect shading. 
-[2015.08.10-22.40.22:361][118]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2015.08.10-22.40.22:520][118]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
-[2015.08.10-22.40.22:521][118]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/Pillar'
-[2015.08.10-22.40.25:114][313]LogActorFactory: Actor Factory created BrokenPillar
-[2015.08.10-22.40.26:183][423]LogActorFactory: Actor Factory created BrokenPillar
-[2015.08.10-22.40.28:141][524]LogRenderer:Warning: Reallocating scene render targets to support 1056x904 (Frame:1855).
-[2015.08.10-22.40.43:511][ 52]LogStaticMesh: Building static mesh BrokenPillar...
-[2015.08.10-22.40.45:251][ 52]LogStaticMesh: Built static mesh [1739.751953ms] /Game/Models/Pillar/BrokenPillar.BrokenPillar
-[2015.08.10-22.40.45:384][ 52]LogStaticMesh:Warning: BrokenPillar has degenerate tangent bases which will result in incorrect shading. 
-[2015.08.10-22.40.45:399][ 52]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
-[2015.08.10-22.40.45:399][ 52]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
-[2015.08.10-22.40.51:739][565]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
-[2015.08.10-22.40.51:739][565]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
-[2015.08.10-22.40.51:749][565]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
-[2015.08.10-22.40.51:749][565]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
-[2015.08.10-22.40.51:751][565]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
-[2015.08.10-22.40.51:751][565]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
-[2015.08.10-22.41.01:179][494]LogStaticMesh: Building static mesh BrokenPillar...
-[2015.08.10-22.41.02:906][494]LogStaticMesh: Built static mesh [1726.627686ms] /Game/Models/Pillar/BrokenPillar.BrokenPillar
-[2015.08.10-22.41.03:045][494]LogStaticMesh:Warning: BrokenPillar has degenerate tangent bases which will result in incorrect shading. 
-[2015.08.10-22.41.03:056][494]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
-[2015.08.10-22.41.03:056][494]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
-[2015.08.10-22.41.10:000][864]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
-[2015.08.10-22.41.10:001][864]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Engine/EngineMaterials'
-[2015.08.10-22.41.30:287][983]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BrokenPillar)
-[2015.08.10-22.41.31:217][ 37]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FloorTile3)
-[2015.08.10-22.41.31:721][ 64]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BrokenPillar)
-[2015.08.10-22.42.00:394][753]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
-[2015.08.10-22.42.00:395][753]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/Pillar'
-[2015.08.10-22.42.07:915][221]LogStaticMesh: Building static mesh BrokenPillar...
-[2015.08.10-22.42.09:616][221]LogStaticMesh: Built static mesh [1701.182983ms] /Game/Models/Pillar/BrokenPillar.BrokenPillar
-[2015.08.10-22.42.09:757][221]LogStaticMesh:Warning: BrokenPillar has degenerate tangent bases which will result in incorrect shading. 
-[2015.08.10-22.42.09:769][221]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
-[2015.08.10-22.42.09:769][221]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
-[2015.08.10-22.42.24:383][973]LogStaticMesh: Building static mesh BrokenPillar...
-[2015.08.10-22.42.26:081][973]LogStaticMesh: Built static mesh [1699.195679ms] /Game/Models/Pillar/BrokenPillar.BrokenPillar
-[2015.08.10-22.42.26:215][973]LogStaticMesh:Warning: BrokenPillar has degenerate tangent bases which will result in incorrect shading. 
-[2015.08.10-22.42.26:231][973]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
-[2015.08.10-22.42.26:231][973]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
-[2015.08.10-22.42.31:382][293]LogStaticMesh: Building static mesh BrokenPillar...
-[2015.08.10-22.42.33:080][293]LogStaticMesh: Built static mesh [1698.007202ms] /Game/Models/Pillar/BrokenPillar.BrokenPillar
-[2015.08.10-22.42.33:213][293]LogStaticMesh:Warning: BrokenPillar has degenerate tangent bases which will result in incorrect shading. 
-[2015.08.10-22.42.33:229][293]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
-[2015.08.10-22.42.33:229][293]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
-[2015.08.10-22.42.41:741][789]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar12)
-[2015.08.10-22.42.42:678][846]Cmd: DELETE
-[2015.08.10-22.42.42:678][846]Cmd: ACTOR DELETE
-[2015.08.10-22.42.42:694][846]LogEditorActor: Deleted Actor: StaticMeshActor
-[2015.08.10-22.42.42:694][846]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.08.10-22.42.42:741][846]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007F88C90B80
-[2015.08.10-22.42.42:741][846]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007F94995800
-[2015.08.10-22.42.42:771][846]LogEditorActor: Deleted 1 Actors (0.093 secs)
-[2015.08.10-22.42.45:871][ 63]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene/NewCave" FILE="../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Scene/NewCave.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2015.08.10-22.42.45:890][ 63]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007FD13AF7E0
-[2015.08.10-22.42.47:072][ 63]LogSavePackage: Save=1143.530762ms
-[2015.08.10-22.42.47:072][ 63]LogSavePackage: Moving '../../../../../../../Storage/Documents/GitHub/God-Killer/Saved/NewCave28D061374B8BFF2DA023D9B8E10B491B.tmp' to '../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Scene/NewCave.umap'
-[2015.08.10-22.42.50:124][144]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Pillar/BrokenPillar" FILE="../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Models/Pillar/BrokenPillar.uasset" SILENT=true
-[2015.08.10-22.42.50:317][144]LogSavePackage: Save=190.931671ms
-[2015.08.10-22.42.50:317][144]LogSavePackage: Moving '../../../../../../../Storage/Documents/GitHub/God-Killer/Saved/BrokenPillar4BE854D74B0D28671C3D01A0C8663146.tmp' to '../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Models/Pillar/BrokenPillar.uasset'
-[2015.08.10-22.42.54:024][465]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BrokenPillar)
-[2015.08.10-22.42.57:108][688]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar2)
-[2015.08.10-22.42.58:470][787]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
-[2015.08.10-22.42.58:471][787]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
-[2015.08.10-22.42.59:639][866]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BrokenPillar)
-[2015.08.10-22.43.15:927][ 53]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BrokenPillar)
-[2015.08.10-22.43.24:620][553]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene/NewCave" FILE="../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Scene/NewCave.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2015.08.10-22.43.25:826][553]LogSavePackage: Save=1160.534912ms
-[2015.08.10-22.43.25:826][553]LogSavePackage: Moving '../../../../../../../Storage/Documents/GitHub/God-Killer/Saved/NewCaveA8428BBE41E54B89D15B4281AC665774.tmp' to '../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Scene/NewCave.umap'
-[2015.08.10-22.43.25:889][553]LogFileHelpers: Saving map 'NewCave' took 1.468
-[2015.08.10-22.43.26:423][592]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene/NewCave" FILE="../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Scene/NewCave.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2015.08.10-22.43.27:673][592]LogSavePackage: Save=1207.336670ms
-[2015.08.10-22.43.27:673][592]LogSavePackage: Moving '../../../../../../../Storage/Documents/GitHub/God-Killer/Saved/NewCave2C102FF1411AD88AF1739CBEA1AC80A2.tmp' to '../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Scene/NewCave.umap'
-[2015.08.10-22.43.29:627][710]MapCheck: New page: Map Check
-[2015.08.10-22.43.29:784][710]Cmd: MAP REBUILD ALLVISIBLE
-[2015.08.10-22.43.29:784][710]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2015.08.10-22.43.32:538][710]LightingResults: New page: Lighting Build - Aug 10, 2015, 8:43:32 AM
-[2015.08.10-22.43.36:424][710]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2015.08.10-22.43.36:424][710]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2015.08.10-22.43.36:424][710]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2015.08.10-22.43.36:424][710]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2015.08.10-22.43.36:424][710]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2015.08.10-22.43.37:493][710]LogEditorBuildUtils: Build time 0:00:07
-[2015.08.10-22.43.37:502][710]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer StonePillarMat, compiling. 
-[2015.08.10-22.43.37:509][710]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer StonePillarMat, compiling. 
-[2015.08.10-22.43.37:512][710]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer StonePillarMat, compiling. 
-[2015.08.10-22.43.37:545][711]Cmd: UpdateLandscapeEditorData
-[2015.08.10-22.43.37:554][711]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_1, compiling. 
-[2015.08.10-22.43.37:558][711]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_1, compiling. 
-[2015.08.10-22.43.37:563][711]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_1, compiling. 
-[2015.08.10-22.43.38:026][721]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Lanturn_mat, compiling. 
-[2015.08.10-22.43.38:030][721]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Lanturn_mat, compiling. 
-[2015.08.10-22.43.38:034][721]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Cave, compiling. 
-[2015.08.10-22.43.38:038][721]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Cave, compiling. 
-[2015.08.10-22.43.38:042][721]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Cave, compiling. 
-[2015.08.10-22.43.38:063][722]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Rock2, compiling. 
-[2015.08.10-22.43.38:068][722]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Rock2, compiling. 
-[2015.08.10-22.43.38:072][722]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Rock2, compiling. 
-[2015.08.10-22.43.38:091][723]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer OtherStone, compiling. 
-[2015.08.10-22.43.38:095][723]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer OtherStone, compiling. 
-[2015.08.10-22.43.38:099][723]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer OtherStone, compiling. 
-[2015.08.10-22.43.38:118][724]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer PotMat, compiling. 
-[2015.08.10-22.43.38:122][724]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer PotMat, compiling. 
-[2015.08.10-22.43.38:126][724]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer PotMat, compiling. 
-[2015.08.10-22.43.38:146][725]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_Burlap, compiling. 
-[2015.08.10-22.43.38:150][725]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_Burlap, compiling. 
-[2015.08.10-22.43.38:155][725]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_Burlap, compiling. 
-[2015.08.10-22.43.38:174][726]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Tile, compiling. 
-[2015.08.10-22.43.38:177][726]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Tile, compiling. 
-[2015.08.10-22.43.38:181][726]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Tile, compiling. 
-[2015.08.10-22.43.38:201][727]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Scalfolding, compiling. 
-[2015.08.10-22.43.38:205][727]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Scalfolding, compiling. 
-[2015.08.10-22.43.38:209][727]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Scalfolding, compiling. 
-[2015.08.10-22.43.38:230][728]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_Wagon, compiling. 
-[2015.08.10-22.43.38:234][728]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_Wagon, compiling. 
-[2015.08.10-22.43.38:237][728]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_Wagon, compiling. 
-[2015.08.10-22.43.38:256][729]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_Table, compiling. 
-[2015.08.10-22.43.38:260][729]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_Table, compiling. 
-[2015.08.10-22.43.38:264][729]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_Table, compiling. 
-[2015.08.10-22.43.38:284][730]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_Chair, compiling. 
-[2015.08.10-22.43.38:288][730]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_Chair, compiling. 
-[2015.08.10-22.43.38:291][730]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_Chair, compiling. 
-[2015.08.10-22.43.38:310][731]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_Bark, compiling. 
-[2015.08.10-22.43.38:314][731]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_Bark, compiling. 
-[2015.08.10-22.43.38:317][731]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_Bark, compiling. 
-[2015.08.10-22.43.38:338][732]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Water, compiling. 
-[2015.08.10-22.43.38:342][732]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Water, compiling. 
-[2015.08.10-22.43.38:344][732]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer DoorMaty, compiling. 
-[2015.08.10-22.43.38:347][732]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer DoorMaty, compiling. 
-[2015.08.10-22.43.38:351][732]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer DoorMaty, compiling. 
-[2015.08.10-22.43.38:372][733]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Altar_dDo_d_Mat, compiling. 
-[2015.08.10-22.43.38:375][733]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Altar_dDo_d_Mat, compiling. 
-[2015.08.10-22.43.38:378][733]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Altar_dDo_d_Mat, compiling. 
-[2015.08.10-22.43.38:396][734]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Log001TXT_Mat, compiling. 
-[2015.08.10-22.43.38:400][734]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Log001TXT_Mat, compiling. 
-[2015.08.10-22.43.38:403][734]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Log001TXT_Mat, compiling. 
-[2015.08.10-22.43.38:421][735]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_Axe_Handle, compiling. 
-[2015.08.10-22.43.38:425][735]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_Axe_Handle, compiling. 
-[2015.08.10-22.43.38:431][735]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_Axe_Handle, compiling. 
-[2015.08.10-22.43.38:451][736]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_Axe_Head, compiling. 
-[2015.08.10-22.43.38:455][736]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_Axe_Head, compiling. 
-[2015.08.10-22.43.38:458][736]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_Axe_Head, compiling. 
-[2015.08.10-22.43.38:478][737]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_Shield_Buckler, compiling. 
-[2015.08.10-22.43.38:482][737]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_Shield_Buckler, compiling. 
-[2015.08.10-22.43.38:485][737]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_Shield_Buckler, compiling. 
-[2015.08.10-22.43.38:504][738]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_Shield_Tower, compiling. 
-[2015.08.10-22.43.38:508][738]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_Shield_Tower, compiling. 
-[2015.08.10-22.43.38:511][738]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_Shield_Tower, compiling. 
-[2015.08.10-22.44.00:681][523]LightingResults:Error: Error LADDER Object has overlapping UVs.
-[2015.08.10-22.44.00:681][523]LightingResults: Info LADDER Lightmap UV are overlapping by 49.6%. Please adjust content - Enable Error Coloring to visualize.
-[2015.08.10-22.44.02:600][650]LightingResults:Error: Error LADDER Object has overlapping UVs.
-[2015.08.10-22.44.02:600][650]LightingResults: Info LADDER Lightmap UV are overlapping by 49.6%. Please adjust content - Enable Error Coloring to visualize.
-[2015.08.10-22.44.02:630][652]LightingResults:Error: Error LADDER Object has overlapping UVs.
-[2015.08.10-22.44.02:630][652]LightingResults: Info LADDER Lightmap UV are overlapping by 49.6%. Please adjust content - Enable Error Coloring to visualize.
-[2015.08.10-22.44.04:747][790]LightingResults:Error: Error LADDER Object has overlapping UVs.
-[2015.08.10-22.44.04:747][790]LightingResults: Info LADDER Lightmap UV are overlapping by 49.6%. Please adjust content - Enable Error Coloring to visualize.
-[2015.08.10-22.44.04:923][802]LightingResults:Error: Error LADDER Object has overlapping UVs.
-[2015.08.10-22.44.04:923][802]LightingResults: Info LADDER Lightmap UV are overlapping by 49.6%. Please adjust content - Enable Error Coloring to visualize.
-[2015.08.10-22.44.05:680][851]LightingResults:Error: Error wagon Object has overlapping UVs.
-[2015.08.10-22.44.05:680][851]LightingResults: Info wagon Lightmap UV are overlapping by 3.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.08.10-22.44.07:032][941]LightingResults:Error: Error wagon Object has overlapping UVs.
-[2015.08.10-22.44.07:032][941]LightingResults: Info wagon Lightmap UV are overlapping by 3.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.08.10-22.44.25:675][237]LightingResults:Error: Error Lanturn02 Object has overlapping UVs.
-[2015.08.10-22.44.25:675][237]LightingResults: Info Lanturn02 Lightmap UV are overlapping by 21.4%. Please adjust content - Enable Error Coloring to visualize.
-[2015.08.10-22.44.28:604][436]LightingResults:Error: Error Lanturn02 Object has overlapping UVs.
-[2015.08.10-22.44.28:604][436]LightingResults: Info Lanturn02 Lightmap UV are overlapping by 21.4%. Please adjust content - Enable Error Coloring to visualize.
-[2015.08.10-22.44.28:942][459]LightingResults:Error: Error Lanturn02 Object has overlapping UVs.
-[2015.08.10-22.44.28:942][459]LightingResults: Info Lanturn02 Lightmap UV are overlapping by 21.4%. Please adjust content - Enable Error Coloring to visualize.
-[2015.08.10-22.44.28:972][461]LightingResults:Error: Error Lanturn02 Object has overlapping UVs.
-[2015.08.10-22.44.28:972][461]LightingResults: Info Lanturn02 Lightmap UV are overlapping by 21.4%. Please adjust content - Enable Error Coloring to visualize.
-[2015.08.10-22.44.29:046][466]LightingResults:Error: Error Lanturn02 Object has overlapping UVs.
-[2015.08.10-22.44.29:046][466]LightingResults: Info Lanturn02 Lightmap UV are overlapping by 21.4%. Please adjust content - Enable Error Coloring to visualize.
-[2015.08.10-22.44.29:449][493]LightingResults:Error: Error Lanturn02 Object has overlapping UVs.
-[2015.08.10-22.44.29:449][493]LightingResults: Info Lanturn02 Lightmap UV are overlapping by 21.4%. Please adjust content - Enable Error Coloring to visualize.
-[2015.08.10-22.44.29:492][496]LightingResults:Error: Error Lanturn02 Object has overlapping UVs.
-[2015.08.10-22.44.29:492][496]LightingResults: Info Lanturn02 Lightmap UV are overlapping by 21.4%. Please adjust content - Enable Error Coloring to visualize.
-[2015.08.10-22.44.29:654][507]LightingResults:Error: Error Lanturn02 Object has overlapping UVs.
-[2015.08.10-22.44.29:655][507]LightingResults: Info Lanturn02 Lightmap UV are overlapping by 21.4%. Please adjust content - Enable Error Coloring to visualize.
-[2015.08.10-22.44.29:738][512]LightingResults:Error: Error Lanturn02 Object has overlapping UVs.
-[2015.08.10-22.44.29:738][512]LightingResults: Info Lanturn02 Lightmap UV are overlapping by 21.4%. Please adjust content - Enable Error Coloring to visualize.
-[2015.08.10-22.44.29:832][518]LightingResults:Error: Error Lanturn02 Object has overlapping UVs.
-[2015.08.10-22.44.29:832][518]LightingResults: Info Lanturn02 Lightmap UV are overlapping by 21.4%. Please adjust content - Enable Error Coloring to visualize.
-[2015.08.10-22.44.29:862][520]LightingResults:Error: Error Lanturn02 Object has overlapping UVs.
-[2015.08.10-22.44.29:863][520]LightingResults: Info Lanturn02 Lightmap UV are overlapping by 21.4%. Please adjust content - Enable Error Coloring to visualize.
-[2015.08.10-22.44.29:951][526]LightingResults:Error: Error Lanturn02 Object has overlapping UVs.
-[2015.08.10-22.44.29:951][526]LightingResults: Info Lanturn02 Lightmap UV are overlapping by 21.4%. Please adjust content - Enable Error Coloring to visualize.
-[2015.08.10-22.44.30:121][537]LightingResults:Error: Error LADDER Object has overlapping UVs.
-[2015.08.10-22.44.30:121][537]LightingResults: Info LADDER Lightmap UV are overlapping by 49.6%. Please adjust content - Enable Error Coloring to visualize.
-[2015.08.10-22.44.30:266][546]LightingResults:Error: Error LADDER Object has overlapping UVs.
-[2015.08.10-22.44.30:266][546]LightingResults: Info LADDER Lightmap UV are overlapping by 49.6%. Please adjust content - Enable Error Coloring to visualize.
-[2015.08.10-22.44.35:298][866]LightingResults:Error: Error wagon Object has overlapping UVs.
-[2015.08.10-22.44.35:299][866]LightingResults: Info wagon Lightmap UV are overlapping by 3.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.08.10-22.44.36:214][927]Job is a success!
-[2015.08.10-22.44.36:766][928]LogMaterial:Warning: Material /Game/Materials/Mat_Axe_Handle.Mat_Axe_Handle needed to have new flag set bUsedWithStaticLighting !
-[2015.08.10-22.44.36:768][928]LogMaterial: Missing cached shader map for material Mat_Axe_Handle, compiling. 
-[2015.08.10-22.44.36:808][928]LogMaterial: 0.000140 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.08.10-22.44.36:808][928]LogMaterial:Warning: Material /Game/Materials/Mat_Axe_Head.Mat_Axe_Head needed to have new flag set bUsedWithStaticLighting !
-[2015.08.10-22.44.36:810][928]LogMaterial: Missing cached shader map for material Mat_Axe_Head, compiling. 
-[2015.08.10-22.44.36:822][928]LogMaterial: 0.000198 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.08.10-22.44.36:827][928]LogMaterial:Warning: Material /Game/Models/WoodLog/Log001TXT_Mat.Log001TXT_Mat needed to have new flag set bUsedWithStaticLighting !
-[2015.08.10-22.44.36:830][928]LogMaterial: Missing cached shader map for material Log001TXT_Mat, compiling. 
-[2015.08.10-22.44.36:859][928]LogMaterial: 0.000214 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.08.10-22.44.36:862][928]LogMaterial:Warning: Material /Game/Materials/Mat_Shield_Buckler.Mat_Shield_Buckler needed to have new flag set bUsedWithStaticLighting !
-[2015.08.10-22.44.36:866][928]LogMaterial: Missing cached shader map for material Mat_Shield_Buckler, compiling. 
-[2015.08.10-22.44.36:880][928]LogMaterial: 0.000138 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.08.10-22.44.36:880][928]LogMaterial:Warning: Material /Game/Materials/Mat_Shield_Tower.Mat_Shield_Tower needed to have new flag set bUsedWithStaticLighting !
-[2015.08.10-22.44.36:883][928]LogMaterial: Missing cached shader map for material Mat_Shield_Tower, compiling. 
-[2015.08.10-22.44.36:897][928]LogMaterial: 0.000151 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.08.10-22.44.37:411][928]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
-[2015.08.10-22.44.37:452][928]LogTexture:Display: Building textures: LQ_Lightmap_0_83 (DXT1)
-[2015.08.10-22.44.37:458][928]LogTexture:Display: Building textures: HQ_Lightmap0_83 (AutoDXT)
-[2015.08.10-22.44.37:471][928]LogTexture:Display: Building textures: LQ_Lightmap_0_82 (DXT1)
-[2015.08.10-22.44.37:475][928]LogTexture:Display: Building textures: HQ_Lightmap0_82 (AutoDXT)
-[2015.08.10-22.44.37:484][928]LogTexture:Display: Building textures: LQ_Lightmap_0_81 (DXT1)
-[2015.08.10-22.44.37:488][928]LogTexture:Display: Building textures: HQ_Lightmap0_81 (AutoDXT)
-[2015.08.10-22.44.37:498][928]LogTexture:Display: Building textures: LQ_Lightmap_0_80 (DXT1)
-[2015.08.10-22.44.37:504][928]LogTexture:Display: Building textures: HQ_Lightmap0_80 (AutoDXT)
-[2015.08.10-22.44.37:512][928]LogTexture:Display: Building textures: LQ_Lightmap_0_79 (DXT1)
-[2015.08.10-22.44.37:518][928]LogTexture:Display: Building textures: HQ_Lightmap0_79 (AutoDXT)
-[2015.08.10-22.44.37:527][928]LogTexture:Display: Building textures: LQ_Lightmap_0_78 (DXT1)
-[2015.08.10-22.44.37:530][928]LogTexture:Display: Building textures: HQ_Lightmap0_78 (AutoDXT)
-[2015.08.10-22.44.37:539][928]LogTexture:Display: Building textures: LQ_Lightmap_0_77 (DXT1)
-[2015.08.10-22.44.37:544][928]LogTexture:Display: Building textures: HQ_Lightmap0_77 (AutoDXT)
-[2015.08.10-22.44.37:552][928]LogTexture:Display: Building textures: LQ_Lightmap_0_76 (DXT1)
-[2015.08.10-22.44.37:562][928]LogTexture:Display: Building textures: HQ_Lightmap0_76 (AutoDXT)
-[2015.08.10-22.44.37:573][928]LogTexture:Display: Building textures: LQ_Lightmap_0_75 (DXT1)
-[2015.08.10-22.44.37:589][928]LogTexture:Display: Building textures: HQ_Lightmap0_75 (AutoDXT)
-[2015.08.10-22.44.37:616][928]LogTexture:Display: Building textures: LQ_Lightmap_0_74 (DXT1)
-[2015.08.10-22.44.37:622][928]LogTexture:Display: Building textures: HQ_Lightmap0_74 (AutoDXT)
-[2015.08.10-22.44.37:631][928]LogTexture:Display: Building textures: LQ_Lightmap_0_73 (DXT1)
-[2015.08.10-22.44.37:636][928]LogTexture:Display: Building textures: HQ_Lightmap0_73 (AutoDXT)
-[2015.08.10-22.44.37:645][928]LogTexture:Display: Building textures: LQ_Lightmap_0_72 (DXT1)
-[2015.08.10-22.44.37:655][928]LogTexture:Display: Building textures: HQ_Lightmap0_72 (AutoDXT)
-[2015.08.10-22.44.37:673][928]LogTexture:Display: Building textures: LQ_Lightmap_0_71 (DXT1)
-[2015.08.10-22.44.37:691][928]LogTexture:Display: Building textures: HQ_Lightmap0_71 (AutoDXT)
-[2015.08.10-22.44.37:716][928]LogTexture:Display: Building textures: LQ_Lightmap_0_70 (DXT1)
-[2015.08.10-22.44.37:724][928]LogTexture:Display: Building textures: HQ_Lightmap0_70 (AutoDXT)
-[2015.08.10-22.44.37:734][928]LogTexture:Display: Building textures: LQ_Lightmap_0_69 (DXT1)
-[2015.08.10-22.44.37:750][928]LogTexture:Display: Building textures: HQ_Lightmap0_69 (AutoDXT)
-[2015.08.10-22.44.37:778][928]LogTexture:Display: Building textures: LQ_Lightmap_0_68 (DXT1)
-[2015.08.10-22.44.37:786][928]LogTexture:Display: Building textures: HQ_Lightmap0_68 (AutoDXT)
-[2015.08.10-22.44.37:798][928]LogTexture:Display: Building textures: LQ_Lightmap_0_67 (DXT1)
-[2015.08.10-22.44.37:803][928]LogTexture:Display: Building textures: HQ_Lightmap0_67 (AutoDXT)
-[2015.08.10-22.44.37:814][928]LogTexture:Display: Building textures: LQ_Lightmap_0_66 (DXT1)
-[2015.08.10-22.44.37:849][928]LogTexture:Display: Building textures: HQ_Lightmap0_66 (AutoDXT)
-[2015.08.10-22.44.37:860][928]LogTexture:Display: Building textures: LQ_Lightmap_0_65 (DXT1)
-[2015.08.10-22.44.37:864][928]LogTexture:Display: Building textures: HQ_Lightmap0_65 (AutoDXT)
-[2015.08.10-22.44.37:869][928]LogTexture:Display: Building textures: LQ_Lightmap_0_64 (DXT1)
-[2015.08.10-22.44.37:877][928]LogTexture:Display: Building textures: HQ_Lightmap0_64 (AutoDXT)
-[2015.08.10-22.44.37:884][928]LogTexture:Display: Building textures: LQ_Lightmap_0_63 (DXT1)
-[2015.08.10-22.44.37:889][928]LogTexture:Display: Building textures: HQ_Lightmap0_63 (AutoDXT)
-[2015.08.10-22.44.37:900][928]LogTexture:Display: Building textures: LQ_Lightmap_0_62 (DXT1)
-[2015.08.10-22.44.37:906][928]LogTexture:Display: Building textures: HQ_Lightmap0_62 (AutoDXT)
-[2015.08.10-22.44.37:916][928]LogTexture:Display: Building textures: LQ_Lightmap_0_61 (DXT1)
-[2015.08.10-22.44.37:922][928]LogTexture:Display: Building textures: HQ_Lightmap0_61 (AutoDXT)
-[2015.08.10-22.44.37:933][928]LogTexture:Display: Building textures: LQ_Lightmap_0_60 (DXT1)
-[2015.08.10-22.44.37:945][928]LogTexture:Display: Building textures: HQ_Lightmap0_60 (AutoDXT)
-[2015.08.10-22.44.37:964][928]LogTexture:Display: Building textures: LQ_Lightmap_0_59 (DXT1)
-[2015.08.10-22.44.37:974][928]LogTexture:Display: Building textures: HQ_Lightmap0_59 (AutoDXT)
-[2015.08.10-22.44.37:993][928]LogTexture:Display: Building textures: LQ_Lightmap_0_58 (DXT1)
-[2015.08.10-22.44.37:998][928]LogTexture:Display: Building textures: HQ_Lightmap0_58 (AutoDXT)
-[2015.08.10-22.44.38:008][928]LogTexture:Display: Building textures: LQ_Lightmap_0_57 (DXT1)
-[2015.08.10-22.44.38:014][928]LogTexture:Display: Building textures: HQ_Lightmap0_57 (AutoDXT)
-[2015.08.10-22.44.38:030][928]LogTexture:Display: Building textures: LQ_Lightmap_0_56 (DXT1)
-[2015.08.10-22.44.38:373][928]LogTexture:Display: Building textures: HQ_Lightmap0_56 (AutoDXT)
-[2015.08.10-22.44.38:940][928]LogTexture:Display: Building textures: LQ_Lightmap_0_55 (DXT1)
-[2015.08.10-22.44.38:952][928]LogTexture:Display: Building textures: HQ_Lightmap0_55 (AutoDXT)
-[2015.08.10-22.44.38:966][928]LogTexture:Display: Building textures: LQ_Lightmap_0_54 (DXT1)
-[2015.08.10-22.44.38:974][928]LogTexture:Display: Building textures: HQ_Lightmap0_54 (AutoDXT)
-[2015.08.10-22.44.38:988][928]LogTexture:Display: Building textures: LQ_Lightmap_0_53 (DXT1)
-[2015.08.10-22.44.38:996][928]LogTexture:Display: Building textures: HQ_Lightmap0_53 (AutoDXT)
-[2015.08.10-22.44.39:010][928]LogTexture:Display: Building textures: LQ_Lightmap_0_52 (DXT1)
-[2015.08.10-22.44.39:019][928]LogTexture:Display: Building textures: HQ_Lightmap0_52 (AutoDXT)
-[2015.08.10-22.44.39:032][928]LogTexture:Display: Building textures: LQ_Lightmap_0_51 (DXT1)
-[2015.08.10-22.44.39:040][928]LogTexture:Display: Building textures: HQ_Lightmap0_51 (AutoDXT)
-[2015.08.10-22.44.39:055][928]LogTexture:Display: Building textures: LQ_Lightmap_1_50 (DXT1)
-[2015.08.10-22.44.39:063][928]LogTexture:Display: Building textures: HQ_Lightmap1_50 (AutoDXT)
-[2015.08.10-22.44.39:077][928]LogTexture:Display: Building textures: LQ_Lightmap_1_49 (DXT1)
-[2015.08.10-22.44.39:085][928]LogTexture:Display: Building textures: HQ_Lightmap1_49 (AutoDXT)
-[2015.08.10-22.44.39:099][928]LogTexture:Display: Building textures: LQ_Lightmap_1_48 (DXT1)
-[2015.08.10-22.44.39:107][928]LogTexture:Display: Building textures: HQ_Lightmap1_48 (AutoDXT)
-[2015.08.10-22.44.39:120][928]LogTexture:Display: Building textures: LQ_Lightmap_0_47 (DXT1)
-[2015.08.10-22.44.39:128][928]LogTexture:Display: Building textures: HQ_Lightmap0_47 (AutoDXT)
-[2015.08.10-22.44.39:143][928]LogTexture:Display: Building textures: LQ_Lightmap_0_46 (DXT1)
-[2015.08.10-22.44.39:145][928]LogTexture:Display: Building textures: HQ_Lightmap0_46 (AutoDXT)
-[2015.08.10-22.44.39:148][928]LogTexture:Display: Building textures: LQ_Lightmap_0_45 (DXT1)
-[2015.08.10-22.44.39:154][928]LogTexture:Display: Building textures: HQ_Lightmap0_45 (AutoDXT)
-[2015.08.10-22.44.39:160][928]LogTexture:Display: Building textures: LQ_Lightmap_0_44 (DXT1)
-[2015.08.10-22.44.39:164][928]LogTexture:Display: Building textures: HQ_Lightmap0_44 (AutoDXT)
-[2015.08.10-22.44.39:169][928]LogTexture:Display: Building textures: LQ_Lightmap_0_43 (DXT1)
-[2015.08.10-22.44.39:173][928]LogTexture:Display: Building textures: HQ_Lightmap0_43 (AutoDXT)
-[2015.08.10-22.44.39:178][928]LogTexture:Display: Building textures: LQ_Lightmap_0_42 (DXT1)
-[2015.08.10-22.44.39:180][928]LogTexture:Display: Building textures: HQ_Lightmap0_42 (AutoDXT)
-[2015.08.10-22.44.39:183][928]LogTexture:Display: Building textures: LQ_Lightmap_0_41 (DXT1)
-[2015.08.10-22.44.39:184][928]LogTexture:Display: Building textures: HQ_Lightmap0_41 (AutoDXT)
-[2015.08.10-22.44.39:189][928]LogTexture:Display: Building textures: LQ_Lightmap_0_40 (DXT1)
-[2015.08.10-22.44.39:196][928]LogTexture:Display: Building textures: HQ_Lightmap0_40 (AutoDXT)
-[2015.08.10-22.44.39:204][928]LogTexture:Display: Building textures: LQ_Lightmap_0_39 (DXT1)
-[2015.08.10-22.44.39:211][928]LogTexture:Display: Building textures: HQ_Lightmap0_39 (AutoDXT)
-[2015.08.10-22.44.39:216][928]LogTexture:Display: Building textures: LQ_Lightmap_0_38 (DXT1)
-[2015.08.10-22.44.39:222][928]LogTexture:Display: Building textures: HQ_Lightmap0_38 (AutoDXT)
-[2015.08.10-22.44.39:227][928]LogTexture:Display: Building textures: LQ_Lightmap_0_37 (DXT1)
-[2015.08.10-22.44.39:236][928]LogTexture:Display: Building textures: HQ_Lightmap0_37 (AutoDXT)
-[2015.08.10-22.44.39:246][928]LogTexture:Display: Building textures: LQ_Lightmap_0_36 (DXT1)
-[2015.08.10-22.44.39:249][928]LogTexture:Display: Building textures: HQ_Lightmap0_36 (AutoDXT)
-[2015.08.10-22.44.39:252][928]LogTexture:Display: Building textures: LQ_Lightmap_0_35 (DXT1)
-[2015.08.10-22.44.39:254][928]LogTexture:Display: Building textures: HQ_Lightmap0_35 (AutoDXT)
-[2015.08.10-22.44.39:257][928]LogTexture:Display: Building textures: LQ_Lightmap_0_34 (DXT1)
-[2015.08.10-22.44.39:261][928]LogTexture:Display: Building textures: HQ_Lightmap0_34 (AutoDXT)
-[2015.08.10-22.44.39:266][928]LogTexture:Display: Building textures: LQ_Lightmap_0_33 (DXT1)
-[2015.08.10-22.44.39:272][928]LogTexture:Display: Building textures: HQ_Lightmap0_33 (AutoDXT)
-[2015.08.10-22.44.39:277][928]LogTexture:Display: Building textures: LQ_Lightmap_0_32 (DXT1)
-[2015.08.10-22.44.39:286][928]LogTexture:Display: Building textures: HQ_Lightmap0_32 (AutoDXT)
-[2015.08.10-22.44.39:296][928]LogTexture:Display: Building textures: LQ_Lightmap_0_31 (DXT1)
-[2015.08.10-22.44.39:303][928]LogTexture:Display: Building textures: HQ_Lightmap0_31 (AutoDXT)
-[2015.08.10-22.44.39:312][928]LogTexture:Display: Building textures: LQ_Lightmap_0_30 (DXT1)
-[2015.08.10-22.44.39:319][928]LogTexture:Display: Building textures: HQ_Lightmap0_30 (AutoDXT)
-[2015.08.10-22.44.39:326][928]LogTexture:Display: Building textures: LQ_Lightmap_0_29 (DXT1)
-[2015.08.10-22.44.39:329][928]LogTexture:Display: Building textures: HQ_Lightmap0_29 (AutoDXT)
-[2015.08.10-22.44.39:333][928]LogTexture:Display: Building textures: LQ_Lightmap_0_28 (DXT1)
-[2015.08.10-22.44.39:335][928]LogTexture:Display: Building textures: HQ_Lightmap0_28 (AutoDXT)
-[2015.08.10-22.44.39:339][928]LogTexture:Display: Building textures: LQ_Lightmap_0_27 (DXT1)
-[2015.08.10-22.44.39:341][928]LogTexture:Display: Building textures: HQ_Lightmap0_27 (AutoDXT)
-[2015.08.10-22.44.39:346][928]LogTexture:Display: Building textures: LQ_Lightmap_0_26 (DXT1)
-[2015.08.10-22.44.39:351][928]LogTexture:Display: Building textures: HQ_Lightmap0_26 (AutoDXT)
-[2015.08.10-22.44.39:356][928]LogTexture:Display: Building textures: LQ_Lightmap_0_25 (DXT1)
-[2015.08.10-22.44.39:366][928]LogTexture:Display: Building textures: HQ_Lightmap0_25 (AutoDXT)
-[2015.08.10-22.44.39:373][928]LogTexture:Display: Building textures: LQ_Lightmap_0_24 (DXT1)
-[2015.08.10-22.44.39:386][928]LogTexture:Display: Building textures: HQ_Lightmap0_24 (AutoDXT)
-[2015.08.10-22.44.39:404][928]LogTexture:Display: Building textures: LQ_Lightmap_0_23 (DXT1)
-[2015.08.10-22.44.39:409][928]LogTexture:Display: Building textures: HQ_Lightmap0_23 (AutoDXT)
-[2015.08.10-22.44.39:414][928]LogTexture:Display: Building textures: LQ_Lightmap_0_22 (DXT1)
-[2015.08.10-22.44.39:416][928]LogTexture:Display: Building textures: HQ_Lightmap0_22 (AutoDXT)
-[2015.08.10-22.44.39:420][928]LogTexture:Display: Building textures: LQ_Lightmap_0_21 (DXT1)
-[2015.08.10-22.44.39:422][928]LogTexture:Display: Building textures: HQ_Lightmap0_21 (AutoDXT)
-[2015.08.10-22.44.39:425][928]LogTexture:Display: Building textures: LQ_Lightmap_0_20 (DXT1)
-[2015.08.10-22.44.39:431][928]LogTexture:Display: Building textures: HQ_Lightmap0_20 (AutoDXT)
-[2015.08.10-22.44.39:438][928]LogTexture:Display: Building textures: LQ_Lightmap_0_19 (DXT1)
-[2015.08.10-22.44.39:454][928]LogTexture:Display: Building textures: HQ_Lightmap0_19 (AutoDXT)
-[2015.08.10-22.44.39:477][928]LogTexture:Display: Building textures: LQ_Lightmap_0_18 (DXT1)
-[2015.08.10-22.44.39:495][928]LogTexture:Display: Building textures: HQ_Lightmap0_18 (AutoDXT)
-[2015.08.10-22.44.39:528][928]LogTexture:Display: Building textures: LQ_Lightmap_0_17 (DXT1)
-[2015.08.10-22.44.39:532][928]LogTexture:Display: Building textures: HQ_Lightmap0_17 (AutoDXT)
-[2015.08.10-22.44.39:536][928]LogTexture:Display: Building textures: LQ_Lightmap_0_16 (DXT1)
-[2015.08.10-22.44.39:539][928]LogTexture:Display: Building textures: HQ_Lightmap0_16 (AutoDXT)
-[2015.08.10-22.44.39:543][928]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1)
-[2015.08.10-22.44.39:549][928]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT)
-[2015.08.10-22.44.39:554][928]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1)
-[2015.08.10-22.44.39:556][928]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT)
-[2015.08.10-22.44.39:559][928]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1)
-[2015.08.10-22.44.39:563][928]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT)
-[2015.08.10-22.44.39:567][928]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1)
-[2015.08.10-22.44.39:579][928]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT)
-[2015.08.10-22.44.39:593][928]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1)
-[2015.08.10-22.44.39:607][928]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT)
-[2015.08.10-22.44.39:630][928]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1)
-[2015.08.10-22.44.39:642][928]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT)
-[2015.08.10-22.44.39:657][928]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
-[2015.08.10-22.44.39:668][928]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
-[2015.08.10-22.44.39:680][928]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
-[2015.08.10-22.44.39:747][928]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
-[2015.08.10-22.44.39:854][928]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
-[2015.08.10-22.44.39:902][928]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
-[2015.08.10-22.44.39:989][928]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
-[2015.08.10-22.44.40:015][928]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
-[2015.08.10-22.44.40:085][928]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
-[2015.08.10-22.44.40:091][928]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
-[2015.08.10-22.44.40:098][928]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
-[2015.08.10-22.44.40:104][928]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
-[2015.08.10-22.44.40:118][928]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
-[2015.08.10-22.44.40:329][928]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
-[2015.08.10-22.44.40:681][928]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
-[2015.08.10-22.44.40:706][928]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
-[2015.08.10-22.44.40:749][928]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
-[2015.08.10-22.44.40:813][928]Lightmass on JOSEPH-PC: 48.6 sec total, 1.61 sec importing, 1.16 sec setup, 4.32 sec photons, 41.5 sec processing, 0 ms extra exporting [297/297 mappings]. Threads: 4:50 min total, 3:37 min processing.
-[2015.08.10-22.44.40:980][928]LogStaticLightingSystem: Illumination: 1:08 min (3.81 sec encoding lightmaps)
-[2015.08.10-22.44.40:981][928]LogStaticLightingSystem: Lightmap texture memory:  5.7 MB (5.3 MB streaming, 0.3 MB non-streaming), 166 textures
-[2015.08.10-22.44.40:981][928]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
-[2015.08.10-22.44.41:487][929]Cmd: UpdateLandscapeEditorData
-[2015.08.10-22.44.41:488][929]Cmd: MAP CHECK NOTIFYRESULTS
-[2015.08.10-22.44.41:488][929]MapCheck: New page: NewCave - Aug 10, 2015, 8:44:41 AM
-[2015.08.10-22.44.41:507][929]MapCheck:Error: Error scafbod2 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
-[2015.08.10-22.44.41:507][929]MapCheck:Warning: Warning scafbod2 Static mesh actor has NULL StaticMesh property 
-[2015.08.10-22.44.41:507][929]MapCheck:Warning: Warning scafbod2 Static mesh actor has NULL StaticMesh property 
-[2015.08.10-22.44.41:507][929]MapCheck:Error: Error scafbod3 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
-[2015.08.10-22.44.41:507][929]MapCheck:Warning: Warning scafbod3 Static mesh actor has NULL StaticMesh property 
-[2015.08.10-22.44.41:507][929]MapCheck:Warning: Warning scafbod3 Static mesh actor has NULL StaticMesh property 
-[2015.08.10-22.44.41:507][929]MapCheck:Error: Error scafbod4 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
-[2015.08.10-22.44.41:507][929]MapCheck:Warning: Warning scafbod4 Static mesh actor has NULL StaticMesh property 
-[2015.08.10-22.44.41:507][929]MapCheck:Warning: Warning scafbod4 Static mesh actor has NULL StaticMesh property 
-[2015.08.10-22.44.41:507][929]MapCheck:Error: Error scafbod5 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
-[2015.08.10-22.44.41:508][929]MapCheck:Warning: Warning scafbod5 Static mesh actor has NULL StaticMesh property 
-[2015.08.10-22.44.41:508][929]MapCheck:Warning: Warning scafbod5 Static mesh actor has NULL StaticMesh property 
-[2015.08.10-22.44.41:508][929]MapCheck:Error: Error scafbod6 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
-[2015.08.10-22.44.41:508][929]MapCheck:Warning: Warning scafbod6 Static mesh actor has NULL StaticMesh property 
-[2015.08.10-22.44.41:508][929]MapCheck:Warning: Warning scafbod6 Static mesh actor has NULL StaticMesh property 
-[2015.08.10-22.44.41:508][929]MapCheck:Error: Error scafbod_16 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
-[2015.08.10-22.44.41:508][929]MapCheck:Warning: Warning scafbod_16 Static mesh actor has NULL StaticMesh property 
-[2015.08.10-22.44.41:508][929]MapCheck:Warning: Warning scafbod_16 Static mesh actor has NULL StaticMesh property 
-[2015.08.10-22.44.41:765][929]MapCheck: Info Map check complete: 6 Error(s), 12 Warning(s), took 277.433ms to complete.
-[2015.08.10-22.44.50:460][257]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/Scene/NewCave.HQ_Lightmap1_41. Streaming mips will be recached.
-[2015.08.10-22.44.50:466][257]LogTexture:Display: Building textures: HQ_Lightmap1_41 (AutoDXT)
-[2015.08.10-22.44.56:786][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Mat_Axe_Handle" FILE="../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Materials/Mat_Axe_Handle.uasset" SILENT=true
-[2015.08.10-22.44.56:919][528]LogSavePackage: Save=110.893700ms
-[2015.08.10-22.44.56:919][528]LogSavePackage: Moving '../../../../../../../Storage/Documents/GitHub/God-Killer/Saved/Mat_Axe_HandleB4D075A7410FC329A086F88809DCD3C6.tmp' to '../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Materials/Mat_Axe_Handle.uasset'
-[2015.08.10-22.44.56:952][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Mat_Axe_Head" FILE="../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Materials/Mat_Axe_Head.uasset" SILENT=true
-[2015.08.10-22.44.57:185][528]LogSavePackage: Save=213.551086ms
-[2015.08.10-22.44.57:185][528]LogSavePackage: Moving '../../../../../../../Storage/Documents/GitHub/God-Killer/Saved/Mat_Axe_Head8116C6F346BBBEB18BA970B69924011E.tmp' to '../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Materials/Mat_Axe_Head.uasset'
-[2015.08.10-22.44.57:218][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Mat_Shield_Buckler" FILE="../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Materials/Mat_Shield_Buckler.uasset" SILENT=true
-[2015.08.10-22.44.57:444][528]LogSavePackage: Save=206.146866ms
-[2015.08.10-22.44.57:444][528]LogSavePackage: Moving '../../../../../../../Storage/Documents/GitHub/God-Killer/Saved/Mat_Shield_BucklerDA484CEA4F0C8171FC2743B1A42BE098.tmp' to '../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Materials/Mat_Shield_Buckler.uasset'
-[2015.08.10-22.44.57:478][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Mat_Shield_Tower" FILE="../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Materials/Mat_Shield_Tower.uasset" SILENT=true
-[2015.08.10-22.44.57:655][528]LogSavePackage: Save=157.981537ms
-[2015.08.10-22.44.57:655][528]LogSavePackage: Moving '../../../../../../../Storage/Documents/GitHub/God-Killer/Saved/Mat_Shield_Tower190524C7491104BDC64C6991C92676C4.tmp' to '../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Materials/Mat_Shield_Tower.uasset'
-[2015.08.10-22.44.57:685][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/WoodLog/Log001TXT_Mat" FILE="../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Models/WoodLog/Log001TXT_Mat.uasset" SILENT=true
-[2015.08.10-22.44.57:878][528]LogSavePackage: Save=172.741089ms
-[2015.08.10-22.44.57:878][528]LogSavePackage: Moving '../../../../../../../Storage/Documents/GitHub/God-Killer/Saved/Log001TXT_MatABD7EBED4DF48804A1070A8BF7549606.tmp' to '../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Models/WoodLog/Log001TXT_Mat.uasset'
-[2015.08.10-22.44.58:078][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene/NewCave" FILE="../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Scene/NewCave.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2015.08.10-22.44.59:436][528]LogSavePackage: Save=1313.331665ms
-[2015.08.10-22.44.59:436][528]LogSavePackage: Moving '../../../../../../../Storage/Documents/GitHub/God-Killer/Saved/NewCave8522800143F46755B46ED68F495FAD26.tmp' to '../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Scene/NewCave.umap'
-[2015.08.10-22.44.59:500][528]LogFileHelpers: Saving map 'NewCave' took 1.614
-[2015.08.10-22.45.01:510][676]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene/NewCave" FILE="../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Scene/NewCave.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2015.08.10-22.45.02:853][676]LogSavePackage: Save=1298.754028ms
-[2015.08.10-22.45.02:853][676]LogSavePackage: Moving '../../../../../../../Storage/Documents/GitHub/God-Killer/Saved/NewCave3211B4B44C422E7DABCDAE8B45443B0E.tmp' to '../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Scene/NewCave.umap'
-[2015.08.10-22.45.08:761][ 96]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene/NewCave" FILE="../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Scene/NewCave.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2015.08.10-22.45.10:127][ 96]LogSavePackage: Save=1321.204346ms
-[2015.08.10-22.45.10:127][ 96]LogSavePackage: Moving '../../../../../../../Storage/Documents/GitHub/God-Killer/Saved/NewCaveA11D83304F15BBC5C9603C85C631C26A.tmp' to '../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Scene/NewCave.umap'
-[2015.08.10-22.45.11:742][178]Cmd: QUIT_EDITOR
-[2015.08.10-22.45.12:023][178]LogExit: Preparing to exit.
-[2015.08.10-22.45.12:624][178]LogExit: Editor shut down
-[2015.08.10-22.45.12:624][178]LogExit: Transaction tracking system shut down
-[2015.08.10-22.45.12:629][178]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007F8AD38FE0
-[2015.08.10-22.45.12:631][178]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007F948AE5C0
-[2015.08.10-22.45.12:631][178]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007F95639940
-[2015.08.10-22.45.12:702][178]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007F95638EA0
-[2015.08.10-22.45.12:702][178]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007F95638AE0
-[2015.08.10-22.45.12:702][178]LogExit: Object subsystem successfully closed.
-[2015.08.10-22.45.12:768][178]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (178)
-[2015.08.10-22.45.12:768][178]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
-[2015.08.10-22.45.12:768][178]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
-[2015.08.10-22.45.12:768][178]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
-[2015.08.10-22.45.12:768][178]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
-[2015.08.10-22.45.12:768][178]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
-[2015.08.10-22.45.12:768][178]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
-[2015.08.10-22.45.12:768][178]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
-[2015.08.10-22.45.12:768][178]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
-[2015.08.10-22.45.12:768][178]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
-[2015.08.10-22.45.12:768][178]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
-[2015.08.10-22.45.12:768][178]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
-[2015.08.10-22.45.12:768][178]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
-[2015.08.10-22.45.12:768][178]LogModuleManager: Shutting down and abandoning module BspMode (165)
-[2015.08.10-22.45.12:768][178]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
-[2015.08.10-22.45.12:768][178]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
-[2015.08.10-22.45.12:768][178]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
-[2015.08.10-22.45.12:768][178]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
-[2015.08.10-22.45.12:768][178]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
-[2015.08.10-22.45.12:768][178]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
-[2015.08.10-22.45.12:768][178]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
-[2015.08.10-22.45.12:768][178]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
-[2015.08.10-22.45.12:768][178]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
-[2015.08.10-22.45.12:768][178]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
-[2015.08.10-22.45.12:768][178]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
-[2015.08.10-22.45.12:768][178]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
-[2015.08.10-22.45.12:768][178]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
-[2015.08.10-22.45.12:768][178]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
-[2015.08.10-22.45.12:768][178]LogModuleManager: Shutting down and abandoning module XmlParser (150)
-[2015.08.10-22.45.12:768][178]LogModuleManager: Shutting down and abandoning module Blutility (149)
-[2015.08.10-22.45.12:768][178]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
-[2015.08.10-22.45.12:768][178]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
-[2015.08.10-22.45.12:768][178]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
-[2015.08.10-22.45.12:932][178]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
-[2015.08.10-22.45.12:932][178]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
-[2015.08.10-22.45.12:932][178]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
-[2015.08.10-22.45.12:933][178]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
-[2015.08.10-22.45.12:933][178]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
-[2015.08.10-22.45.12:933][178]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
-[2015.08.10-22.45.12:933][178]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
-[2015.08.10-22.45.12:933][178]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
-[2015.08.10-22.45.12:933][178]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
-[2015.08.10-22.45.12:933][178]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
-[2015.08.10-22.45.12:933][178]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
-[2015.08.10-22.45.12:933][178]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
-[2015.08.10-22.45.12:933][178]LogModuleManager: Shutting down and abandoning module AutomationController (133)
-[2015.08.10-22.45.12:933][178]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
-[2015.08.10-22.45.12:933][178]LogModuleManager: Shutting down and abandoning module Layers (131)
-[2015.08.10-22.45.12:933][178]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
-[2015.08.10-22.45.12:933][178]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
-[2015.08.10-22.45.12:933][178]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
-[2015.08.10-22.45.12:933][178]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
-[2015.08.10-22.45.13:010][178]LogModuleManager: Shutting down and abandoning module Persona (126)
-[2015.08.10-22.45.13:010][178]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
-[2015.08.10-22.45.13:010][178]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
-[2015.08.10-22.45.13:011][178]LogModuleManager: Shutting down and abandoning module Kismet (123)
-[2015.08.10-22.45.13:011][178]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
-[2015.08.10-22.45.13:011][178]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
-[2015.08.10-22.45.13:011][178]LogModuleManager: Shutting down and abandoning module Toolbox (120)
-[2015.08.10-22.45.13:011][178]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
-[2015.08.10-22.45.13:011][178]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
-[2015.08.10-22.45.13:011][178]LogModuleManager: Shutting down and abandoning module OutputLog (117)
-[2015.08.10-22.45.13:011][178]LogModuleManager: Shutting down and abandoning module GammaUI (116)
-[2015.08.10-22.45.13:011][178]LogModuleManager: Shutting down and abandoning module Documentation (115)
-[2015.08.10-22.45.13:011][178]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
-[2015.08.10-22.45.13:011][178]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
-[2015.08.10-22.45.13:011][178]LogModuleManager: Shutting down and abandoning module HTTP (112)
-[2015.08.10-22.45.13:011][178]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
-[2015.08.10-22.45.13:011][178]LogModuleManager: Shutting down and abandoning module Analytics (110)
-[2015.08.10-22.45.13:011][178]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
-[2015.08.10-22.45.13:011][178]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
-[2015.08.10-22.45.13:011][178]LogModuleManager: Shutting down and abandoning module AIModule (107)
-[2015.08.10-22.45.13:011][178]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
-[2015.08.10-22.45.13:032][178]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
-[2015.08.10-22.45.13:032][178]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
-[2015.08.10-22.45.13:032][178]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
-[2015.08.10-22.45.13:032][178]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
-[2015.08.10-22.45.13:032][178]LogModuleManager: Shutting down and abandoning module CableComponent (101)
-[2015.08.10-22.45.13:032][178]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
-[2015.08.10-22.45.13:032][178]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
-[2015.08.10-22.45.13:032][178]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
-[2015.08.10-22.45.13:032][178]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
-[2015.08.10-22.45.13:033][178]LogModuleManager: Shutting down and abandoning module MainFrame (96)
-[2015.08.10-22.45.13:033][178]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
-[2015.08.10-22.45.13:033][178]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
-[2015.08.10-22.45.13:033][178]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
-[2015.08.10-22.45.13:033][178]LogModuleManager: Shutting down and abandoning module HotReload (92)
-[2015.08.10-22.45.13:033][178]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
-[2015.08.10-22.45.13:033][178]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
-[2015.08.10-22.45.13:033][178]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
-[2015.08.10-22.45.13:033][178]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
-[2015.08.10-22.45.13:033][178]LogModuleManager: Shutting down and abandoning module SourceControl (87)
-[2015.08.10-22.45.13:033][178]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
-[2015.08.10-22.45.13:033][178]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
-[2015.08.10-22.45.13:033][178]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
-[2015.08.10-22.45.13:033][178]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
-[2015.08.10-22.45.13:033][178]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
-[2015.08.10-22.45.13:034][178]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
-[2015.08.10-22.45.13:034][178]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
-[2015.08.10-22.45.13:034][178]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
-[2015.08.10-22.45.13:135][178]LogModuleManager: Shutting down and abandoning module Paper2D (78)
-[2015.08.10-22.45.13:135][178]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
-[2015.08.10-22.45.13:139][178]LogModuleManager: Shutting down and abandoning module Media (76)
-[2015.08.10-22.45.13:139][178]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
-[2015.08.10-22.45.13:139][178]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
-[2015.08.10-22.45.13:139][178]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
-[2015.08.10-22.45.13:139][178]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
-[2015.08.10-22.45.13:139][178]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
-[2015.08.10-22.45.13:139][178]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
-[2015.08.10-22.45.13:139][178]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
-[2015.08.10-22.45.13:139][178]LogModuleManager: Shutting down and abandoning module MessageLog (68)
-[2015.08.10-22.45.13:139][178]LogModuleManager: Shutting down and abandoning module Sequencer (67)
-[2015.08.10-22.45.13:139][178]LogModuleManager: Shutting down and abandoning module AssetTools (66)
-[2015.08.10-22.45.13:139][178]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
-[2015.08.10-22.45.13:139][178]LogModuleManager: Shutting down and abandoning module UMG (64)
-[2015.08.10-22.45.13:139][178]LogModuleManager: Shutting down and abandoning module Slate (63)
-[2015.08.10-22.45.13:139][178]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
-[2015.08.10-22.45.13:144][178]LogModuleManager: Shutting down and abandoning module SessionServices (61)
-[2015.08.10-22.45.13:144][178]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
-[2015.08.10-22.45.13:144][178]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
-[2015.08.10-22.45.13:145][178]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
-[2015.08.10-22.45.13:145][178]LogModuleManager: Shutting down and abandoning module Networking (56)
-[2015.08.10-22.45.13:145][178]LogModuleManager: Shutting down and abandoning module Core (55)
-[2015.08.10-22.45.13:145][178]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
-[2015.08.10-22.45.13:145][178]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
-[2015.08.10-22.45.13:145][178]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
-[2015.08.10-22.45.13:145][178]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
-[2015.08.10-22.45.13:201][178]LogDerivedDataCache: Shutdown
-[2015.08.10-22.45.13:201][178]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
-[2015.08.10-22.45.13:201][178]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
-[2015.08.10-22.45.13:201][178]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
-[2015.08.10-22.45.13:201][178]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
-[2015.08.10-22.45.13:201][178]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
-[2015.08.10-22.45.13:201][178]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
-[2015.08.10-22.45.13:201][178]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
-[2015.08.10-22.45.13:201][178]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
-[2015.08.10-22.45.13:201][178]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
-[2015.08.10-22.45.13:201][178]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
-[2015.08.10-22.45.13:201][178]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
-[2015.08.10-22.45.13:201][178]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
-[2015.08.10-22.45.13:201][178]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
-[2015.08.10-22.45.13:201][178]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
-[2015.08.10-22.45.13:202][178]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
-[2015.08.10-22.45.13:202][178]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
-[2015.08.10-22.45.13:202][178]LogModuleManager: Shutting down and abandoning module Messaging (34)
-[2015.08.10-22.45.13:202][178]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
-[2015.08.10-22.45.13:202][178]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
-[2015.08.10-22.45.13:202][178]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
-[2015.08.10-22.45.13:202][178]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
-[2015.08.10-22.45.13:202][178]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
-[2015.08.10-22.45.13:202][178]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
-[2015.08.10-22.45.13:202][178]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
-[2015.08.10-22.45.13:202][178]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
-[2015.08.10-22.45.13:202][178]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
-[2015.08.10-22.45.13:202][178]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
-[2015.08.10-22.45.13:202][178]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
-[2015.08.10-22.45.13:202][178]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
-[2015.08.10-22.45.13:202][178]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
-[2015.08.10-22.45.13:202][178]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
-[2015.08.10-22.45.13:202][178]LogModuleManager: Shutting down and abandoning module InputCore (19)
-[2015.08.10-22.45.13:202][178]LogModuleManager: Shutting down and abandoning module Settings (18)
-[2015.08.10-22.45.13:202][178]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
-[2015.08.10-22.45.13:202][178]LogModuleManager: Shutting down and abandoning module OculusRift (15)
-[2015.08.10-22.45.13:202][178]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
-[2015.08.10-22.45.13:202][178]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
-[2015.08.10-22.45.13:202][178]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
-[2015.08.10-22.45.13:202][178]LogModuleManager: Shutting down and abandoning module Landscape (11)
-[2015.08.10-22.45.13:202][178]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
-[2015.08.10-22.45.13:205][178]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
-[2015.08.10-22.45.13:205][178]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
-[2015.08.10-22.45.13:205][178]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2015.08.10-22.45.13:205][178]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2015.08.10-22.45.13:205][178]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2015.08.10-22.45.13:205][178]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2015.08.10-22.45.13:205][178]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2015.08.10-22.45.13:205][178]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2015.08.10-22.45.13:205][178]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2015.08.10-22.45.13:206][178]LogExit: Exiting.
-[2015.08.10-22.45.13:243][178]Log file closed, 08/10/15 15:45:13
+[2015.08.12-04.18.33:043][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.08.12-04.18.36:758][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.08.12-04.18.38:922][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.08.12-04.18.39:006][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.08.12-04.18.39:069][  0]LogDerivedDataCache: Loaded boot cache 0.06s 39MB C:/Users/Joseph/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.08.12-04.18.39:069][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Joseph/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.08.12-04.18.39:069][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Storage/Documents/GitHub/God-Killer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.08.12-04.18.39:069][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.08.12-04.18.39:174][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.08.12-04.18.39:187][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Joseph/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.08.12-04.18.39:547][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.08.12-04.18.39:547][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.08.12-04.18.40:005][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.08.12-04.18.40:121][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.08.12-04.18.41:114][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.08.12-04.18.41:395][  0]SourceControl: Info Source control is disabled
+[2015.08.12-04.18.41:395][  0]SourceControl: Info Source control is disabled
+[2015.08.12-04.18.41:396][  0]SourceControl: Info Source control is disabled
+[2015.08.12-04.18.41:396][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.08.12-04.18.41:396][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.08.12-04.18.41:412][  0]SourceControl: Info Source control is disabled
+[2015.08.12-04.18.41:687][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.08.12-04.18.41:687][  0]LogUObjectAllocator: 5137168 out of 0 bytes used by permanent object pool.
+[2015.08.12-04.18.41:792][  0]LogEngine: Initializing Engine...
+[2015.08.12-04.18.43:979][  0]LogInit: XAudio2 using '1 - LG ULTRAWIDE (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.12-04.18.43:992][  0]LogInit: FAudioDevice initialized.
+[2015.08.12-04.18.44:050][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.08.12-04.18.44:082][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB C:/Users/Joseph/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.08.12-04.18.44:090][  0]LogInit: Texture streaming: Enabled
+[2015.08.12-04.18.44:210][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.08.12-04.18.44:211][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.08.12-04.18.44:211][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.08.12-04.18.44:211][  0]LogAnalytics: SetUserId d0fc97d9433d85cfe1d854a78446f226|fbedbf84e6654fb9830ed15a26abc575|31b426bb-6233-41c4-8090-528f38e68011
+[2015.08.12-04.18.44:211][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.08.12-04.18.44:251][  0]LogInit: Transaction tracking system initialized
+[2015.08.12-04.18.44:530][  0]BlueprintLog: New page: Editor Load
+[2015.08.12-04.18.44:578][  0]LogAssetRegistry: FAssetRegistry took 0.0105 seconds to start up
+[2015.08.12-04.18.44:578][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.08.12-04.18.46:884][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.08.12-04.18.48:893][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.08.12-04.18.49:331][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.08.12-04.18.49:331][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.08.12-04.18.49:336][  0]LogConsoleResponse:Display: 
+[2015.08.12-04.18.49:516][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.08.12-04.18.49:750][  0]SourceControl: Info Source control is disabled
+[2015.08.12-04.18.49:750][  0]Cmd: MAP LOAD FILE="../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Scene/NewCave.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.08.12-04.18.49:751][  0]LightingResults: New page: Lighting Build
+[2015.08.12-04.18.49:770][  0]MapCheck: New page: Map Check
+[2015.08.12-04.18.49:770][  0]LightingResults: New page: Lighting Build
+[2015.08.12-04.18.49:780][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000017C9E48D60
+[2015.08.12-04.18.56:771][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.08.12-04.18.56:772][  0]LogAIModule: Creating AISystem for world NewCave
+[2015.08.12-04.18.56:773][  0]Cmd: MAP CHECKDEP
+[2015.08.12-04.18.56:773][  0]MapCheck: New page: NewCave - Aug 11, 2015, 2:18:56 PM
+[2015.08.12-04.18.56:971][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 198.229ms to complete.
+[2015.08.12-04.18.56:971][  0]LogFileHelpers: Loading map 'NewCave' took 7.220
+[2015.08.12-04.18.57:089][  0]LogCollectionManager: Loaded 0 collections in 0.002194 seconds
+[2015.08.12-04.18.57:101][  0]LogContentBrowser: Native class hierarchy populated in 0.0113 seconds. Added 1696 classes and 261 folders.
+[2015.08.12-04.18.57:199][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0019 seconds. Added 1 classes and 2 folders.
+[2015.08.12-04.18.57:273][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.08.12-04.18.57:274][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.08.12-04.18.57:279][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.08.12-04.18.57:309][  0]LogLoad: Full Startup: 26.70 seconds (BP compile: 2.91 seconds)
+[2015.08.12-04.18.57:348][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2015.08.12-04.18.57:553][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.08.12-04.18.57:731][  1]LogRenderer:Warning: Reallocating scene render targets to support 912x736 (Frame:14).
+[2015.08.12-04.18.57:736][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2015.08.12-04.18.57:737][  1]Cmd: UpdateLandscapeEditorData
+[2015.08.12-04.18.58:516][  9]LogAssetRegistry: Asset discovery search completed in 13.9489 seconds
+[2015.08.12-04.19.46:919][684]LogRenderer:Warning: Reallocating scene render targets to support 1520x928 (Frame:4654).
+[2015.08.12-04.20.53:196][709]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models'
+[2015.08.12-04.20.59:970][ 25]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models'
+[2015.08.12-04.21.07:332][651]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/WagonWheel'
+[2015.08.12-04.21.13:059][716]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:/Users/Joseph/Desktop/god kill;er/WagonWheel001.fbx)
+[2015.08.12-04.21.13:067][716]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.08.12-04.21.13:067][716]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.08.12-04.21.13:067][716]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.08.12-04.21.13:067][716]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.08.12-04.21.13:067][716]LogFbx: ItemName: Material, ItemCount : 1
+[2015.08.12-04.21.13:067][716]LogFbx: ItemName: Model, ItemCount : 1
+[2015.08.12-04.21.14:299][716]LogFbx: Loading FBX Scene from C:/Users/Joseph/Desktop/god kill;er/WagonWheel001.fbx
+[2015.08.12-04.21.14:308][716]LogFbx: FBX Scene Loaded Succesfully
+[2015.08.12-04.21.14:310][716]LogFbx:Warning: Triangulating static mesh pPipe1
+[2015.08.12-04.21.14:533][716]LogFbx: == Initial material list:
+[2015.08.12-04.21.14:533][716]LogFbx: 0: lambert1
+[2015.08.12-04.21.14:533][716]LogFbx: == After sorting:
+[2015.08.12-04.21.14:533][716]LogFbx: 0: lambert1
+[2015.08.12-04.21.14:533][716]LogFbx: == Mapping table:
+[2015.08.12-04.21.14:533][716]LogFbx:   sort 0 -> 0
+[2015.08.12-04.21.14:534][716]LogStaticMesh: Building static mesh WagonWheel001...
+[2015.08.12-04.21.14:584][716]LogStaticMesh: Built static mesh [50.006985ms] /Game/Models/WagonWheel/WagonWheel001.WagonWheel001
+[2015.08.12-04.21.14:610][716]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.08.12-04.21.14:639][716]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:/Users/Joseph/Desktop/god kill;er/WagonWheel001Nor.tga)
+[2015.08.12-04.21.16:623][716]0.000039 seconds to analyze Texture2D /Game/Models/WagonWheel/WagonWheel001Nor.WagonWheel001Nor
+
+[2015.08.12-04.21.16:639][716]LogTexture:Display: Building textures: WagonWheel001Nor (BGRA8)
+[2015.08.12-04.21.17:112][716]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:/Users/Joseph/Desktop/god kill;er/WagonWheel001Spec.tga)
+[2015.08.12-04.21.17:173][716]0.000040 seconds to analyze Texture2D /Game/Models/WagonWheel/WagonWheel001Spec.WagonWheel001Spec
+
+[2015.08.12-04.21.17:181][716]LogTexture:Display: Building textures: WagonWheel001Spec (BGRA8)
+[2015.08.12-04.21.17:823][716]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:/Users/Joseph/Desktop/god kill;er/WagonWheel001TXT.tga)
+[2015.08.12-04.21.17:886][716]0.000047 seconds to analyze Texture2D /Game/Models/WagonWheel/WagonWheel001TXT.WagonWheel001TXT
+
+[2015.08.12-04.21.17:896][716]LogTexture:Display: Building textures: WagonWheel001TXT (BGRA8)
+[2015.08.12-04.21.18:509][716]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.08.12-04.21.18:510][716]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/WagonWheel'
+[2015.08.12-04.21.18:510][716]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/WagonWheel'
+[2015.08.12-04.21.18:510][716]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/WagonWheel'
+[2015.08.12-04.21.18:511][716]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/WagonWheel'
+[2015.08.12-04.22.16:236][575]LogRenderer:Warning: Reallocating scene render targets to support 1944x928 (Frame:17268).
+[2015.08.12-04.22.22:679][254]LogActorFactory: Actor Factory created WagonWheel001
+[2015.08.12-04.22.23:201][293]LogActorFactory: Actor Factory created WagonWheel001
+[2015.08.12-04.22.31:438][983]LogStaticMesh: Building static mesh WagonWheel001...
+[2015.08.12-04.22.31:464][983]LogStaticMesh: Built static mesh [26.043604ms] /Game/Models/WagonWheel/WagonWheel001.WagonWheel001
+[2015.08.12-04.22.39:360][558]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/WagonWheel'
+[2015.08.12-04.22.40:909][666]LogMaterial: Missing cached shader map for material WagonWheel001TXT_Mat, compiling. 
+[2015.08.12-04.22.41:138][669]LogMaterial: Missing cached shader map for material WagonWheel001TXT_Mat, compiling. 
+[2015.08.12-04.22.41:252][669]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.08.12-04.22.41:423][669]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.08.12-04.22.41:423][669]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.08.12-04.22.41:423][669]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.08.12-04.22.41:423][669]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.08.12-04.22.41:428][669]LogMaterial: Missing cached shader map for material WagonWheel001TXT_Mat, compiling. 
+[2015.08.12-04.22.41:438][669]LogMaterial: 0.000515 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.12-04.22.41:465][669]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.08.12-04.22.44:116][794]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2015.08.12-04.22.44:116][794]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.12-04.22.44:116][794]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.08.12-04.22.44:644][821]LogMaterial: Missing cached shader map for material WagonWheel001TXT_Mat, compiling. 
+[2015.08.12-04.22.44:648][821]LogMaterial: 0.000101 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.12-04.22.44:649][821]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.08.12-04.22.44:676][821]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.08.12-04.22.44:679][821]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.08.12-04.22.44:694][821]LogMaterial: Missing cached shader map for material WagonWheel001TXT_Mat, compiling. 
+[2015.08.12-04.22.44:700][821]LogMaterial: 0.000065 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.12-04.22.44:701][821]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.08.12-04.22.44:729][821]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.08.12-04.22.44:732][821]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.08.12-04.22.44:735][821]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.08.12-04.22.45:862][850]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2015.08.12-04.22.45:862][850]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.12-04.22.45:862][850]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.08.12-04.22.50:439][  0]LogMaterial: Missing cached shader map for material WagonWheel001TXT_Mat, compiling. 
+[2015.08.12-04.22.50:443][  0]LogMaterial: 0.000101 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.12-04.22.50:477][  0]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.08.12-04.22.51:150][ 26]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 33 instructions
+[2015.08.12-04.22.51:150][ 26]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.12-04.22.51:150][ 26]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.08.12-04.22.55:619][222]LogMaterialEditor: Applying material WagonWheel001TXT_Mat
+[2015.08.12-04.22.56:908][222]LogMaterial: Missing cached shader map for material WagonWheel001TXT_Mat, compiling. 
+[2015.08.12-04.22.56:927][222]LogMaterial: 0.000116 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.12-04.22.57:021][222]LogMaterial: Missing cached shader map for material WagonWheel001TXT_Mat, compiling. 
+[2015.08.12-04.22.57:038][222]LogMaterial: Missing cached shader map for material WagonWheel001TXT_Mat, compiling. 
+[2015.08.12-04.22.57:068][222]LogMaterial: 0.021881 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.12-04.23.13:601][168]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000179004A840
+[2015.08.12-04.23.13:601][168]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000179004A480
+[2015.08.12-04.23.13:601][168]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000017D2934F40
+[2015.08.12-04.23.15:013][168]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/WagonWheel/WagonWheel001" FILE="../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Models/WagonWheel/WagonWheel001.uasset" SILENT=true
+[2015.08.12-04.23.15:275][168]LogSavePackage: Save=259.964752ms
+[2015.08.12-04.23.15:275][168]LogSavePackage: Moving '../../../../../../../Storage/Documents/GitHub/God-Killer/Saved/WagonWheel001331D50C641E0EF009C75BD8043EF507D.tmp' to '../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Models/WagonWheel/WagonWheel001.uasset'
+[2015.08.12-04.23.15:302][168]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/WagonWheel/WagonWheel001Nor" FILE="../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Models/WagonWheel/WagonWheel001Nor.uasset" SILENT=true
+[2015.08.12-04.23.16:382][168]LogSavePackage: Save=1078.200562ms
+[2015.08.12-04.23.16:382][168]LogSavePackage: Moving '../../../../../../../Storage/Documents/GitHub/God-Killer/Saved/WagonWheel001Nor41A25EF94D1F45B3077B15B0C76DE319.tmp' to '../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Models/WagonWheel/WagonWheel001Nor.uasset'
+[2015.08.12-04.23.16:406][168]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/WagonWheel/WagonWheel001Spec" FILE="../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Models/WagonWheel/WagonWheel001Spec.uasset" SILENT=true
+[2015.08.12-04.23.17:614][168]LogSavePackage: Save=1206.132080ms
+[2015.08.12-04.23.17:615][168]LogSavePackage: Moving '../../../../../../../Storage/Documents/GitHub/God-Killer/Saved/WagonWheel001Spec49CE65414DE4852E70D576B4F4913B63.tmp' to '../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Models/WagonWheel/WagonWheel001Spec.uasset'
+[2015.08.12-04.23.17:636][168]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/WagonWheel/WagonWheel001TXT" FILE="../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Models/WagonWheel/WagonWheel001TXT.uasset" SILENT=true
+[2015.08.12-04.23.18:541][168]LogSavePackage: Save=901.962952ms
+[2015.08.12-04.23.18:541][168]LogSavePackage: Moving '../../../../../../../Storage/Documents/GitHub/God-Killer/Saved/WagonWheel001TXT681A83764E36DBD90B361B8A81155739.tmp' to '../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Models/WagonWheel/WagonWheel001TXT.uasset'
+[2015.08.12-04.23.18:699][168]LogSavePackage: Save=115.485840ms
+[2015.08.12-04.23.18:699][168]LogSavePackage: Moving '../../../../../../../Storage/Documents/GitHub/God-Killer/Saved/WagonWheel001TXT_Mat81696A8946DFDF6CC8CAB093BAF93244.tmp' to '../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Models/WagonWheel/WagonWheel001TXT_Mat.uasset'
+[2015.08.12-04.23.18:956][168]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene/NewCave" FILE="../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Scene/NewCave.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.08.12-04.23.20:437][168]LogSavePackage: Save=1375.943237ms
+[2015.08.12-04.23.20:437][168]LogSavePackage: Moving '../../../../../../../Storage/Documents/GitHub/God-Killer/Saved/NewCaveCE2B7F4D4CCA9F008F25ADA6B5C43479.tmp' to '../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Scene/NewCave.umap'
+[2015.08.12-04.23.20:508][168]LogFileHelpers: Saving map 'NewCave' took 1.801
+[2015.08.12-04.23.20:728][182]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene/NewCave" FILE="../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Scene/NewCave.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.08.12-04.23.22:079][182]LogSavePackage: Save=1303.656616ms
+[2015.08.12-04.23.22:079][182]LogSavePackage: Moving '../../../../../../../Storage/Documents/GitHub/God-Killer/Saved/NewCave7EB226BE4B07B074D7898699EC81211D.tmp' to '../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Scene/NewCave.umap'
+[2015.08.12-04.23.46:391][ 16]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models'
+[2015.08.12-04.23.53:262][520]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/NewFolder'
+[2015.08.12-04.24.02:597][250]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/WoodWall'
+[2015.08.12-04.24.12:446][457]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:/Users/Joseph/Desktop/god kill;er/SpikedWall001.fbx)
+[2015.08.12-04.24.12:450][457]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.08.12-04.24.12:450][457]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.08.12-04.24.12:450][457]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.08.12-04.24.12:450][457]LogFbx: ItemName: NodeAttribute, ItemCount : 22
+[2015.08.12-04.24.12:450][457]LogFbx: ItemName: Model, ItemCount : 23
+[2015.08.12-04.24.12:450][457]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.08.12-04.24.12:450][457]LogFbx: ItemName: Material, ItemCount : 1
+[2015.08.12-04.24.13:921][457]LogFbx: Loading FBX Scene from C:/Users/Joseph/Desktop/god kill;er/SpikedWall001.fbx
+[2015.08.12-04.24.13:936][457]LogFbx: FBX Scene Loaded Succesfully
+[2015.08.12-04.24.13:939][457]LogFbx:Warning: Triangulating static mesh pCylinder23
+[2015.08.12-04.24.14:329][457]LogFbx: == Initial material list:
+[2015.08.12-04.24.14:329][457]LogFbx: 0: lambert1
+[2015.08.12-04.24.14:329][457]LogFbx: == After sorting:
+[2015.08.12-04.24.14:330][457]LogFbx: 0: lambert1
+[2015.08.12-04.24.14:330][457]LogFbx: == Mapping table:
+[2015.08.12-04.24.14:330][457]LogFbx:   sort 0 -> 0
+[2015.08.12-04.24.14:331][457]LogStaticMesh: Building static mesh SpikedWall001...
+[2015.08.12-04.24.14:386][457]LogStaticMesh: Built static mesh [54.943295ms] /Game/Models/WoodWall/SpikedWall001.SpikedWall001
+[2015.08.12-04.24.14:402][457]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.08.12-04.24.14:426][457]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:/Users/Joseph/Desktop/god kill;er/SpikedWall001Nor.tga)
+[2015.08.12-04.24.14:494][457]0.000043 seconds to analyze Texture2D /Game/Models/WoodWall/SpikedWall001Nor.SpikedWall001Nor
+
+[2015.08.12-04.24.14:515][457]LogTexture:Display: Building textures: SpikedWall001Nor (BC5)
+[2015.08.12-04.24.15:260][457]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:/Users/Joseph/Desktop/god kill;er/SpikedWall001Spec.tga)
+[2015.08.12-04.24.15:329][457]0.000040 seconds to analyze Texture2D /Game/Models/WoodWall/SpikedWall001Spec.SpikedWall001Spec
+
+[2015.08.12-04.24.15:343][457]LogTexture:Display: Building textures: SpikedWall001Spec (AutoDXT)
+[2015.08.12-04.24.17:541][457]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:/Users/Joseph/Desktop/god kill;er/SpikedWall001TXT.tga)
+[2015.08.12-04.24.17:609][457]0.000044 seconds to analyze Texture2D /Game/Models/WoodWall/SpikedWall001TXT.SpikedWall001TXT
+
+[2015.08.12-04.24.17:623][457]LogTexture:Display: Building textures: SpikedWall001TXT (AutoDXT)
+[2015.08.12-04.24.21:492][457]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.08.12-04.24.21:493][457]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/WoodWall'
+[2015.08.12-04.24.21:493][457]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/WoodWall'
+[2015.08.12-04.24.21:493][457]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/WoodWall'
+[2015.08.12-04.24.21:494][457]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/WoodWall'
+[2015.08.12-04.24.27:574][896]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/WoodWall'
+[2015.08.12-04.24.31:118][154]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/SpikedWoodWall'
+[2015.08.12-04.24.34:537][154]LogSavePackage: Save=3208.281494ms
+[2015.08.12-04.24.34:537][154]LogSavePackage: Moving '../../../../../../../Storage/Documents/GitHub/God-Killer/Saved/SpikedWall001TXT10961C324E97342D740D138B406F1358.tmp' to '../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Models/SpikedWoodWall/SpikedWall001TXT.uasset'
+[2015.08.12-04.24.37:051][154]LogSavePackage: Save=2487.506592ms
+[2015.08.12-04.24.37:051][154]LogSavePackage: Moving '../../../../../../../Storage/Documents/GitHub/God-Killer/Saved/SpikedWall001Spec9E37193D4E67C1684BB215B6FF2894A0.tmp' to '../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Models/SpikedWoodWall/SpikedWall001Spec.uasset'
+[2015.08.12-04.24.39:693][154]LogSavePackage: Save=2617.264160ms
+[2015.08.12-04.24.39:693][154]LogSavePackage: Moving '../../../../../../../Storage/Documents/GitHub/God-Killer/Saved/SpikedWall001NorD1B8C3354077F201FD2BB0A37AFE667E.tmp' to '../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Models/SpikedWoodWall/SpikedWall001Nor.uasset'
+[2015.08.12-04.24.39:770][154]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/SpikedWoodWall/SpikedWall001" FILE="../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Models/SpikedWoodWall/SpikedWall001.uasset" SILENT=true
+[2015.08.12-04.24.40:034][154]LogSavePackage: Save=261.454376ms
+[2015.08.12-04.24.40:034][154]LogSavePackage: Moving '../../../../../../../Storage/Documents/GitHub/God-Killer/Saved/SpikedWall00156565D4C4A2458A03070EE81F8038DB5.tmp' to '../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Models/SpikedWoodWall/SpikedWall001.uasset'
+[2015.08.12-04.25.23:283][434]LogActorFactory: Actor Factory created SpikedWall001
+[2015.08.12-04.25.23:997][487]LogActorFactory: Actor Factory created SpikedWall001
+[2015.08.12-04.25.29:699][ 60]LogStaticMesh: Building static mesh SpikedWall001...
+[2015.08.12-04.25.29:753][ 60]LogStaticMesh: Built static mesh [56.495518ms] /Game/Models/SpikedWoodWall/SpikedWall001.SpikedWall001
+[2015.08.12-04.25.37:399][699]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/SpikedWoodWall'
+[2015.08.12-04.25.38:524][778]LogMaterial: Missing cached shader map for material SpikedWall001TXT_Mat, compiling. 
+[2015.08.12-04.25.38:659][782]LogMaterial: Missing cached shader map for material SpikedWall001TXT_Mat, compiling. 
+[2015.08.12-04.25.38:679][782]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.08.12-04.25.38:725][782]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.08.12-04.25.38:725][782]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2015.08.12-04.25.38:725][782]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.08.12-04.25.38:725][782]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2015.08.12-04.25.38:731][782]LogMaterial: Missing cached shader map for material SpikedWall001TXT_Mat, compiling. 
+[2015.08.12-04.25.38:739][782]LogMaterial: 0.000092 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.12-04.25.38:765][782]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.08.12-04.25.41:085][915]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2015.08.12-04.25.41:085][915]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.12-04.25.41:085][915]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.08.12-04.25.41:155][919]LogMaterial: Missing cached shader map for material SpikedWall001TXT_Mat, compiling. 
+[2015.08.12-04.25.41:160][919]LogMaterial: 0.000109 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.12-04.25.41:161][919]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.08.12-04.25.41:186][919]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.08.12-04.25.41:189][919]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.08.12-04.25.41:816][939]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2015.08.12-04.25.41:816][939]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.12-04.25.41:816][939]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.08.12-04.25.42:109][959]LogMaterial: Missing cached shader map for material SpikedWall001TXT_Mat, compiling. 
+[2015.08.12-04.25.42:113][959]LogMaterial: 0.000102 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.12-04.25.42:114][959]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.08.12-04.25.42:139][959]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.08.12-04.25.42:142][959]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.08.12-04.25.42:145][959]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.08.12-04.25.42:742][984]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2015.08.12-04.25.42:742][984]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.12-04.25.42:742][984]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.08.12-04.25.50:941][404]LogMaterial: Missing cached shader map for material SpikedWall001TXT_Mat, compiling. 
+[2015.08.12-04.25.50:946][404]LogMaterial: 0.000083 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.12-04.25.50:972][404]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.08.12-04.25.51:540][430]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
+[2015.08.12-04.25.51:540][430]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.12-04.25.51:540][430]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.08.12-04.25.54:049][569]LogMaterial: Missing cached shader map for material SpikedWall001TXT_Mat, compiling. 
+[2015.08.12-04.25.54:054][569]LogMaterial: 0.000096 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.12-04.25.54:077][569]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.08.12-04.25.54:736][596]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 48 instructions
+[2015.08.12-04.25.54:736][596]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.12-04.25.54:736][596]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.08.12-04.25.55:033][612]LogMaterialEditor: Applying material SpikedWall001TXT_Mat
+[2015.08.12-04.25.56:308][612]LogMaterial: Missing cached shader map for material SpikedWall001TXT_Mat, compiling. 
+[2015.08.12-04.25.56:326][612]LogMaterial: 0.000110 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.12-04.25.56:393][612]LogMaterial: Missing cached shader map for material SpikedWall001TXT_Mat, compiling. 
+[2015.08.12-04.25.56:414][612]LogMaterial: Missing cached shader map for material SpikedWall001TXT_Mat, compiling. 
+[2015.08.12-04.25.56:444][612]LogMaterial: 0.021991 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.12-04.26.03:806][ 42]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000017D25B20C0
+[2015.08.12-04.26.03:806][ 42]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000017C3BA0900
+[2015.08.12-04.26.03:806][ 42]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000017C1CE9440
+[2015.08.12-04.26.04:987][ 42]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/SpikedWoodWall/SpikedWall001" FILE="../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Models/SpikedWoodWall/SpikedWall001.uasset" SILENT=true
+[2015.08.12-04.26.05:260][ 42]LogSavePackage: Save=250.185989ms
+[2015.08.12-04.26.05:260][ 42]LogSavePackage: Moving '../../../../../../../Storage/Documents/GitHub/God-Killer/Saved/SpikedWall001791BF2664E379F7FE4016C91CEE5DFDB.tmp' to '../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Models/SpikedWoodWall/SpikedWall001.uasset'
+[2015.08.12-04.26.05:406][ 42]LogSavePackage: Save=112.649300ms
+[2015.08.12-04.26.05:407][ 42]LogSavePackage: Moving '../../../../../../../Storage/Documents/GitHub/God-Killer/Saved/SpikedWall001TXT_Mat375E61D74EDD6F516FD82585876BD3B5.tmp' to '../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Models/SpikedWoodWall/SpikedWall001TXT_Mat.uasset'
+[2015.08.12-04.26.05:416][ 42]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/WoodWall/SpikedWall001" FILE="../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Models/WoodWall/SpikedWall001.uasset" SILENT=true
+[2015.08.12-04.26.05:420][ 42]LogSavePackage: Save=1.883689ms
+[2015.08.12-04.26.05:420][ 42]LogSavePackage: Moving '../../../../../../../Storage/Documents/GitHub/God-Killer/Saved/SpikedWall0013D1B94734FD2E116CBD0E2AABE8B1C68.tmp' to '../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Models/WoodWall/SpikedWall001.uasset'
+[2015.08.12-04.26.05:430][ 42]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/WoodWall/SpikedWall001Nor" FILE="../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Models/WoodWall/SpikedWall001Nor.uasset" SILENT=true
+[2015.08.12-04.26.05:434][ 42]LogSavePackage: Save=1.689111ms
+[2015.08.12-04.26.05:434][ 42]LogSavePackage: Moving '../../../../../../../Storage/Documents/GitHub/God-Killer/Saved/SpikedWall001NorD33E765345B88BD08E5F028CF4816BCF.tmp' to '../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Models/WoodWall/SpikedWall001Nor.uasset'
+[2015.08.12-04.26.05:443][ 42]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/WoodWall/SpikedWall001Spec" FILE="../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Models/WoodWall/SpikedWall001Spec.uasset" SILENT=true
+[2015.08.12-04.26.05:447][ 42]LogSavePackage: Save=1.795200ms
+[2015.08.12-04.26.05:447][ 42]LogSavePackage: Moving '../../../../../../../Storage/Documents/GitHub/God-Killer/Saved/SpikedWall001SpecDD965FE8431F4570C216E590D09D4C48.tmp' to '../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Models/WoodWall/SpikedWall001Spec.uasset'
+[2015.08.12-04.26.05:457][ 42]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/WoodWall/SpikedWall001TXT" FILE="../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Models/WoodWall/SpikedWall001TXT.uasset" SILENT=true
+[2015.08.12-04.26.05:461][ 42]LogSavePackage: Save=1.628978ms
+[2015.08.12-04.26.05:461][ 42]LogSavePackage: Moving '../../../../../../../Storage/Documents/GitHub/God-Killer/Saved/SpikedWall001TXT9BB5E64343DCE9B8D85AF09D1A8DC6F0.tmp' to '../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Models/WoodWall/SpikedWall001TXT.uasset'
+[2015.08.12-04.26.05:718][ 42]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene/NewCave" FILE="../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Scene/NewCave.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.08.12-04.26.07:092][ 42]LogSavePackage: Save=1323.570557ms
+[2015.08.12-04.26.07:092][ 42]LogSavePackage: Moving '../../../../../../../Storage/Documents/GitHub/God-Killer/Saved/NewCave0DDB4BDC4A6C022DE74936857DA58563.tmp' to '../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Scene/NewCave.umap'
+[2015.08.12-04.26.07:159][ 42]LogFileHelpers: Saving map 'NewCave' took 1.690
+[2015.08.12-04.26.07:586][ 72]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene/NewCave" FILE="../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Scene/NewCave.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.08.12-04.26.08:921][ 72]LogSavePackage: Save=1288.702026ms
+[2015.08.12-04.26.08:921][ 72]LogSavePackage: Moving '../../../../../../../Storage/Documents/GitHub/God-Killer/Saved/NewCave8D4054FA47040E8036B28EA4A97AFD82.tmp' to '../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Scene/NewCave.umap'
+[2015.08.12-04.27.14:950][775]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shield_Buckler)
+[2015.08.12-04.27.17:714][975]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SpikedWall001)
+[2015.08.12-04.27.22:539][301]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2015.08.12-04.27.27:557][650]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models'
+[2015.08.12-04.27.28:978][785]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/NewFolder'
+[2015.08.12-04.27.35:035][238]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/Fort_Pieces'
+[2015.08.12-04.27.42:973][339]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:/Users/Joseph/Desktop/god kill;er/ShelterWall001.fbx)
+[2015.08.12-04.27.42:977][339]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.08.12-04.27.42:977][339]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.08.12-04.27.42:977][339]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.08.12-04.27.42:977][339]LogFbx: ItemName: NodeAttribute, ItemCount : 28
+[2015.08.12-04.27.42:977][339]LogFbx: ItemName: Model, ItemCount : 29
+[2015.08.12-04.27.42:977][339]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.08.12-04.27.42:977][339]LogFbx: ItemName: Material, ItemCount : 2
+[2015.08.12-04.27.42:977][339]LogFbx: ItemName: Texture, ItemCount : 1
+[2015.08.12-04.27.42:977][339]LogFbx: ItemName: Video, ItemCount : 1
+[2015.08.12-04.27.46:494][339]LogFbx: Loading FBX Scene from C:/Users/Joseph/Desktop/god kill;er/ShelterWall001.fbx
+[2015.08.12-04.27.46:509][339]LogFbx: FBX Scene Loaded Succesfully
+[2015.08.12-04.27.46:513][339]LogFbx:Warning: Triangulating static mesh pCylinder34
+[2015.08.12-04.27.46:621][339]LogFbx: == Initial material list:
+[2015.08.12-04.27.46:621][339]LogFbx: 0: lambert1
+[2015.08.12-04.27.46:621][339]LogFbx: 1: Board001
+[2015.08.12-04.27.46:621][339]LogFbx: == After sorting:
+[2015.08.12-04.27.46:621][339]LogFbx: 0: lambert1
+[2015.08.12-04.27.46:621][339]LogFbx: 1: Board001
+[2015.08.12-04.27.46:621][339]LogFbx: == Mapping table:
+[2015.08.12-04.27.46:621][339]LogFbx:   sort 0 -> 0
+[2015.08.12-04.27.46:621][339]LogFbx:   sort 1 -> 1
+[2015.08.12-04.27.46:622][339]LogStaticMesh: Building static mesh ShelterWall001...
+[2015.08.12-04.27.46:640][339]LogStaticMesh: Built static mesh [18.110403ms] /Game/Models/Fort_Pieces/ShelterWall001.ShelterWall001
+[2015.08.12-04.27.46:652][339]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.08.12-04.27.46:671][339]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:/Users/Joseph/Desktop/god kill;er/ShelterWall001Nor.tga)
+[2015.08.12-04.27.46:742][339]0.000041 seconds to analyze Texture2D /Game/Models/Fort_Pieces/ShelterWall001Nor.ShelterWall001Nor
+
+[2015.08.12-04.27.46:764][339]LogTexture:Display: Building textures: ShelterWall001Nor (BC5)
+[2015.08.12-04.27.47:557][339]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:/Users/Joseph/Desktop/god kill;er/ShelterWall001Spec.tga)
+[2015.08.12-04.27.47:626][339]0.000041 seconds to analyze Texture2D /Game/Models/Fort_Pieces/ShelterWall001Spec.ShelterWall001Spec
+
+[2015.08.12-04.27.47:640][339]LogTexture:Display: Building textures: ShelterWall001Spec (AutoDXT)
+[2015.08.12-04.27.51:565][339]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:/Users/Joseph/Desktop/god kill;er/ShelterWall001TXT.tga)
+[2015.08.12-04.27.51:636][339]0.000038 seconds to analyze Texture2D /Game/Models/Fort_Pieces/ShelterWall001TXT.ShelterWall001TXT
+
+[2015.08.12-04.27.51:649][339]LogTexture:Display: Building textures: ShelterWall001TXT (AutoDXT)
+[2015.08.12-04.27.56:845][339]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.08.12-04.27.56:846][339]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/Fort_Pieces'
+[2015.08.12-04.27.56:846][339]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/Fort_Pieces'
+[2015.08.12-04.27.56:846][339]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/Fort_Pieces'
+[2015.08.12-04.27.56:847][339]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/Fort_Pieces'
+[2015.08.12-04.28.39:023][323]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models/Fort_Pieces'
+[2015.08.12-04.28.39:618][364]LogMaterial: Missing cached shader map for material ShelterWall001TXT_Mat, compiling. 
+[2015.08.12-04.28.40:859][435]LogMaterial: Missing cached shader map for material ShelterWall001TXT_Mat, compiling. 
+[2015.08.12-04.28.40:888][435]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2015.08.12-04.28.40:929][435]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2015.08.12-04.28.40:929][435]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_2) Already registered. Aborting.
+[2015.08.12-04.28.40:929][435]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2015.08.12-04.28.40:929][435]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_2) Already registered. Aborting.
+[2015.08.12-04.28.40:933][435]LogMaterial: Missing cached shader map for material ShelterWall001TXT_Mat, compiling. 
+[2015.08.12-04.28.40:939][435]LogMaterial: 0.000060 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.12-04.28.40:966][435]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2015.08.12-04.28.42:260][499]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2015.08.12-04.28.42:260][499]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.12-04.28.42:260][499]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.08.12-04.28.43:657][576]LogMaterial: Missing cached shader map for material ShelterWall001TXT_Mat, compiling. 
+[2015.08.12-04.28.43:662][576]LogMaterial: 0.000114 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.12-04.28.43:663][576]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2015.08.12-04.28.43:690][576]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2015.08.12-04.28.43:693][576]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2015.08.12-04.28.43:709][576]LogMaterial: Missing cached shader map for material ShelterWall001TXT_Mat, compiling. 
+[2015.08.12-04.28.43:715][576]LogMaterial: 0.000069 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.12-04.28.43:716][576]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.08.12-04.28.43:740][576]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2015.08.12-04.28.43:743][576]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2015.08.12-04.28.43:746][576]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.08.12-04.28.44:473][608]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2015.08.12-04.28.44:473][608]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.12-04.28.44:474][608]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.08.12-04.28.48:999][834]LogMaterial: Missing cached shader map for material ShelterWall001TXT_Mat, compiling. 
+[2015.08.12-04.28.49:003][834]LogMaterial: 0.000102 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.12-04.28.49:026][834]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.08.12-04.28.49:653][858]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 33 instructions
+[2015.08.12-04.28.49:653][858]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.12-04.28.49:653][858]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.08.12-04.28.51:492][951]LogMaterial: Missing cached shader map for material ShelterWall001TXT_Mat, compiling. 
+[2015.08.12-04.28.51:497][951]LogMaterial: 0.000101 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.12-04.28.51:521][951]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2015.08.12-04.28.52:156][975]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 48 instructions
+[2015.08.12-04.28.52:156][975]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.12-04.28.52:156][975]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.08.12-04.28.52:880][ 10]LogMaterialEditor: Applying material ShelterWall001TXT_Mat
+[2015.08.12-04.28.54:168][ 10]LogMaterial: Missing cached shader map for material ShelterWall001TXT_Mat, compiling. 
+[2015.08.12-04.28.54:186][ 10]LogMaterial: 0.000101 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.12-04.28.54:251][ 10]LogMaterial: Missing cached shader map for material ShelterWall001TXT_Mat, compiling. 
+[2015.08.12-04.28.54:273][ 10]LogMaterial: Missing cached shader map for material ShelterWall001TXT_Mat, compiling. 
+[2015.08.12-04.28.54:304][ 10]LogMaterial: 0.022639 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.12-04.29.03:755][602]LogActorFactory: Actor Factory created ShelterWall001
+[2015.08.12-04.29.04:501][650]LogActorFactory: Actor Factory created ShelterWall001
+[2015.08.12-04.29.21:425][307]LogStaticMesh: Building static mesh ShelterWall001...
+[2015.08.12-04.29.21:442][307]LogStaticMesh: Built static mesh [17.842003ms] /Game/Models/Fort_Pieces/ShelterWall001.ShelterWall001
+[2015.08.12-04.29.41:456][801]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Fence5)
+[2015.08.12-04.29.44:017][973]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ShelterWall001)
+[2015.08.12-04.29.52:569][526]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Fence5)
+[2015.08.12-04.29.53:711][607]Cmd: DELETE
+[2015.08.12-04.29.53:712][607]Cmd: ACTOR DELETE
+[2015.08.12-04.29.53:716][607]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.12-04.29.53:735][607]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000017C3CE3A60
+[2015.08.12-04.29.53:735][607]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000017BF7C8AE0
+[2015.08.12-04.29.53:735][607]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000017D85D02C0
+[2015.08.12-04.29.53:735][607]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000017C3B99260
+[2015.08.12-04.29.53:745][607]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2015.08.12-04.29.54:227][646]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ShelterWall001)
+[2015.08.12-04.30.08:928][644]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Fence3)
+[2015.08.12-04.30.10:464][741]Cmd: DELETE
+[2015.08.12-04.30.10:464][741]Cmd: ACTOR DELETE
+[2015.08.12-04.30.10:469][741]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.12-04.30.10:499][741]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2015.08.12-04.30.10:845][768]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ShelterWall2)
+[2015.08.12-04.30.38:200][633]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Fence4)
+[2015.08.12-04.30.39:012][690]Cmd: DELETE
+[2015.08.12-04.30.39:012][690]Cmd: ACTOR DELETE
+[2015.08.12-04.30.39:016][690]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.12-04.30.39:044][690]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2015.08.12-04.30.44:520][128]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (ShelterWall4)
+[2015.08.12-04.30.45:040][160]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (FloorTile)
+[2015.08.12-04.30.46:111][234]Cmd: TRANSACTION UNDO
+[2015.08.12-04.30.46:111][234]LogEditorTransaction: Undo Clicking on Actors
+[2015.08.12-04.30.46:690][254]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (ShelterWall3)
+[2015.08.12-04.30.47:296][293]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (ShelterWall2)
+[2015.08.12-04.30.47:946][336]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (ShelterWall001)
+[2015.08.12-04.30.52:387][632]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shield_Tower)
+[2015.08.12-04.30.53:001][673]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Shield_Buckler)
+[2015.08.12-04.30.59:157][ 47]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SpikedWall001)
+[2015.08.12-04.31.05:104][444]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SpikedWall2)
+[2015.08.12-04.31.13:586][930]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Fort_Pieces/ShelterWall001" FILE="../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Models/Fort_Pieces/ShelterWall001.uasset" SILENT=true
+[2015.08.12-04.31.13:839][930]LogSavePackage: Save=251.155945ms
+[2015.08.12-04.31.13:839][930]LogSavePackage: Moving '../../../../../../../Storage/Documents/GitHub/God-Killer/Saved/ShelterWall001C5CFE3E34C57EC18246E90BB03008213.tmp' to '../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Models/Fort_Pieces/ShelterWall001.uasset'
+[2015.08.12-04.31.13:860][930]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Fort_Pieces/ShelterWall001Nor" FILE="../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Models/Fort_Pieces/ShelterWall001Nor.uasset" SILENT=true
+[2015.08.12-04.31.16:201][930]LogSavePackage: Save=2339.447510ms
+[2015.08.12-04.31.16:201][930]LogSavePackage: Moving '../../../../../../../Storage/Documents/GitHub/God-Killer/Saved/ShelterWall001NorF9E16C9A4ECFE1CC590F4A9BBDC8996B.tmp' to '../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Models/Fort_Pieces/ShelterWall001Nor.uasset'
+[2015.08.12-04.31.16:226][930]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Fort_Pieces/ShelterWall001Spec" FILE="../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Models/Fort_Pieces/ShelterWall001Spec.uasset" SILENT=true
+[2015.08.12-04.31.20:597][930]LogSavePackage: Save=4368.018066ms
+[2015.08.12-04.31.20:597][930]LogSavePackage: Moving '../../../../../../../Storage/Documents/GitHub/God-Killer/Saved/ShelterWall001Spec17A92E454580B4902D4BD59A76C341E1.tmp' to '../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Models/Fort_Pieces/ShelterWall001Spec.uasset'
+[2015.08.12-04.31.20:618][930]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Fort_Pieces/ShelterWall001TXT" FILE="../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Models/Fort_Pieces/ShelterWall001TXT.uasset" SILENT=true
+[2015.08.12-04.31.23:898][930]LogSavePackage: Save=3278.238525ms
+[2015.08.12-04.31.23:898][930]LogSavePackage: Moving '../../../../../../../Storage/Documents/GitHub/God-Killer/Saved/ShelterWall001TXT1B412F424210C034A78906AE33DA50CD.tmp' to '../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Models/Fort_Pieces/ShelterWall001TXT.uasset'
+[2015.08.12-04.31.24:146][930]LogSavePackage: Save=205.614960ms
+[2015.08.12-04.31.24:146][930]LogSavePackage: Moving '../../../../../../../Storage/Documents/GitHub/God-Killer/Saved/ShelterWall001TXT_Mat41BC08CC437FBCE9791E2FA04179AA7A.tmp' to '../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Models/Fort_Pieces/ShelterWall001TXT_Mat.uasset'
+[2015.08.12-04.31.24:401][930]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene/NewCave" FILE="../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Scene/NewCave.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.08.12-04.31.25:775][930]LogSavePackage: Save=1308.072754ms
+[2015.08.12-04.31.25:775][930]LogSavePackage: Moving '../../../../../../../Storage/Documents/GitHub/God-Killer/Saved/NewCave56AA84544B1B84755E63B6AB9DBFAF7A.tmp' to '../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Scene/NewCave.umap'
+[2015.08.12-04.31.25:848][930]LogFileHelpers: Saving map 'NewCave' took 1.694
+[2015.08.12-04.33.36:921][611]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ShelterWall4)
+[2015.08.12-04.34.11:031][929]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Fence001)
+[2015.08.12-04.34.11:962][995]Cmd: DELETE
+[2015.08.12-04.34.11:962][995]Cmd: ACTOR DELETE
+[2015.08.12-04.34.11:967][995]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.12-04.34.11:994][995]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2015.08.12-04.34.14:690][213]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Fence2)
+[2015.08.12-04.34.15:460][267]Cmd: DELETE
+[2015.08.12-04.34.15:460][267]Cmd: ACTOR DELETE
+[2015.08.12-04.34.15:465][267]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.12-04.34.15:494][267]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2015.08.12-04.34.32:891][593]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene/NewCave" FILE="../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Scene/NewCave.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.08.12-04.34.34:267][593]LogSavePackage: Save=1326.171387ms
+[2015.08.12-04.34.34:267][593]LogSavePackage: Moving '../../../../../../../Storage/Documents/GitHub/God-Killer/Saved/NewCave079421784038CFA8A26FF29FBCD71F2D.tmp' to '../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Scene/NewCave.umap'
+[2015.08.12-04.34.34:342][593]LogFileHelpers: Saving map 'NewCave' took 1.700
+[2015.08.12-04.34.35:377][686]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene/NewCave" FILE="../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Scene/NewCave.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.08.12-04.34.36:723][686]LogSavePackage: Save=1300.272461ms
+[2015.08.12-04.34.36:723][686]LogSavePackage: Moving '../../../../../../../Storage/Documents/GitHub/God-Killer/Saved/NewCaveE41A8BDB45D2748CA7E9C8A63AE62345.tmp' to '../../../../../../../Storage/Documents/GitHub/God-Killer/Content/Scene/NewCave.umap'
+[2015.08.12-04.34.39:049][826]Cmd: QUIT_EDITOR
+[2015.08.12-04.34.39:376][826]LogExit: Preparing to exit.
+[2015.08.12-04.34.40:517][826]LogExit: Editor shut down
+[2015.08.12-04.34.40:517][826]LogExit: Transaction tracking system shut down
+[2015.08.12-04.34.40:522][826]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000017D85D2DE0
+[2015.08.12-04.34.40:535][826]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000017E2946480
+[2015.08.12-04.34.40:535][826]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000017E67D1440
+[2015.08.12-04.34.40:535][826]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000017E67D0EA0
+[2015.08.12-04.34.40:768][826]LogExit: Object subsystem successfully closed.
+[2015.08.12-04.34.40:934][826]LogModuleManager: Shutting down and abandoning module MaterialEditor (179)
+[2015.08.12-04.34.40:943][826]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (178)
+[2015.08.12-04.34.40:943][826]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.08.12-04.34.40:943][826]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.08.12-04.34.40:943][826]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.08.12-04.34.40:943][826]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.08.12-04.34.40:943][826]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.08.12-04.34.40:948][826]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.08.12-04.34.40:957][826]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.08.12-04.34.40:957][826]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.08.12-04.34.40:969][826]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.08.12-04.34.40:969][826]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.08.12-04.34.40:969][826]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.08.12-04.34.40:969][826]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.08.12-04.34.40:969][826]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.08.12-04.34.40:969][826]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.08.12-04.34.40:969][826]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.08.12-04.34.40:969][826]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.08.12-04.34.40:969][826]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.08.12-04.34.40:969][826]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.08.12-04.34.40:969][826]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.08.12-04.34.40:977][826]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.08.12-04.34.40:987][826]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.08.12-04.34.40:987][826]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.08.12-04.34.40:987][826]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.08.12-04.34.40:987][826]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.08.12-04.34.40:987][826]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.08.12-04.34.40:987][826]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.08.12-04.34.40:987][826]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.08.12-04.34.40:987][826]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.08.12-04.34.40:987][826]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.08.12-04.34.40:987][826]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.08.12-04.34.40:987][826]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.08.12-04.34.40:987][826]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.08.12-04.34.41:232][826]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.08.12-04.34.41:232][826]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.08.12-04.34.41:232][826]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.08.12-04.34.41:232][826]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.08.12-04.34.41:232][826]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.08.12-04.34.41:232][826]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.08.12-04.34.41:232][826]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.08.12-04.34.41:246][826]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.08.12-04.34.41:246][826]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.08.12-04.34.41:246][826]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.08.12-04.34.41:249][826]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.08.12-04.34.41:249][826]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.08.12-04.34.41:249][826]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.08.12-04.34.41:249][826]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.08.12-04.34.41:261][826]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.08.12-04.34.41:278][826]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.08.12-04.34.41:278][826]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.08.12-04.34.41:278][826]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.08.12-04.34.41:278][826]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.08.12-04.34.41:390][826]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.08.12-04.34.41:401][826]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.08.12-04.34.41:415][826]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.08.12-04.34.41:416][826]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.08.12-04.34.41:416][826]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.08.12-04.34.41:416][826]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.08.12-04.34.41:416][826]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.08.12-04.34.41:416][826]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.08.12-04.34.41:428][826]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.08.12-04.34.41:439][826]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.08.12-04.34.41:439][826]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.08.12-04.34.41:446][826]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.08.12-04.34.41:446][826]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.08.12-04.34.41:446][826]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.08.12-04.34.41:446][826]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.08.12-04.34.41:446][826]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.08.12-04.34.41:446][826]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.08.12-04.34.41:446][826]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.08.12-04.34.41:446][826]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.08.12-04.34.41:446][826]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.08.12-04.34.41:446][826]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.08.12-04.34.41:645][826]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.08.12-04.34.41:831][826]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.08.12-04.34.41:831][826]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.08.12-04.34.41:831][826]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.08.12-04.34.41:831][826]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.08.12-04.34.41:831][826]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.08.12-04.34.41:847][826]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.08.12-04.34.41:859][826]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.08.12-04.34.41:859][826]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.08.12-04.34.41:859][826]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.08.12-04.34.41:859][826]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.08.12-04.34.41:859][826]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.08.12-04.34.41:875][826]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.08.12-04.34.41:876][826]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.08.12-04.34.41:876][826]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.08.12-04.34.41:876][826]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.08.12-04.34.41:876][826]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.08.12-04.34.41:876][826]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.08.12-04.34.41:882][826]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.08.12-04.34.41:882][826]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.08.12-04.34.41:882][826]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.08.12-04.34.41:882][826]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.08.12-04.34.41:882][826]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.08.12-04.34.41:882][826]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.08.12-04.34.41:882][826]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.08.12-04.34.41:882][826]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.08.12-04.34.41:888][826]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.08.12-04.34.41:988][826]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.08.12-04.34.41:988][826]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.08.12-04.34.41:992][826]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.08.12-04.34.41:992][826]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.08.12-04.34.41:992][826]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.08.12-04.34.41:992][826]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.08.12-04.34.41:992][826]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.08.12-04.34.42:012][826]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.08.12-04.34.42:012][826]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.08.12-04.34.42:018][826]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.08.12-04.34.42:018][826]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.08.12-04.34.42:018][826]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.08.12-04.34.42:031][826]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.08.12-04.34.42:041][826]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.08.12-04.34.42:045][826]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.08.12-04.34.42:045][826]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.08.12-04.34.42:045][826]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.08.12-04.34.42:050][826]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.08.12-04.34.42:050][826]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.08.12-04.34.42:050][826]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.08.12-04.34.42:050][826]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.08.12-04.34.42:050][826]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.08.12-04.34.42:050][826]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.08.12-04.34.42:050][826]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.08.12-04.34.42:050][826]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.08.12-04.34.42:050][826]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.08.12-04.34.42:050][826]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.08.12-04.34.42:053][826]LogDerivedDataCache: Shutdown
+[2015.08.12-04.34.42:053][826]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.08.12-04.34.42:065][826]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.08.12-04.34.42:065][826]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.08.12-04.34.42:071][826]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.08.12-04.34.42:071][826]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.08.12-04.34.42:071][826]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.08.12-04.34.42:071][826]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.08.12-04.34.42:071][826]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.08.12-04.34.42:071][826]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.08.12-04.34.42:071][826]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.08.12-04.34.42:071][826]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.08.12-04.34.42:080][826]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.08.12-04.34.42:080][826]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.08.12-04.34.42:080][826]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.08.12-04.34.42:080][826]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.08.12-04.34.42:080][826]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.08.12-04.34.42:080][826]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.08.12-04.34.42:080][826]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.08.12-04.34.42:080][826]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.08.12-04.34.42:080][826]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.08.12-04.34.42:080][826]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.08.12-04.34.42:080][826]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.08.12-04.34.42:080][826]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.08.12-04.34.42:080][826]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.08.12-04.34.42:080][826]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.08.12-04.34.42:080][826]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.08.12-04.34.42:080][826]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.08.12-04.34.42:080][826]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.08.12-04.34.42:080][826]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.08.12-04.34.42:080][826]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.08.12-04.34.42:080][826]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.08.12-04.34.42:080][826]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.08.12-04.34.42:080][826]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.08.12-04.34.42:080][826]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.08.12-04.34.42:080][826]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.08.12-04.34.42:080][826]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.08.12-04.34.42:080][826]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.08.12-04.34.42:080][826]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.08.12-04.34.42:080][826]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.08.12-04.34.42:080][826]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.08.12-04.34.42:083][826]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.08.12-04.34.42:083][826]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.08.12-04.34.42:083][826]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.08.12-04.34.42:083][826]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.08.12-04.34.42:083][826]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.08.12-04.34.42:083][826]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.08.12-04.34.42:087][826]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.08.12-04.34.42:087][826]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.08.12-04.34.42:087][826]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.08.12-04.34.42:096][826]LogExit: Exiting.
+[2015.08.12-04.34.42:130][826]Log file closed, 08/11/15 21:34:42
