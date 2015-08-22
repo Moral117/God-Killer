@@ -1,0 +1,292 @@
+﻿[2015.08.22-03.23.10:102][  0]Log file open, 08/21/15 20:23:10
+[2015.08.22-03.23.10:102][  0]LogInit:Display: Running engine for game: GodKiller
+[2015.08.22-03.23.10:102][  0]LogInit:Display: RandInit(1287248179) SRandInit(1287248179).
+[2015.08.22-03.23.10:102][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.08.22-03.23.10:102][  0]LogStats: Stats thread started
+[2015.08.22-03.23.10:102][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.08.22-03.23.10:102][  0]LogInit: API Version: 2579680
+[2015.08.22-03.23.10:102][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.08.22-03.23.10:102][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.08.22-03.23.10:102][  0]LogInit: Build Configuration: Development
+[2015.08.22-03.23.10:102][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.08.22-03.23.10:102][  0]LogInit: Command line:  
+[2015.08.22-03.23.10:102][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.08.22-03.23.10:102][  0]LogInit: Rocket: 1
+[2015.08.22-03.23.10:111][  0]LogInit: Using libcurl 7.41.0
+[2015.08.22-03.23.10:111][  0]LogInit:  - built for x86_64-pc-win32
+[2015.08.22-03.23.10:111][  0]LogInit:  - supports SSL with WinSSL
+[2015.08.22-03.23.10:111][  0]LogInit:  - other features:
+[2015.08.22-03.23.10:111][  0]LogInit:      CURL_VERSION_SSL
+[2015.08.22-03.23.10:111][  0]LogInit:      CURL_VERSION_IPV6
+[2015.08.22-03.23.10:111][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.08.22-03.23.10:111][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.08.22-03.23.10:111][  0]LogInit:      CURL_VERSION_IDN
+[2015.08.22-03.23.10:111][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.08.22-03.23.10:111][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.08.22-03.23.10:111][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.08.22-03.23.10:111][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.08.22-03.23.10:111][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.08.22-03.23.10:120][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.08.22-03.23.10:131][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.08.22-03.23.10:137][  0]LogInit: Object subsystem initialized
+[2015.08.22-03.23.10:137][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.08.22-03.23.10:137][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Podan the Destroyer/Desktop/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.22-03.23.10:137][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.08.22-03.23.10:137][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Podan the Destroyer/Desktop/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.22-03.23.10:137][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.08.22-03.23.10:137][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Podan the Destroyer/Desktop/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.22-03.23.10:138][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.22-03.23.10:138][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.08.22-03.23.10:143][  0]LogInit: Computer: MASTERKONTROL
+[2015.08.22-03.23.10:143][  0]LogInit: User: PodantheDestroyer
+[2015.08.22-03.23.10:143][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.08.22-03.23.10:143][  0]LogInit: High frequency timer resolution =3.320332 MHz
+[2015.08.22-03.23.10:143][  0]LogMemory: Memory total: Physical=23.9GB (24GB approx)
+[2015.08.22-03.23.10:143][  0]LogMemory: Platform Memory Stats for Windows
+[2015.08.22-03.23.10:143][  0]LogMemory: Process Physical Memory: 49.49 MB used, 49.49 MB peak
+[2015.08.22-03.23.10:143][  0]LogMemory: Process Virtual Memory: 26.12 MB used, 26.12 MB peak
+[2015.08.22-03.23.10:143][  0]LogMemory: Physical Memory: 3368.26 MB used, 24509.41 MB total
+[2015.08.22-03.23.10:143][  0]LogMemory: Virtual Memory: 283.94 MB used, 8388608.00 MB total
+[2015.08.22-03.23.10:175][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.08.22-03.23.10:341][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.08.22-03.23.10:784][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 760 (Feature Level 11_0)
+[2015.08.22-03.23.10:784][  0]LogD3D11RHI: Adapter has 4029MB of dedicated video memory, 0MB of dedicated system memory, and 11998MB of shared system memory, 2 output[s]
+[2015.08.22-03.23.10:784][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.08.22-03.23.10:787][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.22-03.23.10:787][  0]LogD3D11RHI: !Direct3DDevice
+[2015.08.22-03.23.10:787][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.08.22-03.23.10:794][  0]LogD3D11RHI: Async texture creation enabled
+[2015.08.22-03.23.10:807][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.08.22-03.23.11:436][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.08.22-03.23.11:446][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.08.22-03.23.11:457][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.08.22-03.23.11:467][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.08.22-03.23.11:479][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.08.22-03.23.11:488][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.08.22-03.23.11:497][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.08.22-03.23.11:506][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.08.22-03.23.11:515][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.08.22-03.23.11:524][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.08.22-03.23.11:533][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.08.22-03.23.11:543][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.08.22-03.23.11:579][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.08.22-03.23.11:587][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.08.22-03.23.11:596][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.08.22-03.23.11:606][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.08.22-03.23.11:606][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.08.22-03.23.11:748][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.08.22-03.23.11:792][  0]LogDerivedDataCache: Loaded boot cache 0.04s 53MB C:/Users/Podan the Destroyer/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.08.22-03.23.11:792][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Podan the Destroyer/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.08.22-03.23.11:792][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.08.22-03.23.11:792][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.08.22-03.23.11:792][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.08.22-03.23.11:792][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.08.22-03.23.11:916][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.08.22-03.23.11:927][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Podan the Destroyer/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.08.22-03.23.12:075][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.22-03.23.12:082][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.08.22-03.23.12:082][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.08.22-03.23.12:102][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.08.22-03.23.12:102][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.08.22-03.23.12:441][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.08.22-03.23.13:127][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.08.22-03.23.13:407][  0]SourceControl: Info Source control is disabled
+[2015.08.22-03.23.13:413][  0]SourceControl: Info Source control is disabled
+[2015.08.22-03.23.13:420][  0]SourceControl: Info Source control is disabled
+[2015.08.22-03.23.13:426][  0]SourceControl: Info Source control is disabled
+[2015.08.22-03.23.13:577][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.08.22-03.23.13:577][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2015.08.22-03.23.13:631][  0]LogEngine: Initializing Engine...
+[2015.08.22-03.23.13:633][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.08.22-03.23.13:634][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.08.22-03.23.13:754][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.08.22-03.23.13:756][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.22-03.23.13:772][  0]LogInit: FAudioDevice initialized.
+[2015.08.22-03.23.13:797][  0]LogDerivedDataCache: Saved boot cache 0.03s 53MB C:/Users/Podan the Destroyer/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.08.22-03.23.13:801][  0]LogInit: Texture streaming: Disabled
+[2015.08.22-03.23.13:819][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.08.22-03.23.13:819][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.08.22-03.23.13:819][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId ed67592044830cba6a4ed08c5fd1ced7|6a5c42c024fc4f65bc11a93a84e818c7|7eb1c904-4831-475d-9e4a-165e6f6190d8
+[2015.08.22-03.23.13:819][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.08.22-03.23.13:835][  0]LogInit: Transaction tracking system initialized
+[2015.08.22-03.23.13:931][  0]BlueprintLog: New page: Editor Load
+[2015.08.22-03.23.13:961][  0]LogAssetRegistry: FAssetRegistry took 0.0103 seconds to start up
+[2015.08.22-03.23.13:961][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.08.22-03.23.14:463][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.08.22-03.23.14:464][  0]LogConsoleResponse:Display: 
+[2015.08.22-03.23.14:537][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.08.22-03.23.14:660][  0]SourceControl: Info Source control is disabled
+[2015.08.22-03.23.14:660][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Content/Scene/NewCave.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.08.22-03.23.14:660][  0]LightingResults: New page: Lighting Build
+[2015.08.22-03.23.14:670][  0]MapCheck: New page: Map Check
+[2015.08.22-03.23.14:670][  0]LightingResults: New page: Lighting Build
+[2015.08.22-03.23.14:677][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001B149300
+[2015.08.22-03.23.15:617][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
+[2015.08.22-03.23.15:617][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0006.71] Compile of GnawmersHealth successful, but with 1 Warning(s) [in 8 ms]
+[2015.08.22-03.23.15:618][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0006.71] Compile of GnawmersHealth successful, but with 2 Warning(s) [in 0 ms]
+[2015.08.22-03.23.15:618][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0006.71] Compile of GnawmersHealth successful, but with 3 Warning(s) [in 0 ms]
+[2015.08.22-03.23.15:977][  0]LogBlueprint:Warning: [compiler Gui] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
+[2015.08.22-03.23.15:983][  0]LogBlueprint:Warning: [compiler Gui] Warning [0007.08] Compile of Gui successful, but with 1 Warning(s) [in 26 ms]
+[2015.08.22-03.23.15:984][  0]LogBlueprint:Warning: [compiler Gui] Warning [0007.08] Compile of Gui successful, but with 2 Warning(s) [in 0 ms]
+[2015.08.22-03.23.15:984][  0]LogBlueprint:Warning: [compiler Gui] Warning [0007.08] Compile of Gui successful, but with 3 Warning(s) [in 0 ms]
+[2015.08.22-03.23.17:051][  0]LogBlueprint:Warning: [compiler Gui] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
+[2015.08.22-03.23.17:058][  0]LogBlueprint:Warning: [compiler Gui] Warning [0008.15] Compile of Gui successful, but with 1 Warning(s) [in 27 ms]
+[2015.08.22-03.23.17:059][  0]LogBlueprint:Warning: [compiler Gui] Warning [0008.15] Compile of Gui successful, but with 2 Warning(s) [in 1 ms]
+[2015.08.22-03.23.17:128][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
+[2015.08.22-03.23.17:129][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0008.22] Compile of GnawmersHealth successful, but with 1 Warning(s) [in 8 ms]
+[2015.08.22-03.23.17:129][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0008.22] Compile of GnawmersHealth successful, but with 2 Warning(s) [in 0 ms]
+[2015.08.22-03.23.19:325][  0]LogAIModule: Creating AISystem for world NewCave
+[2015.08.22-03.23.19:366][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.08.22-03.23.19:366][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.08.22-03.23.19:413][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 46.703ms to complete.
+[2015.08.22-03.23.19:413][  0]LogFileHelpers: Loading map 'NewCave' took 4.752
+[2015.08.22-03.23.19:551][  0]LogCollectionManager: Loaded 0 collections in 0.002463 seconds
+[2015.08.22-03.23.19:560][  0]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 1792 classes and 301 folders.
+[2015.08.22-03.23.19:594][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.08.22-03.23.19:611][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2015.08.22-03.23.19:646][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2015.08.22-03.23.19:672][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.08.22-03.23.19:673][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.22-03.23.19:675][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.08.22-03.23.19:696][  0]LogLoad: Full Startup: 10.79 seconds (BP compile: 1.76 seconds)
+[2015.08.22-03.23.20:115][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.08.22-03.23.20:212][  0]LogContentStreaming: Texture pool size now 200 MB
+[2015.08.22-03.23.20:397][  0]LogRenderer: Reallocating scene render targets to support 936x896 (Frame:2).
+[2015.08.22-03.23.20:492][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2015.08.22-03.23.20:493][  1]Cmd: UpdateLandscapeEditorData
+[2015.08.22-03.23.20:502][  1]LogLinker:Warning: Can't find file '/Game/Models/Skeleton/NewModel/Anim/SkeletonMesh'
+[2015.08.22-03.23.20:502][  1]LogLinker:Warning: Can't find file '/Game/Models/Skeleton/NewModel/Anim/SkeletonMesh'
+[2015.08.22-03.23.20:503][  1]LogLinker:Warning: Can't find file '/Game/Models/Skeleton/NewModel/Anim/SkeletonMesh'
+[2015.08.22-03.23.20:503][  1]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Models/Skeleton/NewModel/Anim/SkeletonMesh.SkeletonMesh'
+[2015.08.22-03.23.26:176][ 18]LogAssetRegistry: Asset discovery search completed in 12.2248 seconds
+[2015.08.22-03.24.18:315][710]LogD3D11RHI: InitD3DDevice
+[2015.08.22-03.24.50:536][794]LogD3D11RHI: InitD3DDevice
+[2015.08.22-03.24.50:671][808]LogD3D11RHI: InitD3DDevice
+[2015.08.22-03.25.02:379][933]LogD3D11RHI: InitD3DDevice
+[2015.08.22-03.25.02:801][979]LogD3D11RHI: InitD3DDevice
+[2015.08.22-03.25.07:662][514]LogD3D11RHI: InitD3DDevice
+[2015.08.22-03.25.08:395][596]LogD3D11RHI: InitD3DDevice
+[2015.08.22-03.25.10:258][792]LogD3D11RHI: InitD3DDevice
+[2015.08.22-03.25.10:276][792]LogD3D11RHI: InitD3DDevice
+[2015.08.22-03.25.10:334][792]LogD3D11RHI: InitD3DDevice
+[2015.08.22-03.25.10:363][792]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RaysModels/Fort001/Fort001" FILE="../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Content/RaysModels/Fort001/Fort001.uasset" SILENT=true
+[2015.08.22-03.25.10:373][792]LogSavePackage: Save=9.036144ms
+[2015.08.22-03.25.10:373][792]LogSavePackage: Moving '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Saved/Fort0013AA97F914CCD0B25E09456B856B87267.tmp' to '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Content/RaysModels/Fort001/Fort001.uasset'
+[2015.08.22-03.25.10:382][792]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RaysModels/Fort001" FILE="../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Content/RaysModels/Fort001.uasset" SILENT=true
+[2015.08.22-03.25.10:389][792]LogSavePackage: Save=0.736372ms
+[2015.08.22-03.25.10:389][792]LogSavePackage: Moving '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Saved/Fort001FD05D8D145A9AD494647C4A2675CF0C6.tmp' to '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Content/RaysModels/Fort001.uasset'
+[2015.08.22-03.25.11:228][836]LogD3D11RHI: InitD3DDevice
+[2015.08.22-03.25.11:581][876]LogD3D11RHI: InitD3DDevice
+[2015.08.22-03.25.12:386][968]LogD3D11RHI: InitD3DDevice
+[2015.08.22-03.25.12:395][968]LogD3D11RHI: InitD3DDevice
+[2015.08.22-03.25.12:435][968]LogD3D11RHI: InitD3DDevice
+[2015.08.22-03.25.12:452][968]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RaysModels/Fort001/Fort001Nor" FILE="../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Content/RaysModels/Fort001/Fort001Nor.uasset" SILENT=true
+[2015.08.22-03.25.12:565][968]LogSavePackage: Save=112.454720ms
+[2015.08.22-03.25.12:565][968]LogSavePackage: Moving '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Saved/Fort001Nor969759E048212940859B399BF971400D.tmp' to '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Content/RaysModels/Fort001/Fort001Nor.uasset'
+[2015.08.22-03.25.12:573][968]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RaysModels/Fort001Nor" FILE="../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Content/RaysModels/Fort001Nor.uasset" SILENT=true
+[2015.08.22-03.25.12:589][968]LogSavePackage: Save=0.792391ms
+[2015.08.22-03.25.12:590][968]LogSavePackage: Moving '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Saved/Fort001Nor8E5E1BAB4E9F44B7C2176E985C597225.tmp' to '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Content/RaysModels/Fort001Nor.uasset'
+[2015.08.22-03.25.13:139][993]LogD3D11RHI: InitD3DDevice
+[2015.08.22-03.25.13:509][ 34]LogD3D11RHI: InitD3DDevice
+[2015.08.22-03.25.14:166][106]LogD3D11RHI: InitD3DDevice
+[2015.08.22-03.25.14:176][106]LogD3D11RHI: InitD3DDevice
+[2015.08.22-03.25.14:214][106]LogD3D11RHI: InitD3DDevice
+[2015.08.22-03.25.14:229][106]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RaysModels/Fort001/Fort001Spec" FILE="../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Content/RaysModels/Fort001/Fort001Spec.uasset" SILENT=true
+[2015.08.22-03.25.14:293][106]LogSavePackage: Save=63.040985ms
+[2015.08.22-03.25.14:293][106]LogSavePackage: Moving '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Saved/Fort001Spec50AB9BCA40181FA6E2D29BA53EA68B83.tmp' to '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Content/RaysModels/Fort001/Fort001Spec.uasset'
+[2015.08.22-03.25.14:300][106]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RaysModels/Fort001Spec" FILE="../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Content/RaysModels/Fort001Spec.uasset" SILENT=true
+[2015.08.22-03.25.14:308][106]LogSavePackage: Save=0.819195ms
+[2015.08.22-03.25.14:308][106]LogSavePackage: Moving '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Saved/Fort001Spec6E3471724B6A7E35B49E3B85D7DA5055.tmp' to '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Content/RaysModels/Fort001Spec.uasset'
+[2015.08.22-03.25.14:789][129]LogD3D11RHI: InitD3DDevice
+[2015.08.22-03.25.15:038][156]LogD3D11RHI: InitD3DDevice
+[2015.08.22-03.25.15:614][213]LogD3D11RHI: InitD3DDevice
+[2015.08.22-03.25.15:625][213]LogD3D11RHI: InitD3DDevice
+[2015.08.22-03.25.15:667][213]LogD3D11RHI: InitD3DDevice
+[2015.08.22-03.25.15:686][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RaysModels/Fort001/Fort001TXT" FILE="../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Content/RaysModels/Fort001/Fort001TXT.uasset" SILENT=true
+[2015.08.22-03.25.15:784][213]LogSavePackage: Save=97.910690ms
+[2015.08.22-03.25.15:784][213]LogSavePackage: Moving '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Saved/Fort001TXTD122D3DA4DAD4D4313DC0EA2ADC07EDE.tmp' to '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Content/RaysModels/Fort001/Fort001TXT.uasset'
+[2015.08.22-03.25.15:791][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RaysModels/Fort001TXT" FILE="../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Content/RaysModels/Fort001TXT.uasset" SILENT=true
+[2015.08.22-03.25.15:810][213]LogSavePackage: Save=0.889670ms
+[2015.08.22-03.25.15:810][213]LogSavePackage: Moving '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Saved/Fort001TXT950676284134F989B08212B374885488.tmp' to '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Content/RaysModels/Fort001TXT.uasset'
+[2015.08.22-03.25.16:258][233]LogD3D11RHI: InitD3DDevice
+[2015.08.22-03.25.16:488][254]LogD3D11RHI: InitD3DDevice
+[2015.08.22-03.25.17:333][340]LogD3D11RHI: InitD3DDevice
+[2015.08.22-03.25.17:345][340]LogD3D11RHI: InitD3DDevice
+[2015.08.22-03.25.17:382][340]LogD3D11RHI: InitD3DDevice
+[2015.08.22-03.25.17:399][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RaysModels/Fort001/FortMat" FILE="../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Content/RaysModels/Fort001/FortMat.uasset" SILENT=true
+[2015.08.22-03.25.17:410][340]LogSavePackage: Save=9.665600ms
+[2015.08.22-03.25.17:410][340]LogSavePackage: Moving '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Saved/FortMat2015E0EE4B3E8364FEA7DE8C9B01D89E.tmp' to '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Content/RaysModels/Fort001/FortMat.uasset'
+[2015.08.22-03.25.17:417][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RaysModels/FortMat" FILE="../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Content/RaysModels/FortMat.uasset" SILENT=true
+[2015.08.22-03.25.17:423][340]LogSavePackage: Save=0.772814ms
+[2015.08.22-03.25.17:423][340]LogSavePackage: Moving '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Saved/FortMat5FF598654CC6F77DF443C69125D78F42.tmp' to '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Content/RaysModels/FortMat.uasset'
+[2015.08.22-03.25.22:409][906]LogD3D11RHI: InitD3DDevice
+[2015.08.22-03.25.22:527][919]LogD3D11RHI: InitD3DDevice
+[2015.08.22-03.25.55:156][524]LogD3D11RHI: InitD3DDevice
+[2015.08.22-03.25.55:396][549]LogD3D11RHI: InitD3DDevice
+[2015.08.22-03.26.10:604][445]LogD3D11RHI: InitD3DDevice
+[2015.08.22-03.26.10:642][445]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 F:\Game_Asset_Development\Done_Assets\Alter\Alter001.fbx)
+[2015.08.22-03.26.10:726][445]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.08.22-03.26.10:726][445]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.08.22-03.26.10:726][445]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.08.22-03.26.10:726][445]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.08.22-03.26.10:726][445]LogFbx: ItemName: Material, ItemCount : 1
+[2015.08.22-03.26.10:726][445]LogFbx: ItemName: Model, ItemCount : 1
+[2015.08.22-03.26.10:755][445]LogD3D11RHI: InitD3DDevice
+[2015.08.22-03.26.12:443][445]LogFbx: Loading FBX Scene from F:\Game_Asset_Development\Done_Assets\Alter\Alter001.fbx
+[2015.08.22-03.26.12:456][445]LogFbx: FBX Scene Loaded Succesfully
+[2015.08.22-03.26.12:459][445]LogFbx:Warning: Triangulating static mesh pCube54
+[2015.08.22-03.26.12:567][445]LogStaticMesh: Building static mesh Alter001...
+[2015.08.22-03.26.12:586][445]LogStaticMesh: Built static mesh [0.019061.2s] /Game/RaysModels/Alter001/Alter001.Alter001
+[2015.08.22-03.26.12:623][445]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.08.22-03.26.12:628][445]LogD3D11RHI: InitD3DDevice
+[2015.08.22-03.26.12:639][445]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2015.08.22-03.26.12:742][445]LogCrashTracker: 
+
+
+[2015.08.22-03.26.38:523][445]LogCrashTracker: 
+
+
+[2015.08.22-03.26.38:524][445]LogWindows: === Critical error: ===
+Assertion failed: Class [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.8\Engine\Source\Runtime\CoreUObject\Private\UObject\UObjectGlobals.cpp] [Line: 1346] 
+
+
+
+Unhandled Exception: EXCEPTION_ACCESS_VIOLATION writing address 0x00003b07
+
+UE4Editor-Core.dll!FText::FText() {0x000007fee4d5693b} + 43 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FScopedSlowTask::GetCurrentMessage() {0x000007fee4c791a9} + 28 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!SSlowTaskWidget::GetProgressText() {0x000007fedee87ee5} + 295 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!SSlowTaskWidget::GetMainTextFont() {0x000007fedee85e6b} + 19 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!TMemberFunctionCaller<SSlowTaskWidget,FSlateFontInfo (__cdecl SSlowTaskWidget::*)(void)const __ptr64>::operator()<>() {0x000007fedee49420} + 15 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!TTupleImpl<TIntegerSequence<> >::ApplyAfter_ExplicitReturnType<FSlateFontInfo,TMemberFunctionCaller<SSlowTaskWidget,FSlateFontInfo (__cdecl SSlowTaskWidget::*)(void)const __ptr64> >() {0x000007fedee4a189} + 19 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!TBaseSPMethodDelegateInstance<1,SSlowTaskWidget,0,FSlateFontInfo __cdecl(void)>::Execute() {0x000007fedee7dbc9} + 36 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!TBaseDelegate<FSlateFontInfo>::Execute() {0x000007fee1380afa} + 6 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!TAttribute<FSlateFontInfo>::Get() {0x000007fee1387788} + 14 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!STextBlock::GetFont() {0x000007fee13f98c6} + 32 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!STextBlock::GetComputedTextStyle() {0x000007fee13f8bd1} + 13 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!STextBlock::ComputeDesiredSize() {0x000007fee13e6fc3} + 10 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SWidget::CacheDesiredSize() {0x000007fee0f0cd8a} + 20 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SWidget::SlatePrepass() {0x000007fee0f7133d} + 16 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SWidget::SlatePrepass() {0x000007fee0f712fa} + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SWidget::SlatePrepass() {0x000007fee0f712fa} + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SWidget::SlatePrepass() {0x000007fee0f712fa} + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SWidget::SlatePrepass() {0x000007fee0f712fa} + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SWidget::SlatePrepass() {0x000007fee0f712fa} + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SWidget::SlatePrepass() {0x000007fee0f712fa} + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SWidget::SlatePrepass() {0x000007fee0f712fa} + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!PrepassWindowAndChildren() {0x000007fee12231df} + 33 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::DrawPrepass() {0x000007fee11ddc69} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::PrivateDrawWindows() {0x000007fee1225a61} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::DrawWindows() {0x000007fee11ded40} + 13 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::Tick() {0x000007fee124727f} + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!FEngineLoop::Tick() {0x000000013f5c4bf6} + 15 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMain() {0x000000013f5b49cc} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMainWrapper() {0x000000013f5b4a4a} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!WinMain() {0x000000013f5c65c9} + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!__tmainCRTStartup() {0x000000013f5c75d9} + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+kernel32.dll {0x0000000076e25a4d} + 0 bytes
+ntdll.dll {0x000000007705b831} + 0 bytes
+ntdll.dll {0x000000007705b831} + 0 bytes
+
