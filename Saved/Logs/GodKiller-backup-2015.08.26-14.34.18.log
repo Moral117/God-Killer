@@ -1,0 +1,1064 @@
+﻿[2015.08.26-03.06.02:892][  0]Log file open, 08/25/15 20:06:02
+[2015.08.26-03.06.02:892][  0]LogInit:Display: Running engine for game: GodKiller
+[2015.08.26-03.06.02:892][  0]LogInit:Display: RandInit(-163005335) SRandInit(-163005334).
+[2015.08.26-03.06.02:892][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.08.26-03.06.02:892][  0]LogStats: Stats thread started
+[2015.08.26-03.06.02:892][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.08.26-03.06.02:892][  0]LogInit: API Version: 2579680
+[2015.08.26-03.06.02:893][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.08.26-03.06.02:893][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.08.26-03.06.02:893][  0]LogInit: Build Configuration: Development
+[2015.08.26-03.06.02:893][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.08.26-03.06.02:893][  0]LogInit: Command line:  
+[2015.08.26-03.06.02:893][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.08.26-03.06.02:893][  0]LogInit: Rocket: 1
+[2015.08.26-03.06.03:033][  0]LogInit: Using libcurl 7.41.0
+[2015.08.26-03.06.03:033][  0]LogInit:  - built for x86_64-pc-win32
+[2015.08.26-03.06.03:033][  0]LogInit:  - supports SSL with WinSSL
+[2015.08.26-03.06.03:033][  0]LogInit:  - other features:
+[2015.08.26-03.06.03:033][  0]LogInit:      CURL_VERSION_SSL
+[2015.08.26-03.06.03:033][  0]LogInit:      CURL_VERSION_IPV6
+[2015.08.26-03.06.03:033][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.08.26-03.06.03:033][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.08.26-03.06.03:033][  0]LogInit:      CURL_VERSION_IDN
+[2015.08.26-03.06.03:034][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.08.26-03.06.03:035][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.08.26-03.06.03:035][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.08.26-03.06.03:035][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.08.26-03.06.03:035][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.08.26-03.06.03:101][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.08.26-03.06.03:506][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.08.26-03.06.03:817][  0]LogInit: Object subsystem initialized
+[2015.08.26-03.06.03:971][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.08.26-03.06.03:971][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Samantha/Desktop/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.26-03.06.03:971][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.08.26-03.06.03:971][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Samantha/Desktop/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.26-03.06.03:971][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.08.26-03.06.03:971][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Samantha/Desktop/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.26-03.06.04:103][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.26-03.06.04:104][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.08.26-03.06.04:290][  0]LogInit: Computer: SAMANTHAPC
+[2015.08.26-03.06.04:290][  0]LogInit: User: Samantha
+[2015.08.26-03.06.04:290][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.08.26-03.06.04:290][  0]LogInit: High frequency timer resolution =2.240907 MHz
+[2015.08.26-03.06.04:295][  0]LogMemory: Memory total: Physical=5.9GB (6GB approx)
+[2015.08.26-03.06.04:312][  0]LogMemory: Platform Memory Stats for Windows
+[2015.08.26-03.06.04:313][  0]LogMemory: Process Physical Memory: 49.07 MB used, 49.07 MB peak
+[2015.08.26-03.06.04:313][  0]LogMemory: Process Virtual Memory: 25.18 MB used, 25.18 MB peak
+[2015.08.26-03.06.04:313][  0]LogMemory: Physical Memory: 2476.23 MB used, 6027.63 MB total
+[2015.08.26-03.06.04:313][  0]LogMemory: Virtual Memory: 293.70 MB used, 134217728.00 MB total
+[2015.08.26-03.06.06:338][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.08.26-03.06.07:398][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.08.26-03.06.09:984][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics Family (Feature Level 11_0)
+[2015.08.26-03.06.09:984][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 1 output[s]
+[2015.08.26-03.06.09:988][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.08.26-03.06.09:988][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.08.26-03.06.09:988][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.08.26-03.06.10:009][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.26-03.06.10:009][  0]LogD3D11RHI: !Direct3DDevice
+[2015.08.26-03.06.10:009][  0]LogRHI: Texture pool is 638 MB (70% of 912 MB)
+[2015.08.26-03.06.10:024][  0]LogD3D11RHI: Async texture creation enabled
+[2015.08.26-03.06.10:482][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.08.26-03.06.19:416][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.08.26-03.06.19:463][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.08.26-03.06.19:510][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.08.26-03.06.19:566][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.08.26-03.06.19:625][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.08.26-03.06.19:702][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.08.26-03.06.19:758][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.08.26-03.06.19:830][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.08.26-03.06.19:878][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.08.26-03.06.19:927][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.08.26-03.06.19:987][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.08.26-03.06.20:045][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.08.26-03.06.20:351][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.08.26-03.06.20:413][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.08.26-03.06.20:459][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.08.26-03.06.20:517][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.08.26-03.06.20:517][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.08.26-03.06.22:478][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.08.26-03.06.23:363][  0]LogDerivedDataCache: Loaded boot cache 0.88s 53MB C:/Users/Samantha/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.08.26-03.06.23:363][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Samantha/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.08.26-03.06.23:364][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Samantha/Desktop/God-Killer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.08.26-03.06.23:364][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.08.26-03.06.23:364][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Samantha/Desktop/God-Killer/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.08.26-03.06.23:364][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.08.26-03.06.24:005][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.08.26-03.06.24:045][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Samantha/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.08.26-03.06.41:360][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.26-03.06.42:831][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.08.26-03.06.42:832][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.08.26-03.06.43:269][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.08.26-03.06.43:269][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.08.26-03.06.49:623][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.08.26-03.06.54:076][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/UE4Editor-XAudio2.dll' because the file couldn't be loaded by the OS.
+[2015.08.26-03.07.26:169][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.08.26-03.07.29:445][  0]SourceControl: Info Source control is disabled
+[2015.08.26-03.07.29:476][  0]SourceControl: Info Source control is disabled
+[2015.08.26-03.07.29:546][  0]SourceControl: Info Source control is disabled
+[2015.08.26-03.07.29:611][  0]SourceControl: Info Source control is disabled
+[2015.08.26-03.07.31:339][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.08.26-03.07.31:339][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2015.08.26-03.07.32:454][  0]LogEngine: Initializing Engine...
+[2015.08.26-03.07.32:483][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.08.26-03.07.32:556][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.08.26-03.07.34:382][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.08.26-03.39.45:851][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/UE4Editor-XAudio2.dll' because the file couldn't be loaded by the OS.
+[2015.08.26-03.39.45:936][  0]LogDerivedDataCache: Saved boot cache 0.08s 53MB C:/Users/Samantha/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.08.26-03.39.45:952][  0]LogInit: Texture streaming: Disabled
+[2015.08.26-03.39.46:057][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.08.26-03.39.46:057][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.08.26-03.39.46:057][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 46872bea408cfcc0100ac385d2b5ce07|e22a3db169b04f708165eaff958a9646|097015b1-a59a-4201-b460-717027cc9fe8
+[2015.08.26-03.39.46:058][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.08.26-03.39.46:294][  0]LogInit: Transaction tracking system initialized
+[2015.08.26-03.39.47:270][  0]BlueprintLog: New page: Editor Load
+[2015.08.26-03.39.47:474][  0]LogAssetRegistry: FAssetRegistry took 0.0160 seconds to start up
+[2015.08.26-03.39.47:488][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.08.26-03.39.55:237][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.08.26-03.39.55:237][  0]LogConsoleResponse:Display: 
+[2015.08.26-03.39.59:485][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.08.26-03.40.02:327][  0]SourceControl: Info Source control is disabled
+[2015.08.26-03.40.02:449][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Scene/NewCave.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.08.26-03.40.02:452][  0]LightingResults: New page: Lighting Build
+[2015.08.26-03.40.02:907][  0]MapCheck: New page: Map Check
+[2015.08.26-03.40.02:907][  0]LightingResults: New page: Lighting Build
+[2015.08.26-03.40.03:315][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009D935B5300
+[2015.08.26-03.40.12:765][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
+[2015.08.26-03.40.12:799][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [2057.31] Compile of GnawmersHealth successful, but with 1 Warning(s) [in 87 ms]
+[2015.08.26-03.40.12:799][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [2057.31] Compile of GnawmersHealth successful, but with 2 Warning(s) [in 0 ms]
+[2015.08.26-03.40.12:799][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [2057.31] Compile of GnawmersHealth successful, but with 3 Warning(s) [in 0 ms]
+[2015.08.26-03.40.15:507][  0]LogBlueprint:Warning: [compiler Gui] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
+[2015.08.26-03.40.15:556][  0]LogBlueprint:Warning: [compiler Gui] Warning [2060.07] Compile of Gui successful, but with 1 Warning(s) [in 149 ms]
+[2015.08.26-03.40.15:558][  0]LogBlueprint:Warning: [compiler Gui] Warning [2060.07] Compile of Gui successful, but with 2 Warning(s) [in 1 ms]
+[2015.08.26-03.40.15:558][  0]LogBlueprint:Warning: [compiler Gui] Warning [2060.07] Compile of Gui successful, but with 3 Warning(s) [in 0 ms]
+[2015.08.26-03.40.21:679][  0]LogBlueprint:Warning: [compiler Gui] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
+[2015.08.26-03.40.21:719][  0]LogBlueprint:Warning: [compiler Gui] Warning [2066.23] Compile of Gui successful, but with 1 Warning(s) [in 169 ms]
+[2015.08.26-03.40.21:726][  0]LogBlueprint:Warning: [compiler Gui] Warning [2066.24] Compile of Gui successful, but with 2 Warning(s) [in 6 ms]
+[2015.08.26-03.40.22:059][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
+[2015.08.26-03.40.22:061][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [2066.57] Compile of GnawmersHealth successful, but with 1 Warning(s) [in 40 ms]
+[2015.08.26-03.40.22:063][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [2066.58] Compile of GnawmersHealth successful, but with 2 Warning(s) [in 1 ms]
+[2015.08.26-03.41.04:208][  0]LogStaticMesh: Building static mesh LowWall...
+[2015.08.26-03.41.04:295][  0]LogStaticMesh: Built static mesh [0.145542.2s] /Game/Models/Wall/LowWall.LowWall
+[2015.08.26-03.41.24:779][  0]LogTexture:Display: Building textures: Wall_dDo_n (BC5)
+[2015.08.26-03.41.28:078][  0]LogTexture:Display: Building textures: Wall_dDo_d (AutoDXT)
+[2015.08.26-03.41.44:137][  0]LogTexture:Display: Building textures: Wall_dDo_s (AutoDXT)
+[2015.08.26-03.42.00:469][  0]LogMaterial: Missing cached shader map for material Wall001, compiling. 
+[2015.08.26-03.42.10:695][  0]LogAIModule: Creating AISystem for world NewCave
+[2015.08.26-03.42.16:285][  0]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2015.08.26-03.42.16:319][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.08.26-03.42.16:645][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 325.824ms to complete.
+[2015.08.26-03.42.16:646][  0]LogFileHelpers: Loading map 'NewCave' took 134.240
+[2015.08.26-03.42.18:340][  0]LogCollectionManager: Loaded 0 collections in 0.007397 seconds
+[2015.08.26-03.42.18:402][  0]LogContentBrowser: Native class hierarchy populated in 0.0611 seconds. Added 1792 classes and 301 folders.
+[2015.08.26-03.42.18:898][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2015.08.26-03.42.19:851][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2015.08.26-03.42.20:630][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2015.08.26-03.42.21:294][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.08.26-03.42.21:361][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.26-03.42.21:451][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.08.26-03.42.21:558][  0]LogLoad: Full Startup: 2186.07 seconds (BP compile: 11.30 seconds)
+[2015.08.26-03.42.23:072][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.08.26-03.42.23:790][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.08.26-03.42.24:556][  0]LogRenderer: Reallocating scene render targets to support 832x712 (Frame:2).
+[2015.08.26-03.42.26:942][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2015.08.26-03.42.27:088][  1]Cmd: UpdateLandscapeEditorData
+[2015.08.26-03.42.35:256][ 32]LogD3D11RHI: InitD3DDevice
+[2015.08.26-03.42.39:507][ 56]LogAssetRegistry: Asset discovery search completed in 172.0450 seconds
+[2015.08.26-03.42.49:674][111]LogEditorViewport: Clicking on Actor (CTRL LMB): Landscape (Landscape)
+[2015.08.26-03.43.28:626][316]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (newcave004)
+[2015.08.26-03.46.58:061][464]LogD3D11RHI: InitD3DDevice
+[2015.08.26-03.47.02:351][484]LogD3D11RHI: InitD3DDevice
+[2015.08.26-03.47.03:803][484]LogD3D11RHI: InitD3DDevice
+[2015.08.26-03.47.05:120][484]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2015.08.26-03.47.05:812][484]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/SubEditors/PersonaAnimEditorTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.08.26-03.47.06:087][484]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.08.26-03.47.15:220][532]LogD3D11RHI: InitD3DDevice
+[2015.08.26-03.48.59:734][124]LogD3D11RHI: InitD3DDevice
+[2015.08.26-03.49.01:259][179]LogD3D11RHI: InitD3DDevice
+[2015.08.26-03.49.31:060][385]LogD3D11RHI: InitD3DDevice
+[2015.08.26-03.49.35:353][557]LogD3D11RHI: InitD3DDevice
+[2015.08.26-03.49.39:714][742]LogD3D11RHI: InitD3DDevice
+[2015.08.26-03.49.39:971][742]LogD3D11RHI: InitD3DDevice
+[2015.08.26-03.50.13:894][128]LogD3D11RHI: InitD3DDevice
+[2015.08.26-03.50.24:365][379]LogD3D11RHI: InitD3DDevice
+[2015.08.26-03.50.24:552][379]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Herc/walking" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/walking.uasset" SILENT=true
+[2015.08.26-03.50.24:723][379]LogSavePackage: Save=97.814857ms
+[2015.08.26-03.50.24:723][379]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/walking6DB1D81B4D520A4C85C90A810CD970AE.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/walking.uasset'
+[2015.08.26-03.51.03:396][ 18]LogD3D11RHI: InitD3DDevice
+[2015.08.26-03.51.04:231][ 50]LogD3D11RHI: InitD3DDevice
+[2015.08.26-03.51.06:720][153]LogD3D11RHI: InitD3DDevice
+[2015.08.26-03.51.38:486][222]LogD3D11RHI: InitD3DDevice
+[2015.08.26-03.51.39:394][222]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.08.26-03.51.39:801][222]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.08.26-03.51.43:305][222]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_4) - call TermArticulated first.
+[2015.08.26-03.51.53:258][406]LogD3D11RHI: InitD3DDevice
+[2015.08.26-03.51.54:512][440]LogD3D11RHI: InitD3DDevice
+[2015.08.26-03.51.56:877][529]LogD3D11RHI: InitD3DDevice
+[2015.08.26-03.52.21:752][620]LogD3D11RHI: InitD3DDevice
+[2015.08.26-03.52.47:139][801]LogD3D11RHI: InitD3DDevice
+[2015.08.26-03.53.05:344][910]LogD3D11RHI: InitD3DDevice
+[2015.08.26-03.53.06:684][910]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009DAB55AFC0
+[2015.08.26-03.53.08:079][910]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Scene/NewCave' took 1.875
+[2015.08.26-03.53.08:108][910]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Herc/HercAnimBp] ([1] browsable assets)...
+[2015.08.26-03.53.08:195][910]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Herc/HercAnimBp.HercAnimBp]
+[2015.08.26-03.53.08:195][910]OBJ SavePackage: Finished generating thumbnails for package [/Game/Herc/HercAnimBp]
+[2015.08.26-03.53.08:195][910]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Herc/HercAnimBp" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Saved/Autosaves/Game/Herc/HercAnimBp_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.08.26-03.53.08:270][910]LogSavePackage: Save=70.238525ms
+[2015.08.26-03.53.08:270][910]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/HercAnimBp_Auto16D16D2A542E400FEDF2ED88977F1D298.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/Autosaves/Game/Herc/HercAnimBp_Auto1.uasset'
+[2015.08.26-03.53.08:286][910]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Herc/HercIdleWalkRun] ([1] browsable assets)...
+[2015.08.26-03.53.08:411][910]OBJ SavePackage:     Rendered thumbnail for [BlendSpace1D /Game/Herc/HercIdleWalkRun.HercIdleWalkRun]
+[2015.08.26-03.53.08:411][910]OBJ SavePackage: Finished generating thumbnails for package [/Game/Herc/HercIdleWalkRun]
+[2015.08.26-03.53.08:411][910]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Herc/HercIdleWalkRun" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Saved/Autosaves/Game/Herc/HercIdleWalkRun_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.08.26-03.53.08:463][910]LogSavePackage: Save=47.925682ms
+[2015.08.26-03.53.08:463][910]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/HercIdleWalkRun_Auto109B53FD3466AEF2973AC56981998D140.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/Autosaves/Game/Herc/HercIdleWalkRun_Auto1.uasset'
+[2015.08.26-03.53.08:466][910]LogFileHelpers: Auto-saving content packages took 0.384
+[2015.08.26-03.56.02:276][ 38]LogD3D11RHI: InitD3DDevice
+[2015.08.26-03.56.02:904][ 54]LogD3D11RHI: InitD3DDevice
+[2015.08.26-03.56.04:559][ 90]LogD3D11RHI: InitD3DDevice
+[2015.08.26-03.58.03:043][726]LogD3D11RHI: InitD3DDevice
+[2015.08.26-03.58.03:198][726]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Herc/herc_run" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/herc_run.uasset" SILENT=true
+[2015.08.26-03.58.03:529][726]LogSavePackage: Save=325.822968ms
+[2015.08.26-03.58.03:530][726]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/herc_run61EE817E407E67048FB442BF4C789CA5.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/herc_run.uasset'
+[2015.08.26-03.58.37:764][474]LogD3D11RHI: InitD3DDevice
+[2015.08.26-03.58.43:966][617]LogD3D11RHI: InitD3DDevice
+[2015.08.26-03.58.49:022][732]LogD3D11RHI: InitD3DDevice
+[2015.08.26-03.59.13:327][290]LogD3D11RHI: InitD3DDevice
+[2015.08.26-03.59.13:466][290]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Herc/herc_run" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/herc_run.uasset" SILENT=true
+[2015.08.26-03.59.13:559][290]LogSavePackage: Save=50.100697ms
+[2015.08.26-03.59.13:559][290]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/herc_runB3FB856A43F6414C95B1E78D1ADD4BAF.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/herc_run.uasset'
+[2015.08.26-03.59.27:741][534]LogD3D11RHI: InitD3DDevice
+[2015.08.26-03.59.32:235][622]LogD3D11RHI: InitD3DDevice
+[2015.08.26-03.59.36:985][713]LogD3D11RHI: InitD3DDevice
+[2015.08.26-03.59.43:951][838]LogD3D11RHI: InitD3DDevice
+[2015.08.26-03.59.44:112][838]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Herc/HercIdleWalkRun" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercIdleWalkRun.uasset" SILENT=true
+[2015.08.26-03.59.44:162][838]LogSavePackage: Save=45.581097ms
+[2015.08.26-03.59.44:162][838]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/HercIdleWalkRunD53D410049C7D664F9BE499070A9E81B.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercIdleWalkRun.uasset'
+[2015.08.26-04.00.39:783][779]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.00.59:464][163]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.01.06:307][299]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.01.06:924][315]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.02.00:007][255]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.02.00:882][276]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.02.10:089][487]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.08.26-04.02.13:150][529]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.02.17:270][600]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.02.19:981][647]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.02.20:794][666]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.02.33:378][871]BlueprintLog: New page: Compile HercAnimBp
+[2015.08.26-04.02.34:228][871]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009DA186B380
+[2015.08.26-04.02.34:230][871]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009D98F17420
+[2015.08.26-04.02.34:333][871]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009D98F14D60
+[2015.08.26-04.02.34:333][871]BlueprintEditorCompileResults: Info [3398.85] Compile of HercAnimBp successful! [in 954 ms]
+[2015.08.26-04.02.37:252][908]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.02.37:424][908]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Herc/HercAnimBp" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercAnimBp.uasset" SILENT=true
+[2015.08.26-04.02.37:576][908]LogSavePackage: Save=148.252914ms
+[2015.08.26-04.02.37:578][908]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/HercAnimBpB8F20F8641EB6C5DC59FC383D820EEE4.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercAnimBp.uasset'
+[2015.08.26-04.03.52:022][621]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.03.53:264][621]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_8) - call TermArticulated first.
+[2015.08.26-04.04.38:398][220]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.04.39:001][230]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.04.56:862][501]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.05.10:390][706]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.05.11:877][743]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.05.29:503][ 63]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.05.30:612][ 89]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.05.47:311][406]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.05.48:237][426]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.05.56:304][579]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.06.07:247][763]BlueprintLog: New page: Compile HercAnimBp
+[2015.08.26-04.06.07:605][763]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.26-04.06.07:841][763]BlueprintEditorCompileResults: Info [3612.35] Compile of HercAnimBp successful! [in 594 ms]
+[2015.08.26-04.06.09:264][782]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.06.09:449][782]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Herc/HercAnimBp" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercAnimBp.uasset" SILENT=true
+[2015.08.26-04.06.09:647][782]LogSavePackage: Save=119.119179ms
+[2015.08.26-04.06.09:647][782]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/HercAnimBp0490E03849FC8F36F8555EB92357775C.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercAnimBp.uasset'
+[2015.08.26-04.08.43:890][707]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.08.45:232][707]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_10) - call TermArticulated first.
+[2015.08.26-04.11.53:268][700]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.11.54:038][700]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.08.26-04.17.23:934][944]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.17.24:873][944]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.08.26-04.17.37:883][ 78]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.17.39:192][ 78]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_16) - call TermArticulated first.
+[2015.08.26-04.18.56:994][184]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.18.58:114][213]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.19.25:553][692]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.19.30:358][795]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.19.34:075][870]BlueprintLog: New page: Compile HercAnimBp
+[2015.08.26-04.19.34:159][870]LogBlueprint:Warning: [compiler HercAnimBp] Warning  Idle/walk/run to Attacking  will never be taken, please connect something to  Can Enter Transition 
+[2015.08.26-04.19.34:530][870]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009D8A1C9A80
+[2015.08.26-04.19.34:530][870]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009D8E2F8C20
+[2015.08.26-04.19.34:530][870]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009D981F5940
+[2015.08.26-04.19.34:530][870]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009D8DEBAAC0
+[2015.08.26-04.19.34:531][870]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009D8D10A340
+[2015.08.26-04.19.34:531][870]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009D981AC180
+[2015.08.26-04.19.34:531][870]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009D981AD760
+[2015.08.26-04.19.34:644][870]LogBlueprint:Warning: [compiler HercAnimBp] Warning [4419.16] Compile of HercAnimBp successful, but with 1 Warning(s) [in 568 ms]
+[2015.08.26-04.19.34:659][870]BlueprintEditorCompileResults:Warning: Warning  Idle/walk/run to Attacking  will never be taken, please connect something to  Can Enter Transition 
+[2015.08.26-04.19.34:659][870]BlueprintEditorCompileResults:Warning: Warning [4419.16] Compile of HercAnimBp successful, but with 1 Warning(s) [in 568 ms]
+[2015.08.26-04.20.02:961][305]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.20.07:625][388]BlueprintLog: New page: Compile HercAnimBp
+[2015.08.26-04.20.07:714][388]LogBlueprint:Warning: [compiler HercAnimBp] Warning  Idle/walk/run to Attacking  will never be taken, please connect something to  Can Enter Transition 
+[2015.08.26-04.20.07:714][388]LogBlueprint:Warning: [compiler HercAnimBp] Warning  Attacking to Idle/walk/run  will never be taken, please connect something to  Can Enter Transition 
+[2015.08.26-04.20.08:137][388]LogBlueprint:Warning: [compiler HercAnimBp] Warning [4452.65] Compile of HercAnimBp successful, but with 2 Warning(s) [in 512 ms]
+[2015.08.26-04.20.08:137][388]BlueprintEditorCompileResults:Warning: Warning  Idle/walk/run to Attacking  will never be taken, please connect something to  Can Enter Transition 
+[2015.08.26-04.20.08:138][388]BlueprintEditorCompileResults:Warning: Warning  Attacking to Idle/walk/run  will never be taken, please connect something to  Can Enter Transition 
+[2015.08.26-04.20.08:138][388]BlueprintEditorCompileResults:Warning: Warning [4452.65] Compile of HercAnimBp successful, but with 2 Warning(s) [in 512 ms]
+[2015.08.26-04.21.16:051][478]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.21.24:809][663]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.21.34:637][802]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.21.40:237][904]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.21.44:068][977]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.21.55:163][219]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.21.55:875][235]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.22.00:471][333]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.24.40:323][438]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.24.49:316][565]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.24.50:322][565]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Scene/NewCave' took 0.187
+[2015.08.26-04.24.50:338][565]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Herc/HercAnimBp] ([1] browsable assets)...
+[2015.08.26-04.24.50:434][565]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Herc/HercAnimBp.HercAnimBp]
+[2015.08.26-04.24.50:435][565]OBJ SavePackage: Finished generating thumbnails for package [/Game/Herc/HercAnimBp]
+[2015.08.26-04.24.50:435][565]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Herc/HercAnimBp" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Saved/Autosaves/Game/Herc/HercAnimBp_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2015.08.26-04.24.50:624][565]LogSavePackage: Save=142.227234ms
+[2015.08.26-04.24.50:624][565]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/HercAnimBp_Auto274C5580D4ECC8CA9884E8BB0125167A9.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/Autosaves/Game/Herc/HercAnimBp_Auto2.uasset'
+[2015.08.26-04.24.50:629][565]LogFileHelpers: Auto-saving content packages took 0.306
+[2015.08.26-04.29.48:767][389]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.29.57:396][526]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.30.17:105][851]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.30.18:324][881]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.30.25:780][998]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.30.26:442][ 13]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.30.31:814][127]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.30.34:407][170]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.30.35:150][187]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.30.37:440][227]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.30.38:178][241]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.30.49:951][535]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.30.50:579][549]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.30.58:041][713]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.31.18:900][996]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.31.19:041][996]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Herc/HercAnimBp" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercAnimBp.uasset" SILENT=true
+[2015.08.26-04.31.19:278][996]LogSavePackage: Save=180.679962ms
+[2015.08.26-04.31.19:278][996]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/HercAnimBpD02DD8044356201BBDD6A89A6461BB3A.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercAnimBp.uasset'
+[2015.08.26-04.31.21:120][ 21]BlueprintLog: New page: Compile HercAnimBp
+[2015.08.26-04.31.21:615][ 21]BlueprintEditorCompileResults: Info [5126.13] Compile of HercAnimBp successful! [in 493 ms]
+[2015.08.26-04.31.23:941][ 52]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.31.24:083][ 52]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Herc/HercAnimBp" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercAnimBp.uasset" SILENT=true
+[2015.08.26-04.31.24:273][ 52]LogSavePackage: Save=161.907654ms
+[2015.08.26-04.31.24:273][ 52]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/HercAnimBpDB7431444399CB1672E5A88159D36A99.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercAnimBp.uasset'
+[2015.08.26-04.34.42:003][664]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.34.51:016][790]LogD3D11RHI: InitD3DDevice
+[2015.08.26-04.34.51:911][790]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Scene/NewCave' took 0.184
+[2015.08.26-04.34.51:924][790]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Herc/HercAnimBp] ([1] browsable assets)...
+[2015.08.26-04.34.51:924][790]OBJ SavePackage: Finished generating thumbnails for package [/Game/Herc/HercAnimBp]
+[2015.08.26-04.34.51:924][790]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Herc/HercAnimBp" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Saved/Autosaves/Game/Herc/HercAnimBp_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2015.08.26-04.34.52:071][790]LogSavePackage: Save=111.470490ms
+[2015.08.26-04.34.52:071][790]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/HercAnimBp_Auto3097336014E6810C9EA8E4198B68136DB.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/Autosaves/Game/Herc/HercAnimBp_Auto3.uasset'
+[2015.08.26-04.34.52:075][790]LogFileHelpers: Auto-saving content packages took 0.163
+[2015.08.26-04.44.33:106][319]LogD3D11RHI: InitD3DDevice
+[2015.08.26-05.18.45:679][192]LogD3D11RHI: InitD3DDevice
+[2015.08.26-05.18.46:019][192]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.32.33:641][203]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.32.33:798][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Herc/back_flip_to_uppercut" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/back_flip_to_uppercut.uasset" SILENT=true
+[2015.08.26-06.32.33:927][203]LogSavePackage: Save=58.697216ms
+[2015.08.26-06.32.33:927][203]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/back_flip_to_uppercutB8F0D78D4C282A7AEA1F27883C1CA79C.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/back_flip_to_uppercut.uasset'
+[2015.08.26-06.32.56:040][648]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.32.56:103][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Herc/back_flip_to_uppercut" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/back_flip_to_uppercut.uasset" SILENT=true
+[2015.08.26-06.32.56:152][648]LogSavePackage: Save=20.966064ms
+[2015.08.26-06.32.56:152][648]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/back_flip_to_uppercut9D7D59B847B8113EAA8B3FABFC4E21A4.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/back_flip_to_uppercut.uasset'
+[2015.08.26-06.33.04:886][846]BlueprintLog: New page: Compile HercAnimBp
+[2015.08.26-06.33.05:482][846]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009D9B1D6CA0
+[2015.08.26-06.33.05:482][846]BlueprintEditorCompileResults: Info [2429.99] Compile of HercAnimBp successful! [in 595 ms]
+[2015.08.26-06.33.06:581][867]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.33.06:714][867]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Herc/HercAnimBp" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercAnimBp.uasset" SILENT=true
+[2015.08.26-06.33.06:981][867]LogSavePackage: Save=212.690216ms
+[2015.08.26-06.33.06:981][867]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/HercAnimBpFCB708AA42B112BF9D6B118703CFA01B.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercAnimBp.uasset'
+[2015.08.26-06.34.05:863][223]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.34.51:452][206]BlueprintLog: New page: Compile HercAnimBp
+[2015.08.26-06.34.52:025][206]BlueprintEditorCompileResults: Info [2536.54] Compile of HercAnimBp successful! [in 572 ms]
+[2015.08.26-06.35.04:452][459]BlueprintLog: New page: Compile HercAnimBp
+[2015.08.26-06.35.04:992][459]BlueprintEditorCompileResults: Info [2549.50] Compile of HercAnimBp successful! [in 538 ms]
+[2015.08.26-06.35.06:381][489]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.35.06:503][489]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Herc/HercAnimBp" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercAnimBp.uasset" SILENT=true
+[2015.08.26-06.35.06:740][489]LogSavePackage: Save=209.806564ms
+[2015.08.26-06.35.06:740][489]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/HercAnimBp28FB7B2949E8863CB7E2BEBD8AABE1ED.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercAnimBp.uasset'
+[2015.08.26-06.35.43:065][268]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.35.44:080][294]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.35.53:128][457]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.35.53:938][477]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.36.08:096][818]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.36.10:011][871]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.38.08:082][358]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.38.58:555][429]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.42.12:761][772]BlueprintLog: New page: Compile HercAnimBp
+[2015.08.26-06.42.13:320][772]BlueprintEditorCompileResults: Info [2977.83] Compile of HercAnimBp successful! [in 559 ms]
+[2015.08.26-06.42.14:755][803]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.42.14:897][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Herc/HercAnimBp" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercAnimBp.uasset" SILENT=true
+[2015.08.26-06.42.15:175][803]LogSavePackage: Save=230.079163ms
+[2015.08.26-06.42.15:175][803]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/HercAnimBpD7E124EE483CD9F387D6B99139A6502A.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercAnimBp.uasset'
+[2015.08.26-06.42.55:149][627]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.42.55:214][627]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Herc/HercAnimBp" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercAnimBp.uasset" SILENT=true
+[2015.08.26-06.42.55:401][627]LogSavePackage: Save=158.505020ms
+[2015.08.26-06.42.55:404][627]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/HercAnimBpFBF1713F4173DEC36A985CA8F0D55262.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercAnimBp.uasset'
+[2015.08.26-06.43.24:179][801]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.43.41:103][ 10]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.43.42:577][ 68]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.43.44:232][135]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.43.44:311][135]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.43.44:657][135]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.26-06.43.44:657][135]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.08.26-06.43.44:790][135]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009D97FEE020
+[2015.08.26-06.43.44:791][135]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009D99E2EC00
+[2015.08.26-06.43.44:920][135]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009D99E2C220
+[2015.08.26-06.43.44:920][135]LogMetaData: Removing '/Game/Herc/HercAi/HercBp.SKEL_HercBp_C' ref from Metadata '/Game/Kobold/KoboldAi/HercBp.PackageMetaData'
+[2015.08.26-06.43.44:920][135]LogMetaData: Removing '/Game/Herc/HercAi/HercBp.HercBp_C' ref from Metadata '/Game/Kobold/KoboldAi/HercBp.PackageMetaData'
+[2015.08.26-06.43.45:038][135]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.43.45:157][135]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Herc/HercAi/HercBp" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercAi/HercBp.uasset" SILENT=true
+[2015.08.26-06.43.45:498][135]LogSavePackage: Save=335.044250ms
+[2015.08.26-06.43.45:498][135]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/HercBpE00A940340EC6528E2C73F970C1C6851.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercAi/HercBp.uasset'
+[2015.08.26-06.43.45:562][135]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.43.45:654][135]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.26-06.44.07:731][240]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.44.08:901][281]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.44.17:343][373]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.44.18:647][427]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.44.21:229][540]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.44.21:268][540]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.44.21:528][540]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.26-06.44.21:528][540]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.08.26-06.44.21:789][540]LogMetaData: Removing '/Game/Herc/HercAi/ChasePlayer4.SKEL_ChasePlayer4_C' ref from Metadata '/Game/Kobold/KoboldAi/ChasePlayer4.PackageMetaData'
+[2015.08.26-06.44.21:789][540]LogMetaData: Removing '/Game/Herc/HercAi/ChasePlayer4.ChasePlayer4_C' ref from Metadata '/Game/Kobold/KoboldAi/ChasePlayer4.PackageMetaData'
+[2015.08.26-06.44.21:826][540]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.44.21:871][540]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Herc/HercAi/ChasePlayer4" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercAi/ChasePlayer4.uasset" SILENT=true
+[2015.08.26-06.44.21:955][540]LogSavePackage: Save=75.035690ms
+[2015.08.26-06.44.21:955][540]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/ChasePlayer4CAE3F85C468E147D8119CC9F9687BE6E.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercAi/ChasePlayer4.uasset'
+[2015.08.26-06.44.21:979][540]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.44.26:070][557]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.44.45:578][741]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.44.45:649][741]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.44.45:702][741]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.44.45:738][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kobold/KoboldAi/HercBehavior" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Kobold/KoboldAi/HercBehavior.uasset" SILENT=true
+[2015.08.26-06.44.45:781][741]LogSavePackage: Save=37.724010ms
+[2015.08.26-06.44.45:781][741]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/HercBehavior2B4F4A5049D1AB3F53909299E2AD412C.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/Kobold/KoboldAi/HercBehavior.uasset'
+[2015.08.26-06.44.45:805][741]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.44.45:890][741]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.26-06.44.48:464][750]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.44.50:091][817]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.44.51:747][887]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.44.51:785][887]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.44.51:869][887]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.44.51:914][887]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Herc/HercAi/HercBehavior" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercAi/HercBehavior.uasset" SILENT=true
+[2015.08.26-06.44.51:940][887]LogSavePackage: Save=22.357912ms
+[2015.08.26-06.44.51:940][887]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/HercBehavior9CAE201146B9A4A49F3FA188AFEC8D2C.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercAi/HercBehavior.uasset'
+[2015.08.26-06.44.51:964][887]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.44.52:046][887]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.26-06.44.52:174][887]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.44.57:708][907]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.44.58:826][949]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.45.04:122][ 47]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.45.17:804][317]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.45.18:768][357]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.45.20:056][411]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.45.20:107][411]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.45.20:163][411]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.45.20:201][411]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Herc/HercAi/HercBlackboard" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercAi/HercBlackboard.uasset" SILENT=true
+[2015.08.26-06.45.20:218][411]LogSavePackage: Save=12.490479ms
+[2015.08.26-06.45.20:218][411]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/HercBlackboard510F4B2F463BF8E464BD7289D5E0215F.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercAi/HercBlackboard.uasset'
+[2015.08.26-06.45.20:240][411]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.45.20:322][411]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.26-06.45.25:733][435]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.45.26:424][459]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.45.31:765][523]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.45.41:907][695]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.45.43:428][759]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.45.44:922][822]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.45.44:964][822]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.45.45:210][822]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.26-06.45.45:429][822]LogMetaData: Removing '/Game/Herc/HercAi/HercController.SKEL_HercController_C' ref from Metadata '/Game/Kobold/KoboldAi/HercController.PackageMetaData'
+[2015.08.26-06.45.45:429][822]LogMetaData: Removing '/Game/Herc/HercAi/HercController.HercController_C' ref from Metadata '/Game/Kobold/KoboldAi/HercController.PackageMetaData'
+[2015.08.26-06.45.45:467][822]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.45.45:511][822]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Herc/HercAi/HercController" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercAi/HercController.uasset" SILENT=true
+[2015.08.26-06.45.45:608][822]LogSavePackage: Save=91.802116ms
+[2015.08.26-06.45.45:608][822]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/HercController5889CC684A38693D6EB659AA7AD86BD1.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercAi/HercController.uasset'
+[2015.08.26-06.45.45:630][822]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.45.49:325][837]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.45.50:302][872]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.45.57:905][954]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.45.59:212][  8]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.46.00:501][ 63]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.46.00:540][ 63]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.46.00:809][ 63]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.26-06.46.01:034][ 63]LogMetaData: Removing '/Game/Herc/HercAi/Wander4.SKEL_Wander4_C' ref from Metadata '/Game/Kobold/KoboldAi/Wander4.PackageMetaData'
+[2015.08.26-06.46.01:034][ 63]LogMetaData: Removing '/Game/Herc/HercAi/Wander4.Wander4_C' ref from Metadata '/Game/Kobold/KoboldAi/Wander4.PackageMetaData'
+[2015.08.26-06.46.01:075][ 63]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.46.01:119][ 63]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Herc/HercAi/Wander4" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercAi/Wander4.uasset" SILENT=true
+[2015.08.26-06.46.01:265][ 63]LogSavePackage: Save=141.299484ms
+[2015.08.26-06.46.01:265][ 63]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/Wander4B1E3128D44A74D02CC0C9C95DEC92762.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercAi/Wander4.uasset'
+[2015.08.26-06.46.01:289][ 63]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.46.06:254][ 85]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.46.12:511][151]LogRenderer: Reallocating scene render targets to support 968x712 (Frame:316806).
+[2015.08.26-06.46.26:461][343]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.46.33:102][622]LogAnimation:Warning: AnimBP KoboldAnimBP_C is incompatible with skeleton herc_28maximo_29_Skeleton, removing AnimBP from actor.
+[2015.08.26-06.46.33:108][622]LogAnimation:Warning: AnimBP KoboldAnimBP_C is incompatible with skeleton herc_28maximo_29_Skeleton, removing AnimBP from actor.
+[2015.08.26-06.46.33:142][622]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.26-06.46.33:142][622]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.08.26-06.46.59:776][ 39]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.08.26-06.47.07:303][156]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.08.26-06.47.25:243][433]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.08.26-06.47.33:510][562]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2015.08.26-06.47.36:824][613]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2015.08.26-06.47.47:758][783]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2015.08.26-06.47.55:191][897]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2015.08.26-06.47.59:385][960]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2015.08.26-06.48.17:293][237]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2015.08.26-06.48.23:356][330]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2015.08.26-06.48.30:864][510]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2015.08.26-06.48.41:068][669]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2015.08.26-06.48.58:499][926]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2015.08.26-06.49.02:471][987]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2015.08.26-06.49.18:385][223]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2015.08.26-06.49.24:164][311]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2015.08.26-06.49.27:752][366]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.49.31:528][542]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
+[2015.08.26-06.49.40:812][691]BlueprintLog: New page: Compile HercBp
+[2015.08.26-06.49.41:110][691]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_20) Not registered. Aborting.
+[2015.08.26-06.49.41:110][691]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing889E653F44941BF28B5411B2E579321E) Not registered. Aborting.
+[2015.08.26-06.49.41:216][691]BlueprintEditorCompileResults: Info [3425.73] Compile of HercBp successful! [in 404 ms]
+[2015.08.26-06.49.50:581][838]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.26-06.49.50:581][838]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing889E653F44941BF28B5411B2E579321E) Not registered. Aborting.
+[2015.08.26-06.49.59:282][973]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_21) Not registered. Aborting.
+[2015.08.26-06.49.59:282][973]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_0) Not registered. Aborting.
+[2015.08.26-06.50.16:076][329]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_22) Not registered. Aborting.
+[2015.08.26-06.50.16:076][329]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_1) Not registered. Aborting.
+[2015.08.26-06.50.28:995][761]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_23) Not registered. Aborting.
+[2015.08.26-06.50.28:995][761]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_2) Not registered. Aborting.
+[2015.08.26-06.50.35:873][983]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_24) Not registered. Aborting.
+[2015.08.26-06.50.35:873][983]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_3) Not registered. Aborting.
+[2015.08.26-06.50.43:687][180]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_25) Not registered. Aborting.
+[2015.08.26-06.50.43:687][180]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_4) Not registered. Aborting.
+[2015.08.26-06.50.47:557][240]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_26) Not registered. Aborting.
+[2015.08.26-06.50.47:557][240]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_5) Not registered. Aborting.
+[2015.08.26-06.51.01:943][462]BlueprintLog: New page: Compile HercBp
+[2015.08.26-06.51.02:172][462]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_27) Not registered. Aborting.
+[2015.08.26-06.51.02:172][462]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_6) Not registered. Aborting.
+[2015.08.26-06.51.02:268][462]BlueprintEditorCompileResults: Info [3506.78] Compile of HercBp successful! [in 325 ms]
+[2015.08.26-06.51.29:936][501]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.26-06.51.29:936][501]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing889E653F44941BF28B5411B2E579321E) Not registered. Aborting.
+[2015.08.26-06.51.43:878][121]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_28) Not registered. Aborting.
+[2015.08.26-06.51.43:878][121]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_7) Not registered. Aborting.
+[2015.08.26-06.51.47:824][256]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.51.56:083][559]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_29) Not registered. Aborting.
+[2015.08.26-06.51.56:084][559]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_8) Not registered. Aborting.
+[2015.08.26-06.52.03:685][887]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_30) Not registered. Aborting.
+[2015.08.26-06.52.03:685][887]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_9) Not registered. Aborting.
+[2015.08.26-06.52.06:943][  5]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.52.09:933][122]BlueprintLog: New page: Compile HercBp
+[2015.08.26-06.52.10:029][122]LogBlueprint:Error: [compiler HercBp] Error Found more than one function with the same name BndEvt__PawnSensing_K2Node_ComponentBoundEvent_177_SeePawnDelegate__DelegateSignature; second occurance at  OnSeePawn (PawnSensing) 
+[2015.08.26-06.52.10:440][122]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_31) Not registered. Aborting.
+[2015.08.26-06.52.10:440][122]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_10) Not registered. Aborting.
+[2015.08.26-06.52.10:679][122]LogBlueprint:Warning: [compiler HercBp] Warning [3575.19] Compile of HercBp failed. 1 Fatal Issue(s) 0 Warning(s) [in 745 ms]
+[2015.08.26-06.52.10:679][122]BlueprintEditorCompileResults:Error: Error Found more than one function with the same name BndEvt__PawnSensing_K2Node_ComponentBoundEvent_177_SeePawnDelegate__DelegateSignature; second occurance at  OnSeePawn (PawnSensing) 
+[2015.08.26-06.52.10:679][122]BlueprintEditorCompileResults:Warning: Warning [3575.19] Compile of HercBp failed. 1 Fatal Issue(s) 0 Warning(s) [in 745 ms]
+[2015.08.26-06.52.35:265][871]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.26-06.52.35:265][871]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing889E653F44941BF28B5411B2E579321E) Not registered. Aborting.
+[2015.08.26-06.52.37:198][924]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.52.43:394][154]BlueprintLog: New page: Compile HercBp
+[2015.08.26-06.52.43:739][154]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_32) Not registered. Aborting.
+[2015.08.26-06.52.43:739][154]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_11) Not registered. Aborting.
+[2015.08.26-06.52.44:017][154]BlueprintEditorCompileResults: Info [3608.53] Compile of HercBp successful! [in 623 ms]
+[2015.08.26-06.52.58:452][415]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.53.08:971][837]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.53.14:205][ 58]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.53.53:923][774]LogEditorTransaction: Undo Add Node
+[2015.08.26-06.53.54:047][774]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.26-06.53.54:047][774]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing889E653F44941BF28B5411B2E579321E) Not registered. Aborting.
+[2015.08.26-06.53.54:122][774]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.54.08:493][136]LogEditorTransaction: Undo Rename Component Variable
+[2015.08.26-06.54.08:550][136]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.54.11:335][212]LogEditorTransaction: Undo Add Node
+[2015.08.26-06.54.12:065][224]LogEditorTransaction: Undo Create Pin Link
+[2015.08.26-06.54.12:126][224]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_33) Not registered. Aborting.
+[2015.08.26-06.54.12:126][224]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_12) Not registered. Aborting.
+[2015.08.26-06.54.13:495][247]LogEditorTransaction: Undo Delete current selection
+[2015.08.26-06.54.13:571][247]LogBlueprint:Warning: Loaded invalid component bound event in node /Engine/Transient.EdGraph_770:K2Node_ComponentBoundEvent_186.
+[2015.08.26-06.54.13:572][247]LogBlueprint:Warning: Loaded invalid component bound event in node /Engine/Transient.EdGraph_770:K2Node_ComponentBoundEvent_158.
+[2015.08.26-06.54.13:574][247]LogUObjectHash:Warning: Ambiguous search, could be CapsuleComponent /Engine/Transient.TRASH_Default__SKEL_HercBp_C_6:CollisionCylinder or CapsuleComponent /Engine/Transient.TRASH_Default__SKEL_HercBp_C_6:CollisionCylinder
+[2015.08.26-06.54.13:574][247]LogUObjectHash:Warning: Ambiguous search, could be CapsuleComponent /Engine/Transient.TRASH_Default__SKEL_HercBp_C_6:CollisionCylinder or CapsuleComponent /Engine/Transient.TRASH_Default__SKEL_HercBp_C_6:CollisionCylinder
+[2015.08.26-06.54.13:574][247]LogUObjectHash:Warning: Ambiguous search, could be CapsuleComponent /Engine/Transient.TRASH_Default__SKEL_HercBp_C_6:CollisionCylinder or CapsuleComponent /Engine/Transient.TRASH_Default__SKEL_HercBp_C_6:CollisionCylinder
+[2015.08.26-06.54.13:661][247]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_34) Not registered. Aborting.
+[2015.08.26-06.54.13:661][247]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_13) Not registered. Aborting.
+[2015.08.26-06.54.14:514][262]LogEditorTransaction: Undo Create Pin Link
+[2015.08.26-06.54.14:579][262]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_35) Not registered. Aborting.
+[2015.08.26-06.54.14:579][262]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_14) Not registered. Aborting.
+[2015.08.26-06.54.15:488][278]LogEditorTransaction: Undo Move Node
+[2015.08.26-06.54.15:549][278]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_36) Not registered. Aborting.
+[2015.08.26-06.54.15:549][278]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_15) Not registered. Aborting.
+[2015.08.26-06.54.27:478][558]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_37) Not registered. Aborting.
+[2015.08.26-06.54.27:478][558]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_16) Not registered. Aborting.
+[2015.08.26-06.54.30:231][604]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.54.35:955][903]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_38) Not registered. Aborting.
+[2015.08.26-06.54.41:522][984]LogEditorTransaction: Undo Add Component
+[2015.08.26-06.54.41:590][984]LogBlueprint:Warning: Loaded invalid component bound event in node /Engine/Transient.EdGraph_819:K2Node_ComponentBoundEvent_178.
+[2015.08.26-06.54.41:590][984]LogBlueprint:Warning: Loaded invalid component bound event in node /Engine/Transient.EdGraph_819:K2Node_ComponentBoundEvent_186.
+[2015.08.26-06.54.41:591][984]LogBlueprint:Warning: Loaded invalid component bound event in node /Engine/Transient.EdGraph_819:K2Node_ComponentBoundEvent_158.
+[2015.08.26-06.54.41:651][984]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_39) Not registered. Aborting.
+[2015.08.26-06.54.41:691][984]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.54.43:868][ 47]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.54.51:479][459]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_40) Not registered. Aborting.
+[2015.08.26-06.55.06:515][703]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_41) Not registered. Aborting.
+[2015.08.26-06.55.33:757][ 84]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.55.46:185][278]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_42) Not registered. Aborting.
+[2015.08.26-06.55.46:185][278]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_43) Not registered. Aborting.
+[2015.08.26-06.57.46:888][123]BlueprintLog: New page: Compile HercBp
+[2015.08.26-06.57.46:990][123]LogBlueprint:Error: [compiler HercBp] Error Found more than one function with the same name BndEvt__PawnSensing_K2Node_ComponentBoundEvent_177_SeePawnDelegate__DelegateSignature; second occurance at  OnSeePawn (PawnSensing) 
+[2015.08.26-06.57.47:301][123]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009D97EE7240
+[2015.08.26-06.57.47:303][123]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009D8D5C22A0
+[2015.08.26-06.57.47:395][123]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009D8D5C2DE0
+[2015.08.26-06.57.47:395][123]LogBlueprint:Warning: [compiler HercBp] Warning [3911.91] Compile of HercBp failed. 1 Fatal Issue(s) 0 Warning(s) [in 505 ms]
+[2015.08.26-06.57.47:395][123]BlueprintEditorCompileResults:Error: Error Found more than one function with the same name BndEvt__PawnSensing_K2Node_ComponentBoundEvent_177_SeePawnDelegate__DelegateSignature; second occurance at  OnSeePawn (PawnSensing) 
+[2015.08.26-06.57.47:395][123]BlueprintEditorCompileResults:Warning: Warning [3911.91] Compile of HercBp failed. 1 Fatal Issue(s) 0 Warning(s) [in 505 ms]
+[2015.08.26-06.57.50:428][171]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.57.50:567][171]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Herc/HercAi/HercBp" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercAi/HercBp.uasset" SILENT=true
+[2015.08.26-06.57.50:716][171]LogSavePackage: Save=118.050415ms
+[2015.08.26-06.57.50:716][171]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/HercBpB5070D0E42E96E4C94DDBB8DF31243E9.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercAi/HercBp.uasset'
+[2015.08.26-06.57.55:939][270]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.57.59:053][414]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.26-06.58.06:522][622]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.58.50:724][ 69]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.59.03:351][569]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.59.08:864][804]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.59.11:590][881]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.59.21:906][252]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.59.24:567][352]BlueprintLog: New page: Compile HercBp
+[2015.08.26-06.59.25:193][352]BlueprintEditorCompileResults: Info [4009.71] Compile of HercBp successful! [in 625 ms]
+[2015.08.26-06.59.37:443][838]BlueprintLog: New page: Compile HercBp
+[2015.08.26-06.59.37:975][838]BlueprintEditorCompileResults: Info [4022.49] Compile of HercBp successful! [in 532 ms]
+[2015.08.26-06.59.38:677][858]LogD3D11RHI: InitD3DDevice
+[2015.08.26-06.59.38:799][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Herc/HercAi/HercBp" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercAi/HercBp.uasset" SILENT=true
+[2015.08.26-06.59.39:066][858]LogSavePackage: Save=224.228409ms
+[2015.08.26-06.59.39:066][858]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/HercBp4C0A8C2F4A02170B6379C58D975CD7BA.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercAi/HercBp.uasset'
+[2015.08.26-07.00.39:369][964]LogD3D11RHI: InitD3DDevice
+[2015.08.26-07.01.05:650][498]LogD3D11RHI: InitD3DDevice
+[2015.08.26-07.01.05:685][498]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.08.26-07.01.08:789][604]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.26-07.01.20:633][992]BlueprintLog: New page: Compile HercBp
+[2015.08.26-07.01.21:340][992]BlueprintEditorCompileResults: Info [4125.85] Compile of HercBp successful! [in 706 ms]
+[2015.08.26-07.01.50:154][768]LogD3D11RHI: InitD3DDevice
+[2015.08.26-07.02.59:662][310]LogD3D11RHI: InitD3DDevice
+[2015.08.26-07.02.59:697][310]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.08.26-07.03.06:572][573]BlueprintLog: New page: Compile HercBp
+[2015.08.26-07.03.07:224][573]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009DE8C08900
+[2015.08.26-07.03.07:224][573]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009DE8C08180
+[2015.08.26-07.03.07:225][573]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009DC2866700
+[2015.08.26-07.03.07:315][573]BlueprintEditorCompileResults: Info [4231.83] Compile of HercBp successful! [in 742 ms]
+[2015.08.26-07.03.09:175][616]LogD3D11RHI: InitD3DDevice
+[2015.08.26-07.03.09:317][616]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Herc/HercAi/HercBp" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercAi/HercBp.uasset" SILENT=true
+[2015.08.26-07.03.09:568][616]LogSavePackage: Save=208.022919ms
+[2015.08.26-07.03.09:568][616]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/HercBpD743442D4FB96AA4CB723CBAD29844DB.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercAi/HercBp.uasset'
+[2015.08.26-07.03.33:403][ 72]LogD3D11RHI: InitD3DDevice
+[2015.08.26-07.03.34:663][ 72]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_20) - call TermArticulated first.
+[2015.08.26-07.03.34:944][ 72]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.08.26-07.03.58:830][152]LogD3D11RHI: InitD3DDevice
+[2015.08.26-07.03.58:903][152]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kobold/KoboldAi/KoboldBp" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Kobold/KoboldAi/KoboldBp.uasset" SILENT=true
+[2015.08.26-07.03.59:088][152]LogSavePackage: Save=119.941170ms
+[2015.08.26-07.03.59:088][152]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/KoboldBpE022B7214D81A1B1B09AB8B0C7C96870.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/Kobold/KoboldAi/KoboldBp.uasset'
+[2015.08.26-07.04.21:197][431]LogD3D11RHI: InitD3DDevice
+[2015.08.26-07.04.22:636][431]LogContentBrowser: Native class hierarchy updated for 'PhAT' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2015.08.26-07.04.23:796][432]LogRenderer: Reallocating scene render targets to support 1216x712 (Frame:342084).
+[2015.08.26-07.04.46:220][950]Cmd: TRANSACTION UNDO
+[2015.08.26-07.04.46:263][950]LogEditorTransaction: Undo Delete Primitive
+[2015.08.26-07.04.46:304][950]LogD3D11RHI: InitD3DDevice
+[2015.08.26-07.04.55:898][207]Cmd: TRANSACTION UNDO
+[2015.08.26-07.04.55:898][207]LogEditorTransaction: Undo Delete Primitive
+[2015.08.26-07.04.55:946][207]LogD3D11RHI: InitD3DDevice
+[2015.08.26-07.05.11:029][598]LogD3D11RHI: InitD3DDevice
+[2015.08.26-07.05.11:083][598]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Herc/herc_28maximo_29_PhysicsAsset" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/herc_28maximo_29_PhysicsAsset.uasset" SILENT=true
+[2015.08.26-07.05.11:148][598]LogSavePackage: Save=39.936062ms
+[2015.08.26-07.05.11:148][598]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/herc_28maximo_29_PhysicsAssetC92FC443409344E78C4441A9EE0EEBE4.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/herc_28maximo_29_PhysicsAsset.uasset'
+[2015.08.26-07.05.20:982][858]LogD3D11RHI: InitD3DDevice
+[2015.08.26-07.05.23:691][961]LogD3D11RHI: InitD3DDevice
+[2015.08.26-07.05.26:437][ 55]LogD3D11RHI: InitD3DDevice
+[2015.08.26-07.05.28:113][114]LogD3D11RHI: InitD3DDevice
+[2015.08.26-07.05.56:096][109]LogD3D11RHI: InitD3DDevice
+[2015.08.26-07.06.06:707][474]LogD3D11RHI: InitD3DDevice
+[2015.08.26-07.06.39:524][608]BlueprintLog: New page: Compile HercBp
+[2015.08.26-07.06.39:846][608]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.26-07.06.39:847][608]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_44) Not registered. Aborting.
+[2015.08.26-07.06.40:092][608]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009DB87093A0
+[2015.08.26-07.06.40:094][608]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009DB87096C0
+[2015.08.26-07.06.40:095][608]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009D9C835F80
+[2015.08.26-07.06.40:218][608]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009D9B1D5300
+[2015.08.26-07.06.40:218][608]BlueprintEditorCompileResults: Info [4444.73] Compile of HercBp successful! [in 694 ms]
+[2015.08.26-07.06.48:693][882]LogD3D11RHI: InitD3DDevice
+[2015.08.26-07.06.48:738][882]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kobold/KoboldAi/HercBp" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Kobold/KoboldAi/HercBp.uasset" SILENT=true
+[2015.08.26-07.06.48:753][882]LogSavePackage: Save=10.563580ms
+[2015.08.26-07.06.48:753][882]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/HercBp39F5C16C48574E5ECE427B8D27464A9D.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/Kobold/KoboldAi/HercBp.uasset'
+[2015.08.26-07.06.48:882][882]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Herc/HercAi/HercBp" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercAi/HercBp.uasset" SILENT=true
+[2015.08.26-07.06.49:157][882]LogSavePackage: Save=245.942825ms
+[2015.08.26-07.06.49:157][882]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/HercBp380D4C9240FA13ED0B189696C7276EE8.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercAi/HercBp.uasset'
+[2015.08.26-07.06.49:193][882]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kobold/KoboldAi/ChasePlayer4" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Kobold/KoboldAi/ChasePlayer4.uasset" SILENT=true
+[2015.08.26-07.06.49:212][882]LogSavePackage: Save=9.852261ms
+[2015.08.26-07.06.49:212][882]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/ChasePlayer4DA5E2A114DEC394BBCAAF0B09E91835F.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/Kobold/KoboldAi/ChasePlayer4.uasset'
+[2015.08.26-07.06.49:238][882]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kobold/KoboldAi/HercBehavior2" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Kobold/KoboldAi/HercBehavior2.uasset" SILENT=true
+[2015.08.26-07.06.49:277][882]LogSavePackage: Save=20.444847ms
+[2015.08.26-07.06.49:277][882]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/HercBehavior29C1367A941511A98A21D5D816AB30B62.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/Kobold/KoboldAi/HercBehavior2.uasset'
+[2015.08.26-07.06.49:307][882]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kobold/KoboldAi/HercBlackboard" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Kobold/KoboldAi/HercBlackboard.uasset" SILENT=true
+[2015.08.26-07.06.49:322][882]LogSavePackage: Save=10.199888ms
+[2015.08.26-07.06.49:322][882]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/HercBlackboard9F21E08E41568ACE8D5B57AD81948658.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/Kobold/KoboldAi/HercBlackboard.uasset'
+[2015.08.26-07.06.49:368][882]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kobold/KoboldAi/HercController" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Kobold/KoboldAi/HercController.uasset" SILENT=true
+[2015.08.26-07.06.49:383][882]LogSavePackage: Save=9.626905ms
+[2015.08.26-07.06.49:383][882]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/HercController8B9B45284820A9640197D7A13286E825.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/Kobold/KoboldAi/HercController.uasset'
+[2015.08.26-07.06.49:408][882]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kobold/KoboldAi/Wander4" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Kobold/KoboldAi/Wander4.uasset" SILENT=true
+[2015.08.26-07.06.49:424][882]LogSavePackage: Save=10.357413ms
+[2015.08.26-07.06.49:424][882]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/Wander4C7D7436C40CFC47A0FE3C3B64213A080.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/Kobold/KoboldAi/Wander4.uasset'
+[2015.08.26-07.07.03:834][257]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.26-07.07.24:763][937]LogD3D11RHI: InitD3DDevice
+[2015.08.26-07.07.51:760][594]LogD3D11RHI: InitD3DDevice
+[2015.08.26-07.08.00:739][829]LogD3D11RHI: InitD3DDevice
+[2015.08.26-07.08.02:118][829]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Scene/NewCave' took 0.257
+[2015.08.26-07.08.02:141][829]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Herc/HercAi/HercBp] ([1] browsable assets)...
+[2015.08.26-07.08.02:248][829]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Herc/HercAi/HercBp.HercBp]
+[2015.08.26-07.08.02:248][829]OBJ SavePackage: Finished generating thumbnails for package [/Game/Herc/HercAi/HercBp]
+[2015.08.26-07.08.02:248][829]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Herc/HercAi/HercBp" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Saved/Autosaves/Game/Herc/HercAi/HercBp_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2015.08.26-07.08.02:531][829]LogSavePackage: Save=240.492355ms
+[2015.08.26-07.08.02:531][829]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/HercBp_Auto42E8257044D27B2294570DDB7868FF82B.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/Autosaves/Game/Herc/HercAi/HercBp_Auto4.uasset'
+[2015.08.26-07.08.02:533][829]LogFileHelpers: Auto-saving content packages took 0.412
+[2015.08.26-08.39.24:812][148]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.40.04:203][998]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.40.13:448][201]BlueprintLog: New page: Compile HercBp
+[2015.08.26-08.40.13:784][201]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.26-08.40.14:041][201]BlueprintEditorCompileResults: Info [0058.55] Compile of HercBp successful! [in 592 ms]
+[2015.08.26-08.41.04:423][187]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.41.04:645][187]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Herc/HercAi/HercBp" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercAi/HercBp.uasset" SILENT=true
+[2015.08.26-08.41.04:937][187]LogSavePackage: Save=232.002930ms
+[2015.08.26-08.41.04:937][187]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/HercBpE660C8F84FCF7048E7CFE5BB5263C935.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercAi/HercBp.uasset'
+[2015.08.26-08.41.23:190][350]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.41.28:665][408]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.41.32:967][451]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.41.36:443][493]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.41.40:441][523]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.42.03:892][461]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.42.16:953][965]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.42.40:216][941]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.42.41:483][  4]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.43.07:705][ 71]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.43.11:493][253]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.43.16:570][494]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.43.23:753][843]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.43.24:539][876]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.43.32:332][198]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.43.35:335][340]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.43.39:530][535]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.43.49:428][ 12]BlueprintLog: New page: Compile ChasePlayer4
+[2015.08.26-08.43.49:689][ 12]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.26-08.43.49:841][ 12]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009DA1CF6020
+[2015.08.26-08.43.49:843][ 12]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009D8DEF7A60
+[2015.08.26-08.43.49:845][ 12]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009D9C836E80
+[2015.08.26-08.43.49:847][ 12]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009D9C837420
+[2015.08.26-08.43.49:937][ 12]BlueprintEditorCompileResults: Info [0274.45] Compile of ChasePlayer4 successful! [in 508 ms]
+[2015.08.26-08.43.51:772][ 87]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.43.51:814][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Herc/HercAi/ChasePlayer4" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercAi/ChasePlayer4.uasset" SILENT=true
+[2015.08.26-08.43.51:988][ 87]LogSavePackage: Save=122.750298ms
+[2015.08.26-08.43.51:988][ 87]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/ChasePlayer4F2BDAA6F4E44C6E4A03F0A9A639D2296.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercAi/ChasePlayer4.uasset'
+[2015.08.26-08.44.00:137][450]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.44.16:867][376]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.44.17:817][426]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.44.26:946][946]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.45.06:843][815]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.45.13:072][ 96]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.45.13:896][126]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.45.23:022][417]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.45.27:122][595]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.45.32:411][850]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.45.33:287][884]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.45.43:430][275]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.45.47:140][439]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.45.49:930][563]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.45.56:459][874]BlueprintLog: New page: Compile Wander4
+[2015.08.26-08.45.56:980][874]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009DA0051EE0
+[2015.08.26-08.45.56:980][874]BlueprintEditorCompileResults: Info [0401.49] Compile of Wander4 successful! [in 520 ms]
+[2015.08.26-08.46.00:276][  3]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.46.00:323][  3]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Herc/HercAi/Wander4" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercAi/Wander4.uasset" SILENT=true
+[2015.08.26-08.46.00:484][  3]LogSavePackage: Save=91.936432ms
+[2015.08.26-08.46.00:484][  3]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/Wander4064CD20240E38F1440142BA413DDED3B.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercAi/Wander4.uasset'
+[2015.08.26-08.46.53:122][316]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.46.56:668][460]BlueprintLog: New page: Compile HercController
+[2015.08.26-08.46.57:067][460]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009DC33FF1A0
+[2015.08.26-08.46.57:164][460]BlueprintEditorCompileResults: Info [0461.68] Compile of HercController successful! [in 495 ms]
+[2015.08.26-08.46.58:572][509]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.46.58:613][509]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Herc/HercAi/HercController" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercAi/HercController.uasset" SILENT=true
+[2015.08.26-08.46.58:695][509]LogSavePackage: Save=41.368965ms
+[2015.08.26-08.46.58:695][509]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/HercController2F45BA9F400E1984A894EB88D64F4054.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercAi/HercController.uasset'
+[2015.08.26-08.47.19:049][314]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.47.19:940][364]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.47.29:702][889]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.47.35:713][211]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.47.37:687][320]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.47.40:950][501]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.47.43:009][624]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.47.50:444][ 45]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.47.50:970][ 71]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.47.54:021][237]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.47.57:980][422]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.47.58:762][464]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.48.00:512][551]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.48.05:295][811]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.48.06:863][893]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.48.09:033][996]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.48.24:122][705]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.48.25:498][777]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.48.32:118][133]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.48.52:968][175]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.48.53:014][175]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Herc/HercAi/HercBehavior" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercAi/HercBehavior.uasset" SILENT=true
+[2015.08.26-08.48.53:075][175]LogSavePackage: Save=21.505577ms
+[2015.08.26-08.48.53:075][175]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/HercBehavior07CAC2214897EE696D42C7B665DC05B1.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercAi/HercBehavior.uasset'
+[2015.08.26-08.49.06:792][686]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.49.37:089][984]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2015.08.26-08.50.17:646][584]LogD3D11RHI: InitD3DDevice
+[2015.08.26-08.50.17:686][584]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Herc/HercAi/HercBp" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercAi/HercBp.uasset" SILENT=true
+[2015.08.26-08.50.17:933][584]LogSavePackage: Save=202.282822ms
+[2015.08.26-08.50.17:933][584]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/HercBp77DD647C426BDD61BA5BD6ABC62BC3F9.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercAi/HercBp.uasset'
+[2015.08.26-08.51.16:577][938]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.26-08.51.40:453][337]LogD3D11RHI: InitD3DDevice
+[2015.08.26-09.01.06:696][158]LogD3D11RHI: InitD3DDevice
+[2015.08.26-09.01.07:459][158]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_45) Not registered. Aborting.
+[2015.08.26-09.01.07:634][158]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009D8F8FFF60
+[2015.08.26-09.01.07:635][158]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009DAE27E020
+[2015.08.26-09.01.07:682][158]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Scene/NewCave' took 0.224
+[2015.08.26-09.01.07:697][158]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Herc/HercAi/HercBp] ([1] browsable assets)...
+[2015.08.26-09.01.07:835][158]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Herc/HercAi/HercBp.HercBp]
+[2015.08.26-09.01.07:835][158]OBJ SavePackage: Finished generating thumbnails for package [/Game/Herc/HercAi/HercBp]
+[2015.08.26-09.01.07:835][158]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Herc/HercAi/HercBp" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Saved/Autosaves/Game/Herc/HercAi/HercBp_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2015.08.26-09.01.08:119][158]LogSavePackage: Save=222.944992ms
+[2015.08.26-09.01.08:119][158]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/HercBp_Auto5664F976747440305AEB21CBD1A322861.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/Autosaves/Game/Herc/HercAi/HercBp_Auto5.uasset'
+[2015.08.26-09.01.08:124][158]LogFileHelpers: Auto-saving content packages took 0.441
+[2015.08.26-09.40.07:713][176]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.08.26-10.01.07:637][951]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.08.26-10.17.57:151][957]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.08.26-10.36.20:432][274]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.08.26-10.40.25:074][ 36]BlueprintLog: New page: Compile HercBp
+[2015.08.26-10.40.25:857][ 36]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.26-10.40.26:161][ 36]BlueprintEditorCompileResults: Info [7270.70] Compile of HercBp successful! [in 1,087 ms]
+[2015.08.26-10.40.28:475][ 74]LogD3D11RHI: InitD3DDevice
+[2015.08.26-10.40.28:601][ 74]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Herc/HercAi/HercBp" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercAi/HercBp.uasset" SILENT=true
+[2015.08.26-10.40.29:011][ 74]LogSavePackage: Save=272.119720ms
+[2015.08.26-10.40.29:011][ 74]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/HercBpAC1D9C2F49C96E251FB9A4BBB8BE2AC6.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercAi/HercBp.uasset'
+[2015.08.26-10.40.43:450][420]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2015.08.26-10.40.48:429][446]LogD3D11RHI: InitD3DDevice
+[2015.08.26-10.40.48:536][446]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene/NewCave" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Scene/NewCave.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.08.26-10.40.48:655][446]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.26-10.40.53:379][446]LogSavePackage: Save=4409.570801ms
+[2015.08.26-10.40.53:379][446]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/NewCave82DE89AA4A6A33BCD5DC2DBA829ABFD8.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/Scene/NewCave.umap'
+[2015.08.26-10.40.55:311][455]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2015.08.26-10.41.00:969][483]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009D8AD24860
+[2015.08.26-10.41.02:064][483]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.08.26-10.41.02:068][483]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.08.26-10.41.03:405][484]Cmd: QUIT_EDITOR
+[2015.08.26-10.41.06:094][484]LogExit: Preparing to exit.
+[2015.08.26-10.41.17:669][484]LogExit: Editor shut down
+[2015.08.26-10.41.17:835][484]LogExit: Transaction tracking system shut down
+[2015.08.26-10.41.18:121][484]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009D99E48A40
+[2015.08.26-10.41.18:163][484]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009DAC108F40
+[2015.08.26-10.41.18:210][484]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009DB62A4360
+[2015.08.26-10.41.18:224][484]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009DB7A0D4E0
+[2015.08.26-10.41.18:224][484]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009DA175E5C0
+[2015.08.26-10.41.18:224][484]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009DB8708AE0
+[2015.08.26-10.41.18:224][484]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009DA186BEC0
+[2015.08.26-10.41.18:224][484]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009DA186B420
+[2015.08.26-10.41.18:224][484]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009DE8D38400
+[2015.08.26-10.41.18:224][484]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009DBFF40FE0
+[2015.08.26-10.41.27:726][484]LogExit: Object subsystem successfully closed.
+[2015.08.26-10.41.30:884][484]LogD3D11RHI: Shutdown
+[2015.08.26-10.41.30:884][484]LogD3D11RHI: CleanupD3DDevice
+[2015.08.26-10.41.31:720][484]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.08.26-10.41.33:431][484]LogModuleManager: Shutting down and abandoning module PhAT (189)
+[2015.08.26-10.41.33:442][484]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
+[2015.08.26-10.41.33:442][484]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
+[2015.08.26-10.41.33:442][484]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
+[2015.08.26-10.41.33:442][484]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
+[2015.08.26-10.41.33:457][484]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
+[2015.08.26-10.41.33:507][484]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
+[2015.08.26-10.41.33:508][484]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
+[2015.08.26-10.41.33:530][484]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
+[2015.08.26-10.41.33:543][484]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
+[2015.08.26-10.41.33:543][484]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
+[2015.08.26-10.41.33:606][484]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
+[2015.08.26-10.41.33:606][484]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
+[2015.08.26-10.41.33:609][484]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
+[2015.08.26-10.41.33:609][484]LogModuleManager: Shutting down and abandoning module BspMode (175)
+[2015.08.26-10.41.33:610][484]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
+[2015.08.26-10.41.33:625][484]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
+[2015.08.26-10.41.33:652][484]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
+[2015.08.26-10.41.33:653][484]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
+[2015.08.26-10.41.33:653][484]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
+[2015.08.26-10.41.33:666][484]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
+[2015.08.26-10.41.33:779][484]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
+[2015.08.26-10.41.33:802][484]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
+[2015.08.26-10.41.33:854][484]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
+[2015.08.26-10.41.33:866][484]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
+[2015.08.26-10.41.33:905][484]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
+[2015.08.26-10.41.33:905][484]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2015.08.26-10.41.34:485][484]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
+[2015.08.26-10.41.34:485][484]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
+[2015.08.26-10.41.34:485][484]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
+[2015.08.26-10.41.34:485][484]LogModuleManager: Shutting down and abandoning module MergeActors (159)
+[2015.08.26-10.41.34:520][484]LogModuleManager: Shutting down and abandoning module SizeMap (158)
+[2015.08.26-10.41.34:532][484]LogModuleManager: Shutting down and abandoning module TreeMap (157)
+[2015.08.26-10.41.34:539][484]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
+[2015.08.26-10.41.34:551][484]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
+[2015.08.26-10.41.34:609][484]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
+[2015.08.26-10.41.34:609][484]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
+[2015.08.26-10.41.34:623][484]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
+[2015.08.26-10.41.34:643][484]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
+[2015.08.26-10.41.34:660][484]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
+[2015.08.26-10.41.34:660][484]LogModuleManager: Shutting down and abandoning module XmlParser (149)
+[2015.08.26-10.41.34:689][484]LogModuleManager: Shutting down and abandoning module Blutility (148)
+[2015.08.26-10.41.34:702][484]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
+[2015.08.26-10.41.34:776][484]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
+[2015.08.26-10.41.34:776][484]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
+[2015.08.26-10.41.34:815][484]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
+[2015.08.26-10.41.34:815][484]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
+[2015.08.26-10.41.34:849][484]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
+[2015.08.26-10.41.34:868][484]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
+[2015.08.26-10.41.34:880][484]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
+[2015.08.26-10.41.34:888][484]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
+[2015.08.26-10.41.34:888][484]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
+[2015.08.26-10.41.34:948][484]LogModuleManager: Shutting down and abandoning module AutomationController (137)
+[2015.08.26-10.41.34:963][484]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
+[2015.08.26-10.41.34:972][484]LogModuleManager: Shutting down and abandoning module Layers (135)
+[2015.08.26-10.41.35:011][484]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
+[2015.08.26-10.41.35:011][484]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
+[2015.08.26-10.41.35:011][484]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
+[2015.08.26-10.41.35:012][484]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
+[2015.08.26-10.41.37:757][484]LogModuleManager: Shutting down and abandoning module Persona (130)
+[2015.08.26-10.41.37:757][484]LogModuleManager: Shutting down and abandoning module Kismet (129)
+[2015.08.26-10.41.37:769][484]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
+[2015.08.26-10.41.37:769][484]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
+[2015.08.26-10.41.37:773][484]LogModuleManager: Shutting down and abandoning module Toolbox (126)
+[2015.08.26-10.41.37:788][484]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
+[2015.08.26-10.41.37:814][484]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
+[2015.08.26-10.41.37:866][484]LogModuleManager: Shutting down and abandoning module OutputLog (123)
+[2015.08.26-10.41.37:875][484]LogModuleManager: Shutting down and abandoning module GammaUI (122)
+[2015.08.26-10.41.37:887][484]LogModuleManager: Shutting down and abandoning module Documentation (121)
+[2015.08.26-10.41.37:887][484]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
+[2015.08.26-10.41.37:917][484]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
+[2015.08.26-10.41.37:937][484]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
+[2015.08.26-10.41.37:937][484]LogModuleManager: Shutting down and abandoning module Analytics (117)
+[2015.08.26-10.41.37:937][484]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
+[2015.08.26-10.41.37:956][484]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
+[2015.08.26-10.41.37:965][484]LogModuleManager: Shutting down and abandoning module AIModule (114)
+[2015.08.26-10.41.37:971][484]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
+[2015.08.26-10.41.38:253][484]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
+[2015.08.26-10.41.38:270][484]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
+[2015.08.26-10.41.38:284][484]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
+[2015.08.26-10.41.38:284][484]LogModuleManager: Shutting down and abandoning module SteamVR (109)
+[2015.08.26-10.41.38:284][484]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
+[2015.08.26-10.41.38:284][484]LogModuleManager: Shutting down and abandoning module OculusRift (107)
+[2015.08.26-10.41.38:284][484]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
+[2015.08.26-10.41.38:555][484]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
+[2015.08.26-10.41.38:555][484]LogModuleManager: Shutting down and abandoning module CableComponent (104)
+[2015.08.26-10.41.38:555][484]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
+[2015.08.26-10.41.38:634][484]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
+[2015.08.26-10.41.38:651][484]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
+[2015.08.26-10.41.38:651][484]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
+[2015.08.26-10.41.38:692][484]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
+[2015.08.26-10.41.38:699][484]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
+[2015.08.26-10.41.38:721][484]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
+[2015.08.26-10.41.38:730][484]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
+[2015.08.26-10.41.38:730][484]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
+[2015.08.26-10.41.38:749][484]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
+[2015.08.26-10.41.38:796][484]LogModuleManager: Shutting down and abandoning module SourceControl (93)
+[2015.08.26-10.41.38:807][484]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
+[2015.08.26-10.41.38:823][484]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
+[2015.08.26-10.41.38:823][484]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
+[2015.08.26-10.41.38:824][484]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
+[2015.08.26-10.41.38:824][484]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
+[2015.08.26-10.41.38:834][484]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
+[2015.08.26-10.41.38:862][484]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2015.08.26-10.41.38:980][484]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2015.08.26-10.41.38:992][484]LogModuleManager: Shutting down and abandoning module MainFrame (84)
+[2015.08.26-10.41.39:002][484]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2015.08.26-10.41.39:230][484]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.08.26-10.41.39:232][484]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.08.26-10.41.39:281][484]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2015.08.26-10.41.39:398][484]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.08.26-10.41.39:410][484]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.08.26-10.41.39:560][484]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.08.26-10.41.39:573][484]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.08.26-10.41.39:674][484]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.08.26-10.41.39:674][484]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.08.26-10.41.39:727][484]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.08.26-10.41.39:727][484]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.08.26-10.41.39:741][484]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.08.26-10.41.39:765][484]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.08.26-10.41.39:835][484]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.08.26-10.41.39:835][484]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.08.26-10.41.39:883][484]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.08.26-10.41.39:924][484]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.08.26-10.41.39:942][484]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.08.26-10.41.39:981][484]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.08.26-10.41.39:981][484]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.08.26-10.41.40:101][484]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.08.26-10.41.40:101][484]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.08.26-10.41.40:138][484]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.08.26-10.41.40:164][484]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.08.26-10.41.40:164][484]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.08.26-10.41.40:164][484]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.08.26-10.41.40:183][484]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.08.26-10.41.40:183][484]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.08.26-10.41.40:197][484]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.08.26-10.41.40:222][484]LogDerivedDataCache: Shutdown
+[2015.08.26-10.41.40:222][484]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.08.26-10.41.40:238][484]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.08.26-10.41.40:256][484]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.08.26-10.41.40:283][484]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.08.26-10.41.40:297][484]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.08.26-10.41.40:297][484]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.08.26-10.41.40:297][484]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.08.26-10.41.40:314][484]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.08.26-10.41.40:314][484]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.08.26-10.41.40:323][484]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.08.26-10.41.40:336][484]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.08.26-10.41.40:365][484]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.08.26-10.41.40:373][484]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.08.26-10.41.40:373][484]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.08.26-10.41.40:402][484]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.08.26-10.41.40:414][484]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.08.26-10.41.40:427][484]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.08.26-10.41.40:427][484]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.08.26-10.41.40:443][484]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.08.26-10.41.40:477][484]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.08.26-10.41.40:477][484]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.08.26-10.41.40:477][484]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.08.26-10.41.40:477][484]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.08.26-10.41.40:477][484]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.08.26-10.41.40:477][484]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.08.26-10.41.40:477][484]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.08.26-10.41.40:477][484]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.08.26-10.41.40:498][484]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.08.26-10.41.40:521][484]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.08.26-10.41.40:537][484]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.08.26-10.41.40:537][484]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.08.26-10.41.40:537][484]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.08.26-10.41.40:562][484]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.08.26-10.41.40:562][484]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.08.26-10.41.40:562][484]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.08.26-10.41.40:562][484]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.08.26-10.41.40:571][484]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.08.26-10.41.40:578][484]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.08.26-10.41.40:578][484]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.08.26-10.41.40:578][484]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.08.26-10.41.40:578][484]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.08.26-10.41.40:707][484]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.08.26-10.41.40:720][484]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.08.26-10.41.40:720][484]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.08.26-10.41.40:720][484]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.08.26-10.41.40:720][484]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.08.26-10.41.40:720][484]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.08.26-10.41.40:743][484]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.08.26-10.41.40:756][484]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.08.26-10.41.40:776][484]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.08.26-10.41.40:910][484]LogExit: Exiting.
+[2015.08.26-10.41.41:600][484]Log file closed, 08/26/15 03:41:41
