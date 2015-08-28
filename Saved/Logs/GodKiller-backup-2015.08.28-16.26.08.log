@@ -1,0 +1,1177 @@
+﻿[2015.08.28-05.51.24:646][  0]Log file open, 08/27/15 22:51:24
+[2015.08.28-05.51.24:646][  0]LogInit:Display: Running engine for game: GodKiller
+[2015.08.28-05.51.24:646][  0]LogInit:Display: RandInit(203576347) SRandInit(203576347).
+[2015.08.28-05.51.24:646][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.08.28-05.51.24:646][  0]LogStats: Stats thread started
+[2015.08.28-05.51.24:646][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.08.28-05.51.24:646][  0]LogInit: API Version: 2579680
+[2015.08.28-05.51.24:646][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.08.28-05.51.24:646][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.08.28-05.51.24:646][  0]LogInit: Build Configuration: Development
+[2015.08.28-05.51.24:646][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.08.28-05.51.24:646][  0]LogInit: Command line:  
+[2015.08.28-05.51.24:646][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.08.28-05.51.24:646][  0]LogInit: Rocket: 1
+[2015.08.28-05.51.24:656][  0]LogInit: Using libcurl 7.41.0
+[2015.08.28-05.51.24:656][  0]LogInit:  - built for x86_64-pc-win32
+[2015.08.28-05.51.24:656][  0]LogInit:  - supports SSL with WinSSL
+[2015.08.28-05.51.24:656][  0]LogInit:  - other features:
+[2015.08.28-05.51.24:656][  0]LogInit:      CURL_VERSION_SSL
+[2015.08.28-05.51.24:656][  0]LogInit:      CURL_VERSION_IPV6
+[2015.08.28-05.51.24:656][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.08.28-05.51.24:656][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.08.28-05.51.24:656][  0]LogInit:      CURL_VERSION_IDN
+[2015.08.28-05.51.24:656][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.08.28-05.51.24:656][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.08.28-05.51.24:656][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.08.28-05.51.24:656][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.08.28-05.51.24:656][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.08.28-05.51.24:665][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.08.28-05.51.24:677][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.08.28-05.51.24:682][  0]LogInit: Object subsystem initialized
+[2015.08.28-05.51.24:683][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.08.28-05.51.24:683][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Podan the Destroyer/Desktop/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.28-05.51.24:683][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.08.28-05.51.24:683][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Podan the Destroyer/Desktop/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.28-05.51.24:683][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.08.28-05.51.24:683][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Podan the Destroyer/Desktop/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.28-05.51.24:684][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.28-05.51.24:684][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.08.28-05.51.24:688][  0]LogInit: Computer: MASTERKONTROL
+[2015.08.28-05.51.24:688][  0]LogInit: User: PodantheDestroyer
+[2015.08.28-05.51.24:688][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.08.28-05.51.24:688][  0]LogInit: High frequency timer resolution =3.320361 MHz
+[2015.08.28-05.51.24:688][  0]LogMemory: Memory total: Physical=23.9GB (24GB approx)
+[2015.08.28-05.51.24:688][  0]LogMemory: Platform Memory Stats for Windows
+[2015.08.28-05.51.24:688][  0]LogMemory: Process Physical Memory: 49.45 MB used, 49.45 MB peak
+[2015.08.28-05.51.24:688][  0]LogMemory: Process Virtual Memory: 26.11 MB used, 26.11 MB peak
+[2015.08.28-05.51.24:688][  0]LogMemory: Physical Memory: 3579.55 MB used, 24509.41 MB total
+[2015.08.28-05.51.24:688][  0]LogMemory: Virtual Memory: 283.94 MB used, 8388608.00 MB total
+[2015.08.28-05.51.24:720][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.08.28-05.51.24:886][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.08.28-05.51.25:331][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 760 (Feature Level 11_0)
+[2015.08.28-05.51.25:331][  0]LogD3D11RHI: Adapter has 4029MB of dedicated video memory, 0MB of dedicated system memory, and 11998MB of shared system memory, 2 output[s]
+[2015.08.28-05.51.25:331][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.08.28-05.51.25:335][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.28-05.51.25:335][  0]LogD3D11RHI: !Direct3DDevice
+[2015.08.28-05.51.25:335][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.08.28-05.51.25:342][  0]LogD3D11RHI: Async texture creation enabled
+[2015.08.28-05.51.25:355][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.08.28-05.51.26:008][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.08.28-05.51.26:020][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.08.28-05.51.26:031][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.08.28-05.51.26:042][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.08.28-05.51.26:055][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.08.28-05.51.26:064][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.08.28-05.51.26:074][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.08.28-05.51.26:083][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.08.28-05.51.26:094][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.08.28-05.51.26:103][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.08.28-05.51.26:113][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.08.28-05.51.26:123][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.08.28-05.51.26:162][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.08.28-05.51.26:171][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.08.28-05.51.26:181][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.08.28-05.51.26:192][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.08.28-05.51.26:192][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.08.28-05.51.26:349][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.08.28-05.51.26:393][  0]LogDerivedDataCache: Loaded boot cache 0.04s 53MB C:/Users/Podan the Destroyer/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.08.28-05.51.26:393][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Podan the Destroyer/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.08.28-05.51.26:393][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.08.28-05.51.26:393][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.08.28-05.51.26:393][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.08.28-05.51.26:393][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.08.28-05.51.26:522][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.08.28-05.51.26:533][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Podan the Destroyer/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.08.28-05.51.26:679][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.28-05.51.26:686][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.08.28-05.51.26:686][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.08.28-05.51.26:706][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.08.28-05.51.26:706][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.08.28-05.51.27:050][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.08.28-05.51.27:733][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.08.28-05.51.27:978][  0]SourceControl: Info Source control is disabled
+[2015.08.28-05.51.27:983][  0]SourceControl: Info Source control is disabled
+[2015.08.28-05.51.27:991][  0]SourceControl: Info Source control is disabled
+[2015.08.28-05.51.27:997][  0]SourceControl: Info Source control is disabled
+[2015.08.28-05.51.28:146][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.08.28-05.51.28:146][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2015.08.28-05.51.28:201][  0]LogEngine: Initializing Engine...
+[2015.08.28-05.51.28:202][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.08.28-05.51.28:203][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.08.28-05.51.28:313][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.08.28-05.51.28:315][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.28-05.51.28:337][  0]LogInit: FAudioDevice initialized.
+[2015.08.28-05.51.28:359][  0]LogDerivedDataCache: Saved boot cache 0.02s 53MB C:/Users/Podan the Destroyer/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.08.28-05.51.28:362][  0]LogInit: Texture streaming: Disabled
+[2015.08.28-05.51.28:379][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.08.28-05.51.28:379][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.08.28-05.51.28:379][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId ed67592044830cba6a4ed08c5fd1ced7|6a5c42c024fc4f65bc11a93a84e818c7|7eb1c904-4831-475d-9e4a-165e6f6190d8
+[2015.08.28-05.51.28:379][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.08.28-05.51.28:394][  0]LogInit: Transaction tracking system initialized
+[2015.08.28-05.51.28:487][  0]BlueprintLog: New page: Editor Load
+[2015.08.28-05.51.28:514][  0]LogAssetRegistry: FAssetRegistry took 0.0101 seconds to start up
+[2015.08.28-05.51.28:514][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.08.28-05.51.28:984][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.08.28-05.51.28:985][  0]LogConsoleResponse:Display: 
+[2015.08.28-05.51.29:059][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.08.28-05.51.29:181][  0]SourceControl: Info Source control is disabled
+[2015.08.28-05.51.29:181][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Content/Scene/NewCave.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.08.28-05.51.29:181][  0]LightingResults: New page: Lighting Build
+[2015.08.28-05.51.29:190][  0]MapCheck: New page: Map Check
+[2015.08.28-05.51.29:190][  0]LightingResults: New page: Lighting Build
+[2015.08.28-05.51.29:197][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000150C1300
+[2015.08.28-05.51.30:155][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
+[2015.08.28-05.51.30:155][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0006.73] Compile of GnawmersHealth successful, but with 1 Warning(s) [in 7 ms]
+[2015.08.28-05.51.30:155][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0006.73] Compile of GnawmersHealth successful, but with 2 Warning(s) [in 0 ms]
+[2015.08.28-05.51.30:155][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0006.73] Compile of GnawmersHealth successful, but with 3 Warning(s) [in 0 ms]
+[2015.08.28-05.51.30:223][  0]LogLinker:Warning: BossHealth has an inappropriate outermost, it was probably saved with a deprecated outer (file: ../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Content/GUI/SuccessScreen.uasset)
+[2015.08.28-05.51.30:255][  0]LogBlueprint:Warning: [SuccessScreen] CreatePinForVariable: 'BossHealth' variable not found. Base class was probably changed.
+[2015.08.28-05.51.30:256][  0]LogBlueprint:Warning: [SuccessScreen] CreatePinForVariable: 'BossKilled' variable not found. Base class was probably changed.
+[2015.08.28-05.51.30:271][  0]LogBlueprint:Warning: [compiler SuccessScreen] Warning Could not find a variable named "BossKilled" in 'SuccessScreen'.
+Make sure 'SuccessScreen' has been compiled for  Get BossKilled 
+[2015.08.28-05.51.30:271][  0]LogBlueprint:Warning: [compiler SuccessScreen] Warning Could not find a variable named "BossHealth" in 'SuccessScreen'.
+Make sure 'SuccessScreen' has been compiled for  Get BossHealth 
+[2015.08.28-05.51.30:272][  0]LogBlueprint:Error: [compiler SuccessScreen] Error This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2015.08.28-05.51.30:272][  0]LogBlueprint:Error: [compiler SuccessScreen] Error The property associated with  Boss Health  could not be found
+[2015.08.28-05.51.30:280][  0]LogBlueprint:Warning: [compiler SuccessScreen] Warning [0006.85] Compile of SuccessScreen failed. 2 Fatal Issue(s) 2 Warning(s) [in 22 ms]
+[2015.08.28-05.51.30:280][  0]LogBlueprint:Warning: [compiler SuccessScreen] Warning [0006.85] Compile of SuccessScreen failed. 2 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2015.08.28-05.51.30:280][  0]LogBlueprint:Warning: [compiler SuccessScreen] Warning [0006.85] Compile of SuccessScreen failed. 2 Fatal Issue(s) 4 Warning(s) [in 0 ms]
+[2015.08.28-05.51.30:308][  0]LogLinker:Warning: BossHealth has an inappropriate outermost, it was probably saved with a deprecated outer (file: ../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Content/GUI/SuccessScreen.uasset)
+[2015.08.28-05.51.30:463][  0]LogBlueprint:Warning: [compiler Gui] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
+[2015.08.28-05.51.30:469][  0]LogBlueprint:Warning: [compiler Gui] Warning [0007.04] Compile of Gui successful, but with 1 Warning(s) [in 25 ms]
+[2015.08.28-05.51.30:469][  0]LogBlueprint:Warning: [compiler Gui] Warning [0007.04] Compile of Gui successful, but with 2 Warning(s) [in 0 ms]
+[2015.08.28-05.51.30:469][  0]LogBlueprint:Warning: [compiler Gui] Warning [0007.04] Compile of Gui successful, but with 3 Warning(s) [in 0 ms]
+[2015.08.28-05.51.31:861][  0]LogBlueprint:Warning: [compiler Gui] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
+[2015.08.28-05.51.31:868][  0]LogBlueprint:Warning: [compiler Gui] Warning [0008.44] Compile of Gui successful, but with 1 Warning(s) [in 26 ms]
+[2015.08.28-05.51.31:869][  0]LogBlueprint:Warning: [compiler Gui] Warning [0008.44] Compile of Gui successful, but with 2 Warning(s) [in 1 ms]
+[2015.08.28-05.51.31:937][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
+[2015.08.28-05.51.31:938][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0008.51] Compile of GnawmersHealth successful, but with 1 Warning(s) [in 9 ms]
+[2015.08.28-05.51.31:938][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0008.51] Compile of GnawmersHealth successful, but with 2 Warning(s) [in 0 ms]
+[2015.08.28-05.51.34:791][  0]LogAIModule: Creating AISystem for world NewCave
+[2015.08.28-05.51.34:866][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.08.28-05.51.34:868][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.08.28-05.51.34:924][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 55.996ms to complete.
+[2015.08.28-05.51.34:924][  0]LogFileHelpers: Loading map 'NewCave' took 5.742
+[2015.08.28-05.51.35:107][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.28-05.51.35:127][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.08.28-05.51.35:132][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.28-05.51.35:144][  0]LogCollectionManager: Loaded 0 collections in 0.001590 seconds
+[2015.08.28-05.51.35:149][  0]LogContentBrowser: Native class hierarchy populated in 0.0057 seconds. Added 1793 classes and 303 folders.
+[2015.08.28-05.51.35:181][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2015.08.28-05.51.35:190][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2015.08.28-05.51.35:191][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.28-05.51.35:192][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.08.28-05.51.35:213][  0]LogLoad: Full Startup: 11.78 seconds (BP compile: 2.16 seconds)
+[2015.08.28-05.51.35:288][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.08.28-05.51.35:425][  0]LogContentStreaming: Texture pool size now 200 MB
+[2015.08.28-05.51.35:582][  0]LogRenderer: Reallocating scene render targets to support 1344x896 (Frame:2).
+[2015.08.28-05.51.35:652][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2015.08.28-05.51.35:653][  1]Cmd: UpdateLandscapeEditorData
+[2015.08.28-05.51.36:113][ 14]LogAssetRegistry: Asset discovery search completed in 7.6083 seconds
+[2015.08.28-05.52.07:572][491]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FloorTile36)
+[2015.08.28-05.52.08:650][570]Cmd: DELETE
+[2015.08.28-05.52.08:650][570]Cmd: ACTOR DELETE
+[2015.08.28-05.52.08:660][570]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.28-05.52.08:679][570]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.28-05.52.09:067][570]LogEditorActor: Deleted 1 Actors (0.417 secs)
+[2015.08.28-05.52.17:800][197]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WallTorch3)
+[2015.08.28-05.52.28:613][928]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock31)
+[2015.08.28-05.52.34:850][332]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WallTorch3)
+[2015.08.28-05.52.59:860][215]LogD3D11RHI: InitD3DDevice
+[2015.08.28-05.53.03:447][417]LogD3D11RHI: InitD3DDevice
+[2015.08.28-05.53.03:967][467]LogD3D11RHI: InitD3DDevice
+[2015.08.28-05.53.57:248][582]LogD3D11RHI: InitD3DDevice
+[2015.08.28-05.53.57:300][582]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 F:\Game_Asset_Development\Done_Assets\WallMosaic001\WallMosaic.obj)
+[2015.08.28-05.53.57:482][582]LogD3D11RHI: InitD3DDevice
+[2015.08.28-05.53.59:804][582]LogFbx: Loading FBX Scene from F:\Game_Asset_Development\Done_Assets\WallMosaic001\WallMosaic.obj
+[2015.08.28-05.53.59:806][582]LogFbx: FBX Scene Loaded Succesfully
+[2015.08.28-05.53.59:824][582]LogFbx:Warning: Triangulating static mesh pCube55
+[2015.08.28-05.53.59:844][582]LogStaticMesh: Building static mesh WallMosaic...
+[2015.08.28-05.53.59:872][582]LogStaticMesh: Built static mesh [0.027964.2s] /Game/RaysModels/WallMosaic001/WallMosaic.WallMosaic
+[2015.08.28-05.53.59:903][582]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 F:\Game_Asset_Development\Done_Assets\WallMosaic001\WallMosaic001Nor.tga)
+[2015.08.28-05.54.00:795][582]LogD3D11RHI: InitD3DDevice
+[2015.08.28-05.54.00:804][582]LogTexture:Display: Building textures: WallMosaic001Nor (BC5)
+[2015.08.28-05.54.01:315][582]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 F:\Game_Asset_Development\Done_Assets\WallMosaic001\WallMosaic001Spec.tga)
+[2015.08.28-05.54.02:150][582]LogTexture:Display: Building textures: WallMosaic001Spec (AutoDXT)
+[2015.08.28-05.54.04:187][582]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 F:\Game_Asset_Development\Done_Assets\WallMosaic001\WallMosaic001TXT.tga)
+[2015.08.28-05.54.04:990][582]LogTexture:Display: Building textures: WallMosaic001TXT (AutoDXT)
+[2015.08.28-05.54.09:926][710]LogD3D11RHI: InitD3DDevice
+[2015.08.28-05.54.18:317][334]LogD3D11RHI: InitD3DDevice
+[2015.08.28-05.54.32:302][483]LogD3D11RHI: InitD3DDevice
+[2015.08.28-05.54.32:363][483]LogMaterial: Missing cached shader map for material WallMosaic001Mat, compiling. 
+[2015.08.28-05.54.32:561][483]LogD3D11RHI: InitD3DDevice
+[2015.08.28-05.54.32:623][483]LogMaterial: Missing cached shader map for material WallMosaic001Mat, compiling. 
+[2015.08.28-05.54.32:628][483]LogMaterial: 0.000094 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-05.54.33:798][537]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-05.54.33:798][537]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.08.28-05.54.33:798][537]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-05.54.35:322][609]LogD3D11RHI: InitD3DDevice
+[2015.08.28-05.54.36:284][686]LogMaterial: Missing cached shader map for material WallMosaic001Mat, compiling. 
+[2015.08.28-05.54.36:288][686]LogMaterial: 0.000087 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-05.54.36:289][686]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.08.28-05.54.36:333][686]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.08.28-05.54.36:969][710]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-05.54.36:969][710]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.08.28-05.54.36:969][710]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-05.54.37:352][729]LogD3D11RHI: InitD3DDevice
+[2015.08.28-05.54.38:203][797]LogMaterial: Missing cached shader map for material WallMosaic001Mat, compiling. 
+[2015.08.28-05.54.38:207][797]LogMaterial: 0.000104 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-05.54.38:215][797]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.08.28-05.54.38:240][797]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.08.28-05.54.38:269][797]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.08.28-05.54.38:954][839]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-05.54.38:954][839]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.08.28-05.54.38:954][839]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-05.54.39:378][859]LogD3D11RHI: InitD3DDevice
+[2015.08.28-05.54.40:243][930]LogMaterial: Missing cached shader map for material WallMosaic001Mat, compiling. 
+[2015.08.28-05.54.40:248][930]LogMaterial: 0.000061 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-05.54.40:248][930]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.08.28-05.54.40:281][930]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.08.28-05.54.40:337][930]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.08.28-05.54.40:371][930]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.08.28-05.54.40:927][963]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-05.54.40:927][963]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.08.28-05.54.40:927][963]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-05.54.51:004][628]LogD3D11RHI: InitD3DDevice
+[2015.08.28-05.54.51:906][706]LogMaterial: Missing cached shader map for material WallMosaic001Mat, compiling. 
+[2015.08.28-05.54.51:910][706]LogMaterial: 0.000056 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-05.54.52:004][706]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.08.28-05.54.52:571][736]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2015.08.28-05.54.52:571][736]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.28-05.54.52:571][736]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.08.28-05.54.52:712][741]LogD3D11RHI: InitD3DDevice
+[2015.08.28-05.54.53:654][823]LogMaterial: Missing cached shader map for material WallMosaic001Mat, compiling. 
+[2015.08.28-05.54.53:658][823]LogMaterial: 0.000089 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-05.54.53:745][823]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.08.28-05.54.54:268][846]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 36 instructions
+[2015.08.28-05.54.54:268][846]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.28-05.54.54:268][846]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.08.28-05.54.54:411][851]LogD3D11RHI: InitD3DDevice
+[2015.08.28-05.54.55:236][922]LogMaterial: Missing cached shader map for material WallMosaic001Mat, compiling. 
+[2015.08.28-05.54.55:241][922]LogMaterial: 0.000045 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-05.54.55:331][922]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.08.28-05.54.55:950][949]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 51 instructions
+[2015.08.28-05.54.55:950][949]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.28-05.54.55:950][949]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.08.28-05.55.05:837][640]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (newcave004)
+[2015.08.28-05.55.11:772][ 34]LogMaterialEditor: Saving and Compiling material WallMosaic001Mat
+[2015.08.28-05.55.12:050][ 34]LogMaterial: Missing cached shader map for material WallMosaic001Mat, compiling. 
+[2015.08.28-05.55.12:067][ 34]LogMaterial: 0.000083 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-05.55.12:071][ 34]LogD3D11RHI: InitD3DDevice
+[2015.08.28-05.55.12:096][ 34]LogMaterial: Missing cached shader map for material WallMosaic001Mat, compiling. 
+[2015.08.28-05.55.12:112][ 34]LogMaterial: Missing cached shader map for material WallMosaic001Mat, compiling. 
+[2015.08.28-05.55.12:124][ 34]LogMaterial: 0.005861 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-05.55.12:149][ 34]LogD3D11RHI: InitD3DDevice
+[2015.08.28-05.55.13:601][ 34]LogSavePackage: Save=10.642517ms
+[2015.08.28-05.55.13:601][ 34]LogSavePackage: Moving '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Saved/WallMosaic001Mat763B17C74D8C7EE3889A45B30DF550F4.tmp' to '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Content/RaysModels/WallMosaic001/WallMosaic001Mat.uasset'
+[2015.08.28-05.55.13:606][ 34]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 72 instructions
+[2015.08.28-05.55.13:606][ 34]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.28-05.55.13:606][ 34]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.08.28-05.55.16:653][211]LogD3D11RHI: InitD3DDevice
+[2015.08.28-05.55.17:446][293]LogD3D11RHI: InitD3DDevice
+[2015.08.28-05.55.18:389][399]LogD3D11RHI: InitD3DDevice
+[2015.08.28-05.55.18:413][399]LogSavePackage: Save=8.231032ms
+[2015.08.28-05.55.18:413][399]LogSavePackage: Moving '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Saved/WallMosaicE5D3A385482613DAF02D7AB8E74DC181.tmp' to '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Content/RaysModels/WallMosaic001/WallMosaic.uasset'
+[2015.08.28-05.55.19:008][432]LogD3D11RHI: InitD3DDevice
+[2015.08.28-05.55.19:205][451]LogD3D11RHI: InitD3DDevice
+[2015.08.28-05.55.20:476][594]LogD3D11RHI: InitD3DDevice
+[2015.08.28-05.55.21:100][594]LogSavePackage: Save=600.561218ms
+[2015.08.28-05.55.21:100][594]LogSavePackage: Moving '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Saved/WallMosaic001Nor2B8801D64A501B34179502859604126F.tmp' to '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Content/RaysModels/WallMosaic001/WallMosaic001Nor.uasset'
+[2015.08.28-05.55.21:544][618]LogD3D11RHI: InitD3DDevice
+[2015.08.28-05.55.21:746][640]LogD3D11RHI: InitD3DDevice
+[2015.08.28-05.55.22:532][726]LogD3D11RHI: InitD3DDevice
+[2015.08.28-05.55.22:868][726]LogSavePackage: Save=317.538971ms
+[2015.08.28-05.55.22:868][726]LogSavePackage: Moving '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Saved/WallMosaic001SpecE1C474534667592C9F6BEB9F804BE1AA.tmp' to '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Content/RaysModels/WallMosaic001/WallMosaic001Spec.uasset'
+[2015.08.28-05.55.23:499][758]LogD3D11RHI: InitD3DDevice
+[2015.08.28-05.55.24:554][874]LogD3D11RHI: InitD3DDevice
+[2015.08.28-05.55.24:896][874]LogSavePackage: Save=319.080963ms
+[2015.08.28-05.55.24:896][874]LogSavePackage: Moving '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Saved/WallMosaic001TXTF4AA956F44DBE88E9FD9D58E67BB3EB9.tmp' to '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Content/RaysModels/WallMosaic001/WallMosaic001TXT.uasset'
+[2015.08.28-05.55.27:862][ 15]LogD3D11RHI: InitD3DDevice
+[2015.08.28-05.55.28:233][ 48]LogActorFactory: Actor Factory created WallMosaic
+[2015.08.28-05.55.29:552][145]LogActorFactory: Actor Factory created WallMosaic
+[2015.08.28-05.55.35:414][537]LogD3D11RHI: InitD3DDevice
+[2015.08.28-05.55.40:785][947]LogD3D11RHI: InitD3DDevice
+[2015.08.28-05.57.09:899][494]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock32)
+[2015.08.28-05.57.36:007][395]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WallMosaic)
+[2015.08.28-05.57.40:209][707]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LowWall)
+[2015.08.28-05.57.46:978][195]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock33)
+[2015.08.28-05.57.50:473][463]Cmd: DUPLICATE
+[2015.08.28-05.57.50:473][463]Cmd: ACTOR DUPLICATE
+[2015.08.28-05.58.33:610][525]Cmd: DUPLICATE
+[2015.08.28-05.58.33:610][525]Cmd: ACTOR DUPLICATE
+[2015.08.28-05.59.08:006][ 14]Cmd: DUPLICATE
+[2015.08.28-05.59.08:006][ 14]Cmd: ACTOR DUPLICATE
+[2015.08.28-05.59.39:969][323]Cmd: DUPLICATE
+[2015.08.28-05.59.39:969][323]Cmd: ACTOR DUPLICATE
+[2015.08.28-05.59.47:369][852]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock37)
+[2015.08.28-06.00.11:737][631]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock36)
+[2015.08.28-06.00.12:615][694]Cmd: DUPLICATE
+[2015.08.28-06.00.12:615][694]Cmd: ACTOR DUPLICATE
+[2015.08.28-06.00.30:159][955]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock37)
+[2015.08.28-06.00.30:978][ 13]Cmd: DUPLICATE
+[2015.08.28-06.00.30:978][ 13]Cmd: ACTOR DUPLICATE
+[2015.08.28-06.00.47:145][190]Cmd: DUPLICATE
+[2015.08.28-06.00.47:145][190]Cmd: ACTOR DUPLICATE
+[2015.08.28-06.01.01:023][186]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock34)
+[2015.08.28-06.01.04:260][417]Cmd: DUPLICATE
+[2015.08.28-06.01.04:260][417]Cmd: ACTOR DUPLICATE
+[2015.08.28-06.01.21:186][669]Cmd: DELETE
+[2015.08.28-06.01.21:186][669]Cmd: ACTOR DELETE
+[2015.08.28-06.01.21:190][669]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.28-06.01.21:190][669]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.28-06.01.21:203][669]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001E80C0E0
+[2015.08.28-06.01.21:217][669]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2015.08.28-06.01.22:141][739]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock39)
+[2015.08.28-06.01.26:065][ 10]Cmd: DUPLICATE
+[2015.08.28-06.01.26:065][ 10]Cmd: ACTOR DUPLICATE
+[2015.08.28-06.01.37:734][827]Cmd: DUPLICATE
+[2015.08.28-06.01.37:734][827]Cmd: ACTOR DUPLICATE
+[2015.08.28-06.01.45:776][413]Cmd: DUPLICATE
+[2015.08.28-06.01.45:776][413]Cmd: ACTOR DUPLICATE
+[2015.08.28-06.02.08:562][ 47]Cmd: DUPLICATE
+[2015.08.28-06.02.08:562][ 47]Cmd: ACTOR DUPLICATE
+[2015.08.28-06.02.29:700][595]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock41)
+[2015.08.28-06.02.35:886][ 35]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Rock42)
+[2015.08.28-06.02.37:205][130]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Rock44)
+[2015.08.28-06.02.38:705][238]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Rock43)
+[2015.08.28-06.02.52:153][177]Cmd: DUPLICATE
+[2015.08.28-06.02.52:153][177]Cmd: ACTOR DUPLICATE
+[2015.08.28-06.03.09:467][400]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock45)
+[2015.08.28-06.03.10:492][474]Cmd: DUPLICATE
+[2015.08.28-06.03.10:492][474]Cmd: ACTOR DUPLICATE
+[2015.08.28-06.03.26:418][624]Cmd: DUPLICATE
+[2015.08.28-06.03.26:418][624]Cmd: ACTOR DUPLICATE
+[2015.08.28-06.03.38:974][555]Cmd: DUPLICATE
+[2015.08.28-06.03.38:974][555]Cmd: ACTOR DUPLICATE
+[2015.08.28-06.03.52:622][555]Cmd: DUPLICATE
+[2015.08.28-06.03.52:622][555]Cmd: ACTOR DUPLICATE
+[2015.08.28-06.04.07:794][663]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock49)
+[2015.08.28-06.04.17:927][390]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock52)
+[2015.08.28-06.04.21:194][629]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Rock51)
+[2015.08.28-06.04.23:184][775]Cmd: TRANSACTION UNDO
+[2015.08.28-06.04.23:184][775]LogEditorTransaction: Undo Move Actors
+[2015.08.28-06.04.23:201][775]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.04.24:206][823]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Rock50)
+[2015.08.28-06.04.25:908][893]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Rock49)
+[2015.08.28-06.04.26:905][960]Cmd: DUPLICATE
+[2015.08.28-06.04.26:905][960]Cmd: ACTOR DUPLICATE
+[2015.08.28-06.04.56:431][ 60]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FloorTile38)
+[2015.08.28-06.05.08:230][870]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.05.22:405][985]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.05.22:881][ 38]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.05.50:536][950]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.05.55:535][965]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.05.55:552][965]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 F:\Textures\Tile-able\Concrete 5 dirt ground floor walkway pathway seamless texture 2048x2048.jpg)
+[2015.08.28-06.05.55:716][965]LogTexture:Display: Building textures: Concrete_5_dirt_ground_floor_walkway_pathway_seamless_texture_2048x2048 (AutoDXT)
+[2015.08.28-06.05.58:574][965]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 F:\Textures\Tile-able\Concrete 5 dirt ground floor walkway pathway seamless texture 2048x2048.tga)
+[2015.08.28-06.05.59:089][965]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.05.59:096][965]LogTexture:Display: Building textures: Concrete_5_dirt_ground_floor_walkway_pathway_seamless_texture_2048x2048_0 (BC5)
+[2015.08.28-06.05.59:469][965]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 F:\Textures\Tile-able\Mountain brown rock seamless texture 2048x2048.jpg)
+[2015.08.28-06.05.59:612][965]LogTexture:Display: Building textures: Mountain_brown_rock_seamless_texture_2048x2048 (AutoDXT)
+[2015.08.28-06.06.02:917][965]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 F:\Textures\Tile-able\Mountain brown rock seamless texture 2048x2048.tga)
+[2015.08.28-06.06.03:449][965]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.06.03:458][965]LogTexture:Display: Building textures: Mountain_brown_rock_seamless_texture_2048x2048_1 (BC5)
+[2015.08.28-06.06.03:825][965]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 F:\Textures\Tile-able\rock_with_moss_texture_2_by_stock_it.tga)
+[2015.08.28-06.06.05:183][965]LogTexture:Display: Building textures: rock_with_moss_texture_2_by_stock_it (AutoDXT)
+[2015.08.28-06.06.08:342][965]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 F:\Textures\Tile-able\rock_with_moss_texture_2_by_stock_it_Nor.tga)
+[2015.08.28-06.06.09:616][965]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.06.09:631][965]LogTexture:Display: Building textures: rock_with_moss_texture_2_by_stock_it_Nor (BC5)
+[2015.08.28-06.06.10:353][965]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 F:\Textures\Tile-able\stone_texture___seamless_by_agf81-d39vfot.jpg)
+[2015.08.28-06.06.10:391][965]LogTexture:Display: Building textures: stone_texture___seamless_by_agf81-d39vfot (AutoDXT)
+[2015.08.28-06.06.11:318][965]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 F:\Textures\Tile-able\stone_texture___seamless_by_agf81-d39vfot.tga)
+[2015.08.28-06.06.11:484][965]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.06.11:490][965]LogTexture:Display: Building textures: stone_texture___seamless_by_agf81-d39vfot_2 (BC5)
+[2015.08.28-06.06.11:638][965]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 F:\Textures\Tile-able\Tileable stone texture (2).jpg)
+[2015.08.28-06.06.11:666][965]LogTexture:Display: Building textures: Tileable_stone_texture__2_ (AutoDXT)
+[2015.08.28-06.06.12:757][965]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 F:\Textures\Tile-able\Tileable stone texture (2).tga)
+[2015.08.28-06.06.12:950][965]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.06.12:973][965]LogTexture:Display: Building textures: Tileable_stone_texture__2__3 (BC5)
+[2015.08.28-06.06.18:255][ 33]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.06.18:621][ 65]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.06.19:725][156]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.06.20:663][156]LogSavePackage: Save=905.984924ms
+[2015.08.28-06.06.20:663][156]LogSavePackage: Moving '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Saved/Concrete_5_dirt_ground_floor_walkway_pathway_seamless_texture_2048x2048534E06C1487D3053C42429955EDB0681.tmp' to '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Content/LandScapeMat/Concrete_5_dirt_ground_floor_walkway_pathway_seamless_texture_2048x2048.uasset'
+[2015.08.28-06.06.20:822][156]LogSavePackage: Save=127.765930ms
+[2015.08.28-06.06.20:822][156]LogSavePackage: Moving '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Saved/Concrete_5_dirt_ground_floor_walkway_pathway_seamless_texture_2048x2048E36EBB4B462B488F410E0D98B853A003.tmp' to '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Content/LandScapeMat/Concrete_5_dirt_ground_floor_walkway_pathway_seamless_texture_2048x2048.uasset'
+[2015.08.28-06.06.21:856][156]LogSavePackage: Save=1004.297424ms
+[2015.08.28-06.06.21:856][156]LogSavePackage: Moving '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Saved/Mountain_brown_rock_seamless_texture_2048x20482C9722C44A530F5DD2A239BEA9A2177C.tmp' to '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Content/LandScapeMat/Mountain_brown_rock_seamless_texture_2048x2048.uasset'
+[2015.08.28-06.06.22:022][156]LogSavePackage: Save=139.399002ms
+[2015.08.28-06.06.22:023][156]LogSavePackage: Moving '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Saved/Mountain_brown_rock_seamless_texture_2048x20480AA5B2FC4483CDC74434A3BB48B0D317.tmp' to '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Content/LandScapeMat/Mountain_brown_rock_seamless_texture_2048x2048.uasset'
+[2015.08.28-06.06.22:600][156]LogSavePackage: Save=560.225220ms
+[2015.08.28-06.06.22:600][156]LogSavePackage: Moving '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Saved/rock_with_moss_texture_2_by_stock_it6066B5D34C2BBD67B425198D09803027.tmp' to '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Content/LandScapeMat/rock_with_moss_texture_2_by_stock_it.uasset'
+[2015.08.28-06.06.23:358][156]LogSavePackage: Save=740.701111ms
+[2015.08.28-06.06.23:358][156]LogSavePackage: Moving '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Saved/rock_with_moss_texture_2_by_stock_it_Nor11390BBC45F82446A034B582D940B16A.tmp' to '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Content/LandScapeMat/rock_with_moss_texture_2_by_stock_it_Nor.uasset'
+[2015.08.28-06.06.23:712][156]LogSavePackage: Save=323.903931ms
+[2015.08.28-06.06.23:713][156]LogSavePackage: Moving '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Saved/stone_texture___seamless_by_agf81-d39vfotD0F4AFB8475CC2C9DFFAC988320C1E59.tmp' to '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Content/LandScapeMat/stone_texture___seamless_by_agf81-d39vfot.uasset'
+[2015.08.28-06.06.23:777][156]LogSavePackage: Save=44.825245ms
+[2015.08.28-06.06.23:777][156]LogSavePackage: Moving '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Saved/stone_texture___seamless_by_agf81-d39vfot15B011A44EE2039D09F0198B62EAFE0D.tmp' to '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Content/LandScapeMat/stone_texture___seamless_by_agf81-d39vfot.uasset'
+[2015.08.28-06.06.24:157][156]LogSavePackage: Save=354.621979ms
+[2015.08.28-06.06.24:157][156]LogSavePackage: Moving '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Saved/Tileable_stone_texture__2_41C782A245D9503A82E4239CE33BE535.tmp' to '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Content/LandScapeMat/Tileable_stone_texture__2_.uasset'
+[2015.08.28-06.06.24:227][156]LogSavePackage: Save=51.716667ms
+[2015.08.28-06.06.24:227][156]LogSavePackage: Moving '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Saved/Tileable_stone_texture__2_CB9AF4EE4E06DD379F80D49475217957.tmp' to '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Content/LandScapeMat/Tileable_stone_texture__2_.uasset'
+[2015.08.28-06.06.28:587][349]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.06.29:085][406]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.06.41:204][362]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.06.41:208][362]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.06.41:235][362]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.06.41:268][362]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.06.41:273][362]LogMaterial: 0.000024 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.06.42:241][404]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.06.42:241][404]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.08.28-06.06.42:241][404]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.06.50:780][954]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.06.54:807][349]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.06.54:811][349]LogMaterial: 0.000129 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.06.55:533][383]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.06.55:533][383]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.08.28-06.06.55:533][383]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.07.02:721][742]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerBlend_0, compiling. 
+[2015.08.28-06.07.04:353][819]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.07.04:357][819]LogMaterial: 0.000106 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.07.04:964][841]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.07.04:964][841]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.08.28-06.07.04:964][841]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.07.08:025][ 13]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.07.08:029][ 13]LogMaterial: 0.000076 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.07.08:718][ 49]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.07.08:718][ 49]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.08.28-06.07.08:718][ 49]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.07.09:809][111]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.07.09:814][111]LogMaterial: 0.000065 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.07.10:607][158]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.07.10:607][158]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.08.28-06.07.10:607][158]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.07.11:512][208]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.07.11:516][208]LogMaterial: 0.000099 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.07.12:252][251]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.07.12:252][251]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.08.28-06.07.12:252][251]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.07.13:220][300]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.07.13:225][300]LogMaterial: 0.000127 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.07.13:983][346]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.07.13:983][346]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.08.28-06.07.13:983][346]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.07.23:158][866]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.07.23:163][866]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.07.23:167][866]LogMaterial: 0.000108 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.07.23:781][908]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.07.23:781][908]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.08.28-06.07.23:781][908]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.07.24:430][976]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.07.24:434][976]LogMaterial: 0.000059 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.07.25:229][ 29]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.07.25:229][ 29]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.08.28-06.07.25:229][ 29]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.07.34:420][517]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.07.34:425][517]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.07.34:429][517]LogMaterial: 0.000120 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.07.35:044][555]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.07.35:044][555]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.08.28-06.07.35:044][555]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.07.35:471][599]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.07.35:476][599]LogMaterial: 0.000115 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.07.36:242][638]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.07.36:242][638]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.08.28-06.07.36:242][638]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.07.43:759][ 92]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.07.43:781][ 92]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.07.43:785][ 92]LogMaterial: 0.000080 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.07.44:497][146]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.07.44:497][146]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.08.28-06.07.44:497][146]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.07.45:400][240]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.07.45:405][240]LogMaterial: 0.000067 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.07.46:171][281]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.07.46:171][281]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.08.28-06.07.46:171][281]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.08.02:777][155]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.08.02:781][155]LogMaterial: 0.000107 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.08.03:416][177]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.08.03:416][177]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.08.28-06.08.03:416][177]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.08.04:255][214]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.08.05:173][301]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.08.05:177][301]LogMaterial: 0.000092 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.08.05:843][331]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.08.05:843][331]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.08.28-06.08.05:843][331]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.08.10:032][543]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.08.10:035][543]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.08.10:040][543]LogMaterial: 0.000145 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.08.10:777][603]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.08.10:777][603]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.08.28-06.08.10:777][603]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.08.11:193][645]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.08.11:197][645]LogMaterial: 0.000073 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.08.12:009][687]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.08.12:009][687]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.08.28-06.08.12:009][687]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.08.26:748][681]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.08.27:705][753]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.08.27:710][753]LogMaterial: 0.000114 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.08.27:710][753]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.08.28-06.08.27:734][753]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.08.28-06.08.28:464][786]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.08.28:464][786]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.08.28-06.08.28:464][786]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.08.29:374][834]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.08.30:339][901]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.08.30:343][901]LogMaterial: 0.000056 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.08.30:344][901]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.08.28-06.08.30:370][901]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.08.28-06.08.30:372][901]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.08.28-06.08.31:060][931]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.08.31:060][931]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.08.28-06.08.31:060][931]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.08.36:807][285]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.08.37:938][363]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.08.37:942][363]LogMaterial: 0.000076 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.08.37:943][363]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.08.28-06.08.37:965][363]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.08.28-06.08.37:978][363]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.08.28-06.08.37:980][363]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.08.28-06.08.38:582][391]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.08.38:582][391]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.08.28-06.08.38:582][391]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.08.39:289][426]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.08.40:055][475]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.08.40:060][475]LogMaterial: 0.000075 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.08.40:070][475]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2015.08.28-06.08.40:161][475]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.08.28-06.08.40:163][475]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.08.28-06.08.40:165][475]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.08.28-06.08.40:166][475]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2015.08.28-06.08.40:768][499]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.08.40:768][499]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.08.28-06.08.40:768][499]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.08.41:191][512]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.08.41:928][563]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.08.41:932][563]LogMaterial: 0.000115 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.08.41:933][563]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2015.08.28-06.08.41:956][563]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.08.28-06.08.41:958][563]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.08.28-06.08.41:960][563]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.08.28-06.08.41:962][563]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2015.08.28-06.08.41:981][563]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2015.08.28-06.08.42:740][602]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.08.42:740][602]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.08.28-06.08.42:740][602]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.09.00:240][723]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.09.05:681][223]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.09.05:685][223]LogMaterial: 0.000074 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.09.05:685][223]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_0, compiling. 
+[2015.08.28-06.09.06:639][255]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.09.06:639][255]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.08.28-06.09.06:639][255]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.09.11:321][551]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.09.13:066][691]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.09.13:071][691]LogMaterial: 0.000102 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.09.13:176][691]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.08.28-06.09.13:178][691]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_0, compiling. 
+[2015.08.28-06.09.13:833][726]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.09.13:833][726]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.08.28-06.09.13:833][726]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.09.14:229][741]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.09.15:519][844]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.09.15:524][844]LogMaterial: 0.000092 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.09.15:574][844]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.08.28-06.09.15:576][844]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_0, compiling. 
+[2015.08.28-06.09.16:221][873]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.09.16:221][873]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.08.28-06.09.16:221][873]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.09.16:329][877]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.09.16:995][927]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.09.16:999][927]LogMaterial: 0.000093 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.09.17:157][927]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.08.28-06.09.17:159][927]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_0, compiling. 
+[2015.08.28-06.09.17:676][949]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.09.17:676][949]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.08.28-06.09.17:676][949]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.09.19:761][ 63]LogEditorTransaction: Undo Move Node
+[2015.08.28-06.09.19:776][ 63]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.09.19:780][ 63]LogMaterial: 0.000072 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.09.19:786][ 63]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.09.20:425][ 86]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.09.20:425][ 86]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.08.28-06.09.20:425][ 86]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.09.21:025][108]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.09.23:567][285]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.09.23:572][285]LogMaterial: 0.000108 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.09.23:622][285]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2015.08.28-06.09.23:624][285]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_0, compiling. 
+[2015.08.28-06.09.24:320][307]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.09.24:320][307]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.08.28-06.09.24:320][307]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.09.24:567][317]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.09.26:155][440]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.09.26:160][440]LogMaterial: 0.000072 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.09.26:208][440]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2015.08.28-06.09.26:210][440]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_0, compiling. 
+[2015.08.28-06.09.26:835][458]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.09.26:835][458]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.08.28-06.09.26:835][458]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.09.27:635][488]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.09.29:128][603]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.09.29:132][603]LogMaterial: 0.000093 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.09.29:159][603]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.08.28-06.09.29:871][639]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.09.29:871][639]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.08.28-06.09.29:871][639]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.09.30:669][671]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.09.31:898][766]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.09.31:902][766]LogMaterial: 0.000102 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.09.31:956][766]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.08.28-06.09.32:629][798]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.09.32:629][798]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.08.28-06.09.32:629][798]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.09.33:189][822]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.09.34:338][911]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.09.34:342][911]LogMaterial: 0.000059 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.09.34:367][911]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.08.28-06.09.35:003][938]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.09.35:003][938]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.08.28-06.09.35:004][938]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.09.35:505][958]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.09.36:655][ 47]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.09.36:660][ 47]LogMaterial: 0.000077 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.09.36:694][ 47]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.08.28-06.09.37:385][ 81]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.09.37:385][ 81]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.08.28-06.09.37:385][ 81]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.09.37:682][ 93]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.09.38:584][163]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.09.38:589][163]LogMaterial: 0.000115 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.09.38:616][163]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.08.28-06.09.39:292][192]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.09.39:292][192]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.08.28-06.09.39:292][192]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.09.39:636][205]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.09.40:572][277]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.09.40:577][277]LogMaterial: 0.000149 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.09.40:664][277]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.08.28-06.09.41:213][298]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.09.41:213][298]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.08.28-06.09.41:213][298]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.09.41:390][305]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.09.42:443][387]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.09.42:447][387]LogMaterial: 0.000198 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.09.42:468][387]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2015.08.28-06.09.43:117][417]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.09.43:117][417]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.08.28-06.09.43:117][417]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.09.43:665][439]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.09.44:624][513]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.09.44:628][513]LogMaterial: 0.000096 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.09.44:654][513]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2015.08.28-06.09.45:246][533]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.09.45:246][533]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.08.28-06.09.45:246][533]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.09.45:422][539]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.09.46:345][610]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.09.46:349][610]LogMaterial: 0.000093 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.09.46:371][610]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2015.08.28-06.09.46:970][631]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.09.46:970][631]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.08.28-06.09.46:970][631]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.09.47:062][634]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.09.47:955][702]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.09.47:959][702]LogMaterial: 0.000091 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.09.48:016][702]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2015.08.28-06.09.48:595][718]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.09.48:595][718]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.08.28-06.09.48:595][718]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.09.50:443][823]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.09.51:633][913]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.09.51:637][913]LogMaterial: 0.000046 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.09.52:394][954]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.09.52:394][954]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.28-06.09.52:394][954]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.09.53:394][ 20]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.09.56:011][254]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.09.56:016][254]LogMaterial: 0.000068 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.09.56:768][292]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.09.56:768][292]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.28-06.09.56:768][292]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.09.57:978][363]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.09.57:982][363]LogMaterial: 0.000078 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.09.58:600][383]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.09.58:600][383]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.28-06.09.58:600][383]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.10.08:931][ 50]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.10.08:936][ 50]LogMaterial: 0.000098 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.10.09:026][ 50]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_2, compiling. 
+[2015.08.28-06.10.09:028][ 50]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_3, compiling. 
+[2015.08.28-06.10.09:544][ 66]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.10.09:544][ 66]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.28-06.10.09:544][ 66]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.10.20:057][789]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.08.28-06.10.20:059][789]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.08.28-06.10.20:061][789]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.08.28-06.10.20:062][789]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2015.08.28-06.10.20:064][789]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2015.08.28-06.10.20:066][789]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_2, compiling. 
+[2015.08.28-06.10.20:068][789]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_3, compiling. 
+[2015.08.28-06.10.24:686][ 81]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.10.25:783][153]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.10.25:788][153]LogMaterial: 0.000123 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.10.25:812][153]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_3, compiling. 
+[2015.08.28-06.10.25:823][153]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.08.28-06.10.25:854][153]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.08.28-06.10.25:884][153]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.08.28-06.10.25:887][153]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.08.28-06.10.25:889][153]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2015.08.28-06.10.25:891][153]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2015.08.28-06.10.25:893][153]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_2, compiling. 
+[2015.08.28-06.10.25:895][153]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_3, compiling. 
+[2015.08.28-06.10.25:896][153]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.08.28-06.10.26:461][175]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.10.26:461][175]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.28-06.10.26:461][175]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.10.29:382][304]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.10.30:647][386]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.10.30:651][386]LogMaterial: 0.000056 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.10.30:652][386]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2015.08.28-06.10.30:674][386]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.08.28-06.10.30:676][386]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.08.28-06.10.30:678][386]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.08.28-06.10.30:680][386]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2015.08.28-06.10.30:682][386]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2015.08.28-06.10.30:683][386]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_2, compiling. 
+[2015.08.28-06.10.30:685][386]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_3, compiling. 
+[2015.08.28-06.10.30:687][386]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.08.28-06.10.30:689][386]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2015.08.28-06.10.31:393][416]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.10.31:393][416]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.28-06.10.31:393][416]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.10.33:083][518]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.10.33:909][570]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.10.33:914][570]LogMaterial: 0.000079 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.10.33:914][570]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2015.08.28-06.10.33:939][570]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.08.28-06.10.33:941][570]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.08.28-06.10.33:943][570]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.08.28-06.10.33:945][570]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2015.08.28-06.10.33:947][570]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2015.08.28-06.10.33:949][570]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_2, compiling. 
+[2015.08.28-06.10.33:951][570]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_3, compiling. 
+[2015.08.28-06.10.33:964][570]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.08.28-06.10.33:966][570]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2015.08.28-06.10.33:968][570]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2015.08.28-06.10.34:522][584]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.10.34:522][584]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.28-06.10.34:522][584]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.10.36:313][680]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.10.37:161][732]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.10.37:166][732]LogMaterial: 0.000092 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.10.37:166][732]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling. 
+[2015.08.28-06.10.37:225][732]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.08.28-06.10.37:227][732]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.08.28-06.10.37:229][732]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.08.28-06.10.37:231][732]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2015.08.28-06.10.37:233][732]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2015.08.28-06.10.37:235][732]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_2, compiling. 
+[2015.08.28-06.10.37:236][732]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_3, compiling. 
+[2015.08.28-06.10.37:238][732]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.08.28-06.10.37:240][732]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2015.08.28-06.10.37:242][732]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2015.08.28-06.10.37:244][732]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling. 
+[2015.08.28-06.10.37:907][764]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.10.37:907][764]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.28-06.10.37:907][764]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.10.40:583][866]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.10.41:414][920]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.10.41:418][920]LogMaterial: 0.000089 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.10.41:422][920]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_12, compiling. 
+[2015.08.28-06.10.41:511][920]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.08.28-06.10.41:513][920]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.08.28-06.10.41:515][920]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.08.28-06.10.41:517][920]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2015.08.28-06.10.41:519][920]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2015.08.28-06.10.41:521][920]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_2, compiling. 
+[2015.08.28-06.10.41:523][920]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_3, compiling. 
+[2015.08.28-06.10.41:525][920]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.08.28-06.10.41:536][920]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2015.08.28-06.10.41:538][920]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2015.08.28-06.10.41:540][920]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling. 
+[2015.08.28-06.10.41:542][920]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_12, compiling. 
+[2015.08.28-06.10.42:092][948]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.10.42:092][948]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.28-06.10.42:092][948]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.11.10:412][705]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.11.11:990][829]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.11.11:995][829]LogMaterial: 0.000079 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.11.12:040][829]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_3, compiling. 
+[2015.08.28-06.11.12:042][829]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.08.28-06.11.13:028][869]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.11.13:030][869]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.11.13:030][869]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.28-06.11.13:030][869]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.11.13:949][935]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.11.13:954][935]LogMaterial: 0.000072 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.11.14:084][935]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_3, compiling. 
+[2015.08.28-06.11.14:086][935]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2015.08.28-06.11.14:597][956]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.11.14:597][956]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.28-06.11.14:597][956]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.11.14:738][960]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.11.15:605][ 27]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.11.15:610][ 27]LogMaterial: 0.000111 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.11.15:661][ 27]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_3, compiling. 
+[2015.08.28-06.11.15:681][ 27]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2015.08.28-06.11.16:247][ 45]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.11.16:247][ 45]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.28-06.11.16:247][ 45]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.11.16:416][ 50]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.11.17:589][142]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.11.17:594][142]LogMaterial: 0.000078 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.11.17:646][142]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_3, compiling. 
+[2015.08.28-06.11.17:648][142]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling. 
+[2015.08.28-06.11.18:249][160]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.11.18:249][160]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.28-06.11.18:249][160]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.11.18:528][169]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.11.20:096][292]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.11.20:101][292]LogMaterial: 0.000074 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.11.20:165][292]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_3, compiling. 
+[2015.08.28-06.11.20:167][292]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_12, compiling. 
+[2015.08.28-06.11.20:799][318]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.11.20:799][318]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.28-06.11.20:799][318]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.11.21:484][349]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.11.22:472][426]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.11.22:477][426]LogMaterial: 0.000115 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.11.22:557][426]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.08.28-06.11.23:197][451]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.11.23:198][451]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.28-06.11.23:198][451]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.11.23:258][453]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.11.24:150][522]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.11.24:155][522]LogMaterial: 0.000067 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.11.24:184][522]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.08.28-06.11.24:831][545]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.11.24:831][545]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.28-06.11.24:831][545]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.11.25:002][552]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.11.25:957][627]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.11.25:962][627]LogMaterial: 0.000084 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.11.26:063][627]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2015.08.28-06.11.26:570][642]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.11.26:570][642]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.28-06.11.26:570][642]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.11.28:323][736]LogEditorTransaction: Undo Move Node
+[2015.08.28-06.11.28:339][736]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.11.28:344][736]LogMaterial: 0.000106 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.11.28:351][736]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.11.29:053][762]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.11.29:053][762]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.28-06.11.29:053][762]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.11.29:131][764]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.11.29:867][814]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.11.29:872][814]LogMaterial: 0.000062 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.11.29:966][814]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2015.08.28-06.11.30:429][825]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.11.30:429][825]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.28-06.11.30:429][825]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.11.30:791][838]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.11.31:703][903]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.11.31:708][903]LogMaterial: 0.000114 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.11.31:731][903]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2015.08.28-06.11.32:383][925]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.11.32:383][925]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.28-06.11.32:383][925]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.11.32:547][931]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.11.33:444][999]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.11.33:449][999]LogMaterial: 0.000074 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.11.33:472][999]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2015.08.28-06.11.34:092][ 19]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.11.34:092][ 19]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.28-06.11.34:092][ 19]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.11.34:231][ 24]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.11.35:042][ 85]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.11.35:047][ 85]LogMaterial: 0.000063 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.11.35:100][ 85]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling. 
+[2015.08.28-06.11.35:764][111]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.11.35:788][112]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.11.35:788][112]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.28-06.11.35:788][112]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.11.36:629][175]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.11.36:634][175]LogMaterial: 0.000080 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.11.36:658][175]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling. 
+[2015.08.28-06.11.37:371][208]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.11.37:371][208]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.28-06.11.37:371][208]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.11.37:475][212]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.11.38:676][275]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.11.43:056][631]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.11.43:802][687]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.11.43:807][687]LogMaterial: 0.000114 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.11.43:829][687]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_12, compiling. 
+[2015.08.28-06.11.44:621][730]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.11.44:621][730]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.28-06.11.44:621][730]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.11.45:355][765]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.11.46:708][867]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.11.46:712][867]LogMaterial: 0.000111 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.11.46:733][867]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_12, compiling. 
+[2015.08.28-06.11.47:384][897]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.28-06.11.47:384][897]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.28-06.11.47:384][897]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.11.49:917][ 55]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.11.51:610][169]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.11.51:614][169]LogMaterial: 0.000059 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.11.52:362][199]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2015.08.28-06.11.52:362][199]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.28-06.11.52:362][199]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.12.10:183][384]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_2, compiling. 
+[2015.08.28-06.12.12:666][508]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_3, compiling. 
+[2015.08.28-06.12.22:895][101]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.12.22:899][101]LogMaterial: 0.000051 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.12.22:997][101]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_2, compiling. 
+[2015.08.28-06.12.22:999][101]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_3, compiling. 
+[2015.08.28-06.12.23:675][131]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2015.08.28-06.12.23:675][131]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.28-06.12.23:676][131]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.12.24:563][167]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.12.25:665][246]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.12.25:670][246]LogMaterial: 0.000116 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.12.25:691][246]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_2, compiling. 
+[2015.08.28-06.12.26:397][272]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2015.08.28-06.12.26:397][272]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.28-06.12.26:397][272]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.12.28:559][392]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.12.29:924][491]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.12.29:929][491]LogMaterial: 0.000072 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.12.29:955][491]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_3, compiling. 
+[2015.08.28-06.12.30:658][522]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2015.08.28-06.12.30:658][522]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.28-06.12.30:658][522]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.28-06.12.46:486][388]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_3, compiling. 
+[2015.08.28-06.12.49:226][502]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_2, compiling. 
+[2015.08.28-06.13.03:104][304]LogMaterialEditor: Saving and Compiling material LandScapeMat
+[2015.08.28-06.13.03:384][304]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.13.03:401][304]LogMaterial: 0.000080 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.13.03:405][304]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.13.03:429][304]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.13.03:446][304]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2015.08.28-06.13.03:459][304]LogMaterial: 0.006123 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.28-06.13.03:491][304]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.13.04:864][304]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LandScapeMat/LandScapeMat" FILE="../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Content/LandScapeMat/LandScapeMat.uasset" SILENT=true
+[2015.08.28-06.13.04:875][304]LogSavePackage: Save=9.851941ms
+[2015.08.28-06.13.04:875][304]LogSavePackage: Moving '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Saved/LandScapeMatE6DF8AF940BC4B6925154A9DAD8B1DFC.tmp' to '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Content/LandScapeMat/LandScapeMat.uasset'
+[2015.08.28-06.13.04:880][304]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
+[2015.08.28-06.13.04:880][304]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.28-06.13.04:880][304]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.08.28-06.13.25:363][650]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FloorTile28)
+[2015.08.28-06.13.35:955][327]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.13.37:652][483]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001FFF85E0
+[2015.08.28-06.13.37:669][483]LogD3D11RHI: InitD3DDevice
+[2015.08.28-06.13.37:737][483]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene/NewCave" FILE="../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Content/Scene/NewCave.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.08.28-06.13.38:132][483]LogSavePackage: Save=356.339569ms
+[2015.08.28-06.13.38:132][483]LogSavePackage: Moving '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Saved/NewCave9545FD1E4F24EEA4A6CED18DAA49B2FB.tmp' to '../../../../../../Users/Podan the Destroyer/Desktop/God-Killer/Content/Scene/NewCave.umap'
+[2015.08.28-06.13.38:185][483]LogFileHelpers: Saving map 'NewCave' took 0.512
+[2015.08.28-06.13.41:671][689]Cmd: QUIT_EDITOR
+[2015.08.28-06.13.42:048][689]LogExit: Preparing to exit.
+[2015.08.28-06.13.42:958][689]LogExit: Editor shut down
+[2015.08.28-06.13.42:958][689]LogExit: Transaction tracking system shut down
+[2015.08.28-06.13.42:969][689]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002C2EEAC0
+[2015.08.28-06.13.42:970][689]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000028D3EDE0
+[2015.08.28-06.13.42:970][689]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000029A58E00
+[2015.08.28-06.13.42:973][689]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002F2A1E40
+[2015.08.28-06.13.42:973][689]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002F2A1620
+[2015.08.28-06.13.43:095][689]LogExit: Object subsystem successfully closed.
+[2015.08.28-06.13.43:109][689]LogD3D11RHI: Shutdown
+[2015.08.28-06.13.43:109][689]LogD3D11RHI: CleanupD3DDevice
+[2015.08.28-06.13.43:167][689]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.08.28-06.13.43:178][689]LogModuleManager: Shutting down and abandoning module MaterialEditor (189)
+[2015.08.28-06.13.43:178][689]LogModuleManager: Shutting down and abandoning module WidgetCarousel (188)
+[2015.08.28-06.13.43:178][689]LogModuleManager: Shutting down and abandoning module AddContentDialog (187)
+[2015.08.28-06.13.43:178][689]LogModuleManager: Shutting down and abandoning module EditorWidgets (186)
+[2015.08.28-06.13.43:178][689]LogModuleManager: Shutting down and abandoning module CollectionManager (185)
+[2015.08.28-06.13.43:178][689]LogModuleManager: Shutting down and abandoning module CrashTracker (184)
+[2015.08.28-06.13.43:178][689]LogModuleManager: Shutting down and abandoning module SuperSearch (183)
+[2015.08.28-06.13.43:178][689]LogModuleManager: Shutting down and abandoning module SceneOutliner (182)
+[2015.08.28-06.13.43:178][689]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
+[2015.08.28-06.13.43:178][689]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
+[2015.08.28-06.13.43:178][689]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
+[2015.08.28-06.13.43:179][689]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
+[2015.08.28-06.13.43:179][689]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
+[2015.08.28-06.13.43:179][689]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
+[2015.08.28-06.13.43:179][689]LogModuleManager: Shutting down and abandoning module BspMode (175)
+[2015.08.28-06.13.43:179][689]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
+[2015.08.28-06.13.43:179][689]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
+[2015.08.28-06.13.43:179][689]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
+[2015.08.28-06.13.43:179][689]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
+[2015.08.28-06.13.43:179][689]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
+[2015.08.28-06.13.43:179][689]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
+[2015.08.28-06.13.43:179][689]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
+[2015.08.28-06.13.43:179][689]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
+[2015.08.28-06.13.43:179][689]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
+[2015.08.28-06.13.43:179][689]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
+[2015.08.28-06.13.43:179][689]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
+[2015.08.28-06.13.43:179][689]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2015.08.28-06.13.43:455][689]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
+[2015.08.28-06.13.43:455][689]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
+[2015.08.28-06.13.43:455][689]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
+[2015.08.28-06.13.43:455][689]LogModuleManager: Shutting down and abandoning module MergeActors (159)
+[2015.08.28-06.13.43:455][689]LogModuleManager: Shutting down and abandoning module SizeMap (158)
+[2015.08.28-06.13.43:455][689]LogModuleManager: Shutting down and abandoning module TreeMap (157)
+[2015.08.28-06.13.43:455][689]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
+[2015.08.28-06.13.43:455][689]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
+[2015.08.28-06.13.43:455][689]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
+[2015.08.28-06.13.43:455][689]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
+[2015.08.28-06.13.43:455][689]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
+[2015.08.28-06.13.43:455][689]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
+[2015.08.28-06.13.43:455][689]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
+[2015.08.28-06.13.43:455][689]LogModuleManager: Shutting down and abandoning module XmlParser (149)
+[2015.08.28-06.13.43:455][689]LogModuleManager: Shutting down and abandoning module Blutility (148)
+[2015.08.28-06.13.43:455][689]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
+[2015.08.28-06.13.43:456][689]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
+[2015.08.28-06.13.43:456][689]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
+[2015.08.28-06.13.43:456][689]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
+[2015.08.28-06.13.43:456][689]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
+[2015.08.28-06.13.43:456][689]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
+[2015.08.28-06.13.43:456][689]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
+[2015.08.28-06.13.43:457][689]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
+[2015.08.28-06.13.43:457][689]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
+[2015.08.28-06.13.43:457][689]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
+[2015.08.28-06.13.43:457][689]LogModuleManager: Shutting down and abandoning module AutomationController (137)
+[2015.08.28-06.13.43:457][689]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
+[2015.08.28-06.13.43:457][689]LogModuleManager: Shutting down and abandoning module Layers (135)
+[2015.08.28-06.13.43:457][689]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
+[2015.08.28-06.13.43:457][689]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
+[2015.08.28-06.13.43:457][689]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
+[2015.08.28-06.13.43:458][689]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
+[2015.08.28-06.13.43:574][689]LogModuleManager: Shutting down and abandoning module Persona (130)
+[2015.08.28-06.13.43:574][689]LogModuleManager: Shutting down and abandoning module Kismet (129)
+[2015.08.28-06.13.43:574][689]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
+[2015.08.28-06.13.43:574][689]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
+[2015.08.28-06.13.43:574][689]LogModuleManager: Shutting down and abandoning module Toolbox (126)
+[2015.08.28-06.13.43:574][689]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
+[2015.08.28-06.13.43:574][689]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
+[2015.08.28-06.13.43:574][689]LogModuleManager: Shutting down and abandoning module OutputLog (123)
+[2015.08.28-06.13.43:574][689]LogModuleManager: Shutting down and abandoning module GammaUI (122)
+[2015.08.28-06.13.43:574][689]LogModuleManager: Shutting down and abandoning module Documentation (121)
+[2015.08.28-06.13.43:575][689]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
+[2015.08.28-06.13.43:575][689]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
+[2015.08.28-06.13.43:575][689]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
+[2015.08.28-06.13.43:575][689]LogModuleManager: Shutting down and abandoning module Analytics (117)
+[2015.08.28-06.13.43:575][689]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
+[2015.08.28-06.13.43:575][689]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
+[2015.08.28-06.13.43:575][689]LogModuleManager: Shutting down and abandoning module AIModule (114)
+[2015.08.28-06.13.43:575][689]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
+[2015.08.28-06.13.43:772][689]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
+[2015.08.28-06.13.43:772][689]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
+[2015.08.28-06.13.43:772][689]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
+[2015.08.28-06.13.43:772][689]LogModuleManager: Shutting down and abandoning module SteamVR (109)
+[2015.08.28-06.13.43:772][689]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
+[2015.08.28-06.13.43:772][689]LogModuleManager: Shutting down and abandoning module OculusRift (107)
+[2015.08.28-06.13.43:772][689]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
+[2015.08.28-06.13.43:791][689]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
+[2015.08.28-06.13.43:791][689]LogModuleManager: Shutting down and abandoning module CableComponent (104)
+[2015.08.28-06.13.43:791][689]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
+[2015.08.28-06.13.43:791][689]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
+[2015.08.28-06.13.43:791][689]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
+[2015.08.28-06.13.43:791][689]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
+[2015.08.28-06.13.43:791][689]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
+[2015.08.28-06.13.43:791][689]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
+[2015.08.28-06.13.43:791][689]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
+[2015.08.28-06.13.43:791][689]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
+[2015.08.28-06.13.43:791][689]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
+[2015.08.28-06.13.43:792][689]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
+[2015.08.28-06.13.43:792][689]LogModuleManager: Shutting down and abandoning module SourceControl (93)
+[2015.08.28-06.13.43:792][689]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
+[2015.08.28-06.13.43:792][689]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
+[2015.08.28-06.13.43:792][689]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
+[2015.08.28-06.13.43:792][689]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
+[2015.08.28-06.13.43:792][689]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
+[2015.08.28-06.13.43:792][689]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
+[2015.08.28-06.13.43:792][689]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2015.08.28-06.13.43:793][689]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2015.08.28-06.13.43:793][689]LogModuleManager: Shutting down and abandoning module MainFrame (84)
+[2015.08.28-06.13.43:793][689]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2015.08.28-06.13.43:796][689]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.08.28-06.13.43:798][689]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.08.28-06.13.43:798][689]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2015.08.28-06.13.43:898][689]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.08.28-06.13.43:898][689]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.08.28-06.13.43:910][689]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.08.28-06.13.43:910][689]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.08.28-06.13.43:911][689]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.08.28-06.13.43:911][689]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.08.28-06.13.43:911][689]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.08.28-06.13.43:911][689]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.08.28-06.13.43:911][689]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.08.28-06.13.43:911][689]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.08.28-06.13.43:911][689]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.08.28-06.13.43:911][689]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.08.28-06.13.43:911][689]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.08.28-06.13.43:912][689]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.08.28-06.13.43:912][689]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.08.28-06.13.43:912][689]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.08.28-06.13.43:912][689]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.08.28-06.13.43:919][689]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.08.28-06.13.43:919][689]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.08.28-06.13.43:919][689]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.08.28-06.13.43:919][689]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.08.28-06.13.43:919][689]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.08.28-06.13.43:920][689]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.08.28-06.13.43:920][689]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.08.28-06.13.43:920][689]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.08.28-06.13.43:920][689]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.08.28-06.13.43:920][689]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.08.28-06.13.43:945][689]LogDerivedDataCache: Shutdown
+[2015.08.28-06.13.43:945][689]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.08.28-06.13.43:945][689]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.08.28-06.13.43:945][689]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.08.28-06.13.43:945][689]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.08.28-06.13.43:945][689]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.08.28-06.13.43:945][689]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.08.28-06.13.43:945][689]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.08.28-06.13.43:945][689]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.08.28-06.13.43:945][689]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.08.28-06.13.43:945][689]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.08.28-06.13.43:945][689]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.08.28-06.13.43:945][689]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.08.28-06.13.43:945][689]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.08.28-06.13.43:945][689]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.08.28-06.13.43:945][689]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.08.28-06.13.43:945][689]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.08.28-06.13.43:945][689]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.08.28-06.13.43:945][689]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.08.28-06.13.43:945][689]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.08.28-06.13.43:945][689]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.08.28-06.13.43:945][689]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.08.28-06.13.43:945][689]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.08.28-06.13.43:945][689]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.08.28-06.13.43:945][689]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.08.28-06.13.43:945][689]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.08.28-06.13.43:945][689]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.08.28-06.13.43:945][689]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.08.28-06.13.43:945][689]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.08.28-06.13.43:945][689]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.08.28-06.13.43:945][689]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.08.28-06.13.43:945][689]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.08.28-06.13.43:945][689]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.08.28-06.13.43:945][689]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.08.28-06.13.43:945][689]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.08.28-06.13.43:946][689]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.08.28-06.13.43:946][689]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.08.28-06.13.43:946][689]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.08.28-06.13.43:946][689]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.08.28-06.13.43:946][689]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.08.28-06.13.43:946][689]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.08.28-06.13.43:946][689]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.08.28-06.13.43:950][689]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.08.28-06.13.43:950][689]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.08.28-06.13.43:950][689]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.08.28-06.13.43:950][689]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.08.28-06.13.43:950][689]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.08.28-06.13.43:950][689]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.08.28-06.13.43:950][689]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.08.28-06.13.43:950][689]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.08.28-06.13.43:950][689]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.08.28-06.13.43:951][689]LogExit: Exiting.
+[2015.08.28-06.13.43:996][689]Log file closed, 08/27/15 23:13:43
