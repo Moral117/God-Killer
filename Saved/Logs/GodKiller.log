@@ -1,382 +1,895 @@
-﻿[2015.09.03-22.20.37:745][  0]Log file open, 09/03/15 15:20:37
-[2015.09.03-22.20.37:745][  0]LogInit:Display: Running engine for game: GodKiller
-[2015.09.03-22.20.37:745][  0]LogInit:Display: RandInit(-1294081766) SRandInit(-1294081765).
-[2015.09.03-22.20.37:745][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
-[2015.09.03-22.20.37:745][  0]LogStats: Stats thread started
-[2015.09.03-22.20.37:745][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
-[2015.09.03-22.20.37:745][  0]LogInit: API Version: 2579680
-[2015.09.03-22.20.37:745][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
-[2015.09.03-22.20.37:745][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
-[2015.09.03-22.20.37:745][  0]LogInit: Build Configuration: Development
-[2015.09.03-22.20.37:745][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
-[2015.09.03-22.20.37:745][  0]LogInit: Command line:  
-[2015.09.03-22.20.37:745][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
-[2015.09.03-22.20.37:745][  0]LogInit: Rocket: 1
-[2015.09.03-22.20.37:786][  0]LogInit: Using libcurl 7.41.0
-[2015.09.03-22.20.37:786][  0]LogInit:  - built for x86_64-pc-win32
-[2015.09.03-22.20.37:786][  0]LogInit:  - supports SSL with WinSSL
-[2015.09.03-22.20.37:786][  0]LogInit:  - other features:
-[2015.09.03-22.20.37:786][  0]LogInit:      CURL_VERSION_SSL
-[2015.09.03-22.20.37:786][  0]LogInit:      CURL_VERSION_IPV6
-[2015.09.03-22.20.37:786][  0]LogInit:      CURL_VERSION_ASYNCHDNS
-[2015.09.03-22.20.37:787][  0]LogInit:      CURL_VERSION_LARGEFILE
-[2015.09.03-22.20.37:787][  0]LogInit:      CURL_VERSION_IDN
-[2015.09.03-22.20.37:787][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
-[2015.09.03-22.20.37:787][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
-[2015.09.03-22.20.37:787][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
-[2015.09.03-22.20.37:787][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
-[2015.09.03-22.20.37:787][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-[2015.09.03-22.20.37:824][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2015.09.03-22.20.37:871][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2015.09.03-22.20.37:892][  0]LogInit: Object subsystem initialized
-[2015.09.03-22.20.37:895][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
-[2015.09.03-22.20.37:895][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Samantha/Desktop/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.09.03-22.20.37:895][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
-[2015.09.03-22.20.37:895][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Samantha/Desktop/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.09.03-22.20.37:895][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
-[2015.09.03-22.20.37:895][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Samantha/Desktop/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.09.03-22.20.37:896][  0]LogInit: Selected Device Profile: [Windows]
-[2015.09.03-22.20.37:896][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2015.09.03-22.20.37:985][  0]LogInit: Computer: SAMANTHAPC
-[2015.09.03-22.20.37:985][  0]LogInit: User: Samantha
-[2015.09.03-22.20.37:985][  0]LogInit: CPU Page size=4096, Cores=2
-[2015.09.03-22.20.37:985][  0]LogInit: High frequency timer resolution =2.240905 MHz
-[2015.09.03-22.20.37:985][  0]LogMemory: Memory total: Physical=5.9GB (6GB approx)
-[2015.09.03-22.20.37:986][  0]LogMemory: Platform Memory Stats for Windows
-[2015.09.03-22.20.37:986][  0]LogMemory: Process Physical Memory: 51.54 MB used, 51.54 MB peak
-[2015.09.03-22.20.37:986][  0]LogMemory: Process Virtual Memory: 24.22 MB used, 24.22 MB peak
-[2015.09.03-22.20.37:986][  0]LogMemory: Physical Memory: 2710.59 MB used, 6027.63 MB total
-[2015.09.03-22.20.37:986][  0]LogMemory: Virtual Memory: 296.61 MB used, 134217728.00 MB total
-[2015.09.03-22.20.38:176][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
-[2015.09.03-22.20.39:113][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
-Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
-Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
-[2015.09.03-22.20.41:055][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics Family (Feature Level 11_0)
-[2015.09.03-22.20.41:055][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 1 output[s]
-[2015.09.03-22.20.41:058][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
-[2015.09.03-22.20.41:058][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
-[2015.09.03-22.20.41:058][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2015.09.03-22.20.41:073][  0]LogD3D11RHI: InitD3DDevice
-[2015.09.03-22.20.41:074][  0]LogD3D11RHI: !Direct3DDevice
-[2015.09.03-22.20.41:074][  0]LogRHI: Texture pool is 638 MB (70% of 912 MB)
-[2015.09.03-22.20.41:089][  0]LogD3D11RHI: Async texture creation enabled
-[2015.09.03-22.20.41:107][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2015.09.03-22.20.45:799][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
-[2015.09.03-22.20.45:829][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2015.09.03-22.20.45:858][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2015.09.03-22.20.45:888][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2015.09.03-22.20.45:919][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2015.09.03-22.20.45:949][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2015.09.03-22.20.45:974][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2015.09.03-22.20.45:999][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2015.09.03-22.20.46:023][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2015.09.03-22.20.46:048][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2015.09.03-22.20.46:072][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2015.09.03-22.20.46:096][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2015.09.03-22.20.46:179][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2015.09.03-22.20.46:202][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2015.09.03-22.20.46:226][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2015.09.03-22.20.46:253][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2015.09.03-22.20.46:253][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.09.03-22.20.46:895][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2015.09.03-22.20.47:572][  0]LogDerivedDataCache: Loaded boot cache 0.68s 53MB C:/Users/Samantha/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
-[2015.09.03-22.20.47:572][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Samantha/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
-[2015.09.03-22.20.47:572][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Samantha/Desktop/God-Killer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.09.03-22.20.47:573][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2015.09.03-22.20.47:573][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Samantha/Desktop/God-Killer/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2015.09.03-22.20.47:573][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2015.09.03-22.20.48:130][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2015.09.03-22.20.48:144][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Samantha/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2015.09.03-22.20.48:821][  0]LogInit: Selected Device Profile: [Windows]
-[2015.09.03-22.20.49:086][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
-[2015.09.03-22.20.49:087][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
-[2015.09.03-22.20.49:173][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2015.09.03-22.20.49:174][  0]LogMeshUtilities: No automatic mesh merging module available
-[2015.09.03-22.20.50:711][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2015.09.03-22.22.29:914][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/UE4Editor-XAudio2.dll' because the file couldn't be loaded by the OS.
-[2015.09.03-22.22.52:900][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2015.09.03-22.22.54:337][  0]SourceControl: Info Source control is disabled
-[2015.09.03-22.22.54:364][  0]SourceControl: Info Source control is disabled
-[2015.09.03-22.22.54:399][  0]SourceControl: Info Source control is disabled
-[2015.09.03-22.22.54:434][  0]SourceControl: Info Source control is disabled
-[2015.09.03-22.22.55:436][  0]LogObj: 26273 objects as part of root set at end of initial load.
-[2015.09.03-22.22.55:436][  0]LogUObjectAllocator: 5409256 out of 0 bytes used by permanent object pool.
-[2015.09.03-22.22.55:753][  0]LogEngine: Initializing Engine...
-[2015.09.03-22.22.55:760][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
-[2015.09.03-22.22.55:764][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
-[2015.09.03-22.22.56:259][  0]LogAIModule: Creating AISystem for world NewWorld
-[2015.09.03-22.27.56:862][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/UE4Editor-XAudio2.dll' because the file couldn't be loaded by the OS.
-[2015.09.03-22.27.56:992][  0]LogDerivedDataCache: Saved boot cache 0.13s 53MB C:/Users/Samantha/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
-[2015.09.03-22.27.57:011][  0]LogInit: Texture streaming: Disabled
-[2015.09.03-22.27.57:129][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2015.09.03-22.27.57:129][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
-[2015.09.03-22.27.57:129][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 46872bea408cfcc0100ac385d2b5ce07|e22a3db169b04f708165eaff958a9646|097015b1-a59a-4201-b460-717027cc9fe8
-[2015.09.03-22.27.57:129][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
-[2015.09.03-22.27.57:257][  0]LogInit: Transaction tracking system initialized
-[2015.09.03-22.27.57:804][  0]BlueprintLog: New page: Editor Load
-[2015.09.03-22.27.57:899][  0]LogAssetRegistry: FAssetRegistry took 0.0123 seconds to start up
-[2015.09.03-22.27.57:900][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
-[2015.09.03-22.28.00:448][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
-[2015.09.03-22.28.00:448][  0]LogConsoleResponse:Display: 
-[2015.09.03-22.28.00:734][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2015.09.03-22.28.01:405][  0]SourceControl: Info Source control is disabled
-[2015.09.03-22.28.01:406][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Scene/NewCave.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.09.03-22.28.01:406][  0]LightingResults: New page: Lighting Build
-[2015.09.03-22.28.01:444][  0]MapCheck: New page: Map Check
-[2015.09.03-22.28.01:444][  0]LightingResults: New page: Lighting Build
-[2015.09.03-22.28.01:491][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000030DCD9D300
-[2015.09.03-22.28.06:639][  0]LogBlueprint:Warning: [compiler Gui] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
-[2015.09.03-22.28.06:667][  0]LogBlueprint:Warning: [compiler Gui] Warning [0454.53] Compile of Gui successful, but with 1 Warning(s) [in 118 ms]
-[2015.09.03-22.28.06:668][  0]LogBlueprint:Warning: [compiler Gui] Warning [0454.53] Compile of Gui successful, but with 2 Warning(s) [in 0 ms]
-[2015.09.03-22.28.06:668][  0]LogBlueprint:Warning: [compiler Gui] Warning [0454.54] Compile of Gui successful, but with 3 Warning(s) [in 0 ms]
-[2015.09.03-22.28.07:936][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
-[2015.09.03-22.28.07:937][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0455.80] Compile of GnawmersHealth successful, but with 1 Warning(s) [in 34 ms]
-[2015.09.03-22.28.07:937][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0455.80] Compile of GnawmersHealth successful, but with 2 Warning(s) [in 0 ms]
-[2015.09.03-22.28.07:938][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0455.80] Compile of GnawmersHealth successful, but with 3 Warning(s) [in 0 ms]
-[2015.09.03-22.28.13:420][  0]LogBlueprint:Warning: [compiler Gui] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
-[2015.09.03-22.28.13:450][  0]LogBlueprint:Warning: [compiler Gui] Warning [0461.32] Compile of Gui successful, but with 1 Warning(s) [in 122 ms]
-[2015.09.03-22.28.13:455][  0]LogBlueprint:Warning: [compiler Gui] Warning [0461.32] Compile of Gui successful, but with 2 Warning(s) [in 4 ms]
-[2015.09.03-22.28.13:750][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
-[2015.09.03-22.28.13:752][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0461.62] Compile of GnawmersHealth successful, but with 1 Warning(s) [in 42 ms]
-[2015.09.03-22.28.13:753][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0461.62] Compile of GnawmersHealth successful, but with 2 Warning(s) [in 0 ms]
-[2015.09.03-22.29.03:459][  0]LogAIModule: Creating AISystem for world NewCave
-[2015.09.03-22.29.08:473][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.09.03-22.29.08:479][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.09.03-22.29.08:809][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 329.652ms to complete.
-[2015.09.03-22.29.08:809][  0]LogFileHelpers: Loading map 'NewCave' took 67.404
-[2015.09.03-22.29.09:042][  0]LogCollectionManager: Loaded 0 collections in 0.007273 seconds
-[2015.09.03-22.29.09:069][  0]LogContentBrowser: Native class hierarchy populated in 0.0271 seconds. Added 1792 classes and 301 folders.
-[2015.09.03-22.29.09:276][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0011 seconds. Added 0 classes and 0 folders.
-[2015.09.03-22.29.09:453][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
-[2015.09.03-22.29.09:669][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
-[2015.09.03-22.29.09:818][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2015.09.03-22.29.09:821][  0]LogD3D11RHI: InitD3DDevice
-[2015.09.03-22.29.09:830][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2015.09.03-22.29.09:853][  0]LogLoad: Full Startup: 517.72 seconds (BP compile: 10.35 seconds)
-[2015.09.03-22.29.10:220][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2015.09.03-22.29.10:966][  0]LogContentStreaming: Texture pool size now 700 MB
-[2015.09.03-22.29.11:385][  0]LogRenderer: Reallocating scene render targets to support 936x712 (Frame:2).
-[2015.09.03-22.29.13:170][  1]Cmd: UpdateLandscapeEditorData -warnings
-[2015.09.03-22.29.13:174][  1]Cmd: UpdateLandscapeEditorData
-[2015.09.03-22.29.14:154][  2]LogD3D11RHI: InitD3DDevice
-[2015.09.03-22.29.23:198][ 67]LogAssetRegistry: Asset discovery search completed in 85.3110 seconds
-[2015.09.03-22.32.55:524][971]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Fort4)
-[2015.09.03-22.33.02:567][ 36]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (KeyPos4)
-[2015.09.03-22.33.22:521][220]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cave)
-[2015.09.03-22.33.22:628][220]LogD3D11RHI: InitD3DDevice
-[2015.09.03-22.33.24:388][278]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (KeyPos4)
-[2015.09.03-22.34.25:329][859]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2015.09.03-22.34.36:488][961]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (KeyPos4)
-[2015.09.03-22.34.52:487][101]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
-[2015.09.03-22.34.52:701][101]LogD3D11RHI: InitD3DDevice
-[2015.09.03-22.34.55:232][158]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2015.09.03-22.34.58:112][184]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (KeyPos4)
-[2015.09.03-22.35.10:261][288]LogD3D11RHI: InitD3DDevice
-[2015.09.03-22.35.11:914][302]LogD3D11RHI: InitD3DDevice
-[2015.09.03-22.35.12:070][302]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene/NewCave" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Scene/NewCave.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2015.09.03-22.35.12:077][302]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.09.03-22.35.19:670][302]LogSavePackage: Save=5469.512207ms
-[2015.09.03-22.35.19:670][302]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/NewCaveC53112374A15F911C4AB5F88B13B73EB.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/Scene/NewCave.umap'
-[2015.09.03-22.50.51:197][348]Cmd: QUIT_EDITOR
-[2015.09.03-22.50.51:865][348]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2015.09.03-22.50.51:865][348]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2015.09.03-22.50.52:596][348]LogExit: Preparing to exit.
-[2015.09.03-22.50.53:192][348]LogExit: Editor shut down
-[2015.09.03-22.50.53:193][348]LogExit: Transaction tracking system shut down
-[2015.09.03-22.50.53:227][348]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000030EFD9F560
-[2015.09.03-22.50.53:232][348]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000030F830DBC0
-[2015.09.03-22.50.53:233][348]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000030F911AFC0
-[2015.09.03-22.50.53:233][348]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000030F9B1DE40
-[2015.09.03-22.50.53:233][348]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000030F7C7BA60
-[2015.09.03-22.50.53:726][348]LogExit: Object subsystem successfully closed.
-[2015.09.03-22.50.53:758][348]LogD3D11RHI: Shutdown
-[2015.09.03-22.50.53:758][348]LogD3D11RHI: CleanupD3DDevice
-[2015.09.03-22.50.54:148][348]LogD3D11RHI: ~FD3D11DynamicRHI
-[2015.09.03-22.50.54:204][348]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
-[2015.09.03-22.50.54:204][348]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
-[2015.09.03-22.50.54:204][348]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
-[2015.09.03-22.50.54:204][348]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
-[2015.09.03-22.50.54:204][348]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
-[2015.09.03-22.50.54:207][348]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
-[2015.09.03-22.50.54:207][348]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
-[2015.09.03-22.50.54:207][348]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
-[2015.09.03-22.50.54:207][348]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
-[2015.09.03-22.50.54:207][348]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
-[2015.09.03-22.50.54:208][348]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
-[2015.09.03-22.50.54:208][348]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
-[2015.09.03-22.50.54:208][348]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
-[2015.09.03-22.50.54:208][348]LogModuleManager: Shutting down and abandoning module BspMode (175)
-[2015.09.03-22.50.54:208][348]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
-[2015.09.03-22.50.54:208][348]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
-[2015.09.03-22.50.54:208][348]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
-[2015.09.03-22.50.54:208][348]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
-[2015.09.03-22.50.54:208][348]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
-[2015.09.03-22.50.54:208][348]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
-[2015.09.03-22.50.54:208][348]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
-[2015.09.03-22.50.54:209][348]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
-[2015.09.03-22.50.54:209][348]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
-[2015.09.03-22.50.54:209][348]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
-[2015.09.03-22.50.54:209][348]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
-[2015.09.03-22.50.54:209][348]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
-[2015.09.03-22.50.55:028][348]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
-[2015.09.03-22.50.55:028][348]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
-[2015.09.03-22.50.55:028][348]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
-[2015.09.03-22.50.55:028][348]LogModuleManager: Shutting down and abandoning module MergeActors (159)
-[2015.09.03-22.50.55:028][348]LogModuleManager: Shutting down and abandoning module SizeMap (158)
-[2015.09.03-22.50.55:028][348]LogModuleManager: Shutting down and abandoning module TreeMap (157)
-[2015.09.03-22.50.55:028][348]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
-[2015.09.03-22.50.55:028][348]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
-[2015.09.03-22.50.55:028][348]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
-[2015.09.03-22.50.55:029][348]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
-[2015.09.03-22.50.55:029][348]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
-[2015.09.03-22.50.55:029][348]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
-[2015.09.03-22.50.55:029][348]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
-[2015.09.03-22.50.55:029][348]LogModuleManager: Shutting down and abandoning module XmlParser (149)
-[2015.09.03-22.50.55:029][348]LogModuleManager: Shutting down and abandoning module Blutility (148)
-[2015.09.03-22.50.55:029][348]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
-[2015.09.03-22.50.55:029][348]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
-[2015.09.03-22.50.55:029][348]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
-[2015.09.03-22.50.55:029][348]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
-[2015.09.03-22.50.55:030][348]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
-[2015.09.03-22.50.55:030][348]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
-[2015.09.03-22.50.55:030][348]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
-[2015.09.03-22.50.55:030][348]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
-[2015.09.03-22.50.55:030][348]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
-[2015.09.03-22.50.55:030][348]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
-[2015.09.03-22.50.55:030][348]LogModuleManager: Shutting down and abandoning module AutomationController (137)
-[2015.09.03-22.50.55:030][348]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
-[2015.09.03-22.50.55:030][348]LogModuleManager: Shutting down and abandoning module Layers (135)
-[2015.09.03-22.50.55:030][348]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
-[2015.09.03-22.50.55:030][348]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
-[2015.09.03-22.50.55:030][348]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
-[2015.09.03-22.50.55:031][348]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
-[2015.09.03-22.50.55:304][348]LogModuleManager: Shutting down and abandoning module Persona (130)
-[2015.09.03-22.50.55:304][348]LogModuleManager: Shutting down and abandoning module Kismet (129)
-[2015.09.03-22.50.55:304][348]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
-[2015.09.03-22.50.55:304][348]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
-[2015.09.03-22.50.55:304][348]LogModuleManager: Shutting down and abandoning module Toolbox (126)
-[2015.09.03-22.50.55:304][348]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
-[2015.09.03-22.50.55:304][348]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
-[2015.09.03-22.50.55:304][348]LogModuleManager: Shutting down and abandoning module OutputLog (123)
-[2015.09.03-22.50.55:304][348]LogModuleManager: Shutting down and abandoning module GammaUI (122)
-[2015.09.03-22.50.55:304][348]LogModuleManager: Shutting down and abandoning module Documentation (121)
-[2015.09.03-22.50.55:304][348]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
-[2015.09.03-22.50.55:304][348]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
-[2015.09.03-22.50.55:305][348]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
-[2015.09.03-22.50.55:305][348]LogModuleManager: Shutting down and abandoning module Analytics (117)
-[2015.09.03-22.50.55:305][348]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
-[2015.09.03-22.50.55:305][348]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
-[2015.09.03-22.50.55:305][348]LogModuleManager: Shutting down and abandoning module AIModule (114)
-[2015.09.03-22.50.55:305][348]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
-[2015.09.03-22.50.55:403][348]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
-[2015.09.03-22.50.55:403][348]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
-[2015.09.03-22.50.55:403][348]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
-[2015.09.03-22.50.55:403][348]LogModuleManager: Shutting down and abandoning module SteamVR (109)
-[2015.09.03-22.50.55:403][348]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
-[2015.09.03-22.50.55:404][348]LogModuleManager: Shutting down and abandoning module OculusRift (107)
-[2015.09.03-22.50.55:404][348]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
-[2015.09.03-22.50.55:469][348]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
-[2015.09.03-22.50.55:469][348]LogModuleManager: Shutting down and abandoning module CableComponent (104)
-[2015.09.03-22.50.55:469][348]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
-[2015.09.03-22.50.55:469][348]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
-[2015.09.03-22.50.55:469][348]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
-[2015.09.03-22.50.55:470][348]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
-[2015.09.03-22.50.55:470][348]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
-[2015.09.03-22.50.55:470][348]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
-[2015.09.03-22.50.55:470][348]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
-[2015.09.03-22.50.55:470][348]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
-[2015.09.03-22.50.55:470][348]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
-[2015.09.03-22.50.55:470][348]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
-[2015.09.03-22.50.55:470][348]LogModuleManager: Shutting down and abandoning module SourceControl (93)
-[2015.09.03-22.50.55:470][348]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
-[2015.09.03-22.50.55:470][348]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
-[2015.09.03-22.50.55:470][348]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
-[2015.09.03-22.50.55:470][348]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
-[2015.09.03-22.50.55:470][348]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
-[2015.09.03-22.50.55:471][348]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
-[2015.09.03-22.50.55:471][348]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
-[2015.09.03-22.50.55:472][348]LogModuleManager: Shutting down and abandoning module HotReload (85)
-[2015.09.03-22.50.55:472][348]LogModuleManager: Shutting down and abandoning module MainFrame (84)
-[2015.09.03-22.50.55:472][348]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
-[2015.09.03-22.50.55:479][348]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
-[2015.09.03-22.50.55:483][348]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
-[2015.09.03-22.50.55:483][348]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
-[2015.09.03-22.50.55:584][348]LogModuleManager: Shutting down and abandoning module Paper2D (79)
-[2015.09.03-22.50.55:584][348]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
-[2015.09.03-22.50.55:597][348]LogModuleManager: Shutting down and abandoning module Media (77)
-[2015.09.03-22.50.55:597][348]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
-[2015.09.03-22.50.55:598][348]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
-[2015.09.03-22.50.55:598][348]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
-[2015.09.03-22.50.55:598][348]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
-[2015.09.03-22.50.55:598][348]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
-[2015.09.03-22.50.55:598][348]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
-[2015.09.03-22.50.55:598][348]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
-[2015.09.03-22.50.55:598][348]LogModuleManager: Shutting down and abandoning module MessageLog (69)
-[2015.09.03-22.50.55:598][348]LogModuleManager: Shutting down and abandoning module Sequencer (68)
-[2015.09.03-22.50.55:598][348]LogModuleManager: Shutting down and abandoning module AssetTools (67)
-[2015.09.03-22.50.55:599][348]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
-[2015.09.03-22.50.55:599][348]LogModuleManager: Shutting down and abandoning module UMG (65)
-[2015.09.03-22.50.55:599][348]LogModuleManager: Shutting down and abandoning module Slate (64)
-[2015.09.03-22.50.55:599][348]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
-[2015.09.03-22.50.55:606][348]LogModuleManager: Shutting down and abandoning module SessionServices (62)
-[2015.09.03-22.50.55:607][348]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
-[2015.09.03-22.50.55:607][348]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
-[2015.09.03-22.50.55:607][348]LogModuleManager: Shutting down and abandoning module Networking (57)
-[2015.09.03-22.50.55:607][348]LogModuleManager: Shutting down and abandoning module Core (56)
-[2015.09.03-22.50.55:607][348]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
-[2015.09.03-22.50.55:607][348]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
-[2015.09.03-22.50.55:607][348]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
-[2015.09.03-22.50.55:607][348]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
-[2015.09.03-22.50.55:627][348]LogDerivedDataCache: Shutdown
-[2015.09.03-22.50.55:627][348]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
-[2015.09.03-22.50.55:627][348]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
-[2015.09.03-22.50.55:627][348]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
-[2015.09.03-22.50.55:627][348]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
-[2015.09.03-22.50.55:627][348]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
-[2015.09.03-22.50.55:627][348]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
-[2015.09.03-22.50.55:627][348]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
-[2015.09.03-22.50.55:627][348]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
-[2015.09.03-22.50.55:627][348]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
-[2015.09.03-22.50.55:627][348]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
-[2015.09.03-22.50.55:628][348]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
-[2015.09.03-22.50.55:628][348]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
-[2015.09.03-22.50.55:628][348]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
-[2015.09.03-22.50.55:628][348]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
-[2015.09.03-22.50.55:628][348]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
-[2015.09.03-22.50.55:628][348]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
-[2015.09.03-22.50.55:628][348]LogModuleManager: Shutting down and abandoning module Messaging (35)
-[2015.09.03-22.50.55:628][348]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
-[2015.09.03-22.50.55:628][348]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
-[2015.09.03-22.50.55:628][348]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
-[2015.09.03-22.50.55:628][348]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
-[2015.09.03-22.50.55:628][348]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
-[2015.09.03-22.50.55:628][348]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
-[2015.09.03-22.50.55:628][348]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
-[2015.09.03-22.50.55:628][348]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
-[2015.09.03-22.50.55:628][348]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
-[2015.09.03-22.50.55:628][348]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
-[2015.09.03-22.50.55:628][348]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
-[2015.09.03-22.50.55:628][348]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
-[2015.09.03-22.50.55:628][348]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
-[2015.09.03-22.50.55:628][348]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
-[2015.09.03-22.50.55:628][348]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
-[2015.09.03-22.50.55:629][348]LogModuleManager: Shutting down and abandoning module InputCore (19)
-[2015.09.03-22.50.55:629][348]LogModuleManager: Shutting down and abandoning module Settings (18)
-[2015.09.03-22.50.55:629][348]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
-[2015.09.03-22.50.55:629][348]LogModuleManager: Shutting down and abandoning module HTTP (15)
-[2015.09.03-22.50.55:629][348]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
-[2015.09.03-22.50.55:629][348]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
-[2015.09.03-22.50.55:630][348]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
-[2015.09.03-22.50.55:630][348]LogModuleManager: Shutting down and abandoning module Landscape (11)
-[2015.09.03-22.50.55:630][348]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
-[2015.09.03-22.50.55:634][348]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
-[2015.09.03-22.50.55:634][348]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
-[2015.09.03-22.50.55:634][348]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2015.09.03-22.50.55:634][348]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2015.09.03-22.50.55:634][348]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2015.09.03-22.50.55:634][348]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2015.09.03-22.50.55:634][348]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2015.09.03-22.50.55:634][348]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2015.09.03-22.50.55:634][348]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2015.09.03-22.50.55:635][348]LogExit: Exiting.
-[2015.09.03-22.50.55:786][348]Log file closed, 09/03/15 15:50:55
+﻿[2015.09.04-23.37.57:394][  0]Log file open, 09/04/15 16:37:57
+[2015.09.04-23.37.57:395][  0]LogInit:Display: Running engine for game: GodKiller
+[2015.09.04-23.37.57:395][  0]LogInit:Display: RandInit(871022784) SRandInit(871022785).
+[2015.09.04-23.37.57:395][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.09.04-23.37.57:395][  0]LogStats: Stats thread started
+[2015.09.04-23.37.57:395][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.09.04-23.37.57:395][  0]LogInit: API Version: 2579680
+[2015.09.04-23.37.57:395][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.09.04-23.37.57:395][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.09.04-23.37.57:395][  0]LogInit: Build Configuration: Development
+[2015.09.04-23.37.57:395][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.09.04-23.37.57:395][  0]LogInit: Command line: 
+[2015.09.04-23.37.57:395][  0]LogInit: Base directory: C:/Program Files/Unreal Engine/4.8/Engine/Binaries/Win64/
+[2015.09.04-23.37.57:395][  0]LogInit: Rocket: 1
+[2015.09.04-23.37.57:681][  0]LogInit: Using libcurl 7.41.0
+[2015.09.04-23.37.57:681][  0]LogInit:  - built for x86_64-pc-win32
+[2015.09.04-23.37.57:681][  0]LogInit:  - supports SSL with WinSSL
+[2015.09.04-23.37.57:682][  0]LogInit:  - other features:
+[2015.09.04-23.37.57:682][  0]LogInit:      CURL_VERSION_SSL
+[2015.09.04-23.37.57:682][  0]LogInit:      CURL_VERSION_IPV6
+[2015.09.04-23.37.57:682][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.09.04-23.37.57:682][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.09.04-23.37.57:682][  0]LogInit:      CURL_VERSION_IDN
+[2015.09.04-23.37.57:682][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.09.04-23.37.57:682][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.09.04-23.37.57:682][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.09.04-23.37.57:682][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.09.04-23.37.57:682][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.09.04-23.37.57:707][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.09.04-23.37.57:745][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.09.04-23.37.57:759][  0]LogInit: Object subsystem initialized
+[2015.09.04-23.37.57:761][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.09.04-23.37.57:761][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/jessy/Desktop/GodKiller_SourceTree/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.09.04-23.37.57:761][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.09.04-23.37.57:761][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/jessy/Desktop/GodKiller_SourceTree/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.09.04-23.37.57:761][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.09.04-23.37.57:761][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/jessy/Desktop/GodKiller_SourceTree/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.09.04-23.37.57:762][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.04-23.37.57:762][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.09.04-23.37.57:775][  0]LogInit: Computer: JESSYS-PC
+[2015.09.04-23.37.57:775][  0]LogInit: User: jessy
+[2015.09.04-23.37.57:775][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.09.04-23.37.57:775][  0]LogInit: High frequency timer resolution =1.656393 MHz
+[2015.09.04-23.37.57:775][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2015.09.04-23.37.57:775][  0]LogMemory: Platform Memory Stats for Windows
+[2015.09.04-23.37.57:775][  0]LogMemory: Process Physical Memory: 48.94 MB used, 48.94 MB peak
+[2015.09.04-23.37.57:775][  0]LogMemory: Process Virtual Memory: 25.21 MB used, 25.21 MB peak
+[2015.09.04-23.37.57:775][  0]LogMemory: Physical Memory: 3477.05 MB used, 3959.10 MB total
+[2015.09.04-23.37.57:775][  0]LogMemory: Virtual Memory: 297.30 MB used, 134217728.00 MB total
+[2015.09.04-23.37.57:896][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.09.04-23.37.58:297][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Unreal Engine/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Unreal Engine/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.09.04-23.37.59:254][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics (Feature Level 10_0)
+[2015.09.04-23.37.59:254][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
+[2015.09.04-23.37.59:257][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.09.04-23.37.59:257][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.09.04-23.37.59:257][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.09.04-23.37.59:264][  0]LogD3D11RHI: InitD3DDevice
+[2015.09.04-23.37.59:264][  0]LogD3D11RHI: !Direct3DDevice
+[2015.09.04-23.37.59:264][  0]LogRHI: Texture pool is 593 MB (70% of 848 MB)
+[2015.09.04-23.37.59:269][  0]LogD3D11RHI: Async texture creation enabled
+[2015.09.04-23.37.59:288][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.09.04-23.38.01:981][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.09.04-23.38.02:013][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.09.04-23.38.02:044][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.09.04-23.38.02:080][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.09.04-23.38.02:114][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.09.04-23.38.02:142][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.09.04-23.38.02:169][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.09.04-23.38.02:197][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.09.04-23.38.02:225][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.09.04-23.38.02:253][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.09.04-23.38.02:282][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.09.04-23.38.02:309][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.09.04-23.38.02:401][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.09.04-23.38.02:428][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.09.04-23.38.02:457][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.09.04-23.38.02:489][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.09.04-23.38.02:489][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.09.04-23.38.02:941][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.09.04-23.38.03:044][  0]LogDerivedDataCache: Loaded boot cache 0.10s 48MB C:/Users/jessy/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.09.04-23.38.03:045][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/jessy/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.09.04-23.38.03:045][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jessy/Desktop/GodKiller_SourceTree/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.09.04-23.38.03:045][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.09.04-23.38.03:045][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jessy/Desktop/GodKiller_SourceTree/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.09.04-23.38.03:045][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.09.04-23.38.03:352][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.09.04-23.38.03:364][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jessy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.09.04-23.38.03:872][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.04-23.38.04:044][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.09.04-23.38.04:044][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.09.04-23.38.04:177][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.09.04-23.38.04:177][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.09.04-23.38.05:199][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.09.04-23.38.44:387][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.09.04-23.38.45:928][  0]SourceControl: Info Source control is disabled
+[2015.09.04-23.38.46:140][  0]SourceControl: Info Source control is disabled
+[2015.09.04-23.38.46:162][  0]SourceControl: Info Source control is disabled
+[2015.09.04-23.38.46:186][  0]SourceControl: Info Source control is disabled
+[2015.09.04-23.38.47:105][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.09.04-23.38.47:105][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2015.09.04-23.38.47:354][  0]LogEngine: Initializing Engine...
+[2015.09.04-23.38.47:359][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.09.04-23.38.47:364][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.09.04-23.38.47:668][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.09.04-23.38.47:679][  0]LogInit: XAudio2 using 'Headphones (Cirrus Logic High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.04-23.38.47:702][  0]LogInit: FAudioDevice initialized.
+[2015.09.04-23.38.47:777][  0]LogDerivedDataCache: Saved boot cache 0.07s 48MB C:/Users/jessy/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.09.04-23.38.47:789][  0]LogInit: Texture streaming: Disabled
+[2015.09.04-23.38.47:840][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.09.04-23.38.47:841][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.09.04-23.38.47:841][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId e758ab52454474a55f52668390646e3b|82a2ba43aacb4a26af7064aafe4b8476|624d915d-d533-48b1-b7ea-6de3571d2217
+[2015.09.04-23.38.47:841][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.09.04-23.38.47:934][  0]LogInit: Transaction tracking system initialized
+[2015.09.04-23.38.48:206][  0]BlueprintLog: New page: Editor Load
+[2015.09.04-23.38.48:272][  0]LogAssetRegistry: FAssetRegistry took 0.0111 seconds to start up
+[2015.09.04-23.38.48:273][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.09.04-23.38.49:750][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.09.04-23.38.49:752][  0]LogConsoleResponse:Display: 
+[2015.09.04-23.38.51:353][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.09.04-23.38.52:249][  0]SourceControl: Info Source control is disabled
+[2015.09.04-23.38.52:249][  0]Cmd: MAP LOAD FILE="../../../../../../Users/jessy/Desktop/GodKiller_SourceTree/Content/Scene/NewCave.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
+[2015.09.04-23.38.52:334][  0]LightingResults: New page: Lighting Build
+[2015.09.04-23.38.52:362][  0]MapCheck: New page: Map Check
+[2015.09.04-23.38.52:362][  0]LightingResults: New page: Lighting Build
+[2015.09.04-23.38.52:392][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000084FC70AF20
+[2015.09.04-23.39.20:266][  0]LogBlueprint:Warning: [compiler Gui] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
+[2015.09.04-23.39.20:323][  0]LogBlueprint:Warning: [compiler Gui] Warning [0086.65] Compile of Gui successful, but with 1 Warning(s) [in 173 ms]
+[2015.09.04-23.39.20:323][  0]LogBlueprint:Warning: [compiler Gui] Warning [0086.65] Compile of Gui successful, but with 2 Warning(s) [in 0 ms]
+[2015.09.04-23.39.20:324][  0]LogBlueprint:Warning: [compiler Gui] Warning [0086.65] Compile of Gui successful, but with 3 Warning(s) [in 0 ms]
+[2015.09.04-23.39.21:827][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
+[2015.09.04-23.39.21:829][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0088.15] Compile of GnawmersHealth successful, but with 1 Warning(s) [in 36 ms]
+[2015.09.04-23.39.21:829][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0088.15] Compile of GnawmersHealth successful, but with 2 Warning(s) [in 0 ms]
+[2015.09.04-23.39.21:829][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0088.15] Compile of GnawmersHealth successful, but with 3 Warning(s) [in 0 ms]
+[2015.09.04-23.39.26:876][  0]LogBlueprint:Warning: [compiler Gui] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
+[2015.09.04-23.39.26:896][  0]LogBlueprint:Warning: [compiler Gui] Warning [0093.22] Compile of Gui successful, but with 1 Warning(s) [in 92 ms]
+[2015.09.04-23.39.26:898][  0]LogBlueprint:Warning: [compiler Gui] Warning [0093.22] Compile of Gui successful, but with 2 Warning(s) [in 2 ms]
+[2015.09.04-23.39.27:126][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
+[2015.09.04-23.39.27:127][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0093.45] Compile of GnawmersHealth successful, but with 1 Warning(s) [in 35 ms]
+[2015.09.04-23.39.27:128][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0093.45] Compile of GnawmersHealth successful, but with 2 Warning(s) [in 0 ms]
+[2015.09.04-23.42.16:827][  0]LogAIModule: Creating AISystem for world NewCave
+[2015.09.04-23.42.24:266][  0]LogEditorServer: Finished looking for orphan Actors (0.015 secs)
+[2015.09.04-23.42.24:414][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.09.04-23.42.25:037][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 595.752ms to complete.
+[2015.09.04-23.42.25:038][  0]LogFileHelpers: Loading map 'NewCave' took 212.789
+[2015.09.04-23.42.27:572][  0]LogCollectionManager: Loaded 0 collections in 0.037364 seconds
+[2015.09.04-23.42.27:670][  0]LogContentBrowser: Native class hierarchy populated in 0.0845 seconds. Added 1792 classes and 301 folders.
+[2015.09.04-23.42.28:488][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2015.09.04-23.42.29:470][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2015.09.04-23.42.30:834][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2015.09.04-23.42.32:411][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.09.04-23.42.32:680][  0]LogD3D11RHI: InitD3DDevice
+[2015.09.04-23.42.33:039][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.09.04-23.42.33:160][  0]LogLoad: Full Startup: 279.49 seconds (BP compile: 11.98 seconds)
+[2015.09.04-23.42.35:029][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.09.04-23.42.35:687][  0]LogContentStreaming: Texture pool size now 200 MB
+[2015.09.04-23.42.38:909][  0]LogRenderer: Reallocating scene render targets to support 760x616 (Frame:2).
+[2015.09.04-23.42.40:509][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2015.09.04-23.42.40:975][  1]Cmd: UpdateLandscapeEditorData
+[2015.09.04-23.42.48:354][ 38]LogAssetRegistry: Asset discovery search completed in 240.0937 seconds
+[2015.09.04-23.42.52:920][ 61]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Fort4)
+[2015.09.04-23.43.01:217][ 97]LogD3D11RHI: InitD3DDevice
+[2015.09.04-23.43.04:577][114]LogD3D11RHI: InitD3DDevice
+[2015.09.04-23.43.05:228][114]LogD3D11RHI: InitD3DDevice
+[2015.09.04-23.43.05:590][114]LogRenderer: Reallocating scene render targets to support 1008x616 (Frame:141).
+[2015.09.04-23.43.08:245][128]LogD3D11RHI: InitD3DDevice
+[2015.09.04-23.43.09:087][158]LogRenderer: Reallocating scene render targets to support 1016x616 (Frame:156).
+[2015.09.04-23.43.13:930][364]LogD3D11RHI: InitD3DDevice
+[2015.09.04-23.43.19:853][613]LogD3D11RHI: InitD3DDevice
+[2015.09.04-23.43.20:042][613]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RaysModels/Fort001/Fort001" FILE="../../../../../../Users/jessy/Desktop/GodKiller_SourceTree/Content/RaysModels/Fort001/Fort001.uasset" SILENT=true
+[2015.09.04-23.43.20:499][613]LogSavePackage: Save=135.949615ms
+[2015.09.04-23.43.20:499][613]LogSavePackage: Moving '../../../../../../Users/jessy/Desktop/GodKiller_SourceTree/Saved/Fort001366756CD446859B813A31C9BEB27C2CC.tmp' to '../../../../../../Users/jessy/Desktop/GodKiller_SourceTree/Content/RaysModels/Fort001/Fort001.uasset'
+[2015.09.04-23.44.14:979][966]LogD3D11RHI: InitD3DDevice
+[2015.09.04-23.44.16:636][ 18]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.04-23.44.17:132][ 18]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000084962E2E80
+[2015.09.04-23.44.18:793][ 18]LogD3D11RHI: InitD3DDevice
+[2015.09.04-23.44.19:022][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene/NewCave" FILE="../../../../../../Users/jessy/Desktop/GodKiller_SourceTree/Content/Scene/NewCave.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.09.04-23.44.22:860][ 18]LogSavePackage: Save=3377.380859ms
+[2015.09.04-23.44.22:860][ 18]LogSavePackage: Moving '../../../../../../Users/jessy/Desktop/GodKiller_SourceTree/Saved/NewCaveAC7A22374CF6689DD094FCAF7F156FFB.tmp' to '../../../../../../Users/jessy/Desktop/GodKiller_SourceTree/Content/Scene/NewCave.umap'
+[2015.09.04-23.44.23:011][ 18]LogFileHelpers: Saving map 'NewCave' took 4.192
+[2015.09.04-23.45.08:193][615]LogD3D11RHI: InitD3DDevice
+[2015.09.04-23.45.08:915][615]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/jessy/Desktop/vampireUE4/Goblin/stable_sword_inward_slash.fbx)
+[2015.09.04-23.45.09:609][615]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.09.04-23.45.09:609][615]LogFbx: ItemName: Model, ItemCount : 66
+[2015.09.04-23.45.09:609][615]LogFbx: ItemName: NodeAttribute, ItemCount : 66
+[2015.09.04-23.45.09:609][615]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.09.04-23.45.09:609][615]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.09.04-23.45.09:609][615]LogFbx: ItemName: AnimationCurveNode, ItemCount : 55
+[2015.09.04-23.45.09:609][615]LogFbx: ItemName: AnimationCurve, ItemCount : 321
+[2015.09.04-23.45.09:881][615]LogD3D11RHI: InitD3DDevice
+[2015.09.04-23.45.11:307][615]LogD3D11RHI: InitD3DDevice
+[2015.09.04-23.45.26:703][615]LogFbx: Loading FBX Scene from ../../../../../../Users/jessy/Desktop/vampireUE4/Goblin/stable_sword_inward_slash.fbx
+[2015.09.04-23.45.26:804][615]LogFbx: FBX Scene Loaded Succesfully
+[2015.09.04-23.45.26:838][615]LogFbx: SortedLinks :(0) Hips
+[2015.09.04-23.45.26:838][615]LogFbx: SortedLinks :(1) Spine
+[2015.09.04-23.45.26:838][615]LogFbx: SortedLinks :(2) Spine1
+[2015.09.04-23.45.26:838][615]LogFbx: SortedLinks :(3) Spine2
+[2015.09.04-23.45.26:838][615]LogFbx: SortedLinks :(4) Neck
+[2015.09.04-23.45.26:838][615]LogFbx: SortedLinks :(5) Neck1
+[2015.09.04-23.45.26:838][615]LogFbx: SortedLinks :(6) Head
+[2015.09.04-23.45.26:838][615]LogFbx: SortedLinks :(7) HeadTop_End
+[2015.09.04-23.45.26:838][615]LogFbx: SortedLinks :(8) LeftShoulder
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(9) LeftArm
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(10) LeftForeArm
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(11) LeftHand
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(12) LeftHandThumb1
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(13) LeftHandThumb2
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(14) LeftHandThumb3
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(15) LeftHandThumb4
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(16) LeftHandMiddle1
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(17) LeftHandMiddle2
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(18) LeftHandMiddle3
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(19) LeftHandMiddle4
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(20) LeftHandIndex1
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(21) LeftHandIndex2
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(22) LeftHandIndex3
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(23) LeftHandIndex4
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(24) LeftHandRing1
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(25) LeftHandRing2
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(26) LeftHandRing3
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(27) LeftHandRing4
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(28) LeftHandPinky1
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(29) LeftHandPinky2
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(30) LeftHandPinky3
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(31) LeftHandPinky4
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(32) RightShoulder
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(33) RightArm
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(34) RightForeArm
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(35) RightHand
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(36) RightHandThumb1
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(37) RightHandThumb2
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(38) RightHandThumb3
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(39) RightHandThumb4
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(40) RightHandIndex1
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(41) RightHandIndex2
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(42) RightHandIndex3
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(43) RightHandIndex4
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(44) RightHandMiddle1
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(45) RightHandMiddle2
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(46) RightHandMiddle3
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(47) RightHandMiddle4
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(48) RightHandRing1
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(49) RightHandRing2
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(50) RightHandRing3
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(51) RightHandRing4
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(52) RightHandPinky1
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(53) RightHandPinky2
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(54) RightHandPinky3
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(55) RightHandPinky4
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(56) LeftUpLeg
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(57) LeftLeg
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(58) LeftFoot
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(59) LeftToeBase
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(60) LeftFootToeBase_End
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(61) RightUpLeg
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(62) RightLeg
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(63) RightFoot
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(64) RightToeBase
+[2015.09.04-23.45.26:839][615]LogFbx: SortedLinks :(65) RightFootToeBase_End
+[2015.09.04-23.45.26:852][615]LogFbx: Parsing AnimStack mixamo.com
+[2015.09.04-23.45.26:869][615]LogLinker:Warning: Can't find file '/Game/Goblin/stable_sword_inward_slash'
+[2015.09.04-23.45.26:889][615]LogLinker:Warning: Can't find file '/Game/Goblin/stable_sword_inward_slash'
+[2015.09.04-23.45.26:889][615]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Goblin/stable_sword_inward_slash.stable_sword_inward_slash'
+[2015.09.04-23.45.27:817][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-11.144332,14.886041,130.103668|-0.261749,13.948117,102.419701|1.000000,1.000000,1.000000), 
+Converted Global Transform (-8.386652,12.955173,127.212006|-0.261749,13.948127,102.419685|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:817][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-12.267607,19.834440,152.567719|-0.261749,13.948117,102.419701|1.000000,1.000000,1.000000), 
+Converted Global Transform (-9.509927,17.903568,149.676041|-0.261749,13.948127,102.419685|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:817][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-11.201438,14.654352,130.036148|-0.486237,13.939255,102.264038|1.000000,1.000000,1.000000), 
+Converted Global Transform (-8.427531,12.751865,127.141228|-0.486237,13.939260,102.264053|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:817][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-12.223703,19.564896,152.513336|-0.486237,13.939255,102.264038|1.000000,1.000000,1.000000), 
+Converted Global Transform (-9.449793,17.662415,149.618408|-0.486237,13.939260,102.264053|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:818][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-11.052555,14.500618,130.037674|-0.768433,13.711641,102.347626|1.000000,1.000000,1.000000), 
+Converted Global Transform (-8.282931,12.608522,127.131844|-0.768433,13.711640,102.347603|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:818][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-11.955626,19.473257,152.506317|-0.768433,13.711641,102.347626|1.000000,1.000000,1.000000), 
+Converted Global Transform (-9.185999,17.581156,149.600494|-0.768433,13.711640,102.347603|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:818][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-10.667036,14.447933,130.235672|-0.995636,12.860262,102.765114|1.000000,1.000000,1.000000), 
+Converted Global Transform (-7.939181,12.520111,127.313896|-0.995636,12.860271,102.765137|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:818][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-11.446303,19.612623,152.665588|-0.995636,12.860262,102.765114|1.000000,1.000000,1.000000), 
+Converted Global Transform (-8.718452,17.684807,149.743805|-0.995636,12.860271,102.765137|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:819][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-10.141178,14.473676,130.674301|-1.135773,10.997645,103.418419|1.000000,1.000000,1.000000), 
+Converted Global Transform (-7.503466,12.446092,127.737282|-1.135773,10.997646,103.418404|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:819][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-10.748224,19.921959,153.042358|-1.135773,10.997645,103.418419|1.000000,1.000000,1.000000), 
+Converted Global Transform (-8.110514,17.894371,150.105331|-1.135773,10.997643,103.418396|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:819][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-9.141439,14.564881,131.412704|-2.183502,7.812686,103.508301|1.000000,1.000000,1.000000), 
+Converted Global Transform (-6.694037,12.373081,128.429276|-2.183502,7.812675,103.508278|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:819][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-9.044809,20.128778,153.760330|-2.183502,7.812686,103.508301|1.000000,1.000000,1.000000), 
+Converted Global Transform (-6.597407,17.936977,150.776886|-2.183502,7.812677,103.508301|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:819][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-7.999694,14.696057,132.312805|-3.902618,3.944289,103.410332|1.000000,1.000000,1.000000), 
+Converted Global Transform (-5.811141,12.306685,129.280365|-3.902618,3.944278,103.410339|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:819][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-6.856189,20.248735,154.634155|-3.902618,3.944289,103.410332|1.000000,1.000000,1.000000), 
+Converted Global Transform (-4.667637,17.859367,151.601715|-3.902618,3.944279,103.410355|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:820][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-6.830850,14.396914,133.432602|-5.806152,-0.175568,103.132042|1.000000,1.000000,1.000000), 
+Converted Global Transform (-4.969247,11.818336,130.337433|-5.806122,-0.175568,103.132004|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:820][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-4.548462,19.742083,155.717178|-5.806152,-0.175568,103.132042|1.000000,1.000000,1.000000), 
+Converted Global Transform (-2.686862,17.163502,152.621994|-5.806122,-0.175568,103.132004|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:820][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-5.565134,13.878856,134.624878|-7.263214,-4.186066,102.437386|1.000000,1.000000,1.000000), 
+Converted Global Transform (-4.114316,11.129821,131.457474|-7.263214,-4.186066,102.437408|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:820][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-2.361965,18.738186,156.907364|-7.263214,-4.186066,102.437386|1.000000,1.000000,1.000000), 
+Converted Global Transform (-0.911146,15.989153,153.739975|-7.263214,-4.186066,102.437408|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:820][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-4.559257,12.939075,135.855576|-8.062073,-6.783447,102.081978|1.000000,1.000000,1.000000), 
+Converted Global Transform (-3.550590,10.084521,132.610779|-8.062073,-6.783447,102.081993|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:820][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-0.843093,17.472614,158.127075|-8.062073,-6.783447,102.081978|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.165577,14.618064,154.882278|-8.062073,-6.783447,102.081993|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:820][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-3.820386,12.093652,136.964371|-8.081635,-8.626190,101.740051|1.000000,1.000000,1.000000), 
+Converted Global Transform (-3.282495,9.181268,133.659348|-8.081635,-8.626190,101.740044|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:821][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (0.031053,16.370790,159.263580|-8.081635,-8.626190,101.740051|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.568944,13.458403,155.958557|-8.081635,-8.626190,101.740059|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:821][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-3.352494,11.244381,137.931854|-7.635712,-10.562592,101.220505|1.000000,1.000000,1.000000), 
+Converted Global Transform (-3.301747,8.320624,134.593658|-7.635681,-10.562592,101.220505|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:821][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (0.438662,15.218766,160.297318|-7.635712,-10.562592,101.220505|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.489406,12.295013,156.959122|-7.635681,-10.562592,101.220505|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:821][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-3.235621,10.246845,138.783020|-6.889893,-11.919556,101.087303|1.000000,1.000000,1.000000), 
+Converted Global Transform (-3.674625,7.386549,135.418396|-6.889893,-11.919556,101.087303|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:821][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (0.353914,14.138908,161.196167|-6.889893,-11.919556,101.087303|1.000000,1.000000,1.000000), 
+Converted Global Transform (-0.085088,11.278608,157.831543|-6.889893,-11.919556,101.087303|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:821][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-3.313785,9.306349,139.470474|-5.902130,-13.310242,101.360283|1.000000,1.000000,1.000000), 
+Converted Global Transform (-4.227861,6.577471,136.092270|-5.902130,-13.310242,101.360275|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:821][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (0.015319,13.304337,161.905167|-5.902130,-13.310242,101.360283|1.000000,1.000000,1.000000), 
+Converted Global Transform (-0.898758,10.575457,158.526962|-5.902130,-13.310242,101.360291|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:822][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-3.468502,8.328957,139.767288|-5.021088,-14.666809,101.682938|1.000000,1.000000,1.000000), 
+Converted Global Transform (-4.810664,5.797123,136.378647|-5.021088,-14.666809,101.682976|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:822][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-0.349785,12.457815,162.208496|-5.021088,-14.666809,101.682938|1.000000,1.000000,1.000000), 
+Converted Global Transform (-1.691947,9.925989,158.819855|-5.021088,-14.666809,101.682976|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:822][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-3.813198,7.203396,139.790619|-4.214813,-15.668671,102.057907|1.000000,1.000000,1.000000), 
+Converted Global Transform (-5.534968,4.935332,136.386795|-4.214783,-15.668671,102.057899|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:822][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-0.889469,11.504915,162.225647|-4.214813,-15.668671,102.057907|1.000000,1.000000,1.000000), 
+Converted Global Transform (-2.611241,9.236859,158.821808|-4.214783,-15.668671,102.057899|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:822][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-4.711801,6.070951,139.686646|-3.590820,-16.747131,102.446762|1.000000,1.000000,1.000000), 
+Converted Global Transform (-6.733659,4.099629,136.263123|-3.590820,-16.747131,102.446762|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:822][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-1.899762,10.533811,162.104446|-3.590820,-16.747131,102.446762|1.000000,1.000000,1.000000), 
+Converted Global Transform (-3.921618,8.562487,158.680923|-3.590820,-16.747131,102.446747|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:841][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-5.852246,5.048809,139.371811|-2.768982,-17.640228,103.020569|1.000000,1.000000,1.000000), 
+Converted Global Transform (-8.104033,3.398895,135.921906|-2.768982,-17.640198,103.020554|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:841][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-3.211850,9.779673,161.755493|-2.768982,-17.640228,103.020569|1.000000,1.000000,1.000000), 
+Converted Global Transform (-5.463640,8.129757,158.305588|-2.768982,-17.640198,103.020569|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:841][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-6.790058,3.929230,138.796143|-1.182404,-18.494354,103.654243|1.000000,1.000000,1.000000), 
+Converted Global Transform (-9.238350,2.649347,135.323059|-1.182404,-18.494354,103.654251|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:841][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-4.590230,9.052055,161.141159|-1.182404,-18.494354,103.654243|1.000000,1.000000,1.000000), 
+Converted Global Transform (-7.038520,7.772174,157.668060|-1.182404,-18.494354,103.654251|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:841][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-7.857619,3.284260,138.005798|0.524149,-20.467346,103.668274|1.000000,1.000000,1.000000), 
+Converted Global Transform (-10.445004,2.344446,134.524872|0.524149,-20.467346,103.668266|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:841][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-6.104436,8.566197,160.353287|0.524149,-20.467346,103.668274|1.000000,1.000000,1.000000), 
+Converted Global Transform (-8.691820,7.626382,156.872360|0.524149,-20.467346,103.668266|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:841][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-8.686378,2.873374,137.060165|1.782666,-22.390167,104.533585|1.000000,1.000000,1.000000), 
+Converted Global Transform (-11.370270,2.240408,133.582993|1.782666,-22.390137,104.533592|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:842][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-7.079926,8.590907,159.311264|1.782666,-22.390167,104.533585|1.000000,1.000000,1.000000), 
+Converted Global Transform (-9.763819,7.957943,155.834076|1.782666,-22.390137,104.533577|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:842][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-8.959022,2.691010,136.609482|2.291064,-23.527588,105.089455|1.000000,1.000000,1.000000), 
+Converted Global Transform (-11.673100,2.184397,133.135056|2.291071,-23.527588,105.089455|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:842][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-7.332151,8.651163,158.795334|2.291064,-23.527588,105.089455|1.000000,1.000000,1.000000), 
+Converted Global Transform (-10.046229,8.144553,155.320908|2.291071,-23.527588,105.089455|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:842][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-9.164389,2.512843,136.165009|2.834009,-24.943024,105.439804|1.000000,1.000000,1.000000), 
+Converted Global Transform (-11.904510,2.114701,132.696884|2.834009,-24.943024,105.439812|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:842][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-7.522474,8.641848,158.303696|2.834009,-24.943024,105.439804|1.000000,1.000000,1.000000), 
+Converted Global Transform (-10.262595,8.243708,154.835571|2.834009,-24.943024,105.439812|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:843][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-9.331898,2.327211,135.722290|3.367754,-26.373169,105.661041|1.000000,1.000000,1.000000), 
+Converted Global Transform (-12.096184,2.029552,132.263306|3.367741,-26.373199,105.661072|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:843][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-7.682972,8.580927,157.825546|3.367754,-26.373169,105.661041|1.000000,1.000000,1.000000), 
+Converted Global Transform (-10.447252,8.283268,154.366562|3.367741,-26.373199,105.661072|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:843][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-9.500883,2.141837,135.292938|3.774485,-27.630310,105.919914|1.000000,1.000000,1.000000), 
+Converted Global Transform (-12.284252,1.943567,131.842117|3.774492,-27.630310,105.919922|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:843][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-7.806089,8.518312,157.357620|3.774485,-27.630310,105.919914|1.000000,1.000000,1.000000), 
+Converted Global Transform (-10.589458,8.320043,153.906799|3.774492,-27.630310,105.919937|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:843][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-9.693556,1.986945,134.892944|3.979849,-28.750000,106.256561|1.000000,1.000000,1.000000), 
+Converted Global Transform (-12.487490,1.883989,131.446487|3.979842,-28.750000,106.256577|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:843][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-7.879045,8.479659,156.914169|3.979849,-28.750000,106.256561|1.000000,1.000000,1.000000), 
+Converted Global Transform (-10.672977,8.376702,153.467712|3.979842,-28.750000,106.256569|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:844][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-9.897826,1.884658,134.529404|3.997990,-29.852264,106.572586|1.000000,1.000000,1.000000), 
+Converted Global Transform (-12.694221,1.866737,131.083450|3.997990,-29.852264,106.572563|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:844][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-7.902035,8.448975,156.513687|3.997990,-29.852264,106.572586|1.000000,1.000000,1.000000), 
+Converted Global Transform (-10.698430,8.431055,153.067719|3.997990,-29.852264,106.572563|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:844][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-10.066235,1.837577,134.237762|3.915057,-30.843689,106.758858|1.000000,1.000000,1.000000), 
+Converted Global Transform (-12.860777,1.884341,130.790573|3.915051,-30.843689,106.758850|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:844][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-7.891842,8.410782,156.202454|3.915057,-30.843689,106.758858|1.000000,1.000000,1.000000), 
+Converted Global Transform (-10.686384,8.457543,152.755264|3.915051,-30.843689,106.758850|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:844][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-10.371157,2.031204,133.673431|3.744043,-33.117371,106.416107|1.000000,1.000000,1.000000), 
+Converted Global Transform (-13.146427,2.189637,130.214035|3.744036,-33.117371,106.416107|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:844][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-7.956995,8.368168,155.682449|3.744043,-33.117371,106.416107|1.000000,1.000000,1.000000), 
+Converted Global Transform (-10.732262,8.526602,152.223053|3.744036,-33.117371,106.416107|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:845][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-10.556844,2.311524,133.287384|4.702776,-33.370880,105.655090|1.000000,1.000000,1.000000), 
+Converted Global Transform (-13.294497,2.473485,129.798279|4.702783,-33.370850,105.655067|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:845][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-8.589396,8.598943,155.355011|4.702776,-33.370880,105.655090|1.000000,1.000000,1.000000), 
+Converted Global Transform (-11.327055,8.760904,151.865891|4.702783,-33.370850,105.655067|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:845][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-10.509719,2.915947,133.820679|6.084052,-28.950623,104.852341|1.000000,1.000000,1.000000), 
+Converted Global Transform (-13.155788,2.859422,130.258423|6.084052,-28.950623,104.852356|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:845][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-9.656208,9.325986,155.924194|6.084052,-28.950623,104.852341|1.000000,1.000000,1.000000), 
+Converted Global Transform (-12.302277,9.269463,152.361938|6.084052,-28.950623,104.852356|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:845][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-10.946466,4.020435,135.676208|6.846281,-20.349670,103.354507|1.000000,1.000000,1.000000), 
+Converted Global Transform (-13.346823,3.562429,131.971725|6.846294,-20.349640,103.354515|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:845][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-11.556199,10.047719,157.895172|6.846281,-20.349670,103.354507|1.000000,1.000000,1.000000), 
+Converted Global Transform (-13.956557,9.589718,154.190674|6.846288,-20.349640,103.354507|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:845][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-11.847414,4.635726,138.800751|6.754135,-9.633301,100.680229|1.000000,1.000000,1.000000), 
+Converted Global Transform (-13.756879,3.648831,134.918137|6.754135,-9.633301,100.680229|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:846][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-13.734355,9.407792,161.251785|6.754135,-9.633301,100.680229|1.000000,1.000000,1.000000), 
+Converted Global Transform (-15.643823,8.420896,157.369171|6.754135,-9.633301,100.680229|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:846][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-12.132705,5.011747,142.665207|5.174818,2.338933,98.692986|1.000000,1.000000,1.000000), 
+Converted Global Transform (-13.382799,3.579351,138.655197|5.174818,2.338925,98.692978|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:846][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-14.329633,8.527412,165.319031|5.174818,2.338933,98.692986|1.000000,1.000000,1.000000), 
+Converted Global Transform (-15.579724,7.095017,161.309021|5.174818,2.338925,98.692978|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:846][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-11.896877,6.208838,146.446106|2.010514,13.888135,97.047737|1.000000,1.000000,1.000000), 
+Converted Global Transform (-12.313861,4.537670,142.356155|2.010514,13.888138,97.047737|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:846][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-13.382326,8.878158,169.272644|2.010514,13.888135,97.047737|1.000000,1.000000,1.000000), 
+Converted Global Transform (-13.799309,7.206988,165.182678|2.010514,13.888136,97.047722|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:846][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-12.224764,8.824409,149.142807|-0.656342,22.115494,94.775467|1.000000,1.000000,1.000000), 
+Converted Global Transform (-11.738801,7.132287,145.069061|-0.656342,22.115492,94.775444|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:846][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-12.749306,10.813180,172.080811|-0.656342,22.115494,94.775467|1.000000,1.000000,1.000000), 
+Converted Global Transform (-12.263342,9.121058,168.007050|-0.656342,22.115486,94.775436|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:847][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-13.000023,10.961219,150.252136|-1.359283,26.597267,96.493919|1.000000,1.000000,1.000000), 
+Converted Global Transform (-11.830441,9.440268,146.250488|-1.359283,26.597277,96.493973|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:847][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-13.735843,13.642443,173.113708|-1.359283,26.597267,96.493919|1.000000,1.000000,1.000000), 
+Converted Global Transform (-12.566260,12.121493,169.112076|-1.359283,26.597275,96.493965|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:847][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-12.759222,12.762613,150.478378|-0.334259,29.228769,99.657486|1.000000,1.000000,1.000000), 
+Converted Global Transform (-11.155929,11.410316,146.567444|-0.334259,29.228758,99.657448|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:847][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-14.589495,16.304651,173.160675|-0.334259,29.228769,99.657486|1.000000,1.000000,1.000000), 
+Converted Global Transform (-12.986200,14.952349,169.249725|-0.334259,29.228758,99.657448|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:847][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-13.185356,15.848451,149.721008|3.032624,31.226896,100.418427|1.000000,1.000000,1.000000), 
+Converted Global Transform (-11.342209,14.511875,145.911667|3.032645,31.226875,100.418411|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:847][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-16.430841,18.892591,172.317062|3.032624,31.226896,100.418427|1.000000,1.000000,1.000000), 
+Converted Global Transform (-14.587698,17.556009,168.507706|3.032645,31.226871,100.418404|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:848][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-14.383673,19.207056,148.167679|4.775388,29.980099,98.522415|1.000000,1.000000,1.000000), 
+Converted Global Transform (-12.421515,17.726765,144.472641|4.775381,29.980097,98.522430|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:848][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-17.790981,21.322084,170.845840|4.775388,29.980099,98.522415|1.000000,1.000000,1.000000), 
+Converted Global Transform (-15.828825,19.841801,167.150787|4.775381,29.980093,98.522430|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:848][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-15.460389,20.719875,146.955002|2.863714,27.682777,98.207375|1.000000,1.000000,1.000000), 
+Converted Global Transform (-13.342148,19.171892,143.375702|2.863707,27.682781,98.207352|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:848][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-18.052006,23.210436,169.702805|2.863714,27.682777,98.207375|1.000000,1.000000,1.000000), 
+Converted Global Transform (-15.933766,21.662453,166.123489|2.863707,27.682772,98.207344|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:848][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-15.986194,21.265778,146.073898|1.812971,26.565052,99.178406|1.000000,1.000000,1.000000), 
+Converted Global Transform (-13.685143,19.826365,142.562790|1.812971,26.565062,99.178429|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:848][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-18.326132,24.338722,168.777725|1.812971,26.565052,99.178406|1.000000,1.000000,1.000000), 
+Converted Global Transform (-16.025085,22.899311,165.266617|1.812971,26.565062,99.178429|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:848][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-16.184727,21.710508,144.985413|1.925567,25.729641,100.141998|1.000000,1.000000,1.000000), 
+Converted Global Transform (-13.683052,20.428812,141.551254|1.925581,25.729643,100.142006|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:849][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-18.683384,25.142498,167.620789|1.925567,25.729641,100.141998|1.000000,1.000000,1.000000), 
+Converted Global Transform (-16.181711,23.860798,164.186630|1.925581,25.729647,100.142014|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:849][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-16.662052,22.127764,143.823486|2.285607,25.249800,101.474579|1.000000,1.000000,1.000000), 
+Converted Global Transform (-13.997657,20.970196,140.468552|2.285613,25.249802,101.474571|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:849][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-19.480976,25.997004,166.350464|2.285607,25.249800,101.474579|1.000000,1.000000,1.000000), 
+Converted Global Transform (-16.816580,24.839430,162.995529|2.285607,25.249802,101.474571|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:849][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-17.381498,22.695038,142.782745|2.688164,25.234167,102.599609|1.000000,1.000000,1.000000), 
+Converted Global Transform (-14.597340,21.617165,139.499237|2.688157,25.234158,102.599609|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:849][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-20.526741,26.899101,165.206284|2.688164,25.234167,102.599609|1.000000,1.000000,1.000000), 
+Converted Global Transform (-17.742580,25.821230,161.922775|2.688157,25.234158,102.599609|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:849][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-18.001444,22.990547,142.026138|3.032590,25.348309,103.849022|1.000000,1.000000,1.000000), 
+Converted Global Transform (-15.122766,21.988087,138.800797|3.032604,25.348307,103.849007|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:850][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-21.480268,27.574543,164.325623|3.032590,25.348309,103.849022|1.000000,1.000000,1.000000), 
+Converted Global Transform (-18.601591,26.572079,161.100281|3.032604,25.348305,103.849007|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:850][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-18.355488,23.235722,141.539856|3.088837,25.520317,105.215416|1.000000,1.000000,1.000000), 
+Converted Global Transform (-15.410276,22.254892,138.368393|3.088850,25.520325,105.215446|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:850][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-22.089701,28.282185,163.697723|3.088837,25.520317,105.215416|1.000000,1.000000,1.000000), 
+Converted Global Transform (-19.144491,27.301357,160.526260|3.088850,25.520321,105.215431|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:850][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-18.223627,23.433100,141.125229|2.943183,25.582577,106.118317|1.000000,1.000000,1.000000), 
+Converted Global Transform (-15.239035,22.415071,138.002670|2.943183,25.582575,106.118317|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:850][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-22.058544,28.816744,163.186325|2.943183,25.582577,106.118317|1.000000,1.000000,1.000000), 
+Converted Global Transform (-19.073954,27.798716,160.063751|2.943183,25.582571,106.118309|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:850][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-17.689392,23.537895,140.543427|2.506310,25.198336,106.339554|1.000000,1.000000,1.000000), 
+Converted Global Transform (-14.693539,22.447611,137.456238|2.506310,25.198318,106.339546|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:851][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-21.371181,29.096371,162.587250|2.506310,25.198336,106.339554|1.000000,1.000000,1.000000), 
+Converted Global Transform (-18.375324,28.006084,159.500061|2.506310,25.198318,106.339546|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:851][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-17.237114,23.644501,139.620026|1.826673,23.926208,106.021957|1.000000,1.000000,1.000000), 
+Converted Global Transform (-14.247414,22.450949,136.565262|1.826673,23.926214,106.021942|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:851][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-20.506929,29.277058,161.709946|1.826673,23.926208,106.021957|1.000000,1.000000,1.000000), 
+Converted Global Transform (-17.517231,28.083500,158.655182|1.826673,23.926214,106.021942|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:851][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-17.022144,23.580750,138.335541|1.221914,22.193794,105.573235|1.000000,1.000000,1.000000), 
+Converted Global Transform (-14.039047,22.275728,135.320145|1.221914,22.193798,105.573242|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:851][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-19.839802,29.236824,160.481689|1.221914,22.193794,105.573235|1.000000,1.000000,1.000000), 
+Converted Global Transform (-16.856705,27.931805,157.466293|1.221914,22.193798,105.573242|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:851][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-16.960697,23.260412,136.784790|0.605694,20.800341,105.149681|1.000000,1.000000,1.000000), 
+Converted Global Transform (-13.981020,21.855618,133.811127|0.605715,20.800337,105.149666|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:851][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-19.359535,28.914509,158.980713|0.605694,20.800341,105.149681|1.000000,1.000000,1.000000), 
+Converted Global Transform (-16.379866,27.509712,156.007034|0.605715,20.800337,105.149666|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:852][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-16.858150,22.799675,135.075165|0.210192,20.005247,104.795891|1.000000,1.000000,1.000000), 
+Converted Global Transform (-13.878942,21.327015,132.134033|0.210192,20.005239,104.795883|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:852][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-18.987526,28.409986,157.309647|0.210192,20.005247,104.795891|1.000000,1.000000,1.000000), 
+Converted Global Transform (-16.008314,26.937321,154.368515|0.210192,20.005239,104.795883|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:852][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-16.554804,22.228775,133.246689|0.301724,19.255070,104.577499|1.000000,1.000000,1.000000), 
+Converted Global Transform (-13.577345,20.704348,130.330276|0.301724,19.255066,104.577492|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:852][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-18.616226,27.774679,155.503723|0.301724,19.255070,104.577499|1.000000,1.000000,1.000000), 
+Converted Global Transform (-15.638767,26.250248,152.587311|0.301724,19.255066,104.577492|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:852][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-15.999228,21.528379,131.382645|0.669003,18.559746,104.649139|1.000000,1.000000,1.000000), 
+Converted Global Transform (-13.040580,19.944267,128.478928|0.668997,18.559755,104.649147|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:852][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-18.137215,27.079889,153.631073|0.669003,18.559746,104.649139|1.000000,1.000000,1.000000), 
+Converted Global Transform (-15.178570,25.495779,150.727356|0.668997,18.559755,104.649147|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:853][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-15.331444,20.887463,129.684433|0.820388,18.107794,104.619789|1.000000,1.000000,1.000000), 
+Converted Global Transform (-12.406109,19.230463,126.787636|0.820388,18.107782,104.619774|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:853][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-17.477947,26.426542,151.935135|0.820388,18.107794,104.619789|1.000000,1.000000,1.000000), 
+Converted Global Transform (-14.552614,24.769539,149.038330|0.820388,18.107782,104.619774|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:853][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-14.690078,20.312962,128.378281|0.701146,17.487034,104.448608|1.000000,1.000000,1.000000), 
+Converted Global Transform (-11.796951,18.578859,125.494308|0.701146,17.487038,104.448608|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:853][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-16.712496,25.825390,150.647217|0.701146,17.487034,104.448608|1.000000,1.000000,1.000000), 
+Converted Global Transform (-13.819372,24.091284,147.763245|0.701146,17.487038,104.448608|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:853][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-14.063870,19.636101,127.519341|0.504976,16.803835,104.135101|1.000000,1.000000,1.000000), 
+Converted Global Transform (-11.200616,17.838423,124.644493|0.504983,16.803831,104.135109|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:853][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-15.912444,25.077475,149.820816|0.504976,16.803835,104.135101|1.000000,1.000000,1.000000), 
+Converted Global Transform (-13.049189,23.279793,146.945984|0.504983,16.803831,104.135109|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:853][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-13.530736,18.934574,127.116661|0.254192,15.979435,103.768143|1.000000,1.000000,1.000000), 
+Converted Global Transform (-10.698436,17.077614,124.248840|0.254192,15.979450,103.768150|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:854][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-15.167782,24.291376,149.455109|0.254192,15.979435,103.768143|1.000000,1.000000,1.000000), 
+Converted Global Transform (-12.335484,22.434416,146.587296|0.254192,15.979450,103.768150|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:854][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-13.003065,18.208775,127.230484|0.293159,15.211039,103.637009|1.000000,1.000000,1.000000), 
+Converted Global Transform (-10.203766,16.294964,124.367622|0.293165,15.211020,103.637009|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:854][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-14.569431,23.533699,149.581619|0.293159,15.211039,103.637009|1.000000,1.000000,1.000000), 
+Converted Global Transform (-11.770130,21.619881,146.718781|0.293165,15.211017,103.636993|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:854][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-12.458451,17.485497,127.657974|0.199708,14.730687,103.727936|1.000000,1.000000,1.000000), 
+Converted Global Transform (-9.688725,15.543761,124.785141|0.199715,14.730673,103.727928|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:854][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-13.953851,22.866941,150.000427|0.199708,14.730687,103.727936|1.000000,1.000000,1.000000), 
+Converted Global Transform (-11.184123,20.925201,147.127594|0.199708,14.730672,103.727913|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:854][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-12.035842,16.935652,128.228714|0.066362,14.457763,103.690186|1.000000,1.000000,1.000000), 
+Converted Global Transform (-9.281670,14.975017,125.353790|0.066355,14.457760,103.690178|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:855][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-13.451568,22.322886,150.574982|0.066362,14.457763,103.690186|1.000000,1.000000,1.000000), 
+Converted Global Transform (-10.697393,20.362247,147.700043|0.066362,14.457754,103.690163|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:855][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-11.730156,16.456623,128.832764|-0.038696,14.216754,103.441811|1.000000,1.000000,1.000000), 
+Converted Global Transform (-8.986113,14.479956,125.959167|-0.038696,14.216752,103.441803|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:855][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-13.059670,21.765875,151.202972|-0.038696,14.216754,103.441811|1.000000,1.000000,1.000000), 
+Converted Global Transform (-10.315627,19.789204,148.329376|-0.038696,14.216749,103.441803|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:855][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-11.343017,15.926919,129.425888|-0.183624,13.997195,103.049561|1.000000,1.000000,1.000000), 
+Converted Global Transform (-8.612202,13.949390,126.540306|-0.183594,13.997202,103.049568|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:855][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-12.560089,21.106215,151.832932|-0.183624,13.997195,103.049561|1.000000,1.000000,1.000000), 
+Converted Global Transform (-9.829279,19.128683,148.947357|-0.183594,13.997202,103.049568|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:855][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-11.115211,15.503426,129.853149|-0.140442,13.960295,102.838295|1.000000,1.000000,1.000000), 
+Converted Global Transform (-8.384285,13.532996,126.962807|-0.140442,13.960306,102.838303|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:855][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-12.325342,20.599228,152.279709|-0.140442,13.960295,102.838295|1.000000,1.000000,1.000000), 
+Converted Global Transform (-9.594418,18.628801,149.389359|-0.140442,13.960302,102.838295|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:856][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-11.059472,15.163309,130.077515|-0.154602,13.947986,102.636703|1.000000,1.000000,1.000000), 
+Converted Global Transform (-8.319538,13.207855,127.185539|-0.154602,13.947990,102.636703|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:856][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-12.244058,20.184103,152.522354|-0.154602,13.947986,102.636703|1.000000,1.000000,1.000000), 
+Converted Global Transform (-9.504124,18.228651,149.630371|-0.154602,13.947990,102.636703|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:856][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (Head:5) 
+Source Global Transform (-11.144310,14.886062,130.103653|-0.261749,13.948034,102.419708|1.000000,1.000000,1.000000), 
+Converted Global Transform (-8.386632,12.955189,127.212013|-0.261749,13.948049,102.419708|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.27:856][615]LogFbx:Warning: IMPORT TRANSFORM ERROR : Bone (HeadTop_End:6) 
+Source Global Transform (-12.267574,19.834461,152.567703|-0.261749,13.948034,102.419708|1.000000,1.000000,1.000000), 
+Converted Global Transform (-9.509895,17.903587,149.676056|-0.261749,13.948049,102.419708|1.000000,1.000000,1.000000)
+[2015.09.04-23.45.28:001][615]FBXImport:Warning: Warning The following bones exist in the imported animation, but not in the Skeleton asset Goblinana_Skeleton.  Any animation on these bones will not be imported: 
+
+ Neck1  
+LeftFootToeBase_End  
+RightFootToeBase_End  
+ 
+[2015.09.04-23.45.28:002][615]FBXImport:Warning: Warning Imported bone transform is different from original. Please check Output Log to see detail of error.  
+[2015.09.04-23.45.28:014][615]LogD3D11RHI: InitD3DDevice
+[2015.09.04-23.45.41:210][684]LogD3D11RHI: InitD3DDevice
+[2015.09.04-23.45.46:376][684]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2015.09.04-23.45.48:205][684]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/SubEditors/PersonaAnimEditorTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.04-23.45.48:829][684]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.09.04-23.46.41:555][780]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000084879327A0
+[2015.09.04-23.46.41:555][780]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008487849A80
+[2015.09.04-23.46.41:555][780]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000084875EFE20
+[2015.09.04-23.46.41:555][780]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000084875EF380
+[2015.09.04-23.46.41:744][780]LogD3D11RHI: InitD3DDevice
+[2015.09.04-23.46.42:948][780]LogD3D11RHI: InitD3DDevice
+[2015.09.04-23.46.43:047][780]LogD3D11RHI: InitD3DDevice
+[2015.09.04-23.47.10:657][268]LogD3D11RHI: InitD3DDevice
+[2015.09.04-23.47.12:148][323]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.04-23.47.19:032][354]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.09.04-23.47.19:932][355]Cmd: QUIT_EDITOR
+[2015.09.04-23.47.21:304][355]LogExit: Preparing to exit.
+[2015.09.04-23.47.22:600][355]LogExit: Editor shut down
+[2015.09.04-23.47.22:601][355]LogExit: Transaction tracking system shut down
+[2015.09.04-23.47.22:642][355]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000849486D8A0
+[2015.09.04-23.47.22:645][355]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000084CB15E3E0
+[2015.09.04-23.47.22:646][355]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000084CAD1BEC0
+[2015.09.04-23.47.22:646][355]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008486C52CA0
+[2015.09.04-23.47.22:646][355]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000084948A00E0
+[2015.09.04-23.47.22:646][355]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000848859B060
+[2015.09.04-23.47.22:646][355]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008488599F80
+[2015.09.04-23.47.22:646][355]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000849624F420
+[2015.09.04-23.47.24:718][355]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000849624F4C0
+[2015.09.04-23.47.24:718][355]LogExit: Object subsystem successfully closed.
+[2015.09.04-23.47.24:940][355]LogD3D11RHI: Shutdown
+[2015.09.04-23.47.24:940][355]LogD3D11RHI: CleanupD3DDevice
+[2015.09.04-23.47.25:284][355]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.09.04-23.47.25:432][355]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (189)
+[2015.09.04-23.47.25:432][355]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
+[2015.09.04-23.47.25:432][355]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
+[2015.09.04-23.47.25:432][355]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
+[2015.09.04-23.47.25:432][355]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
+[2015.09.04-23.47.25:463][355]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
+[2015.09.04-23.47.25:485][355]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
+[2015.09.04-23.47.25:485][355]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
+[2015.09.04-23.47.25:499][355]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
+[2015.09.04-23.47.25:499][355]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
+[2015.09.04-23.47.25:520][355]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
+[2015.09.04-23.47.25:536][355]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
+[2015.09.04-23.47.25:536][355]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
+[2015.09.04-23.47.25:536][355]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
+[2015.09.04-23.47.25:536][355]LogModuleManager: Shutting down and abandoning module BspMode (175)
+[2015.09.04-23.47.25:536][355]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
+[2015.09.04-23.47.25:547][355]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
+[2015.09.04-23.47.25:547][355]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
+[2015.09.04-23.47.25:547][355]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
+[2015.09.04-23.47.25:547][355]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
+[2015.09.04-23.47.25:547][355]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
+[2015.09.04-23.47.25:583][355]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
+[2015.09.04-23.47.25:603][355]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
+[2015.09.04-23.47.25:637][355]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
+[2015.09.04-23.47.25:650][355]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
+[2015.09.04-23.47.25:666][355]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
+[2015.09.04-23.47.25:666][355]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2015.09.04-23.47.25:730][355]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
+[2015.09.04-23.47.25:730][355]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
+[2015.09.04-23.47.25:730][355]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
+[2015.09.04-23.47.25:730][355]LogModuleManager: Shutting down and abandoning module MergeActors (159)
+[2015.09.04-23.47.25:746][355]LogModuleManager: Shutting down and abandoning module SizeMap (158)
+[2015.09.04-23.47.25:747][355]LogModuleManager: Shutting down and abandoning module TreeMap (157)
+[2015.09.04-23.47.25:778][355]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
+[2015.09.04-23.47.25:778][355]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
+[2015.09.04-23.47.25:800][355]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
+[2015.09.04-23.47.25:800][355]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
+[2015.09.04-23.47.25:813][355]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
+[2015.09.04-23.47.25:813][355]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
+[2015.09.04-23.47.25:819][355]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
+[2015.09.04-23.47.25:819][355]LogModuleManager: Shutting down and abandoning module XmlParser (149)
+[2015.09.04-23.47.25:819][355]LogModuleManager: Shutting down and abandoning module Blutility (148)
+[2015.09.04-23.47.25:820][355]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
+[2015.09.04-23.47.25:820][355]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
+[2015.09.04-23.47.25:820][355]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
+[2015.09.04-23.47.25:850][355]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
+[2015.09.04-23.47.25:851][355]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
+[2015.09.04-23.47.25:867][355]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
+[2015.09.04-23.47.25:876][355]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
+[2015.09.04-23.47.25:876][355]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
+[2015.09.04-23.47.25:876][355]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
+[2015.09.04-23.47.25:876][355]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
+[2015.09.04-23.47.25:897][355]LogModuleManager: Shutting down and abandoning module AutomationController (137)
+[2015.09.04-23.47.25:916][355]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
+[2015.09.04-23.47.25:916][355]LogModuleManager: Shutting down and abandoning module Layers (135)
+[2015.09.04-23.47.25:929][355]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
+[2015.09.04-23.47.25:929][355]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
+[2015.09.04-23.47.25:929][355]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
+[2015.09.04-23.47.25:935][355]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
+[2015.09.04-23.47.26:191][355]LogModuleManager: Shutting down and abandoning module Persona (130)
+[2015.09.04-23.47.26:191][355]LogModuleManager: Shutting down and abandoning module Kismet (129)
+[2015.09.04-23.47.26:215][355]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
+[2015.09.04-23.47.26:275][355]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
+[2015.09.04-23.47.26:288][355]LogModuleManager: Shutting down and abandoning module Toolbox (126)
+[2015.09.04-23.47.26:288][355]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
+[2015.09.04-23.47.26:288][355]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
+[2015.09.04-23.47.26:289][355]LogModuleManager: Shutting down and abandoning module OutputLog (123)
+[2015.09.04-23.47.26:289][355]LogModuleManager: Shutting down and abandoning module GammaUI (122)
+[2015.09.04-23.47.26:325][355]LogModuleManager: Shutting down and abandoning module Documentation (121)
+[2015.09.04-23.47.26:325][355]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
+[2015.09.04-23.47.26:353][355]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
+[2015.09.04-23.47.26:353][355]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
+[2015.09.04-23.47.26:353][355]LogModuleManager: Shutting down and abandoning module Analytics (117)
+[2015.09.04-23.47.26:353][355]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
+[2015.09.04-23.47.26:383][355]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
+[2015.09.04-23.47.26:383][355]LogModuleManager: Shutting down and abandoning module AIModule (114)
+[2015.09.04-23.47.26:383][355]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
+[2015.09.04-23.47.26:554][355]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
+[2015.09.04-23.47.26:575][355]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
+[2015.09.04-23.47.26:575][355]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
+[2015.09.04-23.47.26:575][355]LogModuleManager: Shutting down and abandoning module SteamVR (109)
+[2015.09.04-23.47.26:575][355]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
+[2015.09.04-23.47.26:575][355]LogModuleManager: Shutting down and abandoning module OculusRift (107)
+[2015.09.04-23.47.26:575][355]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
+[2015.09.04-23.47.26:663][355]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
+[2015.09.04-23.47.26:663][355]LogModuleManager: Shutting down and abandoning module CableComponent (104)
+[2015.09.04-23.47.26:691][355]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
+[2015.09.04-23.47.26:716][355]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
+[2015.09.04-23.47.26:725][355]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
+[2015.09.04-23.47.26:725][355]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
+[2015.09.04-23.47.26:725][355]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
+[2015.09.04-23.47.26:740][355]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
+[2015.09.04-23.47.26:769][355]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
+[2015.09.04-23.47.26:776][355]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
+[2015.09.04-23.47.26:776][355]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
+[2015.09.04-23.47.26:812][355]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
+[2015.09.04-23.47.26:843][355]LogModuleManager: Shutting down and abandoning module SourceControl (93)
+[2015.09.04-23.47.26:879][355]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
+[2015.09.04-23.47.26:908][355]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
+[2015.09.04-23.47.26:908][355]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
+[2015.09.04-23.47.26:908][355]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
+[2015.09.04-23.47.26:908][355]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
+[2015.09.04-23.47.26:924][355]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
+[2015.09.04-23.47.26:934][355]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2015.09.04-23.47.26:937][355]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2015.09.04-23.47.26:938][355]LogModuleManager: Shutting down and abandoning module MainFrame (84)
+[2015.09.04-23.47.26:938][355]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2015.09.04-23.47.26:964][355]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.09.04-23.47.26:968][355]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.09.04-23.47.27:004][355]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2015.09.04-23.47.27:105][355]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.09.04-23.47.27:119][355]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.09.04-23.47.27:146][355]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.09.04-23.47.27:146][355]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.09.04-23.47.27:147][355]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.09.04-23.47.27:147][355]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.09.04-23.47.27:147][355]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.09.04-23.47.27:159][355]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.09.04-23.47.27:169][355]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.09.04-23.47.27:183][355]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.09.04-23.47.27:183][355]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.09.04-23.47.27:183][355]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.09.04-23.47.27:201][355]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.09.04-23.47.27:223][355]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.09.04-23.47.27:243][355]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.09.04-23.47.27:274][355]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.09.04-23.47.27:274][355]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.09.04-23.47.27:278][355]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.09.04-23.47.27:278][355]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.09.04-23.47.27:278][355]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.09.04-23.47.27:278][355]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.09.04-23.47.27:278][355]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.09.04-23.47.27:278][355]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.09.04-23.47.27:278][355]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.09.04-23.47.27:279][355]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.09.04-23.47.27:279][355]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.09.04-23.47.27:301][355]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.09.04-23.47.27:369][355]LogDerivedDataCache: Shutdown
+[2015.09.04-23.47.27:369][355]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.09.04-23.47.27:369][355]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.09.04-23.47.27:389][355]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.09.04-23.47.27:390][355]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.09.04-23.47.27:390][355]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.09.04-23.47.27:390][355]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.09.04-23.47.27:390][355]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.09.04-23.47.27:390][355]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.09.04-23.47.27:390][355]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.09.04-23.47.27:390][355]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.09.04-23.47.27:390][355]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.09.04-23.47.27:390][355]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.09.04-23.47.27:401][355]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.09.04-23.47.27:401][355]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.09.04-23.47.27:401][355]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.09.04-23.47.27:401][355]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.09.04-23.47.27:423][355]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.09.04-23.47.27:423][355]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.09.04-23.47.27:423][355]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.09.04-23.47.27:423][355]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.09.04-23.47.27:423][355]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.09.04-23.47.27:423][355]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.09.04-23.47.27:423][355]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.09.04-23.47.27:423][355]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.09.04-23.47.27:423][355]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.09.04-23.47.27:423][355]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.09.04-23.47.27:423][355]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.09.04-23.47.27:423][355]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.09.04-23.47.27:424][355]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.09.04-23.47.27:424][355]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.09.04-23.47.27:424][355]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.09.04-23.47.27:424][355]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.09.04-23.47.27:424][355]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.09.04-23.47.27:424][355]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.09.04-23.47.27:424][355]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.09.04-23.47.27:424][355]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.09.04-23.47.27:425][355]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.09.04-23.47.27:425][355]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.09.04-23.47.27:425][355]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.09.04-23.47.27:425][355]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.09.04-23.47.27:425][355]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.09.04-23.47.27:465][355]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.09.04-23.47.27:465][355]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.09.04-23.47.27:465][355]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.09.04-23.47.27:465][355]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.09.04-23.47.27:465][355]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.09.04-23.47.27:465][355]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.09.04-23.47.27:481][355]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.09.04-23.47.27:509][355]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.09.04-23.47.27:537][355]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.09.04-23.47.27:556][355]LogExit: Exiting.
+[2015.09.04-23.47.27:642][355]Log file closed, 09/04/15 16:47:27
