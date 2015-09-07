@@ -1,0 +1,509 @@
+﻿[2015.09.07-08.36.59:044][  0]Log file open, 09/07/15 01:36:59
+[2015.09.07-08.36.59:044][  0]LogInit:Display: Running engine for game: GodKiller
+[2015.09.07-08.36.59:044][  0]LogInit:Display: RandInit(1164438194) SRandInit(1164438201).
+[2015.09.07-08.36.59:044][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.09.07-08.36.59:044][  0]LogStats: Stats thread started
+[2015.09.07-08.36.59:044][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.09.07-08.36.59:044][  0]LogInit: API Version: 2579680
+[2015.09.07-08.36.59:045][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.09.07-08.36.59:045][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.09.07-08.36.59:045][  0]LogInit: Build Configuration: Development
+[2015.09.07-08.36.59:045][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.09.07-08.36.59:045][  0]LogInit: Command line:  
+[2015.09.07-08.36.59:045][  0]LogInit: Base directory: D:/Program Files/Unreal/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.09.07-08.36.59:045][  0]LogInit: Rocket: 1
+[2015.09.07-08.36.59:072][  0]LogInit: Using libcurl 7.41.0
+[2015.09.07-08.36.59:072][  0]LogInit:  - built for x86_64-pc-win32
+[2015.09.07-08.36.59:072][  0]LogInit:  - supports SSL with WinSSL
+[2015.09.07-08.36.59:072][  0]LogInit:  - other features:
+[2015.09.07-08.36.59:072][  0]LogInit:      CURL_VERSION_SSL
+[2015.09.07-08.36.59:072][  0]LogInit:      CURL_VERSION_IPV6
+[2015.09.07-08.36.59:072][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.09.07-08.36.59:072][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.09.07-08.36.59:072][  0]LogInit:      CURL_VERSION_IDN
+[2015.09.07-08.36.59:072][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.09.07-08.36.59:072][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.09.07-08.36.59:072][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.09.07-08.36.59:072][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.09.07-08.36.59:072][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.09.07-08.36.59:096][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.09.07-08.36.59:125][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.09.07-08.36.59:135][  0]LogInit: Object subsystem initialized
+[2015.09.07-08.36.59:136][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.09.07-08.36.59:136][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Storage/Documents/SourceTRee/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.09.07-08.36.59:136][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.09.07-08.36.59:136][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Storage/Documents/SourceTRee/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.09.07-08.36.59:136][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.09.07-08.36.59:136][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Storage/Documents/SourceTRee/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.09.07-08.36.59:137][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.07-08.36.59:137][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.09.07-08.36.59:146][  0]LogInit: Computer: JOSEPH-PC
+[2015.09.07-08.36.59:146][  0]LogInit: User: Joseph
+[2015.09.07-08.36.59:146][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.09.07-08.36.59:146][  0]LogInit: High frequency timer resolution =14.318180 MHz
+[2015.09.07-08.36.59:146][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2015.09.07-08.36.59:146][  0]LogMemory: Platform Memory Stats for Windows
+[2015.09.07-08.36.59:146][  0]LogMemory: Process Physical Memory: 52.66 MB used, 52.66 MB peak
+[2015.09.07-08.36.59:146][  0]LogMemory: Process Virtual Memory: 24.88 MB used, 24.88 MB peak
+[2015.09.07-08.36.59:146][  0]LogMemory: Physical Memory: 3982.20 MB used, 16280.89 MB total
+[2015.09.07-08.36.59:146][  0]LogMemory: Virtual Memory: 299.19 MB used, 134217728.00 MB total
+[2015.09.07-08.36.59:188][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.09.07-08.36.59:403][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (D:/Program Files/Unreal/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (D:/Program Files/Unreal/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.09.07-08.36.59:991][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon R9 200 Series (Feature Level 11_0)
+[2015.09.07-08.36.59:991][  0]LogD3D11RHI: Adapter has 4075MB of dedicated video memory, 0MB of dedicated system memory, and 8140MB of shared system memory, 1 output[s]
+[2015.09.07-08.36.59:993][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.09.07-08.36.59:993][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8140MB of shared system memory, 0 output[s]
+[2015.09.07-08.36.59:993][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.09.07-08.37.00:000][  0]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.37.00:000][  0]LogD3D11RHI: !Direct3DDevice
+[2015.09.07-08.37.00:000][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.09.07-08.37.00:011][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.09.07-08.37.00:025][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.09.07-08.37.01:441][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.09.07-08.37.01:468][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.09.07-08.37.01:502][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.09.07-08.37.01:532][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.09.07-08.37.01:565][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.09.07-08.37.01:590][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.09.07-08.37.01:614][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.09.07-08.37.01:647][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.09.07-08.37.01:672][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.09.07-08.37.01:694][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.09.07-08.37.01:715][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.09.07-08.37.01:736][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.09.07-08.37.01:811][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.09.07-08.37.01:832][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.09.07-08.37.01:853][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.09.07-08.37.01:877][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.09.07-08.37.01:877][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.09.07-08.37.02:256][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.09.07-08.37.02:337][  0]LogDerivedDataCache: Loaded boot cache 0.08s 53MB C:/Users/Joseph/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.09.07-08.37.02:337][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Joseph/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.09.07-08.37.02:337][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Storage/Documents/SourceTRee/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.09.07-08.37.02:337][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.09.07-08.37.02:337][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../Storage/Documents/SourceTRee/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.09.07-08.37.02:337][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.09.07-08.37.02:487][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.09.07-08.37.02:500][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Joseph/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.09.07-08.37.02:827][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.07-08.37.02:934][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.09.07-08.37.02:935][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.09.07-08.37.02:982][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.09.07-08.37.02:982][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.09.07-08.37.03:474][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.09.07-08.37.05:094][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.09.07-08.37.05:654][  0]SourceControl: Info Source control is disabled
+[2015.09.07-08.37.05:952][  0]SourceControl: Info Source control is disabled
+[2015.09.07-08.37.05:971][  0]SourceControl: Info Source control is disabled
+[2015.09.07-08.37.05:988][  0]SourceControl: Info Source control is disabled
+[2015.09.07-08.37.06:376][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.09.07-08.37.06:376][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2015.09.07-08.37.06:496][  0]LogEngine: Initializing Engine...
+[2015.09.07-08.37.06:501][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.09.07-08.37.06:503][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.09.07-08.37.06:722][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.09.07-08.37.06:732][  0]LogInit: XAudio2 using '1 - LG ULTRAWIDE (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.09.07-08.37.06:745][  0]LogInit: FAudioDevice initialized.
+[2015.09.07-08.37.06:789][  0]LogDerivedDataCache: Saved boot cache 0.04s 53MB C:/Users/Joseph/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.09.07-08.37.06:799][  0]LogInit: Texture streaming: Disabled
+[2015.09.07-08.37.06:838][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.09.07-08.37.06:838][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.09.07-08.37.06:838][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId d0fc97d9433d85cfe1d854a78446f226|fbedbf84e6654fb9830ed15a26abc575|31b426bb-6233-41c4-8090-528f38e68011
+[2015.09.07-08.37.06:838][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.09.07-08.37.06:891][  0]LogInit: Transaction tracking system initialized
+[2015.09.07-08.37.07:123][  0]BlueprintLog: New page: Editor Load
+[2015.09.07-08.37.07:183][  0]LogAssetRegistry: FAssetRegistry took 0.0108 seconds to start up
+[2015.09.07-08.37.07:184][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.09.07-08.37.08:418][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.09.07-08.37.08:418][  0]LogConsoleResponse:Display: 
+[2015.09.07-08.37.08:579][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.09.07-08.37.08:902][  0]SourceControl: Info Source control is disabled
+[2015.09.07-08.37.08:902][  0]Cmd: MAP LOAD FILE="../../../../../../../Storage/Documents/SourceTRee/Content/Scene/NewCave.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.09.07-08.37.08:903][  0]LightingResults: New page: Lighting Build
+[2015.09.07-08.37.08:923][  0]MapCheck: New page: Map Check
+[2015.09.07-08.37.08:923][  0]LightingResults: New page: Lighting Build
+[2015.09.07-08.37.08:938][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000069873D4F40
+[2015.09.07-08.37.12:186][  0]LogBlueprint:Warning: [compiler Gui] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
+[2015.09.07-08.37.12:197][  0]LogBlueprint:Warning: [compiler Gui] Warning [0016.14] Compile of Gui successful, but with 1 Warning(s) [in 59 ms]
+[2015.09.07-08.37.12:197][  0]LogBlueprint:Warning: [compiler Gui] Warning [0016.14] Compile of Gui successful, but with 2 Warning(s) [in 0 ms]
+[2015.09.07-08.37.12:197][  0]LogBlueprint:Warning: [compiler Gui] Warning [0016.14] Compile of Gui successful, but with 3 Warning(s) [in 0 ms]
+[2015.09.07-08.37.12:868][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
+[2015.09.07-08.37.12:869][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0016.81] Compile of GnawmersHealth successful, but with 1 Warning(s) [in 24 ms]
+[2015.09.07-08.37.12:869][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0016.81] Compile of GnawmersHealth successful, but with 2 Warning(s) [in 0 ms]
+[2015.09.07-08.37.12:869][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0016.81] Compile of GnawmersHealth successful, but with 3 Warning(s) [in 0 ms]
+[2015.09.07-08.37.16:052][  0]LogBlueprint:Warning: [compiler Gui] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
+[2015.09.07-08.37.16:062][  0]LogBlueprint:Warning: [compiler Gui] Warning [0020.00] Compile of Gui successful, but with 1 Warning(s) [in 61 ms]
+[2015.09.07-08.37.16:063][  0]LogBlueprint:Warning: [compiler Gui] Warning [0020.00] Compile of Gui successful, but with 2 Warning(s) [in 1 ms]
+[2015.09.07-08.37.16:228][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
+[2015.09.07-08.37.16:228][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0020.17] Compile of GnawmersHealth successful, but with 1 Warning(s) [in 25 ms]
+[2015.09.07-08.37.16:229][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0020.17] Compile of GnawmersHealth successful, but with 2 Warning(s) [in 0 ms]
+[2015.09.07-08.37.22:368][  0]LogAIModule: Creating AISystem for world NewCave
+[2015.09.07-08.37.22:572][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.09.07-08.37.22:574][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.09.07-08.37.22:755][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 180.603ms to complete.
+[2015.09.07-08.37.22:755][  0]LogFileHelpers: Loading map 'NewCave' took 13.853
+[2015.09.07-08.37.22:847][  0]LogCollectionManager: Loaded 0 collections in 0.002586 seconds
+[2015.09.07-08.37.22:857][  0]LogContentBrowser: Native class hierarchy populated in 0.0097 seconds. Added 1792 classes and 301 folders.
+[2015.09.07-08.37.22:929][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2015.09.07-08.37.22:977][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2015.09.07-08.37.23:046][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2015.09.07-08.37.23:108][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.09.07-08.37.23:109][  0]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.37.23:114][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.09.07-08.37.23:136][  0]LogLoad: Full Startup: 27.07 seconds (BP compile: 6.63 seconds)
+[2015.09.07-08.37.23:610][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.09.07-08.37.23:840][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.09.07-08.37.24:072][  0]LogRenderer: Reallocating scene render targets to support 1464x904 (Frame:2).
+[2015.09.07-08.37.24:347][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2015.09.07-08.37.24:352][  1]Cmd: UpdateLandscapeEditorData
+[2015.09.07-08.37.24:590][  3]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.37.26:005][ 23]LogAssetRegistry: Asset discovery search completed in 18.8320 seconds
+[2015.09.07-08.37.36:090][449]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.37.36:653][449]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../../Storage/Documents/GodKillerExports/Game_Rocks/rock_1/Rock_1.OBJ)
+[2015.09.07-08.37.36:679][449]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.37.38:311][449]LogFbx: Loading FBX Scene from ../../../../../../../Storage/Documents/GodKillerExports/Game_Rocks/rock_1/Rock_1.OBJ
+[2015.09.07-08.37.38:449][449]LogFbx: FBX Scene Loaded Succesfully
+[2015.09.07-08.37.38:455][449]LogFbx:Warning: Triangulating static mesh Group1
+[2015.09.07-08.37.41:237][449]LogStaticMesh: Building static mesh Rock_1...
+[2015.09.07-08.37.42:793][449]LogStaticMesh: Built static mesh [1.561007.2s] /Game/Models/Rocks/Rock_1.Rock_1
+[2015.09.07-08.37.42:830][449]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.09.07-08.37.42:830][449]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2015.09.07-08.37.42:850][449]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.37.49:829][681]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.37.49:855][681]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../../Storage/Documents/GodKillerExports/Game_Rocks/rock_2/Rock_2.OBJ)
+[2015.09.07-08.37.49:873][681]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.37.51:457][681]LogFbx: Loading FBX Scene from ../../../../../../../Storage/Documents/GodKillerExports/Game_Rocks/rock_2/Rock_2.OBJ
+[2015.09.07-08.37.51:570][681]LogFbx: FBX Scene Loaded Succesfully
+[2015.09.07-08.37.51:573][681]LogFbx:Warning: Triangulating static mesh Group1
+[2015.09.07-08.37.54:596][681]LogStaticMesh: Building static mesh Rock_2...
+[2015.09.07-08.38.03:778][681]LogStaticMesh: Built static mesh [9.182794.2s] /Game/Models/Rocks/Rock_2.Rock_2
+[2015.09.07-08.38.03:804][681]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.09.07-08.38.03:804][681]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2015.09.07-08.38.03:819][681]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.38.12:384][ 64]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.38.12:422][ 64]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../../Storage/Documents/GodKillerExports/Game_Rocks/rock_3/Rock_3.OBJ)
+[2015.09.07-08.38.12:441][ 64]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.38.14:294][ 64]LogFbx: Loading FBX Scene from ../../../../../../../Storage/Documents/GodKillerExports/Game_Rocks/rock_3/Rock_3.OBJ
+[2015.09.07-08.38.14:408][ 64]LogFbx: FBX Scene Loaded Succesfully
+[2015.09.07-08.38.14:411][ 64]LogFbx:Warning: Triangulating static mesh Group1
+[2015.09.07-08.38.17:578][ 64]LogStaticMesh: Building static mesh Rock_3...
+[2015.09.07-08.38.27:607][ 64]LogStaticMesh: Built static mesh [10.028557.2s] /Game/Models/Rocks/Rock_3.Rock_3
+[2015.09.07-08.38.27:631][ 64]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.09.07-08.38.27:631][ 64]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2015.09.07-08.38.27:661][ 64]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.38.38:950][929]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.38.39:018][929]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.38.39:663][961]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.38.40:500][  3]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.38.48:385][241]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.38.48:423][241]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../../Storage/Documents/GodKillerExports/Game_Rocks/rock_4/Rock_4.OBJ)
+[2015.09.07-08.38.48:443][241]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.38.49:958][241]LogFbx: Loading FBX Scene from ../../../../../../../Storage/Documents/GodKillerExports/Game_Rocks/rock_4/Rock_4.OBJ
+[2015.09.07-08.38.50:068][241]LogFbx: FBX Scene Loaded Succesfully
+[2015.09.07-08.38.50:071][241]LogFbx:Warning: Triangulating static mesh Group1
+[2015.09.07-08.38.53:128][241]LogStaticMesh: Building static mesh Rock_4...
+[2015.09.07-08.39.02:067][241]LogStaticMesh: Built static mesh [8.940161.2s] /Game/Models/Rocks/Rock_4.Rock_4
+[2015.09.07-08.39.02:093][241]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.09.07-08.39.02:093][241]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2015.09.07-08.39.02:104][241]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.39.09:010][425]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.39.09:025][425]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../../Storage/Documents/GodKillerExports/Game_Rocks/Rock_5/Rock_5.OBJ)
+[2015.09.07-08.39.09:041][425]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.39.11:466][425]LogFbx: Loading FBX Scene from ../../../../../../../Storage/Documents/GodKillerExports/Game_Rocks/Rock_5/Rock_5.OBJ
+[2015.09.07-08.39.11:595][425]LogFbx: FBX Scene Loaded Succesfully
+[2015.09.07-08.39.11:598][425]LogFbx:Warning: Triangulating static mesh Group1
+[2015.09.07-08.39.15:193][425]LogStaticMesh: Building static mesh Rock_5...
+[2015.09.07-08.39.29:150][425]LogStaticMesh: Built static mesh [13.958004.2s] /Game/Models/Rocks/Rock_5.Rock_5
+[2015.09.07-08.39.29:171][425]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.09.07-08.39.29:172][425]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2015.09.07-08.39.29:189][425]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.39.35:856][627]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.39.35:876][627]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../../Storage/Documents/GodKillerExports/Game_Rocks/Rock_6/Rock_6.OBJ)
+[2015.09.07-08.39.35:895][627]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.39.37:199][627]LogFbx: Loading FBX Scene from ../../../../../../../Storage/Documents/GodKillerExports/Game_Rocks/Rock_6/Rock_6.OBJ
+[2015.09.07-08.39.37:300][627]LogFbx: FBX Scene Loaded Succesfully
+[2015.09.07-08.39.37:303][627]LogFbx:Warning: Triangulating static mesh Group1
+[2015.09.07-08.39.40:053][627]LogStaticMesh: Building static mesh Rock_6...
+[2015.09.07-08.39.46:939][627]LogStaticMesh: Built static mesh [6.886560.2s] /Game/Models/Rocks/Rock_6.Rock_6
+[2015.09.07-08.39.46:958][627]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.09.07-08.39.46:958][627]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2015.09.07-08.39.46:973][627]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.39.52:076][925]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.39.53:327][992]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.39.54:543][ 55]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.39.58:529][ 98]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.39.58:544][ 98]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../../Storage/Documents/GodKillerExports/Game_Rocks/Rock 10/Rock 10.OBJ)
+[2015.09.07-08.39.58:560][ 98]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.39.59:652][ 98]LogFbx: Loading FBX Scene from ../../../../../../../Storage/Documents/GodKillerExports/Game_Rocks/Rock 10/Rock 10.OBJ
+[2015.09.07-08.39.59:688][ 98]LogFbx: FBX Scene Loaded Succesfully
+[2015.09.07-08.39.59:691][ 98]LogFbx:Warning: Triangulating static mesh Rock_10:Group1
+[2015.09.07-08.40.00:198][ 98]LogStaticMesh: Building static mesh Rock_10...
+[2015.09.07-08.40.00:336][ 98]LogStaticMesh: Built static mesh [0.140149.2s] /Game/Models/Rocks/Rock_10.Rock_10
+[2015.09.07-08.40.00:349][ 98]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.09.07-08.40.00:349][ 98]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2015.09.07-08.40.00:357][ 98]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.40.04:334][322]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.40.08:866][570]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (rock10)
+[2015.09.07-08.40.20:753][150]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.40.20:777][150]LogStaticMesh: Building static mesh Rock_1...
+[2015.09.07-08.40.21:100][150]LogStaticMesh: Built static mesh [0.324680.2s] /Game/Models/Rocks/Rock_1.Rock_1
+[2015.09.07-08.40.24:611][333]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.40.36:575][913]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.40.36:594][913]LogStaticMesh: Building static mesh Rock_2...
+[2015.09.07-08.40.36:993][913]LogStaticMesh: Built static mesh [0.400060.2s] /Game/Models/Rocks/Rock_2.Rock_2
+[2015.09.07-08.40.37:824][947]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.40.52:706][634]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.40.52:727][634]LogStaticMesh: Building static mesh Rock_3...
+[2015.09.07-08.40.53:150][634]LogStaticMesh: Built static mesh [0.424045.2s] /Game/Models/Rocks/Rock_3.Rock_3
+[2015.09.07-08.41.09:686][334]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.41.09:711][334]LogStaticMesh: Building static mesh Rock_4...
+[2015.09.07-08.41.10:111][334]LogStaticMesh: Built static mesh [0.400515.2s] /Game/Models/Rocks/Rock_4.Rock_4
+[2015.09.07-08.41.23:726][910]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.41.23:745][910]LogStaticMesh: Building static mesh Rock_5...
+[2015.09.07-08.41.24:274][910]LogStaticMesh: Built static mesh [0.528825.2s] /Game/Models/Rocks/Rock_5.Rock_5
+[2015.09.07-08.41.42:387][705]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.41.42:396][705]LogStaticMesh: Building static mesh Rock_6...
+[2015.09.07-08.41.42:752][705]LogStaticMesh: Built static mesh [0.355889.2s] /Game/Models/Rocks/Rock_6.Rock_6
+[2015.09.07-08.42.00:833][486]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.42.00:847][486]LogStaticMesh: Building static mesh Rock_10...
+[2015.09.07-08.42.00:899][486]LogStaticMesh: Built static mesh [0.052135.2s] /Game/Models/Rocks/Rock_10.Rock_10
+[2015.09.07-08.42.17:461][237]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000069F82709A0
+[2015.09.07-08.42.17:462][237]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000069C7D46020
+[2015.09.07-08.42.17:462][237]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000069FA00C680
+[2015.09.07-08.42.17:462][237]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000069AC2C28E0
+[2015.09.07-08.42.17:462][237]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000069C7F158A0
+[2015.09.07-08.42.17:462][237]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006A0EFFCFE0
+[2015.09.07-08.42.17:462][237]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000069AC0C4C20
+[2015.09.07-08.42.18:646][237]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.42.20:080][237]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.42.20:129][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Rocks/Rock_1" FILE="../../../../../../../Storage/Documents/SourceTRee/Content/Models/Rocks/Rock_1.uasset" SILENT=true
+[2015.09.07-08.42.20:161][237]LogSavePackage: Save=27.762049ms
+[2015.09.07-08.42.20:161][237]LogSavePackage: Moving '../../../../../../../Storage/Documents/SourceTRee/Saved/Rock_188B286F940F88BB116F511BF10817FD0.tmp' to '../../../../../../../Storage/Documents/SourceTRee/Content/Models/Rocks/Rock_1.uasset'
+[2015.09.07-08.42.20:190][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Rocks/Rock_10" FILE="../../../../../../../Storage/Documents/SourceTRee/Content/Models/Rocks/Rock_10.uasset" SILENT=true
+[2015.09.07-08.42.20:205][237]LogSavePackage: Save=13.324180ms
+[2015.09.07-08.42.20:205][237]LogSavePackage: Moving '../../../../../../../Storage/Documents/SourceTRee/Saved/Rock_10C6DAF3D041C04B3253B7CFA25ED61FF3.tmp' to '../../../../../../../Storage/Documents/SourceTRee/Content/Models/Rocks/Rock_10.uasset'
+[2015.09.07-08.42.20:236][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Rocks/Rock_2" FILE="../../../../../../../Storage/Documents/SourceTRee/Content/Models/Rocks/Rock_2.uasset" SILENT=true
+[2015.09.07-08.42.20:251][237]LogSavePackage: Save=13.728002ms
+[2015.09.07-08.42.20:251][237]LogSavePackage: Moving '../../../../../../../Storage/Documents/SourceTRee/Saved/Rock_269E1FF25496DAB32F182388401EA5127.tmp' to '../../../../../../../Storage/Documents/SourceTRee/Content/Models/Rocks/Rock_2.uasset'
+[2015.09.07-08.42.20:278][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Rocks/Rock_3" FILE="../../../../../../../Storage/Documents/SourceTRee/Content/Models/Rocks/Rock_3.uasset" SILENT=true
+[2015.09.07-08.42.20:293][237]LogSavePackage: Save=12.502357ms
+[2015.09.07-08.42.20:293][237]LogSavePackage: Moving '../../../../../../../Storage/Documents/SourceTRee/Saved/Rock_3666DBF4942C48E6FABD4668892B8258A.tmp' to '../../../../../../../Storage/Documents/SourceTRee/Content/Models/Rocks/Rock_3.uasset'
+[2015.09.07-08.42.20:320][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Rocks/Rock_4" FILE="../../../../../../../Storage/Documents/SourceTRee/Content/Models/Rocks/Rock_4.uasset" SILENT=true
+[2015.09.07-08.42.20:334][237]LogSavePackage: Save=12.611868ms
+[2015.09.07-08.42.20:334][237]LogSavePackage: Moving '../../../../../../../Storage/Documents/SourceTRee/Saved/Rock_4733C747748390F05C0C51EB433C4F9B6.tmp' to '../../../../../../../Storage/Documents/SourceTRee/Content/Models/Rocks/Rock_4.uasset'
+[2015.09.07-08.42.20:363][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Rocks/Rock_5" FILE="../../../../../../../Storage/Documents/SourceTRee/Content/Models/Rocks/Rock_5.uasset" SILENT=true
+[2015.09.07-08.42.20:380][237]LogSavePackage: Save=15.259691ms
+[2015.09.07-08.42.20:380][237]LogSavePackage: Moving '../../../../../../../Storage/Documents/SourceTRee/Saved/Rock_559636FEF402232A934851AA0429099BB.tmp' to '../../../../../../../Storage/Documents/SourceTRee/Content/Models/Rocks/Rock_5.uasset'
+[2015.09.07-08.42.20:408][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Rocks/Rock_6" FILE="../../../../../../../Storage/Documents/SourceTRee/Content/Models/Rocks/Rock_6.uasset" SILENT=true
+[2015.09.07-08.42.20:424][237]LogSavePackage: Save=13.479646ms
+[2015.09.07-08.42.20:424][237]LogSavePackage: Moving '../../../../../../../Storage/Documents/SourceTRee/Saved/Rock_63052E67642232EA6FD2ADABFFA068B8E.tmp' to '../../../../../../../Storage/Documents/SourceTRee/Content/Models/Rocks/Rock_6.uasset'
+[2015.09.07-08.42.21:664][322]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.42.21:687][322]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene/NewCave" FILE="../../../../../../../Storage/Documents/SourceTRee/Content/Scene/NewCave.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.09.07-08.42.23:137][322]LogSavePackage: Save=1351.137939ms
+[2015.09.07-08.42.23:137][322]LogSavePackage: Moving '../../../../../../../Storage/Documents/SourceTRee/Saved/NewCaveF89C7BC1486743CB19D246955E9AE0A3.tmp' to '../../../../../../../Storage/Documents/SourceTRee/Content/Scene/NewCave.umap'
+[2015.09.07-08.42.25:134][433]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.09.07-08.42.25:489][434]Cmd: QUIT_EDITOR
+[2015.09.07-08.42.26:033][434]LogExit: Preparing to exit.
+[2015.09.07-08.42.26:401][434]LogExit: Editor shut down
+[2015.09.07-08.42.26:402][434]LogExit: Transaction tracking system shut down
+[2015.09.07-08.42.26:418][434]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000069AEA3C900
+[2015.09.07-08.42.26:420][434]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000069B4D2F880
+[2015.09.07-08.42.26:420][434]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000069B4DAF880
+[2015.09.07-08.42.26:914][434]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000069AB234FE0
+[2015.09.07-08.42.26:914][434]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000069AB234EA0
+[2015.09.07-08.42.26:914][434]LogExit: Object subsystem successfully closed.
+[2015.09.07-08.42.27:033][434]LogD3D11RHI: Shutdown
+[2015.09.07-08.42.27:040][434]LogD3D11RHI: CleanupD3DDevice
+[2015.09.07-08.42.27:053][434]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.09.07-08.42.27:089][434]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (189)
+[2015.09.07-08.42.27:089][434]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
+[2015.09.07-08.42.27:090][434]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
+[2015.09.07-08.42.27:090][434]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
+[2015.09.07-08.42.27:090][434]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
+[2015.09.07-08.42.27:090][434]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
+[2015.09.07-08.42.27:103][434]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
+[2015.09.07-08.42.27:103][434]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
+[2015.09.07-08.42.27:103][434]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
+[2015.09.07-08.42.27:103][434]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
+[2015.09.07-08.42.27:103][434]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
+[2015.09.07-08.42.27:116][434]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
+[2015.09.07-08.42.27:116][434]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
+[2015.09.07-08.42.27:116][434]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
+[2015.09.07-08.42.27:116][434]LogModuleManager: Shutting down and abandoning module BspMode (175)
+[2015.09.07-08.42.27:116][434]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
+[2015.09.07-08.42.27:116][434]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
+[2015.09.07-08.42.27:116][434]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
+[2015.09.07-08.42.27:116][434]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
+[2015.09.07-08.42.27:116][434]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
+[2015.09.07-08.42.27:116][434]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
+[2015.09.07-08.42.27:116][434]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
+[2015.09.07-08.42.27:128][434]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
+[2015.09.07-08.42.27:128][434]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
+[2015.09.07-08.42.27:128][434]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
+[2015.09.07-08.42.27:128][434]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
+[2015.09.07-08.42.27:128][434]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2015.09.07-08.42.27:185][434]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
+[2015.09.07-08.42.27:185][434]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
+[2015.09.07-08.42.27:185][434]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
+[2015.09.07-08.42.27:185][434]LogModuleManager: Shutting down and abandoning module MergeActors (159)
+[2015.09.07-08.42.27:195][434]LogModuleManager: Shutting down and abandoning module SizeMap (158)
+[2015.09.07-08.42.27:195][434]LogModuleManager: Shutting down and abandoning module TreeMap (157)
+[2015.09.07-08.42.27:195][434]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
+[2015.09.07-08.42.27:195][434]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
+[2015.09.07-08.42.27:195][434]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
+[2015.09.07-08.42.27:195][434]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
+[2015.09.07-08.42.27:195][434]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
+[2015.09.07-08.42.27:195][434]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
+[2015.09.07-08.42.27:195][434]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
+[2015.09.07-08.42.27:195][434]LogModuleManager: Shutting down and abandoning module XmlParser (149)
+[2015.09.07-08.42.27:195][434]LogModuleManager: Shutting down and abandoning module Blutility (148)
+[2015.09.07-08.42.27:195][434]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
+[2015.09.07-08.42.27:196][434]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
+[2015.09.07-08.42.27:196][434]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
+[2015.09.07-08.42.27:196][434]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
+[2015.09.07-08.42.27:196][434]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
+[2015.09.07-08.42.27:196][434]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
+[2015.09.07-08.42.27:202][434]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
+[2015.09.07-08.42.27:202][434]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
+[2015.09.07-08.42.27:204][434]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
+[2015.09.07-08.42.27:204][434]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
+[2015.09.07-08.42.27:204][434]LogModuleManager: Shutting down and abandoning module AutomationController (137)
+[2015.09.07-08.42.27:204][434]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
+[2015.09.07-08.42.27:215][434]LogModuleManager: Shutting down and abandoning module Layers (135)
+[2015.09.07-08.42.27:238][434]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
+[2015.09.07-08.42.27:238][434]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
+[2015.09.07-08.42.27:238][434]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
+[2015.09.07-08.42.27:238][434]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
+[2015.09.07-08.42.27:405][434]LogModuleManager: Shutting down and abandoning module Persona (130)
+[2015.09.07-08.42.27:410][434]LogModuleManager: Shutting down and abandoning module Kismet (129)
+[2015.09.07-08.42.27:413][434]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
+[2015.09.07-08.42.27:434][434]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
+[2015.09.07-08.42.27:434][434]LogModuleManager: Shutting down and abandoning module Toolbox (126)
+[2015.09.07-08.42.27:434][434]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
+[2015.09.07-08.42.27:441][434]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
+[2015.09.07-08.42.27:452][434]LogModuleManager: Shutting down and abandoning module OutputLog (123)
+[2015.09.07-08.42.27:452][434]LogModuleManager: Shutting down and abandoning module GammaUI (122)
+[2015.09.07-08.42.27:460][434]LogModuleManager: Shutting down and abandoning module Documentation (121)
+[2015.09.07-08.42.27:460][434]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
+[2015.09.07-08.42.27:460][434]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
+[2015.09.07-08.42.27:460][434]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
+[2015.09.07-08.42.27:460][434]LogModuleManager: Shutting down and abandoning module Analytics (117)
+[2015.09.07-08.42.27:460][434]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
+[2015.09.07-08.42.27:460][434]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
+[2015.09.07-08.42.27:460][434]LogModuleManager: Shutting down and abandoning module AIModule (114)
+[2015.09.07-08.42.27:460][434]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
+[2015.09.07-08.42.27:620][434]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
+[2015.09.07-08.42.27:633][434]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
+[2015.09.07-08.42.27:633][434]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
+[2015.09.07-08.42.27:633][434]LogModuleManager: Shutting down and abandoning module SteamVR (109)
+[2015.09.07-08.42.27:633][434]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
+[2015.09.07-08.42.27:633][434]LogModuleManager: Shutting down and abandoning module OculusRift (107)
+[2015.09.07-08.42.27:633][434]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
+[2015.09.07-08.42.27:659][434]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
+[2015.09.07-08.42.27:659][434]LogModuleManager: Shutting down and abandoning module CableComponent (104)
+[2015.09.07-08.42.27:659][434]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
+[2015.09.07-08.42.27:679][434]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
+[2015.09.07-08.42.27:691][434]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
+[2015.09.07-08.42.27:691][434]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
+[2015.09.07-08.42.27:691][434]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
+[2015.09.07-08.42.27:691][434]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
+[2015.09.07-08.42.27:699][434]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
+[2015.09.07-08.42.27:699][434]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
+[2015.09.07-08.42.27:699][434]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
+[2015.09.07-08.42.27:699][434]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
+[2015.09.07-08.42.27:711][434]LogModuleManager: Shutting down and abandoning module SourceControl (93)
+[2015.09.07-08.42.27:725][434]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
+[2015.09.07-08.42.27:725][434]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
+[2015.09.07-08.42.27:725][434]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
+[2015.09.07-08.42.27:725][434]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
+[2015.09.07-08.42.27:725][434]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
+[2015.09.07-08.42.27:725][434]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
+[2015.09.07-08.42.27:733][434]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2015.09.07-08.42.27:734][434]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2015.09.07-08.42.27:734][434]LogModuleManager: Shutting down and abandoning module MainFrame (84)
+[2015.09.07-08.42.27:734][434]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2015.09.07-08.42.27:743][434]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.09.07-08.42.27:744][434]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.09.07-08.42.27:756][434]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2015.09.07-08.42.27:857][434]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.09.07-08.42.27:857][434]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.09.07-08.42.27:862][434]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.09.07-08.42.27:862][434]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.09.07-08.42.27:862][434]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.09.07-08.42.27:862][434]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.09.07-08.42.27:862][434]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.09.07-08.42.27:882][434]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.09.07-08.42.27:882][434]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.09.07-08.42.27:890][434]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.09.07-08.42.27:890][434]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.09.07-08.42.27:890][434]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.09.07-08.42.27:903][434]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.09.07-08.42.27:915][434]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.09.07-08.42.27:925][434]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.09.07-08.42.27:932][434]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.09.07-08.42.27:932][434]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.09.07-08.42.27:936][434]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.09.07-08.42.27:936][434]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.09.07-08.42.27:936][434]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.09.07-08.42.27:936][434]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.09.07-08.42.27:936][434]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.09.07-08.42.27:936][434]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.09.07-08.42.27:936][434]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.09.07-08.42.27:936][434]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.09.07-08.42.27:936][434]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.09.07-08.42.27:936][434]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.09.07-08.42.28:031][434]LogDerivedDataCache: Shutdown
+[2015.09.07-08.42.28:031][434]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.09.07-08.42.28:050][434]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.09.07-08.42.28:050][434]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.09.07-08.42.28:055][434]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.09.07-08.42.28:055][434]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.09.07-08.42.28:055][434]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.09.07-08.42.28:055][434]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.09.07-08.42.28:055][434]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.09.07-08.42.28:055][434]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.09.07-08.42.28:055][434]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.09.07-08.42.28:055][434]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.09.07-08.42.28:067][434]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.09.07-08.42.28:067][434]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.09.07-08.42.28:067][434]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.09.07-08.42.28:067][434]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.09.07-08.42.28:067][434]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.09.07-08.42.28:067][434]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.09.07-08.42.28:067][434]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.09.07-08.42.28:067][434]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.09.07-08.42.28:067][434]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.09.07-08.42.28:067][434]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.09.07-08.42.28:067][434]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.09.07-08.42.28:067][434]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.09.07-08.42.28:067][434]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.09.07-08.42.28:067][434]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.09.07-08.42.28:067][434]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.09.07-08.42.28:067][434]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.09.07-08.42.28:067][434]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.09.07-08.42.28:067][434]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.09.07-08.42.28:067][434]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.09.07-08.42.28:067][434]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.09.07-08.42.28:068][434]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.09.07-08.42.28:068][434]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.09.07-08.42.28:068][434]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.09.07-08.42.28:068][434]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.09.07-08.42.28:068][434]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.09.07-08.42.28:077][434]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.09.07-08.42.28:077][434]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.09.07-08.42.28:077][434]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.09.07-08.42.28:077][434]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.09.07-08.42.28:077][434]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.09.07-08.42.28:080][434]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.09.07-08.42.28:091][434]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.09.07-08.42.28:091][434]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.09.07-08.42.28:091][434]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.09.07-08.42.28:091][434]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.09.07-08.42.28:091][434]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.09.07-08.42.28:104][434]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.09.07-08.42.28:104][434]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.09.07-08.42.28:104][434]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.09.07-08.42.28:115][434]LogExit: Exiting.
+[2015.09.07-08.42.28:164][434]Log file closed, 09/07/15 01:42:28
