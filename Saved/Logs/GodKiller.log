@@ -1,947 +1,509 @@
-﻿[2015.09.06-09.38.55:738][  0]Log file open, 09/06/15 02:38:55
-[2015.09.06-09.38.55:738][  0]LogInit:Display: Running engine for game: GodKiller
-[2015.09.06-09.38.55:738][  0]LogInit:Display: RandInit(861167846) SRandInit(861167860).
-[2015.09.06-09.38.55:738][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
-[2015.09.06-09.38.55:738][  0]LogStats: Stats thread started
-[2015.09.06-09.38.55:738][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
-[2015.09.06-09.38.55:738][  0]LogInit: API Version: 2579680
-[2015.09.06-09.38.55:738][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
-[2015.09.06-09.38.55:738][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
-[2015.09.06-09.38.55:738][  0]LogInit: Build Configuration: Development
-[2015.09.06-09.38.55:738][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
-[2015.09.06-09.38.55:738][  0]LogInit: Command line:  
-[2015.09.06-09.38.55:738][  0]LogInit: Base directory: D:/Program Files/Unreal/Epic Games/4.8/Engine/Binaries/Win64/
-[2015.09.06-09.38.55:738][  0]LogInit: Rocket: 1
-[2015.09.06-09.38.55:760][  0]LogInit: Using libcurl 7.41.0
-[2015.09.06-09.38.55:760][  0]LogInit:  - built for x86_64-pc-win32
-[2015.09.06-09.38.55:760][  0]LogInit:  - supports SSL with WinSSL
-[2015.09.06-09.38.55:760][  0]LogInit:  - other features:
-[2015.09.06-09.38.55:760][  0]LogInit:      CURL_VERSION_SSL
-[2015.09.06-09.38.55:760][  0]LogInit:      CURL_VERSION_IPV6
-[2015.09.06-09.38.55:760][  0]LogInit:      CURL_VERSION_ASYNCHDNS
-[2015.09.06-09.38.55:760][  0]LogInit:      CURL_VERSION_LARGEFILE
-[2015.09.06-09.38.55:760][  0]LogInit:      CURL_VERSION_IDN
-[2015.09.06-09.38.55:760][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
-[2015.09.06-09.38.55:760][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
-[2015.09.06-09.38.55:760][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
-[2015.09.06-09.38.55:760][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
-[2015.09.06-09.38.55:760][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-[2015.09.06-09.38.55:779][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2015.09.06-09.38.55:802][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2015.09.06-09.38.55:811][  0]LogInit: Object subsystem initialized
-[2015.09.06-09.38.55:812][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
-[2015.09.06-09.38.55:812][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Storage/Documents/SourceTRee/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.09.06-09.38.55:812][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
-[2015.09.06-09.38.55:812][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Storage/Documents/SourceTRee/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.09.06-09.38.55:812][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
-[2015.09.06-09.38.55:812][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Storage/Documents/SourceTRee/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.09.06-09.38.55:812][  0]LogInit: Selected Device Profile: [Windows]
-[2015.09.06-09.38.55:812][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2015.09.06-09.38.55:819][  0]LogInit: Computer: JOSEPH-PC
-[2015.09.06-09.38.55:819][  0]LogInit: User: Joseph
-[2015.09.06-09.38.55:819][  0]LogInit: CPU Page size=4096, Cores=4
-[2015.09.06-09.38.55:819][  0]LogInit: High frequency timer resolution =14.318180 MHz
-[2015.09.06-09.38.55:819][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2015.09.06-09.38.55:820][  0]LogMemory: Platform Memory Stats for Windows
-[2015.09.06-09.38.55:820][  0]LogMemory: Process Physical Memory: 52.71 MB used, 52.71 MB peak
-[2015.09.06-09.38.55:820][  0]LogMemory: Process Virtual Memory: 24.79 MB used, 24.79 MB peak
-[2015.09.06-09.38.55:820][  0]LogMemory: Physical Memory: 4415.85 MB used, 16280.89 MB total
-[2015.09.06-09.38.55:820][  0]LogMemory: Virtual Memory: 298.19 MB used, 134217728.00 MB total
-[2015.09.06-09.38.55:869][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
-[2015.09.06-09.38.56:097][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+﻿[2015.09.07-08.36.59:044][  0]Log file open, 09/07/15 01:36:59
+[2015.09.07-08.36.59:044][  0]LogInit:Display: Running engine for game: GodKiller
+[2015.09.07-08.36.59:044][  0]LogInit:Display: RandInit(1164438194) SRandInit(1164438201).
+[2015.09.07-08.36.59:044][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.09.07-08.36.59:044][  0]LogStats: Stats thread started
+[2015.09.07-08.36.59:044][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.09.07-08.36.59:044][  0]LogInit: API Version: 2579680
+[2015.09.07-08.36.59:045][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.09.07-08.36.59:045][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.09.07-08.36.59:045][  0]LogInit: Build Configuration: Development
+[2015.09.07-08.36.59:045][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.09.07-08.36.59:045][  0]LogInit: Command line:  
+[2015.09.07-08.36.59:045][  0]LogInit: Base directory: D:/Program Files/Unreal/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.09.07-08.36.59:045][  0]LogInit: Rocket: 1
+[2015.09.07-08.36.59:072][  0]LogInit: Using libcurl 7.41.0
+[2015.09.07-08.36.59:072][  0]LogInit:  - built for x86_64-pc-win32
+[2015.09.07-08.36.59:072][  0]LogInit:  - supports SSL with WinSSL
+[2015.09.07-08.36.59:072][  0]LogInit:  - other features:
+[2015.09.07-08.36.59:072][  0]LogInit:      CURL_VERSION_SSL
+[2015.09.07-08.36.59:072][  0]LogInit:      CURL_VERSION_IPV6
+[2015.09.07-08.36.59:072][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.09.07-08.36.59:072][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.09.07-08.36.59:072][  0]LogInit:      CURL_VERSION_IDN
+[2015.09.07-08.36.59:072][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.09.07-08.36.59:072][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.09.07-08.36.59:072][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.09.07-08.36.59:072][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.09.07-08.36.59:072][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.09.07-08.36.59:096][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.09.07-08.36.59:125][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.09.07-08.36.59:135][  0]LogInit: Object subsystem initialized
+[2015.09.07-08.36.59:136][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.09.07-08.36.59:136][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Storage/Documents/SourceTRee/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.09.07-08.36.59:136][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.09.07-08.36.59:136][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Storage/Documents/SourceTRee/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.09.07-08.36.59:136][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.09.07-08.36.59:136][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Storage/Documents/SourceTRee/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.09.07-08.36.59:137][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.07-08.36.59:137][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.09.07-08.36.59:146][  0]LogInit: Computer: JOSEPH-PC
+[2015.09.07-08.36.59:146][  0]LogInit: User: Joseph
+[2015.09.07-08.36.59:146][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.09.07-08.36.59:146][  0]LogInit: High frequency timer resolution =14.318180 MHz
+[2015.09.07-08.36.59:146][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2015.09.07-08.36.59:146][  0]LogMemory: Platform Memory Stats for Windows
+[2015.09.07-08.36.59:146][  0]LogMemory: Process Physical Memory: 52.66 MB used, 52.66 MB peak
+[2015.09.07-08.36.59:146][  0]LogMemory: Process Virtual Memory: 24.88 MB used, 24.88 MB peak
+[2015.09.07-08.36.59:146][  0]LogMemory: Physical Memory: 3982.20 MB used, 16280.89 MB total
+[2015.09.07-08.36.59:146][  0]LogMemory: Virtual Memory: 299.19 MB used, 134217728.00 MB total
+[2015.09.07-08.36.59:188][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.09.07-08.36.59:403][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
 Localization Resource: (D:/Program Files/Unreal/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
 Localization Resource: (D:/Program Files/Unreal/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
-[2015.09.06-09.38.56:688][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon R9 200 Series (Feature Level 11_0)
-[2015.09.06-09.38.56:688][  0]LogD3D11RHI: Adapter has 4075MB of dedicated video memory, 0MB of dedicated system memory, and 8140MB of shared system memory, 1 output[s]
-[2015.09.06-09.38.56:690][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
-[2015.09.06-09.38.56:690][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8140MB of shared system memory, 0 output[s]
-[2015.09.06-09.38.56:690][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2015.09.06-09.38.56:700][  0]LogD3D11RHI: InitD3DDevice
-[2015.09.06-09.38.56:700][  0]LogD3D11RHI: !Direct3DDevice
-[2015.09.06-09.38.56:700][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2015.09.06-09.38.56:709][  0]LogD3D11RHI: Async texture creation disabled: no driver support
-[2015.09.06-09.38.56:723][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2015.09.06-09.38.58:106][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
-[2015.09.06-09.38.58:129][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2015.09.06-09.38.58:152][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2015.09.06-09.38.58:175][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2015.09.06-09.38.58:200][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2015.09.06-09.38.58:221][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2015.09.06-09.38.58:241][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2015.09.06-09.38.58:262][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2015.09.06-09.38.58:282][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2015.09.06-09.38.58:303][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2015.09.06-09.38.58:324][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2015.09.06-09.38.58:345][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2015.09.06-09.38.58:416][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2015.09.06-09.38.58:436][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2015.09.06-09.38.58:456][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2015.09.06-09.38.58:479][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2015.09.06-09.38.58:479][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.09.06-09.38.58:809][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2015.09.06-09.38.58:889][  0]LogDerivedDataCache: Loaded boot cache 0.08s 53MB C:/Users/Joseph/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
-[2015.09.06-09.38.58:889][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Joseph/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
-[2015.09.06-09.38.58:889][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Storage/Documents/SourceTRee/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.09.06-09.38.58:889][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2015.09.06-09.38.58:889][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../Storage/Documents/SourceTRee/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2015.09.06-09.38.58:889][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2015.09.06-09.38.59:080][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2015.09.06-09.38.59:093][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Joseph/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2015.09.06-09.38.59:410][  0]LogInit: Selected Device Profile: [Windows]
-[2015.09.06-09.38.59:512][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
-[2015.09.06-09.38.59:513][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
-[2015.09.06-09.38.59:557][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2015.09.06-09.38.59:557][  0]LogMeshUtilities: No automatic mesh merging module available
-[2015.09.06-09.39.00:021][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2015.09.06-09.39.01:429][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2015.09.06-09.39.01:935][  0]SourceControl: Info Source control is disabled
-[2015.09.06-09.39.02:237][  0]SourceControl: Info Source control is disabled
-[2015.09.06-09.39.02:255][  0]SourceControl: Info Source control is disabled
-[2015.09.06-09.39.02:272][  0]SourceControl: Info Source control is disabled
-[2015.09.06-09.39.02:656][  0]LogObj: 26273 objects as part of root set at end of initial load.
-[2015.09.06-09.39.02:656][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
-[2015.09.06-09.39.02:755][  0]LogEngine: Initializing Engine...
-[2015.09.06-09.39.02:760][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
-[2015.09.06-09.39.02:762][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
-[2015.09.06-09.39.02:976][  0]LogAIModule: Creating AISystem for world NewWorld
-[2015.09.06-09.39.02:987][  0]LogInit: XAudio2 using '1 - LG ULTRAWIDE (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2015.09.06-09.39.02:999][  0]LogInit: FAudioDevice initialized.
-[2015.09.06-09.39.03:043][  0]LogDerivedDataCache: Saved boot cache 0.04s 53MB C:/Users/Joseph/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
-[2015.09.06-09.39.03:054][  0]LogInit: Texture streaming: Disabled
-[2015.09.06-09.39.03:093][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2015.09.06-09.39.03:093][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
-[2015.09.06-09.39.03:093][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId d0fc97d9433d85cfe1d854a78446f226|fbedbf84e6654fb9830ed15a26abc575|31b426bb-6233-41c4-8090-528f38e68011
-[2015.09.06-09.39.03:093][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
-[2015.09.06-09.39.03:153][  0]LogInit: Transaction tracking system initialized
-[2015.09.06-09.39.03:366][  0]BlueprintLog: New page: Editor Load
-[2015.09.06-09.39.03:421][  0]LogAssetRegistry: FAssetRegistry took 0.0113 seconds to start up
-[2015.09.06-09.39.03:422][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
-[2015.09.06-09.39.04:802][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
-[2015.09.06-09.39.04:803][  0]LogConsoleResponse:Display: 
-[2015.09.06-09.39.04:986][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2015.09.06-09.39.05:332][  0]SourceControl: Info Source control is disabled
-[2015.09.06-09.39.05:333][  0]Cmd: MAP LOAD FILE="../../../../../../../Storage/Documents/SourceTRee/Content/Scene/NewCave.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.09.06-09.39.05:333][  0]LightingResults: New page: Lighting Build
-[2015.09.06-09.39.05:355][  0]MapCheck: New page: Map Check
-[2015.09.06-09.39.05:355][  0]LightingResults: New page: Lighting Build
-[2015.09.06-09.39.05:369][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F1BC870F40
-[2015.09.06-09.39.08:714][  0]LogBlueprint:Warning: [compiler Gui] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
-[2015.09.06-09.39.08:724][  0]LogBlueprint:Warning: [compiler Gui] Warning [0015.90] Compile of Gui successful, but with 1 Warning(s) [in 59 ms]
-[2015.09.06-09.39.08:724][  0]LogBlueprint:Warning: [compiler Gui] Warning [0015.90] Compile of Gui successful, but with 2 Warning(s) [in 0 ms]
-[2015.09.06-09.39.08:724][  0]LogBlueprint:Warning: [compiler Gui] Warning [0015.90] Compile of Gui successful, but with 3 Warning(s) [in 0 ms]
-[2015.09.06-09.39.09:374][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
-[2015.09.06-09.39.09:375][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0016.55] Compile of GnawmersHealth successful, but with 1 Warning(s) [in 23 ms]
-[2015.09.06-09.39.09:375][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0016.55] Compile of GnawmersHealth successful, but with 2 Warning(s) [in 0 ms]
-[2015.09.06-09.39.09:375][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0016.55] Compile of GnawmersHealth successful, but with 3 Warning(s) [in 0 ms]
-[2015.09.06-09.39.12:333][  0]LogBlueprint:Warning: [compiler Gui] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
-[2015.09.06-09.39.12:343][  0]LogBlueprint:Warning: [compiler Gui] Warning [0019.52] Compile of Gui successful, but with 1 Warning(s) [in 61 ms]
-[2015.09.06-09.39.12:344][  0]LogBlueprint:Warning: [compiler Gui] Warning [0019.52] Compile of Gui successful, but with 2 Warning(s) [in 1 ms]
-[2015.09.06-09.39.12:509][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
-[2015.09.06-09.39.12:510][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0019.69] Compile of GnawmersHealth successful, but with 1 Warning(s) [in 27 ms]
-[2015.09.06-09.39.12:510][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0019.69] Compile of GnawmersHealth successful, but with 2 Warning(s) [in 0 ms]
-[2015.09.06-09.39.18:271][  0]LogAIModule: Creating AISystem for world NewCave
-[2015.09.06-09.39.18:456][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.09.06-09.39.18:458][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.09.06-09.39.18:648][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 190.147ms to complete.
-[2015.09.06-09.39.18:648][  0]LogFileHelpers: Loading map 'NewCave' took 13.316
-[2015.09.06-09.39.18:749][  0]LogCollectionManager: Loaded 0 collections in 0.002612 seconds
-[2015.09.06-09.39.18:758][  0]LogContentBrowser: Native class hierarchy populated in 0.0095 seconds. Added 1792 classes and 301 folders.
-[2015.09.06-09.39.18:824][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2015.09.06-09.39.18:865][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2015.09.06-09.39.18:931][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2015.09.06-09.39.18:989][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2015.09.06-09.39.18:991][  0]LogD3D11RHI: InitD3DDevice
-[2015.09.06-09.39.18:994][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2015.09.06-09.39.19:017][  0]LogLoad: Full Startup: 26.20 seconds (BP compile: 6.47 seconds)
-[2015.09.06-09.39.19:159][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2015.09.06-09.39.19:385][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2015.09.06-09.39.19:623][  0]LogRenderer: Reallocating scene render targets to support 1464x928 (Frame:2).
-[2015.09.06-09.39.19:824][  1]Cmd: UpdateLandscapeEditorData -warnings
-[2015.09.06-09.39.19:826][  1]Cmd: UpdateLandscapeEditorData
-[2015.09.06-09.39.21:059][ 24]LogAssetRegistry: Asset discovery search completed in 17.6489 seconds
-[2015.09.06-09.39.27:524][497]LogD3D11RHI: InitD3DDevice
-[2015.09.06-09.39.51:646][461]LogD3D11RHI: InitD3DDevice
-[2015.09.06-09.39.51:743][461]LogD3D11RHI: InitD3DDevice
-[2015.09.06-09.39.55:813][461]LogD3D11RHI: InitD3DDevice
-[2015.09.06-09.39.58:328][533]LogD3D11RHI: InitD3DDevice
-[2015.09.06-09.39.58:934][597]LogD3D11RHI: InitD3DDevice
-[2015.09.06-09.39.59:881][696]LogEditorFactories: Performing atomic reimport of [D:/../../../../../../Storage/Documents/GodKillerExports/FlorrTile/001/brokentile001_normals.tga]
-[2015.09.06-09.39.59:881][696]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 D:/../../../../../../Storage/Documents/GodKillerExports/FlorrTile/001/brokentile001_normals.tga)
-[2015.09.06-09.39.59:946][696]LogTexture:Display: Building textures: brokentile001_normals (BC5)
-[2015.09.06-09.40.00:582][696]LogEditorFactories: -- imported successfully
-[2015.09.06-09.40.00:588][696]LogD3D11RHI: InitD3DDevice
-[2015.09.06-09.40.01:562][762]LogD3D11RHI: InitD3DDevice
-[2015.09.06-09.40.02:223][831]LogD3D11RHI: InitD3DDevice
-[2015.09.06-09.40.02:781][890]LogEditorFactories: Performing atomic reimport of [D:/../../../../../../Storage/Documents/GodKillerExports/FlorrTile/001/brokentile001_occlusion.tga]
-[2015.09.06-09.40.02:781][890]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 D:/../../../../../../Storage/Documents/GodKillerExports/FlorrTile/001/brokentile001_occlusion.tga)
-[2015.09.06-09.40.02:852][890]LogTexture:Display: Building textures: brokentile001_occlusion (AutoDXT)
-[2015.09.06-09.40.04:989][890]LogEditorFactories: -- imported successfully
-[2015.09.06-09.40.04:994][890]LogD3D11RHI: InitD3DDevice
-[2015.09.06-09.40.23:515][402]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FloorTile2)
-[2015.09.06-09.40.29:452][773]LogD3D11RHI: InitD3DDevice
-[2015.09.06-09.40.29:491][773]LogMaterial: Missing cached shader map for material Tile, compiling. 
-[2015.09.06-09.40.29:554][773]LogD3D11RHI: InitD3DDevice
-[2015.09.06-09.40.29:657][773]LogMaterial: Missing cached shader map for material Tile, compiling. 
-[2015.09.06-09.40.29:664][773]LogMaterial: 0.000087 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.06-09.40.29:690][773]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2015.09.06-09.40.29:693][773]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
-[2015.09.06-09.40.29:695][773]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
-[2015.09.06-09.40.29:698][773]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
-[2015.09.06-09.40.31:720][862]MaterialEditorStats: Info Base pass shader with static lighting: 88 instructions
-[2015.09.06-09.40.31:720][862]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 56 instructions
-[2015.09.06-09.40.31:720][862]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.09.06-09.40.31:720][862]MaterialEditorStats: Info Texture samplers: 6/16
-[2015.09.06-09.40.35:856][ 59]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FloorTile7)
-[2015.09.06-09.40.39:906][244]LogD3D11RHI: InitD3DDevice
-[2015.09.06-09.40.39:924][244]LogMaterial: Missing cached shader map for material TileBroken001, compiling. 
-[2015.09.06-09.40.40:055][244]LogMaterial: Missing cached shader map for material TileBroken001, compiling. 
-[2015.09.06-09.40.40:061][244]LogMaterial: 0.000105 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.06-09.40.40:088][244]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2015.09.06-09.40.40:091][244]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
-[2015.09.06-09.40.40:094][244]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
-[2015.09.06-09.40.40:098][244]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
-[2015.09.06-09.40.40:101][244]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
-[2015.09.06-09.40.40:919][278]MaterialEditorStats: Info Base pass shader with static lighting: 88 instructions
-[2015.09.06-09.40.40:919][278]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 56 instructions
-[2015.09.06-09.40.40:919][278]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.09.06-09.40.40:919][278]MaterialEditorStats: Info Texture samplers: 6/16
-[2015.09.06-09.40.44:411][455]LogD3D11RHI: InitD3DDevice
-[2015.09.06-09.40.45:270][517]LogMaterial: Missing cached shader map for material TileBroken001, compiling. 
-[2015.09.06-09.40.45:276][517]LogMaterial: 0.000114 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.06-09.40.45:306][517]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
-[2015.09.06-09.40.46:101][546]LogD3D11RHI: InitD3DDevice
-[2015.09.06-09.40.46:178][549]MaterialEditorStats: Info Base pass shader with static lighting: 88 instructions
-[2015.09.06-09.40.46:178][549]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 56 instructions
-[2015.09.06-09.40.46:178][549]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.09.06-09.40.46:178][549]MaterialEditorStats: Info Texture samplers: 6/16
-[2015.09.06-09.40.47:390][637]LogMaterial: Missing cached shader map for material TileBroken001, compiling. 
-[2015.09.06-09.40.47:396][637]LogMaterial: 0.000109 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.06-09.40.48:257][671]MaterialEditorStats: Info Base pass shader with static lighting: 95 instructions
-[2015.09.06-09.40.48:257][671]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 63 instructions
-[2015.09.06-09.40.48:257][671]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.09.06-09.40.48:257][671]MaterialEditorStats: Info Texture samplers: 7/16
-[2015.09.06-09.40.51:094][805]LogMaterialEditor: Applying material TileBroken001
-[2015.09.06-09.40.51:551][805]LogMaterial: Missing cached shader map for material TileBroken001, compiling. 
-[2015.09.06-09.40.51:580][805]LogMaterial: 0.000140 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.06-09.40.51:584][805]LogD3D11RHI: InitD3DDevice
-[2015.09.06-09.40.51:643][805]LogMaterial: Missing cached shader map for material TileBroken001, compiling. 
-[2015.09.06-09.40.51:693][805]LogMaterial: Missing cached shader map for material TileBroken001, compiling. 
-[2015.09.06-09.40.51:722][805]LogMaterial: 0.013798 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.09.06-09.40.55:098][887]MaterialEditorStats: Info Base pass shader with static lighting: 115 instructions
-[2015.09.06-09.40.55:098][887]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 83 instructions
-[2015.09.06-09.40.55:098][887]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.09.06-09.40.55:098][887]MaterialEditorStats: Info Texture samplers: 8/16
-[2015.09.06-09.41.22:118][935]LogD3D11RHI: InitD3DDevice
-[2015.09.06-09.41.22:177][935]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../../Storage/Documents/GodKillerExports/FlorrTile/001/001.FBX)
-[2015.09.06-09.41.22:313][935]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2015.09.06-09.41.22:313][935]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2015.09.06-09.41.22:313][935]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2015.09.06-09.41.22:313][935]LogFbx: ItemName: Model, ItemCount : 1
-[2015.09.06-09.41.22:313][935]LogFbx: ItemName: Geometry, ItemCount : 1
-[2015.09.06-09.41.22:313][935]LogFbx: ItemName: Material, ItemCount : 1
-[2015.09.06-09.41.22:313][935]LogFbx: ItemName: Texture, ItemCount : 2
-[2015.09.06-09.41.22:313][935]LogFbx: ItemName: Video, ItemCount : 2
-[2015.09.06-09.41.22:408][935]LogD3D11RHI: InitD3DDevice
-[2015.09.06-09.41.23:812][935]LogFbx: Loading FBX Scene from ../../../../../../../Storage/Documents/GodKillerExports/FlorrTile/001/001.FBX
-[2015.09.06-09.41.23:835][935]LogFbx: FBX Scene Loaded Succesfully
-[2015.09.06-09.41.23:858][935]LogFbx:Warning: Triangulating static mesh TileFloor_Complete
-[2015.09.06-09.41.24:257][935]LogStaticMesh: Building static mesh 001...
-[2015.09.06-09.41.24:314][935]LogStaticMesh: Built static mesh [0.057431.2s] /Game/Materials/001.001
-[2015.09.06-09.41.24:322][935]LogStaticMesh:Warning: 001 has degenerate tangent bases which will result in incorrect shading. 
-[2015.09.06-09.41.24:347][935]FBXImport:Warning: Warning 001 has degenerate tangent bases which will result in incorrect shading.  
-[2015.09.06-09.41.24:361][935]LogD3D11RHI: InitD3DDevice
-[2015.09.06-09.41.27:670][ 80]LogD3D11RHI: InitD3DDevice
-[2015.09.06-09.41.37:184][534]LogD3D11RHI: InitD3DDevice
-[2015.09.06-09.41.37:222][534]LogStaticMesh: Building static mesh 001...
-[2015.09.06-09.41.37:255][534]LogStaticMesh: Built static mesh [0.033339.2s] /Game/Materials/001.001
-[2015.09.06-09.41.37:263][534]LogStaticMesh:Warning: 001 has degenerate tangent bases which will result in incorrect shading. 
-[2015.09.06-09.41.42:838][802]LogD3D11RHI: InitD3DDevice
-[2015.09.06-09.41.53:286][310]LogD3D11RHI: InitD3DDevice
-[2015.09.06-09.42.13:714][320]LogD3D11RHI: InitD3DDevice
-[2015.09.06-09.42.13:786][320]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/001" FILE="../../../../../../../Storage/Documents/SourceTRee/Content/Materials/001.uasset" SILENT=true
-[2015.09.06-09.42.13:800][320]LogSavePackage: Save=12.453958ms
-[2015.09.06-09.42.13:800][320]LogSavePackage: Moving '../../../../../../../Storage/Documents/SourceTRee/Saved/0018373142A4D8FC74B714FF3AE2D283599.tmp' to '../../../../../../../Storage/Documents/SourceTRee/Content/Materials/001.uasset'
-[2015.09.06-09.42.18:027][530]LogD3D11RHI: InitD3DDevice
-[2015.09.06-09.42.18:240][532]LogActorFactory: Actor Factory created 001
-[2015.09.06-09.42.19:416][631]LogActorFactory: Actor Factory created 001
-[2015.09.06-09.42.19:677][638]LogD3D11RHI: InitD3DDevice
-[2015.09.06-09.42.23:050][813]LogD3D11RHI: InitD3DDevice
-[2015.09.06-09.42.24:744][902]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FloorTile7)
-[2015.09.06-09.42.30:892][277]LogD3D11RHI: InitD3DDevice
-[2015.09.06-09.42.30:936][277]LogD3D11RHI: InitD3DDevice
-[2015.09.06-09.42.35:437][542]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (001)
-[2015.09.06-09.42.40:428][841]LogD3D11RHI: InitD3DDevice
-[2015.09.06-09.42.40:454][841]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
-[2015.09.06-09.42.40:454][841]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
-[2015.09.06-09.42.40:462][841]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
-[2015.09.06-09.42.40:462][841]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
-[2015.09.06-09.42.40:463][841]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
-[2015.09.06-09.42.40:463][841]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
-[2015.09.06-09.42.40:469][841]LogD3D11RHI: InitD3DDevice
-[2015.09.06-09.42.45:039][ 85]LogD3D11RHI: InitD3DDevice
-[2015.09.06-09.42.45:065][ 85]LogStaticMesh:Warning: 001 has degenerate tangent bases which will result in incorrect shading. 
-[2015.09.06-09.42.45:075][ 85]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
-[2015.09.06-09.42.45:075][ 85]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
-[2015.09.06-09.42.49:889][347]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FloorTile7)
-[2015.09.06-09.42.58:141][835]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (001)
-[2015.09.06-09.43.02:670][ 97]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FloorTile7)
-[2015.09.06-09.43.05:803][277]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BrokenPillar4)
-[2015.09.06-09.43.06:352][306]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BrokenPillar4)
-[2015.09.06-09.43.06:938][339]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (001)
-[2015.09.06-09.43.09:580][499]LogD3D11RHI: InitD3DDevice
-[2015.09.06-09.43.10:367][537]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FloorTile7)
-[2015.09.06-09.43.13:781][730]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BrokenPillar4)
-[2015.09.06-09.43.14:525][771]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (001)
-[2015.09.06-09.43.17:679][951]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FloorTile7)
-[2015.09.06-09.43.20:026][ 90]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (001)
-[2015.09.06-09.43.27:642][497]LogD3D11RHI: InitD3DDevice
-[2015.09.06-09.43.27:660][497]LogStaticMesh: Building static mesh 001...
-[2015.09.06-09.43.27:693][497]LogStaticMesh: Built static mesh [0.033294.2s] /Game/Materials/001.001
-[2015.09.06-09.43.27:701][497]LogStaticMesh:Warning: 001 has degenerate tangent bases which will result in incorrect shading. 
-[2015.09.06-09.43.27:710][497]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
-[2015.09.06-09.43.27:710][497]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
-[2015.09.06-09.43.36:866][995]LogD3D11RHI: InitD3DDevice
-[2015.09.06-09.43.36:878][995]LogStaticMesh: Building static mesh 001...
-[2015.09.06-09.43.36:911][995]LogStaticMesh: Built static mesh [0.033229.2s] /Game/Materials/001.001
-[2015.09.06-09.43.36:918][995]LogStaticMesh:Warning: 001 has degenerate tangent bases which will result in incorrect shading. 
-[2015.09.06-09.43.36:928][995]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
-[2015.09.06-09.43.36:928][995]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
-[2015.09.06-09.43.42:387][291]LogD3D11RHI: InitD3DDevice
-[2015.09.06-09.43.42:411][291]LogStaticMesh: Building static mesh 001...
-[2015.09.06-09.43.42:444][291]LogStaticMesh: Built static mesh [0.033332.2s] /Game/Materials/001.001
-[2015.09.06-09.43.42:453][291]LogStaticMesh:Warning: 001 has degenerate tangent bases which will result in incorrect shading. 
-[2015.09.06-09.43.42:463][291]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
-[2015.09.06-09.43.42:463][291]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
-[2015.09.06-09.43.52:601][782]LogD3D11RHI: InitD3DDevice
-[2015.09.06-09.43.52:612][782]LogStaticMesh: Building static mesh 001...
-[2015.09.06-09.43.52:645][782]LogStaticMesh: Built static mesh [0.033122.2s] /Game/Materials/001.001
-[2015.09.06-09.43.52:652][782]LogStaticMesh:Warning: 001 has degenerate tangent bases which will result in incorrect shading. 
-[2015.09.06-09.43.52:662][782]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
-[2015.09.06-09.43.52:662][782]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
-[2015.09.06-09.44.01:079][250]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FloorTile7)
-[2015.09.06-09.44.08:641][675]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FloorTile7)
-[2015.09.06-09.44.09:747][741]Cmd: DELETE
-[2015.09.06-09.44.09:747][741]Cmd: ACTOR DELETE
-[2015.09.06-09.44.09:811][741]LogEditorActor: Deleted Actor: StaticMeshActor
-[2015.09.06-09.44.09:925][741]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F1B9223C40
-[2015.09.06-09.44.09:925][741]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F1AF0D6F20
-[2015.09.06-09.44.09:925][741]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F1D405D260
-[2015.09.06-09.44.09:926][741]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F1B9221A80
-[2015.09.06-09.44.11:046][741]LogEditorActor: Deleted 1 Actors (1.255 secs)
-[2015.09.06-09.44.11:730][788]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (001)
-[2015.09.06-09.44.15:444][998]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cave)
-[2015.09.06-09.44.18:889][191]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (001)
-[2015.09.06-09.44.34:649][112]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BrokenPillar4)
-[2015.09.06-09.45.19:472][851]LogD3D11RHI: InitD3DDevice
-[2015.09.06-09.45.19:505][851]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene/NewCave" FILE="../../../../../../../Storage/Documents/SourceTRee/Content/Scene/NewCave.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2015.09.06-09.45.20:767][851]LogSavePackage: Save=1187.821167ms
-[2015.09.06-09.45.20:767][851]LogSavePackage: Moving '../../../../../../../Storage/Documents/SourceTRee/Saved/NewCave1E1AFC4945728931B65B518445C81551.tmp' to '../../../../../../../Storage/Documents/SourceTRee/Content/Scene/NewCave.umap'
-[2015.09.06-09.45.21:768][909]LogD3D11RHI: InitD3DDevice
-[2015.09.06-09.45.23:240][909]LogD3D11RHI: InitD3DDevice
-[2015.09.06-09.45.23:275][909]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/001" FILE="../../../../../../../Storage/Documents/SourceTRee/Content/Materials/001.uasset" SILENT=true
-[2015.09.06-09.45.23:300][909]LogSavePackage: Save=11.239068ms
-[2015.09.06-09.45.23:300][909]LogSavePackage: Moving '../../../../../../../Storage/Documents/SourceTRee/Saved/001C3BB86004CB038826AEC9CA56E44C885.tmp' to '../../../../../../../Storage/Documents/SourceTRee/Content/Materials/001.uasset'
-[2015.09.06-09.45.23:324][909]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/brokentile001_normals" FILE="../../../../../../../Storage/Documents/SourceTRee/Content/Materials/brokentile001_normals.uasset" SILENT=true
-[2015.09.06-09.45.23:674][909]LogSavePackage: Save=335.301056ms
-[2015.09.06-09.45.23:674][909]LogSavePackage: Moving '../../../../../../../Storage/Documents/SourceTRee/Saved/brokentile001_normals860CD3CF4826C48DD939A88EA8D2714D.tmp' to '../../../../../../../Storage/Documents/SourceTRee/Content/Materials/brokentile001_normals.uasset'
-[2015.09.06-09.45.23:698][909]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/brokentile001_occlusion" FILE="../../../../../../../Storage/Documents/SourceTRee/Content/Materials/brokentile001_occlusion.uasset" SILENT=true
-[2015.09.06-09.45.23:969][909]LogSavePackage: Save=256.906250ms
-[2015.09.06-09.45.23:969][909]LogSavePackage: Moving '../../../../../../../Storage/Documents/SourceTRee/Saved/brokentile001_occlusion7FE9B9DE4F721AA55BFAEAA76F96CCC9.tmp' to '../../../../../../../Storage/Documents/SourceTRee/Content/Materials/brokentile001_occlusion.uasset'
-[2015.09.06-09.45.24:008][909]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/TileBroken001" FILE="../../../../../../../Storage/Documents/SourceTRee/Content/Materials/TileBroken001.uasset" SILENT=true
-[2015.09.06-09.45.24:039][909]LogSavePackage: Save=18.509825ms
-[2015.09.06-09.45.24:039][909]LogSavePackage: Moving '../../../../../../../Storage/Documents/SourceTRee/Saved/TileBroken001F6C607CB4B36539D22245AB9AD0085A2.tmp' to '../../../../../../../Storage/Documents/SourceTRee/Content/Materials/TileBroken001.uasset'
-[2015.09.06-09.45.32:414][407]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FloorTile12)
-[2015.09.06-09.45.33:511][465]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FloorTile17)
-[2015.09.06-09.45.43:001][998]LogD3D11RHI: InitD3DDevice
-[2015.09.06-09.45.43:023][998]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene/NewCave" FILE="../../../../../../../Storage/Documents/SourceTRee/Content/Scene/NewCave.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2015.09.06-09.45.44:247][998]LogSavePackage: Save=1167.391968ms
-[2015.09.06-09.45.44:247][998]LogSavePackage: Moving '../../../../../../../Storage/Documents/SourceTRee/Saved/NewCave4A9D506C44713CED58175FA5DE5FCC3C.tmp' to '../../../../../../../Storage/Documents/SourceTRee/Content/Scene/NewCave.umap'
-[2015.09.06-09.45.46:458][122]MapCheck: New page: Map Check
-[2015.09.06-09.45.46:501][122]LogD3D11RHI: InitD3DDevice
-[2015.09.06-09.45.46:645][122]Cmd: MAP REBUILD ALLVISIBLE
-[2015.09.06-09.45.46:647][122]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2015.09.06-09.45.48:774][122]LightingResults: New page: Lighting Build - Sep 5, 2015, 7:45:48 PM
-[2015.09.06-09.45.53:568][122]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2015.09.06-09.45.53:568][122]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2015.09.06-09.45.53:568][122]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2015.09.06-09.45.53:568][122]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2015.09.06-09.45.53:568][122]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2015.09.06-09.45.53:845][122]LogD3D11RHI: InitD3DDevice
-[2015.09.06-09.45.53:870][122]LogEditorBuildUtils: Build time 0:00:07
-[2015.09.06-09.45.53:885][122]LogD3D11RHI: InitD3DDevice
-[2015.09.06-09.45.53:925][123]Cmd: UpdateLandscapeEditorData
-[2015.09.06-09.45.54:709][144]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Tile, compiling. 
-[2015.09.06-09.45.54:728][144]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Tile, compiling. 
-[2015.09.06-09.45.54:732][144]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Tile, compiling. 
-[2015.09.06-09.45.54:761][145]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer TileBroken002, compiling. 
-[2015.09.06-09.45.54:767][145]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer TileBroken002, compiling. 
-[2015.09.06-09.45.54:774][145]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer TileBroken002, compiling. 
-[2015.09.06-09.45.54:803][146]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer TileBroken003, compiling. 
-[2015.09.06-09.45.54:809][146]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer TileBroken003, compiling. 
-[2015.09.06-09.45.54:815][146]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer TileBroken003, compiling. 
-[2015.09.06-09.45.54:852][147]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer TileBroken001, compiling. 
-[2015.09.06-09.45.54:858][147]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer TileBroken001, compiling. 
-[2015.09.06-09.45.54:863][147]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer TileBroken001, compiling. 
-[2015.09.06-09.45.54:892][148]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer StairMat, compiling. 
-[2015.09.06-09.45.54:897][148]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer StairMat, compiling. 
-[2015.09.06-09.45.54:901][148]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer StairMat, compiling. 
-[2015.09.06-09.46.12:894][722]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.12:894][722]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.13:044][730]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.13:044][730]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.13:083][732]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.13:083][732]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.14:318][797]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.14:318][797]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.14:433][803]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.14:433][803]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.14:825][823]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.14:825][823]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.14:957][830]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.14:957][830]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.14:957][830]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.14:957][830]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.14:996][832]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.14:996][832]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.15:223][844]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.15:224][844]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.15:263][846]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.15:283][847]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.15:435][855]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.15:435][855]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.16:039][887]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.16:039][887]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.16:058][888]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.16:058][888]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.16:058][888]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.16:058][888]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.18:566][ 20]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.18:566][ 20]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.19:151][ 51]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.19:151][ 51]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.19:170][ 52]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.19:170][ 52]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.19:207][ 54]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.19:207][ 54]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.19:664][ 78]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.19:664][ 78]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.19:721][ 81]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.19:721][ 81]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.19:916][ 91]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.19:916][ 91]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.20:122][102]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.20:122][102]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.20:296][111]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.20:296][111]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.20:373][115]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.20:373][115]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.20:412][117]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.20:412][117]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.20:492][121]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.20:492][121]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.20:588][126]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.20:588][126]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.20:608][127]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.20:608][127]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.23:082][258]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.23:082][258]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.23:082][258]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.23:082][258]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.24:176][316]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.24:195][317]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.24:215][318]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.24:215][318]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.24:252][320]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.24:253][320]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.24:514][334]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.24:514][334]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.24:591][338]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.24:591][338]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.24:612][339]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.24:612][339]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.24:864][352]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.24:864][352]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.25:035][361]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.25:035][361]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.25:035][361]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.25:035][361]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.45:426][473]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.45:426][473]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.45:704][488]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.45:705][488]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.45:969][502]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.45:969][502]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.46:242][516]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.46:242][516]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.46:286][518]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.46:286][518]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.46:305][519]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.46:305][519]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.46:342][521]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.46:342][521]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.46:380][523]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.46:380][523]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.46:418][525]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.46:419][525]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.46:983][555]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.46:983][555]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.47:022][557]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.47:022][557]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.47:327][573]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.47:327][573]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.47:423][578]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.47:423][578]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.47:613][588]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.47:613][588]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.47:687][592]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.47:687][592]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.47:707][593]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.47:707][593]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.47:837][600]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.47:837][600]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.47:910][604]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.47:910][604]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.48:747][648]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.48:748][648]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.48:748][648]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.48:766][649]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.48:785][650]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.48:805][651]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.48:899][656]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.48:899][656]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.48:939][658]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.48:939][658]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.49:053][664]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.49:053][664]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.49:696][698]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.49:697][698]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.49:715][699]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.49:716][699]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.49:834][705]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.49:834][705]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.49:925][710]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.49:925][710]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.50:231][726]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.50:231][726]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.52:868][866]LightingResults:Error: Error LADDER Object has overlapping UVs.
-[2015.09.06-09.46.52:868][866]LightingResults: Info LADDER Lightmap UV are overlapping by 49.6%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.52:868][866]LightingResults:Error: Error LADDER Object has overlapping UVs.
-[2015.09.06-09.46.52:868][866]LightingResults: Info LADDER Lightmap UV are overlapping by 49.6%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.55:845][ 24]LightingResults:Error: Error wagon Object has overlapping UVs.
-[2015.09.06-09.46.55:845][ 24]LightingResults: Info wagon Lightmap UV are overlapping by 3.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.55:957][ 30]LightingResults:Error: Error wagon Object has overlapping UVs.
-[2015.09.06-09.46.55:957][ 30]LightingResults: Info wagon Lightmap UV are overlapping by 3.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.56:485][ 58]LightingResults:Error: Error wagon Object has overlapping UVs.
-[2015.09.06-09.46.56:485][ 58]LightingResults: Info wagon Lightmap UV are overlapping by 3.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.56:505][ 59]LightingResults:Error: Error LADDER Object has overlapping UVs.
-[2015.09.06-09.46.56:505][ 59]LightingResults: Info LADDER Lightmap UV are overlapping by 49.6%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.56:656][ 67]LightingResults:Error: Error LADDER Object has overlapping UVs.
-[2015.09.06-09.46.56:656][ 67]LightingResults: Info LADDER Lightmap UV are overlapping by 49.6%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.56:995][ 85]LightingResults:Error: Error LADDER Object has overlapping UVs.
-[2015.09.06-09.46.56:995][ 85]LightingResults: Info LADDER Lightmap UV are overlapping by 49.6%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.58:024][139]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.58:024][139]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.58:094][143]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.58:094][143]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.58:699][176]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.58:718][177]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.46.59:435][215]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.46.59:435][215]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.47.00:024][246]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.47.00:024][246]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.47.00:529][273]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.47.00:529][273]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.47.00:834][289]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.47.00:834][289]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.47.01:349][316]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.47.01:350][316]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.47.01:615][330]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.47.01:615][330]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.47.01:937][347]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.47.01:937][347]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.47.03:361][423]LightingResults:Error: Error Lanturn02 Object has overlapping UVs.
-[2015.09.06-09.47.03:361][423]LightingResults: Info Lanturn02 Lightmap UV are overlapping by 21.4%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.47.03:656][439]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.47.03:656][439]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.47.03:897][452]LightingResults:Error: Error LADDER Object has overlapping UVs.
-[2015.09.06-09.47.03:897][452]LightingResults: Info LADDER Lightmap UV are overlapping by 49.6%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.47.03:972][456]LightingResults:Error: Error Lanturn02 Object has overlapping UVs.
-[2015.09.06-09.47.03:972][456]LightingResults: Info Lanturn02 Lightmap UV are overlapping by 21.4%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.47.04:212][469]LightingResults:Error: Error Lanturn02 Object has overlapping UVs.
-[2015.09.06-09.47.04:212][469]LightingResults: Info Lanturn02 Lightmap UV are overlapping by 21.4%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.47.04:291][473]LightingResults:Error: Error Lanturn02 Object has overlapping UVs.
-[2015.09.06-09.47.04:291][473]LightingResults: Info Lanturn02 Lightmap UV are overlapping by 21.4%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.47.04:309][474]LightingResults:Error: Error Lanturn02 Object has overlapping UVs.
-[2015.09.06-09.47.04:309][474]LightingResults: Info Lanturn02 Lightmap UV are overlapping by 21.4%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.47.04:491][484]LightingResults:Error: Error Lanturn02 Object has overlapping UVs.
-[2015.09.06-09.47.04:491][484]LightingResults: Info Lanturn02 Lightmap UV are overlapping by 21.4%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.47.04:604][490]LightingResults:Error: Error Lanturn02 Object has overlapping UVs.
-[2015.09.06-09.47.04:604][490]LightingResults: Info Lanturn02 Lightmap UV are overlapping by 21.4%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.47.04:623][491]LightingResults:Error: Error Lanturn02 Object has overlapping UVs.
-[2015.09.06-09.47.04:623][491]LightingResults: Info Lanturn02 Lightmap UV are overlapping by 21.4%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.47.04:771][499]LightingResults:Error: Error Lanturn02 Object has overlapping UVs.
-[2015.09.06-09.47.04:771][499]LightingResults: Info Lanturn02 Lightmap UV are overlapping by 21.4%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.47.05:000][511]LightingResults:Error: Error Lanturn02 Object has overlapping UVs.
-[2015.09.06-09.47.05:000][511]LightingResults: Info Lanturn02 Lightmap UV are overlapping by 21.4%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.47.05:000][511]LightingResults:Error: Error Lanturn02 Object has overlapping UVs.
-[2015.09.06-09.47.05:000][511]LightingResults: Info Lanturn02 Lightmap UV are overlapping by 21.4%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.47.05:203][522]LightingResults:Error: Error Lanturn02 Object has overlapping UVs.
-[2015.09.06-09.47.05:203][522]LightingResults: Info Lanturn02 Lightmap UV are overlapping by 21.4%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.47.05:981][563]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.47.05:981][563]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.47.05:981][563]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.47.05:982][563]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.47.06:018][565]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.47.06:018][565]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.47.06:129][571]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.47.06:129][571]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.47.06:460][588]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.47.06:460][588]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.47.06:479][589]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.47.06:479][589]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.47.06:498][590]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.47.06:498][590]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.47.06:553][593]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.47.06:553][593]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.47.06:571][594]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.47.06:571][594]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.47.06:898][611]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.47.06:898][611]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.47.06:919][612]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.47.06:919][612]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.47.07:243][629]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.47.07:243][629]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.47.08:098][674]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.47.08:098][674]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.47.08:136][676]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.47.08:136][676]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.47.08:154][677]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.47.08:154][677]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.47.08:253][682]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.47.08:253][682]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.47.08:351][687]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.47.08:351][687]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.47.08:540][697]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.47.08:540][697]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.47.09:555][751]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.47.09:555][751]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.47.09:840][766]LightingResults:Error: Error LADDER Object has overlapping UVs.
-[2015.09.06-09.47.09:860][767]LightingResults: Info LADDER Lightmap UV are overlapping by 49.6%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.47.10:296][790]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.47.10:296][790]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.47.10:658][809]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.47.10:658][809]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.47.10:696][811]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.47.10:696][811]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.47.10:734][813]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.47.10:734][813]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.47.10:864][820]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.47.10:864][820]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.47.11:171][836]LightingResults:Error: Error Create001 Object has overlapping UVs.
-[2015.09.06-09.47.11:171][836]LightingResults: Info Create001 Lightmap UV are overlapping by 4.7%. Please adjust content - Enable Error Coloring to visualize.
-[2015.09.06-09.47.20:894][354]Job is a success!
-[2015.09.06-09.47.20:922][355]LogD3D11RHI: InitD3DDevice
-[2015.09.06-09.47.20:938][355]LogD3D11RHI: InitD3DDevice
-[2015.09.06-09.47.21:769][355]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (217) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
-[2015.09.06-09.47.21:769][355]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (266) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
-[2015.09.06-09.47.22:271][355]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
-[2015.09.06-09.47.22:344][355]LogTexture:Display: Building textures: LQ_Lightmap_1_23 (DXT1)
-[2015.09.06-09.47.22:346][355]LogTexture:Display: Building textures: HQ_Lightmap1_23 (AutoDXT)
-[2015.09.06-09.47.22:348][355]LogTexture:Display: Building textures: LQ_Lightmap_1_22 (DXT1)
-[2015.09.06-09.47.22:399][355]LogTexture:Display: Building textures: HQ_Lightmap1_22 (AutoDXT)
-[2015.09.06-09.47.22:414][355]LogTexture:Display: Building textures: LQ_Lightmap_1_21 (DXT1)
-[2015.09.06-09.47.22:415][355]LogTexture:Display: Building textures: HQ_Lightmap1_21 (AutoDXT)
-[2015.09.06-09.47.22:417][355]LogTexture:Display: Building textures: LQ_Lightmap_1_20 (DXT1)
-[2015.09.06-09.47.22:449][355]LogTexture:Display: Building textures: HQ_Lightmap1_20 (AutoDXT)
-[2015.09.06-09.47.22:454][355]LogTexture:Display: Building textures: LQ_Lightmap_1_19 (DXT1)
-[2015.09.06-09.47.22:456][355]LogTexture:Display: Building textures: HQ_Lightmap1_19 (AutoDXT)
-[2015.09.06-09.47.22:460][355]LogTexture:Display: Building textures: LQ_Lightmap_0_18 (DXT1)
-[2015.09.06-09.47.22:614][355]LogTexture:Display: Building textures: HQ_Lightmap0_18 (AutoDXT)
-[2015.09.06-09.47.22:693][355]LogTexture:Display: Building textures: LQ_Lightmap_0_17 (DXT1)
-[2015.09.06-09.47.22:721][355]LogTexture:Display: Building textures: HQ_Lightmap0_17 (AutoDXT)
-[2015.09.06-09.47.22:728][355]LogTexture:Display: Building textures: LQ_Lightmap_1_16 (DXT1)
-[2015.09.06-09.47.22:768][355]LogTexture:Display: Building textures: HQ_Lightmap1_16 (AutoDXT)
-[2015.09.06-09.47.22:784][355]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1)
-[2015.09.06-09.47.22:786][355]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT)
-[2015.09.06-09.47.22:788][355]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1)
-[2015.09.06-09.47.22:790][355]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT)
-[2015.09.06-09.47.22:792][355]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1)
-[2015.09.06-09.47.22:841][355]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT)
-[2015.09.06-09.47.22:856][355]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1)
-[2015.09.06-09.47.22:857][355]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT)
-[2015.09.06-09.47.22:859][355]LogTexture:Display: Building textures: LQ_Lightmap_1_11 (DXT1)
-[2015.09.06-09.47.22:861][355]LogTexture:Display: Building textures: HQ_Lightmap1_11 (AutoDXT)
-[2015.09.06-09.47.22:862][355]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1)
-[2015.09.06-09.47.22:864][355]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT)
-[2015.09.06-09.47.22:866][355]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1)
-[2015.09.06-09.47.22:867][355]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT)
-[2015.09.06-09.47.22:869][355]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1)
-[2015.09.06-09.47.22:872][355]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
-[2015.09.06-09.47.22:874][355]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
-[2015.09.06-09.47.22:956][355]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
-[2015.09.06-09.47.22:971][355]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
-[2015.09.06-09.47.22:972][355]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
-[2015.09.06-09.47.22:974][355]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
-[2015.09.06-09.47.22:976][355]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
-[2015.09.06-09.47.22:978][355]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
-[2015.09.06-09.47.22:982][355]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
-[2015.09.06-09.47.22:984][355]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
-[2015.09.06-09.47.23:025][355]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
-[2015.09.06-09.47.23:043][355]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
-[2015.09.06-09.47.23:197][355]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
-[2015.09.06-09.47.23:269][355]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
-[2015.09.06-09.47.23:529][355]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (BGRA8)
-[2015.09.06-09.47.23:578][355]LogTexture:Display: Building textures: ShadowMapTexture2D_18 (BGRA8)
-[2015.09.06-09.47.23:625][355]LogTexture:Display: Building textures: ShadowMapTexture2D_19 (BGRA8)
-[2015.09.06-09.47.23:635][355]LogTexture:Display: Building textures: ShadowMapTexture2D_20 (BGRA8)
-[2015.09.06-09.47.23:639][355]LogTexture:Display: Building textures: ShadowMapTexture2D_21 (BGRA8)
-[2015.09.06-09.47.23:679][355]LogTexture:Display: Building textures: ShadowMapTexture2D_22 (BGRA8)
-[2015.09.06-09.47.23:690][355]LogTexture:Display: Building textures: ShadowMapTexture2D_23 (BGRA8)
-[2015.09.06-09.47.23:695][355]LogTexture:Display: Building textures: ShadowMapTexture2D_24 (BGRA8)
-[2015.09.06-09.47.23:699][355]LogTexture:Display: Building textures: ShadowMapTexture2D_25 (BGRA8)
-[2015.09.06-09.47.23:702][355]LogTexture:Display: Building textures: ShadowMapTexture2D_26 (BGRA8)
-[2015.09.06-09.47.23:747][355]LogTexture:Display: Building textures: ShadowMapTexture2D_27 (BGRA8)
-[2015.09.06-09.47.23:797][355]LogTexture:Display: Building textures: ShadowMapTexture2D_28 (BGRA8)
-[2015.09.06-09.47.23:849][355]LogTexture:Display: Building textures: ShadowMapTexture2D_29 (BGRA8)
-[2015.09.06-09.47.24:030][355]LogTexture:Display: Building textures: ShadowMapTexture2D_30 (BGRA8)
-[2015.09.06-09.47.24:081][355]LogTexture:Display: Building textures: ShadowMapTexture2D_31 (BGRA8)
-[2015.09.06-09.47.24:125][355]LogTexture:Display: Building textures: ShadowMapTexture2D_32 (BGRA8)
-[2015.09.06-09.47.24:187][355]Lightmass on JOSEPH-PC: 1:18 min total, 1.90 sec importing, 1.84 sec setup, 2.19 sec photons, 1:12 min processing, 0 ms extra exporting [915/915 mappings]. Threads: 8:25 min total, 6:49 min processing.
-[2015.09.06-09.47.24:187][355]LogD3D11RHI: InitD3DDevice
-[2015.09.06-09.47.24:401][355]LogStaticLightingSystem: Illumination: 1:35 min (2.29 sec encoding lightmaps)
-[2015.09.06-09.47.24:401][355]LogStaticLightingSystem: Lightmap texture memory:  6.1 MB (6.1 MB streaming, 0.0 MB non-streaming), 46 textures
-[2015.09.06-09.47.24:401][355]LogStaticLightingSystem: Shadowmap texture memory: 8.4 MB (8.4 MB streaming, 0.0 MB non-streaming), 16 textures
-[2015.09.06-09.47.24:571][356]Cmd: UpdateLandscapeEditorData
-[2015.09.06-09.47.24:572][356]Cmd: MAP CHECK NOTIFYRESULTS
-[2015.09.06-09.47.24:572][356]MapCheck: New page: NewCave - Sep 5, 2015, 7:47:24 PM
-[2015.09.06-09.47.24:604][356]MapCheck:Error: Error scafbod2 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
-[2015.09.06-09.47.24:604][356]MapCheck:Warning: Warning scafbod2 Static mesh actor has NULL StaticMesh property 
-[2015.09.06-09.47.24:604][356]MapCheck:Warning: Warning scafbod2 Static mesh actor has NULL StaticMesh property 
-[2015.09.06-09.47.24:604][356]MapCheck:Error: Error scafbod3 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
-[2015.09.06-09.47.24:604][356]MapCheck:Warning: Warning scafbod3 Static mesh actor has NULL StaticMesh property 
-[2015.09.06-09.47.24:604][356]MapCheck:Warning: Warning scafbod3 Static mesh actor has NULL StaticMesh property 
-[2015.09.06-09.47.24:606][356]MapCheck:Error: Error scafbod4 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
-[2015.09.06-09.47.24:606][356]MapCheck:Warning: Warning scafbod4 Static mesh actor has NULL StaticMesh property 
-[2015.09.06-09.47.24:606][356]MapCheck:Warning: Warning scafbod4 Static mesh actor has NULL StaticMesh property 
-[2015.09.06-09.47.24:606][356]MapCheck:Error: Error scafbod5 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
-[2015.09.06-09.47.24:606][356]MapCheck:Warning: Warning scafbod5 Static mesh actor has NULL StaticMesh property 
-[2015.09.06-09.47.24:606][356]MapCheck:Warning: Warning scafbod5 Static mesh actor has NULL StaticMesh property 
-[2015.09.06-09.47.24:606][356]MapCheck:Error: Error scafbod6 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
-[2015.09.06-09.47.24:606][356]MapCheck:Warning: Warning scafbod6 Static mesh actor has NULL StaticMesh property 
-[2015.09.06-09.47.24:606][356]MapCheck:Warning: Warning scafbod6 Static mesh actor has NULL StaticMesh property 
-[2015.09.06-09.47.24:606][356]MapCheck:Error: Error scafbod_16 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
-[2015.09.06-09.47.24:606][356]MapCheck:Warning: Warning scafbod_16 Static mesh actor has NULL StaticMesh property 
-[2015.09.06-09.47.24:606][356]MapCheck:Warning: Warning scafbod_16 Static mesh actor has NULL StaticMesh property 
-[2015.09.06-09.47.24:816][356]MapCheck: Info Map check complete: 6 Error(s), 12 Warning(s), took 244.164ms to complete.
-[2015.09.06-09.47.24:820][356]LogD3D11RHI: InitD3DDevice
-[2015.09.06-09.47.26:843][362]LogD3D11RHI: InitD3DDevice
-[2015.09.06-09.47.49:877][765]LogD3D11RHI: InitD3DDevice
-[2015.09.06-09.47.49:898][765]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene/NewCave" FILE="../../../../../../../Storage/Documents/SourceTRee/Content/Scene/NewCave.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2015.09.06-09.47.51:503][765]LogSavePackage: Save=1543.027344ms
-[2015.09.06-09.47.51:503][765]LogSavePackage: Moving '../../../../../../../Storage/Documents/SourceTRee/Saved/NewCaveAE2935D0452F25D77AE9C1A03FA716E8.tmp' to '../../../../../../../Storage/Documents/SourceTRee/Content/Scene/NewCave.umap'
-[2015.09.06-09.47.55:444][965]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2015.09.06-09.47.55:823][966]Cmd: QUIT_EDITOR
-[2015.09.06-09.47.56:363][966]LogExit: Preparing to exit.
-[2015.09.06-09.47.56:684][966]LogExit: Editor shut down
-[2015.09.06-09.47.56:685][966]LogExit: Transaction tracking system shut down
-[2015.09.06-09.47.56:703][966]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F1D6650FE0
-[2015.09.06-09.47.56:705][966]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F1D74CB880
-[2015.09.06-09.47.56:706][966]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F18E9E2480
-[2015.09.06-09.47.56:706][966]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F1EC91BCE0
-[2015.09.06-09.47.56:706][966]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F1EC91BB00
-[2015.09.06-09.47.56:706][966]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F18D821A80
-[2015.09.06-09.47.56:927][966]LogExit: Object subsystem successfully closed.
-[2015.09.06-09.47.56:952][966]LogD3D11RHI: Shutdown
-[2015.09.06-09.47.56:952][966]LogD3D11RHI: CleanupD3DDevice
-[2015.09.06-09.47.56:959][966]LogD3D11RHI: ~FD3D11DynamicRHI
-[2015.09.06-09.47.56:986][966]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (190)
-[2015.09.06-09.47.56:986][966]LogModuleManager: Shutting down and abandoning module MaterialEditor (189)
-[2015.09.06-09.47.56:986][966]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
-[2015.09.06-09.47.56:986][966]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
-[2015.09.06-09.47.56:986][966]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
-[2015.09.06-09.47.56:986][966]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
-[2015.09.06-09.47.56:986][966]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
-[2015.09.06-09.47.56:987][966]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
-[2015.09.06-09.47.56:987][966]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
-[2015.09.06-09.47.56:987][966]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
-[2015.09.06-09.47.56:987][966]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
-[2015.09.06-09.47.56:987][966]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
-[2015.09.06-09.47.56:987][966]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
-[2015.09.06-09.47.56:987][966]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
-[2015.09.06-09.47.56:987][966]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
-[2015.09.06-09.47.56:987][966]LogModuleManager: Shutting down and abandoning module BspMode (175)
-[2015.09.06-09.47.56:987][966]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
-[2015.09.06-09.47.56:987][966]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
-[2015.09.06-09.47.56:987][966]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
-[2015.09.06-09.47.56:987][966]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
-[2015.09.06-09.47.56:987][966]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
-[2015.09.06-09.47.56:987][966]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
-[2015.09.06-09.47.56:987][966]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
-[2015.09.06-09.47.56:987][966]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
-[2015.09.06-09.47.56:987][966]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
-[2015.09.06-09.47.56:987][966]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
-[2015.09.06-09.47.56:987][966]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
-[2015.09.06-09.47.56:987][966]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
-[2015.09.06-09.47.57:548][966]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
-[2015.09.06-09.47.57:548][966]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
-[2015.09.06-09.47.57:548][966]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
-[2015.09.06-09.47.57:548][966]LogModuleManager: Shutting down and abandoning module MergeActors (159)
-[2015.09.06-09.47.57:548][966]LogModuleManager: Shutting down and abandoning module SizeMap (158)
-[2015.09.06-09.47.57:548][966]LogModuleManager: Shutting down and abandoning module TreeMap (157)
-[2015.09.06-09.47.57:548][966]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
-[2015.09.06-09.47.57:548][966]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
-[2015.09.06-09.47.57:548][966]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
-[2015.09.06-09.47.57:548][966]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
-[2015.09.06-09.47.57:548][966]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
-[2015.09.06-09.47.57:548][966]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
-[2015.09.06-09.47.57:548][966]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
-[2015.09.06-09.47.57:548][966]LogModuleManager: Shutting down and abandoning module XmlParser (149)
-[2015.09.06-09.47.57:548][966]LogModuleManager: Shutting down and abandoning module Blutility (148)
-[2015.09.06-09.47.57:548][966]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
-[2015.09.06-09.47.57:548][966]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
-[2015.09.06-09.47.57:548][966]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
-[2015.09.06-09.47.57:548][966]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
-[2015.09.06-09.47.57:548][966]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
-[2015.09.06-09.47.57:548][966]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
-[2015.09.06-09.47.57:548][966]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
-[2015.09.06-09.47.57:548][966]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
-[2015.09.06-09.47.57:548][966]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
-[2015.09.06-09.47.57:548][966]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
-[2015.09.06-09.47.57:549][966]LogModuleManager: Shutting down and abandoning module AutomationController (137)
-[2015.09.06-09.47.57:549][966]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
-[2015.09.06-09.47.57:549][966]LogModuleManager: Shutting down and abandoning module Layers (135)
-[2015.09.06-09.47.57:549][966]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
-[2015.09.06-09.47.57:549][966]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
-[2015.09.06-09.47.57:549][966]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
-[2015.09.06-09.47.57:549][966]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
-[2015.09.06-09.47.57:687][966]LogModuleManager: Shutting down and abandoning module Persona (130)
-[2015.09.06-09.47.57:687][966]LogModuleManager: Shutting down and abandoning module Kismet (129)
-[2015.09.06-09.47.57:687][966]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
-[2015.09.06-09.47.57:688][966]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
-[2015.09.06-09.47.57:688][966]LogModuleManager: Shutting down and abandoning module Toolbox (126)
-[2015.09.06-09.47.57:688][966]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
-[2015.09.06-09.47.57:688][966]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
-[2015.09.06-09.47.57:688][966]LogModuleManager: Shutting down and abandoning module OutputLog (123)
-[2015.09.06-09.47.57:688][966]LogModuleManager: Shutting down and abandoning module GammaUI (122)
-[2015.09.06-09.47.57:688][966]LogModuleManager: Shutting down and abandoning module Documentation (121)
-[2015.09.06-09.47.57:688][966]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
-[2015.09.06-09.47.57:688][966]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
-[2015.09.06-09.47.57:688][966]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
-[2015.09.06-09.47.57:688][966]LogModuleManager: Shutting down and abandoning module Analytics (117)
-[2015.09.06-09.47.57:688][966]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
-[2015.09.06-09.47.57:688][966]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
-[2015.09.06-09.47.57:688][966]LogModuleManager: Shutting down and abandoning module AIModule (114)
-[2015.09.06-09.47.57:688][966]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
-[2015.09.06-09.47.57:936][966]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
-[2015.09.06-09.47.57:936][966]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
-[2015.09.06-09.47.57:936][966]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
-[2015.09.06-09.47.57:936][966]LogModuleManager: Shutting down and abandoning module SteamVR (109)
-[2015.09.06-09.47.57:936][966]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
-[2015.09.06-09.47.57:936][966]LogModuleManager: Shutting down and abandoning module OculusRift (107)
-[2015.09.06-09.47.57:936][966]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
-[2015.09.06-09.47.57:989][966]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
-[2015.09.06-09.47.57:989][966]LogModuleManager: Shutting down and abandoning module CableComponent (104)
-[2015.09.06-09.47.57:989][966]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
-[2015.09.06-09.47.57:989][966]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
-[2015.09.06-09.47.57:989][966]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
-[2015.09.06-09.47.57:989][966]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
-[2015.09.06-09.47.57:989][966]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
-[2015.09.06-09.47.57:989][966]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
-[2015.09.06-09.47.57:989][966]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
-[2015.09.06-09.47.57:989][966]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
-[2015.09.06-09.47.57:989][966]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
-[2015.09.06-09.47.57:989][966]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
-[2015.09.06-09.47.57:989][966]LogModuleManager: Shutting down and abandoning module SourceControl (93)
-[2015.09.06-09.47.57:989][966]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
-[2015.09.06-09.47.57:989][966]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
-[2015.09.06-09.47.57:989][966]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
-[2015.09.06-09.47.57:989][966]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
-[2015.09.06-09.47.57:989][966]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
-[2015.09.06-09.47.57:989][966]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
-[2015.09.06-09.47.57:989][966]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
-[2015.09.06-09.47.57:990][966]LogModuleManager: Shutting down and abandoning module HotReload (85)
-[2015.09.06-09.47.57:990][966]LogModuleManager: Shutting down and abandoning module MainFrame (84)
-[2015.09.06-09.47.57:990][966]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
-[2015.09.06-09.47.57:991][966]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
-[2015.09.06-09.47.57:992][966]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
-[2015.09.06-09.47.57:992][966]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
-[2015.09.06-09.47.58:093][966]LogModuleManager: Shutting down and abandoning module Paper2D (79)
-[2015.09.06-09.47.58:093][966]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
-[2015.09.06-09.47.58:098][966]LogModuleManager: Shutting down and abandoning module Media (77)
-[2015.09.06-09.47.58:098][966]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
-[2015.09.06-09.47.58:098][966]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
-[2015.09.06-09.47.58:098][966]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
-[2015.09.06-09.47.58:098][966]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
-[2015.09.06-09.47.58:098][966]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
-[2015.09.06-09.47.58:098][966]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
-[2015.09.06-09.47.58:098][966]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
-[2015.09.06-09.47.58:098][966]LogModuleManager: Shutting down and abandoning module MessageLog (69)
-[2015.09.06-09.47.58:098][966]LogModuleManager: Shutting down and abandoning module Sequencer (68)
-[2015.09.06-09.47.58:098][966]LogModuleManager: Shutting down and abandoning module AssetTools (67)
-[2015.09.06-09.47.58:098][966]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
-[2015.09.06-09.47.58:098][966]LogModuleManager: Shutting down and abandoning module UMG (65)
-[2015.09.06-09.47.58:098][966]LogModuleManager: Shutting down and abandoning module Slate (64)
-[2015.09.06-09.47.58:098][966]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
-[2015.09.06-09.47.58:102][966]LogModuleManager: Shutting down and abandoning module SessionServices (62)
-[2015.09.06-09.47.58:102][966]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
-[2015.09.06-09.47.58:102][966]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
-[2015.09.06-09.47.58:102][966]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
-[2015.09.06-09.47.58:102][966]LogModuleManager: Shutting down and abandoning module Networking (57)
-[2015.09.06-09.47.58:102][966]LogModuleManager: Shutting down and abandoning module Core (56)
-[2015.09.06-09.47.58:102][966]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
-[2015.09.06-09.47.58:102][966]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
-[2015.09.06-09.47.58:102][966]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
-[2015.09.06-09.47.58:102][966]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
-[2015.09.06-09.47.58:188][966]LogDerivedDataCache: Shutdown
-[2015.09.06-09.47.58:188][966]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
-[2015.09.06-09.47.58:188][966]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
-[2015.09.06-09.47.58:188][966]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
-[2015.09.06-09.47.58:188][966]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
-[2015.09.06-09.47.58:188][966]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
-[2015.09.06-09.47.58:188][966]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
-[2015.09.06-09.47.58:188][966]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
-[2015.09.06-09.47.58:188][966]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
-[2015.09.06-09.47.58:188][966]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
-[2015.09.06-09.47.58:188][966]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
-[2015.09.06-09.47.58:188][966]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
-[2015.09.06-09.47.58:188][966]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
-[2015.09.06-09.47.58:188][966]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
-[2015.09.06-09.47.58:188][966]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
-[2015.09.06-09.47.58:188][966]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
-[2015.09.06-09.47.58:188][966]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
-[2015.09.06-09.47.58:188][966]LogModuleManager: Shutting down and abandoning module Messaging (35)
-[2015.09.06-09.47.58:188][966]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
-[2015.09.06-09.47.58:188][966]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
-[2015.09.06-09.47.58:188][966]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
-[2015.09.06-09.47.58:188][966]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
-[2015.09.06-09.47.58:188][966]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
-[2015.09.06-09.47.58:188][966]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
-[2015.09.06-09.47.58:188][966]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
-[2015.09.06-09.47.58:188][966]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
-[2015.09.06-09.47.58:188][966]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
-[2015.09.06-09.47.58:188][966]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
-[2015.09.06-09.47.58:188][966]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
-[2015.09.06-09.47.58:188][966]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
-[2015.09.06-09.47.58:189][966]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
-[2015.09.06-09.47.58:189][966]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
-[2015.09.06-09.47.58:189][966]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
-[2015.09.06-09.47.58:189][966]LogModuleManager: Shutting down and abandoning module InputCore (19)
-[2015.09.06-09.47.58:189][966]LogModuleManager: Shutting down and abandoning module Settings (18)
-[2015.09.06-09.47.58:189][966]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
-[2015.09.06-09.47.58:189][966]LogModuleManager: Shutting down and abandoning module HTTP (15)
-[2015.09.06-09.47.58:189][966]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
-[2015.09.06-09.47.58:189][966]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
-[2015.09.06-09.47.58:189][966]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
-[2015.09.06-09.47.58:189][966]LogModuleManager: Shutting down and abandoning module Landscape (11)
-[2015.09.06-09.47.58:189][966]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
-[2015.09.06-09.47.58:194][966]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
-[2015.09.06-09.47.58:194][966]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
-[2015.09.06-09.47.58:194][966]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2015.09.06-09.47.58:194][966]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2015.09.06-09.47.58:194][966]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2015.09.06-09.47.58:194][966]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2015.09.06-09.47.58:194][966]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2015.09.06-09.47.58:194][966]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2015.09.06-09.47.58:194][966]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2015.09.06-09.47.58:195][966]LogExit: Exiting.
-[2015.09.06-09.47.58:242][966]Log file closed, 09/06/15 02:47:58
+[2015.09.07-08.36.59:991][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon R9 200 Series (Feature Level 11_0)
+[2015.09.07-08.36.59:991][  0]LogD3D11RHI: Adapter has 4075MB of dedicated video memory, 0MB of dedicated system memory, and 8140MB of shared system memory, 1 output[s]
+[2015.09.07-08.36.59:993][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.09.07-08.36.59:993][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8140MB of shared system memory, 0 output[s]
+[2015.09.07-08.36.59:993][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.09.07-08.37.00:000][  0]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.37.00:000][  0]LogD3D11RHI: !Direct3DDevice
+[2015.09.07-08.37.00:000][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.09.07-08.37.00:011][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.09.07-08.37.00:025][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.09.07-08.37.01:441][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.09.07-08.37.01:468][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.09.07-08.37.01:502][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.09.07-08.37.01:532][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.09.07-08.37.01:565][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.09.07-08.37.01:590][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.09.07-08.37.01:614][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.09.07-08.37.01:647][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.09.07-08.37.01:672][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.09.07-08.37.01:694][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.09.07-08.37.01:715][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.09.07-08.37.01:736][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.09.07-08.37.01:811][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.09.07-08.37.01:832][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.09.07-08.37.01:853][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.09.07-08.37.01:877][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.09.07-08.37.01:877][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.09.07-08.37.02:256][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.09.07-08.37.02:337][  0]LogDerivedDataCache: Loaded boot cache 0.08s 53MB C:/Users/Joseph/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.09.07-08.37.02:337][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Joseph/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.09.07-08.37.02:337][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Storage/Documents/SourceTRee/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.09.07-08.37.02:337][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.09.07-08.37.02:337][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../Storage/Documents/SourceTRee/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.09.07-08.37.02:337][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.09.07-08.37.02:487][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.09.07-08.37.02:500][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Joseph/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.09.07-08.37.02:827][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.07-08.37.02:934][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.09.07-08.37.02:935][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.09.07-08.37.02:982][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.09.07-08.37.02:982][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.09.07-08.37.03:474][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.09.07-08.37.05:094][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.09.07-08.37.05:654][  0]SourceControl: Info Source control is disabled
+[2015.09.07-08.37.05:952][  0]SourceControl: Info Source control is disabled
+[2015.09.07-08.37.05:971][  0]SourceControl: Info Source control is disabled
+[2015.09.07-08.37.05:988][  0]SourceControl: Info Source control is disabled
+[2015.09.07-08.37.06:376][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.09.07-08.37.06:376][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2015.09.07-08.37.06:496][  0]LogEngine: Initializing Engine...
+[2015.09.07-08.37.06:501][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.09.07-08.37.06:503][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.09.07-08.37.06:722][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.09.07-08.37.06:732][  0]LogInit: XAudio2 using '1 - LG ULTRAWIDE (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.09.07-08.37.06:745][  0]LogInit: FAudioDevice initialized.
+[2015.09.07-08.37.06:789][  0]LogDerivedDataCache: Saved boot cache 0.04s 53MB C:/Users/Joseph/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.09.07-08.37.06:799][  0]LogInit: Texture streaming: Disabled
+[2015.09.07-08.37.06:838][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.09.07-08.37.06:838][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.09.07-08.37.06:838][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId d0fc97d9433d85cfe1d854a78446f226|fbedbf84e6654fb9830ed15a26abc575|31b426bb-6233-41c4-8090-528f38e68011
+[2015.09.07-08.37.06:838][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.09.07-08.37.06:891][  0]LogInit: Transaction tracking system initialized
+[2015.09.07-08.37.07:123][  0]BlueprintLog: New page: Editor Load
+[2015.09.07-08.37.07:183][  0]LogAssetRegistry: FAssetRegistry took 0.0108 seconds to start up
+[2015.09.07-08.37.07:184][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.09.07-08.37.08:418][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.09.07-08.37.08:418][  0]LogConsoleResponse:Display: 
+[2015.09.07-08.37.08:579][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.09.07-08.37.08:902][  0]SourceControl: Info Source control is disabled
+[2015.09.07-08.37.08:902][  0]Cmd: MAP LOAD FILE="../../../../../../../Storage/Documents/SourceTRee/Content/Scene/NewCave.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.09.07-08.37.08:903][  0]LightingResults: New page: Lighting Build
+[2015.09.07-08.37.08:923][  0]MapCheck: New page: Map Check
+[2015.09.07-08.37.08:923][  0]LightingResults: New page: Lighting Build
+[2015.09.07-08.37.08:938][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000069873D4F40
+[2015.09.07-08.37.12:186][  0]LogBlueprint:Warning: [compiler Gui] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
+[2015.09.07-08.37.12:197][  0]LogBlueprint:Warning: [compiler Gui] Warning [0016.14] Compile of Gui successful, but with 1 Warning(s) [in 59 ms]
+[2015.09.07-08.37.12:197][  0]LogBlueprint:Warning: [compiler Gui] Warning [0016.14] Compile of Gui successful, but with 2 Warning(s) [in 0 ms]
+[2015.09.07-08.37.12:197][  0]LogBlueprint:Warning: [compiler Gui] Warning [0016.14] Compile of Gui successful, but with 3 Warning(s) [in 0 ms]
+[2015.09.07-08.37.12:868][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
+[2015.09.07-08.37.12:869][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0016.81] Compile of GnawmersHealth successful, but with 1 Warning(s) [in 24 ms]
+[2015.09.07-08.37.12:869][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0016.81] Compile of GnawmersHealth successful, but with 2 Warning(s) [in 0 ms]
+[2015.09.07-08.37.12:869][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0016.81] Compile of GnawmersHealth successful, but with 3 Warning(s) [in 0 ms]
+[2015.09.07-08.37.16:052][  0]LogBlueprint:Warning: [compiler Gui] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
+[2015.09.07-08.37.16:062][  0]LogBlueprint:Warning: [compiler Gui] Warning [0020.00] Compile of Gui successful, but with 1 Warning(s) [in 61 ms]
+[2015.09.07-08.37.16:063][  0]LogBlueprint:Warning: [compiler Gui] Warning [0020.00] Compile of Gui successful, but with 2 Warning(s) [in 1 ms]
+[2015.09.07-08.37.16:228][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
+[2015.09.07-08.37.16:228][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0020.17] Compile of GnawmersHealth successful, but with 1 Warning(s) [in 25 ms]
+[2015.09.07-08.37.16:229][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0020.17] Compile of GnawmersHealth successful, but with 2 Warning(s) [in 0 ms]
+[2015.09.07-08.37.22:368][  0]LogAIModule: Creating AISystem for world NewCave
+[2015.09.07-08.37.22:572][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.09.07-08.37.22:574][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.09.07-08.37.22:755][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 180.603ms to complete.
+[2015.09.07-08.37.22:755][  0]LogFileHelpers: Loading map 'NewCave' took 13.853
+[2015.09.07-08.37.22:847][  0]LogCollectionManager: Loaded 0 collections in 0.002586 seconds
+[2015.09.07-08.37.22:857][  0]LogContentBrowser: Native class hierarchy populated in 0.0097 seconds. Added 1792 classes and 301 folders.
+[2015.09.07-08.37.22:929][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2015.09.07-08.37.22:977][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2015.09.07-08.37.23:046][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2015.09.07-08.37.23:108][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.09.07-08.37.23:109][  0]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.37.23:114][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.09.07-08.37.23:136][  0]LogLoad: Full Startup: 27.07 seconds (BP compile: 6.63 seconds)
+[2015.09.07-08.37.23:610][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.09.07-08.37.23:840][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.09.07-08.37.24:072][  0]LogRenderer: Reallocating scene render targets to support 1464x904 (Frame:2).
+[2015.09.07-08.37.24:347][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2015.09.07-08.37.24:352][  1]Cmd: UpdateLandscapeEditorData
+[2015.09.07-08.37.24:590][  3]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.37.26:005][ 23]LogAssetRegistry: Asset discovery search completed in 18.8320 seconds
+[2015.09.07-08.37.36:090][449]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.37.36:653][449]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../../Storage/Documents/GodKillerExports/Game_Rocks/rock_1/Rock_1.OBJ)
+[2015.09.07-08.37.36:679][449]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.37.38:311][449]LogFbx: Loading FBX Scene from ../../../../../../../Storage/Documents/GodKillerExports/Game_Rocks/rock_1/Rock_1.OBJ
+[2015.09.07-08.37.38:449][449]LogFbx: FBX Scene Loaded Succesfully
+[2015.09.07-08.37.38:455][449]LogFbx:Warning: Triangulating static mesh Group1
+[2015.09.07-08.37.41:237][449]LogStaticMesh: Building static mesh Rock_1...
+[2015.09.07-08.37.42:793][449]LogStaticMesh: Built static mesh [1.561007.2s] /Game/Models/Rocks/Rock_1.Rock_1
+[2015.09.07-08.37.42:830][449]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.09.07-08.37.42:830][449]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2015.09.07-08.37.42:850][449]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.37.49:829][681]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.37.49:855][681]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../../Storage/Documents/GodKillerExports/Game_Rocks/rock_2/Rock_2.OBJ)
+[2015.09.07-08.37.49:873][681]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.37.51:457][681]LogFbx: Loading FBX Scene from ../../../../../../../Storage/Documents/GodKillerExports/Game_Rocks/rock_2/Rock_2.OBJ
+[2015.09.07-08.37.51:570][681]LogFbx: FBX Scene Loaded Succesfully
+[2015.09.07-08.37.51:573][681]LogFbx:Warning: Triangulating static mesh Group1
+[2015.09.07-08.37.54:596][681]LogStaticMesh: Building static mesh Rock_2...
+[2015.09.07-08.38.03:778][681]LogStaticMesh: Built static mesh [9.182794.2s] /Game/Models/Rocks/Rock_2.Rock_2
+[2015.09.07-08.38.03:804][681]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.09.07-08.38.03:804][681]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2015.09.07-08.38.03:819][681]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.38.12:384][ 64]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.38.12:422][ 64]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../../Storage/Documents/GodKillerExports/Game_Rocks/rock_3/Rock_3.OBJ)
+[2015.09.07-08.38.12:441][ 64]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.38.14:294][ 64]LogFbx: Loading FBX Scene from ../../../../../../../Storage/Documents/GodKillerExports/Game_Rocks/rock_3/Rock_3.OBJ
+[2015.09.07-08.38.14:408][ 64]LogFbx: FBX Scene Loaded Succesfully
+[2015.09.07-08.38.14:411][ 64]LogFbx:Warning: Triangulating static mesh Group1
+[2015.09.07-08.38.17:578][ 64]LogStaticMesh: Building static mesh Rock_3...
+[2015.09.07-08.38.27:607][ 64]LogStaticMesh: Built static mesh [10.028557.2s] /Game/Models/Rocks/Rock_3.Rock_3
+[2015.09.07-08.38.27:631][ 64]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.09.07-08.38.27:631][ 64]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2015.09.07-08.38.27:661][ 64]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.38.38:950][929]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.38.39:018][929]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.38.39:663][961]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.38.40:500][  3]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.38.48:385][241]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.38.48:423][241]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../../Storage/Documents/GodKillerExports/Game_Rocks/rock_4/Rock_4.OBJ)
+[2015.09.07-08.38.48:443][241]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.38.49:958][241]LogFbx: Loading FBX Scene from ../../../../../../../Storage/Documents/GodKillerExports/Game_Rocks/rock_4/Rock_4.OBJ
+[2015.09.07-08.38.50:068][241]LogFbx: FBX Scene Loaded Succesfully
+[2015.09.07-08.38.50:071][241]LogFbx:Warning: Triangulating static mesh Group1
+[2015.09.07-08.38.53:128][241]LogStaticMesh: Building static mesh Rock_4...
+[2015.09.07-08.39.02:067][241]LogStaticMesh: Built static mesh [8.940161.2s] /Game/Models/Rocks/Rock_4.Rock_4
+[2015.09.07-08.39.02:093][241]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.09.07-08.39.02:093][241]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2015.09.07-08.39.02:104][241]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.39.09:010][425]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.39.09:025][425]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../../Storage/Documents/GodKillerExports/Game_Rocks/Rock_5/Rock_5.OBJ)
+[2015.09.07-08.39.09:041][425]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.39.11:466][425]LogFbx: Loading FBX Scene from ../../../../../../../Storage/Documents/GodKillerExports/Game_Rocks/Rock_5/Rock_5.OBJ
+[2015.09.07-08.39.11:595][425]LogFbx: FBX Scene Loaded Succesfully
+[2015.09.07-08.39.11:598][425]LogFbx:Warning: Triangulating static mesh Group1
+[2015.09.07-08.39.15:193][425]LogStaticMesh: Building static mesh Rock_5...
+[2015.09.07-08.39.29:150][425]LogStaticMesh: Built static mesh [13.958004.2s] /Game/Models/Rocks/Rock_5.Rock_5
+[2015.09.07-08.39.29:171][425]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.09.07-08.39.29:172][425]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2015.09.07-08.39.29:189][425]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.39.35:856][627]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.39.35:876][627]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../../Storage/Documents/GodKillerExports/Game_Rocks/Rock_6/Rock_6.OBJ)
+[2015.09.07-08.39.35:895][627]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.39.37:199][627]LogFbx: Loading FBX Scene from ../../../../../../../Storage/Documents/GodKillerExports/Game_Rocks/Rock_6/Rock_6.OBJ
+[2015.09.07-08.39.37:300][627]LogFbx: FBX Scene Loaded Succesfully
+[2015.09.07-08.39.37:303][627]LogFbx:Warning: Triangulating static mesh Group1
+[2015.09.07-08.39.40:053][627]LogStaticMesh: Building static mesh Rock_6...
+[2015.09.07-08.39.46:939][627]LogStaticMesh: Built static mesh [6.886560.2s] /Game/Models/Rocks/Rock_6.Rock_6
+[2015.09.07-08.39.46:958][627]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.09.07-08.39.46:958][627]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2015.09.07-08.39.46:973][627]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.39.52:076][925]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.39.53:327][992]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.39.54:543][ 55]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.39.58:529][ 98]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.39.58:544][ 98]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../../Storage/Documents/GodKillerExports/Game_Rocks/Rock 10/Rock 10.OBJ)
+[2015.09.07-08.39.58:560][ 98]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.39.59:652][ 98]LogFbx: Loading FBX Scene from ../../../../../../../Storage/Documents/GodKillerExports/Game_Rocks/Rock 10/Rock 10.OBJ
+[2015.09.07-08.39.59:688][ 98]LogFbx: FBX Scene Loaded Succesfully
+[2015.09.07-08.39.59:691][ 98]LogFbx:Warning: Triangulating static mesh Rock_10:Group1
+[2015.09.07-08.40.00:198][ 98]LogStaticMesh: Building static mesh Rock_10...
+[2015.09.07-08.40.00:336][ 98]LogStaticMesh: Built static mesh [0.140149.2s] /Game/Models/Rocks/Rock_10.Rock_10
+[2015.09.07-08.40.00:349][ 98]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.09.07-08.40.00:349][ 98]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2015.09.07-08.40.00:357][ 98]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.40.04:334][322]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.40.08:866][570]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (rock10)
+[2015.09.07-08.40.20:753][150]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.40.20:777][150]LogStaticMesh: Building static mesh Rock_1...
+[2015.09.07-08.40.21:100][150]LogStaticMesh: Built static mesh [0.324680.2s] /Game/Models/Rocks/Rock_1.Rock_1
+[2015.09.07-08.40.24:611][333]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.40.36:575][913]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.40.36:594][913]LogStaticMesh: Building static mesh Rock_2...
+[2015.09.07-08.40.36:993][913]LogStaticMesh: Built static mesh [0.400060.2s] /Game/Models/Rocks/Rock_2.Rock_2
+[2015.09.07-08.40.37:824][947]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.40.52:706][634]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.40.52:727][634]LogStaticMesh: Building static mesh Rock_3...
+[2015.09.07-08.40.53:150][634]LogStaticMesh: Built static mesh [0.424045.2s] /Game/Models/Rocks/Rock_3.Rock_3
+[2015.09.07-08.41.09:686][334]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.41.09:711][334]LogStaticMesh: Building static mesh Rock_4...
+[2015.09.07-08.41.10:111][334]LogStaticMesh: Built static mesh [0.400515.2s] /Game/Models/Rocks/Rock_4.Rock_4
+[2015.09.07-08.41.23:726][910]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.41.23:745][910]LogStaticMesh: Building static mesh Rock_5...
+[2015.09.07-08.41.24:274][910]LogStaticMesh: Built static mesh [0.528825.2s] /Game/Models/Rocks/Rock_5.Rock_5
+[2015.09.07-08.41.42:387][705]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.41.42:396][705]LogStaticMesh: Building static mesh Rock_6...
+[2015.09.07-08.41.42:752][705]LogStaticMesh: Built static mesh [0.355889.2s] /Game/Models/Rocks/Rock_6.Rock_6
+[2015.09.07-08.42.00:833][486]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.42.00:847][486]LogStaticMesh: Building static mesh Rock_10...
+[2015.09.07-08.42.00:899][486]LogStaticMesh: Built static mesh [0.052135.2s] /Game/Models/Rocks/Rock_10.Rock_10
+[2015.09.07-08.42.17:461][237]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000069F82709A0
+[2015.09.07-08.42.17:462][237]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000069C7D46020
+[2015.09.07-08.42.17:462][237]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000069FA00C680
+[2015.09.07-08.42.17:462][237]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000069AC2C28E0
+[2015.09.07-08.42.17:462][237]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000069C7F158A0
+[2015.09.07-08.42.17:462][237]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006A0EFFCFE0
+[2015.09.07-08.42.17:462][237]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000069AC0C4C20
+[2015.09.07-08.42.18:646][237]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.42.20:080][237]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.42.20:129][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Rocks/Rock_1" FILE="../../../../../../../Storage/Documents/SourceTRee/Content/Models/Rocks/Rock_1.uasset" SILENT=true
+[2015.09.07-08.42.20:161][237]LogSavePackage: Save=27.762049ms
+[2015.09.07-08.42.20:161][237]LogSavePackage: Moving '../../../../../../../Storage/Documents/SourceTRee/Saved/Rock_188B286F940F88BB116F511BF10817FD0.tmp' to '../../../../../../../Storage/Documents/SourceTRee/Content/Models/Rocks/Rock_1.uasset'
+[2015.09.07-08.42.20:190][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Rocks/Rock_10" FILE="../../../../../../../Storage/Documents/SourceTRee/Content/Models/Rocks/Rock_10.uasset" SILENT=true
+[2015.09.07-08.42.20:205][237]LogSavePackage: Save=13.324180ms
+[2015.09.07-08.42.20:205][237]LogSavePackage: Moving '../../../../../../../Storage/Documents/SourceTRee/Saved/Rock_10C6DAF3D041C04B3253B7CFA25ED61FF3.tmp' to '../../../../../../../Storage/Documents/SourceTRee/Content/Models/Rocks/Rock_10.uasset'
+[2015.09.07-08.42.20:236][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Rocks/Rock_2" FILE="../../../../../../../Storage/Documents/SourceTRee/Content/Models/Rocks/Rock_2.uasset" SILENT=true
+[2015.09.07-08.42.20:251][237]LogSavePackage: Save=13.728002ms
+[2015.09.07-08.42.20:251][237]LogSavePackage: Moving '../../../../../../../Storage/Documents/SourceTRee/Saved/Rock_269E1FF25496DAB32F182388401EA5127.tmp' to '../../../../../../../Storage/Documents/SourceTRee/Content/Models/Rocks/Rock_2.uasset'
+[2015.09.07-08.42.20:278][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Rocks/Rock_3" FILE="../../../../../../../Storage/Documents/SourceTRee/Content/Models/Rocks/Rock_3.uasset" SILENT=true
+[2015.09.07-08.42.20:293][237]LogSavePackage: Save=12.502357ms
+[2015.09.07-08.42.20:293][237]LogSavePackage: Moving '../../../../../../../Storage/Documents/SourceTRee/Saved/Rock_3666DBF4942C48E6FABD4668892B8258A.tmp' to '../../../../../../../Storage/Documents/SourceTRee/Content/Models/Rocks/Rock_3.uasset'
+[2015.09.07-08.42.20:320][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Rocks/Rock_4" FILE="../../../../../../../Storage/Documents/SourceTRee/Content/Models/Rocks/Rock_4.uasset" SILENT=true
+[2015.09.07-08.42.20:334][237]LogSavePackage: Save=12.611868ms
+[2015.09.07-08.42.20:334][237]LogSavePackage: Moving '../../../../../../../Storage/Documents/SourceTRee/Saved/Rock_4733C747748390F05C0C51EB433C4F9B6.tmp' to '../../../../../../../Storage/Documents/SourceTRee/Content/Models/Rocks/Rock_4.uasset'
+[2015.09.07-08.42.20:363][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Rocks/Rock_5" FILE="../../../../../../../Storage/Documents/SourceTRee/Content/Models/Rocks/Rock_5.uasset" SILENT=true
+[2015.09.07-08.42.20:380][237]LogSavePackage: Save=15.259691ms
+[2015.09.07-08.42.20:380][237]LogSavePackage: Moving '../../../../../../../Storage/Documents/SourceTRee/Saved/Rock_559636FEF402232A934851AA0429099BB.tmp' to '../../../../../../../Storage/Documents/SourceTRee/Content/Models/Rocks/Rock_5.uasset'
+[2015.09.07-08.42.20:408][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Rocks/Rock_6" FILE="../../../../../../../Storage/Documents/SourceTRee/Content/Models/Rocks/Rock_6.uasset" SILENT=true
+[2015.09.07-08.42.20:424][237]LogSavePackage: Save=13.479646ms
+[2015.09.07-08.42.20:424][237]LogSavePackage: Moving '../../../../../../../Storage/Documents/SourceTRee/Saved/Rock_63052E67642232EA6FD2ADABFFA068B8E.tmp' to '../../../../../../../Storage/Documents/SourceTRee/Content/Models/Rocks/Rock_6.uasset'
+[2015.09.07-08.42.21:664][322]LogD3D11RHI: InitD3DDevice
+[2015.09.07-08.42.21:687][322]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene/NewCave" FILE="../../../../../../../Storage/Documents/SourceTRee/Content/Scene/NewCave.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.09.07-08.42.23:137][322]LogSavePackage: Save=1351.137939ms
+[2015.09.07-08.42.23:137][322]LogSavePackage: Moving '../../../../../../../Storage/Documents/SourceTRee/Saved/NewCaveF89C7BC1486743CB19D246955E9AE0A3.tmp' to '../../../../../../../Storage/Documents/SourceTRee/Content/Scene/NewCave.umap'
+[2015.09.07-08.42.25:134][433]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.09.07-08.42.25:489][434]Cmd: QUIT_EDITOR
+[2015.09.07-08.42.26:033][434]LogExit: Preparing to exit.
+[2015.09.07-08.42.26:401][434]LogExit: Editor shut down
+[2015.09.07-08.42.26:402][434]LogExit: Transaction tracking system shut down
+[2015.09.07-08.42.26:418][434]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000069AEA3C900
+[2015.09.07-08.42.26:420][434]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000069B4D2F880
+[2015.09.07-08.42.26:420][434]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000069B4DAF880
+[2015.09.07-08.42.26:914][434]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000069AB234FE0
+[2015.09.07-08.42.26:914][434]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000069AB234EA0
+[2015.09.07-08.42.26:914][434]LogExit: Object subsystem successfully closed.
+[2015.09.07-08.42.27:033][434]LogD3D11RHI: Shutdown
+[2015.09.07-08.42.27:040][434]LogD3D11RHI: CleanupD3DDevice
+[2015.09.07-08.42.27:053][434]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.09.07-08.42.27:089][434]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (189)
+[2015.09.07-08.42.27:089][434]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
+[2015.09.07-08.42.27:090][434]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
+[2015.09.07-08.42.27:090][434]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
+[2015.09.07-08.42.27:090][434]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
+[2015.09.07-08.42.27:090][434]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
+[2015.09.07-08.42.27:103][434]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
+[2015.09.07-08.42.27:103][434]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
+[2015.09.07-08.42.27:103][434]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
+[2015.09.07-08.42.27:103][434]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
+[2015.09.07-08.42.27:103][434]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
+[2015.09.07-08.42.27:116][434]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
+[2015.09.07-08.42.27:116][434]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
+[2015.09.07-08.42.27:116][434]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
+[2015.09.07-08.42.27:116][434]LogModuleManager: Shutting down and abandoning module BspMode (175)
+[2015.09.07-08.42.27:116][434]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
+[2015.09.07-08.42.27:116][434]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
+[2015.09.07-08.42.27:116][434]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
+[2015.09.07-08.42.27:116][434]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
+[2015.09.07-08.42.27:116][434]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
+[2015.09.07-08.42.27:116][434]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
+[2015.09.07-08.42.27:116][434]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
+[2015.09.07-08.42.27:128][434]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
+[2015.09.07-08.42.27:128][434]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
+[2015.09.07-08.42.27:128][434]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
+[2015.09.07-08.42.27:128][434]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
+[2015.09.07-08.42.27:128][434]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2015.09.07-08.42.27:185][434]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
+[2015.09.07-08.42.27:185][434]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
+[2015.09.07-08.42.27:185][434]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
+[2015.09.07-08.42.27:185][434]LogModuleManager: Shutting down and abandoning module MergeActors (159)
+[2015.09.07-08.42.27:195][434]LogModuleManager: Shutting down and abandoning module SizeMap (158)
+[2015.09.07-08.42.27:195][434]LogModuleManager: Shutting down and abandoning module TreeMap (157)
+[2015.09.07-08.42.27:195][434]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
+[2015.09.07-08.42.27:195][434]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
+[2015.09.07-08.42.27:195][434]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
+[2015.09.07-08.42.27:195][434]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
+[2015.09.07-08.42.27:195][434]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
+[2015.09.07-08.42.27:195][434]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
+[2015.09.07-08.42.27:195][434]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
+[2015.09.07-08.42.27:195][434]LogModuleManager: Shutting down and abandoning module XmlParser (149)
+[2015.09.07-08.42.27:195][434]LogModuleManager: Shutting down and abandoning module Blutility (148)
+[2015.09.07-08.42.27:195][434]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
+[2015.09.07-08.42.27:196][434]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
+[2015.09.07-08.42.27:196][434]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
+[2015.09.07-08.42.27:196][434]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
+[2015.09.07-08.42.27:196][434]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
+[2015.09.07-08.42.27:196][434]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
+[2015.09.07-08.42.27:202][434]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
+[2015.09.07-08.42.27:202][434]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
+[2015.09.07-08.42.27:204][434]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
+[2015.09.07-08.42.27:204][434]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
+[2015.09.07-08.42.27:204][434]LogModuleManager: Shutting down and abandoning module AutomationController (137)
+[2015.09.07-08.42.27:204][434]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
+[2015.09.07-08.42.27:215][434]LogModuleManager: Shutting down and abandoning module Layers (135)
+[2015.09.07-08.42.27:238][434]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
+[2015.09.07-08.42.27:238][434]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
+[2015.09.07-08.42.27:238][434]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
+[2015.09.07-08.42.27:238][434]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
+[2015.09.07-08.42.27:405][434]LogModuleManager: Shutting down and abandoning module Persona (130)
+[2015.09.07-08.42.27:410][434]LogModuleManager: Shutting down and abandoning module Kismet (129)
+[2015.09.07-08.42.27:413][434]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
+[2015.09.07-08.42.27:434][434]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
+[2015.09.07-08.42.27:434][434]LogModuleManager: Shutting down and abandoning module Toolbox (126)
+[2015.09.07-08.42.27:434][434]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
+[2015.09.07-08.42.27:441][434]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
+[2015.09.07-08.42.27:452][434]LogModuleManager: Shutting down and abandoning module OutputLog (123)
+[2015.09.07-08.42.27:452][434]LogModuleManager: Shutting down and abandoning module GammaUI (122)
+[2015.09.07-08.42.27:460][434]LogModuleManager: Shutting down and abandoning module Documentation (121)
+[2015.09.07-08.42.27:460][434]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
+[2015.09.07-08.42.27:460][434]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
+[2015.09.07-08.42.27:460][434]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
+[2015.09.07-08.42.27:460][434]LogModuleManager: Shutting down and abandoning module Analytics (117)
+[2015.09.07-08.42.27:460][434]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
+[2015.09.07-08.42.27:460][434]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
+[2015.09.07-08.42.27:460][434]LogModuleManager: Shutting down and abandoning module AIModule (114)
+[2015.09.07-08.42.27:460][434]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
+[2015.09.07-08.42.27:620][434]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
+[2015.09.07-08.42.27:633][434]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
+[2015.09.07-08.42.27:633][434]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
+[2015.09.07-08.42.27:633][434]LogModuleManager: Shutting down and abandoning module SteamVR (109)
+[2015.09.07-08.42.27:633][434]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
+[2015.09.07-08.42.27:633][434]LogModuleManager: Shutting down and abandoning module OculusRift (107)
+[2015.09.07-08.42.27:633][434]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
+[2015.09.07-08.42.27:659][434]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
+[2015.09.07-08.42.27:659][434]LogModuleManager: Shutting down and abandoning module CableComponent (104)
+[2015.09.07-08.42.27:659][434]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
+[2015.09.07-08.42.27:679][434]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
+[2015.09.07-08.42.27:691][434]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
+[2015.09.07-08.42.27:691][434]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
+[2015.09.07-08.42.27:691][434]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
+[2015.09.07-08.42.27:691][434]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
+[2015.09.07-08.42.27:699][434]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
+[2015.09.07-08.42.27:699][434]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
+[2015.09.07-08.42.27:699][434]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
+[2015.09.07-08.42.27:699][434]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
+[2015.09.07-08.42.27:711][434]LogModuleManager: Shutting down and abandoning module SourceControl (93)
+[2015.09.07-08.42.27:725][434]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
+[2015.09.07-08.42.27:725][434]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
+[2015.09.07-08.42.27:725][434]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
+[2015.09.07-08.42.27:725][434]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
+[2015.09.07-08.42.27:725][434]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
+[2015.09.07-08.42.27:725][434]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
+[2015.09.07-08.42.27:733][434]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2015.09.07-08.42.27:734][434]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2015.09.07-08.42.27:734][434]LogModuleManager: Shutting down and abandoning module MainFrame (84)
+[2015.09.07-08.42.27:734][434]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2015.09.07-08.42.27:743][434]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.09.07-08.42.27:744][434]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.09.07-08.42.27:756][434]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2015.09.07-08.42.27:857][434]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.09.07-08.42.27:857][434]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.09.07-08.42.27:862][434]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.09.07-08.42.27:862][434]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.09.07-08.42.27:862][434]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.09.07-08.42.27:862][434]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.09.07-08.42.27:862][434]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.09.07-08.42.27:882][434]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.09.07-08.42.27:882][434]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.09.07-08.42.27:890][434]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.09.07-08.42.27:890][434]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.09.07-08.42.27:890][434]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.09.07-08.42.27:903][434]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.09.07-08.42.27:915][434]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.09.07-08.42.27:925][434]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.09.07-08.42.27:932][434]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.09.07-08.42.27:932][434]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.09.07-08.42.27:936][434]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.09.07-08.42.27:936][434]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.09.07-08.42.27:936][434]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.09.07-08.42.27:936][434]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.09.07-08.42.27:936][434]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.09.07-08.42.27:936][434]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.09.07-08.42.27:936][434]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.09.07-08.42.27:936][434]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.09.07-08.42.27:936][434]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.09.07-08.42.27:936][434]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.09.07-08.42.28:031][434]LogDerivedDataCache: Shutdown
+[2015.09.07-08.42.28:031][434]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.09.07-08.42.28:050][434]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.09.07-08.42.28:050][434]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.09.07-08.42.28:055][434]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.09.07-08.42.28:055][434]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.09.07-08.42.28:055][434]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.09.07-08.42.28:055][434]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.09.07-08.42.28:055][434]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.09.07-08.42.28:055][434]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.09.07-08.42.28:055][434]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.09.07-08.42.28:055][434]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.09.07-08.42.28:067][434]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.09.07-08.42.28:067][434]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.09.07-08.42.28:067][434]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.09.07-08.42.28:067][434]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.09.07-08.42.28:067][434]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.09.07-08.42.28:067][434]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.09.07-08.42.28:067][434]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.09.07-08.42.28:067][434]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.09.07-08.42.28:067][434]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.09.07-08.42.28:067][434]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.09.07-08.42.28:067][434]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.09.07-08.42.28:067][434]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.09.07-08.42.28:067][434]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.09.07-08.42.28:067][434]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.09.07-08.42.28:067][434]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.09.07-08.42.28:067][434]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.09.07-08.42.28:067][434]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.09.07-08.42.28:067][434]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.09.07-08.42.28:067][434]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.09.07-08.42.28:067][434]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.09.07-08.42.28:068][434]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.09.07-08.42.28:068][434]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.09.07-08.42.28:068][434]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.09.07-08.42.28:068][434]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.09.07-08.42.28:068][434]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.09.07-08.42.28:077][434]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.09.07-08.42.28:077][434]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.09.07-08.42.28:077][434]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.09.07-08.42.28:077][434]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.09.07-08.42.28:077][434]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.09.07-08.42.28:080][434]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.09.07-08.42.28:091][434]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.09.07-08.42.28:091][434]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.09.07-08.42.28:091][434]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.09.07-08.42.28:091][434]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.09.07-08.42.28:091][434]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.09.07-08.42.28:104][434]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.09.07-08.42.28:104][434]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.09.07-08.42.28:104][434]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.09.07-08.42.28:115][434]LogExit: Exiting.
+[2015.09.07-08.42.28:164][434]Log file closed, 09/07/15 01:42:28
