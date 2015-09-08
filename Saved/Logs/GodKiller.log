@@ -1,1537 +1,363 @@
-﻿[2015.09.07-23.45.09:311][  0]Log file open, 09/07/15 16:45:09
-[2015.09.07-23.45.09:311][  0]LogInit:Display: Running engine for game: GodKiller
-[2015.09.07-23.45.09:311][  0]LogInit:Display: RandInit(-181292833) SRandInit(-181292832).
-[2015.09.07-23.45.09:311][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
-[2015.09.07-23.45.09:311][  0]LogStats: Stats thread started
-[2015.09.07-23.45.09:311][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
-[2015.09.07-23.45.09:311][  0]LogInit: API Version: 2579680
-[2015.09.07-23.45.09:311][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
-[2015.09.07-23.45.09:311][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
-[2015.09.07-23.45.09:311][  0]LogInit: Build Configuration: Development
-[2015.09.07-23.45.09:311][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
-[2015.09.07-23.45.09:311][  0]LogInit: Command line: 
-[2015.09.07-23.45.09:311][  0]LogInit: Base directory: C:/Program Files/Unreal Engine/4.8/Engine/Binaries/Win64/
-[2015.09.07-23.45.09:311][  0]LogInit: Rocket: 1
-[2015.09.07-23.45.09:597][  0]LogInit: Using libcurl 7.41.0
-[2015.09.07-23.45.09:598][  0]LogInit:  - built for x86_64-pc-win32
-[2015.09.07-23.45.09:598][  0]LogInit:  - supports SSL with WinSSL
-[2015.09.07-23.45.09:598][  0]LogInit:  - other features:
-[2015.09.07-23.45.09:598][  0]LogInit:      CURL_VERSION_SSL
-[2015.09.07-23.45.09:598][  0]LogInit:      CURL_VERSION_IPV6
-[2015.09.07-23.45.09:598][  0]LogInit:      CURL_VERSION_ASYNCHDNS
-[2015.09.07-23.45.09:598][  0]LogInit:      CURL_VERSION_LARGEFILE
-[2015.09.07-23.45.09:598][  0]LogInit:      CURL_VERSION_IDN
-[2015.09.07-23.45.09:598][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
-[2015.09.07-23.45.09:598][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
-[2015.09.07-23.45.09:598][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
-[2015.09.07-23.45.09:598][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
-[2015.09.07-23.45.09:598][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-[2015.09.07-23.45.09:653][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2015.09.07-23.45.09:696][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2015.09.07-23.45.09:712][  0]LogInit: Object subsystem initialized
-[2015.09.07-23.45.09:714][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
-[2015.09.07-23.45.09:714][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/jessy/Desktop/GodKiller_SourceTree/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.09.07-23.45.09:714][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
-[2015.09.07-23.45.09:714][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/jessy/Desktop/GodKiller_SourceTree/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.09.07-23.45.09:714][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
-[2015.09.07-23.45.09:714][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/jessy/Desktop/GodKiller_SourceTree/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.09.07-23.45.09:714][  0]LogInit: Selected Device Profile: [Windows]
-[2015.09.07-23.45.09:714][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2015.09.07-23.45.09:784][  0]LogInit: Computer: JESSYS-PC
-[2015.09.07-23.45.09:784][  0]LogInit: User: jessy
-[2015.09.07-23.45.09:784][  0]LogInit: CPU Page size=4096, Cores=2
-[2015.09.07-23.45.09:784][  0]LogInit: High frequency timer resolution =1.656391 MHz
-[2015.09.07-23.45.09:784][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
-[2015.09.07-23.45.09:784][  0]LogMemory: Platform Memory Stats for Windows
-[2015.09.07-23.45.09:784][  0]LogMemory: Process Physical Memory: 48.95 MB used, 48.95 MB peak
-[2015.09.07-23.45.09:784][  0]LogMemory: Process Virtual Memory: 24.25 MB used, 24.25 MB peak
-[2015.09.07-23.45.09:784][  0]LogMemory: Physical Memory: 3161.16 MB used, 3959.10 MB total
-[2015.09.07-23.45.09:784][  0]LogMemory: Virtual Memory: 292.64 MB used, 134217728.00 MB total
-[2015.09.07-23.45.09:902][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
-[2015.09.07-23.45.10:297][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
-Localization Resource: (C:/Program Files/Unreal Engine/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
-Localization Resource: (C:/Program Files/Unreal Engine/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
-[2015.09.07-23.45.11:284][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics (Feature Level 10_0)
-[2015.09.07-23.45.11:284][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
-[2015.09.07-23.45.11:287][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
-[2015.09.07-23.45.11:287][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
-[2015.09.07-23.45.11:287][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2015.09.07-23.45.11:294][  0]LogD3D11RHI: InitD3DDevice
-[2015.09.07-23.45.11:294][  0]LogD3D11RHI: !Direct3DDevice
-[2015.09.07-23.45.11:295][  0]LogRHI: Texture pool is 593 MB (70% of 848 MB)
-[2015.09.07-23.45.11:299][  0]LogD3D11RHI: Async texture creation enabled
-[2015.09.07-23.45.11:318][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2015.09.07-23.45.15:865][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
-[2015.09.07-23.45.15:898][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2015.09.07-23.45.15:930][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2015.09.07-23.45.15:962][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2015.09.07-23.45.16:013][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2015.09.07-23.45.16:041][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2015.09.07-23.45.16:069][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2015.09.07-23.45.16:097][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2015.09.07-23.45.16:125][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2015.09.07-23.45.16:154][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2015.09.07-23.45.16:185][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2015.09.07-23.45.16:214][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2015.09.07-23.45.16:311][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2015.09.07-23.45.16:338][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2015.09.07-23.45.16:367][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2015.09.07-23.45.16:400][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2015.09.07-23.45.16:400][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.09.07-23.45.16:874][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2015.09.07-23.45.16:968][  0]LogDerivedDataCache: Loaded boot cache 0.09s 48MB C:/Users/jessy/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
-[2015.09.07-23.45.16:968][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/jessy/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
-[2015.09.07-23.45.16:969][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jessy/Desktop/GodKiller_SourceTree/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.09.07-23.45.16:969][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2015.09.07-23.45.16:969][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jessy/Desktop/GodKiller_SourceTree/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2015.09.07-23.45.16:969][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2015.09.07-23.45.17:270][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2015.09.07-23.45.17:282][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jessy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2015.09.07-23.45.17:766][  0]LogInit: Selected Device Profile: [Windows]
-[2015.09.07-23.45.17:936][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
-[2015.09.07-23.45.17:937][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
-[2015.09.07-23.45.18:026][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2015.09.07-23.45.18:026][  0]LogMeshUtilities: No automatic mesh merging module available
-[2015.09.07-23.45.18:782][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2015.09.07-23.45.20:879][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2015.09.07-23.45.21:570][  0]SourceControl: Info Source control is disabled
-[2015.09.07-23.45.21:594][  0]SourceControl: Info Source control is disabled
-[2015.09.07-23.45.21:617][  0]SourceControl: Info Source control is disabled
-[2015.09.07-23.45.21:640][  0]SourceControl: Info Source control is disabled
-[2015.09.07-23.45.22:151][  0]LogObj: 26273 objects as part of root set at end of initial load.
-[2015.09.07-23.45.22:151][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
-[2015.09.07-23.45.22:311][  0]LogEngine: Initializing Engine...
-[2015.09.07-23.45.22:316][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
-[2015.09.07-23.45.22:321][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
-[2015.09.07-23.45.22:633][  0]LogAIModule: Creating AISystem for world NewWorld
-[2015.09.07-23.45.22:644][  0]LogInit: XAudio2 using 'Headphones (Cirrus Logic High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.09.07-23.45.22:668][  0]LogInit: FAudioDevice initialized.
-[2015.09.07-23.45.22:750][  0]LogDerivedDataCache: Saved boot cache 0.08s 48MB C:/Users/jessy/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
-[2015.09.07-23.45.22:762][  0]LogInit: Texture streaming: Disabled
-[2015.09.07-23.45.22:815][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2015.09.07-23.45.22:815][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
-[2015.09.07-23.45.22:815][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId e758ab52454474a55f52668390646e3b|82a2ba43aacb4a26af7064aafe4b8476|624d915d-d533-48b1-b7ea-6de3571d2217
-[2015.09.07-23.45.22:816][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
-[2015.09.07-23.45.22:904][  0]LogInit: Transaction tracking system initialized
-[2015.09.07-23.45.23:182][  0]BlueprintLog: New page: Editor Load
-[2015.09.07-23.45.23:246][  0]LogAssetRegistry: FAssetRegistry took 0.0106 seconds to start up
-[2015.09.07-23.45.23:247][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
-[2015.09.07-23.45.24:786][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
-[2015.09.07-23.45.24:791][  0]LogConsoleResponse:Display: 
-[2015.09.07-23.45.25:342][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2015.09.07-23.45.25:769][  0]SourceControl: Info Source control is disabled
-[2015.09.07-23.45.25:769][  0]Cmd: MAP LOAD FILE="../../../../../../Users/jessy/Desktop/GodKiller_SourceTree/Content/Scene/NewCave.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
-[2015.09.07-23.45.25:770][  0]LightingResults: New page: Lighting Build
-[2015.09.07-23.45.25:801][  0]MapCheck: New page: Map Check
-[2015.09.07-23.45.25:801][  0]LightingResults: New page: Lighting Build
-[2015.09.07-23.45.25:830][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066ECB46F20
-[2015.09.07-23.45.44:724][  0]LogBlueprint:Warning: [compiler Gui] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
-[2015.09.07-23.45.44:923][  0]LogBlueprint:Warning: [compiler Gui] Warning [0040.67] Compile of Gui successful, but with 1 Warning(s) [in 332 ms]
-[2015.09.07-23.45.44:923][  0]LogBlueprint:Warning: [compiler Gui] Warning [0040.67] Compile of Gui successful, but with 2 Warning(s) [in 0 ms]
-[2015.09.07-23.45.44:923][  0]LogBlueprint:Warning: [compiler Gui] Warning [0040.67] Compile of Gui successful, but with 3 Warning(s) [in 0 ms]
-[2015.09.07-23.45.47:042][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
-[2015.09.07-23.45.47:043][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0042.79] Compile of GnawmersHealth successful, but with 1 Warning(s) [in 39 ms]
-[2015.09.07-23.45.47:043][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0042.79] Compile of GnawmersHealth successful, but with 2 Warning(s) [in 0 ms]
-[2015.09.07-23.45.47:043][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0042.79] Compile of GnawmersHealth successful, but with 3 Warning(s) [in 0 ms]
-[2015.09.07-23.45.53:306][  0]LogBlueprint:Warning: [compiler Gui] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
-[2015.09.07-23.45.53:325][  0]LogBlueprint:Warning: [compiler Gui] Warning [0049.07] Compile of Gui successful, but with 1 Warning(s) [in 90 ms]
-[2015.09.07-23.45.53:328][  0]LogBlueprint:Warning: [compiler Gui] Warning [0049.07] Compile of Gui successful, but with 2 Warning(s) [in 2 ms]
-[2015.09.07-23.45.53:559][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
-[2015.09.07-23.45.53:560][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0049.31] Compile of GnawmersHealth successful, but with 1 Warning(s) [in 35 ms]
-[2015.09.07-23.45.53:561][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0049.31] Compile of GnawmersHealth successful, but with 2 Warning(s) [in 0 ms]
-[2015.09.07-23.46.26:501][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
-[2015.09.07-23.46.27:029][  0]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT)
-[2015.09.07-23.46.27:037][  0]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT)
-[2015.09.07-23.46.27:052][  0]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT)
-[2015.09.07-23.46.27:139][  0]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT)
-[2015.09.07-23.46.27:147][  0]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT)
-[2015.09.07-23.46.27:156][  0]LogTexture:Display: Building textures: HQ_Lightmap0_17 (AutoDXT)
-[2015.09.07-23.46.27:214][  0]LogTexture:Display: Building textures: HQ_Lightmap0_18 (AutoDXT)
-[2015.09.07-23.46.27:535][  0]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
-[2015.09.07-23.46.27:712][  0]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
-[2015.09.07-23.46.27:722][  0]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
-[2015.09.07-23.46.27:764][  0]LogTexture:Display: Building textures: HQ_Lightmap1_11 (AutoDXT)
-[2015.09.07-23.46.27:772][  0]LogTexture:Display: Building textures: HQ_Lightmap1_16 (AutoDXT)
-[2015.09.07-23.46.27:813][  0]LogTexture:Display: Building textures: HQ_Lightmap1_19 (AutoDXT)
-[2015.09.07-23.46.27:818][  0]LogTexture:Display: Building textures: HQ_Lightmap1_20 (AutoDXT)
-[2015.09.07-23.46.27:829][  0]LogTexture:Display: Building textures: HQ_Lightmap1_21 (AutoDXT)
-[2015.09.07-23.46.27:838][  0]LogTexture:Display: Building textures: HQ_Lightmap1_22 (AutoDXT)
-[2015.09.07-23.46.27:879][  0]LogTexture:Display: Building textures: HQ_Lightmap1_23 (AutoDXT)
-[2015.09.07-23.46.27:887][  0]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
-[2015.09.07-23.46.27:929][  0]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
-[2015.09.07-23.46.27:933][  0]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
-[2015.09.07-23.46.27:937][  0]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
-[2015.09.07-23.46.27:940][  0]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT)
-[2015.09.07-23.46.27:964][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
-[2015.09.07-23.46.28:357][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1)
-[2015.09.07-23.46.28:361][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1)
-[2015.09.07-23.46.28:392][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1)
-[2015.09.07-23.46.28:573][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1)
-[2015.09.07-23.46.28:577][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1)
-[2015.09.07-23.46.28:582][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_17 (DXT1)
-[2015.09.07-23.46.28:687][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_18 (DXT1)
-[2015.09.07-23.46.29:222][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
-[2015.09.07-23.46.29:748][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
-[2015.09.07-23.46.29:781][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
-[2015.09.07-23.46.30:073][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_11 (DXT1)
-[2015.09.07-23.46.30:083][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_16 (DXT1)
-[2015.09.07-23.46.30:217][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_19 (DXT1)
-[2015.09.07-23.46.30:223][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_20 (DXT1)
-[2015.09.07-23.46.30:319][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_21 (DXT1)
-[2015.09.07-23.46.30:396][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_22 (DXT1)
-[2015.09.07-23.46.30:646][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_23 (DXT1)
-[2015.09.07-23.46.30:656][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
-[2015.09.07-23.46.30:826][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
-[2015.09.07-23.46.30:834][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
-[2015.09.07-23.46.30:837][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1)
-[2015.09.07-23.46.30:842][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1)
-[2015.09.07-23.46.32:315][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (BGRA8)
-[2015.09.07-23.46.32:359][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_18 (BGRA8)
-[2015.09.07-23.46.32:410][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_19 (BGRA8)
-[2015.09.07-23.46.32:442][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_20 (BGRA8)
-[2015.09.07-23.46.32:451][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_21 (BGRA8)
-[2015.09.07-23.46.32:467][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_22 (BGRA8)
-[2015.09.07-23.46.32:497][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_23 (BGRA8)
-[2015.09.07-23.46.32:499][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_24 (BGRA8)
-[2015.09.07-23.46.32:502][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_25 (BGRA8)
-[2015.09.07-23.46.32:506][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_26 (BGRA8)
-[2015.09.07-23.46.32:518][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_27 (BGRA8)
-[2015.09.07-23.46.32:545][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_28 (BGRA8)
-[2015.09.07-23.46.32:618][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_29 (BGRA8)
-[2015.09.07-23.46.32:697][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_30 (BGRA8)
-[2015.09.07-23.46.32:770][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_31 (BGRA8)
-[2015.09.07-23.46.32:782][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_32 (BGRA8)
-[2015.09.07-23.46.33:101][  0]LogStaticMesh: Building static mesh 001...
-[2015.09.07-23.46.33:722][  0]LogStaticMesh: Built static mesh [0.762832.2s] /Game/Models/Tile_Floor/001.001
-[2015.09.07-23.46.35:921][  0]LogStaticMesh: Building static mesh 002...
-[2015.09.07-23.46.36:051][  0]LogStaticMesh: Built static mesh [0.130749.2s] /Game/Models/Tile_Floor/002.002
-[2015.09.07-23.47.00:237][  0]LogTexture:Display: Building textures: brokentile003_normals (BC5)
-[2015.09.07-23.47.40:626][  0]LogMaterial: Missing cached shader map for material frostedglassLight, compiling. 
-[2015.09.07-23.47.52:835][  0]LogTexture:Display: Building textures: brokentile002_occlusion (AutoDXT)
-[2015.09.07-23.48.00:318][  0]LogTexture:Display: Building textures: brokentile002_normals (BC5)
-[2015.09.07-23.48.05:578][  0]LogMaterial: Missing cached shader map for material TileBroken002, compiling. 
-[2015.09.07-23.48.08:809][  0]LogTexture:Display: Building textures: brokentile003_occlusion (AutoDXT)
-[2015.09.07-23.48.12:675][  0]LogMaterial: Missing cached shader map for material TileBroken003, compiling. 
-[2015.09.07-23.49.29:788][  0]LogTexture:Display: Building textures: brokentile001_occlusion (AutoDXT)
-[2015.09.07-23.49.36:481][  0]LogMaterial: Missing cached shader map for material Tile, compiling. 
-[2015.09.07-23.49.37:029][  0]LogTexture:Display: Building textures: brokentile001_normals (BC5)
-[2015.09.07-23.49.38:582][  0]LogMaterial: Missing cached shader map for material TileBroken001, compiling. 
-[2015.09.07-23.49.46:355][  0]LogAIModule: Creating AISystem for world NewCave
-[2015.09.07-23.49.54:111][  0]LogEditorServer: Finished looking for orphan Actors (0.025 secs)
-[2015.09.07-23.49.54:352][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.09.07-23.49.57:477][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 3,092.776ms to complete.
-[2015.09.07-23.49.57:508][  0]LogFileHelpers: Loading map 'NewCave' took 271.739
-[2015.09.07-23.50.01:122][  0]LogCollectionManager: Loaded 0 collections in 0.021051 seconds
-[2015.09.07-23.50.01:161][  0]LogContentBrowser: Native class hierarchy populated in 0.0371 seconds. Added 1792 classes and 301 folders.
-[2015.09.07-23.50.01:783][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2015.09.07-23.50.02:721][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2015.09.07-23.50.04:212][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
-[2015.09.07-23.50.05:837][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2015.09.07-23.50.06:076][  0]LogD3D11RHI: InitD3DDevice
-[2015.09.07-23.50.06:381][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2015.09.07-23.50.06:527][  0]LogLoad: Full Startup: 302.27 seconds (BP compile: 14.74 seconds)
-[2015.09.07-23.50.08:789][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2015.09.07-23.50.09:491][  0]LogContentStreaming: Texture pool size now 200 MB
-[2015.09.07-23.50.12:538][  0]LogRenderer: Reallocating scene render targets to support 768x616 (Frame:2).
-[2015.09.07-23.50.14:068][  1]Cmd: UpdateLandscapeEditorData -warnings
-[2015.09.07-23.50.14:497][  1]Cmd: UpdateLandscapeEditorData
-[2015.09.07-23.50.23:866][ 40]LogAssetRegistry: Asset discovery search completed in 300.6305 seconds
-[2015.09.07-23.50.50:828][159]LogD3D11RHI: InitD3DDevice
-[2015.09.07-23.51.45:009][851]LogD3D11RHI: InitD3DDevice
-[2015.09.07-23.51.45:343][851]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/jessy/Desktop/vampireUE4/Kobold/NewKobold/stable_sword_outward_slash.fbx)
-[2015.09.07-23.51.45:906][851]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2015.09.07-23.51.45:907][851]LogFbx: ItemName: Model, ItemCount : 48
-[2015.09.07-23.51.45:907][851]LogFbx: ItemName: NodeAttribute, ItemCount : 48
-[2015.09.07-23.51.45:907][851]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2015.09.07-23.51.45:907][851]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2015.09.07-23.51.45:907][851]LogFbx: ItemName: AnimationCurveNode, ItemCount : 40
-[2015.09.07-23.51.45:907][851]LogFbx: ItemName: AnimationCurve, ItemCount : 231
-[2015.09.07-23.51.46:845][851]LogD3D11RHI: InitD3DDevice
-[2015.09.07-23.51.49:609][851]LogD3D11RHI: InitD3DDevice
-[2015.09.07-23.52.15:779][934]LogEditorViewport: Clicking on Actor (LMB): KoboldBp_C (KoboldBp)
-[2015.09.07-23.52.35:628][146]LogD3D11RHI: InitD3DDevice
-[2015.09.07-23.52.35:645][146]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/jessy/Desktop/vampireUE4/Kobold/NewKobold/stable_sword_outward_slash.fbx)
-[2015.09.07-23.52.35:653][146]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2015.09.07-23.52.35:653][146]LogFbx: ItemName: Model, ItemCount : 48
-[2015.09.07-23.52.35:653][146]LogFbx: ItemName: NodeAttribute, ItemCount : 48
-[2015.09.07-23.52.35:653][146]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2015.09.07-23.52.35:653][146]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2015.09.07-23.52.35:653][146]LogFbx: ItemName: AnimationCurveNode, ItemCount : 40
-[2015.09.07-23.52.35:653][146]LogFbx: ItemName: AnimationCurve, ItemCount : 231
-[2015.09.07-23.52.35:669][146]LogD3D11RHI: InitD3DDevice
-[2015.09.07-23.52.36:657][146]LogD3D11RHI: InitD3DDevice
-[2015.09.07-23.52.46:449][146]LogFbx: Loading FBX Scene from ../../../../../../Users/jessy/Desktop/vampireUE4/Kobold/NewKobold/stable_sword_outward_slash.fbx
-[2015.09.07-23.52.46:577][146]LogFbx: FBX Scene Loaded Succesfully
-[2015.09.07-23.52.46:685][146]FBXImport:Error: Error Mesh contains Hips bone as root but animation doesn't contain the root track.
-Import failed. 
-[2015.09.07-23.52.46:685][146]FBXImport:Error: Error Import failed. 
-[2015.09.07-23.52.46:692][146]LogD3D11RHI: InitD3DDevice
-[2015.09.07-23.52.46:859][146]LogD3D11RHI: InitD3DDevice
-[2015.09.07-23.52.51:503][146]LogAssetTools:Warning: Failed to import '../../../../../../Users/jessy/Desktop/vampireUE4/Kobold/NewKobold/stable_sword_outward_slash.fbx'. Failed to create asset '/Game/Kobold/Animations/stable_sword_outward_slash'
-[2015.09.07-23.53.33:338][846]LogD3D11RHI: InitD3DDevice
-[2015.09.07-23.53.33:362][846]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/jessy/Desktop/vampireUE4/Kobold/NewKobold/sword_and_shield_slash.fbx)
-[2015.09.07-23.53.33:436][846]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2015.09.07-23.53.33:436][846]LogFbx: ItemName: Model, ItemCount : 48
-[2015.09.07-23.53.33:436][846]LogFbx: ItemName: NodeAttribute, ItemCount : 48
-[2015.09.07-23.53.33:436][846]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2015.09.07-23.53.33:436][846]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2015.09.07-23.53.33:436][846]LogFbx: ItemName: AnimationCurveNode, ItemCount : 40
-[2015.09.07-23.53.33:436][846]LogFbx: ItemName: AnimationCurve, ItemCount : 231
-[2015.09.07-23.53.33:452][846]LogD3D11RHI: InitD3DDevice
-[2015.09.07-23.53.34:220][846]LogD3D11RHI: InitD3DDevice
-[2015.09.07-23.54.03:527][846]LogFbx: Loading FBX Scene from ../../../../../../Users/jessy/Desktop/vampireUE4/Kobold/NewKobold/sword_and_shield_slash.fbx
-[2015.09.07-23.54.03:566][846]LogFbx: FBX Scene Loaded Succesfully
-[2015.09.07-23.54.03:576][846]FBXImport:Error: Error Mesh contains Hips bone as root but animation doesn't contain the root track.
-Import failed. 
-[2015.09.07-23.54.03:576][846]FBXImport:Error: Error Import failed. 
-[2015.09.07-23.54.03:580][846]LogD3D11RHI: InitD3DDevice
-[2015.09.07-23.54.03:593][846]LogD3D11RHI: InitD3DDevice
-[2015.09.07-23.54.10:227][846]LogAssetTools:Warning: Failed to import '../../../../../../Users/jessy/Desktop/vampireUE4/Kobold/NewKobold/sword_and_shield_slash.fbx'. Failed to create asset '/Game/Kobold/Animations/sword_and_shield_slash'
-[2015.09.07-23.54.38:986][ 10]LogEditorViewport: Clicking on Actor (LMB): Skeleton_EnemyBP_C (Skeleton_EnemyBP6)
-[2015.09.07-23.54.45:551][143]LogLinker:Warning: Can't find file '/Game/Models/Skeleton/NewModel/Anim/SkeletonMesh'
-[2015.09.07-23.54.45:575][143]LogLinker:Warning: Can't find file '/Game/Models/Skeleton/NewModel/Anim/SkeletonMesh'
-[2015.09.07-23.54.45:575][143]LogLinker:Warning: Can't find file '/Game/Models/Skeleton/NewModel/Anim/SkeletonMesh'
-[2015.09.07-23.54.45:575][143]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Models/Skeleton/NewModel/Anim/SkeletonMesh.SkeletonMesh'
-[2015.09.07-23.54.45:594][144]LogLinker:Warning: Can't find file '/Game/Models/Skeleton/NewModel/Anim/SkeletonMesh'
-[2015.09.07-23.54.45:594][144]LogLinker:Warning: Can't find file '/Game/Models/Skeleton/NewModel/Anim/SkeletonMesh'
-[2015.09.07-23.54.45:595][144]LogLinker:Warning: Can't find file '/Game/Models/Skeleton/NewModel/Anim/SkeletonMesh'
-[2015.09.07-23.54.45:595][144]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Models/Skeleton/NewModel/Anim/SkeletonMesh.SkeletonMesh'
-[2015.09.07-23.54.46:076][147]LogLinker:Warning: Can't find file '/Game/Models/Skeleton/NewModel/Anim/SkeletonMesh'
-[2015.09.07-23.54.46:077][147]LogLinker:Warning: Can't find file '/Game/Models/Skeleton/NewModel/Anim/SkeletonMesh'
-[2015.09.07-23.54.46:077][147]LogLinker:Warning: Can't find file '/Game/Models/Skeleton/NewModel/Anim/SkeletonMesh'
-[2015.09.07-23.54.46:077][147]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Models/Skeleton/NewModel/Anim/SkeletonMesh.SkeletonMesh'
-[2015.09.07-23.54.46:078][147]LogLinker:Warning: Can't find file '/Game/Models/Skeleton/NewModel/Anim/SkeletonMesh'
-[2015.09.07-23.54.46:078][147]LogLinker:Warning: Can't find file '/Game/Models/Skeleton/NewModel/Anim/SkeletonMesh'
-[2015.09.07-23.54.46:079][147]LogLinker:Warning: Can't find file '/Game/Models/Skeleton/NewModel/Anim/SkeletonMesh'
-[2015.09.07-23.54.46:079][147]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/Models/Skeleton/NewModel/Anim/SkeletonMesh.SkeletonMesh'
-[2015.09.07-23.54.59:608][160]LogD3D11RHI: InitD3DDevice
-[2015.09.07-23.54.59:623][160]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/jessy/Desktop/vampireUE4/Skeleton/NewSkeleton/sword_and_shield_slash.fbx)
-[2015.09.07-23.54.59:661][160]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2015.09.07-23.54.59:661][160]LogFbx: ItemName: Model, ItemCount : 68
-[2015.09.07-23.54.59:661][160]LogFbx: ItemName: NodeAttribute, ItemCount : 68
-[2015.09.07-23.54.59:661][160]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2015.09.07-23.54.59:661][160]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2015.09.07-23.54.59:661][160]LogFbx: ItemName: AnimationCurveNode, ItemCount : 75
-[2015.09.07-23.54.59:661][160]LogFbx: ItemName: AnimationCurve, ItemCount : 426
-[2015.09.07-23.54.59:678][160]LogD3D11RHI: InitD3DDevice
-[2015.09.07-23.55.00:540][160]LogD3D11RHI: InitD3DDevice
-[2015.09.07-23.55.08:618][160]LogFbx: Loading FBX Scene from ../../../../../../Users/jessy/Desktop/vampireUE4/Skeleton/NewSkeleton/sword_and_shield_slash.fbx
-[2015.09.07-23.55.08:674][160]LogFbx: FBX Scene Loaded Succesfully
-[2015.09.07-23.55.08:731][160]LogFbx: SortedLinks :(0) root
-[2015.09.07-23.55.08:731][160]LogFbx: SortedLinks :(1) pelvis
-[2015.09.07-23.55.08:731][160]LogFbx: SortedLinks :(2) spine_01
-[2015.09.07-23.55.08:731][160]LogFbx: SortedLinks :(3) spine_02
-[2015.09.07-23.55.08:731][160]LogFbx: SortedLinks :(4) spine_03
-[2015.09.07-23.55.08:731][160]LogFbx: SortedLinks :(5) clavicle_l
-[2015.09.07-23.55.08:731][160]LogFbx: SortedLinks :(6) upperarm_l
-[2015.09.07-23.55.08:731][160]LogFbx: SortedLinks :(7) lowerarm_l
-[2015.09.07-23.55.08:731][160]LogFbx: SortedLinks :(8) hand_l
-[2015.09.07-23.55.08:731][160]LogFbx: SortedLinks :(9) index_01_l
-[2015.09.07-23.55.08:731][160]LogFbx: SortedLinks :(10) index_02_l
-[2015.09.07-23.55.08:731][160]LogFbx: SortedLinks :(11) index_03_l
-[2015.09.07-23.55.08:731][160]LogFbx: SortedLinks :(12) middle_01_l
-[2015.09.07-23.55.08:731][160]LogFbx: SortedLinks :(13) middle_02_l
-[2015.09.07-23.55.08:731][160]LogFbx: SortedLinks :(14) middle_03_l
-[2015.09.07-23.55.08:731][160]LogFbx: SortedLinks :(15) pinky_01_l
-[2015.09.07-23.55.08:731][160]LogFbx: SortedLinks :(16) pinky_02_l
-[2015.09.07-23.55.08:731][160]LogFbx: SortedLinks :(17) pinky_03_l
-[2015.09.07-23.55.08:731][160]LogFbx: SortedLinks :(18) ring_01_l
-[2015.09.07-23.55.08:731][160]LogFbx: SortedLinks :(19) ring_02_l
-[2015.09.07-23.55.08:731][160]LogFbx: SortedLinks :(20) ring_03_l
-[2015.09.07-23.55.08:731][160]LogFbx: SortedLinks :(21) thumb_01_l
-[2015.09.07-23.55.08:731][160]LogFbx: SortedLinks :(22) thumb_02_l
-[2015.09.07-23.55.08:731][160]LogFbx: SortedLinks :(23) thumb_03_l
-[2015.09.07-23.55.08:732][160]LogFbx: SortedLinks :(24) lowerarm_twist_01_l
-[2015.09.07-23.55.08:732][160]LogFbx: SortedLinks :(25) upperarm_twist_01_l
-[2015.09.07-23.55.08:732][160]LogFbx: SortedLinks :(26) clavicle_r
-[2015.09.07-23.55.08:732][160]LogFbx: SortedLinks :(27) upperarm_r
-[2015.09.07-23.55.08:732][160]LogFbx: SortedLinks :(28) lowerarm_r
-[2015.09.07-23.55.08:732][160]LogFbx: SortedLinks :(29) hand_r
-[2015.09.07-23.55.08:732][160]LogFbx: SortedLinks :(30) index_01_r
-[2015.09.07-23.55.08:732][160]LogFbx: SortedLinks :(31) index_02_r
-[2015.09.07-23.55.08:732][160]LogFbx: SortedLinks :(32) index_03_r
-[2015.09.07-23.55.08:732][160]LogFbx: SortedLinks :(33) middle_01_r
-[2015.09.07-23.55.08:732][160]LogFbx: SortedLinks :(34) middle_02_r
-[2015.09.07-23.55.08:732][160]LogFbx: SortedLinks :(35) middle_03_r
-[2015.09.07-23.55.08:732][160]LogFbx: SortedLinks :(36) pinky_01_r
-[2015.09.07-23.55.08:732][160]LogFbx: SortedLinks :(37) pinky_02_r
-[2015.09.07-23.55.08:732][160]LogFbx: SortedLinks :(38) pinky_03_r
-[2015.09.07-23.55.08:732][160]LogFbx: SortedLinks :(39) ring_01_r
-[2015.09.07-23.55.08:732][160]LogFbx: SortedLinks :(40) ring_02_r
-[2015.09.07-23.55.08:732][160]LogFbx: SortedLinks :(41) ring_03_r
-[2015.09.07-23.55.08:732][160]LogFbx: SortedLinks :(42) thumb_01_r
-[2015.09.07-23.55.08:732][160]LogFbx: SortedLinks :(43) thumb_02_r
-[2015.09.07-23.55.08:732][160]LogFbx: SortedLinks :(44) thumb_03_r
-[2015.09.07-23.55.08:732][160]LogFbx: SortedLinks :(45) lowerarm_twist_01_r
-[2015.09.07-23.55.08:732][160]LogFbx: SortedLinks :(46) upperarm_twist_01_r
-[2015.09.07-23.55.08:732][160]LogFbx: SortedLinks :(47) neck_01
-[2015.09.07-23.55.08:732][160]LogFbx: SortedLinks :(48) head
-[2015.09.07-23.55.08:732][160]LogFbx: SortedLinks :(49) thigh_l
-[2015.09.07-23.55.08:732][160]LogFbx: SortedLinks :(50) calf_l
-[2015.09.07-23.55.08:732][160]LogFbx: SortedLinks :(51) calf_twist_01_l
-[2015.09.07-23.55.08:732][160]LogFbx: SortedLinks :(52) foot_l
-[2015.09.07-23.55.08:732][160]LogFbx: SortedLinks :(53) ball_l
-[2015.09.07-23.55.08:732][160]LogFbx: SortedLinks :(54) thigh_twist_01_l
-[2015.09.07-23.55.08:732][160]LogFbx: SortedLinks :(55) thigh_r
-[2015.09.07-23.55.08:732][160]LogFbx: SortedLinks :(56) calf_r
-[2015.09.07-23.55.08:732][160]LogFbx: SortedLinks :(57) calf_twist_01_r
-[2015.09.07-23.55.08:733][160]LogFbx: SortedLinks :(58) foot_r
-[2015.09.07-23.55.08:733][160]LogFbx: SortedLinks :(59) ball_r
-[2015.09.07-23.55.08:733][160]LogFbx: SortedLinks :(60) thigh_twist_01_r
-[2015.09.07-23.55.08:733][160]LogFbx: SortedLinks :(61) ik_foot_root
-[2015.09.07-23.55.08:733][160]LogFbx: SortedLinks :(62) ik_foot_l
-[2015.09.07-23.55.08:733][160]LogFbx: SortedLinks :(63) ik_foot_r
-[2015.09.07-23.55.08:733][160]LogFbx: SortedLinks :(64) ik_hand_root
-[2015.09.07-23.55.08:733][160]LogFbx: SortedLinks :(65) ik_hand_gun
-[2015.09.07-23.55.08:733][160]LogFbx: SortedLinks :(66) ik_hand_l
-[2015.09.07-23.55.08:733][160]LogFbx: SortedLinks :(67) ik_hand_r
-[2015.09.07-23.55.08:747][160]LogFbx: Parsing AnimStack mixamo.com
-[2015.09.07-23.55.08:822][160]LogLinker:Warning: Can't find file '/Game/Key/Skeleton/NewModel/Anim/sword_and_shield_slash'
-[2015.09.07-23.55.08:823][160]LogLinker:Warning: Can't find file '/Game/Key/Skeleton/NewModel/Anim/sword_and_shield_slash'
-[2015.09.07-23.55.08:823][160]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Key/Skeleton/NewModel/Anim/sword_and_shield_slash.sword_and_shield_slash'
-[2015.09.07-23.55.12:462][176]LogD3D11RHI: InitD3DDevice
-[2015.09.07-23.55.17:034][176]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2015.09.07-23.55.19:170][176]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/SubEditors/PersonaAnimEditorTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.09.07-23.55.19:749][176]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
-[2015.09.07-23.55.32:344][350]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066F063F600
-[2015.09.07-23.55.32:345][350]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066F063D260
-[2015.09.07-23.55.32:364][350]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066BAD231A0
-[2015.09.07-23.55.32:365][350]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066EF31F9C0
-[2015.09.07-23.55.34:270][350]LogD3D11RHI: InitD3DDevice
-[2015.09.07-23.55.38:030][350]LogD3D11RHI: InitD3DDevice
-[2015.09.07-23.55.38:155][350]LogD3D11RHI: InitD3DDevice
-[2015.09.07-23.56.58:744][802]LogD3D11RHI: InitD3DDevice
-[2015.09.07-23.56.58:762][802]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/jessy/Desktop/vampireUE4/Skeleton/sword_and_shield_slash.fbx)
-[2015.09.07-23.56.58:824][802]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2015.09.07-23.56.58:824][802]LogFbx: ItemName: Model, ItemCount : 68
-[2015.09.07-23.56.58:824][802]LogFbx: ItemName: NodeAttribute, ItemCount : 68
-[2015.09.07-23.56.58:824][802]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2015.09.07-23.56.58:824][802]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2015.09.07-23.56.58:824][802]LogFbx: ItemName: AnimationCurveNode, ItemCount : 45
-[2015.09.07-23.56.58:824][802]LogFbx: ItemName: AnimationCurve, ItemCount : 261
-[2015.09.07-23.56.58:840][802]LogD3D11RHI: InitD3DDevice
-[2015.09.07-23.56.59:777][802]LogD3D11RHI: InitD3DDevice
-[2015.09.07-23.57.15:459][802]LogFbx: Loading FBX Scene from ../../../../../../Users/jessy/Desktop/vampireUE4/Skeleton/sword_and_shield_slash.fbx
-[2015.09.07-23.57.15:533][802]LogFbx: FBX Scene Loaded Succesfully
-[2015.09.07-23.57.15:541][802]LogFbx: SortedLinks :(0) root
-[2015.09.07-23.57.15:541][802]LogFbx: SortedLinks :(1) pelvis
-[2015.09.07-23.57.15:541][802]LogFbx: SortedLinks :(2) spine_01
-[2015.09.07-23.57.15:541][802]LogFbx: SortedLinks :(3) spine_02
-[2015.09.07-23.57.15:541][802]LogFbx: SortedLinks :(4) spine_03
-[2015.09.07-23.57.15:541][802]LogFbx: SortedLinks :(5) clavicle_l
-[2015.09.07-23.57.15:541][802]LogFbx: SortedLinks :(6) upperarm_l
-[2015.09.07-23.57.15:541][802]LogFbx: SortedLinks :(7) lowerarm_l
-[2015.09.07-23.57.15:541][802]LogFbx: SortedLinks :(8) hand_l
-[2015.09.07-23.57.15:541][802]LogFbx: SortedLinks :(9) index_01_l
-[2015.09.07-23.57.15:541][802]LogFbx: SortedLinks :(10) index_02_l
-[2015.09.07-23.57.15:541][802]LogFbx: SortedLinks :(11) index_03_l
-[2015.09.07-23.57.15:541][802]LogFbx: SortedLinks :(12) middle_01_l
-[2015.09.07-23.57.15:541][802]LogFbx: SortedLinks :(13) middle_02_l
-[2015.09.07-23.57.15:541][802]LogFbx: SortedLinks :(14) middle_03_l
-[2015.09.07-23.57.15:541][802]LogFbx: SortedLinks :(15) pinky_01_l
-[2015.09.07-23.57.15:541][802]LogFbx: SortedLinks :(16) pinky_02_l
-[2015.09.07-23.57.15:541][802]LogFbx: SortedLinks :(17) pinky_03_l
-[2015.09.07-23.57.15:541][802]LogFbx: SortedLinks :(18) ring_01_l
-[2015.09.07-23.57.15:541][802]LogFbx: SortedLinks :(19) ring_02_l
-[2015.09.07-23.57.15:541][802]LogFbx: SortedLinks :(20) ring_03_l
-[2015.09.07-23.57.15:541][802]LogFbx: SortedLinks :(21) thumb_01_l
-[2015.09.07-23.57.15:541][802]LogFbx: SortedLinks :(22) thumb_02_l
-[2015.09.07-23.57.15:541][802]LogFbx: SortedLinks :(23) thumb_03_l
-[2015.09.07-23.57.15:541][802]LogFbx: SortedLinks :(24) lowerarm_twist_01_l
-[2015.09.07-23.57.15:541][802]LogFbx: SortedLinks :(25) upperarm_twist_01_l
-[2015.09.07-23.57.15:541][802]LogFbx: SortedLinks :(26) clavicle_r
-[2015.09.07-23.57.15:541][802]LogFbx: SortedLinks :(27) upperarm_r
-[2015.09.07-23.57.15:541][802]LogFbx: SortedLinks :(28) lowerarm_r
-[2015.09.07-23.57.15:541][802]LogFbx: SortedLinks :(29) hand_r
-[2015.09.07-23.57.15:541][802]LogFbx: SortedLinks :(30) index_01_r
-[2015.09.07-23.57.15:541][802]LogFbx: SortedLinks :(31) index_02_r
-[2015.09.07-23.57.15:541][802]LogFbx: SortedLinks :(32) index_03_r
-[2015.09.07-23.57.15:541][802]LogFbx: SortedLinks :(33) middle_01_r
-[2015.09.07-23.57.15:541][802]LogFbx: SortedLinks :(34) middle_02_r
-[2015.09.07-23.57.15:541][802]LogFbx: SortedLinks :(35) middle_03_r
-[2015.09.07-23.57.15:541][802]LogFbx: SortedLinks :(36) pinky_01_r
-[2015.09.07-23.57.15:541][802]LogFbx: SortedLinks :(37) pinky_02_r
-[2015.09.07-23.57.15:541][802]LogFbx: SortedLinks :(38) pinky_03_r
-[2015.09.07-23.57.15:541][802]LogFbx: SortedLinks :(39) ring_01_r
-[2015.09.07-23.57.15:542][802]LogFbx: SortedLinks :(40) ring_02_r
-[2015.09.07-23.57.15:542][802]LogFbx: SortedLinks :(41) ring_03_r
-[2015.09.07-23.57.15:542][802]LogFbx: SortedLinks :(42) thumb_01_r
-[2015.09.07-23.57.15:542][802]LogFbx: SortedLinks :(43) thumb_02_r
-[2015.09.07-23.57.15:542][802]LogFbx: SortedLinks :(44) thumb_03_r
-[2015.09.07-23.57.15:542][802]LogFbx: SortedLinks :(45) lowerarm_twist_01_r
-[2015.09.07-23.57.15:542][802]LogFbx: SortedLinks :(46) upperarm_twist_01_r
-[2015.09.07-23.57.15:542][802]LogFbx: SortedLinks :(47) neck_01
-[2015.09.07-23.57.15:542][802]LogFbx: SortedLinks :(48) head
-[2015.09.07-23.57.15:542][802]LogFbx: SortedLinks :(49) thigh_l
-[2015.09.07-23.57.15:542][802]LogFbx: SortedLinks :(50) calf_l
-[2015.09.07-23.57.15:542][802]LogFbx: SortedLinks :(51) calf_twist_01_l
-[2015.09.07-23.57.15:542][802]LogFbx: SortedLinks :(52) foot_l
-[2015.09.07-23.57.15:542][802]LogFbx: SortedLinks :(53) ball_l
-[2015.09.07-23.57.15:542][802]LogFbx: SortedLinks :(54) thigh_twist_01_l
-[2015.09.07-23.57.15:542][802]LogFbx: SortedLinks :(55) thigh_r
-[2015.09.07-23.57.15:542][802]LogFbx: SortedLinks :(56) calf_r
-[2015.09.07-23.57.15:542][802]LogFbx: SortedLinks :(57) calf_twist_01_r
-[2015.09.07-23.57.15:542][802]LogFbx: SortedLinks :(58) foot_r
-[2015.09.07-23.57.15:542][802]LogFbx: SortedLinks :(59) ball_r
-[2015.09.07-23.57.15:542][802]LogFbx: SortedLinks :(60) thigh_twist_01_r
-[2015.09.07-23.57.15:542][802]LogFbx: SortedLinks :(61) ik_foot_root
-[2015.09.07-23.57.15:542][802]LogFbx: SortedLinks :(62) ik_foot_l
-[2015.09.07-23.57.15:542][802]LogFbx: SortedLinks :(63) ik_foot_r
-[2015.09.07-23.57.15:542][802]LogFbx: SortedLinks :(64) ik_hand_root
-[2015.09.07-23.57.15:542][802]LogFbx: SortedLinks :(65) ik_hand_gun
-[2015.09.07-23.57.15:542][802]LogFbx: SortedLinks :(66) ik_hand_l
-[2015.09.07-23.57.15:542][802]LogFbx: SortedLinks :(67) ik_hand_r
-[2015.09.07-23.57.15:543][802]LogFbx: Parsing AnimStack mixamo.com
-[2015.09.07-23.57.15:546][802]LogLinker:Warning: Can't find file '/Game/Key/Skeleton/NewModel/Anim/sword_and_shield_slash'
-[2015.09.07-23.57.15:547][802]LogLinker:Warning: Can't find file '/Game/Key/Skeleton/NewModel/Anim/sword_and_shield_slash'
-[2015.09.07-23.57.15:547][802]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Key/Skeleton/NewModel/Anim/sword_and_shield_slash.sword_and_shield_slash'
-[2015.09.07-23.57.18:125][814]LogD3D11RHI: InitD3DDevice
-[2015.09.07-23.57.19:498][814]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_3) - call TermArticulated first.
-[2015.09.07-23.57.19:766][814]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
-[2015.09.07-23.57.27:742][943]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066E6218180
-[2015.09.07-23.57.27:743][943]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066E6572520
-[2015.09.07-23.57.27:743][943]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006693F22C00
-[2015.09.07-23.57.27:743][943]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006693F22FC0
-[2015.09.07-23.57.27:880][943]LogD3D11RHI: InitD3DDevice
-[2015.09.07-23.57.28:834][943]LogD3D11RHI: InitD3DDevice
-[2015.09.07-23.57.28:880][943]LogD3D11RHI: InitD3DDevice
-[2015.09.07-23.57.34:749][952]LogD3D11RHI: InitD3DDevice
-[2015.09.07-23.57.34:777][952]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/jessy/Desktop/vampireUE4/Skeleton/sword_and_shield_slash.fbx)
-[2015.09.07-23.57.34:785][952]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2015.09.07-23.57.34:785][952]LogFbx: ItemName: Model, ItemCount : 68
-[2015.09.07-23.57.34:785][952]LogFbx: ItemName: NodeAttribute, ItemCount : 68
-[2015.09.07-23.57.34:785][952]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2015.09.07-23.57.34:785][952]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2015.09.07-23.57.34:785][952]LogFbx: ItemName: AnimationCurveNode, ItemCount : 45
-[2015.09.07-23.57.34:785][952]LogFbx: ItemName: AnimationCurve, ItemCount : 261
-[2015.09.07-23.57.34:801][952]LogD3D11RHI: InitD3DDevice
-[2015.09.07-23.57.35:887][952]LogD3D11RHI: InitD3DDevice
-[2015.09.07-23.57.51:392][952]LogFbx: Loading FBX Scene from ../../../../../../Users/jessy/Desktop/vampireUE4/Skeleton/sword_and_shield_slash.fbx
-[2015.09.07-23.57.51:442][952]LogFbx: FBX Scene Loaded Succesfully
-[2015.09.07-23.57.51:450][952]LogFbx: SortedLinks :(0) root
-[2015.09.07-23.57.51:450][952]LogFbx: SortedLinks :(1) pelvis
-[2015.09.07-23.57.51:450][952]LogFbx: SortedLinks :(2) spine_01
-[2015.09.07-23.57.51:450][952]LogFbx: SortedLinks :(3) spine_02
-[2015.09.07-23.57.51:450][952]LogFbx: SortedLinks :(4) spine_03
-[2015.09.07-23.57.51:450][952]LogFbx: SortedLinks :(5) clavicle_l
-[2015.09.07-23.57.51:450][952]LogFbx: SortedLinks :(6) upperarm_l
-[2015.09.07-23.57.51:450][952]LogFbx: SortedLinks :(7) lowerarm_l
-[2015.09.07-23.57.51:450][952]LogFbx: SortedLinks :(8) hand_l
-[2015.09.07-23.57.51:450][952]LogFbx: SortedLinks :(9) index_01_l
-[2015.09.07-23.57.51:450][952]LogFbx: SortedLinks :(10) index_02_l
-[2015.09.07-23.57.51:450][952]LogFbx: SortedLinks :(11) index_03_l
-[2015.09.07-23.57.51:450][952]LogFbx: SortedLinks :(12) middle_01_l
-[2015.09.07-23.57.51:450][952]LogFbx: SortedLinks :(13) middle_02_l
-[2015.09.07-23.57.51:450][952]LogFbx: SortedLinks :(14) middle_03_l
-[2015.09.07-23.57.51:450][952]LogFbx: SortedLinks :(15) pinky_01_l
-[2015.09.07-23.57.51:450][952]LogFbx: SortedLinks :(16) pinky_02_l
-[2015.09.07-23.57.51:450][952]LogFbx: SortedLinks :(17) pinky_03_l
-[2015.09.07-23.57.51:450][952]LogFbx: SortedLinks :(18) ring_01_l
-[2015.09.07-23.57.51:450][952]LogFbx: SortedLinks :(19) ring_02_l
-[2015.09.07-23.57.51:450][952]LogFbx: SortedLinks :(20) ring_03_l
-[2015.09.07-23.57.51:450][952]LogFbx: SortedLinks :(21) thumb_01_l
-[2015.09.07-23.57.51:450][952]LogFbx: SortedLinks :(22) thumb_02_l
-[2015.09.07-23.57.51:450][952]LogFbx: SortedLinks :(23) thumb_03_l
-[2015.09.07-23.57.51:450][952]LogFbx: SortedLinks :(24) lowerarm_twist_01_l
-[2015.09.07-23.57.51:450][952]LogFbx: SortedLinks :(25) upperarm_twist_01_l
-[2015.09.07-23.57.51:450][952]LogFbx: SortedLinks :(26) clavicle_r
-[2015.09.07-23.57.51:450][952]LogFbx: SortedLinks :(27) upperarm_r
-[2015.09.07-23.57.51:450][952]LogFbx: SortedLinks :(28) lowerarm_r
-[2015.09.07-23.57.51:450][952]LogFbx: SortedLinks :(29) hand_r
-[2015.09.07-23.57.51:450][952]LogFbx: SortedLinks :(30) index_01_r
-[2015.09.07-23.57.51:450][952]LogFbx: SortedLinks :(31) index_02_r
-[2015.09.07-23.57.51:450][952]LogFbx: SortedLinks :(32) index_03_r
-[2015.09.07-23.57.51:451][952]LogFbx: SortedLinks :(33) middle_01_r
-[2015.09.07-23.57.51:451][952]LogFbx: SortedLinks :(34) middle_02_r
-[2015.09.07-23.57.51:451][952]LogFbx: SortedLinks :(35) middle_03_r
-[2015.09.07-23.57.51:451][952]LogFbx: SortedLinks :(36) pinky_01_r
-[2015.09.07-23.57.51:451][952]LogFbx: SortedLinks :(37) pinky_02_r
-[2015.09.07-23.57.51:451][952]LogFbx: SortedLinks :(38) pinky_03_r
-[2015.09.07-23.57.51:451][952]LogFbx: SortedLinks :(39) ring_01_r
-[2015.09.07-23.57.51:451][952]LogFbx: SortedLinks :(40) ring_02_r
-[2015.09.07-23.57.51:451][952]LogFbx: SortedLinks :(41) ring_03_r
-[2015.09.07-23.57.51:451][952]LogFbx: SortedLinks :(42) thumb_01_r
-[2015.09.07-23.57.51:451][952]LogFbx: SortedLinks :(43) thumb_02_r
-[2015.09.07-23.57.51:451][952]LogFbx: SortedLinks :(44) thumb_03_r
-[2015.09.07-23.57.51:451][952]LogFbx: SortedLinks :(45) lowerarm_twist_01_r
-[2015.09.07-23.57.51:451][952]LogFbx: SortedLinks :(46) upperarm_twist_01_r
-[2015.09.07-23.57.51:451][952]LogFbx: SortedLinks :(47) neck_01
-[2015.09.07-23.57.51:451][952]LogFbx: SortedLinks :(48) head
-[2015.09.07-23.57.51:451][952]LogFbx: SortedLinks :(49) thigh_l
-[2015.09.07-23.57.51:451][952]LogFbx: SortedLinks :(50) calf_l
-[2015.09.07-23.57.51:451][952]LogFbx: SortedLinks :(51) calf_twist_01_l
-[2015.09.07-23.57.51:451][952]LogFbx: SortedLinks :(52) foot_l
-[2015.09.07-23.57.51:451][952]LogFbx: SortedLinks :(53) ball_l
-[2015.09.07-23.57.51:451][952]LogFbx: SortedLinks :(54) thigh_twist_01_l
-[2015.09.07-23.57.51:451][952]LogFbx: SortedLinks :(55) thigh_r
-[2015.09.07-23.57.51:451][952]LogFbx: SortedLinks :(56) calf_r
-[2015.09.07-23.57.51:451][952]LogFbx: SortedLinks :(57) calf_twist_01_r
-[2015.09.07-23.57.51:451][952]LogFbx: SortedLinks :(58) foot_r
-[2015.09.07-23.57.51:451][952]LogFbx: SortedLinks :(59) ball_r
-[2015.09.07-23.57.51:451][952]LogFbx: SortedLinks :(60) thigh_twist_01_r
-[2015.09.07-23.57.51:451][952]LogFbx: SortedLinks :(61) ik_foot_root
-[2015.09.07-23.57.51:451][952]LogFbx: SortedLinks :(62) ik_foot_l
-[2015.09.07-23.57.51:451][952]LogFbx: SortedLinks :(63) ik_foot_r
-[2015.09.07-23.57.51:451][952]LogFbx: SortedLinks :(64) ik_hand_root
-[2015.09.07-23.57.51:451][952]LogFbx: SortedLinks :(65) ik_hand_gun
-[2015.09.07-23.57.51:451][952]LogFbx: SortedLinks :(66) ik_hand_l
-[2015.09.07-23.57.51:451][952]LogFbx: SortedLinks :(67) ik_hand_r
-[2015.09.07-23.57.51:452][952]LogFbx: Parsing AnimStack mixamo.com
-[2015.09.07-23.57.51:456][952]LogLinker:Warning: Can't find file '/Game/Key/Skeleton/NewModel/Anim/sword_and_shield_slash'
-[2015.09.07-23.57.51:456][952]LogLinker:Warning: Can't find file '/Game/Key/Skeleton/NewModel/Anim/sword_and_shield_slash'
-[2015.09.07-23.57.51:456][952]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Key/Skeleton/NewModel/Anim/sword_and_shield_slash.sword_and_shield_slash'
-[2015.09.07-23.57.54:249][965]LogD3D11RHI: InitD3DDevice
-[2015.09.07-23.57.54:647][965]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
-[2015.09.07-23.57.57:304][982]LogD3D11RHI: InitD3DDevice
-[2015.09.07-23.57.58:640][982]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_6) - call TermArticulated first.
-[2015.09.07-23.57.58:882][982]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
-[2015.09.07-23.58.37:117][446]LogD3D11RHI: InitD3DDevice
-[2015.09.07-23.58.38:647][470]LogD3D11RHI: InitD3DDevice
-[2015.09.07-23.58.41:271][544]LogEditorFactories: Performing atomic reimport of [C:/Users/jessy/Desktop/vampireUE4/Skeleton/sword_and_shield_slash.fbx]
-[2015.09.07-23.58.41:276][544]LogD3D11RHI: InitD3DDevice
-[2015.09.07-23.58.41:331][544]LogFbx: Loading FBX Scene from C:/Users/jessy/Desktop/vampireUE4/Skeleton/sword_and_shield_slash.fbx
-[2015.09.07-23.58.41:382][544]LogFbx: FBX Scene Loaded Succesfully
-[2015.09.07-23.58.41:390][544]LogFbx: Parsing AnimStack mixamo.com
-[2015.09.07-23.58.42:105][544]LogEditorFactories: -- imported successfully
-[2015.09.07-23.58.42:177][544]LogD3D11RHI: InitD3DDevice
-[2015.09.07-23.58.45:021][588]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066E593EB60
-[2015.09.07-23.58.45:021][588]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066E5E18EA0
-[2015.09.07-23.58.45:021][588]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006693F22B60
-[2015.09.07-23.58.45:021][588]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066E0255580
-[2015.09.07-23.58.45:021][588]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066E0255DA0
-[2015.09.07-23.58.45:147][588]LogD3D11RHI: InitD3DDevice
-[2015.09.07-23.58.46:339][588]LogD3D11RHI: InitD3DDevice
-[2015.09.07-23.59.27:715][588]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimSingleNodeInstance_645' or package '/Game/Scene/NewCave'.
-[2015.09.07-23.59.35:226][602]LogD3D11RHI: InitD3DDevice
-[2015.09.07-23.59.35:242][602]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/jessy/Desktop/vampireUE4/Skeleton/sword_and_shield_slash.fbx)
-[2015.09.07-23.59.35:350][602]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2015.09.07-23.59.35:350][602]LogFbx: ItemName: Model, ItemCount : 68
-[2015.09.07-23.59.35:350][602]LogFbx: ItemName: NodeAttribute, ItemCount : 68
-[2015.09.07-23.59.35:350][602]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2015.09.07-23.59.35:350][602]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2015.09.07-23.59.35:351][602]LogFbx: ItemName: AnimationCurveNode, ItemCount : 45
-[2015.09.07-23.59.35:351][602]LogFbx: ItemName: AnimationCurve, ItemCount : 261
-[2015.09.07-23.59.35:371][602]LogD3D11RHI: InitD3DDevice
-[2015.09.07-23.59.41:097][602]LogD3D11RHI: InitD3DDevice
-[2015.09.07-23.59.55:153][602]LogFbx: Loading FBX Scene from ../../../../../../Users/jessy/Desktop/vampireUE4/Skeleton/sword_and_shield_slash.fbx
-[2015.09.07-23.59.55:201][602]LogFbx: FBX Scene Loaded Succesfully
-[2015.09.07-23.59.55:209][602]LogFbx: SortedLinks :(0) root
-[2015.09.07-23.59.55:209][602]LogFbx: SortedLinks :(1) pelvis
-[2015.09.07-23.59.55:209][602]LogFbx: SortedLinks :(2) spine_01
-[2015.09.07-23.59.55:209][602]LogFbx: SortedLinks :(3) spine_02
-[2015.09.07-23.59.55:209][602]LogFbx: SortedLinks :(4) spine_03
-[2015.09.07-23.59.55:209][602]LogFbx: SortedLinks :(5) clavicle_l
-[2015.09.07-23.59.55:209][602]LogFbx: SortedLinks :(6) upperarm_l
-[2015.09.07-23.59.55:209][602]LogFbx: SortedLinks :(7) lowerarm_l
-[2015.09.07-23.59.55:209][602]LogFbx: SortedLinks :(8) hand_l
-[2015.09.07-23.59.55:209][602]LogFbx: SortedLinks :(9) index_01_l
-[2015.09.07-23.59.55:209][602]LogFbx: SortedLinks :(10) index_02_l
-[2015.09.07-23.59.55:209][602]LogFbx: SortedLinks :(11) index_03_l
-[2015.09.07-23.59.55:209][602]LogFbx: SortedLinks :(12) middle_01_l
-[2015.09.07-23.59.55:209][602]LogFbx: SortedLinks :(13) middle_02_l
-[2015.09.07-23.59.55:209][602]LogFbx: SortedLinks :(14) middle_03_l
-[2015.09.07-23.59.55:209][602]LogFbx: SortedLinks :(15) pinky_01_l
-[2015.09.07-23.59.55:209][602]LogFbx: SortedLinks :(16) pinky_02_l
-[2015.09.07-23.59.55:209][602]LogFbx: SortedLinks :(17) pinky_03_l
-[2015.09.07-23.59.55:209][602]LogFbx: SortedLinks :(18) ring_01_l
-[2015.09.07-23.59.55:209][602]LogFbx: SortedLinks :(19) ring_02_l
-[2015.09.07-23.59.55:209][602]LogFbx: SortedLinks :(20) ring_03_l
-[2015.09.07-23.59.55:209][602]LogFbx: SortedLinks :(21) thumb_01_l
-[2015.09.07-23.59.55:209][602]LogFbx: SortedLinks :(22) thumb_02_l
-[2015.09.07-23.59.55:209][602]LogFbx: SortedLinks :(23) thumb_03_l
-[2015.09.07-23.59.55:209][602]LogFbx: SortedLinks :(24) lowerarm_twist_01_l
-[2015.09.07-23.59.55:209][602]LogFbx: SortedLinks :(25) upperarm_twist_01_l
-[2015.09.07-23.59.55:209][602]LogFbx: SortedLinks :(26) clavicle_r
-[2015.09.07-23.59.55:209][602]LogFbx: SortedLinks :(27) upperarm_r
-[2015.09.07-23.59.55:209][602]LogFbx: SortedLinks :(28) lowerarm_r
-[2015.09.07-23.59.55:209][602]LogFbx: SortedLinks :(29) hand_r
-[2015.09.07-23.59.55:209][602]LogFbx: SortedLinks :(30) index_01_r
-[2015.09.07-23.59.55:209][602]LogFbx: SortedLinks :(31) index_02_r
-[2015.09.07-23.59.55:209][602]LogFbx: SortedLinks :(32) index_03_r
-[2015.09.07-23.59.55:209][602]LogFbx: SortedLinks :(33) middle_01_r
-[2015.09.07-23.59.55:209][602]LogFbx: SortedLinks :(34) middle_02_r
-[2015.09.07-23.59.55:209][602]LogFbx: SortedLinks :(35) middle_03_r
-[2015.09.07-23.59.55:209][602]LogFbx: SortedLinks :(36) pinky_01_r
-[2015.09.07-23.59.55:209][602]LogFbx: SortedLinks :(37) pinky_02_r
-[2015.09.07-23.59.55:209][602]LogFbx: SortedLinks :(38) pinky_03_r
-[2015.09.07-23.59.55:209][602]LogFbx: SortedLinks :(39) ring_01_r
-[2015.09.07-23.59.55:209][602]LogFbx: SortedLinks :(40) ring_02_r
-[2015.09.07-23.59.55:209][602]LogFbx: SortedLinks :(41) ring_03_r
-[2015.09.07-23.59.55:209][602]LogFbx: SortedLinks :(42) thumb_01_r
-[2015.09.07-23.59.55:209][602]LogFbx: SortedLinks :(43) thumb_02_r
-[2015.09.07-23.59.55:209][602]LogFbx: SortedLinks :(44) thumb_03_r
-[2015.09.07-23.59.55:209][602]LogFbx: SortedLinks :(45) lowerarm_twist_01_r
-[2015.09.07-23.59.55:209][602]LogFbx: SortedLinks :(46) upperarm_twist_01_r
-[2015.09.07-23.59.55:209][602]LogFbx: SortedLinks :(47) neck_01
-[2015.09.07-23.59.55:209][602]LogFbx: SortedLinks :(48) head
-[2015.09.07-23.59.55:209][602]LogFbx: SortedLinks :(49) thigh_l
-[2015.09.07-23.59.55:209][602]LogFbx: SortedLinks :(50) calf_l
-[2015.09.07-23.59.55:209][602]LogFbx: SortedLinks :(51) calf_twist_01_l
-[2015.09.07-23.59.55:210][602]LogFbx: SortedLinks :(52) foot_l
-[2015.09.07-23.59.55:210][602]LogFbx: SortedLinks :(53) ball_l
-[2015.09.07-23.59.55:210][602]LogFbx: SortedLinks :(54) thigh_twist_01_l
-[2015.09.07-23.59.55:210][602]LogFbx: SortedLinks :(55) thigh_r
-[2015.09.07-23.59.55:210][602]LogFbx: SortedLinks :(56) calf_r
-[2015.09.07-23.59.55:210][602]LogFbx: SortedLinks :(57) calf_twist_01_r
-[2015.09.07-23.59.55:210][602]LogFbx: SortedLinks :(58) foot_r
-[2015.09.07-23.59.55:210][602]LogFbx: SortedLinks :(59) ball_r
-[2015.09.07-23.59.55:210][602]LogFbx: SortedLinks :(60) thigh_twist_01_r
-[2015.09.07-23.59.55:210][602]LogFbx: SortedLinks :(61) ik_foot_root
-[2015.09.07-23.59.55:210][602]LogFbx: SortedLinks :(62) ik_foot_l
-[2015.09.07-23.59.55:210][602]LogFbx: SortedLinks :(63) ik_foot_r
-[2015.09.07-23.59.55:210][602]LogFbx: SortedLinks :(64) ik_hand_root
-[2015.09.07-23.59.55:210][602]LogFbx: SortedLinks :(65) ik_hand_gun
-[2015.09.07-23.59.55:210][602]LogFbx: SortedLinks :(66) ik_hand_l
-[2015.09.07-23.59.55:210][602]LogFbx: SortedLinks :(67) ik_hand_r
-[2015.09.07-23.59.55:210][602]LogFbx: Parsing AnimStack mixamo.com
-[2015.09.07-23.59.55:214][602]LogLinker:Warning: Can't find file '/Game/Key/Skeleton/NewModel/Anim/sword_and_shield_slash'
-[2015.09.07-23.59.55:215][602]LogLinker:Warning: Can't find file '/Game/Key/Skeleton/NewModel/Anim/sword_and_shield_slash'
-[2015.09.07-23.59.55:215][602]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Key/Skeleton/NewModel/Anim/sword_and_shield_slash.sword_and_shield_slash'
-[2015.09.07-23.59.58:168][615]LogD3D11RHI: InitD3DDevice
-[2015.09.08-00.00.00:038][615]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_10) - call TermArticulated first.
-[2015.09.08-00.00.00:375][615]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/SubEditors/PersonaAnimEditorTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.09.08-00.00.00:686][615]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
-[2015.09.08-00.00.19:634][850]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066E58AF560
-[2015.09.08-00.00.19:635][850]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066DF332CA0
-[2015.09.08-00.00.19:635][850]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066E58ADF80
-[2015.09.08-00.00.19:635][850]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066F7D70C20
-[2015.09.08-00.00.19:635][850]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066DF330EA0
-[2015.09.08-00.00.19:752][850]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066DF3300E0
-[2015.09.08-00.00.19:799][850]LogD3D11RHI: InitD3DDevice
-[2015.09.08-00.00.20:765][850]LogD3D11RHI: InitD3DDevice
-[2015.09.08-00.00.20:882][850]LogD3D11RHI: InitD3DDevice
-[2015.09.08-00.00.24:921][859]LogD3D11RHI: InitD3DDevice
-[2015.09.08-00.00.24:949][859]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/jessy/Desktop/vampireUE4/Skeleton/sword_and_shield_slash.fbx)
-[2015.09.08-00.00.24:957][859]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2015.09.08-00.00.24:958][859]LogFbx: ItemName: Model, ItemCount : 68
-[2015.09.08-00.00.24:958][859]LogFbx: ItemName: NodeAttribute, ItemCount : 68
-[2015.09.08-00.00.24:958][859]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2015.09.08-00.00.24:958][859]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2015.09.08-00.00.24:958][859]LogFbx: ItemName: AnimationCurveNode, ItemCount : 45
-[2015.09.08-00.00.24:958][859]LogFbx: ItemName: AnimationCurve, ItemCount : 261
-[2015.09.08-00.00.24:974][859]LogD3D11RHI: InitD3DDevice
-[2015.09.08-00.00.26:192][859]LogD3D11RHI: InitD3DDevice
-[2015.09.08-00.00.35:692][859]LogFbx: Loading FBX Scene from ../../../../../../Users/jessy/Desktop/vampireUE4/Skeleton/sword_and_shield_slash.fbx
-[2015.09.08-00.00.35:740][859]LogFbx: FBX Scene Loaded Succesfully
-[2015.09.08-00.00.35:747][859]LogFbx: SortedLinks :(0) root
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(1) pelvis
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(2) spine_01
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(3) spine_02
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(4) spine_03
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(5) clavicle_l
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(6) upperarm_l
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(7) lowerarm_l
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(8) hand_l
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(9) index_01_l
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(10) index_02_l
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(11) index_03_l
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(12) middle_01_l
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(13) middle_02_l
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(14) middle_03_l
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(15) pinky_01_l
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(16) pinky_02_l
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(17) pinky_03_l
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(18) ring_01_l
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(19) ring_02_l
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(20) ring_03_l
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(21) thumb_01_l
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(22) thumb_02_l
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(23) thumb_03_l
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(24) lowerarm_twist_01_l
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(25) upperarm_twist_01_l
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(26) clavicle_r
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(27) upperarm_r
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(28) lowerarm_r
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(29) hand_r
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(30) index_01_r
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(31) index_02_r
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(32) index_03_r
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(33) middle_01_r
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(34) middle_02_r
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(35) middle_03_r
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(36) pinky_01_r
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(37) pinky_02_r
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(38) pinky_03_r
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(39) ring_01_r
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(40) ring_02_r
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(41) ring_03_r
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(42) thumb_01_r
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(43) thumb_02_r
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(44) thumb_03_r
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(45) lowerarm_twist_01_r
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(46) upperarm_twist_01_r
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(47) neck_01
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(48) head
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(49) thigh_l
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(50) calf_l
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(51) calf_twist_01_l
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(52) foot_l
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(53) ball_l
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(54) thigh_twist_01_l
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(55) thigh_r
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(56) calf_r
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(57) calf_twist_01_r
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(58) foot_r
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(59) ball_r
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(60) thigh_twist_01_r
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(61) ik_foot_root
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(62) ik_foot_l
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(63) ik_foot_r
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(64) ik_hand_root
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(65) ik_hand_gun
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(66) ik_hand_l
-[2015.09.08-00.00.35:748][859]LogFbx: SortedLinks :(67) ik_hand_r
-[2015.09.08-00.00.35:749][859]LogFbx: Parsing AnimStack mixamo.com
-[2015.09.08-00.00.35:753][859]LogLinker:Warning: Can't find file '/Game/Key/Skeleton/NewModel/Anim/sword_and_shield_slash'
-[2015.09.08-00.00.35:753][859]LogLinker:Warning: Can't find file '/Game/Key/Skeleton/NewModel/Anim/sword_and_shield_slash'
-[2015.09.08-00.00.35:754][859]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Key/Skeleton/NewModel/Anim/sword_and_shield_slash.sword_and_shield_slash'
-[2015.09.08-00.00.38:645][873]LogD3D11RHI: InitD3DDevice
-[2015.09.08-00.00.39:996][873]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_15) - call TermArticulated first.
-[2015.09.08-00.00.40:332][873]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
-[2015.09.08-00.00.54:960][ 44]LogD3D11RHI: InitD3DDevice
-[2015.09.08-00.00.54:982][ 44]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/jessy/Desktop/vampireUE4/Skeleton/sword_and_shield_slash2.fbx)
-[2015.09.08-00.00.55:143][ 44]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2015.09.08-00.00.55:143][ 44]LogFbx: ItemName: Model, ItemCount : 68
-[2015.09.08-00.00.55:143][ 44]LogFbx: ItemName: NodeAttribute, ItemCount : 68
-[2015.09.08-00.00.55:143][ 44]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2015.09.08-00.00.55:144][ 44]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2015.09.08-00.00.55:144][ 44]LogFbx: ItemName: AnimationCurveNode, ItemCount : 45
-[2015.09.08-00.00.55:144][ 44]LogFbx: ItemName: AnimationCurve, ItemCount : 261
-[2015.09.08-00.00.55:166][ 44]LogD3D11RHI: InitD3DDevice
-[2015.09.08-00.00.56:051][ 44]LogD3D11RHI: InitD3DDevice
-[2015.09.08-00.01.05:854][ 44]LogFbx: Loading FBX Scene from ../../../../../../Users/jessy/Desktop/vampireUE4/Skeleton/sword_and_shield_slash2.fbx
-[2015.09.08-00.01.05:901][ 44]LogFbx: FBX Scene Loaded Succesfully
-[2015.09.08-00.01.05:909][ 44]LogFbx: SortedLinks :(0) root
-[2015.09.08-00.01.05:909][ 44]LogFbx: SortedLinks :(1) pelvis
-[2015.09.08-00.01.05:909][ 44]LogFbx: SortedLinks :(2) spine_01
-[2015.09.08-00.01.05:909][ 44]LogFbx: SortedLinks :(3) spine_02
-[2015.09.08-00.01.05:909][ 44]LogFbx: SortedLinks :(4) spine_03
-[2015.09.08-00.01.05:909][ 44]LogFbx: SortedLinks :(5) clavicle_l
-[2015.09.08-00.01.05:909][ 44]LogFbx: SortedLinks :(6) upperarm_l
-[2015.09.08-00.01.05:909][ 44]LogFbx: SortedLinks :(7) lowerarm_l
-[2015.09.08-00.01.05:909][ 44]LogFbx: SortedLinks :(8) hand_l
-[2015.09.08-00.01.05:909][ 44]LogFbx: SortedLinks :(9) index_01_l
-[2015.09.08-00.01.05:909][ 44]LogFbx: SortedLinks :(10) index_02_l
-[2015.09.08-00.01.05:909][ 44]LogFbx: SortedLinks :(11) index_03_l
-[2015.09.08-00.01.05:909][ 44]LogFbx: SortedLinks :(12) middle_01_l
-[2015.09.08-00.01.05:909][ 44]LogFbx: SortedLinks :(13) middle_02_l
-[2015.09.08-00.01.05:909][ 44]LogFbx: SortedLinks :(14) middle_03_l
-[2015.09.08-00.01.05:909][ 44]LogFbx: SortedLinks :(15) pinky_01_l
-[2015.09.08-00.01.05:909][ 44]LogFbx: SortedLinks :(16) pinky_02_l
-[2015.09.08-00.01.05:909][ 44]LogFbx: SortedLinks :(17) pinky_03_l
-[2015.09.08-00.01.05:909][ 44]LogFbx: SortedLinks :(18) ring_01_l
-[2015.09.08-00.01.05:909][ 44]LogFbx: SortedLinks :(19) ring_02_l
-[2015.09.08-00.01.05:909][ 44]LogFbx: SortedLinks :(20) ring_03_l
-[2015.09.08-00.01.05:909][ 44]LogFbx: SortedLinks :(21) thumb_01_l
-[2015.09.08-00.01.05:909][ 44]LogFbx: SortedLinks :(22) thumb_02_l
-[2015.09.08-00.01.05:909][ 44]LogFbx: SortedLinks :(23) thumb_03_l
-[2015.09.08-00.01.05:909][ 44]LogFbx: SortedLinks :(24) lowerarm_twist_01_l
-[2015.09.08-00.01.05:909][ 44]LogFbx: SortedLinks :(25) upperarm_twist_01_l
-[2015.09.08-00.01.05:909][ 44]LogFbx: SortedLinks :(26) clavicle_r
-[2015.09.08-00.01.05:909][ 44]LogFbx: SortedLinks :(27) upperarm_r
-[2015.09.08-00.01.05:910][ 44]LogFbx: SortedLinks :(28) lowerarm_r
-[2015.09.08-00.01.05:910][ 44]LogFbx: SortedLinks :(29) hand_r
-[2015.09.08-00.01.05:910][ 44]LogFbx: SortedLinks :(30) index_01_r
-[2015.09.08-00.01.05:910][ 44]LogFbx: SortedLinks :(31) index_02_r
-[2015.09.08-00.01.05:910][ 44]LogFbx: SortedLinks :(32) index_03_r
-[2015.09.08-00.01.05:910][ 44]LogFbx: SortedLinks :(33) middle_01_r
-[2015.09.08-00.01.05:910][ 44]LogFbx: SortedLinks :(34) middle_02_r
-[2015.09.08-00.01.05:910][ 44]LogFbx: SortedLinks :(35) middle_03_r
-[2015.09.08-00.01.05:910][ 44]LogFbx: SortedLinks :(36) pinky_01_r
-[2015.09.08-00.01.05:910][ 44]LogFbx: SortedLinks :(37) pinky_02_r
-[2015.09.08-00.01.05:910][ 44]LogFbx: SortedLinks :(38) pinky_03_r
-[2015.09.08-00.01.05:910][ 44]LogFbx: SortedLinks :(39) ring_01_r
-[2015.09.08-00.01.05:910][ 44]LogFbx: SortedLinks :(40) ring_02_r
-[2015.09.08-00.01.05:910][ 44]LogFbx: SortedLinks :(41) ring_03_r
-[2015.09.08-00.01.05:910][ 44]LogFbx: SortedLinks :(42) thumb_01_r
-[2015.09.08-00.01.05:910][ 44]LogFbx: SortedLinks :(43) thumb_02_r
-[2015.09.08-00.01.05:910][ 44]LogFbx: SortedLinks :(44) thumb_03_r
-[2015.09.08-00.01.05:910][ 44]LogFbx: SortedLinks :(45) lowerarm_twist_01_r
-[2015.09.08-00.01.05:910][ 44]LogFbx: SortedLinks :(46) upperarm_twist_01_r
-[2015.09.08-00.01.05:910][ 44]LogFbx: SortedLinks :(47) neck_01
-[2015.09.08-00.01.05:910][ 44]LogFbx: SortedLinks :(48) head
-[2015.09.08-00.01.05:910][ 44]LogFbx: SortedLinks :(49) thigh_l
-[2015.09.08-00.01.05:910][ 44]LogFbx: SortedLinks :(50) calf_l
-[2015.09.08-00.01.05:910][ 44]LogFbx: SortedLinks :(51) calf_twist_01_l
-[2015.09.08-00.01.05:910][ 44]LogFbx: SortedLinks :(52) foot_l
-[2015.09.08-00.01.05:910][ 44]LogFbx: SortedLinks :(53) ball_l
-[2015.09.08-00.01.05:910][ 44]LogFbx: SortedLinks :(54) thigh_twist_01_l
-[2015.09.08-00.01.05:910][ 44]LogFbx: SortedLinks :(55) thigh_r
-[2015.09.08-00.01.05:910][ 44]LogFbx: SortedLinks :(56) calf_r
-[2015.09.08-00.01.05:910][ 44]LogFbx: SortedLinks :(57) calf_twist_01_r
-[2015.09.08-00.01.05:910][ 44]LogFbx: SortedLinks :(58) foot_r
-[2015.09.08-00.01.05:910][ 44]LogFbx: SortedLinks :(59) ball_r
-[2015.09.08-00.01.05:910][ 44]LogFbx: SortedLinks :(60) thigh_twist_01_r
-[2015.09.08-00.01.05:910][ 44]LogFbx: SortedLinks :(61) ik_foot_root
-[2015.09.08-00.01.05:910][ 44]LogFbx: SortedLinks :(62) ik_foot_l
-[2015.09.08-00.01.05:910][ 44]LogFbx: SortedLinks :(63) ik_foot_r
-[2015.09.08-00.01.05:910][ 44]LogFbx: SortedLinks :(64) ik_hand_root
-[2015.09.08-00.01.05:910][ 44]LogFbx: SortedLinks :(65) ik_hand_gun
-[2015.09.08-00.01.05:910][ 44]LogFbx: SortedLinks :(66) ik_hand_l
-[2015.09.08-00.01.05:910][ 44]LogFbx: SortedLinks :(67) ik_hand_r
-[2015.09.08-00.01.05:911][ 44]LogFbx: Parsing AnimStack mixamo.com
-[2015.09.08-00.01.05:915][ 44]LogLinker:Warning: Can't find file '/Game/Key/Skeleton/NewModel/Anim/sword_and_shield_slash2'
-[2015.09.08-00.01.05:915][ 44]LogLinker:Warning: Can't find file '/Game/Key/Skeleton/NewModel/Anim/sword_and_shield_slash2'
-[2015.09.08-00.01.05:915][ 44]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Key/Skeleton/NewModel/Anim/sword_and_shield_slash2.sword_and_shield_slash2'
-[2015.09.08-00.01.08:180][ 55]LogD3D11RHI: InitD3DDevice
-[2015.09.08-00.01.10:359][ 55]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_21) - call TermArticulated first.
-[2015.09.08-00.01.10:625][ 55]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
-[2015.09.08-00.01.24:357][152]LogD3D11RHI: InitD3DDevice
-[2015.09.08-00.01.24:379][152]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/jessy/Desktop/vampireUE4/Skeleton/sword_and_shield_attack.fbx)
-[2015.09.08-00.01.24:514][152]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2015.09.08-00.01.24:514][152]LogFbx: ItemName: Model, ItemCount : 68
-[2015.09.08-00.01.24:514][152]LogFbx: ItemName: NodeAttribute, ItemCount : 68
-[2015.09.08-00.01.24:514][152]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2015.09.08-00.01.24:515][152]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2015.09.08-00.01.24:515][152]LogFbx: ItemName: AnimationCurveNode, ItemCount : 45
-[2015.09.08-00.01.24:515][152]LogFbx: ItemName: AnimationCurve, ItemCount : 261
-[2015.09.08-00.01.24:535][152]LogD3D11RHI: InitD3DDevice
-[2015.09.08-00.01.25:415][152]LogD3D11RHI: InitD3DDevice
-[2015.09.08-00.01.33:265][152]LogFbx: Loading FBX Scene from ../../../../../../Users/jessy/Desktop/vampireUE4/Skeleton/sword_and_shield_attack.fbx
-[2015.09.08-00.01.33:312][152]LogFbx: FBX Scene Loaded Succesfully
-[2015.09.08-00.01.33:320][152]LogFbx: SortedLinks :(0) root
-[2015.09.08-00.01.33:320][152]LogFbx: SortedLinks :(1) pelvis
-[2015.09.08-00.01.33:320][152]LogFbx: SortedLinks :(2) spine_01
-[2015.09.08-00.01.33:320][152]LogFbx: SortedLinks :(3) spine_02
-[2015.09.08-00.01.33:320][152]LogFbx: SortedLinks :(4) spine_03
-[2015.09.08-00.01.33:320][152]LogFbx: SortedLinks :(5) clavicle_l
-[2015.09.08-00.01.33:320][152]LogFbx: SortedLinks :(6) upperarm_l
-[2015.09.08-00.01.33:320][152]LogFbx: SortedLinks :(7) lowerarm_l
-[2015.09.08-00.01.33:320][152]LogFbx: SortedLinks :(8) hand_l
-[2015.09.08-00.01.33:320][152]LogFbx: SortedLinks :(9) index_01_l
-[2015.09.08-00.01.33:320][152]LogFbx: SortedLinks :(10) index_02_l
-[2015.09.08-00.01.33:320][152]LogFbx: SortedLinks :(11) index_03_l
-[2015.09.08-00.01.33:320][152]LogFbx: SortedLinks :(12) middle_01_l
-[2015.09.08-00.01.33:320][152]LogFbx: SortedLinks :(13) middle_02_l
-[2015.09.08-00.01.33:320][152]LogFbx: SortedLinks :(14) middle_03_l
-[2015.09.08-00.01.33:320][152]LogFbx: SortedLinks :(15) pinky_01_l
-[2015.09.08-00.01.33:320][152]LogFbx: SortedLinks :(16) pinky_02_l
-[2015.09.08-00.01.33:320][152]LogFbx: SortedLinks :(17) pinky_03_l
-[2015.09.08-00.01.33:320][152]LogFbx: SortedLinks :(18) ring_01_l
-[2015.09.08-00.01.33:320][152]LogFbx: SortedLinks :(19) ring_02_l
-[2015.09.08-00.01.33:320][152]LogFbx: SortedLinks :(20) ring_03_l
-[2015.09.08-00.01.33:320][152]LogFbx: SortedLinks :(21) thumb_01_l
-[2015.09.08-00.01.33:320][152]LogFbx: SortedLinks :(22) thumb_02_l
-[2015.09.08-00.01.33:320][152]LogFbx: SortedLinks :(23) thumb_03_l
-[2015.09.08-00.01.33:320][152]LogFbx: SortedLinks :(24) lowerarm_twist_01_l
-[2015.09.08-00.01.33:320][152]LogFbx: SortedLinks :(25) upperarm_twist_01_l
-[2015.09.08-00.01.33:320][152]LogFbx: SortedLinks :(26) clavicle_r
-[2015.09.08-00.01.33:320][152]LogFbx: SortedLinks :(27) upperarm_r
-[2015.09.08-00.01.33:320][152]LogFbx: SortedLinks :(28) lowerarm_r
-[2015.09.08-00.01.33:320][152]LogFbx: SortedLinks :(29) hand_r
-[2015.09.08-00.01.33:320][152]LogFbx: SortedLinks :(30) index_01_r
-[2015.09.08-00.01.33:320][152]LogFbx: SortedLinks :(31) index_02_r
-[2015.09.08-00.01.33:320][152]LogFbx: SortedLinks :(32) index_03_r
-[2015.09.08-00.01.33:320][152]LogFbx: SortedLinks :(33) middle_01_r
-[2015.09.08-00.01.33:320][152]LogFbx: SortedLinks :(34) middle_02_r
-[2015.09.08-00.01.33:320][152]LogFbx: SortedLinks :(35) middle_03_r
-[2015.09.08-00.01.33:320][152]LogFbx: SortedLinks :(36) pinky_01_r
-[2015.09.08-00.01.33:320][152]LogFbx: SortedLinks :(37) pinky_02_r
-[2015.09.08-00.01.33:320][152]LogFbx: SortedLinks :(38) pinky_03_r
-[2015.09.08-00.01.33:320][152]LogFbx: SortedLinks :(39) ring_01_r
-[2015.09.08-00.01.33:320][152]LogFbx: SortedLinks :(40) ring_02_r
-[2015.09.08-00.01.33:320][152]LogFbx: SortedLinks :(41) ring_03_r
-[2015.09.08-00.01.33:320][152]LogFbx: SortedLinks :(42) thumb_01_r
-[2015.09.08-00.01.33:320][152]LogFbx: SortedLinks :(43) thumb_02_r
-[2015.09.08-00.01.33:320][152]LogFbx: SortedLinks :(44) thumb_03_r
-[2015.09.08-00.01.33:320][152]LogFbx: SortedLinks :(45) lowerarm_twist_01_r
-[2015.09.08-00.01.33:320][152]LogFbx: SortedLinks :(46) upperarm_twist_01_r
-[2015.09.08-00.01.33:320][152]LogFbx: SortedLinks :(47) neck_01
-[2015.09.08-00.01.33:320][152]LogFbx: SortedLinks :(48) head
-[2015.09.08-00.01.33:321][152]LogFbx: SortedLinks :(49) thigh_l
-[2015.09.08-00.01.33:321][152]LogFbx: SortedLinks :(50) calf_l
-[2015.09.08-00.01.33:321][152]LogFbx: SortedLinks :(51) calf_twist_01_l
-[2015.09.08-00.01.33:321][152]LogFbx: SortedLinks :(52) foot_l
-[2015.09.08-00.01.33:321][152]LogFbx: SortedLinks :(53) ball_l
-[2015.09.08-00.01.33:321][152]LogFbx: SortedLinks :(54) thigh_twist_01_l
-[2015.09.08-00.01.33:321][152]LogFbx: SortedLinks :(55) thigh_r
-[2015.09.08-00.01.33:321][152]LogFbx: SortedLinks :(56) calf_r
-[2015.09.08-00.01.33:321][152]LogFbx: SortedLinks :(57) calf_twist_01_r
-[2015.09.08-00.01.33:321][152]LogFbx: SortedLinks :(58) foot_r
-[2015.09.08-00.01.33:321][152]LogFbx: SortedLinks :(59) ball_r
-[2015.09.08-00.01.33:321][152]LogFbx: SortedLinks :(60) thigh_twist_01_r
-[2015.09.08-00.01.33:321][152]LogFbx: SortedLinks :(61) ik_foot_root
-[2015.09.08-00.01.33:321][152]LogFbx: SortedLinks :(62) ik_foot_l
-[2015.09.08-00.01.33:321][152]LogFbx: SortedLinks :(63) ik_foot_r
-[2015.09.08-00.01.33:321][152]LogFbx: SortedLinks :(64) ik_hand_root
-[2015.09.08-00.01.33:321][152]LogFbx: SortedLinks :(65) ik_hand_gun
-[2015.09.08-00.01.33:321][152]LogFbx: SortedLinks :(66) ik_hand_l
-[2015.09.08-00.01.33:321][152]LogFbx: SortedLinks :(67) ik_hand_r
-[2015.09.08-00.01.33:321][152]LogFbx: Parsing AnimStack mixamo.com
-[2015.09.08-00.01.33:325][152]LogLinker:Warning: Can't find file '/Game/Key/Skeleton/NewModel/Anim/sword_and_shield_attack'
-[2015.09.08-00.01.33:325][152]LogLinker:Warning: Can't find file '/Game/Key/Skeleton/NewModel/Anim/sword_and_shield_attack'
-[2015.09.08-00.01.33:325][152]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Key/Skeleton/NewModel/Anim/sword_and_shield_attack.sword_and_shield_attack'
-[2015.09.08-00.01.35:633][163]LogD3D11RHI: InitD3DDevice
-[2015.09.08-00.01.37:283][163]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_26) - call TermArticulated first.
-[2015.09.08-00.01.37:615][163]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
-[2015.09.08-00.02.28:341][462]LogD3D11RHI: InitD3DDevice
-[2015.09.08-00.02.28:364][462]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/jessy/Desktop/vampireUE4/Kobold/stable_sword_outward_slash.fbx)
-[2015.09.08-00.02.28:531][462]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2015.09.08-00.02.28:531][462]LogFbx: ItemName: Model, ItemCount : 65
-[2015.09.08-00.02.28:531][462]LogFbx: ItemName: NodeAttribute, ItemCount : 65
-[2015.09.08-00.02.28:531][462]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2015.09.08-00.02.28:531][462]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2015.09.08-00.02.28:531][462]LogFbx: ItemName: AnimationCurveNode, ItemCount : 54
-[2015.09.08-00.02.28:531][462]LogFbx: ItemName: AnimationCurve, ItemCount : 315
-[2015.09.08-00.02.28:577][462]LogD3D11RHI: InitD3DDevice
-[2015.09.08-00.02.30:240][462]LogD3D11RHI: InitD3DDevice
-[2015.09.08-00.02.41:608][462]LogFbx: Loading FBX Scene from ../../../../../../Users/jessy/Desktop/vampireUE4/Kobold/stable_sword_outward_slash.fbx
-[2015.09.08-00.02.42:333][462]LogFbx: FBX Scene Loaded Succesfully
-[2015.09.08-00.02.42:347][462]LogFbx: SortedLinks :(0) Hips
-[2015.09.08-00.02.42:347][462]LogFbx: SortedLinks :(1) Spine
-[2015.09.08-00.02.42:347][462]LogFbx: SortedLinks :(2) Spine1
-[2015.09.08-00.02.42:347][462]LogFbx: SortedLinks :(3) Spine2
-[2015.09.08-00.02.42:347][462]LogFbx: SortedLinks :(4) Neck
-[2015.09.08-00.02.42:347][462]LogFbx: SortedLinks :(5) Head
-[2015.09.08-00.02.42:347][462]LogFbx: SortedLinks :(6) HeadTop_End
-[2015.09.08-00.02.42:347][462]LogFbx: SortedLinks :(7) LeftShoulder
-[2015.09.08-00.02.42:347][462]LogFbx: SortedLinks :(8) LeftArm
-[2015.09.08-00.02.42:347][462]LogFbx: SortedLinks :(9) LeftForeArm
-[2015.09.08-00.02.42:347][462]LogFbx: SortedLinks :(10) LeftHand
-[2015.09.08-00.02.42:347][462]LogFbx: SortedLinks :(11) LeftHandThumb1
-[2015.09.08-00.02.42:347][462]LogFbx: SortedLinks :(12) LeftHandThumb2
-[2015.09.08-00.02.42:347][462]LogFbx: SortedLinks :(13) LeftHandThumb3
-[2015.09.08-00.02.42:347][462]LogFbx: SortedLinks :(14) LeftHandThumb4
-[2015.09.08-00.02.42:347][462]LogFbx: SortedLinks :(15) LeftHandIndex1
-[2015.09.08-00.02.42:347][462]LogFbx: SortedLinks :(16) LeftHandIndex2
-[2015.09.08-00.02.42:347][462]LogFbx: SortedLinks :(17) LeftHandIndex3
-[2015.09.08-00.02.42:347][462]LogFbx: SortedLinks :(18) LeftHandIndex4
-[2015.09.08-00.02.42:347][462]LogFbx: SortedLinks :(19) LeftHandMiddle1
-[2015.09.08-00.02.42:347][462]LogFbx: SortedLinks :(20) LeftHandMiddle2
-[2015.09.08-00.02.42:347][462]LogFbx: SortedLinks :(21) LeftHandMiddle3
-[2015.09.08-00.02.42:347][462]LogFbx: SortedLinks :(22) LeftHandMiddle4
-[2015.09.08-00.02.42:347][462]LogFbx: SortedLinks :(23) LeftHandRing1
-[2015.09.08-00.02.42:347][462]LogFbx: SortedLinks :(24) LeftHandRing2
-[2015.09.08-00.02.42:347][462]LogFbx: SortedLinks :(25) LeftHandRing3
-[2015.09.08-00.02.42:347][462]LogFbx: SortedLinks :(26) LeftHandRing4
-[2015.09.08-00.02.42:347][462]LogFbx: SortedLinks :(27) LeftHandPinky1
-[2015.09.08-00.02.42:347][462]LogFbx: SortedLinks :(28) LeftHandPinky2
-[2015.09.08-00.02.42:347][462]LogFbx: SortedLinks :(29) LeftHandPinky3
-[2015.09.08-00.02.42:347][462]LogFbx: SortedLinks :(30) LeftHandPinky4
-[2015.09.08-00.02.42:347][462]LogFbx: SortedLinks :(31) RightShoulder
-[2015.09.08-00.02.42:347][462]LogFbx: SortedLinks :(32) RightArm
-[2015.09.08-00.02.42:347][462]LogFbx: SortedLinks :(33) RightForeArm
-[2015.09.08-00.02.42:347][462]LogFbx: SortedLinks :(34) RightHand
-[2015.09.08-00.02.42:347][462]LogFbx: SortedLinks :(35) RightHandThumb1
-[2015.09.08-00.02.42:347][462]LogFbx: SortedLinks :(36) RightHandThumb2
-[2015.09.08-00.02.42:347][462]LogFbx: SortedLinks :(37) RightHandThumb3
-[2015.09.08-00.02.42:347][462]LogFbx: SortedLinks :(38) RightHandThumb4
-[2015.09.08-00.02.42:347][462]LogFbx: SortedLinks :(39) RightHandIndex1
-[2015.09.08-00.02.42:347][462]LogFbx: SortedLinks :(40) RightHandIndex2
-[2015.09.08-00.02.42:348][462]LogFbx: SortedLinks :(41) RightHandIndex3
-[2015.09.08-00.02.42:348][462]LogFbx: SortedLinks :(42) RightHandIndex4
-[2015.09.08-00.02.42:348][462]LogFbx: SortedLinks :(43) RightHandMiddle1
-[2015.09.08-00.02.42:348][462]LogFbx: SortedLinks :(44) RightHandMiddle2
-[2015.09.08-00.02.42:348][462]LogFbx: SortedLinks :(45) RightHandMiddle3
-[2015.09.08-00.02.42:348][462]LogFbx: SortedLinks :(46) RightHandMiddle4
-[2015.09.08-00.02.42:348][462]LogFbx: SortedLinks :(47) RightHandRing1
-[2015.09.08-00.02.42:348][462]LogFbx: SortedLinks :(48) RightHandRing2
-[2015.09.08-00.02.42:348][462]LogFbx: SortedLinks :(49) RightHandRing3
-[2015.09.08-00.02.42:348][462]LogFbx: SortedLinks :(50) RightHandRing4
-[2015.09.08-00.02.42:348][462]LogFbx: SortedLinks :(51) RightHandPinky1
-[2015.09.08-00.02.42:348][462]LogFbx: SortedLinks :(52) RightHandPinky2
-[2015.09.08-00.02.42:348][462]LogFbx: SortedLinks :(53) RightHandPinky3
-[2015.09.08-00.02.42:348][462]LogFbx: SortedLinks :(54) RightHandPinky4
-[2015.09.08-00.02.42:348][462]LogFbx: SortedLinks :(55) LeftUpLeg
-[2015.09.08-00.02.42:348][462]LogFbx: SortedLinks :(56) LeftLeg
-[2015.09.08-00.02.42:348][462]LogFbx: SortedLinks :(57) LeftFoot
-[2015.09.08-00.02.42:348][462]LogFbx: SortedLinks :(58) LeftToeBase
-[2015.09.08-00.02.42:348][462]LogFbx: SortedLinks :(59) LeftToe_End
-[2015.09.08-00.02.42:348][462]LogFbx: SortedLinks :(60) RightUpLeg
-[2015.09.08-00.02.42:348][462]LogFbx: SortedLinks :(61) RightLeg
-[2015.09.08-00.02.42:348][462]LogFbx: SortedLinks :(62) RightFoot
-[2015.09.08-00.02.42:348][462]LogFbx: SortedLinks :(63) RightToeBase
-[2015.09.08-00.02.42:348][462]LogFbx: SortedLinks :(64) RightToe_End
-[2015.09.08-00.02.42:349][462]LogFbx: Parsing AnimStack mixamo.com
-[2015.09.08-00.02.42:355][462]LogLinker:Warning: Can't find file '/Game/Kobold/Animations/stable_sword_outward_slash'
-[2015.09.08-00.02.42:355][462]LogLinker:Warning: Can't find file '/Game/Kobold/Animations/stable_sword_outward_slash'
-[2015.09.08-00.02.42:356][462]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Kobold/Animations/stable_sword_outward_slash.stable_sword_outward_slash'
-[2015.09.08-00.02.45:820][475]LogD3D11RHI: InitD3DDevice
-[2015.09.08-00.02.49:095][475]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_31) - call TermArticulated first.
-[2015.09.08-00.02.53:924][475]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
-[2015.09.08-00.03.36:382][639]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2015.09.08-00.03.36:880][639]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2015.09.08-00.03.37:394][639]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2015.09.08-00.03.42:932][662]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2015.09.08-00.03.43:434][663]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2015.09.08-00.05.47:727][772]LogD3D11RHI: InitD3DDevice
-[2015.09.08-00.06.02:151][772]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066DC9DDA80
-[2015.09.08-00.06.02:350][772]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066DEBEE5C0
-[2015.09.08-00.06.02:350][772]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066DE83FCE0
-[2015.09.08-00.06.04:575][772]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066E5EFCB80
-[2015.09.08-00.06.04:575][772]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066E5EFE660
-[2015.09.08-00.06.04:575][772]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066E34C9120
-[2015.09.08-00.06.04:575][772]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066E5EFEB60
-[2015.09.08-00.06.04:575][772]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066DEE5BE20
-[2015.09.08-00.06.04:575][772]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066DF00E160
-[2015.09.08-00.06.04:575][772]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066F276D300
-[2015.09.08-00.06.04:575][772]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066F7D719E0
-[2015.09.08-00.06.04:576][772]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066DED7CB80
-[2015.09.08-00.06.04:576][772]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066E5EFE5C0
-[2015.09.08-00.06.04:576][772]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066DED7FE20
-[2015.09.08-00.06.04:576][772]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066DEE58AE0
-[2015.09.08-00.06.04:576][772]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066E593C5E0
-[2015.09.08-00.06.04:576][772]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066E593F4C0
-[2015.09.08-00.06.04:576][772]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066DEF128E0
-[2015.09.08-00.06.04:576][772]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066DEB91120
-[2015.09.08-00.06.04:576][772]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066DF1CD580
-[2015.09.08-00.06.04:576][772]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066DEB92200
-[2015.09.08-00.06.04:576][772]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066DF333C40
-[2015.09.08-00.06.04:576][772]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066DF433C40
-[2015.09.08-00.06.04:576][772]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066DF4327A0
-[2015.09.08-00.06.35:461][772]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2015.09.08-00.06.53:562][772]LogSavePackage: Save=45008.824219ms
-[2015.09.08-00.06.53:563][772]LogSavePackage: Moving '../../../../../../Users/jessy/Desktop/GodKiller_SourceTree/Saved/NewCave_Auto1556801134BE9E4C1B76EF1B9BD0F804D.tmp' to '../../../../../../Users/jessy/Desktop/GodKiller_SourceTree/Saved/Autosaves/Game/Scene/NewCave_Auto1.umap'
-[2015.09.08-00.06.54:496][772]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Scene/NewCave' took 56.088
-[2015.09.08-00.06.54:496][772]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 56.088
-[2015.09.08-00.06.54:554][772]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Key/Skeleton/NewModel/Anim/sword_and_shield_slash] ([1] browsable assets)...
-[2015.09.08-00.06.55:230][772]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Key/Skeleton/NewModel/Anim/sword_and_shield_slash.sword_and_shield_slash]
-[2015.09.08-00.06.55:230][772]OBJ SavePackage: Finished generating thumbnails for package [/Game/Key/Skeleton/NewModel/Anim/sword_and_shield_slash]
-[2015.09.08-00.06.55:907][772]LogSavePackage: Save=484.168884ms
-[2015.09.08-00.06.55:907][772]LogSavePackage: Moving '../../../../../../Users/jessy/Desktop/GodKiller_SourceTree/Saved/sword_and_shield_slash_Auto11CA19A8A47E5704B1C0A7189563FF660.tmp' to '../../../../../../Users/jessy/Desktop/GodKiller_SourceTree/Saved/Autosaves/Game/Key/Skeleton/NewModel/Anim/sword_and_shield_slash_Auto1.uasset'
-[2015.09.08-00.06.55:936][772]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Key/Skeleton/NewModel/Anim/sword_and_shield_slash2] ([1] browsable assets)...
-[2015.09.08-00.06.55:980][772]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Key/Skeleton/NewModel/Anim/sword_and_shield_slash2.sword_and_shield_slash2]
-[2015.09.08-00.06.55:980][772]OBJ SavePackage: Finished generating thumbnails for package [/Game/Key/Skeleton/NewModel/Anim/sword_and_shield_slash2]
-[2015.09.08-00.06.56:007][772]LogSavePackage: Save=22.745836ms
-[2015.09.08-00.06.56:007][772]LogSavePackage: Moving '../../../../../../Users/jessy/Desktop/GodKiller_SourceTree/Saved/sword_and_shield_slash2_Auto12F50145149A2305F76EC559EE09B6024.tmp' to '../../../../../../Users/jessy/Desktop/GodKiller_SourceTree/Saved/Autosaves/Game/Key/Skeleton/NewModel/Anim/sword_and_shield_slash2_Auto1.uasset'
-[2015.09.08-00.06.56:016][772]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Key/Skeleton/NewModel/Anim/sword_and_shield_attack] ([1] browsable assets)...
-[2015.09.08-00.06.56:081][772]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Key/Skeleton/NewModel/Anim/sword_and_shield_attack.sword_and_shield_attack]
-[2015.09.08-00.06.56:081][772]OBJ SavePackage: Finished generating thumbnails for package [/Game/Key/Skeleton/NewModel/Anim/sword_and_shield_attack]
-[2015.09.08-00.06.56:121][772]LogSavePackage: Save=37.913754ms
-[2015.09.08-00.06.56:121][772]LogSavePackage: Moving '../../../../../../Users/jessy/Desktop/GodKiller_SourceTree/Saved/sword_and_shield_attack_Auto11985DA7E4FD8FD3C786BB8A07E6203BF.tmp' to '../../../../../../Users/jessy/Desktop/GodKiller_SourceTree/Saved/Autosaves/Game/Key/Skeleton/NewModel/Anim/sword_and_shield_attack_Auto1.uasset'
-[2015.09.08-00.06.56:131][772]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Kobold/Animations/stable_sword_outward_slash] ([1] browsable assets)...
-[2015.09.08-00.06.56:927][772]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Kobold/Animations/stable_sword_outward_slash.stable_sword_outward_slash]
-[2015.09.08-00.06.56:927][772]OBJ SavePackage: Finished generating thumbnails for package [/Game/Kobold/Animations/stable_sword_outward_slash]
-[2015.09.08-00.06.56:988][772]LogSavePackage: Save=23.319977ms
-[2015.09.08-00.06.56:988][772]LogSavePackage: Moving '../../../../../../Users/jessy/Desktop/GodKiller_SourceTree/Saved/stable_sword_outward_slash_Auto180784E134AD09505B182C2B04CBDADDA.tmp' to '../../../../../../Users/jessy/Desktop/GodKiller_SourceTree/Saved/Autosaves/Game/Kobold/Animations/stable_sword_outward_slash_Auto1.uasset'
-[2015.09.08-00.06.57:058][772]LogFileHelpers: Auto-saving content packages took 2.559
-[2015.09.08-00.07.16:756][867]LogD3D11RHI: InitD3DDevice
-[2015.09.08-00.07.19:434][867]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_35) - call TermArticulated first.
-[2015.09.08-00.07.20:805][867]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
-[2015.09.08-00.07.51:475][117]LogD3D11RHI: InitD3DDevice
-[2015.09.08-00.07.51:499][117]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/jessy/Desktop/vampireUE4/Kobold/sword_and_shield_slash.fbx)
-[2015.09.08-00.07.51:647][117]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2015.09.08-00.07.51:647][117]LogFbx: ItemName: Model, ItemCount : 65
-[2015.09.08-00.07.51:647][117]LogFbx: ItemName: NodeAttribute, ItemCount : 65
-[2015.09.08-00.07.51:648][117]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2015.09.08-00.07.51:648][117]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2015.09.08-00.07.51:648][117]LogFbx: ItemName: AnimationCurveNode, ItemCount : 54
-[2015.09.08-00.07.51:648][117]LogFbx: ItemName: AnimationCurve, ItemCount : 315
-[2015.09.08-00.07.51:709][117]LogD3D11RHI: InitD3DDevice
-[2015.09.08-00.07.56:612][117]LogD3D11RHI: InitD3DDevice
-[2015.09.08-00.08.04:851][117]LogFbx: Loading FBX Scene from ../../../../../../Users/jessy/Desktop/vampireUE4/Kobold/sword_and_shield_slash.fbx
-[2015.09.08-00.08.04:903][117]LogFbx: FBX Scene Loaded Succesfully
-[2015.09.08-00.08.04:912][117]LogFbx: SortedLinks :(0) Hips
-[2015.09.08-00.08.04:912][117]LogFbx: SortedLinks :(1) Spine
-[2015.09.08-00.08.04:912][117]LogFbx: SortedLinks :(2) Spine1
-[2015.09.08-00.08.04:912][117]LogFbx: SortedLinks :(3) Spine2
-[2015.09.08-00.08.04:912][117]LogFbx: SortedLinks :(4) Neck
-[2015.09.08-00.08.04:912][117]LogFbx: SortedLinks :(5) Head
-[2015.09.08-00.08.04:912][117]LogFbx: SortedLinks :(6) HeadTop_End
-[2015.09.08-00.08.04:912][117]LogFbx: SortedLinks :(7) LeftShoulder
-[2015.09.08-00.08.04:912][117]LogFbx: SortedLinks :(8) LeftArm
-[2015.09.08-00.08.04:912][117]LogFbx: SortedLinks :(9) LeftForeArm
-[2015.09.08-00.08.04:912][117]LogFbx: SortedLinks :(10) LeftHand
-[2015.09.08-00.08.04:912][117]LogFbx: SortedLinks :(11) LeftHandThumb1
-[2015.09.08-00.08.04:912][117]LogFbx: SortedLinks :(12) LeftHandThumb2
-[2015.09.08-00.08.04:912][117]LogFbx: SortedLinks :(13) LeftHandThumb3
-[2015.09.08-00.08.04:912][117]LogFbx: SortedLinks :(14) LeftHandThumb4
-[2015.09.08-00.08.04:912][117]LogFbx: SortedLinks :(15) LeftHandIndex1
-[2015.09.08-00.08.04:912][117]LogFbx: SortedLinks :(16) LeftHandIndex2
-[2015.09.08-00.08.04:912][117]LogFbx: SortedLinks :(17) LeftHandIndex3
-[2015.09.08-00.08.04:912][117]LogFbx: SortedLinks :(18) LeftHandIndex4
-[2015.09.08-00.08.04:912][117]LogFbx: SortedLinks :(19) LeftHandMiddle1
-[2015.09.08-00.08.04:912][117]LogFbx: SortedLinks :(20) LeftHandMiddle2
-[2015.09.08-00.08.04:912][117]LogFbx: SortedLinks :(21) LeftHandMiddle3
-[2015.09.08-00.08.04:912][117]LogFbx: SortedLinks :(22) LeftHandMiddle4
-[2015.09.08-00.08.04:912][117]LogFbx: SortedLinks :(23) LeftHandRing1
-[2015.09.08-00.08.04:912][117]LogFbx: SortedLinks :(24) LeftHandRing2
-[2015.09.08-00.08.04:912][117]LogFbx: SortedLinks :(25) LeftHandRing3
-[2015.09.08-00.08.04:912][117]LogFbx: SortedLinks :(26) LeftHandRing4
-[2015.09.08-00.08.04:912][117]LogFbx: SortedLinks :(27) LeftHandPinky1
-[2015.09.08-00.08.04:912][117]LogFbx: SortedLinks :(28) LeftHandPinky2
-[2015.09.08-00.08.04:912][117]LogFbx: SortedLinks :(29) LeftHandPinky3
-[2015.09.08-00.08.04:912][117]LogFbx: SortedLinks :(30) LeftHandPinky4
-[2015.09.08-00.08.04:912][117]LogFbx: SortedLinks :(31) RightShoulder
-[2015.09.08-00.08.04:912][117]LogFbx: SortedLinks :(32) RightArm
-[2015.09.08-00.08.04:912][117]LogFbx: SortedLinks :(33) RightForeArm
-[2015.09.08-00.08.04:912][117]LogFbx: SortedLinks :(34) RightHand
-[2015.09.08-00.08.04:912][117]LogFbx: SortedLinks :(35) RightHandThumb1
-[2015.09.08-00.08.04:912][117]LogFbx: SortedLinks :(36) RightHandThumb2
-[2015.09.08-00.08.04:912][117]LogFbx: SortedLinks :(37) RightHandThumb3
-[2015.09.08-00.08.04:913][117]LogFbx: SortedLinks :(38) RightHandThumb4
-[2015.09.08-00.08.04:913][117]LogFbx: SortedLinks :(39) RightHandIndex1
-[2015.09.08-00.08.04:913][117]LogFbx: SortedLinks :(40) RightHandIndex2
-[2015.09.08-00.08.04:913][117]LogFbx: SortedLinks :(41) RightHandIndex3
-[2015.09.08-00.08.04:913][117]LogFbx: SortedLinks :(42) RightHandIndex4
-[2015.09.08-00.08.04:913][117]LogFbx: SortedLinks :(43) RightHandMiddle1
-[2015.09.08-00.08.04:913][117]LogFbx: SortedLinks :(44) RightHandMiddle2
-[2015.09.08-00.08.04:913][117]LogFbx: SortedLinks :(45) RightHandMiddle3
-[2015.09.08-00.08.04:913][117]LogFbx: SortedLinks :(46) RightHandMiddle4
-[2015.09.08-00.08.04:913][117]LogFbx: SortedLinks :(47) RightHandRing1
-[2015.09.08-00.08.04:913][117]LogFbx: SortedLinks :(48) RightHandRing2
-[2015.09.08-00.08.04:913][117]LogFbx: SortedLinks :(49) RightHandRing3
-[2015.09.08-00.08.04:913][117]LogFbx: SortedLinks :(50) RightHandRing4
-[2015.09.08-00.08.04:913][117]LogFbx: SortedLinks :(51) RightHandPinky1
-[2015.09.08-00.08.04:913][117]LogFbx: SortedLinks :(52) RightHandPinky2
-[2015.09.08-00.08.04:913][117]LogFbx: SortedLinks :(53) RightHandPinky3
-[2015.09.08-00.08.04:913][117]LogFbx: SortedLinks :(54) RightHandPinky4
-[2015.09.08-00.08.04:913][117]LogFbx: SortedLinks :(55) LeftUpLeg
-[2015.09.08-00.08.04:913][117]LogFbx: SortedLinks :(56) LeftLeg
-[2015.09.08-00.08.04:913][117]LogFbx: SortedLinks :(57) LeftFoot
-[2015.09.08-00.08.04:913][117]LogFbx: SortedLinks :(58) LeftToeBase
-[2015.09.08-00.08.04:913][117]LogFbx: SortedLinks :(59) LeftToe_End
-[2015.09.08-00.08.04:913][117]LogFbx: SortedLinks :(60) RightUpLeg
-[2015.09.08-00.08.04:913][117]LogFbx: SortedLinks :(61) RightLeg
-[2015.09.08-00.08.04:913][117]LogFbx: SortedLinks :(62) RightFoot
-[2015.09.08-00.08.04:913][117]LogFbx: SortedLinks :(63) RightToeBase
-[2015.09.08-00.08.04:913][117]LogFbx: SortedLinks :(64) RightToe_End
-[2015.09.08-00.08.04:914][117]LogFbx: Parsing AnimStack mixamo.com
-[2015.09.08-00.08.04:918][117]LogLinker:Warning: Can't find file '/Game/Kobold/Animations/sword_and_shield_slash'
-[2015.09.08-00.08.04:919][117]LogLinker:Warning: Can't find file '/Game/Kobold/Animations/sword_and_shield_slash'
-[2015.09.08-00.08.04:919][117]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Kobold/Animations/sword_and_shield_slash.sword_and_shield_slash'
-[2015.09.08-00.08.16:350][203]LogD3D11RHI: InitD3DDevice
-[2015.09.08-00.08.16:378][203]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/jessy/Desktop/vampireUE4/Kobold/one_hand_sword_combo.fbx)
-[2015.09.08-00.08.16:590][203]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2015.09.08-00.08.16:591][203]LogFbx: ItemName: Model, ItemCount : 65
-[2015.09.08-00.08.16:591][203]LogFbx: ItemName: NodeAttribute, ItemCount : 65
-[2015.09.08-00.08.16:591][203]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2015.09.08-00.08.16:591][203]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2015.09.08-00.08.16:591][203]LogFbx: ItemName: AnimationCurveNode, ItemCount : 54
-[2015.09.08-00.08.16:591][203]LogFbx: ItemName: AnimationCurve, ItemCount : 315
-[2015.09.08-00.08.16:614][203]LogD3D11RHI: InitD3DDevice
-[2015.09.08-00.08.17:635][203]LogD3D11RHI: InitD3DDevice
-[2015.09.08-00.08.31:909][203]LogD3D11RHI: InitD3DDevice
-[2015.09.08-00.10.04:847][203]LogFbx: Loading FBX Scene from ../../../../../../Users/jessy/Desktop/vampireUE4/Kobold/one_hand_sword_combo.fbx
-[2015.09.08-00.10.04:915][203]LogFbx: FBX Scene Loaded Succesfully
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(0) Hips
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(1) Spine
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(2) Spine1
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(3) Spine2
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(4) Neck
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(5) Head
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(6) HeadTop_End
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(7) LeftShoulder
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(8) LeftArm
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(9) LeftForeArm
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(10) LeftHand
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(11) LeftHandThumb1
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(12) LeftHandThumb2
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(13) LeftHandThumb3
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(14) LeftHandThumb4
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(15) LeftHandIndex1
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(16) LeftHandIndex2
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(17) LeftHandIndex3
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(18) LeftHandIndex4
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(19) LeftHandMiddle1
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(20) LeftHandMiddle2
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(21) LeftHandMiddle3
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(22) LeftHandMiddle4
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(23) LeftHandRing1
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(24) LeftHandRing2
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(25) LeftHandRing3
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(26) LeftHandRing4
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(27) LeftHandPinky1
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(28) LeftHandPinky2
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(29) LeftHandPinky3
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(30) LeftHandPinky4
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(31) RightShoulder
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(32) RightArm
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(33) RightForeArm
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(34) RightHand
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(35) RightHandThumb1
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(36) RightHandThumb2
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(37) RightHandThumb3
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(38) RightHandThumb4
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(39) RightHandIndex1
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(40) RightHandIndex2
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(41) RightHandIndex3
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(42) RightHandIndex4
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(43) RightHandMiddle1
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(44) RightHandMiddle2
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(45) RightHandMiddle3
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(46) RightHandMiddle4
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(47) RightHandRing1
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(48) RightHandRing2
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(49) RightHandRing3
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(50) RightHandRing4
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(51) RightHandPinky1
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(52) RightHandPinky2
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(53) RightHandPinky3
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(54) RightHandPinky4
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(55) LeftUpLeg
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(56) LeftLeg
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(57) LeftFoot
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(58) LeftToeBase
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(59) LeftToe_End
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(60) RightUpLeg
-[2015.09.08-00.10.04:924][203]LogFbx: SortedLinks :(61) RightLeg
-[2015.09.08-00.10.04:925][203]LogFbx: SortedLinks :(62) RightFoot
-[2015.09.08-00.10.04:925][203]LogFbx: SortedLinks :(63) RightToeBase
-[2015.09.08-00.10.04:925][203]LogFbx: SortedLinks :(64) RightToe_End
-[2015.09.08-00.10.04:931][203]LogFbx: Parsing AnimStack mixamo.com
-[2015.09.08-00.10.04:941][203]LogLinker:Warning: Can't find file '/Game/Kobold/Animations/one_hand_sword_combo'
-[2015.09.08-00.10.04:941][203]LogLinker:Warning: Can't find file '/Game/Kobold/Animations/one_hand_sword_combo'
-[2015.09.08-00.10.04:941][203]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Kobold/Animations/one_hand_sword_combo.one_hand_sword_combo'
-[2015.09.08-00.10.32:456][380]LogD3D11RHI: InitD3DDevice
-[2015.09.08-00.10.34:310][425]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066F256C180
-[2015.09.08-00.10.34:310][425]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066E18B34C0
-[2015.09.08-00.10.34:311][425]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066F3036340
-[2015.09.08-00.10.34:312][425]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066DCD18FE0
-[2015.09.08-00.10.34:313][425]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066F30FB420
-[2015.09.08-00.10.34:741][425]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066F30FAE80
-[2015.09.08-00.10.34:742][425]LogD3D11RHI: InitD3DDevice
-[2015.09.08-00.11.37:175][425]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene/NewCave" FILE="../../../../../../Users/jessy/Desktop/GodKiller_SourceTree/Content/Scene/NewCave.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2015.09.08-00.11.46:660][425]LogSavePackage: Save=7784.557617ms
-[2015.09.08-00.11.46:660][425]LogSavePackage: Moving '../../../../../../Users/jessy/Desktop/GodKiller_SourceTree/Saved/NewCaveD3055DE5449934A0CEFFACB2A046D4C6.tmp' to '../../../../../../Users/jessy/Desktop/GodKiller_SourceTree/Content/Scene/NewCave.umap'
-[2015.09.08-00.11.46:917][425]LogFileHelpers: Saving map 'NewCave' took 72.134
-[2015.09.08-00.11.47:010][425]LogSavePackage: Save=22.384207ms
-[2015.09.08-00.11.47:010][425]LogSavePackage: Moving '../../../../../../Users/jessy/Desktop/GodKiller_SourceTree/Saved/sword_and_shield_slash5C436EF54CA6BDE96B5CC9A2CA158EF0.tmp' to '../../../../../../Users/jessy/Desktop/GodKiller_SourceTree/Content/Key/Skeleton/NewModel/Anim/sword_and_shield_slash.uasset'
-[2015.09.08-00.11.47:095][425]LogSavePackage: Save=21.398329ms
-[2015.09.08-00.11.47:095][425]LogSavePackage: Moving '../../../../../../Users/jessy/Desktop/GodKiller_SourceTree/Saved/sword_and_shield_slash2AC7593BA4D7BB7693341C48C3BF70BE5.tmp' to '../../../../../../Users/jessy/Desktop/GodKiller_SourceTree/Content/Key/Skeleton/NewModel/Anim/sword_and_shield_slash2.uasset'
-[2015.09.08-00.11.47:179][425]LogSavePackage: Save=21.741243ms
-[2015.09.08-00.11.47:179][425]LogSavePackage: Moving '../../../../../../Users/jessy/Desktop/GodKiller_SourceTree/Saved/sword_and_shield_attack2012392143C191C7469FCB976C6F8933.tmp' to '../../../../../../Users/jessy/Desktop/GodKiller_SourceTree/Content/Key/Skeleton/NewModel/Anim/sword_and_shield_attack.uasset'
-[2015.09.08-00.11.47:264][425]LogSavePackage: Save=23.304279ms
-[2015.09.08-00.11.47:264][425]LogSavePackage: Moving '../../../../../../Users/jessy/Desktop/GodKiller_SourceTree/Saved/stable_sword_outward_slash070A71BA483002562E83D8AC0A3739BC.tmp' to '../../../../../../Users/jessy/Desktop/GodKiller_SourceTree/Content/Kobold/Animations/stable_sword_outward_slash.uasset'
-[2015.09.08-00.11.47:345][425]LogSavePackage: Save=22.298479ms
-[2015.09.08-00.11.47:345][425]LogSavePackage: Moving '../../../../../../Users/jessy/Desktop/GodKiller_SourceTree/Saved/sword_and_shield_slash0B4F253C4FBB8177D51195AFBBBB4656.tmp' to '../../../../../../Users/jessy/Desktop/GodKiller_SourceTree/Content/Kobold/Animations/sword_and_shield_slash.uasset'
-[2015.09.08-00.11.47:462][425]LogSavePackage: Save=58.449966ms
-[2015.09.08-00.11.47:462][425]LogSavePackage: Moving '../../../../../../Users/jessy/Desktop/GodKiller_SourceTree/Saved/one_hand_sword_combo91D55F2A47DA2823A5DD569362323C95.tmp' to '../../../../../../Users/jessy/Desktop/GodKiller_SourceTree/Content/Kobold/Animations/one_hand_sword_combo.uasset'
-[2015.09.08-00.12.03:044][511]LogD3D11RHI: InitD3DDevice
-[2015.09.08-00.12.07:422][511]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_40) - call TermArticulated first.
-[2015.09.08-00.12.09:494][511]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
-[2015.09.08-00.20.23:525][396]LogEditorViewport: Clicking on Actor (LMB): Skeleton_EnemyBP_C (Skeleton_EnemyBP6)
-[2015.09.08-00.20.34:584][397]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2015.09.08-00.20.38:302][411]LogEditorViewport: Clicking on Actor (LMB): Skeleton_EnemyBP_C (Skeleton_EnemyBP6)
-[2015.09.08-00.20.45:161][437]LogD3D11RHI: InitD3DDevice
-[2015.09.08-00.20.58:183][437]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_43) - call TermArticulated first.
-[2015.09.08-00.21.45:988][ 58]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
-[2015.09.08-00.23.37:471][196]LogD3D11RHI: InitD3DDevice
-[2015.09.08-00.23.39:858][196]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_46) - call TermArticulated first.
-[2015.09.08-00.23.54:244][219]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
-[2015.09.08-00.25.09:026][695]LogEditorViewport: Clicking on Actor (LMB): GoblinBp_C (GoblinBp2)
-[2015.09.08-00.26.42:542][376]LogD3D11RHI: InitD3DDevice
-[2015.09.08-00.26.44:106][406]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.09.08-00.26.47:210][406]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066DE83D4E0
-[2015.09.08-00.26.48:336][407]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066E13DDA80
-[2015.09.08-00.26.48:336][407]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066DCD1BCE0
-[2015.09.08-00.26.48:336][407]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066E18AB060
-[2015.09.08-00.26.48:336][407]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000668574B380
-[2015.09.08-00.26.48:355][407]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066F30368E0
-[2015.09.08-00.26.48:355][407]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066F3035A80
-[2015.09.08-00.26.48:355][407]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066F22A14E0
-[2015.09.08-00.26.48:355][407]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066DCD19620
-[2015.09.08-00.26.48:355][407]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066F3089E40
-[2015.09.08-00.26.48:355][407]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066F308A700
-[2015.09.08-00.26.49:641][430]LogD3D11RHI: InitD3DDevice
-[2015.09.08-00.27.02:517][490]Cmd: QUIT_EDITOR
-[2015.09.08-00.27.05:787][490]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2015.09.08-00.27.07:314][490]LogExit: Preparing to exit.
-[2015.09.08-00.27.23:188][490]LogExit: Editor shut down
-[2015.09.08-00.27.23:592][490]LogExit: Transaction tracking system shut down
-[2015.09.08-00.27.25:396][490]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000669E2BC680
-[2015.09.08-00.27.25:788][490]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066DCD18A40
-[2015.09.08-00.27.25:789][490]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066E62862A0
-[2015.09.08-00.27.25:790][490]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066DEB0A700
-[2015.09.08-00.27.25:790][490]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066DEB0AE80
-[2015.09.08-00.27.26:610][490]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066BB0B0180
-[2015.09.08-00.28.05:685][490]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066BAEC1940
-[2015.09.08-00.28.05:685][490]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000669407AB60
-[2015.09.08-00.28.05:685][490]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066EF7453A0
-[2015.09.08-00.28.05:685][490]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066EF31C4A0
-[2015.09.08-00.28.05:685][490]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066EF31E5C0
-[2015.09.08-00.28.05:685][490]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066EF31EE80
-[2015.09.08-00.28.05:685][490]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000066EF31F1A0
-[2015.09.08-00.28.05:685][490]LogExit: Object subsystem successfully closed.
-[2015.09.08-00.28.26:364][490]LogD3D11RHI: Shutdown
-[2015.09.08-00.28.26:364][490]LogD3D11RHI: CleanupD3DDevice
-[2015.09.08-00.28.33:587][490]LogD3D11RHI: ~FD3D11DynamicRHI
-[2015.09.08-00.28.39:249][490]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
-[2015.09.08-00.28.39:298][490]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
-[2015.09.08-00.28.39:316][490]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
-[2015.09.08-00.28.39:316][490]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
-[2015.09.08-00.28.39:367][490]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
-[2015.09.08-00.28.40:352][490]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
-[2015.09.08-00.28.40:352][490]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
-[2015.09.08-00.28.40:438][490]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
-[2015.09.08-00.28.40:506][490]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
-[2015.09.08-00.28.40:524][490]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
-[2015.09.08-00.28.40:674][490]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
-[2015.09.08-00.28.40:674][490]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
-[2015.09.08-00.28.40:675][490]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
-[2015.09.08-00.28.40:675][490]LogModuleManager: Shutting down and abandoning module BspMode (175)
-[2015.09.08-00.28.40:675][490]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
-[2015.09.08-00.28.40:675][490]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
-[2015.09.08-00.28.40:699][490]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
-[2015.09.08-00.28.40:700][490]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
-[2015.09.08-00.28.40:700][490]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
-[2015.09.08-00.28.40:715][490]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
-[2015.09.08-00.28.40:907][490]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
-[2015.09.08-00.28.40:963][490]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
-[2015.09.08-00.28.41:060][490]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
-[2015.09.08-00.28.41:061][490]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
-[2015.09.08-00.28.41:076][490]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
-[2015.09.08-00.28.41:077][490]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
-[2015.09.08-00.28.41:250][490]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
-[2015.09.08-00.28.41:251][490]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
-[2015.09.08-00.28.41:251][490]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
-[2015.09.08-00.28.41:251][490]LogModuleManager: Shutting down and abandoning module MergeActors (159)
-[2015.09.08-00.28.41:289][490]LogModuleManager: Shutting down and abandoning module SizeMap (158)
-[2015.09.08-00.28.41:309][490]LogModuleManager: Shutting down and abandoning module TreeMap (157)
-[2015.09.08-00.28.41:342][490]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
-[2015.09.08-00.28.41:343][490]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
-[2015.09.08-00.28.41:392][490]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
-[2015.09.08-00.28.41:392][490]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
-[2015.09.08-00.28.41:410][490]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
-[2015.09.08-00.28.41:454][490]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
-[2015.09.08-00.28.41:489][490]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
-[2015.09.08-00.28.41:489][490]LogModuleManager: Shutting down and abandoning module XmlParser (149)
-[2015.09.08-00.28.41:503][490]LogModuleManager: Shutting down and abandoning module Blutility (148)
-[2015.09.08-00.28.41:503][490]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
-[2015.09.08-00.28.41:598][490]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
-[2015.09.08-00.28.41:599][490]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
-[2015.09.08-00.28.41:619][490]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
-[2015.09.08-00.28.41:655][490]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
-[2015.09.08-00.28.41:738][490]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
-[2015.09.08-00.28.41:836][490]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
-[2015.09.08-00.28.41:844][490]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
-[2015.09.08-00.28.41:873][490]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
-[2015.09.08-00.28.41:873][490]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
-[2015.09.08-00.28.41:950][490]LogModuleManager: Shutting down and abandoning module AutomationController (137)
-[2015.09.08-00.28.41:975][490]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
-[2015.09.08-00.28.41:988][490]LogModuleManager: Shutting down and abandoning module Layers (135)
-[2015.09.08-00.28.42:014][490]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
-[2015.09.08-00.28.42:014][490]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
-[2015.09.08-00.28.42:014][490]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
-[2015.09.08-00.28.42:041][490]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
-[2015.09.08-00.29.08:495][490]LogModuleManager: Shutting down and abandoning module Persona (130)
-[2015.09.08-00.29.08:529][490]LogModuleManager: Shutting down and abandoning module Kismet (129)
-[2015.09.08-00.29.08:565][490]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
-[2015.09.08-00.29.08:737][490]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
-[2015.09.08-00.29.08:755][490]LogModuleManager: Shutting down and abandoning module Toolbox (126)
-[2015.09.08-00.29.08:755][490]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
-[2015.09.08-00.29.08:775][490]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
-[2015.09.08-00.29.08:822][490]LogModuleManager: Shutting down and abandoning module OutputLog (123)
-[2015.09.08-00.29.08:836][490]LogModuleManager: Shutting down and abandoning module GammaUI (122)
-[2015.09.08-00.29.08:877][490]LogModuleManager: Shutting down and abandoning module Documentation (121)
-[2015.09.08-00.29.08:878][490]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
-[2015.09.08-00.29.08:905][490]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
-[2015.09.08-00.29.08:924][490]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
-[2015.09.08-00.29.08:924][490]LogModuleManager: Shutting down and abandoning module Analytics (117)
-[2015.09.08-00.29.08:927][490]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
-[2015.09.08-00.29.08:946][490]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
-[2015.09.08-00.29.08:946][490]LogModuleManager: Shutting down and abandoning module AIModule (114)
-[2015.09.08-00.29.08:961][490]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
-[2015.09.08-00.29.09:395][490]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
-[2015.09.08-00.29.09:415][490]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
-[2015.09.08-00.29.09:424][490]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
-[2015.09.08-00.29.09:424][490]LogModuleManager: Shutting down and abandoning module SteamVR (109)
-[2015.09.08-00.29.09:424][490]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
-[2015.09.08-00.29.09:424][490]LogModuleManager: Shutting down and abandoning module OculusRift (107)
-[2015.09.08-00.29.09:425][490]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
-[2015.09.08-00.29.09:728][490]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
-[2015.09.08-00.29.09:728][490]LogModuleManager: Shutting down and abandoning module CableComponent (104)
-[2015.09.08-00.29.09:728][490]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
-[2015.09.08-00.29.09:798][490]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
-[2015.09.08-00.29.09:882][490]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
-[2015.09.08-00.29.09:882][490]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
-[2015.09.08-00.29.09:910][490]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
-[2015.09.08-00.29.09:967][490]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
-[2015.09.08-00.29.10:024][490]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
-[2015.09.08-00.29.10:042][490]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
-[2015.09.08-00.29.10:042][490]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
-[2015.09.08-00.29.10:184][490]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
-[2015.09.08-00.29.10:231][490]LogModuleManager: Shutting down and abandoning module SourceControl (93)
-[2015.09.08-00.29.10:249][490]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
-[2015.09.08-00.29.10:277][490]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
-[2015.09.08-00.29.10:277][490]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
-[2015.09.08-00.29.10:277][490]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
-[2015.09.08-00.29.10:288][490]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
-[2015.09.08-00.29.10:318][490]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
-[2015.09.08-00.29.10:357][490]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
-[2015.09.08-00.29.10:557][490]LogModuleManager: Shutting down and abandoning module HotReload (85)
-[2015.09.08-00.29.10:557][490]LogModuleManager: Shutting down and abandoning module MainFrame (84)
-[2015.09.08-00.29.10:680][490]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
-[2015.09.08-00.29.11:309][490]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
-[2015.09.08-00.29.11:568][490]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
-[2015.09.08-00.29.11:650][490]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
-[2015.09.08-00.29.11:767][490]LogModuleManager: Shutting down and abandoning module Paper2D (79)
-[2015.09.08-00.29.11:817][490]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
-[2015.09.08-00.29.12:733][490]LogModuleManager: Shutting down and abandoning module Media (77)
-[2015.09.08-00.29.12:734][490]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
-[2015.09.08-00.29.12:945][490]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
-[2015.09.08-00.29.12:945][490]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
-[2015.09.08-00.29.13:044][490]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
-[2015.09.08-00.29.13:065][490]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
-[2015.09.08-00.29.13:087][490]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
-[2015.09.08-00.29.13:112][490]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
-[2015.09.08-00.29.13:164][490]LogModuleManager: Shutting down and abandoning module MessageLog (69)
-[2015.09.08-00.29.13:164][490]LogModuleManager: Shutting down and abandoning module Sequencer (68)
-[2015.09.08-00.29.13:218][490]LogModuleManager: Shutting down and abandoning module AssetTools (67)
-[2015.09.08-00.29.13:262][490]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
-[2015.09.08-00.29.13:314][490]LogModuleManager: Shutting down and abandoning module UMG (65)
-[2015.09.08-00.29.13:453][490]LogModuleManager: Shutting down and abandoning module Slate (64)
-[2015.09.08-00.29.13:453][490]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
-[2015.09.08-00.29.14:148][490]LogModuleManager: Shutting down and abandoning module SessionServices (62)
-[2015.09.08-00.29.14:148][490]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
-[2015.09.08-00.29.14:166][490]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
-[2015.09.08-00.29.14:167][490]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
-[2015.09.08-00.29.14:167][490]LogModuleManager: Shutting down and abandoning module Networking (57)
-[2015.09.08-00.29.14:167][490]LogModuleManager: Shutting down and abandoning module Core (56)
-[2015.09.08-00.29.14:167][490]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
-[2015.09.08-00.29.14:180][490]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
-[2015.09.08-00.29.14:195][490]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
-[2015.09.08-00.29.14:237][490]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
-[2015.09.08-00.29.14:373][490]LogDerivedDataCache: Shutdown
-[2015.09.08-00.29.14:373][490]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
-[2015.09.08-00.29.14:440][490]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
-[2015.09.08-00.29.14:471][490]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
-[2015.09.08-00.29.14:558][490]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
-[2015.09.08-00.29.14:683][490]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
-[2015.09.08-00.29.14:683][490]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
-[2015.09.08-00.29.14:684][490]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
-[2015.09.08-00.29.14:733][490]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
-[2015.09.08-00.29.14:733][490]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
-[2015.09.08-00.29.14:788][490]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
-[2015.09.08-00.29.14:865][490]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
-[2015.09.08-00.29.14:886][490]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
-[2015.09.08-00.29.14:917][490]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
-[2015.09.08-00.29.14:923][490]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
-[2015.09.08-00.29.15:182][490]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
-[2015.09.08-00.29.15:182][490]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
-[2015.09.08-00.29.15:228][490]LogModuleManager: Shutting down and abandoning module Messaging (35)
-[2015.09.08-00.29.15:228][490]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
-[2015.09.08-00.29.15:289][490]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
-[2015.09.08-00.29.15:353][490]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
-[2015.09.08-00.29.15:353][490]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
-[2015.09.08-00.29.15:353][490]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
-[2015.09.08-00.29.15:353][490]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
-[2015.09.08-00.29.15:353][490]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
-[2015.09.08-00.29.15:353][490]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
-[2015.09.08-00.29.15:353][490]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
-[2015.09.08-00.29.15:353][490]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
-[2015.09.08-00.29.15:389][490]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
-[2015.09.08-00.29.15:406][490]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
-[2015.09.08-00.29.15:419][490]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
-[2015.09.08-00.29.15:432][490]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
-[2015.09.08-00.29.15:433][490]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
-[2015.09.08-00.29.15:472][490]LogModuleManager: Shutting down and abandoning module InputCore (19)
-[2015.09.08-00.29.15:489][490]LogModuleManager: Shutting down and abandoning module Settings (18)
-[2015.09.08-00.29.15:489][490]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
-[2015.09.08-00.29.15:489][490]LogModuleManager: Shutting down and abandoning module HTTP (15)
-[2015.09.08-00.29.15:575][490]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
-[2015.09.08-00.29.15:602][490]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
-[2015.09.08-00.29.15:621][490]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
-[2015.09.08-00.29.15:640][490]LogModuleManager: Shutting down and abandoning module Landscape (11)
-[2015.09.08-00.29.15:641][490]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
-[2015.09.08-00.29.16:558][490]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
-[2015.09.08-00.29.16:617][490]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
-[2015.09.08-00.29.16:617][490]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2015.09.08-00.29.16:617][490]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2015.09.08-00.29.16:617][490]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2015.09.08-00.29.16:617][490]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2015.09.08-00.29.16:647][490]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2015.09.08-00.29.16:649][490]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2015.09.08-00.29.16:703][490]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2015.09.08-00.29.17:230][490]LogExit: Exiting.
-[2015.09.08-00.29.18:629][490]Log file closed, 09/07/15 17:29:18
+﻿[2015.09.08-05.45.37:551][  0]Log file open, 09/07/15 22:45:37
+[2015.09.08-05.45.37:551][  0]LogInit:Display: Running engine for game: GodKiller
+[2015.09.08-05.45.37:551][  0]LogInit:Display: RandInit(-951302044) SRandInit(-951302044).
+[2015.09.08-05.45.37:551][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.09.08-05.45.37:551][  0]LogStats: Stats thread started
+[2015.09.08-05.45.37:551][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.09.08-05.45.37:551][  0]LogInit: API Version: 2579680
+[2015.09.08-05.45.37:551][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.09.08-05.45.37:551][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.09.08-05.45.37:551][  0]LogInit: Build Configuration: Development
+[2015.09.08-05.45.37:551][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.09.08-05.45.37:551][  0]LogInit: Command line: 
+[2015.09.08-05.45.37:551][  0]LogInit: Base directory: E:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.09.08-05.45.37:551][  0]LogInit: Rocket: 1
+[2015.09.08-05.45.37:564][  0]LogInit: Using libcurl 7.41.0
+[2015.09.08-05.45.37:564][  0]LogInit:  - built for x86_64-pc-win32
+[2015.09.08-05.45.37:564][  0]LogInit:  - supports SSL with WinSSL
+[2015.09.08-05.45.37:564][  0]LogInit:  - other features:
+[2015.09.08-05.45.37:564][  0]LogInit:      CURL_VERSION_SSL
+[2015.09.08-05.45.37:564][  0]LogInit:      CURL_VERSION_IPV6
+[2015.09.08-05.45.37:564][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.09.08-05.45.37:564][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.09.08-05.45.37:564][  0]LogInit:      CURL_VERSION_IDN
+[2015.09.08-05.45.37:564][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.09.08-05.45.37:564][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.09.08-05.45.37:564][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.09.08-05.45.37:564][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.09.08-05.45.37:564][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.09.08-05.45.37:574][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.09.08-05.45.37:589][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.09.08-05.45.37:597][  0]LogInit: Object subsystem initialized
+[2015.09.08-05.45.37:598][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.09.08-05.45.37:598][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/Documents/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.09.08-05.45.37:598][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.09.08-05.45.37:598][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/Documents/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.09.08-05.45.37:598][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.09.08-05.45.37:598][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/Documents/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.09.08-05.45.37:599][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.08-05.45.37:599][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.09.08-05.45.37:606][  0]LogInit: Computer: LOLA-PC
+[2015.09.08-05.45.37:606][  0]LogInit: User: LOLA
+[2015.09.08-05.45.37:606][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.09.08-05.45.37:606][  0]LogInit: High frequency timer resolution =3.906396 MHz
+[2015.09.08-05.45.37:606][  0]LogMemory: Memory total: Physical=10.0GB (10GB approx)
+[2015.09.08-05.45.37:606][  0]LogMemory: Platform Memory Stats for Windows
+[2015.09.08-05.45.37:606][  0]LogMemory: Process Physical Memory: 50.98 MB used, 50.98 MB peak
+[2015.09.08-05.45.37:606][  0]LogMemory: Process Virtual Memory: 27.40 MB used, 27.40 MB peak
+[2015.09.08-05.45.37:606][  0]LogMemory: Physical Memory: 3396.88 MB used, 10189.50 MB total
+[2015.09.08-05.45.37:606][  0]LogMemory: Virtual Memory: 286.12 MB used, 8388608.00 MB total
+[2015.09.08-05.45.37:652][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.09.08-05.45.37:866][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (E:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (E:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.09.08-05.45.38:398][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon R9 200 Series (Feature Level 11_0)
+[2015.09.08-05.45.38:398][  0]LogD3D11RHI: Adapter has 4078MB of dedicated video memory, 0MB of dedicated system memory, and 3840MB of shared system memory, 1 output[s]
+[2015.09.08-05.45.38:398][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.09.08-05.45.38:404][  0]LogD3D11RHI: InitD3DDevice
+[2015.09.08-05.45.38:404][  0]LogD3D11RHI: !Direct3DDevice
+[2015.09.08-05.45.38:404][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.09.08-05.45.38:411][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.09.08-05.45.38:422][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.09.08-05.45.39:321][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.09.08-05.45.39:334][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.09.08-05.45.39:348][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.09.08-05.45.39:361][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.09.08-05.45.39:378][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.09.08-05.45.39:390][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.09.08-05.45.39:401][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.09.08-05.45.39:413][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.09.08-05.45.39:425][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.09.08-05.45.39:438][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.09.08-05.45.39:450][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.09.08-05.45.39:462][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.09.08-05.45.39:507][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.09.08-05.45.39:519][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.09.08-05.45.39:531][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.09.08-05.45.39:546][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.09.08-05.45.39:546][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.09.08-05.45.39:729][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.09.08-05.45.39:811][  0]LogDerivedDataCache: Loaded boot cache 0.08s 53MB C:/Users/LOLA/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.09.08-05.45.39:811][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/LOLA/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.09.08-05.45.39:811][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Documents/God-Killer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.09.08-05.45.39:811][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.09.08-05.45.39:811][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Documents/God-Killer/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.09.08-05.45.39:812][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.09.08-05.45.39:959][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.09.08-05.45.39:971][  0]LogDerivedDataCache: Using Local data cache path C:/Users/LOLA/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.09.08-05.45.40:254][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.08-05.45.40:261][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.09.08-05.45.40:262][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.09.08-05.45.40:286][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.09.08-05.45.40:286][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.09.08-05.45.40:731][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.09.08-05.45.41:847][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.09.08-05.45.42:251][  0]SourceControl: Info Source control is disabled
+[2015.09.08-05.45.42:261][  0]SourceControl: Info Source control is disabled
+[2015.09.08-05.45.42:270][  0]SourceControl: Info Source control is disabled
+[2015.09.08-05.45.42:278][  0]SourceControl: Info Source control is disabled
+[2015.09.08-05.45.42:530][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.09.08-05.45.42:531][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2015.09.08-05.45.42:603][  0]LogEngine: Initializing Engine...
+[2015.09.08-05.45.42:605][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.09.08-05.45.42:607][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.09.08-05.45.42:786][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.09.08-05.45.42:808][  0]LogInit: XAudio2 using 'Speakers (Turtle Beach PX22)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.09.08-05.45.42:818][  0]LogInit: FAudioDevice initialized.
+[2015.09.08-05.45.42:863][  0]LogDerivedDataCache: Saved boot cache 0.05s 53MB C:/Users/LOLA/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.09.08-05.45.42:874][  0]LogInit: Texture streaming: Disabled
+[2015.09.08-05.45.42:896][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.09.08-05.45.42:896][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.09.08-05.45.42:896][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 1da43f6f4895c41fbde5789a0a204a51|47bb43211b0345f7a0cdc7c208037263|20bc4384-2b6e-4ffe-b9d3-10d047484ab0
+[2015.09.08-05.45.42:896][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.09.08-05.45.42:930][  0]LogInit: Transaction tracking system initialized
+[2015.09.08-05.45.43:045][  0]BlueprintLog: New page: Editor Load
+[2015.09.08-05.45.43:076][  0]LogAssetRegistry: FAssetRegistry took 0.0103 seconds to start up
+[2015.09.08-05.45.43:077][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.09.08-05.45.43:908][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.09.08-05.45.43:908][  0]LogConsoleResponse:Display: 
+[2015.09.08-05.45.44:025][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.09.08-05.45.44:289][  0]SourceControl: Info Source control is disabled
+[2015.09.08-05.45.44:289][  0]Cmd: MAP LOAD FILE="../../../../../../Documents/God-Killer/Content/Scene/NewCave.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.09.08-05.45.44:290][  0]LightingResults: New page: Lighting Build
+[2015.09.08-05.45.44:305][  0]MapCheck: New page: Map Check
+[2015.09.08-05.45.44:305][  0]LightingResults: New page: Lighting Build
+[2015.09.08-05.45.44:320][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001AA0CF40
+[2015.09.08-05.45.47:089][  0]LogBlueprint:Warning: [compiler Gui] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
+[2015.09.08-05.45.47:100][  0]LogBlueprint:Warning: [compiler Gui] Warning [0012.11] Compile of Gui successful, but with 1 Warning(s) [in 53 ms]
+[2015.09.08-05.45.47:100][  0]LogBlueprint:Warning: [compiler Gui] Warning [0012.11] Compile of Gui successful, but with 2 Warning(s) [in 0 ms]
+[2015.09.08-05.45.47:100][  0]LogBlueprint:Warning: [compiler Gui] Warning [0012.11] Compile of Gui successful, but with 3 Warning(s) [in 0 ms]
+[2015.09.08-05.45.47:678][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
+[2015.09.08-05.45.47:679][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0012.69] Compile of GnawmersHealth successful, but with 1 Warning(s) [in 24 ms]
+[2015.09.08-05.45.47:679][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0012.69] Compile of GnawmersHealth successful, but with 2 Warning(s) [in 0 ms]
+[2015.09.08-05.45.47:679][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0012.69] Compile of GnawmersHealth successful, but with 3 Warning(s) [in 0 ms]
+[2015.09.08-05.45.50:290][  0]LogBlueprint:Warning: [compiler Gui] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
+[2015.09.08-05.45.50:300][  0]LogBlueprint:Warning: [compiler Gui] Warning [0015.31] Compile of Gui successful, but with 1 Warning(s) [in 55 ms]
+[2015.09.08-05.45.50:302][  0]LogBlueprint:Warning: [compiler Gui] Warning [0015.31] Compile of Gui successful, but with 2 Warning(s) [in 1 ms]
+[2015.09.08-05.45.50:461][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
+[2015.09.08-05.45.50:462][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0015.47] Compile of GnawmersHealth successful, but with 1 Warning(s) [in 26 ms]
+[2015.09.08-05.45.50:462][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0015.47] Compile of GnawmersHealth successful, but with 2 Warning(s) [in 0 ms]
+[2015.09.08-05.45.56:370][  0]LogAIModule: Creating AISystem for world NewCave
+[2015.09.08-05.45.56:594][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.09.08-05.45.56:596][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.09.08-05.45.56:700][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 104.399ms to complete.
+[2015.09.08-05.45.56:700][  0]LogFileHelpers: Loading map 'NewCave' took 12.411
+[2015.09.08-05.45.56:834][  0]LogCollectionManager: Loaded 0 collections in 0.001305 seconds
+[2015.09.08-05.45.56:844][  0]LogContentBrowser: Native class hierarchy populated in 0.0095 seconds. Added 1792 classes and 301 folders.
+[2015.09.08-05.45.56:884][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.09.08-05.45.56:913][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.09.08-05.45.56:930][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2015.09.08-05.45.56:969][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.09.08-05.45.56:970][  0]LogD3D11RHI: InitD3DDevice
+[2015.09.08-05.45.56:972][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.09.08-05.45.56:993][  0]LogLoad: Full Startup: 22.00 seconds (BP compile: 5.68 seconds)
+[2015.09.08-05.45.57:435][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.09.08-05.45.57:634][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.09.08-05.45.57:792][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2015.09.08-05.45.57:793][  1]Cmd: UpdateLandscapeEditorData
+[2015.09.08-05.45.57:799][  1]LogRenderer: Reallocating scene render targets to support 864x392 (Frame:2).
+[2015.09.08-05.46.03:826][ 19]LogD3D11RHI: InitD3DDevice
+[2015.09.08-05.46.04:713][ 27]LogAssetRegistry: Asset discovery search completed in 21.6471 seconds
+[2015.09.08-05.46.09:680][361]Cmd: QUIT_EDITOR
+[2015.09.08-05.46.10:080][361]LogExit: Preparing to exit.
+[2015.09.08-05.46.11:044][361]LogExit: Editor shut down
+[2015.09.08-05.46.11:045][361]LogExit: Transaction tracking system shut down
+[2015.09.08-05.46.11:061][361]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002DA2C180
+[2015.09.08-05.46.11:063][361]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000032A1EDE0
+[2015.09.08-05.46.11:063][361]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000031723CE0
+[2015.09.08-05.46.11:063][361]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000031345440
+[2015.09.08-05.46.11:063][361]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000031345260
+[2015.09.08-05.46.11:063][361]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000313451C0
+[2015.09.08-05.46.11:246][361]LogExit: Object subsystem successfully closed.
+[2015.09.08-05.46.11:268][361]LogD3D11RHI: Shutdown
+[2015.09.08-05.46.11:268][361]LogD3D11RHI: CleanupD3DDevice
+[2015.09.08-05.46.11:271][361]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.09.08-05.46.11:286][361]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
+[2015.09.08-05.46.11:286][361]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
+[2015.09.08-05.46.11:286][361]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
+[2015.09.08-05.46.11:286][361]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
+[2015.09.08-05.46.11:286][361]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
+[2015.09.08-05.46.11:287][361]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
+[2015.09.08-05.46.11:287][361]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
+[2015.09.08-05.46.11:287][361]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
+[2015.09.08-05.46.11:287][361]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
+[2015.09.08-05.46.11:287][361]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
+[2015.09.08-05.46.11:287][361]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
+[2015.09.08-05.46.11:287][361]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
+[2015.09.08-05.46.11:287][361]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
+[2015.09.08-05.46.11:287][361]LogModuleManager: Shutting down and abandoning module BspMode (175)
+[2015.09.08-05.46.11:287][361]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
+[2015.09.08-05.46.11:287][361]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
+[2015.09.08-05.46.11:287][361]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
+[2015.09.08-05.46.11:287][361]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
+[2015.09.08-05.46.11:288][361]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
+[2015.09.08-05.46.11:288][361]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
+[2015.09.08-05.46.11:288][361]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
+[2015.09.08-05.46.11:288][361]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
+[2015.09.08-05.46.11:288][361]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
+[2015.09.08-05.46.11:288][361]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
+[2015.09.08-05.46.11:288][361]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
+[2015.09.08-05.46.11:288][361]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2015.09.08-05.46.11:628][361]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
+[2015.09.08-05.46.11:628][361]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
+[2015.09.08-05.46.11:628][361]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
+[2015.09.08-05.46.11:628][361]LogModuleManager: Shutting down and abandoning module MergeActors (159)
+[2015.09.08-05.46.11:628][361]LogModuleManager: Shutting down and abandoning module SizeMap (158)
+[2015.09.08-05.46.11:628][361]LogModuleManager: Shutting down and abandoning module TreeMap (157)
+[2015.09.08-05.46.11:628][361]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
+[2015.09.08-05.46.11:628][361]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
+[2015.09.08-05.46.11:628][361]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
+[2015.09.08-05.46.11:628][361]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
+[2015.09.08-05.46.11:628][361]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
+[2015.09.08-05.46.11:628][361]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
+[2015.09.08-05.46.11:628][361]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
+[2015.09.08-05.46.11:628][361]LogModuleManager: Shutting down and abandoning module XmlParser (149)
+[2015.09.08-05.46.11:628][361]LogModuleManager: Shutting down and abandoning module Blutility (148)
+[2015.09.08-05.46.11:628][361]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
+[2015.09.08-05.46.11:628][361]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
+[2015.09.08-05.46.11:628][361]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
+[2015.09.08-05.46.11:628][361]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
+[2015.09.08-05.46.11:628][361]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
+[2015.09.08-05.46.11:629][361]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
+[2015.09.08-05.46.11:629][361]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
+[2015.09.08-05.46.11:629][361]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
+[2015.09.08-05.46.11:629][361]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
+[2015.09.08-05.46.11:629][361]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
+[2015.09.08-05.46.11:629][361]LogModuleManager: Shutting down and abandoning module AutomationController (137)
+[2015.09.08-05.46.11:629][361]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
+[2015.09.08-05.46.11:629][361]LogModuleManager: Shutting down and abandoning module Layers (135)
+[2015.09.08-05.46.11:629][361]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
+[2015.09.08-05.46.11:629][361]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
+[2015.09.08-05.46.11:629][361]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
+[2015.09.08-05.46.11:629][361]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
+[2015.09.08-05.46.11:748][361]LogModuleManager: Shutting down and abandoning module Persona (130)
+[2015.09.08-05.46.11:748][361]LogModuleManager: Shutting down and abandoning module Kismet (129)
+[2015.09.08-05.46.11:748][361]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
+[2015.09.08-05.46.11:748][361]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
+[2015.09.08-05.46.11:748][361]LogModuleManager: Shutting down and abandoning module Toolbox (126)
+[2015.09.08-05.46.11:748][361]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
+[2015.09.08-05.46.11:748][361]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
+[2015.09.08-05.46.11:748][361]LogModuleManager: Shutting down and abandoning module OutputLog (123)
+[2015.09.08-05.46.11:748][361]LogModuleManager: Shutting down and abandoning module GammaUI (122)
+[2015.09.08-05.46.11:748][361]LogModuleManager: Shutting down and abandoning module Documentation (121)
+[2015.09.08-05.46.11:748][361]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
+[2015.09.08-05.46.11:748][361]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
+[2015.09.08-05.46.11:748][361]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
+[2015.09.08-05.46.11:748][361]LogModuleManager: Shutting down and abandoning module Analytics (117)
+[2015.09.08-05.46.11:748][361]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
+[2015.09.08-05.46.11:748][361]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
+[2015.09.08-05.46.11:748][361]LogModuleManager: Shutting down and abandoning module AIModule (114)
+[2015.09.08-05.46.11:748][361]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
+[2015.09.08-05.46.11:806][361]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
+[2015.09.08-05.46.11:806][361]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
+[2015.09.08-05.46.11:806][361]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
+[2015.09.08-05.46.11:806][361]LogModuleManager: Shutting down and abandoning module SteamVR (109)
+[2015.09.08-05.46.11:806][361]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
+[2015.09.08-05.46.11:806][361]LogModuleManager: Shutting down and abandoning module OculusRift (107)
+[2015.09.08-05.46.11:806][361]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
+[2015.09.08-05.46.11:820][361]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
+[2015.09.08-05.46.11:820][361]LogModuleManager: Shutting down and abandoning module CableComponent (104)
+[2015.09.08-05.46.11:820][361]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
+[2015.09.08-05.46.11:820][361]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
+[2015.09.08-05.46.11:820][361]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
+[2015.09.08-05.46.11:820][361]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
+[2015.09.08-05.46.11:820][361]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
+[2015.09.08-05.46.11:820][361]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
+[2015.09.08-05.46.11:820][361]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
+[2015.09.08-05.46.11:820][361]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
+[2015.09.08-05.46.11:820][361]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
+[2015.09.08-05.46.11:820][361]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
+[2015.09.08-05.46.11:820][361]LogModuleManager: Shutting down and abandoning module SourceControl (93)
+[2015.09.08-05.46.11:820][361]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
+[2015.09.08-05.46.11:820][361]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
+[2015.09.08-05.46.11:820][361]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
+[2015.09.08-05.46.11:820][361]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
+[2015.09.08-05.46.11:820][361]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
+[2015.09.08-05.46.11:820][361]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
+[2015.09.08-05.46.11:820][361]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2015.09.08-05.46.11:820][361]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2015.09.08-05.46.11:820][361]LogModuleManager: Shutting down and abandoning module MainFrame (84)
+[2015.09.08-05.46.11:821][361]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2015.09.08-05.46.11:821][361]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.09.08-05.46.11:822][361]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.09.08-05.46.11:822][361]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2015.09.08-05.46.11:922][361]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.09.08-05.46.11:922][361]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.09.08-05.46.11:930][361]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.09.08-05.46.11:930][361]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.09.08-05.46.11:930][361]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.09.08-05.46.11:930][361]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.09.08-05.46.11:931][361]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.09.08-05.46.11:931][361]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.09.08-05.46.11:931][361]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.09.08-05.46.11:931][361]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.09.08-05.46.11:931][361]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.09.08-05.46.11:931][361]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.09.08-05.46.11:931][361]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.09.08-05.46.11:931][361]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.09.08-05.46.11:931][361]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.09.08-05.46.11:931][361]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.09.08-05.46.11:931][361]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.09.08-05.46.11:938][361]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.09.08-05.46.11:938][361]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.09.08-05.46.11:938][361]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.09.08-05.46.11:938][361]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.09.08-05.46.11:938][361]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.09.08-05.46.11:938][361]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.09.08-05.46.11:938][361]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.09.08-05.46.11:938][361]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.09.08-05.46.11:938][361]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.09.08-05.46.11:938][361]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.09.08-05.46.11:972][361]LogDerivedDataCache: Shutdown
+[2015.09.08-05.46.11:972][361]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.09.08-05.46.11:972][361]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.09.08-05.46.11:972][361]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.09.08-05.46.11:972][361]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.09.08-05.46.11:972][361]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.09.08-05.46.11:972][361]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.09.08-05.46.11:972][361]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.09.08-05.46.11:972][361]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.09.08-05.46.11:972][361]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.09.08-05.46.11:972][361]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.09.08-05.46.11:972][361]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.09.08-05.46.11:972][361]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.09.08-05.46.11:972][361]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.09.08-05.46.11:972][361]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.09.08-05.46.11:972][361]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.09.08-05.46.11:972][361]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.09.08-05.46.11:972][361]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.09.08-05.46.11:972][361]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.09.08-05.46.11:972][361]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.09.08-05.46.11:972][361]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.09.08-05.46.11:972][361]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.09.08-05.46.11:972][361]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.09.08-05.46.11:972][361]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.09.08-05.46.11:972][361]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.09.08-05.46.11:972][361]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.09.08-05.46.11:972][361]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.09.08-05.46.11:972][361]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.09.08-05.46.11:972][361]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.09.08-05.46.11:972][361]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.09.08-05.46.11:972][361]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.09.08-05.46.11:972][361]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.09.08-05.46.11:972][361]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.09.08-05.46.11:972][361]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.09.08-05.46.11:972][361]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.09.08-05.46.11:972][361]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.09.08-05.46.11:973][361]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.09.08-05.46.11:973][361]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.09.08-05.46.11:973][361]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.09.08-05.46.11:973][361]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.09.08-05.46.11:973][361]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.09.08-05.46.11:973][361]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.09.08-05.46.11:975][361]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.09.08-05.46.11:975][361]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.09.08-05.46.11:975][361]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.09.08-05.46.11:975][361]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.09.08-05.46.11:975][361]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.09.08-05.46.11:975][361]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.09.08-05.46.11:975][361]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.09.08-05.46.11:975][361]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.09.08-05.46.11:975][361]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.09.08-05.46.11:976][361]LogExit: Exiting.
+[2015.09.08-05.46.11:977][361]Log file closed, 09/07/15 22:46:11
