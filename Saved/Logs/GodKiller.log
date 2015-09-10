@@ -1,398 +1,1093 @@
-﻿[2015.09.10-10.31.16:722][  0]Log file open, 09/10/15 03:31:16
-[2015.09.10-10.31.16:722][  0]LogInit:Display: Running engine for game: GodKiller
-[2015.09.10-10.31.16:722][  0]LogInit:Display: RandInit(1299297810) SRandInit(1299297811).
-[2015.09.10-10.31.16:722][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
-[2015.09.10-10.31.16:722][  0]LogStats: Stats thread started
-[2015.09.10-10.31.16:722][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
-[2015.09.10-10.31.16:722][  0]LogInit: API Version: 2579680
-[2015.09.10-10.31.16:722][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
-[2015.09.10-10.31.16:722][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
-[2015.09.10-10.31.16:722][  0]LogInit: Build Configuration: Development
-[2015.09.10-10.31.16:722][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
-[2015.09.10-10.31.16:722][  0]LogInit: Command line:  
-[2015.09.10-10.31.16:722][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
-[2015.09.10-10.31.16:722][  0]LogInit: Rocket: 1
-[2015.09.10-10.31.16:794][  0]LogInit: Using libcurl 7.41.0
-[2015.09.10-10.31.16:794][  0]LogInit:  - built for x86_64-pc-win32
-[2015.09.10-10.31.16:794][  0]LogInit:  - supports SSL with WinSSL
-[2015.09.10-10.31.16:794][  0]LogInit:  - other features:
-[2015.09.10-10.31.16:794][  0]LogInit:      CURL_VERSION_SSL
-[2015.09.10-10.31.16:795][  0]LogInit:      CURL_VERSION_IPV6
-[2015.09.10-10.31.16:795][  0]LogInit:      CURL_VERSION_ASYNCHDNS
-[2015.09.10-10.31.16:795][  0]LogInit:      CURL_VERSION_LARGEFILE
-[2015.09.10-10.31.16:795][  0]LogInit:      CURL_VERSION_IDN
-[2015.09.10-10.31.16:795][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
-[2015.09.10-10.31.16:795][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
-[2015.09.10-10.31.16:795][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
-[2015.09.10-10.31.16:795][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
-[2015.09.10-10.31.16:795][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-[2015.09.10-10.31.16:843][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2015.09.10-10.31.17:054][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2015.09.10-10.31.17:098][  0]LogInit: Object subsystem initialized
-[2015.09.10-10.31.17:113][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
-[2015.09.10-10.31.17:113][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Samantha/Desktop/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.09.10-10.31.17:113][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
-[2015.09.10-10.31.17:113][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Samantha/Desktop/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.09.10-10.31.17:113][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
-[2015.09.10-10.31.17:113][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Samantha/Desktop/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.09.10-10.31.17:133][  0]LogInit: Selected Device Profile: [Windows]
-[2015.09.10-10.31.17:133][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2015.09.10-10.31.17:293][  0]LogInit: Computer: SAMANTHAPC
-[2015.09.10-10.31.17:293][  0]LogInit: User: Samantha
-[2015.09.10-10.31.17:293][  0]LogInit: CPU Page size=4096, Cores=2
-[2015.09.10-10.31.17:293][  0]LogInit: High frequency timer resolution =2.240907 MHz
-[2015.09.10-10.31.17:308][  0]LogMemory: Memory total: Physical=5.9GB (6GB approx)
-[2015.09.10-10.31.17:315][  0]LogMemory: Platform Memory Stats for Windows
-[2015.09.10-10.31.17:315][  0]LogMemory: Process Physical Memory: 51.58 MB used, 51.58 MB peak
-[2015.09.10-10.31.17:315][  0]LogMemory: Process Virtual Memory: 24.24 MB used, 24.24 MB peak
-[2015.09.10-10.31.17:315][  0]LogMemory: Physical Memory: 2620.74 MB used, 6027.63 MB total
-[2015.09.10-10.31.17:315][  0]LogMemory: Virtual Memory: 292.76 MB used, 134217728.00 MB total
-[2015.09.10-10.31.18:441][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
-[2015.09.10-10.31.19:458][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+﻿[2015.09.10-20.11.28:860][  0]Log file open, 09/10/15 13:11:28
+[2015.09.10-20.11.28:860][  0]LogInit:Display: Running engine for game: GodKiller
+[2015.09.10-20.11.28:860][  0]LogInit:Display: RandInit(1957239142) SRandInit(1957239143).
+[2015.09.10-20.11.28:860][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.09.10-20.11.28:860][  0]LogStats: Stats thread started
+[2015.09.10-20.11.28:860][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.09.10-20.11.28:860][  0]LogInit: API Version: 2579680
+[2015.09.10-20.11.28:883][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.09.10-20.11.28:883][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.09.10-20.11.28:883][  0]LogInit: Build Configuration: Development
+[2015.09.10-20.11.28:883][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.09.10-20.11.28:883][  0]LogInit: Command line:  
+[2015.09.10-20.11.28:883][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.09.10-20.11.28:883][  0]LogInit: Rocket: 1
+[2015.09.10-20.11.29:100][  0]LogInit: Using libcurl 7.41.0
+[2015.09.10-20.11.29:100][  0]LogInit:  - built for x86_64-pc-win32
+[2015.09.10-20.11.29:100][  0]LogInit:  - supports SSL with WinSSL
+[2015.09.10-20.11.29:100][  0]LogInit:  - other features:
+[2015.09.10-20.11.29:100][  0]LogInit:      CURL_VERSION_SSL
+[2015.09.10-20.11.29:100][  0]LogInit:      CURL_VERSION_IPV6
+[2015.09.10-20.11.29:100][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.09.10-20.11.29:100][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.09.10-20.11.29:100][  0]LogInit:      CURL_VERSION_IDN
+[2015.09.10-20.11.29:101][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.09.10-20.11.29:102][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.09.10-20.11.29:102][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.09.10-20.11.29:102][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.09.10-20.11.29:102][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.09.10-20.11.29:145][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.09.10-20.11.29:413][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.09.10-20.11.29:634][  0]LogInit: Object subsystem initialized
+[2015.09.10-20.11.29:765][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.09.10-20.11.29:765][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Samantha/Desktop/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.09.10-20.11.29:766][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.09.10-20.11.29:766][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Samantha/Desktop/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.09.10-20.11.29:766][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.09.10-20.11.29:766][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Samantha/Desktop/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.09.10-20.11.29:883][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.10-20.11.29:884][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.09.10-20.11.30:052][  0]LogInit: Computer: SAMANTHAPC
+[2015.09.10-20.11.30:052][  0]LogInit: User: Samantha
+[2015.09.10-20.11.30:052][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.09.10-20.11.30:052][  0]LogInit: High frequency timer resolution =2.240903 MHz
+[2015.09.10-20.11.30:053][  0]LogMemory: Memory total: Physical=5.9GB (6GB approx)
+[2015.09.10-20.11.30:053][  0]LogMemory: Platform Memory Stats for Windows
+[2015.09.10-20.11.30:053][  0]LogMemory: Process Physical Memory: 51.53 MB used, 51.53 MB peak
+[2015.09.10-20.11.30:053][  0]LogMemory: Process Virtual Memory: 24.16 MB used, 24.16 MB peak
+[2015.09.10-20.11.30:053][  0]LogMemory: Physical Memory: 2675.61 MB used, 6027.63 MB total
+[2015.09.10-20.11.30:053][  0]LogMemory: Virtual Memory: 292.74 MB used, 134217728.00 MB total
+[2015.09.10-20.11.32:039][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.09.10-20.11.33:196][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
 Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
 Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
-[2015.09.10-10.31.21:730][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics Family (Feature Level 11_0)
-[2015.09.10-10.31.21:730][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 1 output[s]
-[2015.09.10-10.31.21:732][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
-[2015.09.10-10.31.21:732][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
-[2015.09.10-10.31.21:733][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2015.09.10-10.31.21:761][  0]LogD3D11RHI: InitD3DDevice
-[2015.09.10-10.31.21:761][  0]LogD3D11RHI: !Direct3DDevice
-[2015.09.10-10.31.21:761][  0]LogRHI: Texture pool is 638 MB (70% of 912 MB)
-[2015.09.10-10.31.21:776][  0]LogD3D11RHI: Async texture creation enabled
-[2015.09.10-10.31.21:890][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2015.09.10-10.31.29:518][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
-[2015.09.10-10.31.29:599][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2015.09.10-10.31.29:673][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2015.09.10-10.31.29:747][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2015.09.10-10.31.29:821][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2015.09.10-10.31.29:906][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2015.09.10-10.31.29:971][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2015.09.10-10.31.30:033][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2015.09.10-10.31.30:098][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2015.09.10-10.31.30:157][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2015.09.10-10.31.30:245][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2015.09.10-10.31.30:308][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2015.09.10-10.31.30:614][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2015.09.10-10.31.30:682][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2015.09.10-10.31.30:728][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2015.09.10-10.31.30:808][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2015.09.10-10.31.30:808][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.09.10-10.31.32:232][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2015.09.10-10.31.33:177][  0]LogDerivedDataCache: Loaded boot cache 0.94s 53MB C:/Users/Samantha/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
-[2015.09.10-10.31.33:177][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Samantha/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
-[2015.09.10-10.31.33:178][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Samantha/Desktop/God-Killer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.09.10-10.31.33:178][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2015.09.10-10.31.33:178][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Samantha/Desktop/God-Killer/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2015.09.10-10.31.33:178][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2015.09.10-10.31.33:770][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2015.09.10-10.31.33:784][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Samantha/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2015.09.10-10.31.44:214][  0]LogInit: Selected Device Profile: [Windows]
-[2015.09.10-10.31.44:758][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
-[2015.09.10-10.31.44:759][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
-[2015.09.10-10.31.44:931][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2015.09.10-10.31.44:931][  0]LogMeshUtilities: No automatic mesh merging module available
-[2015.09.10-10.31.47:099][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2015.09.10-10.31.49:186][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/UE4Editor-XAudio2.dll' because the file couldn't be loaded by the OS.
-[2015.09.10-10.32.25:474][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2015.09.10-10.32.27:602][  0]SourceControl: Info Source control is disabled
-[2015.09.10-10.32.27:644][  0]SourceControl: Info Source control is disabled
-[2015.09.10-10.32.27:736][  0]SourceControl: Info Source control is disabled
-[2015.09.10-10.32.27:815][  0]SourceControl: Info Source control is disabled
-[2015.09.10-10.32.29:424][  0]LogObj: 26273 objects as part of root set at end of initial load.
-[2015.09.10-10.32.29:425][  0]LogUObjectAllocator: 5409256 out of 0 bytes used by permanent object pool.
-[2015.09.10-10.32.29:789][  0]LogEngine: Initializing Engine...
-[2015.09.10-10.32.29:799][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
-[2015.09.10-10.32.29:854][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
-[2015.09.10-10.32.30:589][  0]LogAIModule: Creating AISystem for world NewWorld
-[2015.09.10-10.32.34:425][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/UE4Editor-XAudio2.dll' because the file couldn't be loaded by the OS.
-[2015.09.10-10.32.34:537][  0]LogDerivedDataCache: Saved boot cache 0.11s 53MB C:/Users/Samantha/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
-[2015.09.10-10.32.34:556][  0]LogInit: Texture streaming: Disabled
-[2015.09.10-10.32.34:749][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2015.09.10-10.32.34:749][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
-[2015.09.10-10.32.34:749][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 46872bea408cfcc0100ac385d2b5ce07|e22a3db169b04f708165eaff958a9646|097015b1-a59a-4201-b460-717027cc9fe8
-[2015.09.10-10.32.34:750][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
-[2015.09.10-10.32.35:060][  0]LogInit: Transaction tracking system initialized
-[2015.09.10-10.32.36:160][  0]BlueprintLog: New page: Editor Load
-[2015.09.10-10.32.36:658][  0]LogAssetRegistry: FAssetRegistry took 0.0117 seconds to start up
-[2015.09.10-10.32.36:659][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
-[2015.09.10-10.32.42:100][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
-[2015.09.10-10.32.42:101][  0]LogConsoleResponse:Display: 
-[2015.09.10-10.32.42:732][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2015.09.10-10.32.44:258][  0]SourceControl: Info Source control is disabled
-[2015.09.10-10.32.44:259][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Scene/NewCave.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.09.10-10.32.44:260][  0]LightingResults: New page: Lighting Build
-[2015.09.10-10.32.44:328][  0]MapCheck: New page: Map Check
-[2015.09.10-10.32.44:328][  0]LightingResults: New page: Lighting Build
-[2015.09.10-10.32.44:403][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004005DC5300
-[2015.09.10-10.32.53:357][  0]LogBlueprint:Warning: [compiler Gui] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
-[2015.09.10-10.32.53:390][  0]LogBlueprint:Warning: [compiler Gui] Warning [0103.10] Compile of Gui successful, but with 1 Warning(s) [in 194 ms]
-[2015.09.10-10.32.53:391][  0]LogBlueprint:Warning: [compiler Gui] Warning [0103.10] Compile of Gui successful, but with 2 Warning(s) [in 0 ms]
-[2015.09.10-10.32.53:391][  0]LogBlueprint:Warning: [compiler Gui] Warning [0103.10] Compile of Gui successful, but with 3 Warning(s) [in 0 ms]
-[2015.09.10-10.32.54:902][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
-[2015.09.10-10.32.54:904][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0104.61] Compile of GnawmersHealth successful, but with 1 Warning(s) [in 43 ms]
-[2015.09.10-10.32.54:904][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0104.61] Compile of GnawmersHealth successful, but with 2 Warning(s) [in 0 ms]
-[2015.09.10-10.32.54:904][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0104.62] Compile of GnawmersHealth successful, but with 3 Warning(s) [in 0 ms]
-[2015.09.10-10.33.02:614][  0]LogBlueprint:Warning: [compiler Gui] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
-[2015.09.10-10.33.02:644][  0]LogBlueprint:Warning: [compiler Gui] Warning [0112.35] Compile of Gui successful, but with 1 Warning(s) [in 126 ms]
-[2015.09.10-10.33.02:649][  0]LogBlueprint:Warning: [compiler Gui] Warning [0112.36] Compile of Gui successful, but with 2 Warning(s) [in 4 ms]
-[2015.09.10-10.33.02:964][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
-[2015.09.10-10.33.02:967][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0112.68] Compile of GnawmersHealth successful, but with 1 Warning(s) [in 49 ms]
-[2015.09.10-10.33.02:968][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0112.68] Compile of GnawmersHealth successful, but with 2 Warning(s) [in 0 ms]
-[2015.09.10-10.34.06:927][  0]LogAIModule: Creating AISystem for world NewCave
-[2015.09.10-10.34.12:333][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.09.10-10.34.12:342][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.09.10-10.34.12:693][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 350.543ms to complete.
-[2015.09.10-10.34.12:693][  0]LogFileHelpers: Loading map 'NewCave' took 88.434
-[2015.09.10-10.34.12:930][  0]LogCollectionManager: Loaded 0 collections in 0.008568 seconds
-[2015.09.10-10.34.12:958][  0]LogContentBrowser: Native class hierarchy populated in 0.0275 seconds. Added 1792 classes and 301 folders.
-[2015.09.10-10.34.13:211][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0013 seconds. Added 0 classes and 0 folders.
-[2015.09.10-10.34.13:955][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
-[2015.09.10-10.34.14:233][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
-[2015.09.10-10.34.14:437][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2015.09.10-10.34.14:440][  0]LogD3D11RHI: InitD3DDevice
-[2015.09.10-10.34.14:451][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2015.09.10-10.34.14:477][  0]LogLoad: Full Startup: 184.19 seconds (BP compile: 14.78 seconds)
-[2015.09.10-10.34.15:116][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2015.09.10-10.34.15:854][  0]LogContentStreaming: Texture pool size now 700 MB
-[2015.09.10-10.34.16:241][  0]LogRenderer: Reallocating scene render targets to support 864x712 (Frame:2).
-[2015.09.10-10.34.18:254][  1]Cmd: UpdateLandscapeEditorData -warnings
-[2015.09.10-10.34.18:286][  1]Cmd: UpdateLandscapeEditorData
-[2015.09.10-10.34.19:346][  2]LogD3D11RHI: InitD3DDevice
-[2015.09.10-10.34.25:945][ 65]LogAssetRegistry: Asset discovery search completed in 109.2977 seconds
-[2015.09.10-10.34.28:277][136]LogD3D11RHI: InitD3DDevice
-[2015.09.10-10.34.45:784][339]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2015.09.10-10.34.53:021][431]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2015.09.10-10.35.02:040][547]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2015.09.10-10.35.18:608][ 38]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2015.09.10-10.35.24:351][177]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2015.09.10-10.35.31:116][283]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2015.09.10-10.35.53:838][532]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2015.09.10-10.35.57:613][570]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2015.09.10-10.36.01:822][613]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2015.09.10-10.36.04:303][638]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2015.09.10-10.36.08:401][680]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2015.09.10-10.36.13:346][731]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2015.09.10-10.37.01:851][215]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2015.09.10-10.37.17:897][389]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2015.09.10-10.37.22:363][443]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2015.09.10-10.37.26:620][493]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2015.09.10-10.37.30:186][536]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2015.09.10-10.37.36:407][608]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2015.09.10-10.37.40:871][659]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2015.09.10-10.37.43:522][689]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2015.09.10-10.37.48:950][751]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2015.09.10-10.37.51:940][785]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2015.09.10-10.37.55:111][821]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2015.09.10-10.37.58:039][854]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2015.09.10-10.38.06:175][946]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2015.09.10-10.38.07:969][965]LogD3D11RHI: InitD3DDevice
-[2015.09.10-10.38.08:078][965]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene/NewCave" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Scene/NewCave.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2015.09.10-10.38.18:040][965]LogSavePackage: Save=7532.528809ms
-[2015.09.10-10.38.18:040][965]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/NewCaveAEF518FC412743BF1042F7BB9FA54CD8.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/Scene/NewCave.umap'
-[2015.09.10-10.38.22:025][  5]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2015.09.10-10.38.23:119][  6]Cmd: QUIT_EDITOR
-[2015.09.10-10.38.24:694][  6]LogExit: Preparing to exit.
-[2015.09.10-10.38.25:999][  6]LogExit: Editor shut down
-[2015.09.10-10.38.26:000][  6]LogExit: Transaction tracking system shut down
-[2015.09.10-10.38.26:039][  6]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000040193E7EC0
-[2015.09.10-10.38.26:048][  6]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000040225DE840
-[2015.09.10-10.38.26:049][  6]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004024390400
-[2015.09.10-10.38.26:049][  6]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000040245B9D00
-[2015.09.10-10.38.26:049][  6]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000040259EB920
-[2015.09.10-10.38.26:050][  6]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000040259EB2E0
-[2015.09.10-10.38.26:050][  6]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000040259E8FE0
-[2015.09.10-10.38.26:050][  6]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000040259EA200
-[2015.09.10-10.38.26:050][  6]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000040258E3F60
-[2015.09.10-10.38.26:645][  6]LogExit: Object subsystem successfully closed.
-[2015.09.10-10.38.26:701][  6]LogD3D11RHI: Shutdown
-[2015.09.10-10.38.26:701][  6]LogD3D11RHI: CleanupD3DDevice
-[2015.09.10-10.38.27:201][  6]LogD3D11RHI: ~FD3D11DynamicRHI
-[2015.09.10-10.38.27:267][  6]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
-[2015.09.10-10.38.27:268][  6]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
-[2015.09.10-10.38.27:268][  6]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
-[2015.09.10-10.38.27:268][  6]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
-[2015.09.10-10.38.27:268][  6]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
-[2015.09.10-10.38.27:270][  6]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
-[2015.09.10-10.38.27:270][  6]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
-[2015.09.10-10.38.27:270][  6]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
-[2015.09.10-10.38.27:271][  6]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
-[2015.09.10-10.38.27:271][  6]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
-[2015.09.10-10.38.27:271][  6]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
-[2015.09.10-10.38.27:271][  6]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
-[2015.09.10-10.38.27:271][  6]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
-[2015.09.10-10.38.27:271][  6]LogModuleManager: Shutting down and abandoning module BspMode (175)
-[2015.09.10-10.38.27:271][  6]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
-[2015.09.10-10.38.27:271][  6]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
-[2015.09.10-10.38.27:271][  6]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
-[2015.09.10-10.38.27:271][  6]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
-[2015.09.10-10.38.27:271][  6]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
-[2015.09.10-10.38.27:271][  6]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
-[2015.09.10-10.38.27:272][  6]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
-[2015.09.10-10.38.27:272][  6]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
-[2015.09.10-10.38.27:272][  6]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
-[2015.09.10-10.38.27:272][  6]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
-[2015.09.10-10.38.27:272][  6]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
-[2015.09.10-10.38.27:272][  6]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
-[2015.09.10-10.38.28:025][  6]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
-[2015.09.10-10.38.28:025][  6]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
-[2015.09.10-10.38.28:025][  6]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
-[2015.09.10-10.38.28:025][  6]LogModuleManager: Shutting down and abandoning module MergeActors (159)
-[2015.09.10-10.38.28:025][  6]LogModuleManager: Shutting down and abandoning module SizeMap (158)
-[2015.09.10-10.38.28:025][  6]LogModuleManager: Shutting down and abandoning module TreeMap (157)
-[2015.09.10-10.38.28:025][  6]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
-[2015.09.10-10.38.28:025][  6]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
-[2015.09.10-10.38.28:025][  6]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
-[2015.09.10-10.38.28:025][  6]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
-[2015.09.10-10.38.28:025][  6]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
-[2015.09.10-10.38.28:025][  6]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
-[2015.09.10-10.38.28:026][  6]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
-[2015.09.10-10.38.28:026][  6]LogModuleManager: Shutting down and abandoning module XmlParser (149)
-[2015.09.10-10.38.28:026][  6]LogModuleManager: Shutting down and abandoning module Blutility (148)
-[2015.09.10-10.38.28:026][  6]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
-[2015.09.10-10.38.28:026][  6]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
-[2015.09.10-10.38.28:026][  6]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
-[2015.09.10-10.38.28:026][  6]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
-[2015.09.10-10.38.28:026][  6]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
-[2015.09.10-10.38.28:026][  6]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
-[2015.09.10-10.38.28:027][  6]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
-[2015.09.10-10.38.28:027][  6]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
-[2015.09.10-10.38.28:027][  6]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
-[2015.09.10-10.38.28:027][  6]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
-[2015.09.10-10.38.28:027][  6]LogModuleManager: Shutting down and abandoning module AutomationController (137)
-[2015.09.10-10.38.28:027][  6]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
-[2015.09.10-10.38.28:027][  6]LogModuleManager: Shutting down and abandoning module Layers (135)
-[2015.09.10-10.38.28:027][  6]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
-[2015.09.10-10.38.28:027][  6]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
-[2015.09.10-10.38.28:027][  6]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
-[2015.09.10-10.38.28:028][  6]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
-[2015.09.10-10.38.28:271][  6]LogModuleManager: Shutting down and abandoning module Persona (130)
-[2015.09.10-10.38.28:272][  6]LogModuleManager: Shutting down and abandoning module Kismet (129)
-[2015.09.10-10.38.28:272][  6]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
-[2015.09.10-10.38.28:272][  6]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
-[2015.09.10-10.38.28:272][  6]LogModuleManager: Shutting down and abandoning module Toolbox (126)
-[2015.09.10-10.38.28:272][  6]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
-[2015.09.10-10.38.28:272][  6]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
-[2015.09.10-10.38.28:272][  6]LogModuleManager: Shutting down and abandoning module OutputLog (123)
-[2015.09.10-10.38.28:272][  6]LogModuleManager: Shutting down and abandoning module GammaUI (122)
-[2015.09.10-10.38.28:273][  6]LogModuleManager: Shutting down and abandoning module Documentation (121)
-[2015.09.10-10.38.28:273][  6]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
-[2015.09.10-10.38.28:273][  6]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
-[2015.09.10-10.38.28:273][  6]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
-[2015.09.10-10.38.28:273][  6]LogModuleManager: Shutting down and abandoning module Analytics (117)
-[2015.09.10-10.38.28:273][  6]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
-[2015.09.10-10.38.28:273][  6]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
-[2015.09.10-10.38.28:273][  6]LogModuleManager: Shutting down and abandoning module AIModule (114)
-[2015.09.10-10.38.28:273][  6]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
-[2015.09.10-10.38.28:300][  6]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
-[2015.09.10-10.38.28:300][  6]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
-[2015.09.10-10.38.28:301][  6]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
-[2015.09.10-10.38.28:301][  6]LogModuleManager: Shutting down and abandoning module SteamVR (109)
-[2015.09.10-10.38.28:301][  6]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
-[2015.09.10-10.38.28:301][  6]LogModuleManager: Shutting down and abandoning module OculusRift (107)
-[2015.09.10-10.38.28:301][  6]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
-[2015.09.10-10.38.28:338][  6]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
-[2015.09.10-10.38.28:339][  6]LogModuleManager: Shutting down and abandoning module CableComponent (104)
-[2015.09.10-10.38.28:339][  6]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
-[2015.09.10-10.38.28:339][  6]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
-[2015.09.10-10.38.28:339][  6]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
-[2015.09.10-10.38.28:339][  6]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
-[2015.09.10-10.38.28:339][  6]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
-[2015.09.10-10.38.28:339][  6]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
-[2015.09.10-10.38.28:339][  6]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
-[2015.09.10-10.38.28:339][  6]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
-[2015.09.10-10.38.28:339][  6]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
-[2015.09.10-10.38.28:339][  6]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
-[2015.09.10-10.38.28:339][  6]LogModuleManager: Shutting down and abandoning module SourceControl (93)
-[2015.09.10-10.38.28:339][  6]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
-[2015.09.10-10.38.28:339][  6]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
-[2015.09.10-10.38.28:339][  6]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
-[2015.09.10-10.38.28:340][  6]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
-[2015.09.10-10.38.28:340][  6]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
-[2015.09.10-10.38.28:340][  6]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
-[2015.09.10-10.38.28:340][  6]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
-[2015.09.10-10.38.28:341][  6]LogModuleManager: Shutting down and abandoning module HotReload (85)
-[2015.09.10-10.38.28:341][  6]LogModuleManager: Shutting down and abandoning module MainFrame (84)
-[2015.09.10-10.38.28:341][  6]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
-[2015.09.10-10.38.28:344][  6]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
-[2015.09.10-10.38.28:346][  6]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
-[2015.09.10-10.38.28:346][  6]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
-[2015.09.10-10.38.28:447][  6]LogModuleManager: Shutting down and abandoning module Paper2D (79)
-[2015.09.10-10.38.28:447][  6]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
-[2015.09.10-10.38.28:460][  6]LogModuleManager: Shutting down and abandoning module Media (77)
-[2015.09.10-10.38.28:460][  6]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
-[2015.09.10-10.38.28:461][  6]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
-[2015.09.10-10.38.28:461][  6]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
-[2015.09.10-10.38.28:461][  6]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
-[2015.09.10-10.38.28:461][  6]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
-[2015.09.10-10.38.28:461][  6]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
-[2015.09.10-10.38.28:461][  6]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
-[2015.09.10-10.38.28:461][  6]LogModuleManager: Shutting down and abandoning module MessageLog (69)
-[2015.09.10-10.38.28:461][  6]LogModuleManager: Shutting down and abandoning module Sequencer (68)
-[2015.09.10-10.38.28:462][  6]LogModuleManager: Shutting down and abandoning module AssetTools (67)
-[2015.09.10-10.38.28:462][  6]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
-[2015.09.10-10.38.28:462][  6]LogModuleManager: Shutting down and abandoning module UMG (65)
-[2015.09.10-10.38.28:462][  6]LogModuleManager: Shutting down and abandoning module Slate (64)
-[2015.09.10-10.38.28:462][  6]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
-[2015.09.10-10.38.28:469][  6]LogModuleManager: Shutting down and abandoning module SessionServices (62)
-[2015.09.10-10.38.28:469][  6]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
-[2015.09.10-10.38.28:469][  6]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
-[2015.09.10-10.38.28:469][  6]LogModuleManager: Shutting down and abandoning module Networking (57)
-[2015.09.10-10.38.28:469][  6]LogModuleManager: Shutting down and abandoning module Core (56)
-[2015.09.10-10.38.28:470][  6]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
-[2015.09.10-10.38.28:470][  6]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
-[2015.09.10-10.38.28:470][  6]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
-[2015.09.10-10.38.28:470][  6]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
-[2015.09.10-10.38.28:562][  6]LogDerivedDataCache: Shutdown
-[2015.09.10-10.38.28:562][  6]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
-[2015.09.10-10.38.28:562][  6]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
-[2015.09.10-10.38.28:562][  6]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
-[2015.09.10-10.38.28:562][  6]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
-[2015.09.10-10.38.28:562][  6]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
-[2015.09.10-10.38.28:562][  6]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
-[2015.09.10-10.38.28:562][  6]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
-[2015.09.10-10.38.28:562][  6]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
-[2015.09.10-10.38.28:562][  6]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
-[2015.09.10-10.38.28:563][  6]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
-[2015.09.10-10.38.28:563][  6]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
-[2015.09.10-10.38.28:563][  6]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
-[2015.09.10-10.38.28:563][  6]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
-[2015.09.10-10.38.28:563][  6]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
-[2015.09.10-10.38.28:563][  6]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
-[2015.09.10-10.38.28:563][  6]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
-[2015.09.10-10.38.28:563][  6]LogModuleManager: Shutting down and abandoning module Messaging (35)
-[2015.09.10-10.38.28:563][  6]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
-[2015.09.10-10.38.28:563][  6]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
-[2015.09.10-10.38.28:563][  6]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
-[2015.09.10-10.38.28:563][  6]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
-[2015.09.10-10.38.28:563][  6]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
-[2015.09.10-10.38.28:563][  6]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
-[2015.09.10-10.38.28:563][  6]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
-[2015.09.10-10.38.28:563][  6]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
-[2015.09.10-10.38.28:563][  6]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
-[2015.09.10-10.38.28:563][  6]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
-[2015.09.10-10.38.28:563][  6]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
-[2015.09.10-10.38.28:563][  6]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
-[2015.09.10-10.38.28:563][  6]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
-[2015.09.10-10.38.28:563][  6]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
-[2015.09.10-10.38.28:563][  6]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
-[2015.09.10-10.38.28:563][  6]LogModuleManager: Shutting down and abandoning module InputCore (19)
-[2015.09.10-10.38.28:563][  6]LogModuleManager: Shutting down and abandoning module Settings (18)
-[2015.09.10-10.38.28:564][  6]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
-[2015.09.10-10.38.28:564][  6]LogModuleManager: Shutting down and abandoning module HTTP (15)
-[2015.09.10-10.38.28:564][  6]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
-[2015.09.10-10.38.28:564][  6]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
-[2015.09.10-10.38.28:565][  6]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
-[2015.09.10-10.38.28:565][  6]LogModuleManager: Shutting down and abandoning module Landscape (11)
-[2015.09.10-10.38.28:565][  6]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
-[2015.09.10-10.38.28:571][  6]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
-[2015.09.10-10.38.28:571][  6]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
-[2015.09.10-10.38.28:571][  6]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2015.09.10-10.38.28:571][  6]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2015.09.10-10.38.28:571][  6]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2015.09.10-10.38.28:571][  6]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2015.09.10-10.38.28:571][  6]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2015.09.10-10.38.28:572][  6]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2015.09.10-10.38.28:572][  6]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2015.09.10-10.38.28:573][  6]LogExit: Exiting.
-[2015.09.10-10.38.28:579][  6]Log file closed, 09/10/15 03:38:28
+[2015.09.10-20.11.35:906][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics Family (Feature Level 11_0)
+[2015.09.10-20.11.35:907][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 1 output[s]
+[2015.09.10-20.11.35:911][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.09.10-20.11.35:911][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.09.10-20.11.35:911][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.09.10-20.11.35:924][  0]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.11.35:925][  0]LogD3D11RHI: !Direct3DDevice
+[2015.09.10-20.11.35:925][  0]LogRHI: Texture pool is 638 MB (70% of 912 MB)
+[2015.09.10-20.11.35:942][  0]LogD3D11RHI: Async texture creation enabled
+[2015.09.10-20.11.36:318][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.09.10-20.11.46:554][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.09.10-20.11.46:615][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.09.10-20.11.46:677][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.09.10-20.11.46:759][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.09.10-20.11.46:867][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.09.10-20.11.46:943][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.09.10-20.11.47:017][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.09.10-20.11.47:091][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.09.10-20.11.47:176][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.09.10-20.11.47:258][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.09.10-20.11.47:336][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.09.10-20.11.47:389][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.09.10-20.11.47:662][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.09.10-20.11.47:715][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.09.10-20.11.47:755][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.09.10-20.11.47:820][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.09.10-20.11.47:820][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.09.10-20.11.49:898][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.09.10-20.11.50:862][  0]LogDerivedDataCache: Loaded boot cache 0.95s 53MB C:/Users/Samantha/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.09.10-20.11.50:862][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Samantha/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.09.10-20.11.50:863][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Samantha/Desktop/God-Killer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.09.10-20.11.50:863][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.09.10-20.11.50:863][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Samantha/Desktop/God-Killer/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.09.10-20.11.50:863][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.09.10-20.11.51:603][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.09.10-20.11.51:649][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Samantha/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.09.10-20.12.09:381][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.10-20.12.10:678][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.09.10-20.12.10:679][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.09.10-20.12.11:213][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.09.10-20.12.11:213][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.09.10-20.12.16:841][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.09.10-20.14.04:923][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/UE4Editor-XAudio2.dll' because the file couldn't be loaded by the OS.
+[2015.09.10-20.14.41:317][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.09.10-20.14.43:765][  0]SourceControl: Info Source control is disabled
+[2015.09.10-20.14.44:218][  0]SourceControl: Info Source control is disabled
+[2015.09.10-20.14.44:270][  0]SourceControl: Info Source control is disabled
+[2015.09.10-20.14.44:309][  0]SourceControl: Info Source control is disabled
+[2015.09.10-20.14.45:809][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.09.10-20.14.45:809][  0]LogUObjectAllocator: 5409256 out of 0 bytes used by permanent object pool.
+[2015.09.10-20.14.46:263][  0]LogEngine: Initializing Engine...
+[2015.09.10-20.14.46:269][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.09.10-20.14.46:350][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.09.10-20.14.47:800][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.09.10-20.17.13:401][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/UE4Editor-XAudio2.dll' because the file couldn't be loaded by the OS.
+[2015.09.10-20.17.13:482][  0]LogDerivedDataCache: Saved boot cache 0.08s 53MB C:/Users/Samantha/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.09.10-20.17.13:500][  0]LogInit: Texture streaming: Disabled
+[2015.09.10-20.17.13:592][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.09.10-20.17.13:592][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.09.10-20.17.13:592][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 46872bea408cfcc0100ac385d2b5ce07|e22a3db169b04f708165eaff958a9646|097015b1-a59a-4201-b460-717027cc9fe8
+[2015.09.10-20.17.13:593][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.09.10-20.17.13:813][  0]LogInit: Transaction tracking system initialized
+[2015.09.10-20.17.14:401][  0]BlueprintLog: New page: Editor Load
+[2015.09.10-20.17.14:518][  0]LogAssetRegistry: FAssetRegistry took 0.0123 seconds to start up
+[2015.09.10-20.17.14:519][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.09.10-20.17.17:809][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.09.10-20.17.17:809][  0]LogConsoleResponse:Display: 
+[2015.09.10-20.17.21:878][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.09.10-20.17.23:045][  0]SourceControl: Info Source control is disabled
+[2015.09.10-20.17.23:045][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Scene/NewCave.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.09.10-20.17.23:408][  0]LightingResults: New page: Lighting Build
+[2015.09.10-20.17.23:453][  0]MapCheck: New page: Map Check
+[2015.09.10-20.17.23:453][  0]LightingResults: New page: Lighting Build
+[2015.09.10-20.17.23:510][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DB02CC1300
+[2015.09.10-20.17.34:637][  0]LogBlueprint:Warning: [compiler Gui] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
+[2015.09.10-20.17.34:664][  0]LogBlueprint:Warning: [compiler Gui] Warning [0380.14] Compile of Gui successful, but with 1 Warning(s) [in 106 ms]
+[2015.09.10-20.17.34:665][  0]LogBlueprint:Warning: [compiler Gui] Warning [0380.14] Compile of Gui successful, but with 2 Warning(s) [in 0 ms]
+[2015.09.10-20.17.34:665][  0]LogBlueprint:Warning: [compiler Gui] Warning [0380.14] Compile of Gui successful, but with 3 Warning(s) [in 0 ms]
+[2015.09.10-20.17.35:546][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
+[2015.09.10-20.17.35:547][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0381.03] Compile of GnawmersHealth successful, but with 1 Warning(s) [in 22 ms]
+[2015.09.10-20.17.35:547][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0381.03] Compile of GnawmersHealth successful, but with 2 Warning(s) [in 0 ms]
+[2015.09.10-20.17.35:547][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0381.03] Compile of GnawmersHealth successful, but with 3 Warning(s) [in 0 ms]
+[2015.09.10-20.17.40:387][  0]LogBlueprint:Warning: [compiler Gui] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
+[2015.09.10-20.17.40:403][  0]LogBlueprint:Warning: [compiler Gui] Warning [0385.88] Compile of Gui successful, but with 1 Warning(s) [in 66 ms]
+[2015.09.10-20.17.40:406][  0]LogBlueprint:Warning: [compiler Gui] Warning [0385.88] Compile of Gui successful, but with 2 Warning(s) [in 2 ms]
+[2015.09.10-20.17.40:562][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
+[2015.09.10-20.17.40:563][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0386.04] Compile of GnawmersHealth successful, but with 1 Warning(s) [in 22 ms]
+[2015.09.10-20.17.40:564][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0386.04] Compile of GnawmersHealth successful, but with 2 Warning(s) [in 0 ms]
+[2015.09.10-20.19.07:856][  0]LogAIModule: Creating AISystem for world NewCave
+[2015.09.10-20.19.14:903][  0]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2015.09.10-20.19.15:003][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.09.10-20.19.15:443][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 417.675ms to complete.
+[2015.09.10-20.19.15:444][  0]LogFileHelpers: Loading map 'NewCave' took 112.398
+[2015.09.10-20.19.17:422][  0]LogCollectionManager: Loaded 0 collections in 0.007656 seconds
+[2015.09.10-20.19.17:535][  0]LogContentBrowser: Native class hierarchy populated in 0.0742 seconds. Added 1792 classes and 301 folders.
+[2015.09.10-20.19.18:171][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2015.09.10-20.19.19:182][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0015 seconds. Added 0 classes and 0 folders.
+[2015.09.10-20.19.20:064][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2015.09.10-20.19.21:010][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.09.10-20.19.21:110][  0]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.19.21:218][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.09.10-20.19.21:302][  0]LogLoad: Full Startup: 486.78 seconds (BP compile: 9.63 seconds)
+[2015.09.10-20.19.22:479][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.09.10-20.19.23:320][  0]LogContentStreaming: Texture pool size now 700 MB
+[2015.09.10-20.19.24:359][  0]LogRenderer: Reallocating scene render targets to support 864x712 (Frame:2).
+[2015.09.10-20.19.26:173][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2015.09.10-20.19.26:294][  1]Cmd: UpdateLandscapeEditorData
+[2015.09.10-20.19.33:807][ 60]LogAssetRegistry: Asset discovery search completed in 139.3004 seconds
+[2015.09.10-20.20.11:266][381]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.21.35:097][310]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.21.35:886][310]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.10-20.21.36:112][310]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.10-20.21.52:389][466]LogRenderer: Reallocating scene render targets to support 968x712 (Frame:1231).
+[2015.09.10-20.22.00:822][557]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.22.01:101][557]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.22.32:053][150]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.22.34:736][150]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2015.09.10-20.22.35:785][150]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/SubEditors/PersonaAnimEditorTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.10-20.22.36:355][150]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.09.10-20.23.40:027][149]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.23.57:102][412]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.24.13:022][506]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.24.39:446][395]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.24.40:804][395]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_3) - call TermArticulated first.
+[2015.09.10-20.24.41:324][395]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.09.10-20.25.22:818][476]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.09.10-20.25.22:852][476]LogPlayLevel: [PIE] Compiling NewCave before PIE...
+[2015.09.10-20.25.24:502][476]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.10-20.25.24:503][476]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.09.10-20.25.25:097][476]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E4041F2E0
+[2015.09.10-20.25.25:099][476]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E4041ED40
+[2015.09.10-20.25.25:124][476]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E17529B20
+[2015.09.10-20.25.25:127][476]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E436CA2A0
+[2015.09.10-20.25.25:130][476]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E66B32A20
+[2015.09.10-20.25.26:963][476]LogPlayLevel: PIE:  Blueprint regeneration took 4144 ms (1 blueprints)
+[2015.09.10-20.25.27:301][476]PIE: New page: PIE session: NewCave (Sep 10, 2015, 6:25:26 AM)
+[2015.09.10-20.25.27:308][476]LogPlayLevel: Creating play world package: /Game/Scene/UEDPIE_0_NewCave
+[2015.09.10-20.25.28:055][476]LogPlayLevel: PIE: StaticDuplicateObject took: (0.746825s)
+[2015.09.10-20.25.28:057][476]LogAIModule: Creating AISystem for world NewCave
+[2015.09.10-20.25.28:058][476]LogPlayLevel: PIE: World Init took: (0.002976s)
+[2015.09.10-20.25.28:074][476]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/NewCave.NewCave to /Game/Scene/UEDPIE_0_NewCave.NewCave (0.765990s)
+[2015.09.10-20.25.28:808][476]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.09.10-20.25.30:307][476]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.09.10-20.25.30:308][476]LogWorld: Bringing World /Game/Scene/UEDPIE_0_NewCave.NewCave up for play (max tick rate 60) at 2015.09.10-13.25.30
+[2015.09.10-20.25.30:308][476]LogActor:Warning: GameSession /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.10-20.25.30:328][476]LogActor:Warning: GameNetworkManager /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.10-20.25.30:675][476]LogWorld: Bringing up level for play took: 1.851710
+[2015.09.10-20.25.31:107][476]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	KeySpawner_C /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.KeySpawner_C_0
+	Function /Game/Key/KeySpawner.KeySpawner_C:ExecuteUbergraph_KeySpawner:0410
+[2015.09.10-20.25.31:113][476]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node SpawnActor in graph 'EventGraph' in blueprint KeySpawner
+[2015.09.10-20.25.31:114][476]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	KeySpawner_C /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.KeySpawner_C_0
+	Function /Game/Key/KeySpawner.KeySpawner_C:ExecuteUbergraph_KeySpawner:050C
+[2015.09.10-20.25.31:114][476]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node SpawnActor in graph 'EventGraph' in blueprint KeySpawner
+[2015.09.10-20.25.31:115][476]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	KeySpawner_C /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.KeySpawner_C_0
+	Function /Game/Key/KeySpawner.KeySpawner_C:ExecuteUbergraph_KeySpawner:0605
+[2015.09.10-20.25.31:115][476]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node SetActorLocation in graph 'EventGraph' in blueprint KeySpawner
+[2015.09.10-20.25.31:116][476]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	KeySpawner_C /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.KeySpawner_C_0
+	Function /Game/Key/KeySpawner.KeySpawner_C:ExecuteUbergraph_KeySpawner:0410
+[2015.09.10-20.25.31:116][476]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node SpawnActor in graph 'EventGraph' in blueprint KeySpawner
+[2015.09.10-20.25.31:116][476]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	KeySpawner_C /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.KeySpawner_C_0
+	Function /Game/Key/KeySpawner.KeySpawner_C:ExecuteUbergraph_KeySpawner:050C
+[2015.09.10-20.25.31:116][476]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node SpawnActor in graph 'EventGraph' in blueprint KeySpawner
+[2015.09.10-20.25.31:118][476]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	KeySpawner_C /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.KeySpawner_C_0
+	Function /Game/Key/KeySpawner.KeySpawner_C:ExecuteUbergraph_KeySpawner:0605
+[2015.09.10-20.25.31:119][476]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node SetActorLocation in graph 'EventGraph' in blueprint KeySpawner
+[2015.09.10-20.25.31:136][476]PIE: Info Play in editor start time for /Game/Scene/UEDPIE_0_NewCave 8.15
+[2015.09.10-20.25.31:595][476]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsThird_Person_Character2'
+	SuccessScreen_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SuccessScreen_C_0
+	Function /Game/GUI/SuccessScreen.SuccessScreen_C:ExecuteUbergraph_SuccessScreen:04AE
+[2015.09.10-20.25.51:984][632]LogScript:Warning: Cannot access 'ThirdPersonCharacter_C_15'. It is pending kill. Property: 'K2Node_DynamicCast_AsThird_Person_Character'
+	DeathScreen_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.DeathScreen_C_0
+	Function /Game/GUI/DeathScreen.DeathScreen_C:ExecuteUbergraph_DeathScreen:0101
+[2015.09.10-20.25.51:984][632]LogScript:Warning: Attempt to assign variable through None
+	DeathScreen_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.DeathScreen_C_0
+	Function /Game/GUI/DeathScreen.DeathScreen_C:ExecuteUbergraph_DeathScreen:0117
+[2015.09.10-20.25.51:984][632]LogScript:Warning: Cannot access 'ThirdPersonCharacter_C_15'. It is pending kill. Property: 'K2Node_DynamicCast_AsThird_Person_Character2'
+	SuccessScreen_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SuccessScreen_C_0
+	Function /Game/GUI/SuccessScreen.SuccessScreen_C:ExecuteUbergraph_SuccessScreen:04AE
+[2015.09.10-20.25.52:069][633]LogScript:Warning: Cannot access 'ThirdPersonCharacter_C_15'. It is pending kill. Property: 'K2Node_DynamicCast_AsThird_Person_Character'
+	Gui_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.Gui_C_0
+	Function /Game/GUI/Gui.Gui_C:ExecuteUbergraph_Gui:0221
+[2015.09.10-20.25.52:069][633]LogScript:Warning: Cannot access 'ThirdPersonCharacter_C_15'. It is pending kill. Property: 'K2Node_DynamicCast_AsThird_Person_Character'
+	Gui_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.Gui_C_0
+	Function /Game/GUI/Gui.Gui_C:ExecuteUbergraph_Gui:028F
+[2015.09.10-20.25.52:069][633]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsThird_Person_Character2'
+	SuccessScreen_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SuccessScreen_C_0
+	Function /Game/GUI/SuccessScreen.SuccessScreen_C:ExecuteUbergraph_SuccessScreen:04AE
+[2015.09.10-20.25.52:177][634]LogScript:Warning: Cannot access 'Goblinontroller_C_2'. It is pending kill. Property: 'K2Node_DynamicCast_AsAIController'
+	Wander2_C /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.Goblinontroller_C_2.BTComponent.Wander2_C_0
+	Function /Game/Goblin/GoblinAi/Wander2.Wander2_C:ExecuteUbergraph_Wander2:0063
+[2015.09.10-20.25.52:177][634]PIE:Error: Error Cannot access 'Goblinontroller_C_2'. It is pending kill. Property: 'K2Node_DynamicCast_AsAIController' from node Cast To GoblinBp in graph 'EventGraph' in blueprint Wander2
+[2015.09.10-20.25.52:194][634]LogScript:Warning: Cannot access 'ThirdPersonCharacter_C_15'. It is pending kill. Property: 'K2Node_DynamicCast_AsThird_Person_Character'
+	Gui_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.Gui_C_0
+	Function /Game/GUI/Gui.Gui_C:ExecuteUbergraph_Gui:0221
+[2015.09.10-20.25.52:194][634]LogScript:Warning: Cannot access 'ThirdPersonCharacter_C_15'. It is pending kill. Property: 'K2Node_DynamicCast_AsThird_Person_Character'
+	Gui_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.Gui_C_0
+	Function /Game/GUI/Gui.Gui_C:ExecuteUbergraph_Gui:028F
+[2015.09.10-20.25.52:195][634]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsThird_Person_Character2'
+	SuccessScreen_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SuccessScreen_C_0
+	Function /Game/GUI/SuccessScreen.SuccessScreen_C:ExecuteUbergraph_SuccessScreen:04AE
+[2015.09.10-20.25.52:335][635]LogScript:Warning: Cannot access 'ThirdPersonCharacter_C_15'. It is pending kill. Property: 'K2Node_DynamicCast_AsThird_Person_Character'
+	Gui_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.Gui_C_0
+	Function /Game/GUI/Gui.Gui_C:ExecuteUbergraph_Gui:0221
+[2015.09.10-20.25.52:335][635]LogScript:Warning: Cannot access 'ThirdPersonCharacter_C_15'. It is pending kill. Property: 'K2Node_DynamicCast_AsThird_Person_Character'
+	Gui_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.Gui_C_0
+	Function /Game/GUI/Gui.Gui_C:ExecuteUbergraph_Gui:028F
+[2015.09.10-20.25.52:335][635]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsThird_Person_Character2'
+	SuccessScreen_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SuccessScreen_C_0
+	Function /Game/GUI/SuccessScreen.SuccessScreen_C:ExecuteUbergraph_SuccessScreen:04AE
+[2015.09.10-20.25.52:421][636]LogScript:Warning: Cannot access 'ThirdPersonCharacter_C_15'. It is pending kill. Property: 'K2Node_DynamicCast_AsThird_Person_Character'
+	Gui_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.Gui_C_0
+	Function /Game/GUI/Gui.Gui_C:ExecuteUbergraph_Gui:0221
+[2015.09.10-20.25.52:421][636]LogScript:Warning: Cannot access 'ThirdPersonCharacter_C_15'. It is pending kill. Property: 'K2Node_DynamicCast_AsThird_Person_Character'
+	Gui_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.Gui_C_0
+	Function /Game/GUI/Gui.Gui_C:ExecuteUbergraph_Gui:028F
+[2015.09.10-20.25.52:422][636]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsThird_Person_Character2'
+	SuccessScreen_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SuccessScreen_C_0
+	Function /Game/GUI/SuccessScreen.SuccessScreen_C:ExecuteUbergraph_SuccessScreen:04AE
+[2015.09.10-20.25.52:527][637]LogScript:Warning: Cannot access 'ThirdPersonCharacter_C_15'. It is pending kill. Property: 'K2Node_DynamicCast_AsThird_Person_Character'
+	Gui_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.Gui_C_0
+	Function /Game/GUI/Gui.Gui_C:ExecuteUbergraph_Gui:0221
+[2015.09.10-20.25.52:528][637]LogScript:Warning: Cannot access 'ThirdPersonCharacter_C_15'. It is pending kill. Property: 'K2Node_DynamicCast_AsThird_Person_Character'
+	Gui_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.Gui_C_0
+	Function /Game/GUI/Gui.Gui_C:ExecuteUbergraph_Gui:028F
+[2015.09.10-20.25.52:528][637]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsThird_Person_Character2'
+	SuccessScreen_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SuccessScreen_C_0
+	Function /Game/GUI/SuccessScreen.SuccessScreen_C:ExecuteUbergraph_SuccessScreen:04AE
+[2015.09.10-20.25.52:624][638]LogScript:Warning: Cannot access 'ThirdPersonCharacter_C_15'. It is pending kill. Property: 'K2Node_DynamicCast_AsThird_Person_Character'
+	Gui_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.Gui_C_0
+	Function /Game/GUI/Gui.Gui_C:ExecuteUbergraph_Gui:0221
+[2015.09.10-20.25.52:624][638]LogScript:Warning: Cannot access 'ThirdPersonCharacter_C_15'. It is pending kill. Property: 'K2Node_DynamicCast_AsThird_Person_Character'
+	Gui_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.Gui_C_0
+	Function /Game/GUI/Gui.Gui_C:ExecuteUbergraph_Gui:028F
+[2015.09.10-20.25.52:624][638]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsThird_Person_Character2'
+	SuccessScreen_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SuccessScreen_C_0
+	Function /Game/GUI/SuccessScreen.SuccessScreen_C:ExecuteUbergraph_SuccessScreen:04AE
+[2015.09.10-20.25.52:729][639]LogScript:Warning: Cannot access 'ThirdPersonCharacter_C_15'. It is pending kill. Property: 'K2Node_DynamicCast_AsThird_Person_Character'
+	Gui_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.Gui_C_0
+	Function /Game/GUI/Gui.Gui_C:ExecuteUbergraph_Gui:0221
+[2015.09.10-20.25.52:729][639]LogScript:Warning: Cannot access 'ThirdPersonCharacter_C_15'. It is pending kill. Property: 'K2Node_DynamicCast_AsThird_Person_Character'
+	Gui_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.Gui_C_0
+	Function /Game/GUI/Gui.Gui_C:ExecuteUbergraph_Gui:028F
+[2015.09.10-20.25.52:729][639]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsThird_Person_Character2'
+	SuccessScreen_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SuccessScreen_C_0
+	Function /Game/GUI/SuccessScreen.SuccessScreen_C:ExecuteUbergraph_SuccessScreen:04AE
+[2015.09.10-20.25.52:831][640]LogScript:Warning: Cannot access 'ThirdPersonCharacter_C_15'. It is pending kill. Property: 'K2Node_DynamicCast_AsThird_Person_Character'
+	Gui_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.Gui_C_0
+	Function /Game/GUI/Gui.Gui_C:ExecuteUbergraph_Gui:0221
+[2015.09.10-20.25.52:831][640]LogScript:Warning: Cannot access 'ThirdPersonCharacter_C_15'. It is pending kill. Property: 'K2Node_DynamicCast_AsThird_Person_Character'
+	Gui_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.Gui_C_0
+	Function /Game/GUI/Gui.Gui_C:ExecuteUbergraph_Gui:028F
+[2015.09.10-20.25.52:831][640]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsThird_Person_Character2'
+	SuccessScreen_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SuccessScreen_C_0
+	Function /Game/GUI/SuccessScreen.SuccessScreen_C:ExecuteUbergraph_SuccessScreen:04AE
+[2015.09.10-20.25.52:934][641]LogScript:Warning: Cannot access 'ThirdPersonCharacter_C_15'. It is pending kill. Property: 'K2Node_DynamicCast_AsThird_Person_Character'
+	Gui_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.Gui_C_0
+	Function /Game/GUI/Gui.Gui_C:ExecuteUbergraph_Gui:0221
+[2015.09.10-20.25.52:935][641]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsThird_Person_Character2'
+	SuccessScreen_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SuccessScreen_C_0
+	Function /Game/GUI/SuccessScreen.SuccessScreen_C:ExecuteUbergraph_SuccessScreen:04AE
+[2015.09.10-20.25.53:035][642]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsThird_Person_Character2'
+	SuccessScreen_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SuccessScreen_C_0
+	Function /Game/GUI/SuccessScreen.SuccessScreen_C:ExecuteUbergraph_SuccessScreen:04AE
+[2015.09.10-20.25.53:139][643]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsThird_Person_Character2'
+	SuccessScreen_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SuccessScreen_C_0
+	Function /Game/GUI/SuccessScreen.SuccessScreen_C:ExecuteUbergraph_SuccessScreen:04AE
+[2015.09.10-20.25.53:246][644]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsThird_Person_Character2'
+	SuccessScreen_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SuccessScreen_C_0
+	Function /Game/GUI/SuccessScreen.SuccessScreen_C:ExecuteUbergraph_SuccessScreen:04AE
+[2015.09.10-20.25.53:341][645]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsThird_Person_Character2'
+	SuccessScreen_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SuccessScreen_C_0
+	Function /Game/GUI/SuccessScreen.SuccessScreen_C:ExecuteUbergraph_SuccessScreen:04AE
+[2015.09.10-20.25.53:466][646]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_2 Controller:SkeletonController_C_4 controlling Pawn:Skeleton_EnemyBP_C_4 with goal actor None (if any of these is None then there's your problem
+[2015.09.10-20.25.53:481][646]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsThird_Person_Character2'
+	SuccessScreen_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SuccessScreen_C_0
+	Function /Game/GUI/SuccessScreen.SuccessScreen_C:ExecuteUbergraph_SuccessScreen:04AE
+[2015.09.10-20.25.53:547][647]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsThird_Person_Character2'
+	SuccessScreen_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SuccessScreen_C_0
+	Function /Game/GUI/SuccessScreen.SuccessScreen_C:ExecuteUbergraph_SuccessScreen:04AE
+[2015.09.10-20.25.53:627][648]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_2 Controller:SkeletonController_C_4 controlling Pawn:Skeleton_EnemyBP_C_4 with goal actor None (if any of these is None then there's your problem
+[2015.09.10-20.25.53:838][650]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_2 Controller:SkeletonController_C_4 controlling Pawn:Skeleton_EnemyBP_C_4 with goal actor None (if any of these is None then there's your problem
+[2015.09.10-20.25.54:825][651]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E40D09EE0
+[2015.09.10-20.25.54:833][651]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.25.59:696][685]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.09.10-20.25.59:724][685]LogPlayLevel: [PIE] Compiling NewCave before PIE...
+[2015.09.10-20.26.00:271][685]LogPlayLevel: PIE:  Blueprint regeneration took 574 ms (1 blueprints)
+[2015.09.10-20.26.00:271][685]PIE: New page: PIE session: NewCave (Sep 10, 2015, 6:26:00 AM)
+[2015.09.10-20.26.00:272][685]LogPlayLevel: Creating play world package: /Game/Scene/UEDPIE_0_NewCave
+[2015.09.10-20.26.00:915][685]LogPlayLevel: PIE: StaticDuplicateObject took: (0.643427s)
+[2015.09.10-20.26.00:917][685]LogAIModule: Creating AISystem for world NewCave
+[2015.09.10-20.26.00:919][685]LogPlayLevel: PIE: World Init took: (0.003361s)
+[2015.09.10-20.26.00:920][685]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/NewCave.NewCave to /Game/Scene/UEDPIE_0_NewCave.NewCave (0.648048s)
+[2015.09.10-20.26.01:173][685]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.09.10-20.26.01:791][685]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.09.10-20.26.01:791][685]LogWorld: Bringing World /Game/Scene/UEDPIE_0_NewCave.NewCave up for play (max tick rate 60) at 2015.09.10-13.26.01
+[2015.09.10-20.26.01:792][685]LogActor:Warning: GameSession /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.10-20.26.01:794][685]LogActor:Warning: GameNetworkManager /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.10-20.26.01:827][685]LogWorld: Bringing up level for play took: 0.650274
+[2015.09.10-20.26.01:899][685]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	KeySpawner_C /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.KeySpawner_C_0
+	Function /Game/Key/KeySpawner.KeySpawner_C:ExecuteUbergraph_KeySpawner:0410
+[2015.09.10-20.26.01:899][685]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node SpawnActor in graph 'EventGraph' in blueprint KeySpawner
+[2015.09.10-20.26.01:899][685]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	KeySpawner_C /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.KeySpawner_C_0
+	Function /Game/Key/KeySpawner.KeySpawner_C:ExecuteUbergraph_KeySpawner:050C
+[2015.09.10-20.26.01:900][685]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node SpawnActor in graph 'EventGraph' in blueprint KeySpawner
+[2015.09.10-20.26.01:900][685]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	KeySpawner_C /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.KeySpawner_C_0
+	Function /Game/Key/KeySpawner.KeySpawner_C:ExecuteUbergraph_KeySpawner:0605
+[2015.09.10-20.26.01:901][685]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node SetActorLocation in graph 'EventGraph' in blueprint KeySpawner
+[2015.09.10-20.26.01:903][685]PIE: Info Play in editor start time for /Game/Scene/UEDPIE_0_NewCave 2.917
+[2015.09.10-20.26.01:939][685]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsThird_Person_Character2'
+	SuccessScreen_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.SuccessScreen_C_1
+	Function /Game/GUI/SuccessScreen.SuccessScreen_C:ExecuteUbergraph_SuccessScreen:04AE
+[2015.09.10-20.26.13:774][781]LogScript:Warning: Cannot access 'KoboldController_C_1'. It is pending kill. Property: 'K2Node_DynamicCast_AsAIController'
+	Wander3_C /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.KoboldController_C_1.BTComponent.Wander3_C_1
+	Function /Game/Kobold/KoboldAi/Wander3.Wander3_C:ExecuteUbergraph_Wander3:0063
+[2015.09.10-20.26.13:775][781]PIE:Error: Error Cannot access 'KoboldController_C_1'. It is pending kill. Property: 'K2Node_DynamicCast_AsAIController' from node Cast To KoboldBp in graph 'EventGraph' in blueprint Wander3
+[2015.09.10-20.26.14:434][786]LogScript:Warning: Cannot access 'Goblinontroller_C_4'. It is pending kill. Property: 'K2Node_DynamicCast_AsAIController'
+	Wander2_C /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.Goblinontroller_C_4.BTComponent.Wander2_C_1
+	Function /Game/Goblin/GoblinAi/Wander2.Wander2_C:ExecuteUbergraph_Wander2:0063
+[2015.09.10-20.26.14:434][786]PIE:Error: Error Cannot access 'Goblinontroller_C_4'. It is pending kill. Property: 'K2Node_DynamicCast_AsAIController' from node Cast To GoblinBp in graph 'EventGraph' in blueprint Wander2
+[2015.09.10-20.26.24:323][860]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E7FF21580
+[2015.09.10-20.26.24:323][860]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.27.09:399][752]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.27.21:848][ 70]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.30.36:480][822]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.31.06:271][671]BlueprintLog: New page: Compile MixamoAnimBP_Vampire
+[2015.09.10-20.31.08:496][671]BlueprintEditorCompileResults: Info [1193.96] Compile of MixamoAnimBP_Vampire successful! [in 2,213 ms]
+[2015.09.10-20.31.10:302][713]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.31.11:524][713]LogSavePackage: Save=513.088257ms
+[2015.09.10-20.31.11:524][713]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/MixamoAnimBP_Vampire3DADE267452F10A1D657079C6E3F8F73.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.uasset'
+[2015.09.10-20.31.12:947][752]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.31.20:751][942]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.09.10-20.31.20:785][942]LogPlayLevel: [PIE] Compiling NewCave before PIE...
+[2015.09.10-20.31.21:381][942]LogPlayLevel: PIE:  Blueprint regeneration took 630 ms (1 blueprints)
+[2015.09.10-20.31.21:381][942]PIE: New page: PIE session: NewCave (Sep 10, 2015, 6:31:21 AM)
+[2015.09.10-20.31.21:383][942]LogPlayLevel: Creating play world package: /Game/Scene/UEDPIE_0_NewCave
+[2015.09.10-20.31.22:019][942]LogPlayLevel: PIE: StaticDuplicateObject took: (0.636053s)
+[2015.09.10-20.31.22:021][942]LogAIModule: Creating AISystem for world NewCave
+[2015.09.10-20.31.22:023][942]LogPlayLevel: PIE: World Init took: (0.003327s)
+[2015.09.10-20.31.22:024][942]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/NewCave.NewCave to /Game/Scene/UEDPIE_0_NewCave.NewCave (0.640681s)
+[2015.09.10-20.31.22:281][942]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.09.10-20.31.22:896][942]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.09.10-20.31.22:896][942]LogWorld: Bringing World /Game/Scene/UEDPIE_0_NewCave.NewCave up for play (max tick rate 60) at 2015.09.10-13.31.22
+[2015.09.10-20.31.22:896][942]LogActor:Warning: GameSession /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.10-20.31.22:898][942]LogActor:Warning: GameNetworkManager /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.10-20.31.22:929][942]LogWorld: Bringing up level for play took: 0.644038
+[2015.09.10-20.31.22:961][942]PIE: Info Play in editor start time for /Game/Scene/UEDPIE_0_NewCave 1.976
+[2015.09.10-20.31.23:000][942]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsThird_Person_Character2'
+	SuccessScreen_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.SuccessScreen_C_2
+	Function /Game/GUI/SuccessScreen.SuccessScreen_C:ExecuteUbergraph_SuccessScreen:04AE
+[2015.09.10-20.31.50:663][154]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E42F26E80
+[2015.09.10-20.32.04:274][445]BlueprintLog: New page: Compile MixamoAnimBP_Vampire
+[2015.09.10-20.32.06:247][445]BlueprintEditorCompileResults: Info [1251.73] Compile of MixamoAnimBP_Vampire successful! [in 1,972 ms]
+[2015.09.10-20.32.07:687][482]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.32.08:218][482]LogSavePackage: Save=414.498535ms
+[2015.09.10-20.32.08:218][482]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/MixamoAnimBP_Vampire701CA8174C501926DBE5478BC2615F75.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.uasset'
+[2015.09.10-20.32.18:437][765]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.32.19:283][765]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.09.10-20.32.44:952][458]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.09.10-20.33.05:971][994]BlueprintLog: New page: Compile MixamoAnimBP_Vampire
+[2015.09.10-20.33.07:896][994]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E32C17240
+[2015.09.10-20.33.07:897][994]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E16296520
+[2015.09.10-20.33.07:899][994]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E39D82480
+[2015.09.10-20.33.08:003][994]BlueprintEditorCompileResults: Info [1313.48] Compile of MixamoAnimBP_Vampire successful! [in 2,032 ms]
+[2015.09.10-20.33.08:530][  3]BlueprintLog: New page: Compile MixamoAnimBP_Vampire
+[2015.09.10-20.33.10:374][  3]BlueprintEditorCompileResults: Info [1315.85] Compile of MixamoAnimBP_Vampire successful! [in 1,843 ms]
+[2015.09.10-20.33.10:386][  3]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.33.10:916][  3]LogSavePackage: Save=415.694489ms
+[2015.09.10-20.33.10:916][  3]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/MixamoAnimBP_VampireF0D4751F47F87A1FDCA34D836E86F978.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.uasset'
+[2015.09.10-20.33.14:292][ 54]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.09.10-20.33.14:343][ 54]LogPlayLevel: [PIE] Compiling NewCave before PIE...
+[2015.09.10-20.33.14:963][ 54]LogPlayLevel: PIE:  Blueprint regeneration took 671 ms (1 blueprints)
+[2015.09.10-20.33.14:963][ 54]PIE: New page: PIE session: NewCave (Sep 10, 2015, 6:33:14 AM)
+[2015.09.10-20.33.14:965][ 54]LogPlayLevel: Creating play world package: /Game/Scene/UEDPIE_0_NewCave
+[2015.09.10-20.33.15:389][ 54]LogPlayLevel: PIE: StaticDuplicateObject took: (0.424246s)
+[2015.09.10-20.33.15:390][ 54]LogAIModule: Creating AISystem for world NewCave
+[2015.09.10-20.33.15:392][ 54]LogPlayLevel: PIE: World Init took: (0.003703s)
+[2015.09.10-20.33.15:394][ 54]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/NewCave.NewCave to /Game/Scene/UEDPIE_0_NewCave.NewCave (0.429548s)
+[2015.09.10-20.33.15:714][ 54]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.09.10-20.33.16:341][ 54]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.09.10-20.33.16:341][ 54]LogWorld: Bringing World /Game/Scene/UEDPIE_0_NewCave.NewCave up for play (max tick rate 60) at 2015.09.10-13.33.16
+[2015.09.10-20.33.16:341][ 54]LogActor:Warning: GameSession /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.10-20.33.16:342][ 54]LogActor:Warning: GameNetworkManager /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.10-20.33.16:372][ 54]LogWorld: Bringing up level for play took: 0.655299
+[2015.09.10-20.33.16:400][ 54]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	KeySpawner_C /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.KeySpawner_C_0
+	Function /Game/Key/KeySpawner.KeySpawner_C:ExecuteUbergraph_KeySpawner:0410
+[2015.09.10-20.33.16:401][ 54]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node SpawnActor in graph 'EventGraph' in blueprint KeySpawner
+[2015.09.10-20.33.16:401][ 54]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	KeySpawner_C /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.KeySpawner_C_0
+	Function /Game/Key/KeySpawner.KeySpawner_C:ExecuteUbergraph_KeySpawner:050C
+[2015.09.10-20.33.16:401][ 54]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node SpawnActor in graph 'EventGraph' in blueprint KeySpawner
+[2015.09.10-20.33.16:402][ 54]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	KeySpawner_C /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.KeySpawner_C_0
+	Function /Game/Key/KeySpawner.KeySpawner_C:ExecuteUbergraph_KeySpawner:0605
+[2015.09.10-20.33.16:403][ 54]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node SetActorLocation in graph 'EventGraph' in blueprint KeySpawner
+[2015.09.10-20.33.16:407][ 54]PIE: Info Play in editor start time for /Game/Scene/UEDPIE_0_NewCave 1.421
+[2015.09.10-20.33.16:439][ 54]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsThird_Person_Character2'
+	SuccessScreen_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.SuccessScreen_C_3
+	Function /Game/GUI/SuccessScreen.SuccessScreen_C:ExecuteUbergraph_SuccessScreen:04AE
+[2015.09.10-20.33.55:132][365]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E11320C20
+[2015.09.10-20.33.55:133][365]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.33.58:640][395]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.34.10:571][575]BlueprintLog: New page: Compile MixamoAnimBP_Vampire
+[2015.09.10-20.34.12:449][575]BlueprintEditorCompileResults: Info [1377.93] Compile of MixamoAnimBP_Vampire successful! [in 1,877 ms]
+[2015.09.10-20.34.13:151][588]BlueprintLog: New page: Compile MixamoAnimBP_Vampire
+[2015.09.10-20.34.15:066][588]BlueprintEditorCompileResults: Info [1380.54] Compile of MixamoAnimBP_Vampire successful! [in 1,914 ms]
+[2015.09.10-20.34.35:779][111]BlueprintLog: New page: Compile MixamoAnimBP_Vampire
+[2015.09.10-20.34.37:497][111]BlueprintEditorCompileResults: Info [1402.97] Compile of MixamoAnimBP_Vampire successful! [in 1,717 ms]
+[2015.09.10-20.34.43:147][254]BlueprintLog: New page: Compile MixamoAnimBP_Vampire
+[2015.09.10-20.34.44:963][254]BlueprintEditorCompileResults: Info [1410.44] Compile of MixamoAnimBP_Vampire successful! [in 1,816 ms]
+[2015.09.10-20.34.56:908][532]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.09.10-20.34.56:947][532]LogPlayLevel: [PIE] Compiling NewCave before PIE...
+[2015.09.10-20.34.57:505][532]LogPlayLevel: PIE:  Blueprint regeneration took 597 ms (1 blueprints)
+[2015.09.10-20.34.57:505][532]PIE: New page: PIE session: NewCave (Sep 10, 2015, 6:34:57 AM)
+[2015.09.10-20.34.57:507][532]LogPlayLevel: Creating play world package: /Game/Scene/UEDPIE_0_NewCave
+[2015.09.10-20.34.57:890][532]LogPlayLevel: PIE: StaticDuplicateObject took: (0.383675s)
+[2015.09.10-20.34.57:892][532]LogAIModule: Creating AISystem for world NewCave
+[2015.09.10-20.34.57:893][532]LogPlayLevel: PIE: World Init took: (0.002812s)
+[2015.09.10-20.34.57:894][532]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/NewCave.NewCave to /Game/Scene/UEDPIE_0_NewCave.NewCave (0.387594s)
+[2015.09.10-20.34.58:135][532]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.09.10-20.34.58:823][532]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.09.10-20.34.58:823][532]LogWorld: Bringing World /Game/Scene/UEDPIE_0_NewCave.NewCave up for play (max tick rate 60) at 2015.09.10-13.34.58
+[2015.09.10-20.34.58:823][532]LogActor:Warning: GameSession /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.10-20.34.58:825][532]LogActor:Warning: GameNetworkManager /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.10-20.34.58:860][532]LogWorld: Bringing up level for play took: 0.721610
+[2015.09.10-20.34.58:892][532]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	KeySpawner_C /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.KeySpawner_C_0
+	Function /Game/Key/KeySpawner.KeySpawner_C:ExecuteUbergraph_KeySpawner:0410
+[2015.09.10-20.34.58:892][532]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node SpawnActor in graph 'EventGraph' in blueprint KeySpawner
+[2015.09.10-20.34.58:892][532]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	KeySpawner_C /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.KeySpawner_C_0
+	Function /Game/Key/KeySpawner.KeySpawner_C:ExecuteUbergraph_KeySpawner:050C
+[2015.09.10-20.34.58:892][532]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node SpawnActor in graph 'EventGraph' in blueprint KeySpawner
+[2015.09.10-20.34.58:893][532]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	KeySpawner_C /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.KeySpawner_C_0
+	Function /Game/Key/KeySpawner.KeySpawner_C:ExecuteUbergraph_KeySpawner:0605
+[2015.09.10-20.34.58:894][532]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node SetActorLocation in graph 'EventGraph' in blueprint KeySpawner
+[2015.09.10-20.34.58:898][532]PIE: Info Play in editor start time for /Game/Scene/UEDPIE_0_NewCave 1.912
+[2015.09.10-20.34.58:937][532]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsThird_Person_Character2'
+	SuccessScreen_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.SuccessScreen_C_4
+	Function /Game/GUI/SuccessScreen.SuccessScreen_C:ExecuteUbergraph_SuccessScreen:04AE
+[2015.09.10-20.35.10:735][627]LogScript:Warning: Cannot access 'KoboldController_C_4'. It is pending kill. Property: 'K2Node_DynamicCast_AsAIController'
+	Wander3_C /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.KoboldController_C_4.BTComponent.Wander3_C_4
+	Function /Game/Kobold/KoboldAi/Wander3.Wander3_C:ExecuteUbergraph_Wander3:0063
+[2015.09.10-20.35.10:735][627]PIE:Error: Error Cannot access 'KoboldController_C_4'. It is pending kill. Property: 'K2Node_DynamicCast_AsAIController' from node Cast To KoboldBp in graph 'EventGraph' in blueprint Wander3
+[2015.09.10-20.35.21:536][707]LogScript:Warning: Cannot access 'Goblinontroller_C_14'. It is pending kill. Property: 'K2Node_DynamicCast_AsAIController'
+	Wander2_C /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.Goblinontroller_C_14.BTComponent.Wander2_C_4
+	Function /Game/Goblin/GoblinAi/Wander2.Wander2_C:ExecuteUbergraph_Wander2:0063
+[2015.09.10-20.35.21:537][707]PIE:Error: Error Cannot access 'Goblinontroller_C_14'. It is pending kill. Property: 'K2Node_DynamicCast_AsAIController' from node Cast To GoblinBp in graph 'EventGraph' in blueprint Wander2
+[2015.09.10-20.35.26:836][743]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E08C7A340
+[2015.09.10-20.35.26:836][743]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.36.34:953][661]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.09.10-20.36.34:988][661]LogPlayLevel: [PIE] Compiling NewCave before PIE...
+[2015.09.10-20.36.35:600][661]LogPlayLevel: PIE:  Blueprint regeneration took 647 ms (1 blueprints)
+[2015.09.10-20.36.35:601][661]PIE: New page: PIE session: NewCave (Sep 10, 2015, 6:36:35 AM)
+[2015.09.10-20.36.35:602][661]LogPlayLevel: Creating play world package: /Game/Scene/UEDPIE_0_NewCave
+[2015.09.10-20.36.36:276][661]LogPlayLevel: PIE: StaticDuplicateObject took: (0.674263s)
+[2015.09.10-20.36.36:278][661]LogAIModule: Creating AISystem for world NewCave
+[2015.09.10-20.36.36:280][661]LogPlayLevel: PIE: World Init took: (0.003288s)
+[2015.09.10-20.36.36:282][661]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/NewCave.NewCave to /Game/Scene/UEDPIE_0_NewCave.NewCave (0.679122s)
+[2015.09.10-20.36.36:553][661]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.09.10-20.36.37:185][661]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.09.10-20.36.37:185][661]LogWorld: Bringing World /Game/Scene/UEDPIE_0_NewCave.NewCave up for play (max tick rate 60) at 2015.09.10-13.36.37
+[2015.09.10-20.36.37:185][661]LogActor:Warning: GameSession /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.10-20.36.37:187][661]LogActor:Warning: GameNetworkManager /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.10-20.36.37:217][661]LogWorld: Bringing up level for play took: 0.661104
+[2015.09.10-20.36.37:246][661]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	KeySpawner_C /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.KeySpawner_C_0
+	Function /Game/Key/KeySpawner.KeySpawner_C:ExecuteUbergraph_KeySpawner:0410
+[2015.09.10-20.36.37:246][661]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node SpawnActor in graph 'EventGraph' in blueprint KeySpawner
+[2015.09.10-20.36.37:247][661]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	KeySpawner_C /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.KeySpawner_C_0
+	Function /Game/Key/KeySpawner.KeySpawner_C:ExecuteUbergraph_KeySpawner:050C
+[2015.09.10-20.36.37:247][661]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node SpawnActor in graph 'EventGraph' in blueprint KeySpawner
+[2015.09.10-20.36.37:248][661]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node SetActorLocation in graph 'EventGraph' in blueprint KeySpawner
+[2015.09.10-20.36.37:251][661]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node SpawnActor in graph 'EventGraph' in blueprint KeySpawner
+[2015.09.10-20.36.37:251][661]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node SpawnActor in graph 'EventGraph' in blueprint KeySpawner
+[2015.09.10-20.36.37:252][661]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node SetActorLocation in graph 'EventGraph' in blueprint KeySpawner
+[2015.09.10-20.36.37:252][661]PIE: Info Play in editor start time for /Game/Scene/UEDPIE_0_NewCave 2.267
+[2015.09.10-20.36.37:282][661]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsThird_Person_Character2'
+	SuccessScreen_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.SuccessScreen_C_5
+	Function /Game/GUI/SuccessScreen.SuccessScreen_C:ExecuteUbergraph_SuccessScreen:04AE
+[2015.09.10-20.36.54:362][797]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E113219E0
+[2015.09.10-20.36.54:363][797]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.37.15:397][393]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.39.06:043][ 52]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.09.10-20.39.25:898][591]LogEditorTransaction: Undo Translate Bone
+[2015.09.10-20.39.25:954][591]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.39.39:499][945]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.39.39:719][945]LogSavePackage: Save=56.583885ms
+[2015.09.10-20.39.39:719][945]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/Maximo_Vampire_jumpB534159D475E9E1E1A1D658CD23B17C4.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/MixamoAnimPack/Mixamo_Vampire/Anims/Maximo_Vampire_jump.uasset'
+[2015.09.10-20.40.43:538][468]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.09.10-20.40.47:144][552]BlueprintLog: New page: Compile MixamoAnimBP_Vampire
+[2015.09.10-20.40.49:032][552]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E138E8360
+[2015.09.10-20.40.49:033][552]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E138EB4C0
+[2015.09.10-20.40.49:035][552]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E1592DB20
+[2015.09.10-20.40.49:035][552]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E40949940
+[2015.09.10-20.40.49:038][552]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E1592E980
+[2015.09.10-20.40.49:039][552]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E158859E0
+[2015.09.10-20.40.49:040][552]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E141E1EE0
+[2015.09.10-20.40.49:042][552]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E139923E0
+[2015.09.10-20.40.49:042][552]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E1592DC60
+[2015.09.10-20.40.49:044][552]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E0E370D60
+[2015.09.10-20.40.49:164][552]BlueprintEditorCompileResults: Info [1774.64] Compile of MixamoAnimBP_Vampire successful! [in 2,019 ms]
+[2015.09.10-20.40.49:177][552]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.40.49:788][552]LogSavePackage: Save=424.668976ms
+[2015.09.10-20.40.49:788][552]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/MixamoAnimBP_Vampire7449BB864A9351C3F1293E9D363ABD66.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.uasset'
+[2015.09.10-20.41.46:700][884]BlueprintLog: New page: Compile MixamoAnimBP_Vampire
+[2015.09.10-20.41.48:478][884]BlueprintEditorCompileResults: Info [1833.96] Compile of MixamoAnimBP_Vampire successful! [in 1,777 ms]
+[2015.09.10-20.41.49:928][914]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.41.50:498][914]LogSavePackage: Save=464.766205ms
+[2015.09.10-20.41.50:498][914]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/MixamoAnimBP_VampireBBB500D7491727C9E9B560B1C6B79E3C.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.uasset'
+[2015.09.10-20.41.54:356][962]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.09.10-20.41.54:396][962]LogPlayLevel: [PIE] Compiling NewCave before PIE...
+[2015.09.10-20.41.54:942][962]LogPlayLevel: PIE:  Blueprint regeneration took 587 ms (1 blueprints)
+[2015.09.10-20.41.54:942][962]PIE: New page: PIE session: NewCave (Sep 10, 2015, 6:41:54 AM)
+[2015.09.10-20.41.54:943][962]LogPlayLevel: Creating play world package: /Game/Scene/UEDPIE_0_NewCave
+[2015.09.10-20.41.55:365][962]LogPlayLevel: PIE: StaticDuplicateObject took: (0.420820s)
+[2015.09.10-20.41.55:367][962]LogAIModule: Creating AISystem for world NewCave
+[2015.09.10-20.41.55:369][962]LogPlayLevel: PIE: World Init took: (0.003647s)
+[2015.09.10-20.41.55:370][962]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/NewCave.NewCave to /Game/Scene/UEDPIE_0_NewCave.NewCave (0.425741s)
+[2015.09.10-20.41.55:637][962]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.09.10-20.41.56:275][962]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.09.10-20.41.56:276][962]LogWorld: Bringing World /Game/Scene/UEDPIE_0_NewCave.NewCave up for play (max tick rate 60) at 2015.09.10-13.41.56
+[2015.09.10-20.41.56:276][962]LogActor:Warning: GameSession /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.10-20.41.56:278][962]LogActor:Warning: GameNetworkManager /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.10-20.41.56:312][962]LogWorld: Bringing up level for play took: 0.671729
+[2015.09.10-20.41.56:346][962]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node SpawnActor in graph 'EventGraph' in blueprint KeySpawner
+[2015.09.10-20.41.56:347][962]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node SpawnActor in graph 'EventGraph' in blueprint KeySpawner
+[2015.09.10-20.41.56:348][962]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node SetActorLocation in graph 'EventGraph' in blueprint KeySpawner
+[2015.09.10-20.41.56:348][962]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node SpawnActor in graph 'EventGraph' in blueprint KeySpawner
+[2015.09.10-20.41.56:349][962]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node SpawnActor in graph 'EventGraph' in blueprint KeySpawner
+[2015.09.10-20.41.56:350][962]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node SetActorLocation in graph 'EventGraph' in blueprint KeySpawner
+[2015.09.10-20.41.56:351][962]PIE: Info Play in editor start time for /Game/Scene/UEDPIE_0_NewCave 1.366
+[2015.09.10-20.41.56:609][962]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsThird_Person_Character2'
+	SuccessScreen_C /Engine/Transient.UnrealEdEngine_0:GameInstance_6.SuccessScreen_C_6
+	Function /Game/GUI/SuccessScreen.SuccessScreen_C:ExecuteUbergraph_SuccessScreen:04AE
+[2015.09.10-20.42.35:139][264]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E3ACA8B80
+[2015.09.10-20.42.35:139][264]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.43.06:195][476]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.43.33:416][199]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.43.34:579][219]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.44.01:473][896]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.44.23:306][227]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.44.24:668][227]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_18) - call TermArticulated first.
+[2015.09.10-20.44.24:925][227]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.09.10-20.46.07:882][144]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.46.08:836][163]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.46.27:336][676]BlueprintLog: New page: Compile Enemy1
+[2015.09.10-20.46.27:889][676]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.10-20.46.27:890][676]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.09.10-20.46.27:890][676]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing640165AE468F69AE8637A1A177141621) Not registered. Aborting.
+[2015.09.10-20.46.28:348][676]BlueprintEditorCompileResults: Info [2113.83] Compile of Enemy1 successful! [in 1,011 ms]
+[2015.09.10-20.46.29:715][718]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.46.29:838][718]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy1/GnawmerAi/Enemy1" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Enemy1/GnawmerAi/Enemy1.uasset" SILENT=true
+[2015.09.10-20.46.30:154][718]LogSavePackage: Save=271.740448ms
+[2015.09.10-20.46.30:156][718]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/Enemy1CF640CC7463F0843E04D29A4A7D339E2.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/Enemy1/GnawmerAi/Enemy1.uasset'
+[2015.09.10-20.46.36:789][891]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.09.10-20.46.36:828][891]LogPlayLevel: [PIE] Compiling NewCave before PIE...
+[2015.09.10-20.46.37:203][891]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.10-20.46.37:203][891]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing640165AE468F69AE8637A1A177141621) Not registered. Aborting.
+[2015.09.10-20.46.37:389][891]LogPlayLevel: PIE:  Blueprint regeneration took 600 ms (1 blueprints)
+[2015.09.10-20.46.37:390][891]PIE: New page: PIE session: NewCave (Sep 10, 2015, 6:46:37 AM)
+[2015.09.10-20.46.37:391][891]LogPlayLevel: Creating play world package: /Game/Scene/UEDPIE_0_NewCave
+[2015.09.10-20.46.38:047][891]LogPlayLevel: PIE: StaticDuplicateObject took: (0.656804s)
+[2015.09.10-20.46.38:049][891]LogAIModule: Creating AISystem for world NewCave
+[2015.09.10-20.46.38:051][891]LogPlayLevel: PIE: World Init took: (0.003433s)
+[2015.09.10-20.46.38:052][891]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/NewCave.NewCave to /Game/Scene/UEDPIE_0_NewCave.NewCave (0.661454s)
+[2015.09.10-20.46.38:314][891]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.09.10-20.46.38:918][891]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.09.10-20.46.38:918][891]LogWorld: Bringing World /Game/Scene/UEDPIE_0_NewCave.NewCave up for play (max tick rate 60) at 2015.09.10-13.46.38
+[2015.09.10-20.46.38:918][891]LogActor:Warning: GameSession /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.10-20.46.38:920][891]LogActor:Warning: GameNetworkManager /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.10-20.46.38:950][891]LogWorld: Bringing up level for play took: 0.631160
+[2015.09.10-20.46.38:978][891]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node SpawnActor in graph 'EventGraph' in blueprint KeySpawner
+[2015.09.10-20.46.38:978][891]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node SpawnActor in graph 'EventGraph' in blueprint KeySpawner
+[2015.09.10-20.46.38:979][891]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node SetActorLocation in graph 'EventGraph' in blueprint KeySpawner
+[2015.09.10-20.46.38:981][891]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node SpawnActor in graph 'EventGraph' in blueprint KeySpawner
+[2015.09.10-20.46.38:981][891]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node SpawnActor in graph 'EventGraph' in blueprint KeySpawner
+[2015.09.10-20.46.38:982][891]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node SetActorLocation in graph 'EventGraph' in blueprint KeySpawner
+[2015.09.10-20.46.38:983][891]PIE: Info Play in editor start time for /Game/Scene/UEDPIE_0_NewCave 1.998
+[2015.09.10-20.46.39:248][891]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsThird_Person_Character2'
+	SuccessScreen_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.SuccessScreen_C_7
+	Function /Game/GUI/SuccessScreen.SuccessScreen_C:ExecuteUbergraph_SuccessScreen:04AE
+[2015.09.10-20.47.00:172][ 56]LogScript:Warning: Cannot access 'GnawmerController_C_45'. It is pending kill. Property: 'K2Node_DynamicCast_AsAIController'
+	GnawmerWander_C /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.GnawmerController_C_45.BTComponent.GnawmerWander_C_7
+	Function /Game/Enemy1/GnawmerAi/GnawmerWander.GnawmerWander_C:ExecuteUbergraph_GnawmerWander:0063
+[2015.09.10-20.47.00:172][ 56]PIE:Error: Error Cannot access 'GnawmerController_C_45'. It is pending kill. Property: 'K2Node_DynamicCast_AsAIController' from node Cast To Enemy1 in graph 'EventGraph' in blueprint GnawmerWander
+[2015.09.10-20.47.07:702][118]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E15372DE0
+[2015.09.10-20.47.07:703][118]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.47.52:269][819]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.47.54:395][866]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.48.01:419][ 53]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.48.02:517][ 75]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.48.07:688][213]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.48.10:542][298]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.48.11:855][322]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.49.41:732][695]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.49.51:146][732]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.49.57:374][858]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2015.09.10-20.50.00:098][858]LogBlueprint:Warning: [compiler Gui] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
+[2015.09.10-20.50.01:824][858]BlueprintEditorCompileResults: Info [2327.30] Compile of ThirdPersonCharacter successful! [in 4,450 ms]
+[2015.09.10-20.50.21:727][416]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.50.25:607][515]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.50.27:583][515]LogSavePackage: Save=1696.951172ms
+[2015.09.10-20.50.27:583][515]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/ThirdPersonCharacter69A174DA49A8C7625812448A389A5066.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2015.09.10-20.50.32:635][651]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.50.33:970][669]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.50.42:920][828]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.50.45:133][879]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.50.50:728][ 16]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.50.52:110][ 46]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.51.04:732][349]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.51.06:777][397]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.51.07:690][405]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.51.09:204][439]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.51.10:458][455]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.51.13:133][525]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.51.13:951][546]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.51.16:394][613]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.51.26:198][899]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2015.09.10-20.51.27:242][899]LogBlueprint:Warning: [compiler Gui] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
+[2015.09.10-20.51.28:856][899]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.10-20.51.30:589][899]BlueprintEditorCompileResults: Info [2416.07] Compile of ThirdPersonCharacter successful! [in 4,390 ms]
+[2015.09.10-20.51.37:532][ 82]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.51.39:082][ 82]LogSavePackage: Save=1377.250122ms
+[2015.09.10-20.51.39:082][ 82]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/ThirdPersonCharacter08F126424D92B9CB5BFC82A37AE29312.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2015.09.10-20.53.27:890][827]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.53.28:698][844]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.53.31:926][900]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.10-20.53.48:740][463]BlueprintLog: New page: Compile Enemy1
+[2015.09.10-20.53.49:718][463]BlueprintEditorCompileResults: Info [2555.20] Compile of Enemy1 successful! [in 978 ms]
+[2015.09.10-20.53.50:562][488]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.53.50:690][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy1/GnawmerAi/Enemy1" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Enemy1/GnawmerAi/Enemy1.uasset" SILENT=true
+[2015.09.10-20.53.51:009][488]LogSavePackage: Save=268.567169ms
+[2015.09.10-20.53.51:011][488]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/Enemy1FF5E866E4F0CFA5E95C0A9B6A971ADAB.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/Enemy1/GnawmerAi/Enemy1.uasset'
+[2015.09.10-20.53.53:549][569]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.09.10-20.53.53:578][569]LogPlayLevel: [PIE] Compiling NewCave before PIE...
+[2015.09.10-20.53.53:961][569]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.10-20.53.53:961][569]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing640165AE468F69AE8637A1A177141621) Not registered. Aborting.
+[2015.09.10-20.53.54:192][569]LogPlayLevel: PIE:  Blueprint regeneration took 642 ms (1 blueprints)
+[2015.09.10-20.53.54:193][569]PIE: New page: PIE session: NewCave (Sep 10, 2015, 6:53:54 AM)
+[2015.09.10-20.53.54:194][569]LogPlayLevel: Creating play world package: /Game/Scene/UEDPIE_0_NewCave
+[2015.09.10-20.53.54:944][569]LogPlayLevel: PIE: StaticDuplicateObject took: (0.750451s)
+[2015.09.10-20.53.54:946][569]LogAIModule: Creating AISystem for world NewCave
+[2015.09.10-20.53.54:948][569]LogPlayLevel: PIE: World Init took: (0.003490s)
+[2015.09.10-20.53.54:949][569]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/NewCave.NewCave to /Game/Scene/UEDPIE_0_NewCave.NewCave (0.755174s)
+[2015.09.10-20.53.55:192][569]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.53.55:280][569]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.09.10-20.53.56:004][569]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.09.10-20.53.56:004][569]LogWorld: Bringing World /Game/Scene/UEDPIE_0_NewCave.NewCave up for play (max tick rate 60) at 2015.09.10-13.53.56
+[2015.09.10-20.53.56:005][569]LogActor:Warning: GameSession /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.10-20.53.56:006][569]LogActor:Warning: GameNetworkManager /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.10-20.53.56:041][569]LogWorld: Bringing up level for play took: 0.756833
+[2015.09.10-20.53.56:075][569]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node SpawnActor in graph 'EventGraph' in blueprint KeySpawner
+[2015.09.10-20.53.56:076][569]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node SpawnActor in graph 'EventGraph' in blueprint KeySpawner
+[2015.09.10-20.53.56:077][569]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node SetActorLocation in graph 'EventGraph' in blueprint KeySpawner
+[2015.09.10-20.53.56:153][569]PIE: Info Play in editor start time for /Game/Scene/UEDPIE_0_NewCave 3.167
+[2015.09.10-20.53.56:398][569]LogRenderer: Reallocating scene render targets to support 1128x712 (Frame:42921).
+[2015.09.10-20.53.56:831][569]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsThird_Person_Character2' from node Branch in graph 'EventGraph' in blueprint SuccessScreen
+[2015.09.10-20.54.19:033][718]LogScript:Warning: Cannot access 'Goblinontroller_C_24'. It is pending kill. Property: 'K2Node_DynamicCast_AsAIController'
+	Wander2_C /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.Goblinontroller_C_24.BTComponent.Wander2_C_8
+	Function /Game/Goblin/GoblinAi/Wander2.Wander2_C:ExecuteUbergraph_Wander2:0063
+[2015.09.10-20.54.19:033][718]PIE:Error: Error Cannot access 'Goblinontroller_C_24'. It is pending kill. Property: 'K2Node_DynamicCast_AsAIController' from node Cast To GoblinBp in graph 'EventGraph' in blueprint Wander2
+[2015.09.10-20.54.42:233][854]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E3AA39580
+[2015.09.10-20.54.42:234][854]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.58.37:110][689]LogAnimation:Warning: FAnimNode_StateMachine::Update - Invalid current state, please report. Attempting to use state 0 in state machine 0
+[2015.09.10-20.58.37:110][689]LogAnimation:Warning: 		When updating AnimInstance: MixamoAnimBP_Vampire_C_3
+[2015.09.10-20.58.37:237][690]LogAnimation:Warning: FAnimNode_StateMachine::Update - Invalid current state, please report. Attempting to use state 0 in state machine 0
+[2015.09.10-20.58.37:237][690]LogAnimation:Warning: 		When updating AnimInstance: MixamoAnimBP_Vampire_C_3
+[2015.09.10-20.58.37:371][691]LogAnimation:Warning: FAnimNode_StateMachine::Update - Invalid current state, please report. Attempting to use state 0 in state machine 0
+[2015.09.10-20.58.37:371][691]LogAnimation:Warning: 		When updating AnimInstance: MixamoAnimBP_Vampire_C_3
+[2015.09.10-20.58.37:417][692]LogAnimation:Warning: FAnimNode_StateMachine::Update - Invalid current state, please report. Attempting to use state 0 in state machine 0
+[2015.09.10-20.58.37:417][692]LogAnimation:Warning: 		When updating AnimInstance: MixamoAnimBP_Vampire_C_3
+[2015.09.10-20.58.37:454][693]LogAnimation:Warning: FAnimNode_StateMachine::Update - Invalid current state, please report. Attempting to use state 0 in state machine 0
+[2015.09.10-20.58.37:454][693]LogAnimation:Warning: 		When updating AnimInstance: MixamoAnimBP_Vampire_C_3
+[2015.09.10-20.58.37:498][694]LogAnimation:Warning: FAnimNode_StateMachine::Update - Invalid current state, please report. Attempting to use state 0 in state machine 0
+[2015.09.10-20.58.37:499][694]LogAnimation:Warning: 		When updating AnimInstance: MixamoAnimBP_Vampire_C_3
+[2015.09.10-20.58.37:547][695]LogAnimation:Warning: FAnimNode_StateMachine::Update - Invalid current state, please report. Attempting to use state 0 in state machine 0
+[2015.09.10-20.58.37:547][695]LogAnimation:Warning: 		When updating AnimInstance: MixamoAnimBP_Vampire_C_3
+[2015.09.10-20.58.37:594][696]LogAnimation:Warning: FAnimNode_StateMachine::Update - Invalid current state, please report. Attempting to use state 0 in state machine 0
+[2015.09.10-20.58.37:594][696]LogAnimation:Warning: 		When updating AnimInstance: MixamoAnimBP_Vampire_C_3
+[2015.09.10-20.58.37:638][697]LogAnimation:Warning: FAnimNode_StateMachine::Update - Invalid current state, please report. Attempting to use state 0 in state machine 0
+[2015.09.10-20.58.37:638][697]LogAnimation:Warning: 		When updating AnimInstance: MixamoAnimBP_Vampire_C_3
+[2015.09.10-20.58.37:685][698]LogAnimation:Warning: FAnimNode_StateMachine::Update - Invalid current state, please report. Attempting to use state 0 in state machine 0
+[2015.09.10-20.58.37:685][698]LogAnimation:Warning: 		When updating AnimInstance: MixamoAnimBP_Vampire_C_3
+[2015.09.10-20.58.37:730][699]LogAnimation:Warning: FAnimNode_StateMachine::Update - Invalid current state, please report. Attempting to use state 0 in state machine 0
+[2015.09.10-20.58.37:730][699]LogAnimation:Warning: 		When updating AnimInstance: MixamoAnimBP_Vampire_C_3
+[2015.09.10-20.58.37:774][700]LogAnimation:Warning: FAnimNode_StateMachine::Update - Invalid current state, please report. Attempting to use state 0 in state machine 0
+[2015.09.10-20.58.37:774][700]LogAnimation:Warning: 		When updating AnimInstance: MixamoAnimBP_Vampire_C_3
+[2015.09.10-20.58.37:816][701]LogAnimation:Warning: FAnimNode_StateMachine::Update - Invalid current state, please report. Attempting to use state 0 in state machine 0
+[2015.09.10-20.58.37:817][701]LogAnimation:Warning: 		When updating AnimInstance: MixamoAnimBP_Vampire_C_3
+[2015.09.10-20.58.37:860][702]LogAnimation:Warning: FAnimNode_StateMachine::Update - Invalid current state, please report. Attempting to use state 0 in state machine 0
+[2015.09.10-20.58.37:860][702]LogAnimation:Warning: 		When updating AnimInstance: MixamoAnimBP_Vampire_C_3
+[2015.09.10-20.58.37:904][703]LogAnimation:Warning: FAnimNode_StateMachine::Update - Invalid current state, please report. Attempting to use state 0 in state machine 0
+[2015.09.10-20.58.37:904][703]LogAnimation:Warning: 		When updating AnimInstance: MixamoAnimBP_Vampire_C_3
+[2015.09.10-20.58.37:947][704]LogAnimation:Warning: FAnimNode_StateMachine::Update - Invalid current state, please report. Attempting to use state 0 in state machine 0
+[2015.09.10-20.58.37:947][704]LogAnimation:Warning: 		When updating AnimInstance: MixamoAnimBP_Vampire_C_3
+[2015.09.10-20.58.37:991][705]LogAnimation:Warning: FAnimNode_StateMachine::Update - Invalid current state, please report. Attempting to use state 0 in state machine 0
+[2015.09.10-20.58.37:991][705]LogAnimation:Warning: 		When updating AnimInstance: MixamoAnimBP_Vampire_C_3
+[2015.09.10-20.58.38:036][706]LogAnimation:Warning: FAnimNode_StateMachine::Update - Invalid current state, please report. Attempting to use state 0 in state machine 0
+[2015.09.10-20.58.38:036][706]LogAnimation:Warning: 		When updating AnimInstance: MixamoAnimBP_Vampire_C_3
+[2015.09.10-20.58.38:080][707]LogAnimation:Warning: FAnimNode_StateMachine::Update - Invalid current state, please report. Attempting to use state 0 in state machine 0
+[2015.09.10-20.58.38:080][707]LogAnimation:Warning: 		When updating AnimInstance: MixamoAnimBP_Vampire_C_3
+[2015.09.10-20.58.38:123][708]LogAnimation:Warning: FAnimNode_StateMachine::Update - Invalid current state, please report. Attempting to use state 0 in state machine 0
+[2015.09.10-20.58.38:123][708]LogAnimation:Warning: 		When updating AnimInstance: MixamoAnimBP_Vampire_C_3
+[2015.09.10-20.58.38:172][709]LogAnimation:Warning: FAnimNode_StateMachine::Update - Invalid current state, please report. Attempting to use state 0 in state machine 0
+[2015.09.10-20.58.38:172][709]LogAnimation:Warning: 		When updating AnimInstance: MixamoAnimBP_Vampire_C_3
+[2015.09.10-20.58.38:213][710]LogAnimation:Warning: FAnimNode_StateMachine::Update - Invalid current state, please report. Attempting to use state 0 in state machine 0
+[2015.09.10-20.58.38:213][710]LogAnimation:Warning: 		When updating AnimInstance: MixamoAnimBP_Vampire_C_3
+[2015.09.10-20.58.38:254][711]LogAnimation:Warning: FAnimNode_StateMachine::Update - Invalid current state, please report. Attempting to use state 0 in state machine 0
+[2015.09.10-20.58.38:254][711]LogAnimation:Warning: 		When updating AnimInstance: MixamoAnimBP_Vampire_C_3
+[2015.09.10-20.58.38:301][712]LogAnimation:Warning: FAnimNode_StateMachine::Update - Invalid current state, please report. Attempting to use state 0 in state machine 0
+[2015.09.10-20.58.38:301][712]LogAnimation:Warning: 		When updating AnimInstance: MixamoAnimBP_Vampire_C_3
+[2015.09.10-20.58.38:344][713]LogAnimation:Warning: FAnimNode_StateMachine::Update - Invalid current state, please report. Attempting to use state 0 in state machine 0
+[2015.09.10-20.58.38:344][713]LogAnimation:Warning: 		When updating AnimInstance: MixamoAnimBP_Vampire_C_3
+[2015.09.10-20.58.38:390][714]LogAnimation:Warning: FAnimNode_StateMachine::Update - Invalid current state, please report. Attempting to use state 0 in state machine 0
+[2015.09.10-20.58.38:391][714]LogAnimation:Warning: 		When updating AnimInstance: MixamoAnimBP_Vampire_C_3
+[2015.09.10-20.58.38:434][715]LogAnimation:Warning: FAnimNode_StateMachine::Update - Invalid current state, please report. Attempting to use state 0 in state machine 0
+[2015.09.10-20.58.38:434][715]LogAnimation:Warning: 		When updating AnimInstance: MixamoAnimBP_Vampire_C_3
+[2015.09.10-20.58.38:478][716]LogAnimation:Warning: FAnimNode_StateMachine::Update - Invalid current state, please report. Attempting to use state 0 in state machine 0
+[2015.09.10-20.58.38:479][716]LogAnimation:Warning: 		When updating AnimInstance: MixamoAnimBP_Vampire_C_3
+[2015.09.10-20.58.38:522][717]LogAnimation:Warning: FAnimNode_StateMachine::Update - Invalid current state, please report. Attempting to use state 0 in state machine 0
+[2015.09.10-20.58.38:522][717]LogAnimation:Warning: 		When updating AnimInstance: MixamoAnimBP_Vampire_C_3
+[2015.09.10-20.58.38:563][718]LogAnimation:Warning: FAnimNode_StateMachine::Update - Invalid current state, please report. Attempting to use state 0 in state machine 0
+[2015.09.10-20.58.38:563][718]LogAnimation:Warning: 		When updating AnimInstance: MixamoAnimBP_Vampire_C_3
+[2015.09.10-20.58.38:605][719]LogAnimation:Warning: FAnimNode_StateMachine::Update - Invalid current state, please report. Attempting to use state 0 in state machine 0
+[2015.09.10-20.58.38:605][719]LogAnimation:Warning: 		When updating AnimInstance: MixamoAnimBP_Vampire_C_3
+[2015.09.10-20.58.38:646][720]LogAnimation:Warning: FAnimNode_StateMachine::Update - Invalid current state, please report. Attempting to use state 0 in state machine 0
+[2015.09.10-20.58.38:646][720]LogAnimation:Warning: 		When updating AnimInstance: MixamoAnimBP_Vampire_C_3
+[2015.09.10-20.58.38:684][721]LogAnimation:Warning: FAnimNode_StateMachine::Update - Invalid current state, please report. Attempting to use state 0 in state machine 0
+[2015.09.10-20.58.38:684][721]LogAnimation:Warning: 		When updating AnimInstance: MixamoAnimBP_Vampire_C_3
+[2015.09.10-20.58.38:722][722]LogAnimation:Warning: FAnimNode_StateMachine::Update - Invalid current state, please report. Attempting to use state 0 in state machine 0
+[2015.09.10-20.58.38:723][722]LogAnimation:Warning: 		When updating AnimInstance: MixamoAnimBP_Vampire_C_3
+[2015.09.10-20.58.38:766][723]LogAnimation:Warning: FAnimNode_StateMachine::Update - Invalid current state, please report. Attempting to use state 0 in state machine 0
+[2015.09.10-20.58.38:766][723]LogAnimation:Warning: 		When updating AnimInstance: MixamoAnimBP_Vampire_C_3
+[2015.09.10-20.58.38:808][724]LogAnimation:Warning: FAnimNode_StateMachine::Update - Invalid current state, please report. Attempting to use state 0 in state machine 0
+[2015.09.10-20.58.38:808][724]LogAnimation:Warning: 		When updating AnimInstance: MixamoAnimBP_Vampire_C_3
+[2015.09.10-20.58.38:848][725]LogAnimation:Warning: FAnimNode_StateMachine::Update - Invalid current state, please report. Attempting to use state 0 in state machine 0
+[2015.09.10-20.58.38:848][725]LogAnimation:Warning: 		When updating AnimInstance: MixamoAnimBP_Vampire_C_3
+[2015.09.10-20.58.38:890][726]LogAnimation:Warning: FAnimNode_StateMachine::Update - Invalid current state, please report. Attempting to use state 0 in state machine 0
+[2015.09.10-20.58.38:890][726]LogAnimation:Warning: 		When updating AnimInstance: MixamoAnimBP_Vampire_C_3
+[2015.09.10-20.58.38:935][727]LogAnimation:Warning: FAnimNode_StateMachine::Update - Invalid current state, please report. Attempting to use state 0 in state machine 0
+[2015.09.10-20.58.38:935][727]LogAnimation:Warning: 		When updating AnimInstance: MixamoAnimBP_Vampire_C_3
+[2015.09.10-20.58.38:978][728]LogAnimation:Warning: FAnimNode_StateMachine::Update - Invalid current state, please report. Attempting to use state 0 in state machine 0
+[2015.09.10-20.58.38:978][728]LogAnimation:Warning: 		When updating AnimInstance: MixamoAnimBP_Vampire_C_3
+[2015.09.10-20.58.39:019][729]LogAnimation:Warning: FAnimNode_StateMachine::Update - Invalid current state, please report. Attempting to use state 0 in state machine 0
+[2015.09.10-20.58.39:019][729]LogAnimation:Warning: 		When updating AnimInstance: MixamoAnimBP_Vampire_C_3
+[2015.09.10-20.58.39:063][730]LogAnimation:Warning: FAnimNode_StateMachine::Update - Invalid current state, please report. Attempting to use state 0 in state machine 0
+[2015.09.10-20.58.39:063][730]LogAnimation:Warning: 		When updating AnimInstance: MixamoAnimBP_Vampire_C_3
+[2015.09.10-20.58.39:105][731]LogAnimation:Warning: FAnimNode_StateMachine::Update - Invalid current state, please report. Attempting to use state 0 in state machine 0
+[2015.09.10-20.58.39:105][731]LogAnimation:Warning: 		When updating AnimInstance: MixamoAnimBP_Vampire_C_3
+[2015.09.10-20.58.39:151][732]LogAnimation:Warning: FAnimNode_StateMachine::Update - Invalid current state, please report. Attempting to use state 0 in state machine 0
+[2015.09.10-20.58.39:151][732]LogAnimation:Warning: 		When updating AnimInstance: MixamoAnimBP_Vampire_C_3
+[2015.09.10-20.59.46:349][506]LogD3D11RHI: InitD3DDevice
+[2015.09.10-20.59.47:410][506]LogScript:Warning: Accessed None 'AlterSkel3'
+	HercBp_C /Engine/Transient.World_34:PersistentLevel.HercBp_C_0
+	Function /Game/Herc/HercAi/HercBp.HercBp_C:ExecuteUbergraph_HercBp:0570
+[2015.09.10-20.59.47:410][506]LogScript:Warning: Accessed None 'AlterSkel3'
+	HercBp_C /Engine/Transient.World_34:PersistentLevel.HercBp_C_0
+	Function /Game/Herc/HercAi/HercBp.HercBp_C:ExecuteUbergraph_HercBp:0570
+[2015.09.10-20.59.47:410][506]LogScript:Warning: Accessed None 'AlterSkel3'
+	HercBp_C /Engine/Transient.World_34:PersistentLevel.HercBp_C_0
+	Function /Game/Herc/HercAi/HercBp.HercBp_C:ExecuteUbergraph_HercBp:0570
+[2015.09.10-21.00.55:457][954]LogD3D11RHI: InitD3DDevice
+[2015.09.10-21.00.56:413][973]LogD3D11RHI: InitD3DDevice
+[2015.09.10-21.00.59:973][ 40]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.10-21.01.16:259][597]BlueprintLog: New page: Compile HercBp
+[2015.09.10-21.01.16:898][597]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.09.10-21.01.17:090][597]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E13CFDB20
+[2015.09.10-21.01.17:092][597]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E68A656C0
+[2015.09.10-21.01.17:202][597]BlueprintEditorCompileResults: Info [3002.68] Compile of HercBp successful! [in 942 ms]
+[2015.09.10-21.01.19:843][690]LogD3D11RHI: InitD3DDevice
+[2015.09.10-21.01.19:956][690]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Herc/HercAi/HercBp" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercAi/HercBp.uasset" SILENT=true
+[2015.09.10-21.01.20:583][690]LogSavePackage: Save=546.810364ms
+[2015.09.10-21.01.20:583][690]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/HercBp7DBE69274E412A1F64F40FBB7418BE90.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/Herc/HercAi/HercBp.uasset'
+[2015.09.10-21.01.23:773][747]LogD3D11RHI: InitD3DDevice
+[2015.09.10-21.01.23:920][747]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene/NewCave" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Scene/NewCave.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.09.10-21.01.23:988][747]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.10-21.01.30:784][747]LogSavePackage: Save=6517.640625ms
+[2015.09.10-21.01.30:785][747]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/NewCave682CD660416F186E988A54BF0E7D02C5.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/Scene/NewCave.umap'
+[2015.09.10-21.02.28:867][195]LogEditorViewport: Clicking on Actor (LMB): LDoor_ActorBP_C (LDoor_ActorBP)
+[2015.09.10-21.03.06:670][510]LogD3D11RHI: InitD3DDevice
+[2015.09.10-21.03.19:389][936]LogD3D11RHI: InitD3DDevice
+[2015.09.10-21.03.23:316][ 85]LogD3D11RHI: InitD3DDevice
+[2015.09.10-21.03.25:661][152]LogD3D11RHI: InitD3DDevice
+[2015.09.10-21.03.31:575][326]LogD3D11RHI: InitD3DDevice
+[2015.09.10-21.03.33:847][408]BlueprintLog: New page: Compile LDoor_ActorBP
+[2015.09.10-21.03.34:176][408]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.10-21.03.34:370][408]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E2FEC1300
+[2015.09.10-21.03.34:375][408]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E136EC400
+[2015.09.10-21.03.34:376][408]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E16296DE0
+[2015.09.10-21.03.34:378][408]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E16294860
+[2015.09.10-21.03.34:380][408]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E1510B560
+[2015.09.10-21.03.34:382][408]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E68A64B80
+[2015.09.10-21.03.34:539][408]BlueprintEditorCompileResults: Info [3140.02] Compile of LDoor_ActorBP successful! [in 690 ms]
+[2015.09.10-21.03.35:173][429]LogD3D11RHI: InitD3DDevice
+[2015.09.10-21.03.35:283][429]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewDoor/LeftDoor/LDoor_ActorBP" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/NewDoor/LeftDoor/LDoor_ActorBP.uasset" SILENT=true
+[2015.09.10-21.03.35:498][429]LogSavePackage: Save=147.914932ms
+[2015.09.10-21.03.35:498][429]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/LDoor_ActorBP2A04458A4F666DC785D04A932B4868D0.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/NewDoor/LeftDoor/LDoor_ActorBP.uasset'
+[2015.09.10-21.03.41:175][488]LogD3D11RHI: InitD3DDevice
+[2015.09.10-21.03.51:764][848]LogD3D11RHI: InitD3DDevice
+[2015.09.10-21.03.52:913][870]LogD3D11RHI: InitD3DDevice
+[2015.09.10-21.03.58:115][ 14]LogD3D11RHI: InitD3DDevice
+[2015.09.10-21.03.59:587][ 54]LogD3D11RHI: InitD3DDevice
+[2015.09.10-21.04.01:365][115]LogD3D11RHI: InitD3DDevice
+[2015.09.10-21.04.02:800][159]LogD3D11RHI: InitD3DDevice
+[2015.09.10-21.04.04:204][208]LogD3D11RHI: InitD3DDevice
+[2015.09.10-21.04.06:802][303]BlueprintLog: New page: Compile RDoor_ActorBP
+[2015.09.10-21.04.07:411][303]BlueprintEditorCompileResults: Info [3172.89] Compile of RDoor_ActorBP successful! [in 608 ms]
+[2015.09.10-21.04.08:029][325]LogD3D11RHI: InitD3DDevice
+[2015.09.10-21.04.08:132][325]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewDoor/RightDoor/RDoor_ActorBP" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/NewDoor/RightDoor/RDoor_ActorBP.uasset" SILENT=true
+[2015.09.10-21.04.08:336][325]LogSavePackage: Save=134.752380ms
+[2015.09.10-21.04.08:336][325]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/RDoor_ActorBPBC92E170417DA512657E3EB5299200FE.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/NewDoor/RightDoor/RDoor_ActorBP.uasset'
+[2015.09.10-21.04.10:956][383]LogD3D11RHI: InitD3DDevice
+[2015.09.10-21.04.11:095][383]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene/NewCave" FILE="../../../../../../Users/Samantha/Desktop/God-Killer/Content/Scene/NewCave.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.09.10-21.04.17:927][383]LogSavePackage: Save=6594.820313ms
+[2015.09.10-21.04.17:928][383]LogSavePackage: Moving '../../../../../../Users/Samantha/Desktop/God-Killer/Saved/NewCave481EC160446BA5BAA3F02EBAC44DD492.tmp' to '../../../../../../Users/Samantha/Desktop/God-Killer/Content/Scene/NewCave.umap'
+[2015.09.10-21.04.52:054][484]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2015.09.10-21.04.56:645][574]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2015.09.10-21.05.01:561][613]LogD3D11RHI: InitD3DDevice
+[2015.09.10-21.05.03:772][629]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E3C675800
+[2015.09.10-21.05.03:778][629]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E32B6BC40
+[2015.09.10-21.05.03:779][629]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E526B9800
+[2015.09.10-21.05.09:335][668]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.09.10-21.05.09:337][668]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.09.10-21.05.10:480][669]Cmd: QUIT_EDITOR
+[2015.09.10-21.05.12:638][669]LogExit: Preparing to exit.
+[2015.09.10-21.05.14:108][669]LogExit: Editor shut down
+[2015.09.10-21.05.14:109][669]LogExit: Transaction tracking system shut down
+[2015.09.10-21.05.14:145][669]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E23138E00
+[2015.09.10-21.05.14:150][669]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E30022840
+[2015.09.10-21.05.14:151][669]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E31364400
+[2015.09.10-21.05.14:151][669]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E32A64C20
+[2015.09.10-21.05.14:151][669]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E329DEA20
+[2015.09.10-21.05.14:151][669]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E329DEB60
+[2015.09.10-21.05.14:151][669]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E329DECA0
+[2015.09.10-21.05.14:152][669]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E329DEDE0
+[2015.09.10-21.05.14:155][669]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E329DDDA0
+[2015.09.10-21.05.15:974][669]LogExit: Object subsystem successfully closed.
+[2015.09.10-21.05.16:261][669]LogD3D11RHI: Shutdown
+[2015.09.10-21.05.16:261][669]LogD3D11RHI: CleanupD3DDevice
+[2015.09.10-21.05.17:317][669]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.09.10-21.05.17:513][669]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
+[2015.09.10-21.05.17:513][669]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
+[2015.09.10-21.05.17:514][669]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
+[2015.09.10-21.05.17:514][669]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
+[2015.09.10-21.05.17:525][669]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
+[2015.09.10-21.05.17:544][669]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
+[2015.09.10-21.05.17:544][669]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
+[2015.09.10-21.05.17:557][669]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
+[2015.09.10-21.05.17:574][669]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
+[2015.09.10-21.05.17:579][669]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
+[2015.09.10-21.05.17:602][669]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
+[2015.09.10-21.05.17:602][669]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
+[2015.09.10-21.05.17:602][669]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
+[2015.09.10-21.05.17:602][669]LogModuleManager: Shutting down and abandoning module BspMode (175)
+[2015.09.10-21.05.17:602][669]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
+[2015.09.10-21.05.17:608][669]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
+[2015.09.10-21.05.17:608][669]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
+[2015.09.10-21.05.17:608][669]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
+[2015.09.10-21.05.17:608][669]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
+[2015.09.10-21.05.17:608][669]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
+[2015.09.10-21.05.17:629][669]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
+[2015.09.10-21.05.17:648][669]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
+[2015.09.10-21.05.17:687][669]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
+[2015.09.10-21.05.17:687][669]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
+[2015.09.10-21.05.17:696][669]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
+[2015.09.10-21.05.17:696][669]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2015.09.10-21.05.18:623][669]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
+[2015.09.10-21.05.18:623][669]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
+[2015.09.10-21.05.18:623][669]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
+[2015.09.10-21.05.18:623][669]LogModuleManager: Shutting down and abandoning module MergeActors (159)
+[2015.09.10-21.05.18:668][669]LogModuleManager: Shutting down and abandoning module SizeMap (158)
+[2015.09.10-21.05.18:668][669]LogModuleManager: Shutting down and abandoning module TreeMap (157)
+[2015.09.10-21.05.18:674][669]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
+[2015.09.10-21.05.18:674][669]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
+[2015.09.10-21.05.18:682][669]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
+[2015.09.10-21.05.18:682][669]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
+[2015.09.10-21.05.18:693][669]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
+[2015.09.10-21.05.18:701][669]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
+[2015.09.10-21.05.18:707][669]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
+[2015.09.10-21.05.18:707][669]LogModuleManager: Shutting down and abandoning module XmlParser (149)
+[2015.09.10-21.05.18:707][669]LogModuleManager: Shutting down and abandoning module Blutility (148)
+[2015.09.10-21.05.18:707][669]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
+[2015.09.10-21.05.18:708][669]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
+[2015.09.10-21.05.18:708][669]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
+[2015.09.10-21.05.18:742][669]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
+[2015.09.10-21.05.18:742][669]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
+[2015.09.10-21.05.18:758][669]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
+[2015.09.10-21.05.18:781][669]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
+[2015.09.10-21.05.18:793][669]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
+[2015.09.10-21.05.18:801][669]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
+[2015.09.10-21.05.18:801][669]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
+[2015.09.10-21.05.18:818][669]LogModuleManager: Shutting down and abandoning module AutomationController (137)
+[2015.09.10-21.05.18:835][669]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
+[2015.09.10-21.05.18:841][669]LogModuleManager: Shutting down and abandoning module Layers (135)
+[2015.09.10-21.05.18:857][669]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
+[2015.09.10-21.05.18:857][669]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
+[2015.09.10-21.05.18:857][669]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
+[2015.09.10-21.05.18:858][669]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
+[2015.09.10-21.05.19:162][669]LogModuleManager: Shutting down and abandoning module Persona (130)
+[2015.09.10-21.05.19:177][669]LogModuleManager: Shutting down and abandoning module Kismet (129)
+[2015.09.10-21.05.19:177][669]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
+[2015.09.10-21.05.19:177][669]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
+[2015.09.10-21.05.19:180][669]LogModuleManager: Shutting down and abandoning module Toolbox (126)
+[2015.09.10-21.05.19:180][669]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
+[2015.09.10-21.05.19:193][669]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
+[2015.09.10-21.05.19:205][669]LogModuleManager: Shutting down and abandoning module OutputLog (123)
+[2015.09.10-21.05.19:205][669]LogModuleManager: Shutting down and abandoning module GammaUI (122)
+[2015.09.10-21.05.19:223][669]LogModuleManager: Shutting down and abandoning module Documentation (121)
+[2015.09.10-21.05.19:223][669]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
+[2015.09.10-21.05.19:232][669]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
+[2015.09.10-21.05.19:232][669]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
+[2015.09.10-21.05.19:232][669]LogModuleManager: Shutting down and abandoning module Analytics (117)
+[2015.09.10-21.05.19:232][669]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
+[2015.09.10-21.05.19:240][669]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
+[2015.09.10-21.05.19:240][669]LogModuleManager: Shutting down and abandoning module AIModule (114)
+[2015.09.10-21.05.19:240][669]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
+[2015.09.10-21.05.19:395][669]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
+[2015.09.10-21.05.19:405][669]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
+[2015.09.10-21.05.19:406][669]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
+[2015.09.10-21.05.19:406][669]LogModuleManager: Shutting down and abandoning module SteamVR (109)
+[2015.09.10-21.05.19:406][669]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
+[2015.09.10-21.05.19:406][669]LogModuleManager: Shutting down and abandoning module OculusRift (107)
+[2015.09.10-21.05.19:406][669]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
+[2015.09.10-21.05.19:476][669]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
+[2015.09.10-21.05.19:476][669]LogModuleManager: Shutting down and abandoning module CableComponent (104)
+[2015.09.10-21.05.19:493][669]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
+[2015.09.10-21.05.19:523][669]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
+[2015.09.10-21.05.19:535][669]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
+[2015.09.10-21.05.19:535][669]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
+[2015.09.10-21.05.19:545][669]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
+[2015.09.10-21.05.19:557][669]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
+[2015.09.10-21.05.19:575][669]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
+[2015.09.10-21.05.19:581][669]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
+[2015.09.10-21.05.19:581][669]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
+[2015.09.10-21.05.19:594][669]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
+[2015.09.10-21.05.19:605][669]LogModuleManager: Shutting down and abandoning module SourceControl (93)
+[2015.09.10-21.05.19:612][669]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
+[2015.09.10-21.05.19:625][669]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
+[2015.09.10-21.05.19:625][669]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
+[2015.09.10-21.05.19:625][669]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
+[2015.09.10-21.05.19:625][669]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
+[2015.09.10-21.05.19:637][669]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
+[2015.09.10-21.05.19:654][669]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2015.09.10-21.05.19:655][669]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2015.09.10-21.05.19:655][669]LogModuleManager: Shutting down and abandoning module MainFrame (84)
+[2015.09.10-21.05.19:655][669]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2015.09.10-21.05.19:679][669]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.09.10-21.05.19:681][669]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.09.10-21.05.19:695][669]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2015.09.10-21.05.19:796][669]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.09.10-21.05.19:809][669]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.09.10-21.05.19:822][669]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.09.10-21.05.19:822][669]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.09.10-21.05.19:833][669]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.09.10-21.05.19:833][669]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.09.10-21.05.19:833][669]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.09.10-21.05.19:859][669]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.09.10-21.05.19:864][669]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.09.10-21.05.19:880][669]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.09.10-21.05.19:880][669]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.09.10-21.05.19:880][669]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.09.10-21.05.19:897][669]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.09.10-21.05.19:927][669]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.09.10-21.05.19:945][669]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.09.10-21.05.19:945][669]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.09.10-21.05.19:945][669]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.09.10-21.05.19:954][669]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.09.10-21.05.19:954][669]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.09.10-21.05.19:954][669]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.09.10-21.05.19:954][669]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.09.10-21.05.19:954][669]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.09.10-21.05.19:954][669]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.09.10-21.05.19:954][669]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.09.10-21.05.19:954][669]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.09.10-21.05.19:967][669]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.09.10-21.05.20:019][669]LogDerivedDataCache: Shutdown
+[2015.09.10-21.05.20:019][669]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.09.10-21.05.20:034][669]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.09.10-21.05.20:034][669]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.09.10-21.05.20:041][669]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.09.10-21.05.20:041][669]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.09.10-21.05.20:041][669]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.09.10-21.05.20:041][669]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.09.10-21.05.20:041][669]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.09.10-21.05.20:041][669]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.09.10-21.05.20:041][669]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.09.10-21.05.20:041][669]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.09.10-21.05.20:052][669]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.09.10-21.05.20:052][669]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.09.10-21.05.20:052][669]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.09.10-21.05.20:052][669]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.09.10-21.05.20:052][669]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.09.10-21.05.20:053][669]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.09.10-21.05.20:053][669]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.09.10-21.05.20:053][669]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.09.10-21.05.20:053][669]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.09.10-21.05.20:053][669]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.09.10-21.05.20:053][669]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.09.10-21.05.20:053][669]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.09.10-21.05.20:053][669]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.09.10-21.05.20:053][669]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.09.10-21.05.20:053][669]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.09.10-21.05.20:053][669]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.09.10-21.05.20:053][669]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.09.10-21.05.20:053][669]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.09.10-21.05.20:053][669]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.09.10-21.05.20:053][669]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.09.10-21.05.20:053][669]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.09.10-21.05.20:053][669]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.09.10-21.05.20:053][669]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.09.10-21.05.20:053][669]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.09.10-21.05.20:053][669]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.09.10-21.05.20:054][669]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.09.10-21.05.20:054][669]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.09.10-21.05.20:054][669]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.09.10-21.05.20:055][669]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.09.10-21.05.20:055][669]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.09.10-21.05.20:082][669]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.09.10-21.05.20:089][669]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.09.10-21.05.20:089][669]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.09.10-21.05.20:089][669]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.09.10-21.05.20:089][669]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.09.10-21.05.20:089][669]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.09.10-21.05.20:096][669]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.09.10-21.05.20:102][669]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.09.10-21.05.20:110][669]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.09.10-21.05.20:130][669]LogExit: Exiting.
+[2015.09.10-21.05.20:147][669]Log file closed, 09/10/15 14:05:20
