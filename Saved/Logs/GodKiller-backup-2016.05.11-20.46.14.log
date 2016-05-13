@@ -1,0 +1,908 @@
+﻿[2016.05.12-01.20.11:957][  0]Log file open, 05/11/16 18:20:11
+[2016.05.12-01.20.11:957][  0]LogInit:Display: Running engine for game: GodKiller
+[2016.05.12-01.20.11:957][  0]LogInit:Display: RandInit(-783641680) SRandInit(-783641678).
+[2016.05.12-01.20.11:957][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.05.12-01.20.11:957][  0]LogStats: Stats thread started
+[2016.05.12-01.20.11:957][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2016.05.12-01.20.11:957][  0]LogInit: API Version: 2579680
+[2016.05.12-01.20.11:957][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2016.05.12-01.20.11:957][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.05.12-01.20.11:957][  0]LogInit: Build Configuration: Development
+[2016.05.12-01.20.11:957][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2016.05.12-01.20.11:957][  0]LogInit: Command line:  
+[2016.05.12-01.20.11:957][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2016.05.12-01.20.11:957][  0]LogInit: Rocket: 1
+[2016.05.12-01.20.11:983][  0]LogInit: Using libcurl 7.41.0
+[2016.05.12-01.20.11:983][  0]LogInit:  - built for x86_64-pc-win32
+[2016.05.12-01.20.11:983][  0]LogInit:  - supports SSL with WinSSL
+[2016.05.12-01.20.11:983][  0]LogInit:  - other features:
+[2016.05.12-01.20.11:983][  0]LogInit:      CURL_VERSION_SSL
+[2016.05.12-01.20.11:983][  0]LogInit:      CURL_VERSION_IPV6
+[2016.05.12-01.20.11:983][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.05.12-01.20.11:983][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.05.12-01.20.11:983][  0]LogInit:      CURL_VERSION_IDN
+[2016.05.12-01.20.11:983][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.05.12-01.20.11:983][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.05.12-01.20.11:983][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.05.12-01.20.11:983][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.05.12-01.20.11:983][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.05.12-01.20.12:004][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2016.05.12-01.20.12:340][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.05.12-01.20.12:356][  0]LogInit: Object subsystem initialized
+[2016.05.12-01.20.12:358][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2016.05.12-01.20.12:358][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/tehno/Documents/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.05.12-01.20.12:358][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2016.05.12-01.20.12:358][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/tehno/Documents/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.05.12-01.20.12:358][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2016.05.12-01.20.12:358][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/tehno/Documents/God-Killer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.05.12-01.20.12:359][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.12-01.20.12:359][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.05.12-01.20.12:412][  0]LogInit: Computer: DESKTOP-1J5BF64
+[2016.05.12-01.20.12:412][  0]LogInit: User: tehno
+[2016.05.12-01.20.12:412][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.05.12-01.20.12:412][  0]LogInit: High frequency timer resolution =2.533209 MHz
+[2016.05.12-01.20.12:412][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.05.12-01.20.12:412][  0]LogMemory: Platform Memory Stats for Windows
+[2016.05.12-01.20.12:412][  0]LogMemory: Process Physical Memory: 53.59 MB used, 53.59 MB peak
+[2016.05.12-01.20.12:412][  0]LogMemory: Process Virtual Memory: 24.68 MB used, 24.68 MB peak
+[2016.05.12-01.20.12:412][  0]LogMemory: Physical Memory: 4958.81 MB used, 8081.01 MB total
+[2016.05.12-01.20.12:412][  0]LogMemory: Virtual Memory: 316.44 MB used, 134217728.00 MB total
+[2016.05.12-01.20.14:773][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2016.05.12-01.20.15:108][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2016.05.12-01.20.16:850][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 960M     (Feature Level 11_0)
+[2016.05.12-01.20.16:850][  0]LogD3D11RHI: Adapter has 1995MB of dedicated video memory, 0MB of dedicated system memory, and 4040MB of shared system memory, 1 output[s]
+[2016.05.12-01.20.16:873][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2016.05.12-01.20.16:873][  0]LogD3D11RHI: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 4040MB of shared system memory, 0 output[s]
+[2016.05.12-01.20.16:879][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.05.12-01.20.16:879][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4040MB of shared system memory, 0 output[s]
+[2016.05.12-01.20.16:879][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.05.12-01.20.16:897][  0]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.20.16:897][  0]LogD3D11RHI: !Direct3DDevice
+[2016.05.12-01.20.16:897][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.05.12-01.20.16:945][  0]LogD3D11RHI: Async texture creation enabled
+[2016.05.12-01.20.16:972][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.05.12-01.20.30:047][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2016.05.12-01.20.30:086][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.05.12-01.20.30:176][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.05.12-01.20.30:216][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.05.12-01.20.30:243][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.05.12-01.20.30:269][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.05.12-01.20.30:288][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.05.12-01.20.30:305][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.05.12-01.20.30:323][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.05.12-01.20.30:341][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.05.12-01.20.30:359][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.05.12-01.20.30:398][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.05.12-01.20.30:782][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.05.12-01.20.30:857][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.05.12-01.20.30:938][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.05.12-01.20.31:009][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.05.12-01.20.31:009][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.05.12-01.20.33:690][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.05.12-01.20.34:131][  0]LogDerivedDataCache: Loaded boot cache 0.44s 53MB C:/Users/tehno/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2016.05.12-01.20.34:131][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/tehno/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2016.05.12-01.20.34:132][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/tehno/Documents/God-Killer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.05.12-01.20.34:132][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.05.12-01.20.34:132][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/tehno/Documents/God-Killer/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.05.12-01.20.34:132][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.05.12-01.20.34:814][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.05.12-01.20.34:863][  0]LogDerivedDataCache: Using Local data cache path C:/Users/tehno/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.05.12-01.21.15:555][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.12-01.21.15:884][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2016.05.12-01.21.15:885][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2016.05.12-01.21.16:095][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.05.12-01.21.16:095][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.05.12-01.21.19:917][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.05.12-01.22.03:105][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.05.12-01.22.05:368][  0]SourceControl: Info Source control is disabled
+[2016.05.12-01.22.06:947][  0]SourceControl: Info Source control is disabled
+[2016.05.12-01.22.06:973][  0]SourceControl: Info Source control is disabled
+[2016.05.12-01.22.06:993][  0]SourceControl: Info Source control is disabled
+[2016.05.12-01.22.08:641][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2016.05.12-01.22.08:641][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2016.05.12-01.22.08:982][  0]LogEngine: Initializing Engine...
+[2016.05.12-01.22.08:986][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2016.05.12-01.22.09:115][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2016.05.12-01.22.10:656][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.05.12-01.22.10:682][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.12-01.22.10:693][  0]LogInit: FAudioDevice initialized.
+[2016.05.12-01.22.10:736][  0]LogDerivedDataCache: Saved boot cache 0.04s 53MB C:/Users/tehno/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2016.05.12-01.22.10:744][  0]LogInit: Texture streaming: Disabled
+[2016.05.12-01.22.10:797][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.05.12-01.22.10:798][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2016.05.12-01.22.10:798][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId ff2ae08d43132c9c6560deab31976655|82a2ba43aacb4a26af7064aafe4b8476|408bd81a-a488-43d0-aafd-21e3d5a0d38c
+[2016.05.12-01.22.10:798][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.05.12-01.22.11:041][  0]LogInit: Transaction tracking system initialized
+[2016.05.12-01.22.11:402][  0]BlueprintLog: New page: Editor Load
+[2016.05.12-01.22.11:466][  0]LogAssetRegistry: FAssetRegistry took 0.0109 seconds to start up
+[2016.05.12-01.22.11:467][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2016.05.12-01.22.15:079][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2016.05.12-01.22.15:080][  0]LogConsoleResponse:Display: 
+[2016.05.12-01.22.19:887][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.05.12-01.22.21:668][  0]SourceControl: Info Source control is disabled
+[2016.05.12-01.22.21:669][  0]Cmd: MAP LOAD FILE="../../../../../../Users/tehno/Documents/God-Killer/Content/Scene/NewCave.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.05.12-01.22.21:828][  0]LightingResults: New page: Lighting Build
+[2016.05.12-01.22.21:905][  0]MapCheck: New page: Map Check
+[2016.05.12-01.22.21:905][  0]LightingResults: New page: Lighting Build
+[2016.05.12-01.22.21:935][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002B626409300
+[2016.05.12-01.22.41:973][  0]LogBlueprint:Warning: [compiler Gui] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
+[2016.05.12-01.22.41:994][  0]LogBlueprint:Warning: [compiler Gui] Warning [0158.72] Compile of Gui successful, but with 1 Warning(s) [in 86 ms]
+[2016.05.12-01.22.41:994][  0]LogBlueprint:Warning: [compiler Gui] Warning [0158.72] Compile of Gui successful, but with 2 Warning(s) [in 0 ms]
+[2016.05.12-01.22.41:994][  0]LogBlueprint:Warning: [compiler Gui] Warning [0158.72] Compile of Gui successful, but with 3 Warning(s) [in 0 ms]
+[2016.05.12-01.22.43:055][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
+[2016.05.12-01.22.43:056][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0159.78] Compile of GnawmersHealth successful, but with 1 Warning(s) [in 25 ms]
+[2016.05.12-01.22.43:056][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0159.78] Compile of GnawmersHealth successful, but with 2 Warning(s) [in 0 ms]
+[2016.05.12-01.22.43:056][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0159.78] Compile of GnawmersHealth successful, but with 3 Warning(s) [in 0 ms]
+[2016.05.12-01.22.48:403][  0]LogBlueprint:Warning: [compiler Gui] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
+[2016.05.12-01.22.48:414][  0]LogBlueprint:Warning: [compiler Gui] Warning [0165.14] Compile of Gui successful, but with 1 Warning(s) [in 52 ms]
+[2016.05.12-01.22.48:416][  0]LogBlueprint:Warning: [compiler Gui] Warning [0165.14] Compile of Gui successful, but with 2 Warning(s) [in 2 ms]
+[2016.05.12-01.22.48:547][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning 'gnawmers' is already a 'Enemy 1', you don't need  Cast To Enemy1 .
+[2016.05.12-01.22.48:548][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0165.27] Compile of GnawmersHealth successful, but with 1 Warning(s) [in 13 ms]
+[2016.05.12-01.22.48:548][  0]LogBlueprint:Warning: [compiler GnawmersHealth] Warning [0165.27] Compile of GnawmersHealth successful, but with 2 Warning(s) [in 0 ms]
+[2016.05.12-01.23.22:555][  0]LogBlueprint:Warning: [compiler NewCave] Warning Node  Unknown  is not referencing a valid level actor
+[2016.05.12-01.23.22:566][  0]LogBlueprint:Warning: [compiler NewCave] Warning [0199.29] Compile of NewCave successful, but with 1 Warning(s) [in 275 ms]
+[2016.05.12-01.23.22:566][  0]LogBlueprint:Warning: [compiler NewCave] Warning [0199.29] Compile of NewCave successful, but with 2 Warning(s) [in 0 ms]
+[2016.05.12-01.23.22:566][  0]LogBlueprint:Warning: [compiler NewCave] Warning [0199.29] Compile of NewCave successful, but with 3 Warning(s) [in 0 ms]
+[2016.05.12-01.23.23:060][  0]LogBlueprint:Warning: [compiler NewCave] Warning Node  Unknown  is not referencing a valid level actor
+[2016.05.12-01.23.23:089][  0]LogBlueprint:Warning: [compiler NewCave] Warning [0199.81] Compile of NewCave successful, but with 1 Warning(s) [in 468 ms]
+[2016.05.12-01.23.23:089][  0]LogBlueprint:Warning: [compiler NewCave] Warning [0199.81] Compile of NewCave successful, but with 2 Warning(s) [in 0 ms]
+[2016.05.12-01.25.00:040][  0]LogTexture:Display: Building textures: ThumbnailTexture (DXT1)
+[2016.05.12-01.25.01:757][  0]LogAIModule: Creating AISystem for world NewCave
+[2016.05.12-01.25.08:840][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.05.12-01.25.08:845][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.05.12-01.25.09:524][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 678.369ms to complete.
+[2016.05.12-01.25.09:524][  0]LogFileHelpers: Loading map 'NewCave' took 167.855
+[2016.05.12-01.25.09:802][  0]LogCollectionManager: Loaded 0 collections in 0.008368 seconds
+[2016.05.12-01.25.09:822][  0]LogContentBrowser: Native class hierarchy populated in 0.0199 seconds. Added 1792 classes and 301 folders.
+[2016.05.12-01.25.10:258][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.05.12-01.25.11:020][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2016.05.12-01.25.11:356][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2016.05.12-01.25.11:716][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.05.12-01.25.11:718][  0]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.25.11:760][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.05.12-01.25.11:783][  0]LogLoad: Full Startup: 308.51 seconds (BP compile: 8.98 seconds)
+[2016.05.12-01.25.12:829][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.05.12-01.25.13:423][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.05.12-01.25.13:437][  0]LogAudio:Warning: Spatialisation on stereo and multichannel sounds is not supported. SoundWave: LoopBossFightMusic Actor: LoopBossFightMusic2_2 AudioComponent: AudioComponent0
+[2016.05.12-01.25.13:437][  0]LogAudio:Warning: Spatialisation on stereo and multichannel sounds is not supported. SoundWave: animal-bats-cave Actor: animal-bats-cave_6 AudioComponent: AudioComponent0
+[2016.05.12-01.25.13:437][  0]LogAudio:Warning: Spatialisation on stereo and multichannel sounds is not supported. SoundWave: SCI-FI-AMB-HVY-CAVE-WIND Actor: SCI-FI-AMB-HVY-CAVE-WIND_9 AudioComponent: AudioComponent0
+[2016.05.12-01.25.13:437][  0]LogAudio:Warning: Spatialisation on stereo and multichannel sounds is not supported. SoundWave: water-drip-cave-2 Actor: water-drip-cave-4_27 AudioComponent: AudioComponent0
+[2016.05.12-01.25.14:398][  0]LogRenderer: Reallocating scene render targets to support 768x712 (Frame:2).
+[2016.05.12-01.25.14:785][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2016.05.12-01.25.14:820][  1]Cmd: UpdateLandscapeEditorData
+[2016.05.12-01.25.20:267][ 43]LogAssetRegistry: Asset discovery search completed in 188.8119 seconds
+[2016.05.12-01.25.26:337][178]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.25.30:619][422]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.25.31:637][464]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.25.32:362][484]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.25.34:454][631]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.25.55:328][725]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.25.55:410][725]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/tehno/Desktop/gnomers/UGnormers.FBX)
+[2016.05.12-01.25.55:672][725]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.05.12-01.25.55:672][725]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.05.12-01.25.55:672][725]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.05.12-01.25.55:672][725]LogFbx: ItemName: Model, ItemCount : 1
+[2016.05.12-01.25.55:672][725]LogFbx: ItemName: Geometry, ItemCount : 1
+[2016.05.12-01.25.55:672][725]LogFbx: ItemName: Material, ItemCount : 1
+[2016.05.12-01.25.55:672][725]LogFbx: ItemName: Texture, ItemCount : 1
+[2016.05.12-01.25.55:672][725]LogFbx: ItemName: Video, ItemCount : 1
+[2016.05.12-01.25.56:073][725]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.26.00:694][725]LogFbx: Loading FBX Scene from ../../../../../../Users/tehno/Desktop/gnomers/UGnormers.FBX
+[2016.05.12-01.26.00:860][725]LogFbx: FBX Scene Loaded Succesfully
+[2016.05.12-01.26.01:018][725]LogStaticMesh: Building static mesh UGnormers...
+[2016.05.12-01.26.01:708][725]LogStaticMesh: Built static mesh [0.691154.2s] /Game/Enemy1/Gnomers/UGnormers.UGnormers
+[2016.05.12-01.26.02:025][725]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.05.12-01.26.02:040][725]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.26.05:403][852]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.26.05:695][852]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.26.06:151][852]LogRenderer: Reallocating scene render targets to support 1040x712 (Frame:234).
+[2016.05.12-01.26.20:439][967]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.26.20:497][967]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/tehno/Desktop/gnomers/Substance/Ugnomers/UGnormers_defaultMat_BaseColor.tga)
+[2016.05.12-01.26.20:790][967]LogTexture:Display: Building textures: UGnormers_defaultMat_BaseColor (AutoDXT)
+[2016.05.12-01.26.21:444][967]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/tehno/Desktop/gnomers/Substance/Ugnomers/UGnormers_defaultMat_Normal.tga)
+[2016.05.12-01.26.21:745][967]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.26.21:766][967]LogTexture:Display: Building textures: UGnormers_defaultMat_Normal (BC5)
+[2016.05.12-01.26.22:065][967]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/tehno/Desktop/gnomers/Substance/Ugnomers/UGnormers_defaultMat_RoughnessMetallic.tga)
+[2016.05.12-01.26.22:305][967]LogTexture:Display: Building textures: UGnormers_defaultMat_RoughnessMetallic (AutoDXT)
+[2016.05.12-01.26.24:991][122]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.26.25:053][122]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2016.05.12-01.26.25:071][122]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.26.30:613][344]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.26.31:229][376]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.26.33:579][540]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.26.33:613][540]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.26.35:344][613]LogTexture:Display: Building textures: UGnormers_defaultMat_RoughnessMetallic (AutoDXT)
+[2016.05.12-01.26.41:085][827]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.26.41:457][849]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.26.47:601][208]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.26.47:725][208]LogMaterial: Missing cached shader map for material UGNomers, compiling. 
+[2016.05.12-01.26.48:943][208]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.26.49:090][208]LogMaterial: Missing cached shader map for material UGNomers, compiling. 
+[2016.05.12-01.26.49:132][208]LogMaterial: 0.000396 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.12-01.26.51:515][250]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.26.56:136][477]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.26.57:524][538]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.05.12-01.26.57:524][538]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.12-01.26.57:524][538]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.12-01.26.58:091][580]LogMaterial: Missing cached shader map for material UGNomers, compiling. 
+[2016.05.12-01.26.58:098][580]LogMaterial: 0.000139 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.12-01.26.58:099][580]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.05.12-01.26.58:142][580]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.05.12-01.26.58:188][580]LogMaterial: Missing cached shader map for material UGNomers, compiling. 
+[2016.05.12-01.26.58:202][580]LogMaterial: 0.000101 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.12-01.26.58:203][580]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.05.12-01.26.58:238][580]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.05.12-01.26.58:245][580]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.05.12-01.26.58:270][580]LogMaterial: Missing cached shader map for material UGNomers, compiling. 
+[2016.05.12-01.26.58:280][580]LogMaterial: 0.000043 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.12-01.26.58:281][580]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.05.12-01.26.58:329][580]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.05.12-01.26.58:333][580]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.05.12-01.26.58:336][580]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.05.12-01.27.00:864][688]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.05.12-01.27.00:864][688]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.12-01.27.00:864][688]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.12-01.27.04:993][949]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.27.05:102][949]LogRenderer: Reallocating scene render targets to support 1144x712 (Frame:849).
+[2016.05.12-01.27.06:434][ 51]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.27.14:857][455]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.27.14:991][455]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy1/Gnomers/UGnormers" FILE="../../../../../../Users/tehno/Documents/God-Killer/Content/Enemy1/Gnomers/UGnormers.uasset" SILENT=true
+[2016.05.12-01.27.15:166][455]LogSavePackage: Save=125.849464ms
+[2016.05.12-01.27.15:166][455]LogSavePackage: Moving '../../../../../../Users/tehno/Documents/God-Killer/Saved/UGnormers54DA236549883A04C299BEA97C1D7116.tmp' to '../../../../../../Users/tehno/Documents/God-Killer/Content/Enemy1/Gnomers/UGnormers.uasset'
+[2016.05.12-01.27.18:775][703]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.27.20:297][830]LogMaterial: Missing cached shader map for material UGNomers, compiling. 
+[2016.05.12-01.27.20:307][830]LogMaterial: 0.000114 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.12-01.27.20:334][830]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.05.12-01.27.22:575][938]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 36 instructions
+[2016.05.12-01.27.22:575][938]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.12-01.27.22:575][938]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.05.12-01.27.29:256][351]LogMaterialEditor: Saving and Compiling material UGNomers
+[2016.05.12-01.27.30:918][351]LogMaterial: Missing cached shader map for material UGNomers, compiling. 
+[2016.05.12-01.27.30:992][351]LogMaterial: 0.000284 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.12-01.27.31:000][351]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.27.31:185][351]LogMaterial: Missing cached shader map for material UGNomers, compiling. 
+[2016.05.12-01.27.31:211][351]LogMaterial: Missing cached shader map for material UGNomers, compiling. 
+[2016.05.12-01.27.31:235][351]LogMaterial: 0.014926 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.12-01.27.31:286][351]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.27.33:277][351]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy1/Gnomers/UGNomers" FILE="../../../../../../Users/tehno/Documents/God-Killer/Content/Enemy1/Gnomers/UGNomers.uasset" SILENT=true
+[2016.05.12-01.27.33:322][351]LogSavePackage: Save=35.459766ms
+[2016.05.12-01.27.33:322][351]LogSavePackage: Moving '../../../../../../Users/tehno/Documents/God-Killer/Saved/UGNomersA071FCB7414809EE0B9C8EA6BAE93915.tmp' to '../../../../../../Users/tehno/Documents/God-Killer/Content/Enemy1/Gnomers/UGNomers.uasset'
+[2016.05.12-01.27.33:348][351]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2016.05.12-01.27.33:348][351]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.12-01.27.33:348][351]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.05.12-01.27.42:789][175]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.27.47:496][244]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.27.49:225][340]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.27.50:447][448]LogMaterial: Missing cached shader map for material UGNomers, compiling. 
+[2016.05.12-01.27.50:455][448]LogMaterial: 0.000107 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.12-01.27.50:521][448]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.05.12-01.27.52:485][543]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 51 instructions
+[2016.05.12-01.27.52:485][543]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.12-01.27.52:485][543]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.05.12-01.27.56:350][833]LogMaterialEditor: Saving and Compiling material UGNomers
+[2016.05.12-01.27.57:624][833]LogMaterial: Missing cached shader map for material UGNomers, compiling. 
+[2016.05.12-01.27.57:702][833]LogMaterial: 0.000271 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.12-01.27.57:713][833]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.27.57:837][833]LogMaterial: Missing cached shader map for material UGNomers, compiling. 
+[2016.05.12-01.27.57:885][833]LogMaterial: Missing cached shader map for material UGNomers, compiling. 
+[2016.05.12-01.27.57:916][833]LogMaterial: 0.014240 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.12-01.27.57:985][833]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.27.59:926][833]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy1/Gnomers/UGNomers" FILE="../../../../../../Users/tehno/Documents/God-Killer/Content/Enemy1/Gnomers/UGNomers.uasset" SILENT=true
+[2016.05.12-01.28.00:131][833]LogSavePackage: Save=27.489244ms
+[2016.05.12-01.28.00:131][833]LogSavePackage: Moving '../../../../../../Users/tehno/Documents/God-Killer/Saved/UGNomersB882FE984DD9209C1C5D928EEC617348.tmp' to '../../../../../../Users/tehno/Documents/God-Killer/Content/Enemy1/Gnomers/UGNomers.uasset'
+[2016.05.12-01.28.00:151][833]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 70 instructions
+[2016.05.12-01.28.00:151][833]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.12-01.28.00:151][833]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.05.12-01.28.15:957][965]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.28.16:733][ 31]LogMaterial: Missing cached shader map for material UGNomers, compiling. 
+[2016.05.12-01.28.16:740][ 31]LogMaterial: 0.000176 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.12-01.28.16:765][ 31]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.05.12-01.28.18:911][134]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 52 instructions
+[2016.05.12-01.28.18:911][134]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.12-01.28.18:911][134]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.05.12-01.28.21:043][265]LogMaterialEditor: Saving and Compiling material UGNomers
+[2016.05.12-01.28.22:162][265]LogMaterial: Missing cached shader map for material UGNomers, compiling. 
+[2016.05.12-01.28.22:190][265]LogMaterial: 0.000122 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.12-01.28.22:193][265]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.28.22:282][265]LogMaterial: Missing cached shader map for material UGNomers, compiling. 
+[2016.05.12-01.28.22:367][265]LogMaterial: Missing cached shader map for material UGNomers, compiling. 
+[2016.05.12-01.28.22:393][265]LogMaterial: 0.012864 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.12-01.28.22:454][265]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.28.24:448][265]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy1/Gnomers/UGNomers" FILE="../../../../../../Users/tehno/Documents/God-Killer/Content/Enemy1/Gnomers/UGNomers.uasset" SILENT=true
+[2016.05.12-01.28.24:498][265]LogSavePackage: Save=32.046310ms
+[2016.05.12-01.28.24:498][265]LogSavePackage: Moving '../../../../../../Users/tehno/Documents/God-Killer/Saved/UGNomers61FC2A92496467D2AE47C59DB5D80412.tmp' to '../../../../../../Users/tehno/Documents/God-Killer/Content/Enemy1/Gnomers/UGNomers.uasset'
+[2016.05.12-01.28.24:519][265]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 71 instructions
+[2016.05.12-01.28.24:519][265]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.12-01.28.24:520][265]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.05.12-01.29.08:492][487]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.29.08:542][487]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy1/Gnomers/UGnormers" FILE="../../../../../../Users/tehno/Documents/God-Killer/Content/Enemy1/Gnomers/UGnormers.uasset" SILENT=true
+[2016.05.12-01.29.08:602][487]LogSavePackage: Save=6.448738ms
+[2016.05.12-01.29.08:602][487]LogSavePackage: Moving '../../../../../../Users/tehno/Documents/God-Killer/Saved/UGnormers958BDB08439F9BA9072992B2770D5600.tmp' to '../../../../../../Users/tehno/Documents/God-Killer/Content/Enemy1/Gnomers/UGnormers.uasset'
+[2016.05.12-01.29.31:473][128]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.29.32:232][130]LogActorFactory: Actor Factory created UGnormers
+[2016.05.12-01.29.35:427][203]LogActorFactory: Actor Factory created UGnormers
+[2016.05.12-01.29.39:496][282]Cmd: DELETE
+[2016.05.12-01.29.39:496][282]Cmd: ACTOR DELETE
+[2016.05.12-01.29.39:535][282]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.05.12-01.29.40:213][282]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002B62859CFE0
+[2016.05.12-01.29.42:247][282]LogEditorActor: Deleted 1 Actors (2.744 secs)
+[2016.05.12-01.29.42:268][282]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2016.05.12-01.29.42:407][282]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.29.44:978][329]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.29.45:109][331]LogActorFactory: Actor Factory created UGnormers
+[2016.05.12-01.29.46:037][351]LogActorFactory: Actor Factory created UGnormers
+[2016.05.12-01.29.52:424][510]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.05.12-01.29.52:445][510]LogPlayLevel: [PIE] Compiling NewCave before PIE...
+[2016.05.12-01.29.53:036][510]LogBlueprint:Warning: [compiler NewCave] Warning Node  Unknown  is not referencing a valid level actor
+[2016.05.12-01.29.53:075][510]LogBlueprint:Warning: [compiler NewCave] Warning [0589.80] Compile of NewCave successful, but with 1 Warning(s) [in 533 ms]
+[2016.05.12-01.29.53:092][510]LogBlueprint:Warning: [compiler NewCave] Warning [0589.81] Compile of NewCave successful, but with 2 Warning(s) [in 0 ms]
+[2016.05.12-01.29.53:092][510]LogBlueprint:Warning: [compiler NewCave] Warning [0589.81] Compile of NewCave successful, but with 3 Warning(s) [in 0 ms]
+[2016.05.12-01.29.53:444][510]LogBlueprint:Warning: [compiler NewCave] Warning [0590.17] Compile of NewCave successful, but with 4 Warning(s) [in 344 ms]
+[2016.05.12-01.29.53:444][510]LogBlueprint:Warning: [compiler NewCave] Warning [0590.17] Compile of NewCave successful, but with 5 Warning(s) [in 0 ms]
+[2016.05.12-01.29.53:444][510]LogBlueprint:Warning: [compiler NewCave] Warning [0590.17] Compile of NewCave successful, but with 6 Warning(s) [in 0 ms]
+[2016.05.12-01.29.53:548][510]LogPlayLevel: PIE:  Blueprint regeneration took 1123 ms (1 blueprints)
+[2016.05.12-01.29.53:985][510]PIE: New page: PIE session: NewCave (May 11, 2016, 11:29:53 AM)
+[2016.05.12-01.29.54:000][510]LogPlayLevel: Creating play world package: /Game/Scene/UEDPIE_0_NewCave
+[2016.05.12-01.29.54:821][510]LogPlayLevel: PIE: StaticDuplicateObject took: (0.821128s)
+[2016.05.12-01.29.54:823][510]LogAIModule: Creating AISystem for world NewCave
+[2016.05.12-01.29.54:826][510]LogPlayLevel: PIE: World Init took: (0.004697s)
+[2016.05.12-01.29.54:839][510]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/NewCave.NewCave to /Game/Scene/UEDPIE_0_NewCave.NewCave (0.838652s)
+[2016.05.12-01.29.54:954][510]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.12-01.29.54:993][510]LogInit: FAudioDevice initialized.
+[2016.05.12-01.29.55:071][510]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.29.55:440][510]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.05.12-01.29.57:738][510]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2016.05.12-01.29.57:738][510]LogWorld: Bringing World /Game/Scene/UEDPIE_0_NewCave.NewCave up for play (max tick rate 0) at 2016.05.11-18.29.57
+[2016.05.12-01.29.57:738][510]LogActor:Warning: GameSession /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.12-01.29.57:765][510]LogActor:Warning: GameNetworkManager /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.12-01.29.58:114][510]LogWorld: Bringing up level for play took: 2.330972
+[2016.05.12-01.29.58:621][510]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	KeySpawner_C /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.KeySpawner_C_0
+	Function /Game/Key/KeySpawner.KeySpawner_C:ExecuteUbergraph_KeySpawner:0410
+[2016.05.12-01.29.58:622][510]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node SpawnActor in graph 'EventGraph' in blueprint KeySpawner
+[2016.05.12-01.29.58:622][510]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	KeySpawner_C /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.KeySpawner_C_0
+	Function /Game/Key/KeySpawner.KeySpawner_C:ExecuteUbergraph_KeySpawner:050C
+[2016.05.12-01.29.58:622][510]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node SpawnActor in graph 'EventGraph' in blueprint KeySpawner
+[2016.05.12-01.29.58:623][510]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	KeySpawner_C /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.KeySpawner_C_0
+	Function /Game/Key/KeySpawner.KeySpawner_C:ExecuteUbergraph_KeySpawner:0605
+[2016.05.12-01.29.58:623][510]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node SetActorLocation in graph 'EventGraph' in blueprint KeySpawner
+[2016.05.12-01.29.58:715][510]PIE: Info Play in editor start time for /Game/Scene/UEDPIE_0_NewCave 6.436
+[2016.05.12-01.29.59:348][510]LogRenderer: Reallocating scene render targets to support 1296x760 (Frame:6502).
+[2016.05.12-01.30.02:976][565]LogScript:Warning: Accessed None 'None_ExecuteUbergraph_NewCave_RefProperty'
+	NewCave_C /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.NewCave_C_1
+	Function /Game/Scene/NewCave.NewCave_C:ExecuteUbergraph_NewCave:1068
+[2016.05.12-01.30.02:976][565]PIE:Error: Error Accessed None 'None_ExecuteUbergraph_NewCave_RefProperty' from node SpawnActor Goblin Bp in graph 'EventGraph' in blueprint NewCave
+[2016.05.12-01.30.02:981][565]LogScript:Warning: Accessed None 'None_ExecuteUbergraph_NewCave_RefProperty'
+	NewCave_C /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.NewCave_C_1
+	Function /Game/Scene/NewCave.NewCave_C:ExecuteUbergraph_NewCave:1123
+[2016.05.12-01.30.02:981][565]PIE:Error: Error Accessed None 'None_ExecuteUbergraph_NewCave_RefProperty' from node SpawnActor Goblin Bp in graph 'EventGraph' in blueprint NewCave
+[2016.05.12-01.30.11:920][701]LogScript:Warning: Cannot access 'KoboldController_C_0'. It is pending kill. Property: 'K2Node_DynamicCast_AsAIController'
+	Wander3_C /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.KoboldController_C_0.BTComponent.Wander3_C_0
+	Function /Game/Kobold/KoboldAi/Wander3.Wander3_C:ExecuteUbergraph_Wander3:0063
+[2016.05.12-01.30.11:921][701]PIE:Error: Error Cannot access 'KoboldController_C_0'. It is pending kill. Property: 'K2Node_DynamicCast_AsAIController' from node Cast To KoboldBp in graph 'EventGraph' in blueprint Wander3
+[2016.05.12-01.30.21:433][843]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.05.12-01.30.24:491][887]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.05.12-01.31.14:088][621]LogScript:Warning: Cannot access 'KoboldController_C_3'. It is pending kill. Property: 'K2Node_DynamicCast_AsAIController'
+	Wander3_C /Game/Scene/UEDPIE_0_NewCave.NewCave:PersistentLevel.KoboldController_C_3.BTComponent.Wander3_C_0
+	Function /Game/Kobold/KoboldAi/Wander3.Wander3_C:ExecuteUbergraph_Wander3:0063
+[2016.05.12-01.31.14:088][621]PIE:Error: Error Cannot access 'KoboldController_C_3'. It is pending kill. Property: 'K2Node_DynamicCast_AsAIController' from node Cast To KoboldBp in graph 'EventGraph' in blueprint Wander3
+[2016.05.12-01.31.19:252][691]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002B631589940
+[2016.05.12-01.31.19:392][691]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.31.21:941][744]Cmd: SELECT NONE
+[2016.05.12-01.35.51:388][375]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.35.51:936][391]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.35.53:016][424]LogEditorFactories: Performing atomic reimport of [C:/Users/tehno/Desktop/gnomers/Substance/Ugnomers/UGnormers_defaultMat_BaseColor.tga]
+[2016.05.12-01.35.53:016][424]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/tehno/Desktop/gnomers/Substance/Ugnomers/UGnormers_defaultMat_BaseColor.tga)
+[2016.05.12-01.35.53:325][424]LogTexture:Display: Building textures: UGnormers_defaultMat_BaseColor (AutoDXT)
+[2016.05.12-01.35.54:080][424]LogEditorFactories: -- imported successfully
+[2016.05.12-01.35.54:085][424]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.36.36:770][347]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.36.36:892][347]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.36.38:040][347]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/tehno/Desktop/gnomers/Substance/UGnormers_defaultMat_BaseColor.tga)
+[2016.05.12-01.36.38:281][347]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.36.41:518][347]LogTexture:Display: Building textures: UGnormers_defaultMat_BaseColor (AutoDXT)
+[2016.05.12-01.36.42:251][347]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.36.43:033][347]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/tehno/Desktop/gnomers/Substance/UGnormers_defaultMat_Normal.tga)
+[2016.05.12-01.36.43:308][347]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.36.44:090][347]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.36.44:128][347]LogTexture:Display: Building textures: UGnormers_defaultMat_Normal (BC5)
+[2016.05.12-01.36.44:409][347]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.36.45:029][347]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/tehno/Desktop/gnomers/Substance/UGnormers_defaultMat_RoughnessMetallic.tga)
+[2016.05.12-01.36.45:215][347]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.36.45:888][347]LogTexture:Display: Building textures: UGnormers_defaultMat_RoughnessMetallic (AutoDXT)
+[2016.05.12-01.37.03:106][968]LogMaterial: Missing cached shader map for material UGNomers, compiling. 
+[2016.05.12-01.37.03:128][968]LogMaterial: 0.000388 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.12-01.37.08:060][191]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.05.12-01.37.08:060][191]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.12-01.37.08:060][191]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.12-01.37.09:982][273]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.37.15:789][477]LogMaterialEditor: Saving and Compiling material UGNomers
+[2016.05.12-01.37.17:195][477]LogMaterial: Missing cached shader map for material UGNomers, compiling. 
+[2016.05.12-01.37.17:274][477]LogMaterial: 0.000287 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.12-01.37.17:286][477]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.37.17:427][477]LogMaterial: Missing cached shader map for material UGNomers, compiling. 
+[2016.05.12-01.37.17:470][477]LogMaterial: Missing cached shader map for material UGNomers, compiling. 
+[2016.05.12-01.37.17:508][477]LogMaterial: 0.027188 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.12-01.37.17:575][477]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.37.19:485][477]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy1/Gnomers/UGNomers" FILE="../../../../../../Users/tehno/Documents/God-Killer/Content/Enemy1/Gnomers/UGNomers.uasset" SILENT=true
+[2016.05.12-01.37.19:586][477]LogSavePackage: Save=13.862654ms
+[2016.05.12-01.37.19:586][477]LogSavePackage: Moving '../../../../../../Users/tehno/Documents/God-Killer/Saved/UGNomers6890E5F947718A955876FF95944274D2.tmp' to '../../../../../../Users/tehno/Documents/God-Killer/Content/Enemy1/Gnomers/UGNomers.uasset'
+[2016.05.12-01.37.19:598][477]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 62 instructions
+[2016.05.12-01.37.19:598][477]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.12-01.37.19:598][477]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.05.12-01.37.24:638][708]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.37.26:403][708]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.37.58:868][708]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MaterialExpressionTextureSample_0' or package '/Engine/Transient'.
+[2016.05.12-01.37.58:869][708]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MaterialExpressionTextureSample_1' or package '/Engine/Transient'.
+[2016.05.12-01.37.58:870][708]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MaterialExpressionTextureSample_2' or package '/Engine/Transient'.
+[2016.05.12-01.38.00:583][708]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002B636C9F920
+[2016.05.12-01.38.00:583][708]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002B639E52A20
+[2016.05.12-01.38.00:960][709]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.38.02:537][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene/NewCave" FILE="../../../../../../Users/tehno/Documents/God-Killer/Saved/Autosaves/Game/Scene/NewCave_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.05.12-01.38.03:722][709]LogBlueprint:Warning: [compiler NewCave] Warning Node  Unknown  is not referencing a valid level actor
+[2016.05.12-01.38.03:766][709]LogBlueprint:Warning: [compiler NewCave] Warning [1080.49] Compile of NewCave successful, but with 1 Warning(s) [in 527 ms]
+[2016.05.12-01.38.03:805][709]LogBlueprint:Warning: [compiler NewCave] Warning [1080.53] Compile of NewCave successful, but with 2 Warning(s) [in 0 ms]
+[2016.05.12-01.38.03:805][709]LogBlueprint:Warning: [compiler NewCave] Warning [1080.53] Compile of NewCave successful, but with 3 Warning(s) [in 0 ms]
+[2016.05.12-01.38.04:034][709]LogBlueprint:Warning: [compiler NewCave] Warning [1080.76] Compile of NewCave successful, but with 4 Warning(s) [in 228 ms]
+[2016.05.12-01.38.04:034][709]LogBlueprint:Warning: [compiler NewCave] Warning [1080.76] Compile of NewCave successful, but with 5 Warning(s) [in 0 ms]
+[2016.05.12-01.38.04:035][709]LogBlueprint:Warning: [compiler NewCave] Warning [1080.76] Compile of NewCave successful, but with 6 Warning(s) [in 0 ms]
+[2016.05.12-01.38.08:872][709]LogSavePackage: Save=6049.874512ms
+[2016.05.12-01.38.08:872][709]LogSavePackage: Moving '../../../../../../Users/tehno/Documents/God-Killer/Saved/NewCave_Auto1C632919643E2F47C827ADF9A1D4795C9.tmp' to '../../../../../../Users/tehno/Documents/God-Killer/Saved/Autosaves/Game/Scene/NewCave_Auto1.umap'
+[2016.05.12-01.38.09:102][709]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Scene/NewCave' took 6.825
+[2016.05.12-01.38.09:102][709]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 6.825
+[2016.05.12-01.38.15:903][769]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.38.16:002][769]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/tehno/Desktop/gnomers/Substance/UGnormers_defaultMat_BaseColor.tga)
+[2016.05.12-01.38.16:564][769]LogTexture:Display: Building textures: UGnormers_defaultMat_BaseColor (AutoDXT)
+[2016.05.12-01.38.18:214][769]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/tehno/Desktop/gnomers/Substance/UGnormers_defaultMat_Normal.tga)
+[2016.05.12-01.38.18:698][769]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.38.18:709][769]LogTexture:Display: Building textures: UGnormers_defaultMat_Normal (BC5)
+[2016.05.12-01.38.18:999][769]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/tehno/Desktop/gnomers/Substance/UGnormers_defaultMat_RoughnessMetallic.tga)
+[2016.05.12-01.38.19:276][769]LogTexture:Display: Building textures: UGnormers_defaultMat_RoughnessMetallic (AutoDXT)
+[2016.05.12-01.38.24:022][929]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.38.24:140][929]LogMaterial: Missing cached shader map for material UGNomers, compiling. 
+[2016.05.12-01.38.25:587][929]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.38.26:115][929]LogMaterial: Missing cached shader map for material UGNomers, compiling. 
+[2016.05.12-01.38.26:123][929]LogMaterial: 0.000085 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.12-01.38.29:835][991]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.38.32:466][106]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.38.34:189][190]LogTexture:Display: Building textures: UGnormers_defaultMat_RoughnessMetallic (AutoDXT)
+[2016.05.12-01.38.35:934][273]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.38.36:095][273]LogSavePackage: Save=76.513626ms
+[2016.05.12-01.38.36:095][273]LogSavePackage: Moving '../../../../../../Users/tehno/Documents/God-Killer/Saved/UGnormers_defaultMat_RoughnessMetallic5E4F640B422425F0BC39B79FD80C4D5A.tmp' to '../../../../../../Users/tehno/Documents/God-Killer/Content/Enemy1/Gnomers/UGnormers_defaultMat_RoughnessMetallic.uasset'
+[2016.05.12-01.38.37:642][356]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.05.12-01.38.37:642][356]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.12-01.38.37:642][356]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.12-01.38.40:638][518]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.38.42:530][611]LogMaterial: Missing cached shader map for material UGNomers, compiling. 
+[2016.05.12-01.38.42:544][611]LogMaterial: 0.000266 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.12-01.38.42:574][611]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.05.12-01.38.42:695][611]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.05.12-01.38.42:760][611]LogMaterial: Missing cached shader map for material UGNomers, compiling. 
+[2016.05.12-01.38.42:783][611]LogMaterial: 0.000134 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.12-01.38.42:785][611]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.05.12-01.38.42:850][611]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.05.12-01.38.42:872][611]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.05.12-01.38.42:915][611]LogMaterial: Missing cached shader map for material UGNomers, compiling. 
+[2016.05.12-01.38.42:923][611]LogMaterial: 0.000080 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.12-01.38.42:968][611]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2016.05.12-01.38.43:034][611]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.05.12-01.38.43:064][611]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.05.12-01.38.43:090][611]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2016.05.12-01.38.44:917][690]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.05.12-01.38.44:917][690]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.12-01.38.44:917][690]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.12-01.38.47:242][809]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.38.49:706][921]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.38.50:574][967]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.38.51:241][  3]LogMaterial: Missing cached shader map for material UGNomers, compiling. 
+[2016.05.12-01.38.51:249][  3]LogMaterial: 0.000160 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.12-01.38.51:351][  3]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.05.12-01.38.52:000][ 32]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.38.52:707][ 61]LogMaterial: Missing cached shader map for material UGNomers, compiling. 
+[2016.05.12-01.38.52:717][ 61]LogMaterial: 0.000050 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.12-01.38.52:776][ 61]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.05.12-01.38.53:261][ 81]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.38.54:059][124]LogMaterial: Missing cached shader map for material UGNomers, compiling. 
+[2016.05.12-01.38.54:076][124]LogMaterial: 0.000044 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.12-01.38.54:116][124]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2016.05.12-01.38.56:692][248]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 52 instructions
+[2016.05.12-01.38.56:692][248]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.12-01.38.56:693][248]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.05.12-01.38.59:458][409]LogMaterialEditor: Saving and Compiling material UGNomers
+[2016.05.12-01.39.01:112][409]LogMaterial: Missing cached shader map for material UGNomers, compiling. 
+[2016.05.12-01.39.01:192][409]LogMaterial: 0.000161 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.12-01.39.01:201][409]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.39.01:274][409]LogMaterial: Missing cached shader map for material UGNomers, compiling. 
+[2016.05.12-01.39.01:321][409]LogMaterial: Missing cached shader map for material UGNomers, compiling. 
+[2016.05.12-01.39.01:346][409]LogMaterial: 0.014144 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.12-01.39.01:424][409]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.39.03:347][409]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy1/Gnomers/UGNomers" FILE="../../../../../../Users/tehno/Documents/God-Killer/Content/Enemy1/Gnomers/UGNomers.uasset" SILENT=true
+[2016.05.12-01.39.03:390][409]LogSavePackage: Save=25.335453ms
+[2016.05.12-01.39.03:390][409]LogSavePackage: Moving '../../../../../../Users/tehno/Documents/God-Killer/Saved/UGNomers702A5FD040F0FC80CF8A8580B92D46BD.tmp' to '../../../../../../Users/tehno/Documents/God-Killer/Content/Enemy1/Gnomers/UGNomers.uasset'
+[2016.05.12-01.39.03:420][410]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 71 instructions
+[2016.05.12-01.39.03:421][410]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.12-01.39.03:421][410]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.05.12-01.39.06:524][547]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.42.23:401][267]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.42.23:453][267]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/tehno/Desktop/gnomers/Substance/Ugnomers/UGnormers__occlusion.tga)
+[2016.05.12-01.42.23:469][267]LogTexture:Display: Building textures: UGnormers__occlusion (AutoDXT)
+[2016.05.12-01.42.25:389][316]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.42.27:624][424]LogMaterial: Missing cached shader map for material UGNomers, compiling. 
+[2016.05.12-01.42.27:629][424]LogMaterial: 0.000171 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.12-01.42.27:637][424]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2016.05.12-01.42.27:667][424]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.05.12-01.42.27:703][424]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.05.12-01.42.27:757][424]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2016.05.12-01.42.27:761][424]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2016.05.12-01.42.30:746][562]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 52 instructions
+[2016.05.12-01.42.30:746][562]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.12-01.42.30:747][562]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.05.12-01.42.30:878][567]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.42.33:432][691]LogMaterial: Missing cached shader map for material UGNomers, compiling. 
+[2016.05.12-01.42.33:448][691]LogMaterial: 0.000233 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.12-01.42.33:491][691]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2016.05.12-01.42.35:658][784]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 52 instructions
+[2016.05.12-01.42.35:658][784]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.12-01.42.35:658][784]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.05.12-01.42.36:152][809]LogMaterialEditor: Saving and Compiling material UGNomers
+[2016.05.12-01.42.37:142][809]LogMaterial: Missing cached shader map for material UGNomers, compiling. 
+[2016.05.12-01.42.37:221][809]LogMaterial: 0.000272 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.12-01.42.37:229][809]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.42.37:315][809]LogMaterial: Missing cached shader map for material UGNomers, compiling. 
+[2016.05.12-01.42.37:338][809]LogMaterial: Missing cached shader map for material UGNomers, compiling. 
+[2016.05.12-01.42.37:364][809]LogMaterial: 0.013564 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.12-01.42.37:422][809]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.42.39:531][809]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy1/Gnomers/UGNomers" FILE="../../../../../../Users/tehno/Documents/God-Killer/Content/Enemy1/Gnomers/UGNomers.uasset" SILENT=true
+[2016.05.12-01.42.39:572][809]LogSavePackage: Save=21.424604ms
+[2016.05.12-01.42.39:572][809]LogSavePackage: Moving '../../../../../../Users/tehno/Documents/God-Killer/Saved/UGNomers0533752F41C25F4074344A99B334C1BD.tmp' to '../../../../../../Users/tehno/Documents/God-Killer/Content/Enemy1/Gnomers/UGNomers.uasset'
+[2016.05.12-01.42.39:587][809]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 71 instructions
+[2016.05.12-01.42.39:587][809]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.12-01.42.39:587][809]MaterialEditorStats: Info Texture samplers: 7/16
+[2016.05.12-01.43.18:090][758]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (UGnormers)
+[2016.05.12-01.43.18:838][772]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (UGnormers)
+[2016.05.12-01.43.26:747][ 21]Cmd: TRANSACTION UNDO
+[2016.05.12-01.43.26:814][ 21]LogEditorTransaction: Undo Move Actors
+[2016.05.12-01.43.26:952][ 21]LogMaterial: Missing cached shader map for material UGNomers, compiling. 
+[2016.05.12-01.43.26:972][ 21]LogMaterial: 0.000241 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.12-01.43.26:984][ 21]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.43.30:484][ 96]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 52 instructions
+[2016.05.12-01.43.30:484][ 96]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.12-01.43.30:485][ 96]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.05.12-01.43.38:868][311]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (UGnormers)
+[2016.05.12-01.43.43:541][455]Cmd: SELECT NONE
+[2016.05.12-01.43.44:390][495]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (UGnormers)
+[2016.05.12-01.43.45:222][524]Cmd: TRANSACTION UNDO
+[2016.05.12-01.43.45:222][524]LogEditorTransaction: Undo Clicking on Actors
+[2016.05.12-01.43.45:236][524]LogMaterial: Missing cached shader map for material UGNomers, compiling. 
+[2016.05.12-01.43.45:257][524]LogMaterial: 0.000293 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.12-01.43.45:266][524]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.43.45:714][532]Cmd: TRANSACTION UNDO
+[2016.05.12-01.43.45:714][532]LogEditorTransaction: Undo Select None
+[2016.05.12-01.43.45:758][532]LogMaterial: Missing cached shader map for material UGNomers, compiling. 
+[2016.05.12-01.43.45:768][532]LogMaterial: 0.000042 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.12-01.43.46:350][550]Cmd: TRANSACTION UNDO
+[2016.05.12-01.43.46:350][550]LogEditorTransaction: Undo Clicking on Actors
+[2016.05.12-01.43.46:388][550]LogMaterial: Missing cached shader map for material UGNomers, compiling. 
+[2016.05.12-01.43.46:407][550]LogMaterial: 0.000231 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.12-01.43.47:972][593]Cmd: TRANSACTION UNDO
+[2016.05.12-01.43.47:972][593]LogEditorTransaction: Undo Move Actors
+[2016.05.12-01.43.47:983][593]LogMaterial: Missing cached shader map for material UGNomers, compiling. 
+[2016.05.12-01.43.48:002][593]LogMaterial: 0.000440 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.12-01.43.48:903][619]Cmd: TRANSACTION UNDO
+[2016.05.12-01.43.48:903][619]LogEditorTransaction: Undo Move Actors
+[2016.05.12-01.43.48:929][619]LogMaterial: Missing cached shader map for material UGNomers, compiling. 
+[2016.05.12-01.43.48:949][619]LogMaterial: 0.000140 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.12-01.43.51:584][679]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 52 instructions
+[2016.05.12-01.43.51:584][679]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.12-01.43.51:584][679]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.05.12-01.43.53:568][724]Cmd: TRANSACTION UNDO
+[2016.05.12-01.43.53:568][724]LogEditorTransaction: Undo Move Actors
+[2016.05.12-01.43.53:614][724]LogMaterial: Missing cached shader map for material UGNomers, compiling. 
+[2016.05.12-01.43.53:628][724]LogMaterial: 0.000201 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.12-01.43.53:633][724]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.43.55:949][781]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 52 instructions
+[2016.05.12-01.43.55:949][781]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.12-01.43.55:949][781]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.05.12-01.43.59:197][869]Cmd: TRANSACTION UNDO
+[2016.05.12-01.43.59:197][869]LogEditorTransaction: Undo Move Actors
+[2016.05.12-01.43.59:256][869]LogMaterial: Missing cached shader map for material UGNomers, compiling. 
+[2016.05.12-01.43.59:276][869]LogMaterial: 0.000266 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.12-01.43.59:285][869]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.44.00:820][920]Cmd: TRANSACTION UNDO
+[2016.05.12-01.44.00:820][920]LogEditorTransaction: Undo Move Actors
+[2016.05.12-01.44.00:843][920]LogMaterial: Missing cached shader map for material UGNomers, compiling. 
+[2016.05.12-01.44.00:856][920]LogMaterial: 0.000050 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.12-01.44.01:009][924]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 52 instructions
+[2016.05.12-01.44.01:009][924]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.12-01.44.01:009][924]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.05.12-01.44.05:754][ 27]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FloorTile2)
+[2016.05.12-01.44.07:211][ 75]Cmd: SELECT NONE
+[2016.05.12-01.44.09:490][182]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (UGnormers)
+[2016.05.12-01.44.13:690][336]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (UGnormers)
+[2016.05.12-01.44.15:020][371]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (UGnormers)
+[2016.05.12-01.44.27:149][754]Cmd: SELECT NONE
+[2016.05.12-01.44.33:405][ 55]LogMaterialEditor: Saving and Compiling material UGNomers
+[2016.05.12-01.44.34:794][ 55]LogMaterial: Missing cached shader map for material UGNomers, compiling. 
+[2016.05.12-01.44.34:870][ 55]LogMaterial: 0.000299 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.12-01.44.34:877][ 55]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.44.34:994][ 55]LogMaterial: Missing cached shader map for material UGNomers, compiling. 
+[2016.05.12-01.44.35:041][ 55]LogMaterial: Missing cached shader map for material UGNomers, compiling. 
+[2016.05.12-01.44.35:062][ 55]LogMaterial: 0.011392 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.12-01.44.35:114][ 55]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.44.37:370][ 55]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy1/Gnomers/UGNomers" FILE="../../../../../../Users/tehno/Documents/God-Killer/Content/Enemy1/Gnomers/UGNomers.uasset" SILENT=true
+[2016.05.12-01.44.37:418][ 55]LogSavePackage: Save=29.805279ms
+[2016.05.12-01.44.37:418][ 55]LogSavePackage: Moving '../../../../../../Users/tehno/Documents/God-Killer/Saved/UGNomers294611354E8B2B550ED45981BAE1FCE5.tmp' to '../../../../../../Users/tehno/Documents/God-Killer/Content/Enemy1/Gnomers/UGNomers.uasset'
+[2016.05.12-01.44.37:455][ 55]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 71 instructions
+[2016.05.12-01.44.37:455][ 55]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.05.12-01.44.37:455][ 55]MaterialEditorStats: Info Texture samplers: 7/16
+[2016.05.12-01.46.20:963][432]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (UGnormers)
+[2016.05.12-01.46.23:721][530]Cmd: SELECT NONE
+[2016.05.12-01.48.04:740][145]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.48.13:706][172]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.48.14:673][172]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002B62EB02E80
+[2016.05.12-01.48.14:859][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene/NewCave" FILE="../../../../../../Users/tehno/Documents/God-Killer/Saved/Autosaves/Game/Scene/NewCave_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.05.12-01.48.15:469][172]LogBlueprint:Warning: [compiler NewCave] Warning Node  Unknown  is not referencing a valid level actor
+[2016.05.12-01.48.15:501][172]LogBlueprint:Warning: [compiler NewCave] Warning [1692.22] Compile of NewCave successful, but with 1 Warning(s) [in 476 ms]
+[2016.05.12-01.48.15:502][172]LogBlueprint:Warning: [compiler NewCave] Warning [1692.23] Compile of NewCave successful, but with 2 Warning(s) [in 0 ms]
+[2016.05.12-01.48.15:503][172]LogBlueprint:Warning: [compiler NewCave] Warning [1692.23] Compile of NewCave successful, but with 3 Warning(s) [in 0 ms]
+[2016.05.12-01.48.15:745][172]LogBlueprint:Warning: [compiler NewCave] Warning [1692.47] Compile of NewCave successful, but with 4 Warning(s) [in 241 ms]
+[2016.05.12-01.48.15:745][172]LogBlueprint:Warning: [compiler NewCave] Warning [1692.47] Compile of NewCave successful, but with 5 Warning(s) [in 0 ms]
+[2016.05.12-01.48.15:745][172]LogBlueprint:Warning: [compiler NewCave] Warning [1692.47] Compile of NewCave successful, but with 6 Warning(s) [in 0 ms]
+[2016.05.12-01.48.19:977][172]LogSavePackage: Save=5039.274902ms
+[2016.05.12-01.48.19:977][172]LogSavePackage: Moving '../../../../../../Users/tehno/Documents/God-Killer/Saved/NewCave_Auto21F2F02E5439F2279A6B561AECF079DC8.tmp' to '../../../../../../Users/tehno/Documents/God-Killer/Saved/Autosaves/Game/Scene/NewCave_Auto2.umap'
+[2016.05.12-01.48.19:987][172]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Scene/NewCave' took 5.443
+[2016.05.12-01.48.19:987][172]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 5.443
+[2016.05.12-01.48.20:139][172]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemy1/Gnomers/UGnormers_defaultMat_Normal] ([1] browsable assets)...
+[2016.05.12-01.48.20:152][172]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Enemy1/Gnomers/UGnormers_defaultMat_Normal.UGnormers_defaultMat_Normal]
+[2016.05.12-01.48.20:152][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy1/Gnomers/UGnormers_defaultMat_Normal]
+[2016.05.12-01.48.20:609][172]LogSavePackage: Save=452.346008ms
+[2016.05.12-01.48.20:610][172]LogSavePackage: Moving '../../../../../../Users/tehno/Documents/God-Killer/Saved/UGnormers_defaultMat_Normal_Auto2C55092234CEBC3C49EC320B820E0CACE.tmp' to '../../../../../../Users/tehno/Documents/God-Killer/Saved/Autosaves/Game/Enemy1/Gnomers/UGnormers_defaultMat_Normal_Auto2.uasset'
+[2016.05.12-01.48.20:637][172]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemy1/Gnomers/UGnormers_defaultMat_BaseColor] ([1] browsable assets)...
+[2016.05.12-01.48.20:674][172]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Enemy1/Gnomers/UGnormers_defaultMat_BaseColor.UGnormers_defaultMat_BaseColor]
+[2016.05.12-01.48.20:674][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy1/Gnomers/UGnormers_defaultMat_BaseColor]
+[2016.05.12-01.48.21:078][172]LogSavePackage: Save=391.388550ms
+[2016.05.12-01.48.21:078][172]LogSavePackage: Moving '../../../../../../Users/tehno/Documents/God-Killer/Saved/UGnormers_defaultMat_BaseColor_Auto2EC7C1ABB4FDC8A9135497283BD710B35.tmp' to '../../../../../../Users/tehno/Documents/God-Killer/Saved/Autosaves/Game/Enemy1/Gnomers/UGnormers_defaultMat_BaseColor_Auto2.uasset'
+[2016.05.12-01.48.21:097][172]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemy1/Gnomers/UGnormers__occlusion] ([1] browsable assets)...
+[2016.05.12-01.48.21:129][172]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Enemy1/Gnomers/UGnormers__occlusion.UGnormers__occlusion]
+[2016.05.12-01.48.21:129][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy1/Gnomers/UGnormers__occlusion]
+[2016.05.12-01.48.21:321][172]LogSavePackage: Save=182.777267ms
+[2016.05.12-01.48.21:321][172]LogSavePackage: Moving '../../../../../../Users/tehno/Documents/God-Killer/Saved/UGnormers__occlusion_Auto2141E5A5A4E9869A0DAAA24A5385CDA49.tmp' to '../../../../../../Users/tehno/Documents/God-Killer/Saved/Autosaves/Game/Enemy1/Gnomers/UGnormers__occlusion_Auto2.uasset'
+[2016.05.12-01.48.21:329][172]LogFileHelpers: Auto-saving content packages took 1.339
+[2016.05.12-01.49.08:462][356]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (UGnormers)
+[2016.05.12-01.49.26:763][886]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (UGnormers)
+[2016.05.12-01.49.27:273][904]Cmd: SELECT NONE
+[2016.05.12-01.49.30:741][ 53]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (UGnormers)
+[2016.05.12-01.49.31:974][118]Cmd: SELECT NONE
+[2016.05.12-01.49.35:441][260]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (UGnormers)
+[2016.05.12-01.49.36:919][337]Cmd: SELECT NONE
+[2016.05.12-01.52.11:427][174]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.52.12:609][213]LogD3D11RHI: InitD3DDevice
+[2016.05.12-01.52.21:435][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene/NewCave" FILE="../../../../../../Users/tehno/Documents/God-Killer/Content/Scene/NewCave.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.05.12-01.52.22:111][213]LogBlueprint:Warning: [compiler NewCave] Warning Node  Unknown  is not referencing a valid level actor
+[2016.05.12-01.52.22:145][213]LogBlueprint:Warning: [compiler NewCave] Warning [1938.87] Compile of NewCave successful, but with 1 Warning(s) [in 431 ms]
+[2016.05.12-01.52.22:146][213]LogBlueprint:Warning: [compiler NewCave] Warning [1938.87] Compile of NewCave successful, but with 2 Warning(s) [in 0 ms]
+[2016.05.12-01.52.22:147][213]LogBlueprint:Warning: [compiler NewCave] Warning [1938.87] Compile of NewCave successful, but with 3 Warning(s) [in 0 ms]
+[2016.05.12-01.52.22:270][213]LogBlueprint:Warning: [compiler NewCave] Warning [1938.99] Compile of NewCave successful, but with 4 Warning(s) [in 122 ms]
+[2016.05.12-01.52.22:270][213]LogBlueprint:Warning: [compiler NewCave] Warning [1938.99] Compile of NewCave successful, but with 5 Warning(s) [in 0 ms]
+[2016.05.12-01.52.22:270][213]LogBlueprint:Warning: [compiler NewCave] Warning [1938.99] Compile of NewCave successful, but with 6 Warning(s) [in 0 ms]
+[2016.05.12-01.52.23:994][213]LogSavePackage: Save=2367.879150ms
+[2016.05.12-01.52.23:994][213]LogSavePackage: Moving '../../../../../../Users/tehno/Documents/God-Killer/Saved/NewCave63F8E42D4C464A0CE4333CB2B0544437.tmp' to '../../../../../../Users/tehno/Documents/God-Killer/Content/Scene/NewCave.umap'
+[2016.05.12-01.52.24:247][213]LogFileHelpers: Saving map 'NewCave' took 11.598
+[2016.05.12-01.52.24:353][213]LogSavePackage: Save=60.418228ms
+[2016.05.12-01.52.24:353][213]LogSavePackage: Moving '../../../../../../Users/tehno/Documents/God-Killer/Saved/UGnormers_defaultMat_Normal6D7B037E4AE86ADF9F05A8AF32DDEE43.tmp' to '../../../../../../Users/tehno/Documents/God-Killer/Content/Enemy1/Gnomers/UGnormers_defaultMat_Normal.uasset'
+[2016.05.12-01.52.24:439][213]LogSavePackage: Save=45.930676ms
+[2016.05.12-01.52.24:439][213]LogSavePackage: Moving '../../../../../../Users/tehno/Documents/God-Killer/Saved/UGnormers_defaultMat_BaseColor5CAC7F1D496C1792265DBC851DF833DA.tmp' to '../../../../../../Users/tehno/Documents/God-Killer/Content/Enemy1/Gnomers/UGnormers_defaultMat_BaseColor.uasset'
+[2016.05.12-01.52.24:478][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy1/Gnomers/UGnormers__occlusion" FILE="../../../../../../Users/tehno/Documents/God-Killer/Content/Enemy1/Gnomers/UGnormers__occlusion.uasset" SILENT=true
+[2016.05.12-01.52.24:517][213]LogSavePackage: Save=33.145706ms
+[2016.05.12-01.52.24:517][213]LogSavePackage: Moving '../../../../../../Users/tehno/Documents/God-Killer/Saved/UGnormers__occlusion5EC6462349A93FC703428D9BEF8F303E.tmp' to '../../../../../../Users/tehno/Documents/God-Killer/Content/Enemy1/Gnomers/UGnormers__occlusion.uasset'
+[2016.05.12-01.52.28:217][336]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.05.12-01.52.28:218][336]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.05.12-01.52.29:802][337]Cmd: QUIT_EDITOR
+[2016.05.12-01.52.32:476][337]LogExit: Preparing to exit.
+[2016.05.12-01.52.37:705][337]LogExit: Editor shut down
+[2016.05.12-01.52.37:773][337]LogExit: Transaction tracking system shut down
+[2016.05.12-01.52.38:404][337]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002B67DEEF600
+[2016.05.12-01.52.38:459][337]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002B65399EFC0
+[2016.05.12-01.52.38:540][337]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002B6855C6FC0
+[2016.05.12-01.52.48:601][337]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002B62859F560
+[2016.05.12-01.52.48:601][337]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002B6848D89A0
+[2016.05.12-01.52.51:019][337]LogExit: Object subsystem successfully closed.
+[2016.05.12-01.52.53:433][337]LogD3D11RHI: Shutdown
+[2016.05.12-01.52.53:434][337]LogD3D11RHI: CleanupD3DDevice
+[2016.05.12-01.52.54:456][337]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.05.12-01.53.00:068][337]LogModuleManager: Shutting down and abandoning module MaterialEditor (191)
+[2016.05.12-01.53.00:068][337]LogModuleManager: Shutting down and abandoning module TextureEditor (190)
+[2016.05.12-01.53.00:093][337]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (189)
+[2016.05.12-01.53.00:093][337]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
+[2016.05.12-01.53.00:108][337]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
+[2016.05.12-01.53.00:108][337]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
+[2016.05.12-01.53.00:108][337]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
+[2016.05.12-01.53.00:161][337]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
+[2016.05.12-01.53.00:399][337]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
+[2016.05.12-01.53.00:399][337]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
+[2016.05.12-01.53.00:446][337]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
+[2016.05.12-01.53.00:508][337]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
+[2016.05.12-01.53.00:528][337]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
+[2016.05.12-01.53.00:631][337]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
+[2016.05.12-01.53.00:631][337]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
+[2016.05.12-01.53.00:631][337]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
+[2016.05.12-01.53.00:631][337]LogModuleManager: Shutting down and abandoning module BspMode (175)
+[2016.05.12-01.53.00:631][337]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
+[2016.05.12-01.53.00:654][337]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
+[2016.05.12-01.53.00:659][337]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
+[2016.05.12-01.53.00:660][337]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
+[2016.05.12-01.53.00:660][337]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
+[2016.05.12-01.53.00:669][337]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
+[2016.05.12-01.53.00:743][337]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
+[2016.05.12-01.53.00:908][337]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
+[2016.05.12-01.53.01:278][337]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
+[2016.05.12-01.53.01:315][337]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
+[2016.05.12-01.53.01:350][337]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
+[2016.05.12-01.53.01:359][337]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2016.05.12-01.53.01:724][337]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
+[2016.05.12-01.53.01:724][337]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
+[2016.05.12-01.53.01:724][337]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
+[2016.05.12-01.53.01:724][337]LogModuleManager: Shutting down and abandoning module MergeActors (159)
+[2016.05.12-01.53.01:765][337]LogModuleManager: Shutting down and abandoning module SizeMap (158)
+[2016.05.12-01.53.01:783][337]LogModuleManager: Shutting down and abandoning module TreeMap (157)
+[2016.05.12-01.53.01:798][337]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
+[2016.05.12-01.53.01:840][337]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
+[2016.05.12-01.53.01:880][337]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
+[2016.05.12-01.53.01:880][337]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
+[2016.05.12-01.53.01:898][337]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
+[2016.05.12-01.53.01:912][337]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
+[2016.05.12-01.53.01:923][337]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
+[2016.05.12-01.53.01:923][337]LogModuleManager: Shutting down and abandoning module XmlParser (149)
+[2016.05.12-01.53.01:930][337]LogModuleManager: Shutting down and abandoning module Blutility (148)
+[2016.05.12-01.53.01:930][337]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
+[2016.05.12-01.53.01:984][337]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
+[2016.05.12-01.53.02:013][337]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
+[2016.05.12-01.53.02:050][337]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
+[2016.05.12-01.53.02:051][337]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
+[2016.05.12-01.53.02:078][337]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
+[2016.05.12-01.53.02:109][337]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
+[2016.05.12-01.53.02:125][337]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
+[2016.05.12-01.53.02:137][337]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
+[2016.05.12-01.53.02:137][337]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
+[2016.05.12-01.53.02:191][337]LogModuleManager: Shutting down and abandoning module AutomationController (137)
+[2016.05.12-01.53.02:218][337]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
+[2016.05.12-01.53.02:227][337]LogModuleManager: Shutting down and abandoning module Layers (135)
+[2016.05.12-01.53.02:267][337]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
+[2016.05.12-01.53.02:267][337]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
+[2016.05.12-01.53.02:267][337]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
+[2016.05.12-01.53.02:268][337]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
+[2016.05.12-01.53.03:725][337]LogModuleManager: Shutting down and abandoning module Persona (130)
+[2016.05.12-01.53.03:766][337]LogModuleManager: Shutting down and abandoning module Kismet (129)
+[2016.05.12-01.53.03:864][337]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
+[2016.05.12-01.53.03:864][337]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
+[2016.05.12-01.53.03:894][337]LogModuleManager: Shutting down and abandoning module Toolbox (126)
+[2016.05.12-01.53.03:894][337]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
+[2016.05.12-01.53.03:926][337]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
+[2016.05.12-01.53.04:083][337]LogModuleManager: Shutting down and abandoning module OutputLog (123)
+[2016.05.12-01.53.04:098][337]LogModuleManager: Shutting down and abandoning module GammaUI (122)
+[2016.05.12-01.53.04:106][337]LogModuleManager: Shutting down and abandoning module Documentation (121)
+[2016.05.12-01.53.04:106][337]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
+[2016.05.12-01.53.04:117][337]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
+[2016.05.12-01.53.04:117][337]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
+[2016.05.12-01.53.04:117][337]LogModuleManager: Shutting down and abandoning module Analytics (117)
+[2016.05.12-01.53.04:118][337]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
+[2016.05.12-01.53.04:143][337]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
+[2016.05.12-01.53.04:155][337]LogModuleManager: Shutting down and abandoning module AIModule (114)
+[2016.05.12-01.53.04:155][337]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
+[2016.05.12-01.53.04:347][337]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
+[2016.05.12-01.53.04:417][337]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
+[2016.05.12-01.53.04:428][337]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
+[2016.05.12-01.53.04:428][337]LogModuleManager: Shutting down and abandoning module SteamVR (109)
+[2016.05.12-01.53.04:428][337]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
+[2016.05.12-01.53.04:428][337]LogModuleManager: Shutting down and abandoning module OculusRift (107)
+[2016.05.12-01.53.04:428][337]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
+[2016.05.12-01.53.04:647][337]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
+[2016.05.12-01.53.04:647][337]LogModuleManager: Shutting down and abandoning module CableComponent (104)
+[2016.05.12-01.53.04:647][337]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
+[2016.05.12-01.53.04:692][337]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
+[2016.05.12-01.53.04:714][337]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
+[2016.05.12-01.53.04:714][337]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
+[2016.05.12-01.53.04:740][337]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
+[2016.05.12-01.53.04:769][337]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
+[2016.05.12-01.53.04:776][337]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
+[2016.05.12-01.53.04:796][337]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
+[2016.05.12-01.53.04:796][337]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
+[2016.05.12-01.53.04:814][337]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
+[2016.05.12-01.53.04:838][337]LogModuleManager: Shutting down and abandoning module SourceControl (93)
+[2016.05.12-01.53.04:847][337]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
+[2016.05.12-01.53.04:857][337]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
+[2016.05.12-01.53.04:858][337]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
+[2016.05.12-01.53.04:858][337]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
+[2016.05.12-01.53.04:870][337]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
+[2016.05.12-01.53.04:882][337]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
+[2016.05.12-01.53.04:897][337]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2016.05.12-01.53.04:908][337]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2016.05.12-01.53.04:915][337]LogModuleManager: Shutting down and abandoning module MainFrame (84)
+[2016.05.12-01.53.04:919][337]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2016.05.12-01.53.05:072][337]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2016.05.12-01.53.05:119][337]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2016.05.12-01.53.05:149][337]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2016.05.12-01.53.05:265][337]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2016.05.12-01.53.05:289][337]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2016.05.12-01.53.05:346][337]LogModuleManager: Shutting down and abandoning module Media (77)
+[2016.05.12-01.53.05:346][337]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2016.05.12-01.53.05:364][337]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2016.05.12-01.53.05:364][337]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2016.05.12-01.53.05:438][337]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2016.05.12-01.53.05:559][337]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2016.05.12-01.53.05:619][337]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2016.05.12-01.53.05:655][337]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2016.05.12-01.53.05:881][337]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2016.05.12-01.53.05:881][337]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2016.05.12-01.53.06:068][337]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2016.05.12-01.53.06:195][337]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2016.05.12-01.53.06:244][337]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2016.05.12-01.53.06:245][337]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2016.05.12-01.53.06:245][337]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2016.05.12-01.53.06:310][337]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2016.05.12-01.53.06:310][337]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2016.05.12-01.53.06:328][337]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2016.05.12-01.53.06:328][337]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2016.05.12-01.53.06:328][337]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2016.05.12-01.53.06:328][337]LogModuleManager: Shutting down and abandoning module Core (56)
+[2016.05.12-01.53.06:328][337]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2016.05.12-01.53.06:336][337]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2016.05.12-01.53.06:346][337]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2016.05.12-01.53.06:357][337]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2016.05.12-01.53.06:469][337]LogDerivedDataCache: Shutdown
+[2016.05.12-01.53.06:469][337]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2016.05.12-01.53.06:491][337]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2016.05.12-01.53.06:506][337]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2016.05.12-01.53.06:520][337]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2016.05.12-01.53.06:533][337]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2016.05.12-01.53.06:533][337]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2016.05.12-01.53.06:533][337]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2016.05.12-01.53.06:533][337]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2016.05.12-01.53.06:533][337]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2016.05.12-01.53.06:550][337]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2016.05.12-01.53.06:558][337]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2016.05.12-01.53.06:569][337]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2016.05.12-01.53.06:569][337]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2016.05.12-01.53.06:570][337]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2016.05.12-01.53.06:595][337]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2016.05.12-01.53.06:595][337]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2016.05.12-01.53.06:595][337]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2016.05.12-01.53.06:595][337]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2016.05.12-01.53.06:612][337]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2016.05.12-01.53.06:627][337]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2016.05.12-01.53.06:627][337]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2016.05.12-01.53.06:627][337]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2016.05.12-01.53.06:627][337]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2016.05.12-01.53.06:627][337]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2016.05.12-01.53.06:627][337]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2016.05.12-01.53.06:627][337]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2016.05.12-01.53.06:628][337]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2016.05.12-01.53.06:642][337]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2016.05.12-01.53.06:655][337]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2016.05.12-01.53.06:663][337]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2016.05.12-01.53.06:678][337]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2016.05.12-01.53.06:678][337]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2016.05.12-01.53.06:703][337]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2016.05.12-01.53.06:720][337]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2016.05.12-01.53.06:720][337]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2016.05.12-01.53.06:720][337]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2016.05.12-01.53.06:722][337]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2016.05.12-01.53.06:722][337]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2016.05.12-01.53.06:722][337]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2016.05.12-01.53.06:722][337]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2016.05.12-01.53.06:722][337]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2016.05.12-01.53.06:831][337]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2016.05.12-01.53.06:845][337]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2016.05.12-01.53.06:845][337]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.05.12-01.53.06:845][337]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.05.12-01.53.06:845][337]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.05.12-01.53.06:845][337]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.05.12-01.53.06:857][337]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.05.12-01.53.06:874][337]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.05.12-01.53.06:881][337]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.05.12-01.53.06:965][337]LogExit: Exiting.
+[2016.05.12-01.53.07:256][337]Log file closed, 05/11/16 18:53:07
